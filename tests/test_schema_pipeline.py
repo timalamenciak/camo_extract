@@ -1,4 +1,5 @@
 import json
+import logging
 from pathlib import Path
 
 import yaml
@@ -137,7 +138,8 @@ def test_mediator_references_are_remapped():
     assert consolidated["edges"][0]["mediation"]["mediator_node_ids"][0] in ids
 
 
-def test_end_to_end_writes_equivalent_graphs_and_gap_report(tmp_path: Path):
+def test_end_to_end_writes_equivalent_graphs_and_gap_report(tmp_path: Path, caplog):
+    caplog.set_level(logging.INFO, logger="camo_extract")
     input_dir = tmp_path / "input"
     output_dir = tmp_path / "output"
     input_dir.mkdir()
@@ -173,3 +175,7 @@ def test_end_to_end_writes_equivalent_graphs_and_gap_report(tmp_path: Path):
     }
     assert (output_dir / "ontology_gaps.csv").exists()
     assert not manifest["failed"]
+    messages = [record.getMessage() for record in caplog.records]
+    assert any("[1/1] Article:" in message for message in messages)
+    assert any("Chunk 1/1:" in message for message in messages)
+    assert any("Finished: 1 processed" in message for message in messages)

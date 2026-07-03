@@ -66,6 +66,10 @@ python -m src.main input output --test-mode --max-articles 3
 python -m src.main input output --resume
 ```
 
+INFO progress logs are printed for every article and chunk. Use
+`--log-level WARNING` for quieter runs or `--log-level DEBUG` when diagnosing a
+failure.
+
 The default LLM configuration targets an OpenAI-compatible Ollama endpoint at
 `http://localhost:11434/v1`. Override it in `config/llm_settings.yaml` or with a
 custom configuration passed through `--config`.

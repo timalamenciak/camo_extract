@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import json
+import logging
 import os
 import sys
 import tempfile
@@ -21,6 +22,8 @@ from .ontology_grounder import GroundingDecision, OntologyGrounder, normalize_la
 from .pdf_processor import PDFProcessor
 from .risc_reader import ArticleMetadata, RISReader
 from .schema_validation import normalize_graph, validate_graph
+
+LOGGER = logging.getLogger("camo_extract")
 
 
 def process_folder(
@@ -50,6 +53,12 @@ def process_folder(
     if test_mode:
         articles = articles[:max_articles]
     pdf_files = sorted(input_path.glob("*.pdf"))
+    LOGGER.info(
+        "Starting corpus: %d article(s), %d PDF(s), output=%s",
+        len(articles),
+        len(pdf_files),
+        output_path,
+    )
 
     existing_graphs = _load_partial_results(output_path) if resume else []
     gap_report = GapReport(
@@ -94,8 +103,14 @@ def process_folder(
         config.ontology.suggestion_threshold,
     )
 
-    for article in articles:
+    for article_number, article in enumerate(articles, 1):
         article_key = article.doi or article.record_id or article.title or "unknown"
+        LOGGER.info(
+            "[%d/%d] Article: %s",
+            article_number,
+            len(articles),
+            article.title or article_key,
+        )
         if resume and (
             (article.doi and article.doi in processed_keys)
             or article.title in processed_keys
@@ -103,18 +118,47 @@ def process_folder(
             manifest["skipped"].append(
                 {"article": article_key, "reason": "already processed"}
             )
+            LOGGER.info(
+                "[%d/%d] Skipped: already processed",
+                article_number,
+                len(articles),
+            )
             continue
         pdf_file = _find_pdf_for_article(article, pdf_files)
         if pdf_file is None:
             manifest["failed"].append(
                 {"article": article_key, "error": "No unambiguous PDF match"}
             )
+            LOGGER.error(
+                "[%d/%d] Failed: no unambiguous PDF match",
+                article_number,
+                len(articles),
+            )
             continue
         try:
+            LOGGER.info(
+                "[%d/%d] Extracting text from %s",
+                article_number,
+                len(articles),
+                pdf_file.name,
+            )
             processor = pdf_processor or PDFProcessor()
             markdown = processor.convert_to_markdown(str(pdf_file))
+            LOGGER.info(
+                "[%d/%d] PDF extraction complete: %d characters",
+                article_number,
+                len(articles),
+                len(markdown),
+            )
             graph, decisions = extract_graph_from_markdown(
                 markdown, article, config, extractor=extractor, grounder=grounder
+            )
+            LOGGER.info(
+                "[%d/%d] Validating graph: %d node(s), %d edge(s)",
+                article_number,
+                len(articles),
+                len(graph.get("nodes", [])),
+                len(graph.get("edges", [])),
             )
             validate_graph(graph)
             graphs.append(graph)
@@ -123,6 +167,11 @@ def process_folder(
                 gap_report.add(decision, source, node_id)
             _save_intermediate_result(graph, gap_report.to_dict(), article, output_path)
             manifest["processed"].append({"article": article_key, "pdf": pdf_file.name})
+            LOGGER.info(
+                "[%d/%d] Complete; partial result saved",
+                article_number,
+                len(articles),
+            )
         except Exception as exc:
             manifest["failed"].append(
                 {
@@ -131,12 +180,27 @@ def process_folder(
                     "error": f"{type(exc).__name__}: {exc}",
                 }
             )
+            LOGGER.exception(
+                "[%d/%d] Failed while processing %s",
+                article_number,
+                len(articles),
+                pdf_file.name,
+            )
 
+    LOGGER.info("Consolidating %d article graph(s)", len(graphs))
     consolidated = Consolidator(config.output.merge_duplicated_nodes, True).consolidate(
         graphs
     )
     validate_graph(consolidated)
     _save_outputs(consolidated, gap_report.to_dict(), manifest, output_path)
+    LOGGER.info(
+        "Finished: %d processed, %d skipped, %d failed; %d node(s), %d edge(s)",
+        len(manifest["processed"]),
+        len(manifest["skipped"]),
+        len(manifest["failed"]),
+        len(consolidated.get("nodes", [])),
+        len(consolidated.get("edges", [])),
+    )
     return manifest
 
 
@@ -157,9 +221,26 @@ def extract_graph_from_markdown(
     )
     chunk_graphs = []
     all_decisions: list[tuple[str, GroundingDecision]] = []
-    for chunk in chunker.chunk_text(markdown):
+    chunks = chunker.chunk_text(markdown)
+    LOGGER.info("Prepared %d text chunk(s)", len(chunks))
+    for chunk_number, chunk in enumerate(chunks, 1):
+        LOGGER.info(
+            "Chunk %d/%d: page=%s section=%s characters=%d; requesting LLM",
+            chunk_number,
+            len(chunks),
+            chunk.page if chunk.page is not None else "unknown",
+            chunk.section,
+            len(chunk.text),
+        )
         draft = extractor.extract(chunk.text, source)
         _enrich_source_spans(draft, chunk.text, chunk.start_char, chunk.page)
+        LOGGER.info(
+            "Chunk %d/%d: LLM returned %d node(s), %d edge(s); grounding",
+            chunk_number,
+            len(chunks),
+            len(draft.get("nodes", [])),
+            len(draft.get("edges", [])),
+        )
         grounded_nodes = []
         node_decisions: list[list[GroundingDecision]] = []
         for node in draft.get("nodes", []):
@@ -173,6 +254,12 @@ def extract_graph_from_markdown(
                 (normalized_node["id"], decision) for decision in decisions
             )
         chunk_graphs.append(normalized)
+        LOGGER.info(
+            "Chunk %d/%d complete: %d grounding decision(s)",
+            chunk_number,
+            len(chunks),
+            sum(len(decisions) for decisions in node_decisions),
+        )
     if not chunk_graphs:
         return normalize_graph({"nodes": [], "edges": []}, source), []
     return Consolidator().consolidate(chunk_graphs), all_decisions
@@ -389,7 +476,20 @@ def main() -> None:
     parser.add_argument("--test-mode", action="store_true")
     parser.add_argument("--max-articles", type=int, default=5)
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument(
+        "--log-level",
+        choices=("DEBUG", "INFO", "WARNING", "ERROR"),
+        default="INFO",
+        help="Console logging detail (default: INFO)",
+    )
     args = parser.parse_args()
+    logging.basicConfig(
+        level=getattr(logging, args.log_level),
+        format="%(asctime)s %(levelname)s %(message)s",
+        datefmt="%H:%M:%S",
+        stream=sys.stdout,
+        force=True,
+    )
     manifest = process_folder(
         args.input_dir,
         args.output_dir,
