@@ -111,7 +111,7 @@ def process_folder(
             )
             continue
         try:
-            processor = pdf_processor or PDFProcessor(use_llm_assist=False)
+            processor = pdf_processor or PDFProcessor()
             markdown = processor.convert_to_markdown(str(pdf_file))
             graph, decisions = extract_graph_from_markdown(
                 markdown, article, config, extractor=extractor, grounder=grounder
@@ -159,7 +159,7 @@ def extract_graph_from_markdown(
     all_decisions: list[tuple[str, GroundingDecision]] = []
     for chunk in chunker.chunk_text(markdown):
         draft = extractor.extract(chunk.text, source)
-        _enrich_source_spans(draft, chunk.text, chunk.start_char)
+        _enrich_source_spans(draft, chunk.text, chunk.start_char, chunk.page)
         grounded_nodes = []
         node_decisions: list[list[GroundingDecision]] = []
         for node in draft.get("nodes", []):
@@ -201,7 +201,7 @@ def extract_graph_from_pdf(
         config.ontology.request_timeout,
         config.ontology.suggestion_threshold,
     )
-    markdown = PDFProcessor(use_llm_assist=False).convert_to_markdown(pdf_path)
+    markdown = PDFProcessor().convert_to_markdown(pdf_path)
     graph, _ = extract_graph_from_markdown(
         markdown, article_metadata, config, extractor, grounder
     )
@@ -248,7 +248,9 @@ def _article_dict(article: ArticleMetadata) -> dict:
     }
 
 
-def _enrich_source_spans(graph: dict, chunk_text: str, chunk_start: int) -> None:
+def _enrich_source_spans(
+    graph: dict, chunk_text: str, chunk_start: int, page: int | None = None
+) -> None:
     for item in [*graph.get("nodes", []), *graph.get("edges", [])]:
         spans = item.get("source_spans") or []
         if not spans and item.get("original_sentence"):
@@ -261,6 +263,8 @@ def _enrich_source_spans(graph: dict, chunk_text: str, chunk_start: int) -> None
             if position >= 0:
                 span.setdefault("start_char", chunk_start + position)
                 span.setdefault("end_char", chunk_start + position + len(span["text"]))
+                if page is not None:
+                    span.setdefault("paragraph_id", f"page:{page}")
 
 
 def _load_partial_results(output_path: Path) -> list[dict]:

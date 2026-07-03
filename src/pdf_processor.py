@@ -1,25 +1,24 @@
-"""PDF-to-Markdown conversion using Marker's supported Python API."""
+"""Lightweight PDF-to-Markdown conversion using pypdf."""
 
 from __future__ import annotations
 
-import importlib.util
 import re
 from pathlib import Path
 from typing import Optional
 
-HAS_MARKER = importlib.util.find_spec("marker") is not None
+from pypdf import PdfReader
+from pypdf.errors import PdfReadError
 
 
 class PDFProcessor:
-    """Convert a PDF to Markdown while keeping heavyweight imports lazy."""
+    """Extract the embedded PDF text layer without OCR or model downloads.
 
-    def __init__(self, use_llm_assist: bool = False):
-        if not HAS_MARKER:
-            raise ImportError(
-                "marker-pdf is not installed. Install with: "
-                "pip install 'marker-pdf>=1.10'"
-            )
-        self.use_llm_assist = use_llm_assist
+    This deliberately small temporary engine works well for born-digital PDFs.
+    It cannot recover text from scanned/image-only documents.
+    """
+
+    def __init__(self):
+        self.last_warnings: list[str] = []
 
     def convert_to_markdown(
         self, pdf_path: str, output_dir: Optional[str] = None
@@ -28,26 +27,33 @@ class PDFProcessor:
         if not path.exists():
             raise FileNotFoundError(f"PDF not found: {pdf_path}")
 
-        from marker.config.parser import ConfigParser
-        from marker.converters.pdf import PdfConverter
-        from marker.models import create_model_dict
-        from marker.output import text_from_rendered
+        try:
+            reader = PdfReader(str(path))
+            if reader.is_encrypted and not reader.decrypt(""):
+                raise RuntimeError(f"PDF is encrypted and cannot be read: {pdf_path}")
+            pages = [
+                self._extract_page(page, number)
+                for number, page in enumerate(reader.pages, 1)
+            ]
+        except PdfReadError as exc:
+            raise RuntimeError(f"Could not parse PDF {pdf_path}: {exc}") from exc
 
-        config_parser = ConfigParser(
-            {"output_format": "markdown", "use_llm": self.use_llm_assist}
-        )
-        converter = PdfConverter(
-            config=config_parser.generate_config_dict(),
-            artifact_dict=create_model_dict(),
-            processor_list=config_parser.get_processors(),
-            renderer=config_parser.get_renderer(),
-            llm_service=(
-                config_parser.get_llm_service() if self.use_llm_assist else None
-            ),
-        )
-        rendered = converter(str(path))
-        markdown, _, _ = text_from_rendered(rendered)
-        markdown = self._clean_md(markdown)
+        extracted_pages = [page for page in pages if page[1]]
+        if not extracted_pages:
+            raise RuntimeError(
+                "The PDF contains no extractable text layer. It is probably scanned "
+                "and requires an OCR engine."
+            )
+
+        markdown_parts = []
+        for page_number, text in pages:
+            markdown_parts.append(f"## Page {page_number}")
+            if text:
+                markdown_parts.append(text)
+            else:
+                self.last_warnings.append(f"Page {page_number} has no extractable text")
+        markdown = "\n\n".join(markdown_parts).strip()
+
         if output_dir:
             output_path = Path(output_dir)
             output_path.mkdir(parents=True, exist_ok=True)
@@ -55,6 +61,11 @@ class PDFProcessor:
         return markdown
 
     @staticmethod
-    def _clean_md(markdown: str) -> str:
-        markdown = re.sub(r"^{%.*%}$", "", markdown, flags=re.MULTILINE)
-        return re.sub(r"\n\n\n+", "\n\n", markdown).strip()
+    def _extract_page(page, page_number: int) -> tuple[int, str]:
+        # Plain extraction avoids the large runs of layout-padding spaces that
+        # dramatically inflate context size on multi-column journal articles.
+        text = page.extract_text() or ""
+        text = text.replace("\x00", "")
+        text = "\n".join(line.rstrip() for line in text.splitlines())
+        text = re.sub(r"\n{3,}", "\n\n", text).strip()
+        return page_number, text

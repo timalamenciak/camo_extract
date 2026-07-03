@@ -59,13 +59,16 @@ class Chunker:
             )
         for index, match in enumerate(matches):
             end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+            label = match.group(1).strip().lower()
+            page_match = re.fullmatch(r"page\s+(\d+)", label)
+            section_page = int(page_match.group(1)) if page_match else page
             sections.append(
                 Chunk(
                     text[match.start() : end],
                     match.start(),
                     end,
-                    match.group(1).strip().lower(),
-                    page,
+                    label,
+                    section_page,
                 )
             )
         return sections

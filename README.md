@@ -38,11 +38,12 @@ URLs and ELMO version used.
 
 ```powershell
 python -m pip install -e .
-python -m pip install -e ".[pdf]"
 ```
 
-Marker can require substantial model downloads and CPU/GPU resources. The test
-suite injects a lightweight PDF processor and does not download OCR models.
+PDF conversion currently uses `pypdf`, which has no OCR models or heavyweight
+runtime. It extracts the embedded text layer and emits page headings so page
+provenance survives chunking. Scanned/image-only PDFs will fail with a clear
+message and should be routed through OCR separately.
 
 ## Input layout
 

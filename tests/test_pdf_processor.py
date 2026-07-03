@@ -1,0 +1,19 @@
+from pathlib import Path
+
+from src.chunker import Chunker
+from src.pdf_processor import PDFProcessor
+
+
+def test_lightweight_pdf_extraction_uses_embedded_text_layer():
+    pdf = Path(__file__).parent.parent / "facets_test_set" / "pdf" / "DKXM2EP7.pdf"
+    markdown = PDFProcessor().convert_to_markdown(str(pdf))
+    assert markdown.startswith("## Page 1")
+    assert "Vegetation Cover" in markdown
+    assert 10_000 < len(markdown) < 100_000
+
+
+def test_page_headings_are_preserved_as_chunk_metadata():
+    chunks = Chunker(max_characters=1000, max_chunk_size=1000).chunk_text(
+        "## Page 1\nFirst page sentence.\n\n## Page 2\nSecond page sentence."
+    )
+    assert [chunk.page for chunk in chunks] == [1, 2]
