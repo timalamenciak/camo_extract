@@ -4,16 +4,18 @@ This package provides tools for extracting causal graphs from PDF
 scientific articles using LLMs and grounding them in ontologies.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __author__ = "Tim Alamenciak"
 
-from .pdf_processor import PDFProcessor
 from .chunker import Chunker
-from .graph_extractor import GraphExtractor
-from .risc_reader import RISReader
-from .validator import Validator
-from .consolidator import Consolidator
 from .config import Config, load_config
+from .consolidator import Consolidator
+from .graph_extractor import GraphExtractor
+from .ontology_grounder import OntologyGrounder
+from .pdf_processor import PDFProcessor
+from .risc_reader import RISReader
+from .schema_validation import normalize_graph, validate_graph
+from .validator import Validator
 
 __all__ = [
     "PDFProcessor",
@@ -24,4 +26,7 @@ __all__ = [
     "Consolidator",
     "Config",
     "load_config",
+    "OntologyGrounder",
+    "normalize_graph",
+    "validate_graph",
 ]

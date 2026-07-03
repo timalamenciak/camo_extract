@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causal-extractor"
+version = "0.2.0"
+description = "Extract CAMO causal graphs and ontology gaps from scientific literature"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Tim Alamenciak", email = "tim.alamenciak@gmail.com"}]
+dependencies = [
+  "pydantic>=2.0",
+  "pyyaml>=6.0",
+  "requests>=2.31",
+  "python-dotenv>=1.0",
+  "tenacity>=8.0",
+  "openai>=1.0",
+  "rdflib>=6.0",
+  "jsonschema>=4.0",
+  "linkml>=1.8",
+]
+
+[project.optional-dependencies]
+pdf = ["marker-pdf>=1.10"]
+dev = ["pytest>=8", "ruff>=0.1", "black>=23", "mypy>=1.0"]
+
+[project.scripts]
+causal-extract = "src.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]

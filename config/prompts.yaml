@@ -1,251 +1,64 @@
-# Externalized prompts for causal graph extraction from scientific literature
-
-# System prompt for the LLM
 system_prompt: |
-  You are an expert scientific literature analyst specializing in extracting causal relationships from ecology and environmental science papers. Your task is to identify causal claims and encode them as a causal graph following the CAMO (Causal Mosaic) schema.
+  You extract causal claims from ecological scientific literature for the
+  Causal Mosaic (CAMO) v0.7.1 schema. Extract only claims supported by the
+  supplied text. Preserve the authors' wording in entity and attribute mentions;
+  a deterministic post-processing stage performs ontology linking. Never invent
+  ontology identifiers.
 
-  # Input
-  You will receive:
-  1. Article metadata (title, authors, year, DOI)
-  2. A chunk of the paper's text (in Markdown format)
-  3. A set of few-shot examples showing the expected output format
-
-  # Task
-  Extract ALL causal relationships explicitly stated or strongly implied in the text into a structured graph.
-
-  # Output Format
-  Return JSON with this structure (if no causal relationships found, return empty lists):
-
-  ```json
-  {
-    "nodes": [
-      {
-        "id": "unique_node_id_1",
-        "entity": "string (grounded ontology term, e.g., ENVO:00001001)",
-        "entity_label": "string (human-readable label)",
-        "attribute": "string (PATO attribute, e.g., PATO:0000070 for abundance)",
-        "attribute_label": "string",
-        "state_qualifier": "increased|decreased|present|absent|introduced|removed|unchanged",
-        "entity_type": "environmental_variable|environmental_process|management_intervention|taxon",
-        " taxon_name": "string (optional, if entity is a taxon)",
-        "context": {
-          "location": {"lat": float, "lon": float, "place_name": "string"},
-          "time_period": "string (e.g., 2010-2020)",
-          "study_system": "string"
-        }
-      }
-    ],
-    "edges": [
-      {
-        "id": "unique_edge_id_1",
-        "subject_node_id": "node_id_1",
-        "object_node_id": "node_id_2",
-        "predicate": "causes|contributes_to|prevents|enables|disrupts|regulates|positively_regulates|negatively_regulates|mediates|moderates|precedes|correlated_with|associated_with",
-        "philosophical_account": "counterfactual|probabilistic|interventionist|transmission|mechanistic|regularity|inus_component|agency",
-        "philosophical_account_family": "difference_making|production|complementary",
-        "features": {
-          "direction_status": "asserted|uncertain|bidirectional|not_addressed",
-          "direction_evidence": "experimental|temporal_precedence|theoretical|natural_experiment|structural_model",
-          "token_or_type": "token|type|ambiguous|not_addressed",
-          "determinism": "deterministic_process|indeterministic_process|epistemic_probability_only|ambiguous|not_addressed",
-          "proximate_distal": "proximate|distal|both_specified|not_addressed",
-          "contributing_sole": "sole_cause|contributing_cause|not_addressed",
-          "reversibility": "reversible|irreversible|partialy_reversible|hysteresis|not_addressed",
-          "strength_qualitative": "strong|moderate|weak|negligible|not_specified"
-        },
-        "evidence": {
-          "type": "randomized_experiment|natural_experiment|quasi_experiment|observational_longitudinal|observational_cross_sectional|mechanistic_study|structural_equation_model|meta_analysis|systematic_review|modeling_simulation|expert_judgment|case_study|theoretical|indigenous_knowledge|practitioner_experience",
-          "object": "correlation|mechanism|both",
-          " BradfordHill_viewpoints": ["strength", "consistency", "specificity", "temporality", "biological_gradient", "plausibility", "coherence", "experiment", "analogy"],
-          "certainty_grade": "high|moderate|low|very_low|not_assessed"
-        },
-        "prov": {
-          "source_text": "string (exact text excerpt from paper)",
-          "source_page": int,
-          "source_line_range": [int, int]
-        }
-      }
-    ],
-    "metadata": {
-      "source_doi": "string",
-      "source_title": "string",
-      "extracted_at": "ISO8601 timestamp",
-      "confidence": "float between 0 and 1"
-    }
-  }
-  ```
-
-  # Rules
-  1. Only extract causal claims that are **explicitly stated** or **strongly implied** (not speculative or hypothetical).
-  2. Every node must have a grounded entity (Ontology term like ENVO, BFO, PATO, CHEBI, etc.).
-  3. Causation is between **states or changes in state**, not between things alone. E.g., "increased abundance of species A" causes "decreased diversity".
-  4. Use the exact state_qualifier values from the enum: increased, decreased, present, absent, introduced, removed, unchanged.
-  5. For the philosophical account, choose the most appropriate from: counterfactual, probabilistic, interventionist, transmission, mechanistic, regularity, inus_component, agency.
-  6. If a feature is not addressed in the text, use "not_addressed".
-  7. Include the exact text excerpt and page number for provenance.
-  8. If multiple causal relationships exist in the text, extract all of them as separate edges.
-  9. If no causal relationships are found, return empty arrays but keep the JSON structure.
-
-  # Important
-  - Be conservative: only extract what is clearly supported by the text.
-  - Do NOT invent relationships that are not mentioned.
-  - Do NOT infer causal mechanisms that are not described.
-  - When certainty is low or relationships are correlational, use appropriate predicates (e.g., "associated_with" instead of "causes").
-
-# Few-shot examples
 few_shot_examples: |
-  Example 1:
-
-  Input text:
-  "We found that the removal of invasive predators led to a 40% increase in native prey populations (p<0.01). This suggests that predator presence was a major driver of prey population dynamics."
-
+  Text: "Supplemental seeding increased native species richness."
   Output:
   {
     "nodes": [
       {
-        "id": "node_1",
-        "entity": "ENVO:00001001",
-        "entity_label": "predator",
-        "attribute": "",
-        "attribute_label": "",
-        "state_qualifier": "removed",
-        "entity_type": "management_intervention"
+        "id": "n1",
+        "name": "Supplemental seeding",
+        "entity_type": "management_intervention",
+        "entity_mention": "supplemental seeding",
+        "state_or_change_qualifier": "occurred",
+        "source_spans": [{"text": "Supplemental seeding increased native species richness."}]
       },
       {
-        "id": "node_2",
-        "entity": "ENVO:0000386",
-        "entity_label": "prey",
-        "attribute": "PATO:0000070",
-        "attribute_label": "abundance",
-        "state_qualifier": "increased",
-        "entity_type": "environmental_variable"
+        "id": "n2",
+        "name": "Increased native species richness",
+        "entity_type": "environmental_variable",
+        "entity_mention": "native species richness",
+        "measured_attribute_mention": "species richness",
+        "state_or_change_qualifier": "increased",
+        "source_spans": [{"text": "Supplemental seeding increased native species richness."}]
       }
     ],
     "edges": [
       {
-        "id": "edge_1",
-        "subject_node_id": "node_1",
-        "object_node_id": "node_2",
-        "predicate": "enables",
-        "philosophical_account": "interventionist",
-        "philosophical_account_family": "difference_making",
-        "features": {
-          "direction_status": "asserted",
-          "direction_evidence": "experimental",
-          "token_or_type": "type",
-          "determinism": "indeterministic_process",
-          "proximate_distal": "proximate",
-          "contributing_sole": "contributing_cause",
-          "reversibility": "reversible",
-          "strength_qualitative": "strong"
-        },
-        "evidence": {
-          "type": "observational_longitudinal",
-          "object": "correlation",
-          "BradfordHill_viewpoints": ["strength", "temporality", "experiment"],
-          "certainty_grade": "high"
-        },
-        "prov": {
-          "source_text": "the removal of invasive predators led to a 40% increase in native prey populations (p<0.01)",
-          "source_page": 5,
-          "source_line_range": [12, 12]
+        "id": "e1",
+        "subject": "n1",
+        "predicate": "causes",
+        "object": "n2",
+        "claim_strength": "direct_causal",
+        "philosophical_accounts": ["interventionist"],
+        "original_sentence": "Supplemental seeding increased native species richness.",
+        "temporal_ordering": "implicitly_assumed",
+        "evidential_basis": {
+          "evidence_types": ["randomized_experiment"],
+          "evidence_objects": ["correlation"]
         }
       }
-    ],
-    "metadata": {
-      "source_doi": "",
-      "source_title": "",
-      "extracted_at": "",
-      "confidence": 0.85
-    }
+    ]
   }
 
-  Example 2:
-
-  Input text:
-  "Species richness was negatively correlated with soil pH (r = -0.45, p = 0.03), suggesting that more acidic conditions support fewer species."
-
-  Output:
-  {
-    "nodes": [
-      {
-        "id": "node_1",
-        "entity": "ENVO:00000028",
-        "entity_label": "soil pH",
-        "attribute": "PATO:0000072",
-        "attribute_label": "acidity",
-        "state_qualifier": "unchanged",
-        "entity_type": "environmental_variable"
-      },
-      {
-        "id": "node_2",
-        "entity": "ENVO:0000182",
-        "entity_label": "species richness",
-        "attribute": "PATO:0000070",
-        "attribute_label": "abundance",
-        "state_qualifier": "unchanged",
-        "entity_type": "environmental_variable"
-      }
-    ],
-    "edges": [
-      {
-        "id": "edge_1",
-        "subject_node_id": "node_1",
-        "object_node_id": "node_2",
-        "predicate": "negatively_regulates",
-        "philosophical_account": "probabilistic",
-        "philosophical_account_family": "difference_making",
-        "features": {
-          "direction_status": "uncertain",
-          "direction_evidence": "temporal_precedence",
-          "token_or_type": "type",
-          "determinism": "indeterministic_process",
-          "proximate_distal": "not_addressed",
-          "contributing_sole": "not_addressed",
-          "reversibility": "not_addressed",
-          "strength_qualitative": "moderate"
-        },
-        "evidence": {
-          "type": "observational_cross_sectional",
-          "object": "correlation",
-          "BradfordHill_viewpoints": ["strength", "consistency"],
-          "certainty_grade": "moderate"
-        },
-        "prov": {
-          "source_text": "Species richness was negatively correlated with soil pH (r = -0.45, p = 0.03)",
-          "source_page": 3,
-          "source_line_range": [8, 8]
-        }
-      }
-    ],
-    "metadata": {
-      "source_doi": "",
-      "source_title": "",
-      "extracted_at": "",
-      "confidence": 0.7
-    }
-  }
-
-# Context information
-context_info: |
-  {article_metadata}
-
-# Current text chunk to analyze
-chunk_text: |
-  {chunk}
-
-# Instructions for the model
 extraction_instructions: |
-  Based on the text chunk above, extract all causal relationships following the CAMO schema format shown in the few-shot examples.
-  
-  Requirements:
-  1. Return valid JSON only
-  2. All nodes must have unique IDs
-  3. Ground entities to ontology terms (ENVO, BFO, PATO, CHEBI, etc.)
-  4. Include provenance (exact text, page, line range)
-  5. If no causal relationships, return empty arrays
-  6. Be conservative - only extract what is clearly supported
+  Return a JSON object with nodes and edges. Each node must have: id, name,
+  entity_type (environmental_variable, environmental_process,
+  management_intervention, or taxon), entity_mention,
+  state_or_change_qualifier, and source_spans containing verbatim text.
+  Add measured_attribute_mention when a property such as abundance, cover,
+  diversity, rate, concentration, or temperature is measured.
 
-# Output format instruction
+  Each edge must have: id, subject, predicate, object, claim_strength
+  (no_relationship, associational, uncertain_causal, direct_causal), one or more
+  philosophical_accounts, original_sentence, and evidential_basis containing
+  evidence_types and evidence_objects. Use CAMO v0.7.1 enum values. Do not emit
+  a causal edge for background statements or unsupported speculation.
+
 output_format_instruction: |
-  Return ONLY the JSON object with the schema from the few-shot examples. Do not include any other text, explanations, or markdown formatting.
+  Return only valid JSON. Do not use Markdown fences or explanatory text.

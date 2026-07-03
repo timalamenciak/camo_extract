@@ -1,16 +1,26 @@
-"""Main entry point for causal graph extraction."""
+"""Command-line orchestration for CAMO extraction."""
 
+from __future__ import annotations
+
+import csv
 import json
-import yaml  # type: ignore[import-untyped]
+import os
+import sys
+import tempfile
 from pathlib import Path
 from typing import Optional
 
-from .risc_reader import RISReader, ArticleMetadata
-from .pdf_processor import PDFProcessor
+import yaml
+
 from .chunker import Chunker
-from .graph_extractor import GraphExtractor
-from .consolidator import Consolidator
 from .config import Config, load_config
+from .consolidator import Consolidator
+from .gap_report import GapReport
+from .graph_extractor import GraphExtractor
+from .ontology_grounder import GroundingDecision, OntologyGrounder, normalize_label
+from .pdf_processor import PDFProcessor
+from .risc_reader import ArticleMetadata, RISReader
+from .schema_validation import normalize_graph, validate_graph
 
 
 def process_folder(
@@ -20,105 +30,152 @@ def process_folder(
     config_path: Optional[str] = None,
     test_mode: bool = False,
     max_articles: int = 5,
-) -> None:
-    """Process all PDFs in a folder.
-
-    Args:
-        input_dir: Directory containing PDFs and RIS file
-        output_dir: Directory for output files
-        config: Config instance (optional)
-        config_path: Path to config file (optional)
-        test_mode: If True, only process first N articles (default: 5)
-        max_articles: Number of articles to process in test mode
-    """
+    resume: bool = False,
+    extractor: Optional[GraphExtractor] = None,
+    grounder: Optional[OntologyGrounder] = None,
+    pdf_processor: Optional[PDFProcessor] = None,
+) -> dict:
+    """Process an RIS-described PDF corpus and return a processing manifest."""
     input_path = Path(input_dir)
     output_path = Path(output_dir)
-
     output_path.mkdir(parents=True, exist_ok=True)
+    config = config or load_config(config_path)
 
-    if config is None:
-        config = load_config(config_path)
-
-    # Find RIS file
-    ris_files = list(input_path.glob("*.ris"))
-    if not ris_files:
-        print("No RIS file found in input directory")
-        return
-    ris_file = ris_files[0]
-
-    # Read RIS metadata
-    ris_reader = RISReader()
-    articles = ris_reader.read_file(str(ris_file))
-
-    # Handle test mode
+    ris_files = sorted(input_path.glob("*.ris"))
+    if len(ris_files) != 1:
+        raise ValueError(
+            f"Expected exactly one RIS file in {input_path}; found {len(ris_files)}"
+        )
+    articles = RISReader().read_file(str(ris_files[0]))
     if test_mode:
         articles = articles[:max_articles]
-        print(f"TEST MODE: Processing first {len(articles)} articles")
+    pdf_files = sorted(input_path.glob("*.pdf"))
 
-    # Find PDF files
-    pdf_files = list(input_path.glob("*.pdf"))
-
-    # Load existing partial results for resumability
-    existing_graphs = _load_partial_results(output_path)
-    processed_dois = {
-        g.get("metadata", {}).get("source_doi", "") for g in existing_graphs
-    }
-
-    print(f"Found {len(existing_graphs)} previously processed graphs")
-
-    # Process each PDF
-    all_graphs = existing_graphs.copy()
-    for article in articles:
-        # Skip if already processed (resumability)
-        if article.doi and article.doi in processed_dois:
-            print(f"Skipping already processed: {article.title}")
-            continue
-
-        # Find corresponding PDF
-        pdf_file = _find_pdf_for_article(article, pdf_files)
-        if not pdf_file:
-            print(f"No PDF found for article: {article.title or 'unknown'}")
-            continue
-
-        print(f"\nProcessing: {article.title}")
-
-        # Extract graph
-        graph = extract_graph_from_pdf(
-            pdf_path=str(pdf_file),
-            article_metadata=article,
-            config=config,
-        )
-
-        if graph:
-            # Add DOI to metadata for resumability
-            if article.doi:
-                graph.setdefault("metadata", {})["source_doi"] = article.doi
-            if article.title:
-                graph.setdefault("metadata", {})["source_title"] = article.title
-
-            all_graphs.append(graph)
-
-            # Save individual graph for resumability
-            _save_intermediate_result(graph, article, output_path)
-
-            # Save partial consolidation
-            consolidator = Consolidator(
-                merge_duplicated_nodes=config.output.merge_duplicated_nodes,
-                deduplicate_edges=True,
-            )
-            partial_consolidated = consolidator.consolidate(all_graphs)
-            _save_outputs(partial_consolidated, output_path)
-
-    # Final consolidation and save
-    print("\nFinal consolidation...")
-    consolidator = Consolidator(
-        merge_duplicated_nodes=config.output.merge_duplicated_nodes,
-        deduplicate_edges=True,
+    existing_graphs = _load_partial_results(output_path) if resume else []
+    gap_report = GapReport(
+        {
+            "ELMO": {"version": "2026-07-03", "url": config.ontology.elmo_url},
+            "OLS": {"url": config.ontology.ols_endpoint},
+            "Wikidata": {"url": config.ontology.wikidata_endpoint},
+        }
     )
-    consolidated = consolidator.consolidate(all_graphs)
+    if resume:
+        _restore_partial_gaps(output_path, gap_report)
+    processed_keys = {
+        edge.get("source_document", {}).get("doi")
+        for graph in existing_graphs
+        for edge in graph.get("edges", [])
+        if edge.get("source_document", {}).get("doi")
+    }
+    processed_keys.update(
+        graph.get("provenance", {}).get("source_corpus") for graph in existing_graphs
+    )
+    manifest: dict[str, list[dict]] = {
+        "processed": [],
+        "skipped": [],
+        "failed": [],
+    }
+    graphs = list(existing_graphs)
 
-    # Save final outputs
-    _save_outputs(consolidated, output_path)
+    extractor = extractor or GraphExtractor(
+        llm_endpoint=config.llm.endpoint,
+        llm_model=config.llm.model,
+        api_key=config.llm.api_key,
+        temperature=config.llm.temperature,
+        max_tokens=config.llm.max_tokens,
+        timeout=config.llm.timeout,
+        provider=config.llm.provider,
+    )
+    grounder = grounder or OntologyGrounder(
+        config.ontology.ols_endpoint,
+        config.ontology.elmo_url,
+        config.ontology.wikidata_endpoint,
+        config.ontology.request_timeout,
+        config.ontology.suggestion_threshold,
+    )
+
+    for article in articles:
+        article_key = article.doi or article.record_id or article.title or "unknown"
+        if resume and (
+            (article.doi and article.doi in processed_keys)
+            or article.title in processed_keys
+        ):
+            manifest["skipped"].append(
+                {"article": article_key, "reason": "already processed"}
+            )
+            continue
+        pdf_file = _find_pdf_for_article(article, pdf_files)
+        if pdf_file is None:
+            manifest["failed"].append(
+                {"article": article_key, "error": "No unambiguous PDF match"}
+            )
+            continue
+        try:
+            processor = pdf_processor or PDFProcessor(use_llm_assist=False)
+            markdown = processor.convert_to_markdown(str(pdf_file))
+            graph, decisions = extract_graph_from_markdown(
+                markdown, article, config, extractor=extractor, grounder=grounder
+            )
+            validate_graph(graph)
+            graphs.append(graph)
+            source = _article_dict(article)
+            for node_id, decision in decisions:
+                gap_report.add(decision, source, node_id)
+            _save_intermediate_result(graph, gap_report.to_dict(), article, output_path)
+            manifest["processed"].append({"article": article_key, "pdf": pdf_file.name})
+        except Exception as exc:
+            manifest["failed"].append(
+                {
+                    "article": article_key,
+                    "pdf": pdf_file.name,
+                    "error": f"{type(exc).__name__}: {exc}",
+                }
+            )
+
+    consolidated = Consolidator(config.output.merge_duplicated_nodes, True).consolidate(
+        graphs
+    )
+    validate_graph(consolidated)
+    _save_outputs(consolidated, gap_report.to_dict(), manifest, output_path)
+    return manifest
+
+
+def extract_graph_from_markdown(
+    markdown: str,
+    article_metadata: Optional[ArticleMetadata],
+    config: Config,
+    extractor: GraphExtractor,
+    grounder: OntologyGrounder,
+) -> tuple[dict, list[tuple[str, GroundingDecision]]]:
+    """Extract, ground, normalize, and consolidate one Markdown article."""
+    source = _article_dict(article_metadata) if article_metadata else {}
+    chunker = Chunker(
+        max_chunk_size=config.chunking.max_characters_per_chunk,
+        overlap_size=config.chunking.overlap_tokens,
+        max_sentences=config.chunking.max_sentences_per_chunk,
+        max_characters=config.chunking.max_characters_per_chunk,
+    )
+    chunk_graphs = []
+    all_decisions: list[tuple[str, GroundingDecision]] = []
+    for chunk in chunker.chunk_text(markdown):
+        draft = extractor.extract(chunk.text, source)
+        _enrich_source_spans(draft, chunk.text, chunk.start_char)
+        grounded_nodes = []
+        node_decisions: list[list[GroundingDecision]] = []
+        for node in draft.get("nodes", []):
+            grounded, decisions = grounder.ground_node(node)
+            grounded_nodes.append(grounded)
+            node_decisions.append(decisions)
+        draft["nodes"] = grounded_nodes
+        normalized = normalize_graph(draft, source)
+        for normalized_node, decisions in zip(normalized["nodes"], node_decisions):
+            all_decisions.extend(
+                (normalized_node["id"], decision) for decision in decisions
+            )
+        chunk_graphs.append(normalized)
+    if not chunk_graphs:
+        return normalize_graph({"nodes": [], "edges": []}, source), []
+    return Consolidator().consolidate(chunk_graphs), all_decisions
 
 
 def extract_graph_from_pdf(
@@ -126,210 +183,219 @@ def extract_graph_from_pdf(
     article_metadata: Optional[ArticleMetadata] = None,
     config: Optional[Config] = None,
 ) -> Optional[dict]:
-    """Extract graph from a single PDF.
-
-    Args:
-        pdf_path: Path to PDF file
-        article_metadata: Article metadata (optional)
-        config: Config instance (optional)
-
-    Returns:
-        Graph dict or None if failed
-    """
-    if config is None:
-        config = load_config()
-
-    # Create temp output directory for intermediate files
-    import tempfile
-    from pathlib import Path
-
-    with tempfile.TemporaryDirectory() as tmpdir:
-        output_path = Path(tmpdir)
-
-        try:
-            # Convert PDF to Markdown
-            processor = PDFProcessor(
-                ollama_endpoint=config.llm.endpoint,
-                ollama_model=config.llm.model,
-                use_llm_assist=True,
-            )
-            markdown = processor.convert_to_markdown(
-                pdf_path, output_dir=str(output_path / "tmp_md")
-            )
-
-            # Chunk text
-            chunker = Chunker(
-                max_chunk_size=config.chunking.max_characters_per_chunk,
-                overlap_size=config.chunking.max_characters_per_chunk // 10,
-            )
-            chunks = chunker.chunk_text(markdown)
-
-            # Extract graph for each chunk
-            extractor = GraphExtractor(
-                llm_endpoint=config.llm.endpoint,
-                llm_model=config.llm.model,
-                api_key=config.llm.api_key,
-            )
-
-            all_graphs = []
-            article_metadata_dict = {}
-            if article_metadata:
-                article_metadata_dict = {
-                    "title": article_metadata.title,
-                    "year": article_metadata.year,
-                    "doi": article_metadata.doi,
-                    "authors": article_metadata.authors,
-                }
-
-            for chunk in chunks:
-                graph = extractor.extract(chunk.text, article_metadata_dict)
-                all_graphs.append(graph)
-
-            # Consolidate
-            consolidator = Consolidator()
-            return consolidator.consolidate(all_graphs)
-
-        except Exception as e:
-            print(f"Error processing {pdf_path}: {e}")
-            return None
+    """Compatibility helper for extracting one PDF."""
+    config = config or load_config()
+    extractor = GraphExtractor(
+        config.llm.endpoint,
+        config.llm.model,
+        config.llm.api_key,
+        temperature=config.llm.temperature,
+        max_tokens=config.llm.max_tokens,
+        timeout=config.llm.timeout,
+        provider=config.llm.provider,
+    )
+    grounder = OntologyGrounder(
+        config.ontology.ols_endpoint,
+        config.ontology.elmo_url,
+        config.ontology.wikidata_endpoint,
+        config.ontology.request_timeout,
+        config.ontology.suggestion_threshold,
+    )
+    markdown = PDFProcessor(use_llm_assist=False).convert_to_markdown(pdf_path)
+    graph, _ = extract_graph_from_markdown(
+        markdown, article_metadata, config, extractor, grounder
+    )
+    validate_graph(graph)
+    return graph
 
 
 def _find_pdf_for_article(
     article: ArticleMetadata, pdf_files: list[Path]
 ) -> Optional[Path]:
-    """Find PDF file matching article."""
-    if not article.doi:
-        return None
+    """Match an RIS record to a PDF without an unsafe first-file fallback."""
+    by_name = {pdf.name.casefold(): pdf for pdf in pdf_files}
+    by_stem = {pdf.stem.casefold(): pdf for pdf in pdf_files}
+    if article.attachment_path:
+        attachment_name = Path(article.attachment_path).name.casefold()
+        if attachment_name in by_name:
+            return by_name[attachment_name]
+    if article.record_id and article.record_id.casefold() in by_stem:
+        return by_stem[article.record_id.casefold()]
+    if article.doi:
+        variants = {
+            article.doi.casefold(),
+            article.doi.replace("/", "_").casefold(),
+            article.doi.replace("/", "-").casefold(),
+        }
+        matches = [
+            pdf
+            for pdf in pdf_files
+            if any(value in pdf.stem.casefold() for value in variants)
+        ]
+        if len(matches) == 1:
+            return matches[0]
+    return None
 
-    # Try to match by DOI
-    doi = article.doi.replace("/", "_")
-    for pdf in pdf_files:
-        if doi in pdf.stem:
-            return pdf
 
-    # Fall back to first PDF
-    return pdf_files[0] if pdf_files else None
+def _article_dict(article: ArticleMetadata) -> dict:
+    return {
+        "record_id": article.record_id,
+        "title": article.title,
+        "year": article.year,
+        "doi": article.doi,
+        "authors": article.authors,
+        "journal": article.journal,
+    }
+
+
+def _enrich_source_spans(graph: dict, chunk_text: str, chunk_start: int) -> None:
+    for item in [*graph.get("nodes", []), *graph.get("edges", [])]:
+        spans = item.get("source_spans") or []
+        if not spans and item.get("original_sentence"):
+            spans = [{"text": item["original_sentence"]}]
+            item["source_spans"] = spans
+        for span in spans:
+            if not isinstance(span, dict) or not span.get("text"):
+                continue
+            position = chunk_text.find(span["text"])
+            if position >= 0:
+                span.setdefault("start_char", chunk_start + position)
+                span.setdefault("end_char", chunk_start + position + len(span["text"]))
 
 
 def _load_partial_results(output_path: Path) -> list[dict]:
-    """Load existing partial results for resumability.
-
-    Args:
-        output_path: Output directory
-
-    Returns:
-        List of already-processed graph dicts
-    """
-    partial_dir = output_path / "partial"
-    if not partial_dir.exists():
-        return []
-
     graphs = []
-    for json_file in partial_dir.glob("*.json"):
+    for path in (
+        sorted((output_path / "partial").glob("graph_*.json"))
+        if (output_path / "partial").exists()
+        else []
+    ):
         try:
-            with open(json_file, "r") as f:
-                graph = json.load(f)
-                graphs.append(graph)
-        except Exception as e:
-            print(f"Warning: Could not load {json_file}: {e}")
-
+            graphs.append(json.loads(path.read_text(encoding="utf-8")))
+        except (OSError, json.JSONDecodeError):
+            continue
     return graphs
 
 
+def _restore_partial_gaps(output_path: Path, report: GapReport) -> None:
+    partial = output_path / "partial"
+    if not partial.exists():
+        return
+    for path in partial.glob("gaps_*.json"):
+        try:
+            for item in json.loads(path.read_text(encoding="utf-8")).get("gaps", []):
+                report._records[
+                    (item["semantic_role"], normalize_label(item["term"]))
+                ] = item
+        except (OSError, json.JSONDecodeError, KeyError):
+            continue
+
+
+def _safe_filename(article: ArticleMetadata) -> str:
+    value = article.record_id or article.doi or article.title or "unknown"
+    return "".join(
+        character if character.isalnum() or character in "-_" else "_"
+        for character in value
+    )[:100]
+
+
 def _save_intermediate_result(
-    graph: dict, article: ArticleMetadata, output_path: Path
+    graph: dict, gaps: dict, article: ArticleMetadata, output_path: Path
 ) -> None:
-    """Save individual graph for resumability.
-
-    Args:
-        graph: Graph dict to save
-        article: Article metadata
-        output_path: Output directory
-    """
-    partial_dir = output_path / "partial"
-    partial_dir.mkdir(parents=True, exist_ok=True)
-
-    # Use DOI or title as filename
-    if article.doi:
-        filename = f"graph_{article.doi.replace('/', '_')}.json"
-    elif article.title:
-        # Sanitize title for filename
-        safe_title = "".join(c for c in article.title if c.isalnum() or c in " -_")[:50]
-        filename = f"graph_{safe_title}.json"
-    else:
-        filename = f"graph_{len(list(partial_dir.glob('*.json'))):03d}.json"
-
-    filepath = partial_dir / filename
-    with open(filepath, "w") as f:
-        json.dump(graph, f, indent=2)
-    print(f"  Saved partial result: {filepath.name}")
+    partial = output_path / "partial"
+    partial.mkdir(parents=True, exist_ok=True)
+    suffix = _safe_filename(article)
+    _atomic_json(partial / f"graph_{suffix}.json", graph)
+    _atomic_json(partial / f"gaps_{suffix}.json", gaps)
 
 
-def _save_outputs(graph: dict, output_path: Path) -> None:
-    """Save graph to output files.
+def _save_outputs(graph: dict, gaps: dict, manifest: dict, output_path: Path) -> None:
+    _atomic_json(output_path / "causal_graph.json", graph)
+    _atomic_yaml(output_path / "causal_graph.yaml", graph)
+    _atomic_yaml(output_path / "ontology_gaps.yaml", gaps)
+    _atomic_json(output_path / "processing_manifest.json", manifest)
+    csv_path = output_path / "ontology_gaps.csv"
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", newline="", delete=False, dir=output_path, suffix=".tmp"
+    ) as handle:
+        fields = [
+            "term",
+            "semantic_role",
+            "status",
+            "target_ontologies",
+            "article_count",
+            "occurrence_count",
+            "proposed_label",
+            "proposed_definition",
+            "candidate_parent",
+            "review_confidence",
+            "candidate_matches",
+            "lookup_errors",
+            "occurrences",
+        ]
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        for gap in gaps.get("gaps", []):
+            writer.writerow(
+                {
+                    key: (
+                        json.dumps(gap.get(key), ensure_ascii=False)
+                        if isinstance(gap.get(key), (list, dict))
+                        else gap.get(key)
+                    )
+                    for key in fields
+                }
+            )
+        temporary = handle.name
+    os.replace(temporary, csv_path)
 
-    Args:
-        graph: Graph dict to save
-        output_path: Output directory
-    """
-    # JSON output
-    json_path = output_path / "causal_graph.json"
-    with open(json_path, "w") as f:
-        json.dump(graph, f, indent=2)
-    print(f"Saved JSON to: {json_path}")
 
-    # YAML output
-    yaml_path = output_path / "causal_graph.yaml"
-    with open(yaml_path, "w") as f:
-        yaml.dump(graph, f, default_flow_style=False, sort_keys=False)
-    print(f"Saved YAML to: {yaml_path}")
+def _atomic_json(path: Path, value: dict) -> None:
+    _atomic_text(path, json.dumps(value, indent=2, ensure_ascii=False) + "\n")
 
 
-def main():
-    """Main entry point."""
+def _atomic_yaml(path: Path, value: dict) -> None:
+    _atomic_text(path, yaml.safe_dump(value, sort_keys=False, allow_unicode=True))
+
+
+def _atomic_text(path: Path, text: str) -> None:
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", delete=False, dir=path.parent, suffix=".tmp"
+    ) as handle:
+        handle.write(text)
+        temporary = handle.name
+    os.replace(temporary, path)
+
+
+def main() -> None:
     import argparse
 
+    stdout_reconfigure = getattr(sys.stdout, "reconfigure", None)
+    stderr_reconfigure = getattr(sys.stderr, "reconfigure", None)
+    if stdout_reconfigure:
+        stdout_reconfigure(encoding="utf-8", errors="replace")
+    if stderr_reconfigure:
+        stderr_reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(
-        description="Extract causal graph from PDF scientific articles"
+        description="Extract CAMO graphs and ontology gaps from scientific articles"
     )
-    parser.add_argument(
-        "input_dir",
-        help="Directory containing PDFs and RIS file",
-    )
-    parser.add_argument(
-        "output_dir",
-        help="Directory for output files",
-    )
-    parser.add_argument(
-        "--config",
-        help="Path to configuration file",
-    )
-    parser.add_argument(
-        "--test-mode",
-        action="store_true",
-        help="Process only first 5 articles (test mode)",
-    )
-    parser.add_argument(
-        "--max-articles",
-        type=int,
-        default=5,
-        help="Number of articles to process in test mode (default: 5)",
-    )
-    parser.add_argument(
-        "--resume",
-        action="store_true",
-        help="Resume from partial results if exists",
-    )
-
+    parser.add_argument("input_dir")
+    parser.add_argument("output_dir")
+    parser.add_argument("--config")
+    parser.add_argument("--test-mode", action="store_true")
+    parser.add_argument("--max-articles", type=int, default=5)
+    parser.add_argument("--resume", action="store_true")
     args = parser.parse_args()
-
-    process_folder(
-        input_dir=args.input_dir,
-        output_dir=args.output_dir,
+    manifest = process_folder(
+        args.input_dir,
+        args.output_dir,
         config_path=args.config,
         test_mode=args.test_mode,
         max_articles=args.max_articles,
+        resume=args.resume,
     )
+    if manifest["failed"]:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ ensuring type safety and validation.
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Any, Optional
 
@@ -103,8 +103,10 @@ class SearchResult(BaseModel):
         default_factory=list, description="Ontologies that were searched"
     )
     source: Optional[OntologySource] = Field(default=None, description="Source used")
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
-    search_id: str = Field(default_factory=lambda: datetime.utcnow().isoformat())
+    timestamp: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    search_id: str = Field(
+        default_factory=lambda: datetime.now(timezone.utc).isoformat()
+    )
 
 
 class SearchResponse(BaseModel):
@@ -156,10 +158,10 @@ class SearchParameters(BaseModel):
     )
     retry_attempts: int = Field(default=3, ge=1, le=5, description="API retry attempts")
     ols_endpoint: str = Field(
-        default="https://www.ebi.ac.uk/ols5/api", description="OLS API endpoint"
+        default="https://www.ebi.ac.uk/ols4/api", description="OLS API endpoint"
     )
     bioportal_endpoint: str = Field(
-        default="https://data.bioportal.bioontology.org",
+        default="https://data.bioontology.org",
         description="BioPortal API endpoint",
     )
     bioportal_api_key: Optional[str] = Field(

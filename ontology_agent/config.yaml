@@ -12,13 +12,13 @@ llm:
 # Custom ontologies not listed on OLS/BioPortal
 custom_ontologies:
   - name: "ELMO"
-    url: "https://raw.githubusercontent.com/timalamenciak/elmo/refs/heads/main/elmo.owl"
-    prefix: "elmo"
+    url: "https://raw.githubusercontent.com/timalamenciak/elmo/2026-07-03/elmo.owl"
+    prefix: "ELMO"
     description: "EcoLink Model Ontology"
 
 # Override default endpoints (optional)
-ols_endpoint: "https://www.ebi.ac.uk/ols/api"
-bioportal_endpoint: "https://data.bioontology.bioontology.org"
+ols_endpoint: "https://www.ebi.ac.uk/ols4/api"
+bioportal_endpoint: "https://data.bioontology.org"
 bioportal_api_key: "${BIOPORTAL_API_KEY}"
 
 # Fallback settings

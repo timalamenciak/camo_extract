@@ -160,6 +160,7 @@ class OntologyAgent:
             limit=query_obj.limit,
             timeout=self.parameters.api_timeout,
             search_synonyms=True,
+            endpoint=self.parameters.ols_endpoint,
         )
 
         all_results.extend(ols_results)
@@ -172,6 +173,7 @@ class OntologyAgent:
                 timeout=self.parameters.api_timeout,
                 api_key=self.parameters.bioportal_api_key,
                 search_synonyms=True,
+                endpoint=self.parameters.bioportal_endpoint,
             )
 
             all_results.extend(bp_results)
@@ -248,7 +250,16 @@ class OntologyAgent:
         Returns:
             Ranked list (best term first, marked as preferred)
         """
-        preferred_ontologies = {"pato", "go", "ennv", "chebi", "bfo", "cl", "fao"}
+        preferred_ontologies = {
+            "pato",
+            "go",
+            "envo",
+            "elmo",
+            "chebi",
+            "bfo",
+            "cl",
+            "fao",
+        }
 
         def quality_score(term: OntologyTermResult) -> float:
             score = 0.0
@@ -457,7 +468,9 @@ Output only the numbered ranking (e.g., "2, 1, 3"):"""
                             searched_ontologies=[prefix],
                         )
 
-        client_ols = get_ols_client(timeout=self.parameters.api_timeout)
+        client_ols = get_ols_client(
+            timeout=self.parameters.api_timeout, endpoint=self.parameters.ols_endpoint
+        )
 
         if prefix:
             term_id = curie.split(":")[1] if ":" in curie else curie

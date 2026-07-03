@@ -31,8 +31,13 @@ class BioPortalClient:
 
     DEFAULT_ENDPOINT = "https://data.bioportal.bioontology.org"
 
-    def __init__(self, api_key: Optional[str] = None, timeout: int = 30):
-        self.endpoint = self.DEFAULT_ENDPOINT
+    def __init__(
+        self,
+        api_key: Optional[str] = None,
+        timeout: int = 30,
+        endpoint: Optional[str] = None,
+    ):
+        self.endpoint = endpoint or self.DEFAULT_ENDPOINT
         self.api_key = api_key or self._load_api_key()
         self.timeout = timeout
         self.session = requests.Session()
@@ -306,10 +311,10 @@ class BioPortalClient:
 
 
 def get_bioportal_client(
-    api_key: Optional[str] = None, timeout: int = 30
+    api_key: Optional[str] = None, timeout: int = 30, endpoint: Optional[str] = None
 ) -> BioPortalClient:
     """Create and return a BioPortalClient instance."""
-    return BioPortalClient(api_key=api_key, timeout=timeout)
+    return BioPortalClient(api_key=api_key, timeout=timeout, endpoint=endpoint)
 
 
 def search_bioportal(
@@ -319,6 +324,7 @@ def search_bioportal(
     timeout: int = 30,
     api_key: Optional[str] = None,
     search_synonyms: bool = True,
+    endpoint: Optional[str] = None,
 ) -> tuple[list[OntologyTermResult], Optional[str]]:
     """Search BioPortal and return results.
 
@@ -333,7 +339,7 @@ def search_bioportal(
     Returns:
         Tuple of (results, suggested_ontology)
     """
-    client = get_bioportal_client(api_key=api_key, timeout=timeout)
+    client = get_bioportal_client(api_key=api_key, timeout=timeout, endpoint=endpoint)
 
     search_ontologies = [preferred_ontology] if preferred_ontology else []
 

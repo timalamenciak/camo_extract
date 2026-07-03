@@ -1,9 +1,11 @@
 """Configuration module for causal graph extraction."""
 
 import os
-import yaml  # type: ignore[import-untyped]
+import re
 from pathlib import Path
 from typing import Optional
+
+import yaml  # type: ignore[import-untyped]
 from pydantic import BaseModel, Field
 
 
@@ -24,17 +26,24 @@ class ChunkingConfig(BaseModel):
 
     max_sentences_per_chunk: int = Field(default=10, ge=1, le=100)
     max_characters_per_chunk: int = Field(default=4000, ge=100, le=50000)
-    min_sentences: int = Field(default=3, ge=1, le=50)
-    min_characters: int = Field(default=200, ge=10, le=1000)
     overlap_tokens: int = Field(default=400, ge=0, le=1000)
 
 
 class OntologyConfig(BaseModel):
     """Ontology grounding configuration."""
 
-    default_ontologies: list = Field(default=["ENVO", "BFO", "PATO", "CHEBI", "GO"])
+    default_ontologies: list[str] = Field(
+        default_factory=lambda: ["ELMO", "ENVO", "PATO", "CHEBI", "GO"]
+    )
     required_for: list = Field(default=["entity", "attribute"])
     suggestion_threshold: float = Field(default=0.7, ge=0.0, le=1.0)
+    ols_endpoint: str = Field(default="https://www.ebi.ac.uk/ols4/api")
+    elmo_url: str = Field(
+        default="https://raw.githubusercontent.com/timalamenciak/elmo/2026-07-03/elmo.owl"
+    )
+    wikidata_endpoint: str = Field(default="https://www.wikidata.org/w/api.php")
+    request_timeout: int = Field(default=30, ge=5, le=120)
+    live_integration_tests: bool = Field(default=False)
 
 
 class ValidationConfig(BaseModel):
@@ -50,11 +59,7 @@ class ValidationConfig(BaseModel):
 class OutputConfig(BaseModel):
     """Output format configuration."""
 
-    include_provenance: bool = Field(default=True)
-    include_confidence: bool = Field(default=True)
-    include_source_text: bool = Field(default=True)
     merge_duplicated_nodes: bool = Field(default=True)
-    output_formats: list = Field(default=["json", "yaml"])
 
 
 class Config(BaseModel):
@@ -96,10 +101,26 @@ def load_config(config_path: Optional[str] = None) -> Config:
     if not path.exists():
         return Config()
 
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
-    return Config.model_validate(data)
+    return Config.model_validate(_expand_environment(data))
+
+
+_ENV_PATTERN = re.compile(r"\$\{([A-Za-z_][A-Za-z0-9_]*)(?::-([^}]*))?\}")
+
+
+def _expand_environment(value):
+    """Recursively expand ${VAR} and ${VAR:-default} config values."""
+    if isinstance(value, dict):
+        return {key: _expand_environment(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [_expand_environment(item) for item in value]
+    if isinstance(value, str):
+        return _ENV_PATTERN.sub(
+            lambda match: os.environ.get(match.group(1), match.group(2) or ""), value
+        )
+    return value
 
 
 def save_config(config: Config, config_path: str) -> None:
@@ -114,5 +135,5 @@ def save_config(config: Config, config_path: str) -> None:
 
     data = config.model_dump(mode="json")
 
-    with open(path, "w") as f:
-        yaml.dump(data, f, default_flow_style=False, sort_keys=False)
+    with open(path, "w", encoding="utf-8") as f:
+        yaml.safe_dump(data, f, default_flow_style=False, sort_keys=False)

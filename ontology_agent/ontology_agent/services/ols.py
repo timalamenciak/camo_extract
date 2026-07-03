@@ -26,7 +26,7 @@ class OLSClient:
     API documentation: https://www.ebi.ac.uk/ols/docs/api
     """
 
-    DEFAULT_ENDPOINT = "https://www.ebi.ac.uk/ols/api"
+    DEFAULT_ENDPOINT = "https://www.ebi.ac.uk/ols4/api"
 
     def __init__(self, endpoint: Optional[str] = None, timeout: int = 30):
         self.endpoint = endpoint or self.DEFAULT_ENDPOINT
@@ -351,9 +351,9 @@ class OLSClient:
         return None
 
 
-def get_ols_client(timeout: int = 30) -> OLSClient:
+def get_ols_client(timeout: int = 30, endpoint: Optional[str] = None) -> OLSClient:
     """Create and return an OLSClient instance."""
-    return OLSClient(timeout=timeout)
+    return OLSClient(endpoint=endpoint, timeout=timeout)
 
 
 def search_ols(
@@ -362,6 +362,7 @@ def search_ols(
     limit: int = 10,
     timeout: int = 30,
     search_synonyms: bool = True,
+    endpoint: Optional[str] = None,
 ) -> tuple[list[OntologyTermResult], Optional[str]]:
     """Search OLS and return results.
 
@@ -375,7 +376,7 @@ def search_ols(
     Returns:
         Tuple of (results, suggested_ontology)
     """
-    client = get_ols_client(timeout=timeout)
+    client = get_ols_client(timeout=timeout, endpoint=endpoint)
 
     search_ontologies = [preferred_ontology] if preferred_ontology else []
 

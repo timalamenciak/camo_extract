@@ -45,10 +45,10 @@ class AgentConfig(BaseModel):
         default_factory=list, description="Custom ontology sources"
     )
     ols_endpoint: str = Field(
-        default="https://www.ebi.ac.uk/ols/api", description="OLS API endpoint"
+        default="https://www.ebi.ac.uk/ols4/api", description="OLS API endpoint"
     )
     bioportal_endpoint: str = Field(
-        default="https://data.bioontology.bioontology.org",
+        default="https://data.bioontology.org",
         description="BioPortal API endpoint",
     )
     bioportal_api_key: str | None = Field(default=None, description="BioPortal API key")

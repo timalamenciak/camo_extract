@@ -70,6 +70,7 @@ prefixes:
   SEPIO: http://purl.obolibrary.org/obo/SEPIO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   BFO: http://purl.obolibrary.org/obo/BFO_
+  WD: https://www.wikidata.org/entity/
 
 default_prefix: causal_mosaic
 default_range: string
@@ -1838,7 +1839,7 @@ classes:
         description: "Schema version for compatibility tracking."
         range: string
         required: true
-        ifabsent: string(0.4.0)
+        ifabsent: string(0.7.1)
       provenance:
         description: "Provenance metadata for the graph."
         range: GraphProvenance
@@ -1954,7 +1955,7 @@ classes:
           "what thing" — the taxon, chemical, abiotic factor, or process
           class, and is the authoritative ontology grounding for the node's
           entity. Corresponds to ELMO's subject_value / object_value slot.
-          Examples: WD:18498 (Canis lupus), CHEBI:24279
+          Examples: WD:Q18498 (Canis lupus), CHEBI:24279
           (glucosinolate), ENVO:01000253 (grassland). Secondary ontology
           crosswalks, if needed, should be maintained outside article
           annotations in SSSOM files.

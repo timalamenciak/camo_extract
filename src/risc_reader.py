@@ -1,9 +1,10 @@
 """RIS file reader for article metadata."""
 
 import re
-from typing import Any, Optional
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any, Optional
+from urllib.parse import unquote, urlparse
 
 
 @dataclass
@@ -24,6 +25,8 @@ class ArticleMetadata:
     keywords: list = field(default_factory=list)
     notes: list = field(default_factory=list)
     source_file: Optional[str] = None
+    record_id: Optional[str] = None
+    attachment_path: Optional[str] = None
 
 
 class RISReader:
@@ -31,6 +34,7 @@ class RISReader:
 
     RIS_TAGS = {
         "TY": "entry_type",
+        "ID": "record_id",
         "TI": "title",
         "AU": "authors",
         "PY": "year",
@@ -43,6 +47,7 @@ class RISReader:
         "AB": "abstract",
         "KW": "keywords",
         "N1": "notes",
+        "L1": "attachment_path",
         "ER": "end_record",
     }
 
@@ -168,4 +173,18 @@ class RISReader:
             keywords=entry.get("keywords", []),
             notes=entry.get("notes", []),
             source_file=source_file,
+            record_id=entry.get("record_id"),
+            attachment_path=self._normalize_attachment(entry.get("attachment_path")),
         )
+
+    @staticmethod
+    def _normalize_attachment(value: Optional[str]) -> Optional[str]:
+        if not value:
+            return None
+        if value.startswith("file:"):
+            parsed = urlparse(value)
+            path = unquote(parsed.path)
+            if re.match(r"^/[A-Za-z]:/", path):
+                path = path[1:]
+            return path
+        return unquote(value)

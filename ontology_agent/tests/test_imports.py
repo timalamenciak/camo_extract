@@ -21,8 +21,6 @@ def test_imports():
     assert BioPortalClient is not None
     assert TermGenerator is not None
 
-    return True
-
 
 def test_models():
     """Test data models."""
@@ -49,8 +47,6 @@ def test_models():
     )
     assert suggestion.term == "suggested"
 
-    return True
-
 
 def test_agent_search():
     """Test agent search functionality."""
@@ -60,5 +56,3 @@ def test_agent_search():
 
     # Test that agent is initialized
     assert agent is not None
-
-    return True
