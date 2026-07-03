@@ -70,6 +70,12 @@ INFO progress logs are printed for every article and chunk. Use
 `--log-level WARNING` for quieter runs or `--log-level DEBUG` when diagnosing a
 failure.
 
+Both chunk limits are disabled by default, so a complete article is sent to the
+LLM in one request. Set `chunking.max_characters_per_chunk` and/or
+`max_sentences_per_chunk` when using a model with a smaller context window.
+The default response ceiling is 32,768 tokens to leave room for a complete
+article-level graph.
+
 The default LLM configuration targets an OpenAI-compatible Ollama endpoint at
 `http://localhost:11434/v1`. Override it in `config/llm_settings.yaml` or with a
 custom configuration passed through `--config`.

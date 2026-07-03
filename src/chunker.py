@@ -21,12 +21,15 @@ class Chunk:
 class Chunker:
     def __init__(
         self,
-        max_chunk_size: int = 8000,
+        max_chunk_size: Optional[int] = 8000,
         overlap_size: int = 400,
-        max_sentences: int = 10,
-        max_characters: int = 4000,
+        max_sentences: Optional[int] = None,
+        max_characters: Optional[int] = 4000,
     ):
-        self.max_characters = min(max_chunk_size, max_characters)
+        character_limits = [
+            limit for limit in (max_chunk_size, max_characters) if limit is not None
+        ]
+        self.max_characters = min(character_limits) if character_limits else None
         self.overlap_size = overlap_size
         self.max_sentences = max_sentences
 
@@ -35,6 +38,17 @@ class Chunker:
     ) -> list[Chunk]:
         if not text or not text.strip():
             return []
+        if self.max_characters is None and self.max_sentences is None:
+            return [
+                Chunk(
+                    text=text,
+                    start_char=0,
+                    end_char=len(text),
+                    section="document",
+                    line_range=(1, text.count("\n") + 1),
+                    token_count=max(1, len(text) // 4),
+                )
+            ]
         result = []
         for section_chunk in self._split_by_sections(text, section, page):
             result.extend(self._chunk_section(section_chunk))
@@ -91,10 +105,15 @@ class Chunker:
             end_index = start_index
             while end_index + 1 < len(spans):
                 candidate_end = spans[end_index + 1][1]
-                if (
-                    end_index + 2 - start_index > self.max_sentences
-                    or candidate_end - first_start > self.max_characters
-                ):
+                exceeds_sentence_limit = (
+                    self.max_sentences is not None
+                    and end_index + 2 - start_index > self.max_sentences
+                )
+                exceeds_character_limit = (
+                    self.max_characters is not None
+                    and candidate_end - first_start > self.max_characters
+                )
+                if exceeds_sentence_limit or exceeds_character_limit:
                     break
                 end_index += 1
             local_end = spans[end_index][1]

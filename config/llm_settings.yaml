@@ -7,11 +7,13 @@ llm:
   api_key: "${OLLAMA_API_KEY:-}"
   timeout: 600
   temperature: 0.1
-  max_tokens: 4096
+  max_tokens: 32768
 
 chunking:
-  max_sentences_per_chunk: 10
-  max_characters_per_chunk: 4000
+  # Optional secondary limit. Leave null to chunk by character count only.
+  max_sentences_per_chunk: null
+  # Leave both limits null to send each article as one whole-document request.
+  max_characters_per_chunk: null
   overlap_tokens: 400
 
 # Validation thresholds

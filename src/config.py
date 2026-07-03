@@ -18,14 +18,14 @@ class LLMConfig(BaseModel):
     api_key: Optional[str] = Field(default=None)
     timeout: int = Field(default=600, ge=10, le=3600)
     temperature: float = Field(default=0.1, ge=0.0, le=1.0)
-    max_tokens: int = Field(default=4096, ge=256, le=32768)
+    max_tokens: int = Field(default=32768, ge=256, le=131072)
 
 
 class ChunkingConfig(BaseModel):
     """Chunking strategy configuration."""
 
-    max_sentences_per_chunk: int = Field(default=10, ge=1, le=100)
-    max_characters_per_chunk: int = Field(default=4000, ge=100, le=50000)
+    max_sentences_per_chunk: Optional[int] = Field(default=None, ge=1, le=1000)
+    max_characters_per_chunk: Optional[int] = Field(default=None, ge=100)
     overlap_tokens: int = Field(default=400, ge=0, le=1000)
 
 

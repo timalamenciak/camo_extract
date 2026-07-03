@@ -6,6 +6,7 @@ import csv
 import json
 import logging
 import os
+import re
 import sys
 import tempfile
 from pathlib import Path
@@ -222,7 +223,13 @@ def extract_graph_from_markdown(
     chunk_graphs = []
     all_decisions: list[tuple[str, GroundingDecision]] = []
     chunks = chunker.chunk_text(markdown)
-    LOGGER.info("Prepared %d text chunk(s)", len(chunks))
+    LOGGER.info(
+        "Prepared %d text chunk(s): max_characters=%s, max_sentences=%s, overlap=%d",
+        len(chunks),
+        config.chunking.max_characters_per_chunk or "disabled",
+        config.chunking.max_sentences_per_chunk or "disabled",
+        config.chunking.overlap_tokens,
+    )
     for chunk_number, chunk in enumerate(chunks, 1):
         LOGGER.info(
             "Chunk %d/%d: page=%s section=%s characters=%d; requesting LLM",
@@ -350,8 +357,16 @@ def _enrich_source_spans(
             if position >= 0:
                 span.setdefault("start_char", chunk_start + position)
                 span.setdefault("end_char", chunk_start + position + len(span["text"]))
-                if page is not None:
-                    span.setdefault("paragraph_id", f"page:{page}")
+                resolved_page = page or _page_at_position(chunk_text, position)
+                if resolved_page is not None:
+                    span.setdefault("paragraph_id", f"page:{resolved_page}")
+
+
+def _page_at_position(text: str, position: int) -> int | None:
+    page = None
+    for match in re.finditer(r"(?m)^## Page (\d+)\s*$", text[: position + 1]):
+        page = int(match.group(1))
+    return page
 
 
 def _load_partial_results(output_path: Path) -> list[dict]:
