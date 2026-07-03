@@ -1,0 +1,77 @@
+# LLM settings for context window management
+
+llm:
+  provider: "ollama"
+  endpoint: "http://localhost:11434/v1"
+  model: "qwen2.5:14b"
+  api_key: "${OLLAMA_API_KEY:-}"
+  timeout: 600
+  temperature: 0.1
+  max_tokens: 4096
+
+context_window:
+  max_tokens: 128000
+  chunk_size_tokens: 8000
+  overlap_tokens: 400
+  strategy: "section_preserving"
+
+chunking:
+  # Section-based chunking
+  section_labels:
+    - "abstract"
+    - "introduction"
+    - "methods"
+    - "results"
+    - "discussion"
+    - "conclusion"
+  
+  # Fallback: sentence-based chunking
+  max_sentences_per_chunk: 10
+  max_characters_per_chunk: 4000
+  
+  # Minimum chunk size (below this, merge with adjacent)
+  min_sentences: 3
+  min_characters: 200
+
+# Validation thresholds
+validation:
+  confidence_threshold: 0.5
+  min_entities_per_node: 1
+  max_entities_per_node: 5
+  
+  # Coordinate ranges
+  lat_range: [-90, 90]
+  lon_range: [-180, 180]
+  
+  # Time period format
+  time_pattern: "\\d{4}-\\d{4}|\\d{4}-present|seasonal|year-round"
+
+  # Numeric validation
+  p_value_range: [0, 1]
+  correlation_range: [-1, 1]
+  effect_size_range: [0, inf]
+
+# Ontology grounding settings
+ontology:
+  default_ontologies:
+    - "ENVO"
+    - "BFO"
+    - "PATO"
+    - "CHEBI"
+    - "GO"
+  required_for:
+    - "entity"
+    - "attribute"
+  suggestion_threshold: 0.7
+
+# Output settings
+output:
+  include_provenance: true
+  include_confidence: true
+  include_source_text: true
+  merge_duplicated_nodes: true
+  deduplicate_edges_by_criteria:
+    - "subject_node_id"
+    - "object_node_id"
+    - "predicate"
+    - "prov.source_text"

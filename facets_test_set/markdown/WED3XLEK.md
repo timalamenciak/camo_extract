@@ -1,0 +1,183 @@
+# **Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration**
+
+Scott D. Wilson1 and Meelis Pärtel2
+
+### **Abstract**
+
+**Introduced perennial grasses are one of the greatest constraints to prairie restoration. Herbicides suppress but do not eliminate introduced grasses, so we explored the interaction of herbicide with two additional controls: heavy clipping (to simulate grazing) and competition from native species. A 50-year-old stand of the introduced perennial grass** *Agropyron cristatum* **(crested wheatgrass) in the northern Great Plains was seeded with native grasses and treated with herbicide annually for 7 years in a factorial experiment. Clipping was applied as a subplot treatment in the final 3 years. Both herbicide and clipping significantly reduced the cover of** *A. cristatum***, but clipping produced an immediate and consistent decrease, whereas herbicide control varied among years. The cover of** *A. cristatum* **decreased significantly with increasing cover of a seeded native grass,** *Bouteloua gracilis* **(blue grama), suggesting that both top-down (i.e., grazing) and bottom-up (i.e., re-**
+
+**source competition) strategies can contribute to** *A. cristatum* **control. No treatment had any effect on the seed bank of** *A. cristatum***. Even in the most effective control treatments,** *A. cristatum* **persisted at low amounts (approximately 5% cover) throughout the experiment. The cover of** *B. gracilis* **increased significantly with seed addition and herbicide, and, after 7 years, was similar to that in undisturbed prairie. The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide. Clipping season had no effect on any variable. In summary, no method extirpated** *A. cristatum***, but clipping reduced its cover by 90% and doubled the cover of native species. Extirpation might not be a realistic goal, but relatively simple management allowed coexistence of native species.**
+
+**Key words:** *Agropyron cristatum***, crested wheatgrass, grazing, herbicide, prairie, restoration.**
+
+#### **Introduction**
+
+The persistence of introduced perennial grasses is one of the main obstacles to prairie restoration (Jordan 1988; Roundy & Call 1988; Wilson 2002). Introduced perennial grasses are widely planted because of their rapid establishment and high yields (Lawrence & Ratzlaff 1989). *Agropyron cristatum* (crested wheatgrass), for example, has been planted on 6–10 million ha of the North American Great Plains since the 1930s (Lesica & DeLuca 1996) and on about 7.5 million ha of the U.S. intermontane west during 1985–1987 (Pyke 1990). Abandoned fields planted with *A. cristatum* have significantly lower diversity and soil carbon and nitrogen than fields of similar age colonized by native grasses (Christian & Wilson 1999). Restoring *A. cristatum* stands to native prairie would enhance biodiversity and increase belowground carbon storage.
+
+Traditional attempts at controlling *A. cristatum* in restorations have used herbicide, which significantly reduces its
+
+cover (Romo et al. 1994; Wilson & Gerry 1995). Rapid regrowth occurs (Bakker et al. 1997), however, and the species persists after 4 years of repeated herbicide application (Bakker et al. 2002). Similarly, even the most effective treatment for controlling the perennial *Pteridium aquilinum* (bracken) in U.K. grasslands for 12 years resulted in persistent populations that were projected to persist up to 34 more years under continued control efforts (Marrs et al. 1993).
+
+Unwanted populations might be more effectively controlled using both top-down (i.e., herbicide) and bottom-up approaches (McEvoy & Coombs 1999). Depriving introduced perennial grasses of soil resources has been attempted by applying mulch to immobilize mineral nutrients (Peltzer et al. 1998; Morghan & Seastedt 1999) but without success. Competitors provide long-term reduction in soil resource availability and were vital for controlling populations of the introduced *Senecio jacobaea* (ragwort) (McEvoy & Coombs 1999). Elimination of the introduced perennial grass *Bromus inermis* (smooth brome) from intensively prepared restorations may be related to the addition of high densities of native competitors (Dill et al. 1986; Kindscher & Tieszen 1998; Howe 1999).
+
+Analogous to the persistent effects of competitors, grazers could provide more persistent top-down control than could herbicides. In the case of *S. jacobaea*, the best control occurred when both competitors and herbivores were
+
+Department of Biology, University of Regina, Regina, Saskatchewan, Canada, S4S 0A2
+
+<sup>1</sup>Address correspondence to S. D. Wilson, email scott.wilson@uregina.ca 2Present address: Institute of Botany and Ecology, Tartu University, Tartu 51005, Estonia
+
+<sup>©</sup> *2003 Society for Ecological Restoration International*
+
+present (McEvoy & Coombs 1999). A. cristatum should be more sensitive to grazing than natives because of its tall stature (Diaz et al. 2001) and because its root growth is more suppressed by grazing than that of native congeners (Richards 1984). Season of grazing might also be exploited to reduce A. cristatum: Early summer grazing may be more detrimental than grazing at other times due to low reserves of carbohydrates (Trlica & Cook 1972) and nitrogen (de Kroon & Bobbink 1997). Spring mowing of an Oregon prairie significantly reduced the introduced perennial grass Arrhenatherum elatius (oatgrass) and increased native grasses (Wilson & Clark 2001).
+
+There are no reports, however, of the elimination of introduced perennial grasses by grazing, probably because of selection for resistance to grazing (Milchunas et al. 1988). In fact, 20–30 years of annual heavy grazing of *A. cristatum* in Idaho resulted in robust stands (Hull & Klomp 1966). Detailed demographic analysis of a native North American grass sensitive to grazing suggested that grazing alone was insufficient to account for its decline and that other interactive factors such as water availability and competition were responsible (Hendon & Briske 1997). Even without elimination, however, decreasing *A. cristatum* by grazing might increase diversity and increase the proportion of native species: Grazing consistently increases diversity in relatively nutrient-poor ecosystems (Proulx & Mazumder 1998), such as grasslands (Collins et al. 1998; Jones & Hayes 1999).
+
+The persistence of introduced perennials is attributable to both vegetative regrowth and recruitment from the seed bank. Native prairie seed banks in Alberta were decreased by intensive grazing (Johnston et al. 1969), and elimination of the native grass Schizachyrium scoparium (little bluestem) from Minnesota prairie by fertilization resulted in its elimination from the seed bank after 10 years (Kitajima & Tilman 1996). Four years of herbicide application had no effect on the seed bank of A. cristatum in Saskatchewan, however, possibly because herbicide decreased intraspecific competition and increased per capita seed production (Ambrose & Wilson 2003). The invasion of native grasslands by Agropyron desertorum (synonymous with A. cristatum; Looman & Best 1987) was attributed to its seed production, which, compared with native species, is copious and resilient to among-year climate variability (Pyke 1990).
+
+Our objectives were to compare the effects of herbicide, grazing (simulated by clipping), and competition from native species on the abundance and seed bank of *A. cristatum*. We also examined the responses of common native species, the total cover of native species, and species richness. Given the resilience of grasses to grazing and herbicide, we explored whether these treatments, if not capable of extirpating *A. cristatum*, would at least reduce its dominance and allow the coexistence of native species.
+
+#### Methods
+
+We worked in Grasslands National Park (49°22'N, 107°53'W) in southwestern Saskatchewan, Canada. The
+
+study site had been cultivated until the late 1940s (Bakker et al. 1997), at which time it was sown to *A. cristatum*. *Agropyron cristatum*, *Selaginella densa* (spike moss), lichens, bare ground, and litter represented 81% of total cover (Bakker et al. 1997). The surrounding vegetation is undisturbed mixed-grass prairie dominated by *B. gracilis* (blue grama), *Stipa comata* (needle-and-thread grass), and *S. densa* (Christian & Wilson 1999). Nomenclature follows Looman and Best (1987). The climate is semiarid with mean daily temperatures of  $-13^{\circ}$ C in January and  $19^{\circ}$ C in July, with 155 snow-free days. Average annual precipitation is 313 mm (Environment Canada, unpublished data) with most of the precipitation falling as rain during the growing season. The soil is brown clay loam (Anonymous 1992).
+
+Two treatments, herbicide (applied or not) and seeds of native grasses (supplied or not), were applied in a factorial completely randomized design to each of five replicate plots ( $3 \times 10 \text{ m}$ , 1 m apart), for a total of 20 plots. These plots were part of a larger experiment (Bakker et al. 2002).
+
+Herbicide (glyphosate, 1.1 kg active ingredient/ha) was sprayed in early May 1994, when the C<sub>3</sub> A. cristatum had begun to grow but C<sub>4</sub> native plants were still dormant, allowing the herbicide to selectively kill A. cristatum (Dill et al. 1986). This reduced A. cristatum cover by only about 50% in fall 1994 (Bakker et al. 1997), so during 1995-1998 herbicide was applied using a tractor-mounted wick applicator both in early May and later in the growing season. The wick traveled about 10 cm above the ground and applied herbicide (1:2 mix of glyphosate and water) to the relatively tall A. cristatum but not to the shorter native species. In 1999 and 2000 herbicide was applied only to A. cristatum using a hand-held wick. In summary herbicide was sprayed in May 1994; applied by tractormounted wick in May, June, and September 1995, May and June 1996, May 1997, and May and June 1998; and applied by hand-held wick in May and June 1999 and 2000. The number of applications varied among years according to the amount of regrowth following the previous application.
+
+Seeds of native grasses were broadcast in early May 1994 into plots that had been slightly tilled (with a self-propelled tiller) to allow the seeds to contact soil. The seed mix was dominated by *B. gracilis* (23.4 kg live seed/ha, 3,670 seeds/m²) because it is the dominant native grass in the area (Christian & Wilson 1999), seed was available, and it would potentially provide grazers with a warm-season grass complementary to the cool-season *A. cristatum*. Other species such as *Stipa comata* and *Koeleria cristata* (June grass) were sown, but 99% of seedlings were *B. gracilis* (Bakker et al. 2002).
+
+Clipping was introduced as a subplot treatment in 1998 when it became apparent that herbicide provided only partial control of A. cristatum. Two subplots  $(1 \times 1 \text{ m})$  were established in each plot. One served as an unclipped control, and all vegetation in the second subplot was clipped to 1 cm each May, June, July, and August during 1998–2000. This allowed us to examine the combined effects of clipping, herbicide, and competition from native species.
+
+Species cover was measured using Daubenmire's (1959) scale each August during 1994–1997 in three quadrats (0.5 1 m) along the diagonal of each plot. The mean cover of each species in each plot was determined. During 1998– 2000 species composition was measured in one quadrat centered in each subplot. Species richness and the total cover of native species (including lichens) were calculated for each quadrat and means were determined for each plot. Three-factor analyses of variance (ANOVAs), with herbicide and seed as main-plot effects and clipping as a subplot effect, were used to examine variation in the covers of *A. cristatum*, *B. gracilis*, the total cover of native species, and species richness in August 2000. Proportional data were arcsine transformed and other data were log-transformed to improve normality and decrease heteroscedasticity.
+
+The season of clipping was examined during 1999 and 2000 by establishing three additional subplots (1 1 m) in plots that were not treated with herbicide. One subplot was for spring clipping (once each in May and June), one for summer clipping (once each in July and August), and one was clipped in all 4 months. The effect of spring clipping was evaluated by sampling species composition in subplots clipped in spring, subplots clipped in all months, and in unclipped subplots in August 2000, 6 weeks after the final clipping. The effect of summer clipping was evaluated the same way, except that subplots clipped in summer were sampled instead of those clipped in spring. Summer clipping, however, could not be evaluated 6 weeks after the final clipping (in October 2000) because of snow and was evaluated as soon as the snow melted the following March. We assume that species composition did not change under the snow. We tested the hypothesis that seasonal clipping differed from season-long clipping using two-factor ANOVA with season (spring or summer) as one factor and clipping period (none, single season, both seasons) as the other factor. A significant interaction between season and clipping period would indicate that the season of clipping influences the outcome. Dependent variables included the covers of *A. cristatum* and *B. gracilis*, total native cover, and species richness.
+
+The effect of herbicide on the seed production of *A. cristatum* was examined by counting seed heads in control plots and in plots receiving herbicide during 1998–2000. Seed heads were counted in quadrats used for measuring species cover. The effects of herbicide and clipping on the seed bank of *A. cristatum* were determined by sampling the seed bank in untreated control plots, in plots treated with herbicide, and in clipped subplots without herbicide. Three cores (10 cm diameter, 15 cm deep) were taken along a 1-m transect in each of five replicate plots in September 2000. Cores were frozen until April 2001 when they were spread in a 2-cm-thick layer over a base of vermiculite 3 cm deep, watered daily, and supplied with natural light in a greenhouse in Regina, Saskatchewan. Seedlings of *A. cristatum* were counted and removed every 2 weeks for 2 months. No new seedlings had appeared after 6 months. ANOVA tested whether seedling density varied among treatments.
+
+![](_page_2_Figure_4.jpeg)
+
+Figure 1. Cover of the introduced grass *Agropyron cristatum* in August 2000 in plots with no herbicide or clipping (HC), with no herbicide but with clipping (HC), with herbicide but no clipping (HC), and with both herbicide and clipping (HC). Cover was significantly (*p*  0.05) reduced by both herbicide and clipping. Solid circles: cover in replicate plots (multiple dots represent identical data). Open circles: treatment means. All plots were in an established stand of *A. cristatum* in southwestern Saskatchewan.
+
+# **Results**
+
+The cover of *A. cristatum* in 2000 was significantly (*p*  0.05, *df* 1, 16 for all three-factor ANOVAs) lower in plots receiving herbicide (Fig. 1, F 46.83) and clipping (F 18.50) but was unaffected by the addition of native
+
+![](_page_2_Figure_8.jpeg)
+
+Figure 2. Cover of the introduced grass *Agropyron cristatum* in plots either untreated (solid circles), treated with herbicide (open circles), or clipped since 1998 (squares). 1994–1997 data from Bakker et al. (2002).
+
+seeds (F 1.19). Further, there was a significant interaction between herbicide and clipping (F 16.56), because clipping greatly reduced the cover of *A. cristatum* in plots without herbicide but had no effect in plots receiving herbicide (Fig. 1). Clipping for 3 years reduced *A. cristatum* cover to about the same extent as herbicide application for 7 years (Fig. 1, HC vs. HC treatments). This effect was noticeable after a single year of clipping: *A. cristatum* cover in 1998 in clipped plots without herbicide was lower than that in unclipped plots with 5 years of herbicide (Fig. 2).
+
+The cover of the native grass *B. gracilis* in 2000 was significantly higher in plots receiving herbicide (Fig. 3, F 9.90) and seed addition (F 51.68) but was unaffected by clipping (F 0.41). A significant interaction between herbicide and seed addition (F 4.70) occurred because seed addition increased the cover of *B. gracilis* to about 10% in plots without herbicide but increased it to about 30% in plots receiving herbicide.
+
+The cover of *A. cristatum* in August 2000 decreased significantly with increasing cover of *B. gracilis* (Fig. 4). All four plots in which the cover of *A. cristatum* was zero had substantial cover of *B. gracilis*.
+
+The total cover of native species in 2000 was significantly higher in plots receiving herbicide (Fig. 5, F 11.48) and clipping (F 4.71) but was unaffected by seed addition (F 2.98). A significant interaction between herbicide and clipping (F 6.42) occurred because clipping increased native cover in plots without herbicide but had little effect in plots receiving herbicide. The most abun-
+
+![](_page_3_Figure_5.jpeg)
+
+Figure 3. Cover of the native grass *Bouteloua gracilis* in August 2000 in plots with no herbicide or seed addition (HS), with no herbicide but with seed addition (HS), with herbicide but no seed addition (HS), and with both herbicide and seed addition (HS). Cover was significantly (*p*  0.05) increased by both herbicide and seed addition. Solid circles: cover in replicate plots; open circles: treatment means.
+
+![](_page_3_Figure_7.jpeg)
+
+Figure 4. The relationship in August 2000 between the cover of the introduced grass *Agropyron cristatum* and the native grass *Bouteloua gracilis*, which was sown into stands of *A. cristatum* in 1994. Data are from plots with no herbicide or seed addition (HS), with no herbicide but with seed addition (HS), with herbicide but no seed addition (HS), and with both herbicide and seed addition (HS).
+
+dant species in plots receiving herbicide, averaged over other treatments, were *S. densa* (21%), *Artemisia frigida* (pasture sage, 18%), *B. gracilis* (15%), and *Antennaria neglecta* (pussytoes, 8%), all native.
+
+Species richness in 2000 was significantly higher in plots receiving herbicide (6.1 species per 0.5 m2) than in plots without herbicide (4.6 per 0.5 m2, F 9.41) but did not
+
+![](_page_3_Figure_11.jpeg)
+
+Figure 5. The total cover of native species in August 2000 in plots with no herbicide or clipping (HC), with no herbicide but with clipping (HC), with herbicide but no clipping (HC), and with both herbicide and clipping (HC). Cover was significantly (*p*  0.05) increased by both herbicide and clipping. Solid circles: cover in replicate plots; open circles: treatment means.
+
+vary with any other factor or interaction. Season of clipping (spring vs. summer) had no effect on any variable (covers of *A. cristatum* and *B. gracilis*, total native cover, species richness).
+
+The density of *A. cristatum* seed heads did not vary significantly between control and herbicide plots in 1998 but was three times higher in plots receiving herbicide (42 seed heads/m2) than in untreated controls (12/m2). Seed head density was significantly reduced by herbicide in 1999 (control, 70/m2; herbicide, 2/m2; F 8.37) and was unaffected in 2000 (control, 1.4/m2; herbicide, 1.8/m2). The density of *A. cristatum* seedlings emerging from the seed bank collected in September 2000 did not vary significantly among control, clipped, and herbicide plots. Average density was 284.4 seedlings/m2.
+
+# **Discussion**
+
+All three management strategies (herbicide, simulated grazing, seed addition) contributed to the suppression of *A. cristatum* or the promotion of native species. The effectiveness of the strategies varied among the response variables, however, suggesting that some combination of them is required for prairie restoration.
+
+Cover of *A. cristatum* was suppressed to about the same extent by herbicide and clipping in 2000. In contrast to the among-year variability in control achieved by herbicide application, clipping reduced *A. cristatum* every year. Clipping was more consistent among years because its application was homogeneous, whereas herbicide application using spray or a tractor-mounted wick in 1994–1998 was probably variable and low in areas with high standing crop. Herbicide might be more evenly and effectively applied to stands from which litter and thatch had been removed by burning (Grilz & Romo 1995). Herbicide application appeared to be more consistent and effective in 1999 and 2000, when a hand-held wick was used to selectively apply herbicide to *A. cristatum*.
+
+Seed addition had no direct effect on the cover of *A. cristatum*, as shown by the lack of a seed effect in the ANOVA. There was, however, a significantly negative relationship between the cover of *A. cristatum* and the sown native grass *B. gracilis*. The only plots without any *A. cristatum* were those with substantial cover of *B. gracilis*. The difference between the ANOVA and regression results suggest that the effect of competition from sown native grasses on *A. cristatum* cover is small relative to the effects of herbicide and clipping but that the effect is detectable and may increase over time if the cover of native species increases.
+
+No strategy eliminated *A. cristatum*, which persisted even after 7 years of repeated herbicide application. Twenty years of heavy spring grazing in Alberta (Hubbard 1949) and 20–30 years of annual heavy grazing in Idaho (Hull and Klomp 1966) produced vigorous stands of *A. cristatum*. Even without eliminating *A. cristatum*, however, grazing greatly decreased its cover and enhanced native species in our study.
+
+Among-year variation in *A. cristatum* cover in control plots is related to growing-season rainfall. Because *A. cristatum* is least abundant in dry years (Currie & Peterson 1966; Curtin et al. 2000; Bakker et al. 2002), control efforts might be most successful in dry years. The only reported failures of established stands of *A. cristatum* (10–17 year old) occurred in arid areas of Utah and Nevada and were attributed to drought (Bleak et al. 1965).
+
+The cover of the sown native grass *B. gracilis* increased significantly with both seed addition and herbicide. Seed addition alone increased *B. gracilis* cover from 0 in control plots to about 10%. In contrast, virtually no seedlings of *B. gracilis* were found in the year of seeding (1994) in plots without herbicide (Bakker et al. 1997). The establishment of a small population after 7 years suggests that the species is capable of germinating in the presence of *A. cristatum* in the years following sowing. The cover of *B. gracilis* also increased in plots receiving herbicide over the 7 years of the experiment, from being too low to report in 1994 (Bakker et al. 1997) to 30% in 2000. The restoration of native perennial grasses is clearly a long-term project.
+
+The application of herbicide to plots sown with *B. gracilis* increased *B. gracilis* cover to about the same level as in undisturbed prairie (Christian & Wilson 1999), showing that both competition from *A. cristatum* and dispersal limitations need to be overcome to restore *B. gracilis*. The response of *B. gracilis* to herbicide but not to clipping might be attributable to differences in time scales, because herbicide was applied for 7 years, whereas clipping was applied for only 3 years. The absence of a response by *B. gracilis* to clipping contrasts with the suppression of *A. cristatum* by clipping. Negative impacts of clipping on *A. cristatum* cover through biomass removal are likely to be faster than population increases of *B. gracilis* after *A. cristatum* removal.
+
+In contrast to the lack of the clipping effect on *B. gracilis*, the total cover of native species increased significantly with clipping, presumably because the total cover of all native species increased faster than that of one species (*B. gracilis*). Twenty years of annual heavy spring grazing in an *A. cristatum* stand near our study site also decreased *A. cristatum* and increased native grasses (Hubbard 1949). Similarly, 40 years of heavy grazing on a semiarid Colorado prairie increased species richness and decreased the abundance of tall species such as *Agropyron smithii* (western wheatgrass) (Milchunas et al. 1989). In terms of its influence on community structure, heavy grazing in Colorado was less important than topography and more important than short-term weather (Milchunas et al. 1989). Light or moderate amounts of grazing in Colorado have little effect on species composition (Milchunas et al. 1988). Our experiment used clipping, and real grazing differs from clipping in terms of trampling, selection, and patchiness and might produce different results.
+
+The total cover of native species increased significantly with herbicide, as well as clipping. Similar results were found in eastern Nebraska pasture dominated by the introduced perennial grass *Poa pratensis* (Kentucky bluegrass), where both mowing and herbicide more than doubled the cover of native C4 grasses (Cox & McCarty 1958).
+
+The season of clipping had no effect on any variable, despite published reports of seasonal variation in carbohydrate and nitrogen reserves of grasses such as *A. cristatum* (Trlica & Cook 1972; Miller et al. 1990; de Kroon & Bobbink 1997). A 10-year experiment in Colorado found that the season of heavy grazing had no effect on forage yield (Currie & Peterson 1966), consistent with our results. Further, *A. cristatum* persisted after 20 years of annual heavy spring grazing near our study site (Hubbard 1949), even though grazing occurred near the trough of carbohydrate reserves when it should be most deleterious. Seasonal variation in physiological parameters (carbohydrate and nutrient reserves) may not scale up into seasonal variation in grazing susceptibility (Caldwell et al. 1981).
+
+The seed bank was unaffected by 7 years of herbicide. Herbicide also had no effect on the seed bank of *A. cristatum* at our site after 3 years (Ambrose & Wilson 2003). In 1998 5 years of mechanized herbicide application produced only a 50% reduction in *A. cristatum* cover and increased seed head density threefold. Selective application of herbicide by hand in 1999 provided better control of *A. cristatum* and significantly reduced seed head density. The contrast among years suggests that herbicide increases seed production if it produces only partial control and reduces intraspecific competition.
+
+The seed bank was also unaffected by 3 years of clipping, which prevented flowering. The lack of response of the seed bank suggests that the seeds of *A. cristatum* persist in the soil for at least that long. Only 20% of experimentally sown *A. cristatum* seeds germinated in the first year at our site (Ambrose & Wilson 2003), and Utah populations also have a persistent seed bank (Pyke 1990). Further, the ability of *A. cristatum* to keep some seeds in the seed head through the fall and winter (Pyke 1990) may increase their ability to disperse long distances over snow.
+
+Scaling up our results to a large restoration faces two challenges. The first is the extent to which real grazing reflects our clipping results, and this need to be researched. Alternatively, close mowing might also work (e.g., Maron & Jeffries 2001; Wilson & Clark 2001). The second challenge is whether selective herbicide application makes any long-term contribution to the restoration beyond that produced by grazing.
+
+In summary herbicide, clipping, and seed addition were all effective in different aspects of suppressing *A. cristatum* and enhancing native species. *Agropyron cristatum* was not extirpated, but the use of continuing biological mechanisms (simulated grazing and competition from seeded native species) reduced *A. cristatum* to a minor component of the vegetation and replaced it with native species.
+
+# **Acknowledgments**
+
+We thank L. Ambrose, J. Bakker, M. Christensen, and X. Li for help in the field; M. Hansen and anonymous referees for comments on the article; and Grasslands National Park and the Natural Sciences and Engineering Research Council for funding.
+
+#### **LITERATURE CITED**
+
+- Ambrose, L. G., and S. D. Wilson. 2003. Emergence of the introduced grass *Agropyron cristatum* and the native grass *Bouteloua gracilis* in a mixed-grass prairie restoration. Restoration Ecology **11:**110–115.
+- Anonymous. 1992. Soil landscapes of Canada: Saskatchewan. Agriculture Canada, Publication 5243/B, Ottawa.
+- Bakker, J. D., J. Christian, S. D. Wilson, and J. Waddington. 1997. Seeding blue grama in old crested wheatgrass fields in southwestern Saskatchewan. Journal of Range Management **50:**156–159.
+- Bakker, J. D., S. D. Wilson, J. M. Christian, X. Li, L. G. Ambrose, and J. Waddington. 2003. Contingency of grassland restoration on year, site and competition from introduced grasses. Ecological Applications **13:**137–153.
+- Bleak, A. T., N. C. Frischknecht, A. P. Plummer, and R. E. Eckert, Jr. 1965. Problems in artificial and natural revegetation of the arid shadscale vegetation zone of Utah and Nevada. Journal of Range Management **18:**59–65.
+- Caldwell, M. M., J. H. Richards, D. A. Johnson, R. S. Nowak, and R. S. Dzurec. 1981. Coping with herbivory: photosynthetic capacity and resource allocation in two semiarid *Agropyron* bunchgrasses. Oecologia **50:**14–24.
+- Christian, J. M., and S. D. Wilson. 1999. Long-term ecosystem impacts of an introduced grass in the northern Great Plains. Ecology **80:**2397– 2407.
+- Collins, S. L., A. M. Knap, J. M. Briggs, J. M. Blair, and E. M. Steinauer. 1998. Modulation of diversity by grazing and mowing in native tallgrass prairie. Science **280:**745–747.
+- Cox, M. L., and M. K. McCarty. 1958. Some factors affecting establishment of desirable forage plants in weedy bluegrass pastures of eastern Nebraska. Journal of Range Management **11:**159–164.
+- Currie, P. O., and G. Peterson. 1966. Using growing-season precipitation to predict crested wheatgrass yields. Journal of Range Management **19:**284–288.
+- Curtin, D., F. Selles, H. Wang, R. P. Zentner, and C. A. Campbell. 2000. Restoring organic matter in a cultivated, semiarid soil using crested wheatgrass. Canadian Journal of Soil Science **80:**429–435.
+- Daubenmire, R. 1959. Canopy-coverage method of vegetational analysis. Northwest Science **33:**43–64.
+- de Kroon, H., and R. Bobbink. 1997. Clonal plant dominance under elevated nitrogen deposition, with special reference to *Brachypodium pinnatum* in chalk grassland. Pages 359–379 in H. de Kroon and J. van Groenendael, editors. The ecology and evolution of clonal plants. Backhuys, Leiden, The Netherlands.
+- Diaz, S., I. Noy-Meir, and M. Cabido. 2001. Can grazing response of herbaceous plants be predicted from simple vegetative traits? Journal of Applied Ecology **38:**497–508.
+- Dill, T. O., S. S. Waller, K. P. Vogel, R. N. Gates, and W. W. Stroup. 1986. Renovation of seeded warm-season pastures with atrazine. Journal of Range Management **39:**72–75.
+- Grilz, P. L., and J. T. Romo. 1995. Management considerations for controlling smooth brome in fescue prairie. Natural Areas Journal **15:** 148–156.
+- Hendon, B. C., and D. D. Briske. 1997. Demographic evaluation of a herbivory-sensitive perennial bunchgrass: does it possess an Achilles heel? Oikos **80:**8–17.
+- Howe, H. F. 1999. Response of *Zizia aurea* to seasonal mowing and fire in a restored prairie. American Midland Naturalist **141:**373–380.
+- Hubbard, W. A. 1949. Results of studies of crested wheatgrass. Scientific Agriculture **29:**385–395.
+- Hull, A. C., and G. J. Klomp. 1966. Longevity of crested wheatgrass in the
+
+- sagebrush-grass type of southern Idaho. Journal of Range Management **19:**5–11.
+- Johnston, A., S. Smoliak, and P. Stringer. 1969. Viable seed populations in Alberta prairie topsoils. Canadian Journal of Plant Science **49:** 75–82.
+- Jones, A. T., and M. J. Hayes. 1999. Increasing floristic diversity in grassland: the effects of management regime and provenance on species introduction. Biological Conservation **87:**381–390.
+- Jordan, W. R., III. 1988. Ecological restoration. Pages 311–316 in E. O. Wilson and F. M. Peter, editors. Biodiversity. National Academy Press, Washington, D.C.
+- Kindscher, K., and L. L. Tieszen. 1998. Floristic and soil organic matter changes after five and thirty-five years of native tallgrass prairie restoration. Restoration Ecology **6:**181–196.
+- Kitajima, K., and D. Tilman. 1996. Seed banks and seedling establishment on an experimental productivity gradient. Oikos **76:**381–391.
+- Lawrence, T., and C. D. Ratzlaff. 1989. Performance of some native and introduced grasses in a semiarid region of western Canada. Canadian Journal of Plant Science **69:**251–254.
+- Lesica, P., and T. DeLuca. 1996. Long-term harmful effects of crested wheatgrass on Great Plains grassland ecosystems. Journal of Soil and Water Conservation **51:**408–409.
+- Looman, J., and K. K. Best. 1987. Budd's flora of the Canadian prairie provinces. Publication 1662, Agriculture Canada, Research Branch, Hull.
+- Maron, J. L., and R. L. Jeffries. 2001. Restoring enriched grasslands: effects of mowing on species richness, productivity, and nitrogen retention. Ecological Applications **11:**1088–1100.
+- Marrs, R. H., R. J. Pakeman, and J. E. Lowday. 1993. Control of bracken and the restoration of heathland. V. Effects of bracken control treatments on the rhizome and its relationship with frond performance. Journal of Applied Ecology **30:**107–118.
+- McEvoy, P. B., and E. M. Coombs. 1999. Biological control of plant invaders: regional patterns, field experiments, and structured population models. Ecological Applications **9:**387–401.
+- Milchunas, D. G., W. K. Lauenroth, P. L. Chapman, and M. K. Kazempour. 1989. Effects of grazing, topography and precipitation on the structure of a semiarid grassland. Vegetatio **80:**11–23.
+- Milchunas, D. G., O. E. Sala, and W. K. Lauenroth. 1988. A generalized
+
+- model of the effects of grazing by large herbivores on grassland community structure. American Naturalist **132:**87–106.
+- Miller, R. F., M. R. Haferkamp, and R. F. Angell. 1990. Clipping date effects on soil water and regrowth in crested wheatgrass. Journal of Range Management **43:**253–257.
+- Morghan, K. J. R., and T. R. Seastedt. 1999. Effects of soil nitrogen reduction on nonnative plants in restored grasslands. Restoration Ecology **7:**51–55.
+- Peltzer, D. A., S. D. Wilson, and A. K. Gerry. 1998. Competition intensity along a productivity gradient in a low-diversity grassland. American Naturalist **151:**465–476.
+- Proulx, M., and A. Mazumder. 1998. Reversal of grazing impact on plant species richness in nutrient-poor vs. nutrient rich ecosystems. Ecology **79:**2581–2592.
+- Pyke, D. A. 1990. Comparative demography of co-occurring introduced and native tussock grasses: persistence and potential expansion. Oecologia **82:**537–543.
+- Richards, J. H. 1984. Root growth response to defoliation in two Agropyron bunchgrasses: field observations with an improved root periscope. Oecologia **64:**21–25.
+- Romo, J. T., P. L. Grilz, and L. Delanoy. 1994. Selective control of crested wheatgrass (*Agropyron cristatum* [L.] Gaertn. and *A. desertorum* Fisch.) in the northern Great Plains. Natural Areas Journal **14:**308–309.
+- Roundy, B. A., and C. A. Call. 1988. Revegetation of arid and semiarid rangelands. Pages 607–635 in P. T. Tueller, editors. Vegetation science applications for rangeland analysis and management. Kluwer, Dordrecht, The Netherlands.
+- Trlica, M. J., Jr., and C. W. Cook. 1972. Carbohydrate reserves of crested wheatgrass and Russian wildrye as influenced by development and defoliation. Journal of Range Management **25:**430–435.
+- Wilson, M. V., and D. L. Clark. 2001. Controlling invasive *Arrhenatherum elatius* and promoting native prairie grasses through mowing. Applied Vegetation Science **4:**129–138.
+- Wilson, S. D. 2002. Prairies. Pages 443–465 in A. J. Davy and M. R. Perrow, editors. Handbook of ecological restoration. Cambridge University Press, Cambridge, U.K.
+- Wilson, S. D., and A. K. Gerry. 1995. Strategies for mixed-grass prairie restoration: herbicide, tilling and nitrogen manipulation. Restoration Ecology **3/4:**290–298.

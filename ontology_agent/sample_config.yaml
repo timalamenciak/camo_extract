@@ -1,0 +1,25 @@
+# Sample ontology-agent configuration file
+# Save as: ~/.ontology-agent/config.yaml
+# Or set ONT_AGENT_CONFIG environment variable
+
+# LLM endpoint configuration (for term suggestion generation)
+llm:
+  endpoint: "https://spark-1267:11434/v1"
+  model: "qwen3.5:35b"
+  api_key: "${LLM_API_KEY}"  # Can reference environment variables
+  timeout: 600
+
+# Custom ontologies not listed on OLS/BioPortal
+custom_ontologies:
+  - name: "ELMO"
+    url: "https://raw.githubusercontent.com/timalamenciak/elmo/refs/heads/main/elmo.owl"
+    prefix: "elmo"
+    description: "EcoLink Model Ontology"
+
+# Override default endpoints (optional)
+ols_endpoint: "https://www.ebi.ac.uk/ols/api"
+bioportal_endpoint: "https://data.bioontology.bioontology.org"
+bioportal_api_key: "${BIOPORTAL_API_KEY}"
+
+# Fallback settings
+fallback_to_suggestions: true

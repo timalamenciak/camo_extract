@@ -1,0 +1,143 @@
+Contents lists available at [ScienceDirect](http://www.sciencedirect.com/science/journal/03043770)
+
+# Aquatic Botany
+
+journal homepage: [www.elsevier.com/locate/aquabot](http://www.elsevier.com/locate/aquabot)
+
+![](_page_0_Picture_5.jpeg)
+
+# Short communication
+
+# Restoration of pool margin communities in cutover peatlands
+
+# Poulin Monique∗, Fontaine Natacha, Rochefort Line
+
+Peatland Ecology Research Group & Centre d'études nordiques, Pavillon Paul-Comtois, Université Laval, 2425 rue de l'Agriculture, Québec, G1V 0A6, Canada
+
+#### article info
+
+Article history: Received 1 April 2010 Received in revised form 18 November 2010 Accepted 27 November 2010 Available online 4 December 2010
+
+Keywords: Peatland restoration Created pool Plant introduction Cladopodiella fluitans Sphagnum Moss layer transfer approach Donor site Restoration success
+
+## abstract
+
+Two experiments were conducted for developing restoration techniques for pool margin communities in cutover peatlands. We first aimed to measure the regeneration potential of a typical edge pool liverwort, Cladopodiella fluitans (Nees) H. Buch. We introduced C. fluitans in floating baskets in a restored peatland. We tested three fragment sizes (patches of 2 cm2, stretched patches and shredded fine fragments of 0.1–1 mm), two introduction densities (ratio between surface of collected areas and surface of restored areas of 1:5 and 1:10) as well as the effect of a straw mulch. After two years, the percentage covers of C. fluitans were five times larger in experimental units protected with straw than in those without protection. Yet, the fragment sizes and the densities tested had no effect on the regeneration of the liverwort. The second experiment aimed to test a moss layer transfer approach to restore plant diversity around pool margins. We tested four communities, dominated by (1) Sphagnum cuspidatum Hoffman, (2) Sphagnum fallax (H. Klinggraff) H. Klinggraff, (3) Sphagnum papillosum Linberg as well as (4) a mixed community composed of equal quantities of C. fluitans, S. cuspidatum and S. papillosum. We introduced plant material in two density ratios (1:5 and 1:10). Sphagnum mosses did colonize pool margins, and showed even more than 60% cover for some treatments after three growing seasons, but the recovery of the introduced vascular plants remained below 5% for most species. The establishment of pool vascular species thus seems to be more intricate than for bryophytes and specific introduction techniques might be needed.
+
+© 2010 Elsevier B.V. All rights reserved.
+
+# **1. Introduction**
+
+Although pools are known to significantly increase biodiversity in natural peatlands [\(Lindsay et al., 1985; Guinan et al., 1998;](#page-4-0) [Poulin et al., 2002; Fontaine et al., 2007\),](#page-4-0) attempts to re-establish their associated plant species assemblages along created pools in restored peatlands remain scarce. In bogs, pools are often characterized by open habitats dominated by liverworts and by wet Sphagnum species of the section Cuspidata and Subsecunda. In association with these substrates, one finds a diversity of vascular plants which do not occur in the other more abundant peatland habitats ([Fontaine et al., 2007\).](#page-4-0) Among others, Cladopodiella fluitans (Nees) H. Buch is a common liverwort around pools found in strict association with the uncommon and sporadically distributed species Utricularia cornuta Michx. Yet, we are aware of no trials for testing restoration techniques for this liverwort. In this study, we designed one experiment to test the regeneration potential of C. fluitans in restored peatlands.
+
+For Sphagnum dominated communities, the so called moss layer transfer approach developed in North America has been proved to be successful for dry residual peat surfaces but has never been used for wetter pool edges. This approach consists in transferring the upper vegetation layer from a natural donor site (i.e. the first 5–10 cm) over a 10–15 times larger area in a residual peatland [\(Rochefort and Lode, 2006\).](#page-4-0) Not only Sphagnum fragments are thus transferred but also all plant propagules occurring in this upper vegetation layer (fruits, seeds, rhizomes, roots, etc.), which lead to the recovery of typical plant communities found in natural bogs [\(Isselin-Nondedeu et al., 2007\).](#page-4-0) On the contrary, introducing plants as delimited plugs (in small patches with original soil) have proved unsuccessful for peatland restoration since they do not spread over bare peat surfaces in cut-over sites (Rochefort, personal observations). Yet, the few trials for restoring pool margins focused on transferring vegetation plugs, without success ([Mazerolle et al.,](#page-4-0) [2006\).](#page-4-0) We thus conducted a second experiment to test whether the moss layer transfer approach could be used successfully for restoring pool margin communities.
+
+# **2. Methods**
+
+#### 2.1. Restored site description
+
+Experiments were carried out from 2005 to 2007 at a restored peatland in central Québec (48◦47 N, 72◦10 W), eastern Canada.
+
+<sup>∗</sup> Corresponding author. Tel.: +1 418 656 2131x13035; fax: +1 418 656 7856. E-mail addresses: [monique.poulin@fsaa.ulaval.ca](mailto:monique.poulin@fsaa.ulaval.ca) (M. Poulin), [natacha.fontaine.1@ulaval.ca](mailto:natacha.fontaine.1@ulaval.ca) (F. Natacha), [line.rochefort@fsaa.ulaval.ca](mailto:line.rochefort@fsaa.ulaval.ca) (R. Line).
+
+<span id="page-1-0"></span>The 3.5 km<sup>2</sup> cut-over site was restored between 2000 and 2003 in the middle of an ombrotrophic peatland of 43 km<sup>2</sup>. The moss layer transfer approach (Rochefort and Lode, 2006) developed in Canada was used to restore the site, with no attention paid to recreate pools. To study the regeneration potential of C. fluitans, we recreated water saturated peat surfaces by filling floating baskets with peat and placing the baskets in former ditches filled all year long with water. This experiment will be referred to as the "Cladopodiella fluitans regeneration experiment". Former drainage ditches with gently sloping bare peat surfaces were used as a proxi for pools in order to study the regeneration success of wetter plant communities usually found along pool margins in natural peatlands, hereafter named the "pool margin communities experiment". Mean water pH of experimental ditches was 3.3 ( $\pm 0.7$ ) whereas it varied between 3.8 ( $\pm 0.5$ ) and 4 ( $\pm 0.3$ ) in pools of natural donor sites where plant material was collected. Mean annual temperature is 2.3 °C, which varies from -16 °C in January to 18 °C in July (Environment Canada, 2006).
+
+### 2.2. Experimental designs and data sampling
+
+# 2.2.1. C. fluitans regeneration
+
+For studying the regeneration potential of *C. fluitans*, we collected plant material from several floating mats within a poor fen remnant, some 250 km from the experimental site. At the experimental site, we tested the three following plant density ratio: 1:8, 1:4 and 1:2. The 1:8 ratio meaning for example that 1 m<sup>2</sup> of collected surface area was spread over 8 m<sup>2</sup> of restored surface area. We tested three different sizes of *C. fluitans* fragments: (1) patches of 1 cm × 2 cm with a thickness of 0.5 cm, (2) same as in 1 but stretched by hand to untangle C. fluitans carpet, and (3) fine shredded fragments (0.1–1 mm) as obtained by shredding *C. fluitans* with a food processor. Finally, we assessed the influence of a protective cover by adding a straw mulch to some plots. The treatments were not tested as a full factorial experiment because of the large number of experimental units needed for testing all combinations of treatments. We chose to focus on specific combinations of treatments which we judged more relevant for a first study on the regeneration capacity of C. fluitans. The 10 treatments constituted an incomplete factorial experiment and were randomly distributed among four ditches (blocks).
+
+Unmixed *C. fluitans* carpets were collected with a knife at the donor site and *C. fluitans* fragments were then introduced at the experimental site in plastic baskets ( $36 \, \mathrm{cm} \times 29 \, \mathrm{cm} \times 14 \, \mathrm{cm}$  depth) filled with *in situ* peat. Foam floats were used to keep their surface leveled with water. The baskets were perforated to keep the peat permanently saturated and a fine meshed screen confined peat within baskets. After two growing seasons, the cover of *C. fluitans* was evaluated from 10 randomly chosen sub-quadrats out of  $25 \, (4 \, \mathrm{cm} \times 5 \, \mathrm{cm})$  delineated within each basket. The randomization was done a new for each experimental basket. The cover of *C. fluitans* and bare peat was visually estimated to the nearest 5% in each small sub-quadrat.
+
+# 2.2.2. Pool margin communities
+
+We tested whether the moss layer transfer technique could be used for restoring pool communities. Plant material was collected from two nearby natural bogs. Four pool communities were tested. They were dominated by: (1) *S. cuspidatum* Hoffman, (2) *S. fallax* (H. Klinggraff) H. Klinggraff, (3) *S. papillosum* Lindberg, and (4) a mixed community composed of equal quantities of the following three species: *C. fluitans*, *S. cuspidatum* and *S. papillosum*. One or few vascular species could be dominant. We tested also two introduction densities (1:5 and 1:10 ratios, i.e. area of collected material over restored area). The nine treatments (two
+
+![](_page_1_Figure_9.jpeg)
+
+**Fig. 1.** Effect of density of introduced plant material, fragment size and straw mulch on the regeneration of Cladopodiella fluitans after two growing seasons. Bars indicate standard errors (n=4). Treatments are as follow: (1) density³ 1:8, stretched fragments⁵, no mulch; (2) density 1:8, large fragmentsc, no mulch; (3) density 1:8, large fragments, no straw; (5) density 1:4, fine fragmentsd, with mulch; (4) density 1:4, large fragments, no straw; (7) density 1:4, large fragments, with straw; (6) density 1:2, large fragments, no straw; (9) density 1:2, large fragments, with straw; (10) control without introduction.  $^a$ Ratio between surface of collected areas and surface of restored areas.  $^b$ Hand stretched entangled patches (2 cm²) of  $^c$ C. fluitans.  $^c$ Patches of  $^c$ C. fluitans of 2 cm².  $^d$ C. fluitans shredded with a food processor (0.1–1 mm fragments).
+
+densities  $\times$  4 communities +1 control without introduction) constituted an incomplete factorial experiment and were randomly distributed among four blocks. Two blocks were in individual ditches whereas the two other blocks were 100 m apart in the same ditch.
+
+At donor sites, we harvested by hand only the upper layer (10 cm) of the vegetation, including bryophyte and vascular plant species in each community, after evaluating the percent cover for all species. Collecting only the top surface allows a faster recovery of donor sites since living plant material is left in situ (Rochefort and Campeau, 2002). At the experimental site, the plant material was spread homogeneously by hand  $(1 \text{ m} \times 1.5 \text{ m})$  within each plot. The control plots did not receive any plant fragments to evaluate spontaneous colonization. For all treatments, a mulch of about 20 cm thick of well structured straw was manually spread on the introduced plant material to protect it from desiccation. We assessed plant establishment by estimating the percentage cover of moss and vascular plant species from six quadrats of  $25 \, \text{cm} \times 25 \, \text{cm}$  systematically located within each 1.5 m<sup>2</sup> plot after three growing seasons (a buffer of about 20 cm was kept around and in between quadrats). The percent cover was evaluated to the nearest 1% when the plant species occupied between 0 and 10% of the sampled quadrat and to the nearest 10% when it occupied between 11 and 100% of the sampled quadrat. This common approach was used since it is easier to give precise visual estimates when the plant cover is low (e.g. it is easier to tell the difference between 5 and 8% than between 23 and 26%).
+
+# 2.3. Statistical analyses
+
+For the *C. fluitans* regeneration experiment, the effect of treatments on *C. fluitans* cover was tested with an ANOVA in a completely randomized block design followed by a series of planned comparisons (nine *a priori* contrasts), testing the effect of either mulch, fragment size or plant density reintroduction. For the pool margin communities experiment, the effect of treatments on plant establishment was estimated by performing a two-way ANOVA
+
+<span id="page-2-0"></span>![](_page_2_Figure_2.jpeg)
+
+**Fig. 2.** Effect of introduction densities and community types on plant establishment after three growing seasons. The horizontal axis represents the four community types that were tested: CUS = Sphagnum cuspidatum, FAL = Sphagnum fallax, PAP = Sphagnum papillosum, MIX = mixed community composed of equal quantities of the following three species: Cladopodiella fluitans, S. cuspidatum and S. papillosum (see [Table 1](#page-3-0) for a complete description of the communities), as well as a control without introduction (CON). Bryophytes include Cladopodiella fluitans, S. cuspidatum, S. fallax, and S. papillosum. For bryophytes and E. vaginatum, letters refer to significant differences between communities regardless of the density, revealed by a protected LSD test. When no interaction was found, density was in fact significant for bryophytes only (F = 6.59; P = 0.02). There was a significant interaction between density and community type for E. virginicum (F = 6.37; P = 0.003) and A. glaucophylla (F = 5.91; P = 0.004). Significant differences between individual treatments according to LSMEANS comparison are shown by letters. No difference was found between treatments for Carex limosa and Rhychospora alba (P ≥ 0.5). Bars indicate standard errors (n = 4).
+
+for a randomized complete block design. Multiple comparison tests were used to locate differences between treatments of each main effect, once shown significant (protected LSD). When the density × community interaction was shown significant, the SLICE option of GLM in combination with LSMEANS comparison option (protected LSD) was used to detect the overall effect of a factor within each level of the other factor. All the analyses were conducted using the GLM procedure of SAS Software ([SAS Institute,](#page-4-0) [2003\).](#page-4-0)
+
+# **3. Results**
+
+#### 3.1. C. fluitans regeneration
+
+C. fluitans did not colonize bare peat when no fragment was added to the experimental floating peat surfaces ([Fig. 1;](#page-1-0) contrast control vs other treatments: F = 6.28, P = 0.02). Yet, when fragments were introduced, they spread more when protected by a straw mulch [\(Fig. 1;](#page-1-0) contrast straw 1:4 fine (treatment 5) vs no straw 1:4 fine (treatment 4): F = 6.73, P = 0.02; contrast straw large (treatments 3, 7, 9) vs no straw large (treatments 2, 6, 8), F = 19.53, P < 0.01). More precisely, treatments with straw had a mean percent cover of 55% while treatments without straw, excluding the control, had a mean percent cover of 11%. The size of fragments and their introduction density had no effect on the regeneration of C. fluitans (P varied between 0.15 and 0.98 for the six contrasts used).
+
+# 3.2. Pool margin communities
+
+After three years, bryophyte covers for all communities were much higher in the experimental plots (43%) than in the control plots where no introduction was done (2%; Fig. 2A). Introducing plant material with a higher density ratio proved slightly beneficial for bryophytes (F = 6.59; P = 0.02): with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A). The community dominated by S. papillosum established better than all the others (Fig. 2A). Analysing the outcome composition of the mixed community, we did observed the following: (1) the plots became <span id="page-3-0"></span>dominated by S. papillosum covering twice more surface area than when reintroduced as an unmixed community, (2) the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community, and (3) C. fluitans did not succeed to establish (Fig. 3).
+
+Vascular plants that were introduced had <5% cover after three years, except Eriophorum virginicum L. which reached 12 ± 3% cover in the S. cuspidatum community [\(Fig. 2C](#page-2-0)). Even though Eriophorum vaginatum L. was not part of the introduced plant material (Table 1), it invaded all communities in experimental plots with a mean percent cover between 10 ± 6% and 37 ± 16% [\(Fig. 2B](#page-2-0)). Andromeda glaucophylla Link. established best in the S. fallax community, especially with a higher initial density ratio ([Fig. 2D](#page-2-0)). Yet, its cover was low (5 ± 0.3%) despite a high initial cover at the donor site (28 ± 12%, see Table 1). Carex limosa L. and Rhyncospora alba (L.) Vahl. did not establish well; there was no difference between their mean percent cover in the control vs reintroduced communities [\(Fig. 2E](#page-2-0) and F).
+
+## **4. Discussion**
+
+### 4.1. C. fluitans regeneration
+
+Our study shows that C. fluitans is able to regenerate in a restored site when the peat surface is continually kept moist. Yet, straw mulch seems essential to the liverwort development. It is possible that C. fluitans may have benefited from nutrient leaching from straw mulch, but only K lixiviates from straw have been shown significant for peatland bryophytes (Rochefort, unpublished data). Even if peat substrate was permanently wet in our experiment, the liverwort may also have benefited from improved moisture conditions at the interface soil–atmosphere as shown beneficial for other mosses [\(Price et al., 1998\).](#page-4-0) Yet, we think C. fluitans may use straw mainly as a substrate for growth. Reintroduction by patches of C. fluitans protected with straw covered two times more surfaces after two growing seasons than originally. Yet, it did not grow directly on bare peat between patches but instead extended mainly on straw fragments. Straw thus seems to provide a suitable structural substrate for the growth and expansion of C. fluitans mats. The density and the fragment size had no effect on the regeneration of C. fluitans. Lower densities should be favored for restoring pool margins since areas dominated by C. fluitans mats in natural peatlands are restricted. For introducing C. fluitans directly on pool margins of restored sites, fine shredded fragments may produce a more uniform mat since they are easier to apply homogeneously. It remains that restoring unmixed C. fluitans carpets should be favored since it did not establish when introduced simultaneously with Sphagnum. Further research is needed to test whether C. fluitans is able tomaintain itself beside Sphagnum carpets on pool margins of restored peatland.
+
+![](_page_3_Figure_7.jpeg)
+
+**Fig. 3.** Establishment of Cladopodiella fluitans, Sphagnum cuspidatum and Sphagnum papillosum in the S. cuspidatum (CUS) and S. papillosum (PAP) dominated communities as well as in the mixed community (MIX, see Table 1), after three growing seasons. Mean covers have been multiplied by three for the species composing the mixed community to correspond to the same initial cover as for the CUS and PAP communities, facilitating direct comparison of establishment success between mixed and unmixed Sphagnum species dominated communities. Bars indicate standard errors (n = 4). The two introduction densities (1:5 and 1:10) were averaged here.
+
+## 4.2. Pool margin communities
+
+The Sphagnum moss layer transfer approach with wet bog communities was successful in revegetating Sphagnum carpets along pool margins, where a cover of 50% was reached after three growing seasons. The tested Sphagnum had similar establishment success than the other species used for restoring drier peat field surfaces, which reach 65% cover within 6–9 years post-restoration (Peatland Ecology Research Group, unpublished data). S. papillosum was the most successful species, especially when introduced simultaneously with S. cuspidatum where it grew twice as much as in the unmixed community. The benefit of growing peat mosses of the taxonomic section Sphagnum (ca S. magellanicum or S. papillosum) on substrate conditioned with species of the taxonomic section Cuspidata has been shown in the context of Sphagnum fibers farming for optimizing biomass production [\(Picard, 2010\).](#page-4-0) In fact, species of the section Sphagnum are not efficient in transporting water by capillarity and may benefit from the neighboring presence of individuals from the section Cuspidata which adhere better to the substrate and may act as a substrate conditioner on residual peat. This may also apply to pool margin which may sporadically experience drought during the summers.
+
+**Table 1** Mean percentage cover ± SD of the species at the donor sites in the harvested quadrats for the four communities (Cladopodiella fluitans, Sphagnum cuspidatum, Sphagnum fallax, and Sphagnum papillosum) prior to harvest (2005). For botanical nomenclature, see: [Ley and Crowe \(1999\)](#page-4-0) for Cladopodiella fluitans, [Anderson \(1990\)](#page-4-0) for Sphagna, and [Gleason and Cronquist \(1991\)](#page-4-0) for vascular plants.
+
+|                                               | C. fluitans | S. cuspidatum | S. fallax | S. papillosum |
+|-----------------------------------------------|-------------|---------------|-----------|---------------|
+| Cladopodiella fluitans (Nees) H. Buch         | 100         | 0             | 0         | 0             |
+| Sphagnum cuspidatum Hoffman                   | 0           | 99 ± 2        | 0         | 0             |
+| Sphagnum fallax (H. Klinggraff) H. Klinggraff | 0           | 0             | 98 ± 4    | 0             |
+| Sphagnum papillosum Lindberg                  | 0           | 0             | 0         | 99 ± 1        |
+| Andromeda glaucophylla Link.                  | 0           | 0             | 28 ± 12   | 7 ± 1         |
+| Carex limosa L.                               | 28 ± 18     | 44 ± 2        | 16 ± 19   | 20 ± 16       |
+| Chamaedaphne calyculata (L.) Moench.          | 1 ± 1       | 1 ± 2         | 7 ± 9     | 2 ± 2         |
+| Eriophorum virginicum L.                      | 0           | 24 ± 20       | 0         | 6 ± 6         |
+| Rhynchospora alba (L.) Vahl.                  | 0           | 14 ± 16       | 0         | 4 ± 5         |
+| Vaccinium oxycoccos L.                        | 2           | 4 ± 3         | 3 ± 4     | 3 ± 2         |
+
+<span id="page-4-0"></span>Despite successful establishment for Sphagnum mosses, vascular plants were still scarce in experimental plots, even after three growing seasons. Their establishment from seed germination may have been impeded by the reduced light intensity (Kettenring et al., 2006), but rhizomes were also part of the reintroduced material. It may also only be a question of time as vascular plants take six years to reach significant cover (more than 20%) on drier peat field surfaces (Isselin-Nondedeu et al., 2007). Pool vascular species may also have suffered from competition since our plots were spontaneously invaded by E. vaginatum. This plant is a competitive species known to be one of the few plants able to colonize vacuum mined peatlands (Lavoie et al., 2005; Poulin et al., 2005). However, a decrease in the number of E. vaginatum tussocks in time has been observed in abandoned peatlands (Lavoie et al., 2003, 2005) and this invasion at the pool margin might be just a transient phase in the restoration trajectory.
+
+# **Acknowledgements**
+
+The authors wish to thank R. Anderson, R. Beaudette, M. Bellemare, G. Lambert, N. Mosnier, Rémy Pouliot, C. St-Arnaud, P. Soku and D. Sarrazin for field assistance. We are also grateful to S. Boudreau, C. Boismenu, C. Lavoie and M. Darveau for valuable comments and statistical advises. Financial support was provided by the National Sciences and Engineering Research Council of Canada (NSERC), the Ministry of Natural Resources and Energy of New Brunswick, the Canadian Sphagnum Peat Moss Association, Acadian Peat Moss (1979) Ltd, ASB Greenworld Ltd, Berger Peat Moss Ltd, Fafard & Frères ltée, Fafard Peat Moss Company Ltd, Lambert Peat Moss Inc., Lamèque Quality Group Ltd, Les Tourbes Nirom Peat Moss Inc., Modugno-Hortibec Inc., Premier Horticulture Ltd, and Sun Gro Horticulture Canada Ltd. N. Fontaine benefited from a NSERC scholarship.
+
+# **References**
+
+- Anderson, L.E., 1990. A checklist of Sphagnum in North America North of Mexico. Bryologist 93, 500–501.
+- Environment Canada, 2006. National Climate Data and Information Archive. [http://www.climate.weatheroffice.ec.gc.ca/climateData/canada](http://www.climate.weatheroffice.ec.gc.ca/climateData/canada_e.html) e.html (January 19, 2010).
+
+- Fontaine, N., Poulin, M., Rochefort, L., 2007. Plant Diversity Associated with Pools in Natural and Restored Peatlands. Mires and Peat 2: art. 6, [http://www.mires](http://www.mires-and-peat.net/map02/map_02_06.htm)and-peat.net/map02/map 02 06.htm.
+- Gleason, H.A., Cronquist, A., 1991. Manual of Vascular Plants of Northeastern United States and Adjacent Canada, 2nd ed. The New York Botanical Garden, New York.
+- Guinan, L., O'Commor, À., O'Commor, M., Sheehy Skeffington, M., 1998. Small-scale vegetation patterns on a raised bog, Co. Offaly, and an atlantic blanket bog, Co. Galway, Ireland. In: Standen, V., Tallis, J.H., Meade, R. (Eds.), Patterned Mires and Mire Pools: Origin and Development; Flora and Fauna. British Ecological Society, University of Durham, Durham, pp. 66–86.
+- Isselin-Nondedeu, F., Rochefort, L., Poulin, M., 2007. Suivi à long terme de la dynamique de la végétation pour évaluer le succès de la restauration d'une tourbière exploitée (Québec, Canada). In: Colloque international « Tourbe et tourbières 2007, la tourbe en horticulture et la réhabilitation des tourbières après exploitation: quels enjeux pour demain?», Lamoura, France, October 8–11.
+- Kettenring, K., Gardner, G., Galatowitsch, S.M., 2006. Effect of light on seed germination of eight wetland Carex species. Ann. Bot. 98, 869–874.
+- Lavoie, C., Grosvernier, P., Girard, M., Marcoux, K., 2003. Spontaneous revegetation of mined peatlands: an useful restoration tool? Wetlands Ecol. Manage. 11, 97–107.
+- Lavoie, C., Marcoux, K., Saint-Louis, A., Price, J.S., 2005. The dynamics of a cottongrass (Eriophorum vaginatum L.) cover expansion in a vacuum-mined peatland, southern Québec, Canada. Wetlands 25, 64–75.
+- Ley, L.M., Crowe, J.M., 1999. An Enthusiasts Guide to the Liverworts and Hornworts of Ontario. Lakehead University, Thunder Bay, Canada.
+- Lindsay, R.A., Riggall, J., Burd, F., 1985. The use of small-scale surface patterns in the classification of British peatlands. Aquilo, Ser. Bot. 21, 69–79.
+- Mazerolle, M.J., Poulin, M., Lavoie, C., Rochefort, L., Desrochers, A., Drolet, B., 2006. Amphibian, arthropod, and vegetation patterns in natural and man-made bog pools: implications for restoration. Freshwater Biol. 51, 333–350.
+- Picard, H., 2010. Établissement d'espèces de sphaignes dans un contexte de production de biomasse. Mémoire (MSc). Faculté des Science de l'Agriculture et de l'Alimentation, Université Laval, Québec, 124 pp.
+- Poulin, M., Careau, D., Rochefort, L., Desrochers, A., 2002. From satellite imagery to peatland vegetation diversity: how reliable are habitat maps?. Conserv. Biol. 6, 16, http://www.consecol.org/vol6/iss2/art16/.
+- Poulin, M., Rochefort, L., Quinty, F., Lavoie, C., 2005. Spontaneous revegetation of mined peatlands in eastern Canada. Can. J. Bot. 83, 539–557.
+- Price, J.S., Rochefort, L., Quinty, F., 1998. Energy and moisture consideration on cutover peatlands: surface microtopography, mulch cover and Sphagnum regeneration. Ecol. Eng. 10, 213–312.
+- Rochefort, L., Campeau, S., 2002. Recovery of donor sites used for peatland restoration. In: Schmilewski, G., Rochefort, L. (Eds.), Peat in Horticulture, Quality and Environmental Challenges. International Peat Society Pärnu, Estonia, pp. 244–251.
+- Rochefort, L., Lode, E., 2006. Restoration of degraded boreal peatlands. In: Wieder, R.K., Vitt, D.H. (Eds.), Boreal Peatlands Ecosystems, Ecological Studies Series, vol. 188. Springer-Verlag, Berlin, pp. 381–423.
+- SAS Institute, 2003. Language Guide. Release 9.1. SAS Institute, Inc., Cary, U.S.A.

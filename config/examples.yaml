@@ -1,0 +1,267 @@
+# Few-shot examples for causal graph extraction
+
+examples:
+  - id: "example_1"
+    description: "Experimental predator removal study"
+    input_text: |
+      We conducted a predator exclusion experiment in grassland plots. After two years, plots without predators showed a 40% increase in native rodent abundance compared to control plots (p<0.01). This demonstrates that predation is a key driver of rodent population dynamics.
+
+    output_graph:
+      nodes:
+        - id: "node_exp1_intervention"
+          entity: "ENVO:0000386"
+          entity_label: "predator"
+          attribute: ""
+          attribute_label: ""
+          state_qualifier: "removed"
+          entity_type: "management_intervention"
+        - id: "node_exp1_outcome"
+          entity: "ENVO:0000386"
+          entity_label: "prey"
+          attribute: "PATO:0000070"
+          attribute_label: "abundance"
+          state_qualifier: "increased"
+          entity_type: "environmental_variable"
+      edges:
+        - id: "edge_exp1"
+          subject_node_id: "node_exp1_intervention"
+          object_node_id: "node_exp1_outcome"
+          predicate: "enables"
+          philosophical_account: "interventionist"
+          philosophical_account_family: "difference_making"
+          features:
+            direction_status: "asserted"
+            direction_evidence: "experimental"
+            token_or_type: "type"
+            determinism: "indeterministic_process"
+            proximate_distal: "proximate"
+            contributing_sole: "contributing_cause"
+            reversibility: "not_addressed"
+            strength_qualitative: "strong"
+          evidence:
+            type: "quasi_experiment"
+            object: "both"
+            BradfordHill_viewpoints: ["strength", "temporality", "experiment"]
+            certainty_grade: "high"
+          prov:
+            source_text: "After two years, plots without predators showed a 40% increase in native rodent abundance compared to control plots (p<0.01)"
+            source_page: 5
+            source_line_range: [10, 12]
+
+  - id: "example_2"
+    description: "Longitudinal observational study on climate impacts"
+    input_text: |
+      Over a 10-year monitoring period in temperate forests, we observed that warmer spring temperatures preceded earlier leaf-out dates across all 12 species studied (r = 0.78, p<0.001). This suggests climate warming is shifting phenological timing.
+
+    output_graph:
+      nodes:
+        - id: "node_clim1"
+          entity: "ENVO:00000142"
+          entity_label: "temperature"
+          attribute: "PATO:0000107"
+          attribute_label: "temperature"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_variable"
+        - id: "node_bio1"
+          entity: "BFO:0000015"
+          entity_label: "leaf emergence"
+          attribute: "PATO:0000072"
+          attribute_label: "timing"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_process"
+      edges:
+        - id: "edge_clim1"
+          subject_node_id: "node_clim1"
+          object_node_id: "node_bio1"
+          predicate: "causes"
+          philosophical_account: "probabilistic"
+          philosophical_account_family: "difference_making"
+          features:
+            direction_status: "asserted"
+            direction_evidence: "temporal_precedence"
+            token_or_type: "type"
+            determinism: "indeterministic_process"
+            proximate_distal: "distal"
+            contributing_sole: "contributing_cause"
+            reversibility: "not_addressed"
+            strength_qualitative: "strong"
+          evidence:
+            type: "observational_longitudinal"
+            object: "correlation"
+            BradfordHill_viewpoints: ["strength", "temporality", "consistency"]
+            certainty_grade: "moderate"
+          prov:
+            source_text: "warmer spring temperatures preceded earlier leaf-out dates across all 12 species studied (r = 0.78, p<0.001)"
+            source_page: 7
+            source_line_range: [4, 6]
+
+  - id: "example_3"
+    description: "Correlational study with multiple factors"
+    input_text: |
+      Soil nitrogen concentration was positively correlated with invasive plant cover (r = 0.62, p=0.02), while native species diversity showed a negative correlation with both nitrogen (r = -0.55, p=0.04) and invasive cover (r = -0.48, p=0.06). These patterns suggest that nitrogen enrichment may facilitate invasion at the expense of native diversity.
+
+    output_graph:
+      nodes:
+        - id: "node_nitrogen"
+          entity: "ENVO:00002006"
+          entity_label: "soil nitrogen"
+          attribute: "PATO:0000072"
+          attribute_label: "concentration"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_variable"
+        - id: "node_invasive"
+          entity: "ENVO:0000182"
+          entity_label: "invasive species"
+          attribute: "PATO:0000070"
+          attribute_label: "abundance"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_variable"
+        - id: "node_native"
+          entity: "ENVO:0000182"
+          entity_label: "native species"
+          attribute: "PATO:0000072"
+          attribute_label: "diversity"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_variable"
+      edges:
+        - id: "edge_nitrogen_invasive"
+          subject_node_id: "node_nitrogen"
+          object_node_id: "node_invasive"
+          predicate: "associated_with"
+          philosophical_account: "probabilistic"
+          philosophical_account_family: "difference_making"
+          features:
+            direction_status: "uncertain"
+            direction_evidence: "temporal_precedence"
+            token_or_type: "type"
+            determinism: "indeterministic_process"
+            proximate_distal: "not_addressed"
+            contributing_sole: "not_addressed"
+            reversibility: "not_addressed"
+            strength_qualitative: "moderate"
+          evidence:
+            type: "observational_cross_sectional"
+            object: "correlation"
+            BradfordHill_viewpoints: ["strength", "consistency"]
+            certainty_grade: "low"
+          prov:
+            source_text: "Soil nitrogen concentration was positively correlated with invasive plant cover (r = 0.62, p=0.02)"
+            source_page: 12
+            source_line_range: [3, 3]
+        - id: "edge_nitrogen_native"
+          subject_node_id: "node_nitrogen"
+          object_node_id: "node_native"
+          predicate: "negatively_regulates"
+          philosophical_account: "probabilistic"
+          philosophical_account_family: "difference_making"
+          features:
+            direction_status: "uncertain"
+            direction_evidence: "temporal_precedence"
+            token_or_type: "type"
+            determinism: "indeterministic_process"
+            proximate_distal: "not_addressed"
+            contributing_sole: "not_addressed"
+            reversibility: "not_addressed"
+            strength_qualitative: "moderate"
+          evidence:
+            type: "observational_cross_sectional"
+            object: "correlation"
+            BradfordHill_viewpoints: ["strength", "consistency"]
+            certainty_grade: "low"
+          prov:
+            source_text: "native species diversity showed a negative correlation with nitrogen (r = -0.55, p=0.04)"
+            source_page: 12
+            source_line_range: [4, 4]
+
+  - id: "example_4"
+    description: "Mechanistic pathway description"
+    input_text: |
+      Fire intensity determined the severity of soil heating, which in turn affected microbial community composition. High-intensity fires (>600°C) caused thermal sterilization of the top 5cm of soil, eliminating heat-sensitive taxa and favoring thermotolerant species.
+
+    output_graph:
+      nodes:
+        - id: "node_fire"
+          entity: "BFO:0000015"
+          entity_label: "fire"
+          attribute: "PATO:0000072"
+          attribute_label: "intensity"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_process"
+        - id: "node_heat"
+          entity: "PATO:0000107"
+          entity_label: "temperature"
+          attribute: "PATO:0000072"
+          attribute_label: "intensity"
+          state_qualifier: "unchanged"
+          entity_type: "environmental_variable"
+        - id: "node_microbe"
+          entity: "ENVO:0000382"
+          entity_label: "microbial community"
+          attribute: "PATO:0000072"
+          attribute_label: "diversity"
+          state_qualifier: "changed"
+          entity_type: "environmental_variable"
+      edges:
+        - id: "edge_fire_heat"
+          subject_node_id: "node_fire"
+          object_node_id: "node_heat"
+          predicate: "causes"
+          philosophical_account: "mechanistic"
+          philosophical_account_family: "production"
+          features:
+            direction_status: "asserted"
+            direction_evidence: "experimental"
+            token_or_type: "token"
+            determinism: "deterministic_process"
+            proximate_distal: "proximate"
+            contributing_sole: "sole_cause"
+            reversibility: "not_addressed"
+            strength_qualitative: "strong"
+          evidence:
+            type: "mechanistic_study"
+            object: "mechanism"
+            BradfordHill_viewpoints: ["mechanism", "experiment"]
+            certainty_grade: "high"
+          prov:
+            source_text: "Fire intensity determined the severity of soil heating, which in turn affected microbial community composition"
+            source_page: 15
+            source_line_range: [1, 2]
+        - id: "edge_heat_microbe"
+          subject_node_id: "node_heat"
+          object_node_id: "node_microbe"
+          predicate: "causes"
+          philosophical_account: "mechanistic"
+          philosophical_account_family: "production"
+          features:
+            direction_status: "asserted"
+            direction_evidence: "mechanistic_study"
+            token_or_type: "token"
+            determinism: "deterministic_process"
+            proximate_distal: "proximate"
+            contributing_sole: "sole_cause"
+            reversibility: "not_addressed"
+            strength_qualitative: "strong"
+          evidence:
+            type: "mechanistic_study"
+            object: "mechanism"
+            BradfordHill_viewpoints: ["mechanism", "experiment"]
+            certainty_grade: "high"
+          prov:
+            source_text: "High-intensity fires (>600°C) caused thermal sterilization of the top 5cm of soil, eliminating heat-sensitive taxa and favoring thermotolerant species"
+            source_page: 15
+            source_line_range: [3, 4]
+
+  - id: "example_5"
+    description: "No causal relationship found"
+    input_text: |
+      The study site comprised 20 plots across a gradient of soil moisture values ranging from 15-45%. Species richness varied from 12 to 28 species per plot. No significant relationships were detected between any environmental variables and species composition (PERMANOVA, p>0.05).
+
+    output_graph:
+      nodes: []
+      edges: []
+      metadata:
+        source_doi: ""
+        source_title: ""
+        extracted_at: ""
+        confidence: 0.0
+        note: "No causal relationships found; observed correlations were not significant"
