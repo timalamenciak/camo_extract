@@ -9,6 +9,7 @@ import os
 import re
 import sys
 import tempfile
+import traceback
 from pathlib import Path
 from typing import Optional
 
@@ -85,7 +86,10 @@ def process_folder(
         "skipped": [],
         "failed": [],
     }
+    if resume:
+        manifest = _load_processing_manifest(output_path, manifest)
     graphs = list(existing_graphs)
+    _save_progress_reports(gap_report.to_dict(), manifest, output_path)
 
     extractor = extractor or GraphExtractor(
         llm_endpoint=config.llm.endpoint,
@@ -124,6 +128,7 @@ def process_folder(
                 article_number,
                 len(articles),
             )
+            _save_progress_reports(gap_report.to_dict(), manifest, output_path)
             continue
         pdf_file = _find_pdf_for_article(article, pdf_files)
         if pdf_file is None:
@@ -135,7 +140,9 @@ def process_folder(
                 article_number,
                 len(articles),
             )
+            _save_progress_reports(gap_report.to_dict(), manifest, output_path)
             continue
+        graph = None
         try:
             LOGGER.info(
                 "[%d/%d] Extracting text from %s",
@@ -168,17 +175,28 @@ def process_folder(
                 gap_report.add(decision, source, node_id)
             _save_intermediate_result(graph, gap_report.to_dict(), article, output_path)
             manifest["processed"].append({"article": article_key, "pdf": pdf_file.name})
+            checkpoint = Consolidator(
+                config.output.merge_duplicated_nodes, True
+            ).consolidate(graphs)
+            validate_graph(checkpoint)
+            _save_outputs(checkpoint, gap_report.to_dict(), manifest, output_path)
             LOGGER.info(
-                "[%d/%d] Complete; partial result saved",
+                "[%d/%d] Complete; partial and consolidated outputs checkpointed",
                 article_number,
                 len(articles),
             )
         except Exception as exc:
+            failed_path = None
+            if graph is not None:
+                failed_path = _save_failed_result(
+                    graph, article, output_path, exc, traceback.format_exc()
+                )
             manifest["failed"].append(
                 {
                     "article": article_key,
                     "pdf": pdf_file.name,
                     "error": f"{type(exc).__name__}: {exc}",
+                    "failed_graph": str(failed_path) if failed_path else None,
                 }
             )
             LOGGER.exception(
@@ -187,6 +205,9 @@ def process_folder(
                 len(articles),
                 pdf_file.name,
             )
+            if failed_path:
+                LOGGER.error("Invalid graph retained at %s", failed_path)
+            _save_progress_reports(gap_report.to_dict(), manifest, output_path)
 
     LOGGER.info("Consolidating %d article graph(s)", len(graphs))
     consolidated = Consolidator(config.output.merge_duplicated_nodes, True).consolidate(
@@ -397,6 +418,30 @@ def _restore_partial_gaps(output_path: Path, report: GapReport) -> None:
             continue
 
 
+def _load_processing_manifest(
+    output_path: Path, default: dict[str, list[dict]]
+) -> dict[str, list[dict]]:
+    """Load the last atomic processing checkpoint for a resumed run."""
+    path = output_path / "processing_manifest.json"
+    if not path.exists():
+        return default
+    try:
+        loaded = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(loaded, dict):
+            raise ValueError("manifest root is not an object")
+        return {
+            key: value if isinstance(value := loaded.get(key), list) else []
+            for key in ("processed", "skipped", "failed")
+        }
+    except (OSError, json.JSONDecodeError, ValueError):
+        LOGGER.warning(
+            "Could not load prior processing manifest from %s; starting a new one",
+            path,
+            exc_info=True,
+        )
+        return default
+
+
 def _safe_filename(article: ArticleMetadata) -> str:
     value = article.record_id or article.doi or article.title or "unknown"
     return "".join(
@@ -415,9 +460,35 @@ def _save_intermediate_result(
     _atomic_json(partial / f"gaps_{suffix}.json", gaps)
 
 
+def _save_failed_result(
+    graph: dict,
+    article: ArticleMetadata,
+    output_path: Path,
+    error: Exception,
+    traceback_text: str,
+) -> Path:
+    failed = output_path / "failed"
+    failed.mkdir(parents=True, exist_ok=True)
+    path = failed / f"graph_{_safe_filename(article)}.json"
+    _atomic_json(
+        path,
+        {
+            "error": f"{type(error).__name__}: {error}",
+            "traceback": traceback_text,
+            "graph": graph,
+        },
+    )
+    return path
+
+
 def _save_outputs(graph: dict, gaps: dict, manifest: dict, output_path: Path) -> None:
     _atomic_json(output_path / "causal_graph.json", graph)
     _atomic_yaml(output_path / "causal_graph.yaml", graph)
+    _save_progress_reports(gaps, manifest, output_path)
+
+
+def _save_progress_reports(gaps: dict, manifest: dict, output_path: Path) -> None:
+    """Atomically checkpoint non-graph outputs after every article outcome."""
     _atomic_yaml(output_path / "ontology_gaps.yaml", gaps)
     _atomic_json(output_path / "processing_manifest.json", manifest)
     csv_path = output_path / "ontology_gaps.csv"
@@ -465,12 +536,32 @@ def _atomic_yaml(path: Path, value: dict) -> None:
 
 
 def _atomic_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(
         "w", encoding="utf-8", delete=False, dir=path.parent, suffix=".tmp"
     ) as handle:
         handle.write(text)
         temporary = handle.name
     os.replace(temporary, path)
+
+
+def _configure_logging(output_path: Path, level: str) -> Path:
+    """Log to both the console and an append-only file that survives crashes."""
+    output_path.mkdir(parents=True, exist_ok=True)
+    log_path = output_path / "processing.log"
+    formatter = logging.Formatter(
+        "%(asctime)s %(levelname)s %(message)s", datefmt="%Y-%m-%d %H:%M:%S"
+    )
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    file_handler = logging.FileHandler(log_path, mode="a", encoding="utf-8")
+    file_handler.setFormatter(formatter)
+    logging.basicConfig(
+        level=getattr(logging, level),
+        handlers=[console_handler, file_handler],
+        force=True,
+    )
+    return log_path
 
 
 def main() -> None:
@@ -498,13 +589,8 @@ def main() -> None:
         help="Console logging detail (default: INFO)",
     )
     args = parser.parse_args()
-    logging.basicConfig(
-        level=getattr(logging, args.log_level),
-        format="%(asctime)s %(levelname)s %(message)s",
-        datefmt="%H:%M:%S",
-        stream=sys.stdout,
-        force=True,
-    )
+    log_path = _configure_logging(Path(args.output_dir), args.log_level)
+    LOGGER.info("CAMO extraction run started; persistent log: %s", log_path)
     manifest = process_folder(
         args.input_dir,
         args.output_dir,

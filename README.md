@@ -13,6 +13,7 @@ Every successful run writes:
 - `ontology_gaps.yaml` — detailed missing/review-needed ontology terms
 - `ontology_gaps.csv` — tabular ontology-editor view
 - `processing_manifest.json` — processed, skipped, and failed articles
+- `processing.log` — append-only progress and full error tracebacks across runs
 - `partial/` — per-article graphs and gap reports for explicit resume runs
 
 The ontology report separates `exact_match`, `synonym_match`,
@@ -66,7 +67,8 @@ python -m src.main input output --test-mode --max-articles 3
 python -m src.main input output --resume
 ```
 
-INFO progress logs are printed for every article and chunk. Use
+INFO progress logs are printed for every article and chunk and appended to
+`output/processing.log`. Use
 `--log-level WARNING` for quieter runs or `--log-level DEBUG` when diagnosing a
 failure.
 
@@ -80,8 +82,10 @@ The default LLM configuration targets an OpenAI-compatible Ollama endpoint at
 `http://localhost:11434/v1`. Override it in `config/llm_settings.yaml` or with a
 custom configuration passed through `--config`.
 
-Resume is explicit: partial results are used only when `--resume` is supplied.
-Failures cause a non-zero CLI exit and remain visible in the processing manifest.
+Graph, ontology-gap, and manifest outputs are atomically checkpointed after each
+article succeeds or fails. Resume is explicit: partial results are used only
+when `--resume` is supplied. Failures cause a non-zero CLI exit and remain
+visible in the processing manifest and persistent log.
 
 ## Tests
 

@@ -54,11 +54,29 @@ extraction_instructions: |
   Add measured_attribute_mention when a property such as abundance, cover,
   diversity, rate, concentration, or temperature is measured.
 
+  state_or_change_qualifier MUST be exactly one of: increased, decreased,
+  present, absent, introduced, removed, unchanged, unspecified, occurred,
+  initiated, terminated, ongoing, interrupted, aborted. Normalize source words
+  such as "reduced", "declined", and "lower" to decreased; normalize
+  "elevated", "enhanced", and "higher" to increased.
+
   Each edge must have: id, subject, predicate, object, claim_strength
   (no_relationship, associational, uncertain_causal, direct_causal), one or more
   philosophical_accounts, original_sentence, and evidential_basis containing
-  evidence_types and evidence_objects. Use CAMO v0.7.1 enum values. Do not emit
-  a causal edge for background statements or unsupported speculation.
+  evidence_types and evidence_objects.
+
+  evidence_types MUST describe the study design and be chosen only from:
+  randomized_experiment, natural_experiment, quasi_experiment,
+  observational_longitudinal, observational_cross_sectional,
+  mechanistic_study, structural_equation_model, meta_analysis,
+  systematic_review, modeling_simulation, expert_judgment, case_study,
+  theoretical, indigenous_knowledge, practitioner_experience.
+
+  evidence_objects MUST describe what the evidence supports and be chosen only
+  from: correlation, mechanism, both. Never put "correlation" in
+  evidence_types, and never put study designs such as "survey_data" in
+  evidence_objects. Do not emit a causal edge for background statements or
+  unsupported speculation.
 
 output_format_instruction: |
   Return only valid JSON. Do not use Markdown fences or explanatory text.
