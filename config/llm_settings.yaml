@@ -2,8 +2,8 @@
 
 llm:
   provider: "ollama"
-  endpoint: "http://localhost:11434/v1"
-  model: "qwen2.5:14b"
+  endpoint: "http://spark-1267:11434/v1"
+  model: "qwen3.5:35b"
   api_key: "${OLLAMA_API_KEY:-}"
   timeout: 600
   temperature: 0.1
