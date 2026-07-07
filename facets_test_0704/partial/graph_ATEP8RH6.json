@@ -1,0 +1,463 @@
+{
+  "graph_id": "causal_mosaic:graph:a86820db7004",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T00:03:14.743712+00:00",
+    "source_corpus": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:986e4036bcf8",
+      "name": "Shallow basins",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8960bc81cd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Results of these experiments demonstrate that shallow basins were generally effective at promoting Sphagnum establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7ff379447e0b",
+      "name": "Sphagnum establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9dfa63a2d7",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "establishment success",
+      "source_spans": [
+        {
+          "text": "Results of these experiments demonstrate that shallow basins were generally effective at promoting Sphagnum establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:40f3fa5e95d8",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09000026",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "volumetric water content",
+      "source_spans": [
+        {
+          "text": "Soil-moisture content (linear positive effect) and duration and severity of flooding events (quadratic effect) were shown to be determinant of plant recovery."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5d1f9e5fc1d2",
+      "name": "Flooding events",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bc18c36d4d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "duration and severity of flooding events (quadratic effect) were shown to be determinant of plant recovery."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:46c0f1d21f5a",
+      "name": "Sphagnum establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9dfa63a2d7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "establishment success",
+      "source_spans": [
+        {
+          "text": "moss cover, however, dropped when the likelihood of being subjected to frequent or severe flooding increased beyond a certain threshold"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de698da063d1",
+      "name": "Straw mulch cover",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a7be2ccec0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Initial mulch density had a linear positive impact on Sphagnum establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ed2c4268fd8",
+      "name": "Surface roughness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d4718d492b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b41c0cdab938",
+      "name": "Plant reintroduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1ad612b0fc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "active reintroduction of peatland plant diaspores... to improve the success of current peatland restoration techniques."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:98b655909fc9",
+      "name": "Blocking drainage ditches",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_768cd8c55b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rewetting the abandoned peat surfaces by blocking the drainage ditches is a necessary step for restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09eb96f1b55e",
+      "name": "Rewetting",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_12f3145096",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rewetting the abandoned peat surfaces by blocking the drainage ditches is a necessary step for restoration"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:847977250499",
+      "subject": "causal_mosaic:node:986e4036bcf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ff379447e0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results of these experiments demonstrate that shallow basins were generally effective at promoting Sphagnum establishment",
+      "source_spans": [
+        {
+          "text": "Results of these experiments demonstrate that shallow basins were generally effective at promoting Sphagnum establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b51cce269d4e",
+      "subject": "causal_mosaic:node:986e4036bcf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40f3fa5e95d8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of basins resulted in wetter conditions for peatland plants to develop; volumetric water content of surface peat averaged 88% in basins in 1996, significantly higher than the 71% measured for flat surfaces",
+      "source_spans": [
+        {
+          "text": "The use of basins resulted in wetter conditions for peatland plants to develop; volumetric water content of surface peat averaged 88% in basins in 1996, significantly higher than the 71% measured for flat surfaces"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b3a833cd38d8",
+      "subject": "causal_mosaic:node:40f3fa5e95d8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ff379447e0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil moisture generally had an important, linear positive effect on Sphagnum establishment",
+      "source_spans": [
+        {
+          "text": "Soil moisture generally had an important, linear positive effect on Sphagnum establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c1e0151a98d8",
+      "subject": "causal_mosaic:node:5d1f9e5fc1d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ff379447e0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "grid cells that were most likely to experience a certain degree of flooding developed a better moss cover than cells that were rarely flooded",
+      "source_spans": [
+        {
+          "text": "grid cells that were most likely to experience a certain degree of flooding developed a better moss cover than cells that were rarely flooded"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:04bd26abe16a",
+      "subject": "causal_mosaic:node:5d1f9e5fc1d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:46c0f1d21f5a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "moss cover, however, dropped when the likelihood of being subjected to frequent or severe flooding increased beyond a certain threshold",
+      "source_spans": [
+        {
+          "text": "moss cover, however, dropped when the likelihood of being subjected to frequent or severe flooding increased beyond a certain threshold"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1a912e26b955",
+      "subject": "causal_mosaic:node:de698da063d1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ff379447e0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Initial mulch density had a linear positive impact on Sphagnum establishment",
+      "source_spans": [
+        {
+          "text": "Initial mulch density had a linear positive impact on Sphagnum establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7457aba29d2d",
+      "subject": "causal_mosaic:node:2ed2c4268fd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:46c0f1d21f5a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover",
+      "source_spans": [
+        {
+          "text": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5213f415a733",
+      "subject": "causal_mosaic:node:b41c0cdab938",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ff379447e0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "active reintroduction of peatland plant diaspores... to improve the success of current peatland restoration techniques",
+      "source_spans": [
+        {
+          "text": "active reintroduction of peatland plant diaspores... to improve the success of current peatland restoration techniques"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:649022491df2",
+      "subject": "causal_mosaic:node:98b655909fc9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:09eb96f1b55e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rewetting the abandoned peat surfaces by blocking the drainage ditches is a necessary step for restoration",
+      "source_spans": [
+        {
+          "text": "rewetting the abandoned peat surfaces by blocking the drainage ditches is a necessary step for restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

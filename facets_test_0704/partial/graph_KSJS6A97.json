@@ -1,0 +1,288 @@
+{
+  "graph_id": "causal_mosaic:graph:4e3d67b57973",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T20:16:20.272599+00:00",
+    "source_corpus": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:795b57638f0c",
+      "name": "removal of all planted Red and Jack Pine trees",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f21aad5eb7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The restoration involved removal of all planted Red and Jack Pine trees in the late 1980s from an area planted in the early 1950s(approximately 40 years earlier)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08687be7848a",
+      "name": "removal of the duff",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bccde98774",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In 1989 OMNR staff Don Cuddy and Kim Taylor supervised removal of the duff to expose the sandy soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd4e92d597ba",
+      "name": "restored to pre-settlement savannah vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b79b13c59e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "With a minimum effort of tree cutting and bulldozing, removal of pine duff and litter, that is estimated to have required five people over a period of less than two weeks, a hectare was successfully restored to pre-settlement savannah vegetation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ad09d24aab4a",
+      "name": "Biodiversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_962036c0b9",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "substantially greater",
+      "source_spans": [
+        {
+          "text": "Biodiversity, based on number of species and various indices, was substantially greater in the restored clearing than in the adjacent Red Pine plantation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c3fdd1c5997",
+      "name": "Orthopteran insects",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b89a52b136",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "much higher diversity and abundance",
+      "source_spans": [
+        {
+          "text": "Orthopteran insects, a useful indicator group of plant feeding species, had much higher diversity and abundance in the restored area."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:56a795a79ef3",
+      "subject": "causal_mosaic:node:795b57638f0c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd4e92d597ba",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The restoration involved removal of all planted Red and Jack Pine trees in the late 1980s from an area planted in the early 1950s(approximately 40 years earlier).",
+      "source_spans": [
+        {
+          "text": "The restoration involved removal of all planted Red and Jack Pine trees in the late 1980s from an area planted in the early 1950s(approximately 40 years earlier)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.22621/cfn.v124i2.1056",
+        "title": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+        "year": 2010,
+        "authors": [
+          "Catling, P. M.",
+          "Kostiuk, B."
+        ],
+        "journal": "Can Field Nat"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5c3830f2a7f4",
+      "subject": "causal_mosaic:node:08687be7848a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd4e92d597ba",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 1989 OMNR staff Don Cuddy and Kim Taylor supervised removal of the duff to expose the sandy soil.",
+      "source_spans": [
+        {
+          "text": "In 1989 OMNR staff Don Cuddy and Kim Taylor supervised removal of the duff to expose the sandy soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.22621/cfn.v124i2.1056",
+        "title": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+        "year": 2010,
+        "authors": [
+          "Catling, P. M.",
+          "Kostiuk, B."
+        ],
+        "journal": "Can Field Nat"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ca9ed0ac2249",
+      "subject": "causal_mosaic:node:795b57638f0c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ad09d24aab4a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Biodiversity, based on number of species and various indices, was substantially greater in the restored clearing than in the adjacent Red Pine plantation.",
+      "source_spans": [
+        {
+          "text": "Biodiversity, based on number of species and various indices, was substantially greater in the restored clearing than in the adjacent Red Pine plantation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.22621/cfn.v124i2.1056",
+        "title": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+        "year": 2010,
+        "authors": [
+          "Catling, P. M.",
+          "Kostiuk, B."
+        ],
+        "journal": "Can Field Nat"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:985b25c48179",
+      "subject": "causal_mosaic:node:08687be7848a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ad09d24aab4a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Biodiversity, based on number of species and various indices, was substantially greater in the restored clearing than in the adjacent Red Pine plantation.",
+      "source_spans": [
+        {
+          "text": "Biodiversity, based on number of species and various indices, was substantially greater in the restored clearing than in the adjacent Red Pine plantation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.22621/cfn.v124i2.1056",
+        "title": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+        "year": 2010,
+        "authors": [
+          "Catling, P. M.",
+          "Kostiuk, B."
+        ],
+        "journal": "Can Field Nat"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39f4d5ce121f",
+      "subject": "causal_mosaic:node:795b57638f0c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c3fdd1c5997",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Orthopteran insects, a useful indicator group of plant feeding species, had much higher diversity and abundance in the restored area.",
+      "source_spans": [
+        {
+          "text": "Orthopteran insects, a useful indicator group of plant feeding species, had much higher diversity and abundance in the restored area."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.22621/cfn.v124i2.1056",
+        "title": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+        "year": 2010,
+        "authors": [
+          "Catling, P. M.",
+          "Kostiuk, B."
+        ],
+        "journal": "Can Field Nat"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95fa5911ba08",
+      "subject": "causal_mosaic:node:08687be7848a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c3fdd1c5997",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Orthopteran insects, a useful indicator group of plant feeding species, had much higher diversity and abundance in the restored area.",
+      "source_spans": [
+        {
+          "text": "Orthopteran insects, a useful indicator group of plant feeding species, had much higher diversity and abundance in the restored area."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.22621/cfn.v124i2.1056",
+        "title": "Successful Re-establishment of a Native Savannah Flora and Fauna on the Site of a Former Pine Plantation at Constance Bay, Ottawa, Ontario",
+        "year": 2010,
+        "authors": [
+          "Catling, P. M.",
+          "Kostiuk, B."
+        ],
+        "journal": "Can Field Nat"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

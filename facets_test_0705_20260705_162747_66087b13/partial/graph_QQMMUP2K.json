@@ -1,0 +1,276 @@
+{
+  "graph_id": "causal_mosaic:graph:ab4f357b0061",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T19:49:13.095113+00:00",
+    "source_corpus": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0c07fba84413",
+      "name": "Peat mounding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fd0bfcad4f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Peat mounding may be effective for stimulating vegetation development on OSE-degraded WRF."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b8a4e78e94b",
+      "name": "Regeneration of bryophytes and vascular plants",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_54365ab919",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "For bryophytes, mean richness and diversity of liverworts, Sphagnum, and true mosses were higher in mounded than unmounded plots."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3aae2d3954f8",
+      "name": "Species diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38e5914f72",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species diversity",
+      "source_spans": [
+        {
+          "text": "For bryophytes, mean richness and diversity of liverworts, Sphagnum, and true mosses were higher in mounded than unmounded plots."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fd91cd9a7007",
+      "name": "Colonization of peatland plants",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_29ceda07ab",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Mounds facilitated the colonization of many peatland plants not adapted to waterlogged soils."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d587b19658a7",
+      "name": "Peatland habitat heterogeneity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1ef4f3b378",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Mounding increased peatland habitat heterogeneity",
+          "start_char": 26894,
+          "end_char": 26943,
+          "paragraph_id": "page:15"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:97c31343ef35",
+      "subject": "causal_mosaic:node:0c07fba84413",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0b8a4e78e94b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+      "source_spans": [
+        {
+          "text": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2018-0426",
+        "title": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+        "year": 2019,
+        "authors": [
+          "Caners, Richard T.",
+          "Crisfield, Varina",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2d3ab0199f0c",
+      "subject": "causal_mosaic:node:0c07fba84413",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "For bryophytes, mean richness and diversity of liverworts, Sphagnum, and true mosses were higher in mounded than unmounded plots.",
+      "source_spans": [
+        {
+          "text": "For bryophytes, mean richness and diversity of liverworts, Sphagnum, and true mosses were higher in mounded than unmounded plots."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2018-0426",
+        "title": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+        "year": 2019,
+        "authors": [
+          "Caners, Richard T.",
+          "Crisfield, Varina",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b47ce75aaf0",
+      "subject": "causal_mosaic:node:0c07fba84413",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3aae2d3954f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "For bryophytes, mean richness and diversity of liverworts, Sphagnum, and true mosses were higher in mounded than unmounded plots.",
+      "source_spans": [
+        {
+          "text": "For bryophytes, mean richness and diversity of liverworts, Sphagnum, and true mosses were higher in mounded than unmounded plots."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2018-0426",
+        "title": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+        "year": 2019,
+        "authors": [
+          "Caners, Richard T.",
+          "Crisfield, Varina",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:22d9b73362ba",
+      "subject": "causal_mosaic:node:0c07fba84413",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fd91cd9a7007",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mounds facilitated the colonization of many peatland plants not adapted to waterlogged soils.",
+      "source_spans": [
+        {
+          "text": "Mounds facilitated the colonization of many peatland plants not adapted to waterlogged soils."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2018-0426",
+        "title": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+        "year": 2019,
+        "authors": [
+          "Caners, Richard T.",
+          "Crisfield, Varina",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:664ca0197983",
+      "subject": "causal_mosaic:node:0c07fba84413",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d587b19658a7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mounding increased peatland habitat heterogeneity",
+      "source_spans": [
+        {
+          "text": "Mounding increased peatland habitat heterogeneity",
+          "start_char": 26894,
+          "end_char": 26943,
+          "paragraph_id": "page:15"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2018-0426",
+        "title": "Habitat heterogeneity stimulates regeneration of bryophytes and vascular plants on disturbed minerotrophic peatlands",
+        "year": 2019,
+        "authors": [
+          "Caners, Richard T.",
+          "Crisfield, Varina",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "graph_id": "causal_mosaic:graph:d288544c7564",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T20:04:01.108508+00:00",
+    "source_corpus": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:14f6afc5be95",
+      "name": "ecosystem-scale restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1d6fa636ab",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Following ecosystem-scale restoration of a post-harvested bog in Eastern Canada, a long term monitoring program was set up."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00eb72add8be",
+      "name": "phosphorus fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e9132b536c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The following spring phosphorus fertilization was applied where granular phosphate rock (0-13-0; McInnes Natural Fertilizers) was spread at the rate of 15 g m-2."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:32b713114711",
+      "name": "nutrient replenishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a27cef0191",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nutrient replenishment",
+      "source_spans": [
+        {
+          "text": "Among other, it highlighted P deficiencies in the non-restored section, and nutrient replenishment in the restored plant tissues."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:57ac8245fc8d",
+      "name": "P levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_09a203b8bc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "P levels",
+      "source_spans": [
+        {
+          "text": "P levels appear to be a good indicator of restoration success and should be used routinely in monitoring studies."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a98332f27518",
+      "name": "Sphagnum biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_72032493d6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Sphagnum biomass",
+      "source_spans": [
+        {
+          "text": "an average of 430 g m-2 of Sphagnum biomass had already accumulated after seven years and keeps accumulating"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:968f8b63eb86",
+      "name": "Na concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_424fa40cf9",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Na was more concentrated in the restored peat",
+          "start_char": 15956,
+          "end_char": 16001,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86695a13ee11",
+      "name": "Fe concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cb8a63e6b2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Fe (total and soluble) and N (NH4 and Ntot) were generally more concentrated in the non-restored peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3bd35f98549f",
+      "name": "N concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ace4a4e7d2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Fe (total and soluble) and N (NH4 and Ntot) were generally more concentrated in the non-restored peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5cf9f90318a1",
+      "name": "N uptake",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d5bca89150",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "N uptake",
+      "source_spans": [
+        {
+          "text": "P fertilization probably enhanced the capacity of Sphagnum to assimilate N"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:bbcf9423e88a",
+      "subject": "causal_mosaic:node:14f6afc5be95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:32b713114711",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Among other, it highlighted P deficiencies in the non-restored section, and nutrient replenishment in the restored plant tissues.",
+      "source_spans": [
+        {
+          "text": "Among other, it highlighted P deficiencies in the non-restored section, and nutrient replenishment in the restored plant tissues."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:df9d27403846",
+      "subject": "causal_mosaic:node:14f6afc5be95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:57ac8245fc8d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P levels appear to be a good indicator of restoration success and should be used routinely in monitoring studies.",
+      "source_spans": [
+        {
+          "text": "P levels appear to be a good indicator of restoration success and should be used routinely in monitoring studies."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fbe0a062a019",
+      "subject": "causal_mosaic:node:14f6afc5be95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a98332f27518",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "an average of 430 g m-2 of Sphagnum biomass had already accumulated after seven years and keeps accumulating",
+      "source_spans": [
+        {
+          "text": "an average of 430 g m-2 of Sphagnum biomass had already accumulated after seven years and keeps accumulating"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:598dc45d18cf",
+      "subject": "causal_mosaic:node:14f6afc5be95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:968f8b63eb86",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Na was more concentrated in the restored peat",
+      "source_spans": [
+        {
+          "text": "Na was more concentrated in the restored peat",
+          "start_char": 15956,
+          "end_char": 16001,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4dd93859e18b",
+      "subject": "causal_mosaic:node:14f6afc5be95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86695a13ee11",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fe (total and soluble) and N (NH4 and Ntot) were generally more concentrated in the non-restored peat",
+      "source_spans": [
+        {
+          "text": "Fe (total and soluble) and N (NH4 and Ntot) were generally more concentrated in the non-restored peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0da4a9c9a178",
+      "subject": "causal_mosaic:node:14f6afc5be95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3bd35f98549f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fe (total and soluble) and N (NH4 and Ntot) were generally more concentrated in the non-restored peat",
+      "source_spans": [
+        {
+          "text": "Fe (total and soluble) and N (NH4 and Ntot) were generally more concentrated in the non-restored peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1941a7c4889c",
+      "subject": "causal_mosaic:node:00eb72add8be",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5cf9f90318a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P fertilization probably enhanced the capacity of Sphagnum to assimilate N",
+      "source_spans": [
+        {
+          "text": "P fertilization probably enhanced the capacity of Sphagnum to assimilate N"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s13157-009-0015-0",
+        "title": "Peat, Water and Plant Tissue Chemistry Monitoring: A Seven-Year Case-Study in a Restored Peatland",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Rochefort, Line",
+          "Poulin, Monique"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

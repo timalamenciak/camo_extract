@@ -1,0 +1,474 @@
+{
+  "graph_id": "causal_mosaic:graph:fdd313539303",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T05:47:14.992738+00:00",
+    "source_corpus": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5ba99380e4c1",
+      "name": "Exponential fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c0aef758f1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f571de3f2267",
+      "name": "Seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f988faf83",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:77392231c748",
+      "name": "Nitrogen retranslocation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e24f279492",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5e6691252652",
+      "name": "Weed removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_be812458eb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization and weed removal increased height and root collar diameter growth but did not affect seedling survival over two growing seasons."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21433b962408",
+      "name": "Weed competition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b126f00527",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cbc684300f3b",
+      "name": "N content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0c6e1d9175",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization increased new stem and leaf biomass and N content but decreased the percent allocation of biomass to roots."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d19ad69b9e63",
+      "name": "N uptake by seedlings from the soil",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7f111fca2f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7a832a2c7a8e",
+      "name": "Percent allocation of biomass to roots",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7e800ad376",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization increased new stem and leaf biomass and N content but decreased the percent allocation of biomass to roots."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:434cf1f9f2ea",
+      "name": "New stem biomass allocation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_24ad76d873",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "New stem biomass allocation was significantly increased by both exponential fertilization ( P < 0.01) and weed removal ( P < 0.01) on the PMM site"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:11c2f5226f4f",
+      "subject": "causal_mosaic:node:5ba99380e4c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f571de3f2267",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ad37fcd4fe37",
+      "subject": "causal_mosaic:node:5ba99380e4c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:77392231c748",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f445e176466e",
+      "subject": "causal_mosaic:node:5e6691252652",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f571de3f2267",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Exponential fertilization and weed removal increased height and root collar diameter growth but did not affect seedling survival over two growing seasons.",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization and weed removal increased height and root collar diameter growth but did not affect seedling survival over two growing seasons."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d3820526198d",
+      "subject": "causal_mosaic:node:21433b962408",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:77392231c748",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site.",
+      "source_spans": [
+        {
+          "text": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a3f16e99fda1",
+      "subject": "causal_mosaic:node:21433b962408",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d19ad69b9e63",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site.",
+      "source_spans": [
+        {
+          "text": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1b291dee09f5",
+      "subject": "causal_mosaic:node:5e6691252652",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d19ad69b9e63",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site.",
+      "source_spans": [
+        {
+          "text": "Weed competition reduced N retranslocation by 37% ( P < 0.01) and N uptake by seedlings from the soil by 61% ( P = 0.01) on the LFH site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:90526e4df142",
+      "subject": "causal_mosaic:node:5ba99380e4c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cbc684300f3b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Exponential fertilization increased new stem and leaf biomass and N content but decreased the percent allocation of biomass to roots.",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization increased new stem and leaf biomass and N content but decreased the percent allocation of biomass to roots."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:87a54b3fc362",
+      "subject": "causal_mosaic:node:21433b962408",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cbc684300f3b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Weed competition decreased N content in leaves by 55% (P < 0.01) and N content in seedlings by 33% ( P = 0.01) on the LFH site.",
+      "source_spans": [
+        {
+          "text": "Weed competition decreased N content in leaves by 55% (P < 0.01) and N content in seedlings by 33% ( P = 0.01) on the LFH site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4cb582eece21",
+      "subject": "causal_mosaic:node:5ba99380e4c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7a832a2c7a8e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Exponential fertilization increased new stem and leaf biomass and N content but decreased the percent allocation of biomass to roots.",
+      "source_spans": [
+        {
+          "text": "Exponential fertilization increased new stem and leaf biomass and N content but decreased the percent allocation of biomass to roots."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:00c44e34caa5",
+      "subject": "causal_mosaic:node:5e6691252652",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:434cf1f9f2ea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "New stem biomass allocation was significantly increased by both exponential fertilization ( P < 0.01) and weed removal ( P < 0.01) on the PMM site",
+      "source_spans": [
+        {
+          "text": "New stem biomass allocation was significantly increased by both exponential fertilization ( P < 0.01) and weed removal ( P < 0.01) on the PMM site"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.03.034",
+        "title": "Exponential fertilization promotes seedling growth by increasing nitrogen retranslocation in trembling aspen planted for oil sands reclamation",
+        "year": 2016,
+        "authors": [
+          "Pokharel, P.",
+          "Chang, S.X."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

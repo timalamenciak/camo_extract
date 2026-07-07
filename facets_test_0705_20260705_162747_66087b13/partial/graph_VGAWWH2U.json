@@ -1,0 +1,296 @@
+{
+  "graph_id": "causal_mosaic:graph:0cb39380add3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T20:52:56.214634+00:00",
+    "source_corpus": "Response of a Small Mammal Population Postremediation for an Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:183daa40b058",
+      "name": "Bitumen and steam release",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1f8daa9515",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:580af5b4f69c",
+      "name": "Increased EROD activity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a792ef07a1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "EROD activity",
+      "source_spans": [
+        {
+          "text": "significantly higher cytochrome P450 (CYP1A1; hepatic detoxification) activity was observed in specimens collected in the high-impact zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:101a17dea829",
+      "name": "Decreased EROD activity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a792ef07a1",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "EROD activity",
+      "source_spans": [
+        {
+          "text": "higher ethoxyresoru ﬁn‐O‐deethylase induction was no longer evident"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a115422b61e8",
+      "name": "Increased Tissue Pb levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ac55c07852",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "tissue Pb",
+      "source_spans": [
+        {
+          "text": "tissue Pb was higher in voles from both the moderate‐ and high‐impact zones relative to the reference site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c23e9e7e82c1",
+      "name": "Increased Tissue Cr levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_216c01e2da",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Cr",
+      "source_spans": [
+        {
+          "text": "Cr was significantly higher than in the reference-site animals"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0bb3f12fe56a",
+      "name": "Decreased Capture rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f9f1bd830",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "capture rate",
+      "source_spans": [
+        {
+          "text": "capture rate was lower",
+          "start_char": 990,
+          "end_char": 1012,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:40ac31b32f49",
+      "name": "Decreased Body condition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_967d20a68a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "body condition",
+      "source_spans": [
+        {
+          "text": "SMI was significantly lower in 2017 than in 2014"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60cb8711005c",
+      "name": "Biodegradation",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:06105014",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "through biodegradation, photolysis, and other natural processes"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:db0dcaf30122",
+      "subject": "causal_mosaic:node:183daa40b058",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:580af5b4f69c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "significantly higher cytochrome P450 (CYP1A1; hepatic detoxification) activity was observed in specimens collected in the high-impact zones when compared to reference sites, which is indicative of exposure to contaminants",
+      "source_spans": [
+        {
+          "text": "significantly higher cytochrome P450 (CYP1A1; hepatic detoxification) activity was observed in specimens collected in the high-impact zones when compared to reference sites, which is indicative of exposure to contaminants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/etc.4408",
+        "title": "Response of a Small Mammal Population Postremediation for an Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Smits, Judit E.G.",
+          "Sanders, Greg",
+          "Charlebois, Michael"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:91dffee6541d",
+      "subject": "causal_mosaic:node:183daa40b058",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a115422b61e8",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "higher tissue Pb levels likely are related to the release of bitumen, process‐affected water, and steam",
+      "source_spans": [
+        {
+          "text": "higher tissue Pb levels likely are related to the release of bitumen, process‐affected water, and steam"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/etc.4408",
+        "title": "Response of a Small Mammal Population Postremediation for an Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Smits, Judit E.G.",
+          "Sanders, Greg",
+          "Charlebois, Michael"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:abbd2aa28416",
+      "subject": "causal_mosaic:node:183daa40b058",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c23e9e7e82c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The higher Cr in voles from the most heavily affected sites in 2014 was a finding mirroring that of Berger et al. (2016)",
+      "source_spans": [
+        {
+          "text": "The higher Cr in voles from the most heavily affected sites in 2014 was a finding mirroring that of Berger et al. (2016)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/etc.4408",
+        "title": "Response of a Small Mammal Population Postremediation for an Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Smits, Judit E.G.",
+          "Sanders, Greg",
+          "Charlebois, Michael"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c040af7239f3",
+      "subject": "causal_mosaic:node:60cb8711005c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:101a17dea829",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "toxicity from the bitumen‐related compounds decreased over time through biodegradation, photolysis, and other natural processes",
+      "source_spans": [
+        {
+          "text": "toxicity from the bitumen‐related compounds decreased over time through biodegradation, photolysis, and other natural processes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/etc.4408",
+        "title": "Response of a Small Mammal Population Postremediation for an Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Smits, Judit E.G.",
+          "Sanders, Greg",
+          "Charlebois, Michael"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e57b92724c3",
+      "subject": "causal_mosaic:node:a115422b61e8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40ac31b32f49",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lead residues appeared to negatively affect body condition, a correlation that differed between years",
+      "source_spans": [
+        {
+          "text": "Lead residues appeared to negatively affect body condition, a correlation that differed between years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/etc.4408",
+        "title": "Response of a Small Mammal Population Postremediation for an Accidental Bitumen and Steam Release from a Wellhead in the Athabasca Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Smits, Judit E.G.",
+          "Sanders, Greg",
+          "Charlebois, Michael"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

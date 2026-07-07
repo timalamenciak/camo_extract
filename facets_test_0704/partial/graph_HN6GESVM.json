@@ -1,0 +1,536 @@
+{
+  "graph_id": "causal_mosaic:graph:88c371344aa7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T22:48:47.646519+00:00",
+    "source_corpus": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:684e1a8acb5e",
+      "name": "Walleye stocks",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_65b68511d6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Walleye (Sander vitreus) stocks in Nipigon Bay and Black Bay historically numbered as the largest stocks in Lake Superior, but collapsed in the 1960s"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d7bd75b4d76",
+      "name": "overfishing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_80106e782d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "collapsed in the 1960s due to overfishing",
+          "start_char": 2126,
+          "end_char": 2167,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:076c8f951a82",
+      "name": "habitat loss",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_64be763ab7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "collapsed in the 1960s due to overfishing, habitat loss, and other pressures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ecbddd2f6bb4",
+      "name": "rehabilitative stocking",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1e86facf15",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rehabilitative stocking of early life stages of walleye into Nipigon Bay from 1978 to 1986"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24aedbe7cb91",
+      "name": "adult transfers",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_14008ddcf0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "juvenile stocking and adult transfers from four source populations into Nipigon Bay differed substantially in their contributions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f0db1ee76ae",
+      "name": "re-established population",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_1adfe0626e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "contributions to the re-established population"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:59c9c7a8bcf6",
+      "name": "natural reproduction",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_870ef8e006",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "natural reproduction was occurring",
+          "start_char": 2677,
+          "end_char": 2711,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6583441d2d25",
+      "name": "walleye restoration efforts",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_994f6c3017",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "walleye restoration efforts in Lake Superior are working"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51d074631a78",
+      "name": "walleye in the Black Sturgeon River",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_7397d51185",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "walleye in the Black Sturgeon River are very closely related to the historical Black Bay population"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f2c3f34a45d",
+      "name": "historical Black Bay population",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_4334fe7d10",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "historical Black Bay population",
+          "start_char": 12479,
+          "end_char": 12510,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e09a99898c6b",
+      "name": "suitable restored habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dfbac04a56",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "given access to suitable restored habitat",
+          "start_char": 33392,
+          "end_char": 33433,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6fa5aa77bdd",
+      "name": "release from fishing pressure",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9eaa1c3587",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "release from fishing pressure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7152b9cd9610",
+      "name": "walleye recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f805642046",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "walleye are capable of some degree of recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:27e682e1b36e",
+      "name": "Re-establishing connectivity",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fef8745b89",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Re-establishing connectivity among component habitats"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af6bff5b120d",
+      "name": "walleye numbers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f76c22944e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "enhance walleye numbers"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:27785f8d5f9f",
+      "subject": "causal_mosaic:node:7d7bd75b4d76",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:684e1a8acb5e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Walleye (Sander vitreus) stocks in Nipigon Bay and Black Bay historically numbered as the largest stocks in Lake Superior, but collapsed in the 1960s due to overfishing, habitat loss, and other pressures.",
+      "source_spans": [
+        {
+          "text": "Walleye (Sander vitreus) stocks in Nipigon Bay and Black Bay historically numbered as the largest stocks in Lake Superior, but collapsed in the 1960s due to overfishing, habitat loss, and other pressures."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dc87ec9076b7",
+      "subject": "causal_mosaic:node:076c8f951a82",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:684e1a8acb5e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Walleye (Sander vitreus) stocks in Nipigon Bay and Black Bay historically numbered as the largest stocks in Lake Superior, but collapsed in the 1960s due to overfishing, habitat loss, and other pressures.",
+      "source_spans": [
+        {
+          "text": "Walleye (Sander vitreus) stocks in Nipigon Bay and Black Bay historically numbered as the largest stocks in Lake Superior, but collapsed in the 1960s due to overfishing, habitat loss, and other pressures."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[1].philosophical_accounts: unknown 'naturalist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:90014a1f8c59",
+      "subject": "causal_mosaic:node:24aedbe7cb91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f0db1ee76ae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Based on the genetic data, juvenile stocking and adult transfers from four source populations into Nipigon Bay differed substantially in their contributions to the re-established population.",
+      "source_spans": [
+        {
+          "text": "Based on the genetic data, juvenile stocking and adult transfers from four source populations into Nipigon Bay differed substantially in their contributions to the re-established population."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c307af97667",
+      "subject": "causal_mosaic:node:59c9c7a8bcf6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f0db1ee76ae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "The genetic data also indicated that natural reproduction was occurring and identified survivors from the former Nipigon Bay population.",
+      "source_spans": [
+        {
+          "text": "The genetic data also indicated that natural reproduction was occurring and identified survivors from the former Nipigon Bay population."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[3].philosophical_accounts: unknown 'naturalist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:d0e378604ac1",
+      "subject": "causal_mosaic:node:6583441d2d25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f0db1ee76ae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These findings suggest that walleye restoration efforts in Lake Superior are working",
+      "source_spans": [
+        {
+          "text": "These findings suggest that walleye restoration efforts in Lake Superior are working"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e551cd419eed",
+      "subject": "causal_mosaic:node:51d074631a78",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:8f2c3f34a45d",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Results from both the individual- and population-based analyses showed that walleye in the Black Sturgeon River are very closely related to the historical Black Bay population",
+      "source_spans": [
+        {
+          "text": "Results from both the individual- and population-based analyses showed that walleye in the Black Sturgeon River are very closely related to the historical Black Bay population"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[5].philosophical_accounts: unknown 'naturalist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:007bb81c0da2",
+      "subject": "causal_mosaic:node:e09a99898c6b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7152b9cd9610",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "given access to suitable restored habitat and release from fishing pressure, walleye are capable of some degree of recovery outside of active intervention efforts such as stocking or adult transfer.",
+      "source_spans": [
+        {
+          "text": "given access to suitable restored habitat and release from fishing pressure, walleye are capable of some degree of recovery outside of active intervention efforts such as stocking or adult transfer."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[6].philosophical_accounts: unknown 'naturalist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:411fe7d80155",
+      "subject": "causal_mosaic:node:f6fa5aa77bdd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7152b9cd9610",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "given access to suitable restored habitat and release from fishing pressure, walleye are capable of some degree of recovery outside of active intervention efforts such as stocking or adult transfer.",
+      "source_spans": [
+        {
+          "text": "given access to suitable restored habitat and release from fishing pressure, walleye are capable of some degree of recovery outside of active intervention efforts such as stocking or adult transfer."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:db8833ea1a26",
+      "subject": "causal_mosaic:node:27e682e1b36e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:af6bff5b120d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Re-establishing connectivity among component habitats could greatly enhance walleye numbers in Black Bay and potentially eliminate the need for stocking or transfers.",
+      "source_spans": [
+        {
+          "text": "Re-establishing connectivity among component habitats could greatly enhance walleye numbers in Black Bay and potentially eliminate the need for stocking or transfers."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3394/0380-1330(2007)33[133:GAOWSV]2.0.CO;2",
+        "title": "Genetic Assessment of Walleye (Sander vitreus) Restoration Efforts and Options in Nipigon Bay and Black Bay, Lake Superior",
+        "year": 2007,
+        "authors": [
+          "Wilson, Chris C.",
+          "Lavender, Mike",
+          "Black, Jeff"
+        ],
+        "journal": "Journal of Great Lakes Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

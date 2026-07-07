@@ -1,0 +1,385 @@
+{
+  "graph_id": "causal_mosaic:graph:11e77650084c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T09:38:28.570237+00:00",
+    "source_corpus": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:03e615cd475e",
+      "name": "naturally-regenerated post-harvest stands",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4baaaceb04",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands than in fire-origin and artificially regenerated post-harvest stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5813f1a2bdb",
+      "name": "Abundance of hardwoods, shrubs, and herbaceous plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2200ba882",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands than in fire-origin and artificially regenerated post-harvest stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bd4ee5d5894c",
+      "name": "amount of naturally regenerating logged forest in the surrounding landscape",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_30072753cb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "evidence of moose use increased as a function of the amount of naturally regenerating logged forest in the surrounding landscape"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:025e0e1ddecd",
+      "name": "moose use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d21be7d869",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "evidence of moose use increased as a function of the amount of naturally regenerating logged forest in the surrounding landscape"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f1e23beb822b",
+      "name": "intensity of post-harvest silviculture",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_88e0c1d966",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This study suggests that, relative to fire, the intensity of post-harvest silviculture influences habitat suitability for moose"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:13414fcff574",
+      "name": "habitat suitability for moose",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_255448f35a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This study suggests that, relative to fire, the intensity of post-harvest silviculture influences habitat suitability for moose"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d8a1cbbae33",
+      "name": "Planting and herbicide-spraying",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6dfd645bb0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Planting and herbicide-spraying accelerate succession toward conifer-dominance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0acaaa6336a4",
+      "name": "succession toward conifer-dominance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_71e39954a9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Planting and herbicide-spraying accelerate succession toward conifer-dominance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:960811d5c9ad",
+      "name": "Logging",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e408350ba7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "logging mainly results in removal of the overstory",
+          "start_char": 31786,
+          "end_char": 31836,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:26da08a5d231",
+      "name": "overstory",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d53a4fafd3",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "logging mainly results in removal of the overstory",
+          "start_char": 31786,
+          "end_char": 31836,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0e58df7be365",
+      "name": "overstory abundance of deciduous trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d70b96f84d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Stands where the overstory had a higher abundance of deciduous trees also had higher deciduous and total shrub abundance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1995bcf2a662",
+      "name": "deciduous and total shrub abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_182f403373",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Stands where the overstory had a higher abundance of deciduous trees also had higher deciduous and total shrub abundance"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c40cc73506ef",
+      "subject": "causal_mosaic:node:03e615cd475e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f5813f1a2bdb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands than in fire-origin and artificially regenerated post-harvest stands",
+      "source_spans": [
+        {
+          "text": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands than in fire-origin and artificially regenerated post-harvest stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8c28ccb3ef1b",
+      "subject": "causal_mosaic:node:bd4ee5d5894c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:025e0e1ddecd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "evidence of moose use increased as a function of the amount of naturally regenerating logged forest in the surrounding landscape",
+      "source_spans": [
+        {
+          "text": "evidence of moose use increased as a function of the amount of naturally regenerating logged forest in the surrounding landscape"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0007e18ef4d3",
+      "subject": "causal_mosaic:node:f1e23beb822b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:13414fcff574",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This study suggests that, relative to fire, the intensity of post-harvest silviculture influences habitat suitability for moose",
+      "source_spans": [
+        {
+          "text": "This study suggests that, relative to fire, the intensity of post-harvest silviculture influences habitat suitability for moose"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2872dacc87c1",
+      "subject": "causal_mosaic:node:7d8a1cbbae33",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0acaaa6336a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Planting and herbicide-spraying accelerate succession toward conifer-dominance",
+      "source_spans": [
+        {
+          "text": "Planting and herbicide-spraying accelerate succession toward conifer-dominance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cc9aedffe29d",
+      "subject": "causal_mosaic:node:960811d5c9ad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:26da08a5d231",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "logging mainly results in removal of the overstory",
+      "source_spans": [
+        {
+          "text": "logging mainly results in removal of the overstory",
+          "start_char": 31786,
+          "end_char": 31836,
+          "paragraph_id": "page:6"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac11731857c2",
+      "subject": "causal_mosaic:node:0e58df7be365",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1995bcf2a662",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stands where the overstory had a higher abundance of deciduous trees also had higher deciduous and total shrub abundance",
+      "source_spans": [
+        {
+          "text": "Stands where the overstory had a higher abundance of deciduous trees also had higher deciduous and total shrub abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

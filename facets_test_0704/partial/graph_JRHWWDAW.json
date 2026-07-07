@@ -1,0 +1,297 @@
+{
+  "graph_id": "causal_mosaic:graph:917a0aa85fb3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T08:26:10.795359+00:00",
+    "source_corpus": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4bfa3ca6b44a",
+      "name": "inputs of more modern, more bioavailable organic carbon sources from the surface environment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_59e01ab18e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "inputs of more modern, more bioavailable organic carbon sources from the surface environment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48c96dd576c5",
+      "name": "microbial community activity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d1d6f4ae64",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "microbial community activity",
+          "start_char": 41500,
+          "end_char": 41528,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2228ca459024",
+      "name": "cellular abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79c00ead93",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "cellular abundance",
+          "start_char": 44894,
+          "end_char": 44912,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:01377c44ea57",
+      "name": "microbial biogeochemical cycling",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c977222b53",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "microbial biogeochemical cycling",
+          "start_char": 3276,
+          "end_char": 3308,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba2d036fe940",
+      "name": "generation of metabolites such as H2S",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_866a5fac1d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "generation of metabolites such as H2S",
+          "start_char": 47112,
+          "end_char": 47149,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:543e524ef3dd",
+      "name": "age of input carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_89357030ed",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "age of input carbon",
+          "start_char": 45835,
+          "end_char": 45854,
+          "paragraph_id": "page:8"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:08aa3eaeec46",
+      "subject": "causal_mosaic:node:4bfa3ca6b44a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:48c96dd576c5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist",
+        "mechanistic"
+      ],
+      "original_sentence": "the presence of even minor contributions of more modern carbon can strongly stimulate microbial community activity.",
+      "source_spans": [
+        {
+          "text": "the presence of even minor contributions of more modern carbon can strongly stimulate microbial community activity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6cc406c7bb9f",
+      "subject": "causal_mosaic:node:4bfa3ca6b44a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2228ca459024",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist",
+        "mechanistic"
+      ],
+      "original_sentence": "this demonstrates that a relatively small input of modern carbon can be an important driver of cellular abundance and by extension microbial activity.",
+      "source_spans": [
+        {
+          "text": "this demonstrates that a relatively small input of modern carbon can be an important driver of cellular abundance and by extension microbial activity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:931fa7cf0c30",
+      "subject": "causal_mosaic:node:4bfa3ca6b44a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:01377c44ea57",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist",
+        "mechanistic"
+      ],
+      "original_sentence": "the impact of inputs of younger, more bioavailable carbon to geochemically reactive zones can result in stimulation of microbial biogeochemical cycling.",
+      "source_spans": [
+        {
+          "text": "the impact of inputs of younger, more bioavailable carbon to geochemically reactive zones can result in stimulation of microbial biogeochemical cycling."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:345c91991bfd",
+      "subject": "causal_mosaic:node:4bfa3ca6b44a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ba2d036fe940",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist",
+        "mechanistic"
+      ],
+      "original_sentence": "these observations imply that these inputs of more modern carbon can greatly contribute to the generation of metabolites such as H2S that represent a potential management hazard at this site.",
+      "source_spans": [
+        {
+          "text": "these observations imply that these inputs of more modern carbon can greatly contribute to the generation of metabolites such as H2S that represent a potential management hazard at this site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b271da2a743f",
+      "subject": "causal_mosaic:node:543e524ef3dd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2228ca459024",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "suggesting that the impact of age of input carbon on cellular abundances can be far greater than indicated by input carbon concentrations alone.",
+      "source_spans": [
+        {
+          "text": "suggesting that the impact of age of input carbon on cellular abundances can be far greater than indicated by input carbon concentrations alone."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

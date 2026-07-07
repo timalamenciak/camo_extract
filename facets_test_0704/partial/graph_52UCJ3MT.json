@@ -1,0 +1,142 @@
+{
+  "graph_id": "causal_mosaic:graph:ad83d3df4511",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T07:45:53.568757+00:00",
+    "source_corpus": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:97f276eb625f",
+      "name": "Harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c5c89c21ec",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Harvesting typically occurs on more productive sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:302d1e6825ac",
+      "name": "Recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_87860aea7a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000037",
+      "source_spans": [
+        {
+          "text": "Harvested areas are recovering more consistently over time relative to areas disturbed by wild ﬁre"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:432487c3da08",
+      "name": "Wildfire",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000787",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Vegetation in wildﬁre areas returned more rapidly than harvested areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0967160efbdd",
+      "name": "Vegetation return",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8d18714d68",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000161",
+      "source_spans": [
+        {
+          "text": "Vegetation in wildﬁre areas returned more rapidly than harvested areas"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:3a78803d19aa",
+      "subject": "causal_mosaic:node:97f276eb625f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:302d1e6825ac",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Harvested areas are recovering more consistently over time relative to areas disturbed by wild ﬁre",
+      "source_spans": [
+        {
+          "text": "Harvested areas are recovering more consistently over time relative to areas disturbed by wild ﬁre"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rse.2017.03.035",
+        "title": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+        "year": 2017,
+        "authors": [
+          "White, Joanne C.",
+          "Wulder, Michael A.",
+          "Hermosilla, Txomin",
+          "Coops, Nicholas C.",
+          "Hobart, Geordie W."
+        ],
+        "journal": "Remote Sensing of Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7526dc363268",
+      "subject": "causal_mosaic:node:432487c3da08",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0967160efbdd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetation in wildﬁre areas returned more rapidly than harvested areas",
+      "source_spans": [
+        {
+          "text": "Vegetation in wildﬁre areas returned more rapidly than harvested areas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rse.2017.03.035",
+        "title": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+        "year": 2017,
+        "authors": [
+          "White, Joanne C.",
+          "Wulder, Michael A.",
+          "Hermosilla, Txomin",
+          "Coops, Nicholas C.",
+          "Hobart, Geordie W."
+        ],
+        "journal": "Remote Sensing of Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

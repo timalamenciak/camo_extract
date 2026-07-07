@@ -1,0 +1,169 @@
+{
+  "graph_id": "causal_mosaic:graph:7ca589c7ae84",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T00:16:40.002403+00:00",
+    "source_corpus": "Efficacy of releasing captive reared broodstock into an imperilled wild Atlantic salmon population as a recovery strategy",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a450a330ce93",
+      "name": "releasing captive reared adult Atlantic salmon",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_249b2fdf6b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The strategy of releasing captive reared adult Atlantic salmonSalmo salar into the Magaguadavic River, New Brunswick, Canada, to spawn, was not an effective tool for rebuilding a seriously depressed wild population."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:85903a8705fd",
+      "name": "rebuilding a seriously depressed wild population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7adaff046e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The strategy of releasing captive reared adult Atlantic salmonSalmo salar into the Magaguadavic River, New Brunswick, Canada, to spawn, was not an effective tool for rebuilding a seriously depressed wild population."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0a64d33e89ce",
+      "name": "Atlantic salmon fry density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_75604decae",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The following year few to no Atlantic salmon fry were found, and most appeared not to be offspring of released adults."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f1d9197abfcb",
+      "name": "Fry parentage compatibility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_75604decae",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Microsatellite genetic analysis was used to determine that 9 % (three of 32 fish) of the Atlantic salmon fry collected in Linton Stream were compatible with single (one maternal, two paternal) sexually mature Floy tagged captive reared parents released the previous autumn."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7e27f5b71ccc",
+      "subject": "causal_mosaic:node:a450a330ce93",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:85903a8705fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The strategy of releasing captive reared adult Atlantic salmonSalmo salar into the Magaguadavic River, New Brunswick, Canada, to spawn, was not an effective tool for rebuilding a seriously depressed wild population.",
+      "source_spans": [
+        {
+          "text": "The strategy of releasing captive reared adult Atlantic salmonSalmo salar into the Magaguadavic River, New Brunswick, Canada, to spawn, was not an effective tool for rebuilding a seriously depressed wild population."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.0022-1112.2004.00546.x",
+        "title": "Efficacy of releasing captive reared broodstock into an imperilled wild Atlantic salmon population as a recovery strategy",
+        "year": 2004,
+        "authors": [
+          "Carr, J. W.",
+          "Whoriskey, F.",
+          "O'reilly, P."
+        ],
+        "journal": "Journal of Fish Biology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1f8cf9f7c8bf",
+      "subject": "causal_mosaic:node:a450a330ce93",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0a64d33e89ce",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The following year few to no Atlantic salmon fry were found, and most appeared not to be offspring of released adults.",
+      "source_spans": [
+        {
+          "text": "The following year few to no Atlantic salmon fry were found, and most appeared not to be offspring of released adults."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.0022-1112.2004.00546.x",
+        "title": "Efficacy of releasing captive reared broodstock into an imperilled wild Atlantic salmon population as a recovery strategy",
+        "year": 2004,
+        "authors": [
+          "Carr, J. W.",
+          "Whoriskey, F.",
+          "O'reilly, P."
+        ],
+        "journal": "Journal of Fish Biology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6d83403a8780",
+      "subject": "causal_mosaic:node:a450a330ce93",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f1d9197abfcb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Microsatellite genetic analysis was used to determine that 9 % (three of 32 fish) of the Atlantic salmon fry collected in Linton Stream were compatible with single (one maternal, two paternal) sexually mature Floy tagged captive reared parents released the previous autumn.",
+      "source_spans": [
+        {
+          "text": "Microsatellite genetic analysis was used to determine that 9 % (three of 32 fish) of the Atlantic salmon fry collected in Linton Stream were compatible with single (one maternal, two paternal) sexually mature Floy tagged captive reared parents released the previous autumn."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.0022-1112.2004.00546.x",
+        "title": "Efficacy of releasing captive reared broodstock into an imperilled wild Atlantic salmon population as a recovery strategy",
+        "year": 2004,
+        "authors": [
+          "Carr, J. W.",
+          "Whoriskey, F.",
+          "O'reilly, P."
+        ],
+        "journal": "Journal of Fish Biology"
+      }
+    }
+  ]
+}

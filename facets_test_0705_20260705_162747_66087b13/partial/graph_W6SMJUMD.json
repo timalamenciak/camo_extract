@@ -1,0 +1,1305 @@
+{
+  "graph_id": "causal_mosaic:graph:e2eb97acc6f1",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:44:37.415306+00:00",
+    "source_corpus": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b8e7b4f7a8ce",
+      "name": "Forest soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c3cc3061b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seedling emergence tended to be higher on forest soils for G. striata",
+          "start_char": 2275,
+          "end_char": 2344,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:671d5eec0142",
+      "name": "Seedling emergence of G. striata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7ba06233aa",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Seedling emergence tended to be higher on forest soils for G. striata",
+          "start_char": 2275,
+          "end_char": 2344,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:13426556339d",
+      "name": "75% shade",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fbd5286338",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "sporophyte emergence increased under 75% shade for M. struthiopteris",
+          "start_char": 2351,
+          "end_char": 2419,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f0355ab9cd8",
+      "name": "Sporophyte emergence of M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0cc863b4d6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "sporophyte emergence increased under 75% shade for M. struthiopteris",
+          "start_char": 2351,
+          "end_char": 2419,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:095d414dd817",
+      "name": "Competing understorey vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b6396f7643",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "competing understorey vegetation reduced the survival and growth of G. striata"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:570ae97825e6",
+      "name": "Survival and growth of G. striata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dba6d71d29",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival and growth",
+      "source_spans": [
+        {
+          "text": "competing understorey vegetation reduced the survival and growth of G. striata"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:da71366f5356",
+      "name": "Agricultural soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00002259",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "agricultural soil reduced the growth of M. struthiopteris"
+        },
+        {
+          "text": "emergence of G. striata seedlings was limited by agricultural soils"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af6e52b3121a",
+      "name": "Growth of M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "agricultural soil reduced the growth of M. struthiopteris"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d0b2235ad54c",
+      "name": "Competition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77be31355f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "sporophyte survival was reduced by competition in tree-planted riparian zones"
+        },
+        {
+          "text": "competition limited transplant survival in FOREST"
+        },
+        {
+          "text": "competition indeed reduced seedling survival for G. striata and O. sensibilis"
+        },
+        {
+          "text": "seedling survival and growth, which was rather limited by competition in tree-planted riparian zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4b33436d3f70",
+      "name": "Sporophyte survival of O. sensibilis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c5b5c093c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "sporophyte survival was reduced by competition in tree-planted riparian zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d58feaea4f13",
+      "name": "Planting trees",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5259a65f79",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Planting trees in post-agricultural riparian zones fosters establishment of forest herbs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4d8c7e89e923",
+      "name": "Establishment of forest herbs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_68e577b06e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Planting trees in post-agricultural riparian zones fosters establishment of forest herbs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4a18335f2e2b",
+      "name": "Environmental filters",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5bbe89d402",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Additional environmental filters... limit recolonization of the three studied species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c12554150f8",
+      "name": "Recolonization of the three studied species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5f61b7f4e9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Additional environmental filters... limit recolonization of the three studied species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cf6d244a3af",
+      "name": "Controlling spontaneous vegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_58c35fb604",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "controlling spontaneous vegetation after tree planting is advised when conceivable and cost-effective to promote the recolonization of environmentally-limited forest herbs"
+        },
+        {
+          "text": "controlling spontaneous vegetation in the first years after tree planting is advisable for fostering the recolonization of forest herbs that experience competitive limitation, such as G. striata and O. sensibilis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3384a724e9eb",
+      "name": "Recolonization of environmentally-limited forest herbs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a82d7d8d30",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "controlling spontaneous vegetation after tree planting is advised when conceivable and cost-effective to promote the recolonization of environmentally-limited forest herbs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7b7c6646c42",
+      "name": "50% shade",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_51505a64d6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "fewer sporophytes emerging under 50% (PLANTATION conditions) than under 75% of shade"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:149913ea3664",
+      "name": "Sporophyte emergence of M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c8149218f5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "fewer sporophytes emerging under 50% (PLANTATION conditions) than under 75% of shade"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:149b12fa26a0",
+      "name": "Transplant survival of the three species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5282d66373",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "competition limited transplant survival in FOREST"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44643ed60f16",
+      "name": "Competing vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_649dc77da5",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "competing vegetation reduced transplant growth in FOREST"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f5d901fea33",
+      "name": "Transplant growth of G. striata and M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0ced32e9f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "competing vegetation reduced transplant growth in FOREST"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75608499ded5",
+      "name": "Forest soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00002261",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "forest soil increased the growth of transplant M. struthiopteris in PLANTATION compared to agricultural soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba07056476ca",
+      "name": "Growth of M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "forest soil increased the growth of transplant M. struthiopteris in PLANTATION compared to agricultural soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1755b3ccdcea",
+      "name": "Seedling survival of G. striata and O. sensibilis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "competition indeed reduced seedling survival for G. striata and O. sensibilis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e99af40f543d",
+      "name": "Agricultural soils",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_003eccf960",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "agricultural soils reduced seedling growth for M. struthiopteris"
+        },
+        {
+          "text": "agricultural soils... limited seedling growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:468b0edd4bd3",
+      "name": "Seedling growth of M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f988faf83",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "agricultural soils reduced seedling growth for M. struthiopteris"
+        },
+        {
+          "text": "agricultural soils... limited seedling growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9733b5f0405b",
+      "name": "Emergence of G. striata seedlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8ef35fd895",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "emergence of G. striata seedlings was limited by agricultural soils"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f12746386a3",
+      "name": "Seedling survival and growth of G. striata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0b72b6b2ab",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival and growth",
+      "source_spans": [
+        {
+          "text": "seedling survival and growth, which was rather limited by competition in tree-planted riparian zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:10a24def0d05",
+      "name": "Low shade levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_19f9ed2fe2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "low shade levels reduced seedling emergence"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c28c556718c4",
+      "name": "Seedling emergence of M. struthiopteris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62679445e0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "low shade levels reduced seedling emergence"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a5aa91da6bc5",
+      "name": "Recolonization of G. striata and O. sensibilis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fa80879aae",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "controlling spontaneous vegetation in the first years after tree planting is advisable for fostering the recolonization of forest herbs that experience competitive limitation, such as G. striata and O. sensibilis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c79ae08e3c8",
+      "name": "Higher proportion of organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf30417391",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher proportion of organic matter and soil RH of forest soils fostered forest herb establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5d6c11f3159f",
+      "name": "Forest herb establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ebace12de7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher proportion of organic matter and soil RH of forest soils fostered forest herb establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f12b516baacb",
+      "name": "Prolonged high light availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_61d8015f41",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Prolonged high light availability is thus an important filter limiting forest herb recolonization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7cd7196b497e",
+      "name": "Forest herb recolonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8e0cb423ca",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Prolonged high light availability is thus an important filter limiting forest herb recolonization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c799be3f088",
+      "name": "Low hydrological dynamism",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6b410353ce",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "hydrological dynamism appeared too low to... foster the recolonization of forest herbs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2baf0de31377",
+      "name": "Recolonization of forest herbs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc0c76c0e8",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "hydrological dynamism appeared too low to... foster the recolonization of forest herbs"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9f507b9fcadd",
+      "subject": "causal_mosaic:node:b8e7b4f7a8ce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:671d5eec0142",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedling emergence tended to be higher on forest soils for G. striata",
+      "source_spans": [
+        {
+          "text": "Seedling emergence tended to be higher on forest soils for G. striata",
+          "start_char": 2275,
+          "end_char": 2344,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38bb4dff067f",
+      "subject": "causal_mosaic:node:13426556339d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f0355ab9cd8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "sporophyte emergence increased under 75% shade for M. struthiopteris",
+      "source_spans": [
+        {
+          "text": "sporophyte emergence increased under 75% shade for M. struthiopteris",
+          "start_char": 2351,
+          "end_char": 2419,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:641cc95f8f7f",
+      "subject": "causal_mosaic:node:095d414dd817",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:570ae97825e6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "competing understorey vegetation reduced the survival and growth of G. striata",
+      "source_spans": [
+        {
+          "text": "competing understorey vegetation reduced the survival and growth of G. striata"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:922d42d75366",
+      "subject": "causal_mosaic:node:da71366f5356",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:af6e52b3121a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "agricultural soil reduced the growth of M. struthiopteris",
+      "source_spans": [
+        {
+          "text": "agricultural soil reduced the growth of M. struthiopteris"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f6d8de0b8004",
+      "subject": "causal_mosaic:node:d0b2235ad54c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4b33436d3f70",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "sporophyte survival was reduced by competition in tree-planted riparian zones",
+      "source_spans": [
+        {
+          "text": "sporophyte survival was reduced by competition in tree-planted riparian zones"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ea565ed10b9d",
+      "subject": "causal_mosaic:node:d58feaea4f13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4d8c7e89e923",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Planting trees in post-agricultural riparian zones fosters establishment of forest herbs",
+      "source_spans": [
+        {
+          "text": "Planting trees in post-agricultural riparian zones fosters establishment of forest herbs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ab201cf176a2",
+      "subject": "causal_mosaic:node:4a18335f2e2b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c12554150f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Additional environmental filters... limit recolonization of the three studied species",
+      "source_spans": [
+        {
+          "text": "Additional environmental filters... limit recolonization of the three studied species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e56722ff09eb",
+      "subject": "causal_mosaic:node:6cf6d244a3af",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3384a724e9eb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "controlling spontaneous vegetation after tree planting is advised when conceivable and cost-effective to promote the recolonization of environmentally-limited forest herbs",
+      "source_spans": [
+        {
+          "text": "controlling spontaneous vegetation after tree planting is advised when conceivable and cost-effective to promote the recolonization of environmentally-limited forest herbs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7339ff464b58",
+      "subject": "causal_mosaic:node:d7b7c6646c42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:149913ea3664",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "fewer sporophytes emerging under 50% (PLANTATION conditions) than under 75% of shade",
+      "source_spans": [
+        {
+          "text": "fewer sporophytes emerging under 50% (PLANTATION conditions) than under 75% of shade"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dab19f4faece",
+      "subject": "causal_mosaic:node:d0b2235ad54c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:149b12fa26a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "competition limited transplant survival in FOREST",
+      "source_spans": [
+        {
+          "text": "competition limited transplant survival in FOREST"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38920be8c2bb",
+      "subject": "causal_mosaic:node:44643ed60f16",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1f5d901fea33",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "competing vegetation reduced transplant growth in FOREST",
+      "source_spans": [
+        {
+          "text": "competing vegetation reduced transplant growth in FOREST"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cf3a390087ff",
+      "subject": "causal_mosaic:node:75608499ded5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ba07056476ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "forest soil increased the growth of transplant M. struthiopteris in PLANTATION compared to agricultural soil",
+      "source_spans": [
+        {
+          "text": "forest soil increased the growth of transplant M. struthiopteris in PLANTATION compared to agricultural soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b0d4ad6726f0",
+      "subject": "causal_mosaic:node:d0b2235ad54c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1755b3ccdcea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "competition indeed reduced seedling survival for G. striata and O. sensibilis",
+      "source_spans": [
+        {
+          "text": "competition indeed reduced seedling survival for G. striata and O. sensibilis"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:654001e93b0d",
+      "subject": "causal_mosaic:node:e99af40f543d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:468b0edd4bd3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "agricultural soils reduced seedling growth for M. struthiopteris",
+      "source_spans": [
+        {
+          "text": "agricultural soils reduced seedling growth for M. struthiopteris"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2bd52d30742",
+      "subject": "causal_mosaic:node:da71366f5356",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9733b5f0405b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "emergence of G. striata seedlings was limited by agricultural soils",
+      "source_spans": [
+        {
+          "text": "emergence of G. striata seedlings was limited by agricultural soils"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:170675cb7c47",
+      "subject": "causal_mosaic:node:d0b2235ad54c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f12746386a3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedling survival and growth, which was rather limited by competition in tree-planted riparian zones",
+      "source_spans": [
+        {
+          "text": "seedling survival and growth, which was rather limited by competition in tree-planted riparian zones"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:676d435d1119",
+      "subject": "causal_mosaic:node:10a24def0d05",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c28c556718c4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "low shade levels reduced seedling emergence",
+      "source_spans": [
+        {
+          "text": "low shade levels reduced seedling emergence"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:22da4d2ea7f3",
+      "subject": "causal_mosaic:node:e99af40f543d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:468b0edd4bd3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "agricultural soils... limited seedling growth",
+      "source_spans": [
+        {
+          "text": "agricultural soils... limited seedling growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8613581355be",
+      "subject": "causal_mosaic:node:6cf6d244a3af",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a5aa91da6bc5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "controlling spontaneous vegetation in the first years after tree planting is advisable for fostering the recolonization of forest herbs that experience competitive limitation, such as G. striata and O. sensibilis",
+      "source_spans": [
+        {
+          "text": "controlling spontaneous vegetation in the first years after tree planting is advisable for fostering the recolonization of forest herbs that experience competitive limitation, such as G. striata and O. sensibilis"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f39994524aac",
+      "subject": "causal_mosaic:node:9c79ae08e3c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5d6c11f3159f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "higher proportion of organic matter and soil RH of forest soils fostered forest herb establishment",
+      "source_spans": [
+        {
+          "text": "higher proportion of organic matter and soil RH of forest soils fostered forest herb establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:56cc02ab36e1",
+      "subject": "causal_mosaic:node:f12b516baacb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7cd7196b497e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Prolonged high light availability is thus an important filter limiting forest herb recolonization",
+      "source_spans": [
+        {
+          "text": "Prolonged high light availability is thus an important filter limiting forest herb recolonization"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c665881f6cc",
+      "subject": "causal_mosaic:node:5c799be3f088",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2baf0de31377",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "hydrological dynamism appeared too low to... foster the recolonization of forest herbs",
+      "source_spans": [
+        {
+          "text": "hydrological dynamism appeared too low to... foster the recolonization of forest herbs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/avsc.12246",
+        "title": "Effects of competition, shade and soil conditions on the recolonization of three forest herbs in tree‐planted riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "Poulin, Monique"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

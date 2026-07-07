@@ -1,0 +1,1178 @@
+{
+  "graph_id": "causal_mosaic:graph:c028808cd7bf",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T21:41:09.155925+00:00",
+    "source_corpus": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:03e6e24e07e7",
+      "name": "Reclamation treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2f6c9189a8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "On the reclamation treatments, availability of nitrate, calcium, magnesium, and sulfur were generally higher than in the natural forest ecotypes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b303e2eb854",
+      "name": "Availability of nitrate, calcium, magnesium, and sulfur",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b2e2c9dd9d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "availability",
+      "source_spans": [
+        {
+          "text": "On the reclamation treatments, availability of nitrate, calcium, magnesium, and sulfur were generally higher than in the natural forest ecotypes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:025066cb2460",
+      "name": "Availability of ammonium, P, K, and Mn",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_60e74b2ee4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "availability",
+      "source_spans": [
+        {
+          "text": "while ammonium, P , K, and Mn were generally lower"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1fdb3452327",
+      "name": "Bare ground, grasses, and forbs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f069eae918",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Reclamation treatments tended to have more bare ground, grasses, and forbs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c9a032038b2",
+      "name": "Moss, lichen, shrubs, trees, or woody debris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f58d117237",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "but less moss, lichen, shrubs, trees, or woody debris than natural forests"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c3efcef2f31",
+      "name": "Litter decomposition rate",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9bf9185a63",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Rates of litter decomposition were lower on all reclamation treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c291d83ad2d1",
+      "name": "Development of an organic layer",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bd8f451e65",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Development of an organic layer appeared to be facilitated by the presence of shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d10efe1ed5e0",
+      "name": "Presence of shrubs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6c0e34ae35",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Development of an organic layer appeared to be facilitated by the presence of shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:41fa83049189",
+      "name": "Repeated applications of fertilizers",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0603fca80a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "With repeated applications of fertilizers, measured variables for the peat-mineral amendments fell within the range of natural variability at about 20 yr"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55727a5bebe7",
+      "name": "Measured variables",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2e354ae527",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "With repeated applications of fertilizers, measured variables for the peat-mineral amendments fell within the range of natural variability at about 20 yr"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6117f1513fad",
+      "name": "Intermediate subsoil layer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_36c4ce8849",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "An intermediate subsoil layer reduced the need for fertilizer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d10efac609b5",
+      "name": "Need for fertilizer",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1956d0039a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "An intermediate subsoil layer reduced the need for fertilizer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:40d7bc7a445c",
+      "name": "Conditions resembling natural forests",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ecf4de71c8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "conditions resembling natural forests were reached about 15 yr after a single fertilizer application"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9df2825d69ab",
+      "name": "Tailings sand",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_29da73330b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "if tailings sand, which has a higher hydrocarbon content than overburden, is reclaimed with a subsoil cap, the tailings sand may reduce that subsoil’s inherent microbial activity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:facfb83d0990",
+      "name": "Subsoil cap",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ad57df0ebc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "if tailings sand, which has a higher hydrocarbon content than overburden, is reclaimed with a subsoil cap, the tailings sand may reduce that subsoil’s inherent microbial activity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e830a9120e14",
+      "name": "Microbial activity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8f29997bef",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "the tailings sand may reduce that subsoil’s inherent microbial activity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:68599f658830",
+      "name": "Peat additions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f28db58486",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "but mycorrhizae can be restored using peat additions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61f6a62de8ab",
+      "name": "Mycorrhizae",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8c71c9977c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "but mycorrhizae can be restored using peat additions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69ba01a9808c",
+      "name": "Soil C/N ratio",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0175182606",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The only variable of significance (P = 0.0021) was soil C/N ratio"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7dcf19d498ca",
+      "name": "Shrub cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_329a66141a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Inclusion of groundcover data into the model for FH development on reclamation treatments indicated that shrub cover was a contributing factor"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a7d7171fd21",
+      "name": "FH development",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5c8e6a9db0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Inclusion of groundcover data into the model for FH development on reclamation treatments indicated that shrub cover was a contributing factor"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07811f3f3683",
+      "name": "Woody debris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_db7fe80b14",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Woody debris and pine were also significant"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:759c31e01233",
+      "name": "Pine",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_54e4cc46a8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Woody debris and pine were also significant"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:651c1b1aeac5",
+      "name": "Plant diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a53ab14d0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Plant diversity on reclamation treatments appeared to remain fairly stable before declining with advancing canopy closure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1d29b059b214",
+      "name": "Canopy closure",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_410334270d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Plant diversity on reclamation treatments appeared to remain fairly stable before declining with advancing canopy closure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a6ec41ae29ce",
+      "name": "Understorey plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bcaf0218c1",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "when understorey plants disappeared"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e200b17714b",
+      "name": "Fertilizer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_922dc656ef",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8049e7f292be",
+      "name": "Plant growth",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7c01291d94",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:713e66f13aad",
+      "name": "Litter production",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a59a225f2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4aacd373ff05",
+      "name": "Surface FH layer",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_19725ad892",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:08c1f71c869c",
+      "subject": "causal_mosaic:node:03e6e24e07e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b303e2eb854",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "On the reclamation treatments, availability of nitrate, calcium, magnesium, and sulfur were generally higher than in the natural forest ecotypes",
+      "source_spans": [
+        {
+          "text": "On the reclamation treatments, availability of nitrate, calcium, magnesium, and sulfur were generally higher than in the natural forest ecotypes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f30fdcbf1d40",
+      "subject": "causal_mosaic:node:03e6e24e07e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:025066cb2460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "while ammonium, P , K, and Mn were generally lower",
+      "source_spans": [
+        {
+          "text": "while ammonium, P , K, and Mn were generally lower"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8003aa0c85f",
+      "subject": "causal_mosaic:node:03e6e24e07e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1fdb3452327",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reclamation treatments tended to have more bare ground, grasses, and forbs",
+      "source_spans": [
+        {
+          "text": "Reclamation treatments tended to have more bare ground, grasses, and forbs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:724f52d437dc",
+      "subject": "causal_mosaic:node:03e6e24e07e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c9a032038b2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "but less moss, lichen, shrubs, trees, or woody debris than natural forests",
+      "source_spans": [
+        {
+          "text": "but less moss, lichen, shrubs, trees, or woody debris than natural forests"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:30e30f2bbd8b",
+      "subject": "causal_mosaic:node:03e6e24e07e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c3efcef2f31",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rates of litter decomposition were lower on all reclamation treatments",
+      "source_spans": [
+        {
+          "text": "Rates of litter decomposition were lower on all reclamation treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e7b0802ddf0",
+      "subject": "causal_mosaic:node:d10efe1ed5e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c291d83ad2d1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Development of an organic layer appeared to be facilitated by the presence of shrubs",
+      "source_spans": [
+        {
+          "text": "Development of an organic layer appeared to be facilitated by the presence of shrubs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:28715f0c5433",
+      "subject": "causal_mosaic:node:41fa83049189",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55727a5bebe7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "With repeated applications of fertilizers, measured variables for the peat-mineral amendments fell within the range of natural variability at about 20 yr",
+      "source_spans": [
+        {
+          "text": "With repeated applications of fertilizers, measured variables for the peat-mineral amendments fell within the range of natural variability at about 20 yr"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0fc014fa76d9",
+      "subject": "causal_mosaic:node:6117f1513fad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d10efac609b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "An intermediate subsoil layer reduced the need for fertilizer",
+      "source_spans": [
+        {
+          "text": "An intermediate subsoil layer reduced the need for fertilizer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f6e7baed55ee",
+      "subject": "causal_mosaic:node:6117f1513fad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40d7bc7a445c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "conditions resembling natural forests were reached about 15 yr after a single fertilizer application",
+      "source_spans": [
+        {
+          "text": "conditions resembling natural forests were reached about 15 yr after a single fertilizer application"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:37d6129adf6f",
+      "subject": "causal_mosaic:node:9df2825d69ab",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e830a9120e14",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "if tailings sand, which has a higher hydrocarbon content than overburden, is reclaimed with a subsoil cap, the tailings sand may reduce that subsoil’s inherent microbial activity",
+      "source_spans": [
+        {
+          "text": "if tailings sand, which has a higher hydrocarbon content than overburden, is reclaimed with a subsoil cap, the tailings sand may reduce that subsoil’s inherent microbial activity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:116250ff0102",
+      "subject": "causal_mosaic:node:facfb83d0990",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e830a9120e14",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "if tailings sand, which has a higher hydrocarbon content than overburden, is reclaimed with a subsoil cap, the tailings sand may reduce that subsoil’s inherent microbial activity",
+      "source_spans": [
+        {
+          "text": "if tailings sand, which has a higher hydrocarbon content than overburden, is reclaimed with a subsoil cap, the tailings sand may reduce that subsoil’s inherent microbial activity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c0b64be387b1",
+      "subject": "causal_mosaic:node:68599f658830",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:61f6a62de8ab",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "but mycorrhizae can be restored using peat additions",
+      "source_spans": [
+        {
+          "text": "but mycorrhizae can be restored using peat additions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7084d7ced895",
+      "subject": "causal_mosaic:node:69ba01a9808c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c3efcef2f31",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The only variable of significance (P = 0.0021) was soil C/N ratio",
+      "source_spans": [
+        {
+          "text": "The only variable of significance (P = 0.0021) was soil C/N ratio"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bb65d56cdff6",
+      "subject": "causal_mosaic:node:7dcf19d498ca",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a7d7171fd21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Inclusion of groundcover data into the model for FH development on reclamation treatments indicated that shrub cover was a contributing factor",
+      "source_spans": [
+        {
+          "text": "Inclusion of groundcover data into the model for FH development on reclamation treatments indicated that shrub cover was a contributing factor"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:35212536c920",
+      "subject": "causal_mosaic:node:07811f3f3683",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a7d7171fd21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris and pine were also significant",
+      "source_spans": [
+        {
+          "text": "Woody debris and pine were also significant"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02e15169c371",
+      "subject": "causal_mosaic:node:759c31e01233",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a7d7171fd21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris and pine were also significant",
+      "source_spans": [
+        {
+          "text": "Woody debris and pine were also significant"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d029d5756171",
+      "subject": "causal_mosaic:node:1d29b059b214",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:651c1b1aeac5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plant diversity on reclamation treatments appeared to remain fairly stable before declining with advancing canopy closure",
+      "source_spans": [
+        {
+          "text": "Plant diversity on reclamation treatments appeared to remain fairly stable before declining with advancing canopy closure"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8def65dc54f",
+      "subject": "causal_mosaic:node:1d29b059b214",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a6ec41ae29ce",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "when understorey plants disappeared",
+      "source_spans": [
+        {
+          "text": "when understorey plants disappeared"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c33fd0ef5f8e",
+      "subject": "causal_mosaic:node:7e200b17714b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8049e7f292be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9a539e69c2c8",
+      "subject": "causal_mosaic:node:7e200b17714b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:713e66f13aad",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fcb6e90c02d5",
+      "subject": "causal_mosaic:node:7e200b17714b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4aacd373ff05",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer",
+      "source_spans": [
+        {
+          "text": "Repeated addition of fertilizer will assist plant growth and litter production, and hence development of a surface FH layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.2134/jeq2008.0317",
+        "title": "Recreating a Functioning Forest Soil in Reclaimed Oil Sands in Northern Alberta: An Approach for Measuring Success in Ecological Restoration",
+        "year": 2009,
+        "authors": [
+          "Rowland, S. M.",
+          "Prescott, C. E.",
+          "Grayston, S. J.",
+          "Quideau, S. A.",
+          "Bradfield, G. E."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

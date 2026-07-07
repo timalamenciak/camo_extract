@@ -1,0 +1,538 @@
+{
+  "graph_id": "causal_mosaic:graph:ca10e8ea75b5",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:26:03.570113+00:00",
+    "source_corpus": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:87b0ea34d403",
+      "name": "FFM",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f4a882ba30",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Generally, seedling growth was greater on FFM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80bdb2049b91",
+      "name": "Peat",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1620130455",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "peat as a surface soil reduced growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6edf6d80509f",
+      "name": "Seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f988faf83",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Generally, seedling growth was greater on FFM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:40f1677e6995",
+      "name": "Soil temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200012",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Peat... delayed soil warming in the spring and cooler soil conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e26b05e5ff8",
+      "name": "Water holding capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01003001",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "greater water holding capacity of the organic matter in peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66fe28876b34",
+      "name": "Phosphorous availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ffe0a64c5d",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "appeared to be related to phosphorous availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3585a922290",
+      "name": "Subsoil Bm",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0b7ef952e1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Aspen growth was greatest when the subsoil was shallow salvaged and represented a weathered subsoil (Bm)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:db44dd88d9a3",
+      "name": "Subsoil BC",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_346701d508",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "growth was reduced in the Subsoil BC treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1e1ff2863d19",
+      "name": "Subsoil C",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_484d0af4f8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "compared to Subsoil Bm and C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a65b04bab326",
+      "name": "Aspen growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_25f517c246",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Aspen growth was greatest when the subsoil was shallow salvaged and represented a weathered subsoil (Bm)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67c22ae7a4ee",
+      "name": "Pine growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bb1dbb3c75",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Pine growth significantly increased on FFM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:600f3c75f071",
+      "name": "Spruce growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e96f0abc3e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "spruce on Peat grew more than on FFM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa38f0210c44",
+      "name": "Silt fraction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_debb5467db",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "small increases in the silt fraction"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1cef967fc703",
+      "name": "30cm Peat",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_79c865792e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil temperature in P30 was on average 2°C cooler each growing season than in P10"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7c71fe3e54e",
+      "name": "10cm Peat",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9562b0c94e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil temperature in P30 was on average 2°C cooler each growing season than in P10"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:942012e925b6",
+      "subject": "causal_mosaic:node:87b0ea34d403",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6edf6d80509f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Generally, seedling growth was greater on FFM",
+      "source_spans": [
+        {
+          "text": "Generally, seedling growth was greater on FFM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:01ded95073c8",
+      "subject": "causal_mosaic:node:80bdb2049b91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6edf6d80509f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "peat as a surface soil reduced growth",
+      "source_spans": [
+        {
+          "text": "peat as a surface soil reduced growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bbdc78ede429",
+      "subject": "causal_mosaic:node:80bdb2049b91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40f1677e6995",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Peat... delayed soil warming in the spring and cooler soil conditions",
+      "source_spans": [
+        {
+          "text": "Peat... delayed soil warming in the spring and cooler soil conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:462614fc4ea8",
+      "subject": "causal_mosaic:node:80bdb2049b91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e26b05e5ff8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "greater water holding capacity of the organic matter in peat",
+      "source_spans": [
+        {
+          "text": "greater water holding capacity of the organic matter in peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4172b2a512f2",
+      "subject": "causal_mosaic:node:b3585a922290",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a65b04bab326",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Aspen growth was greatest when the subsoil was shallow salvaged and represented a weathered subsoil (Bm)",
+      "source_spans": [
+        {
+          "text": "Aspen growth was greatest when the subsoil was shallow salvaged and represented a weathered subsoil (Bm)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:562b207d62d1",
+      "subject": "causal_mosaic:node:db44dd88d9a3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a65b04bab326",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "growth was reduced in the Subsoil BC treatment",
+      "source_spans": [
+        {
+          "text": "growth was reduced in the Subsoil BC treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d26f731b3b14",
+      "subject": "causal_mosaic:node:1e1ff2863d19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a65b04bab326",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "compared to Subsoil Bm and C",
+      "source_spans": [
+        {
+          "text": "compared to Subsoil Bm and C"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:600c0cc18666",
+      "subject": "causal_mosaic:node:1cef967fc703",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40f1677e6995",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil temperature in P30 was on average 2°C cooler each growing season than in P10",
+      "source_spans": [
+        {
+          "text": "Soil temperature in P30 was on average 2°C cooler each growing season than in P10"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9bf4728f77ca",
+      "subject": "causal_mosaic:node:aa38f0210c44",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e26b05e5ff8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "small increases in the silt fraction... likely due to the greater water holding capacity",
+      "source_spans": [
+        {
+          "text": "small increases in the silt fraction... likely due to the greater water holding capacity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2019.105705",
+        "title": "Surface and subsurface material selections influence the early outcomes of boreal upland forest restoration",
+        "year": 2020,
+        "authors": [
+          "Stack, Shauna",
+          "Jones, Caren",
+          "Bockstette, Jana",
+          "Jacobs, Douglass F.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

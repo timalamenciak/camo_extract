@@ -1,0 +1,1100 @@
+{
+  "graph_id": "causal_mosaic:graph:e72c81ce63de",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T07:41:24.097938+00:00",
+    "source_corpus": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:62856b6f1621",
+      "name": "Air pollution controls",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9818dde90f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c986423e2406",
+      "name": "increased pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_869477663a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "pH",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:94b2aa8533ff",
+      "name": "decreased concentrations of SO4",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3a47876654",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "SO4 concentration",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3100d91d02a1",
+      "name": "decreased concentrations of metals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65edcecde1",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "metal concentration",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:597e3e66c560",
+      "name": "decreased concentrations of base cations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6fce8fe499",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "base cation concentration",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0cbd7609b89",
+      "name": "Reduced S deposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6d0bd6ea7a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In response to reduced S deposition, substantial increases in the pH of acidified Sudbury lakes have been observed."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bdbecd438812",
+      "name": "Drought",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:1000745",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Drought can lead to oxidation of stored S in lake catchments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67a5034f1352",
+      "name": "oxidation of stored S",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5605bdc3d0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Drought can lead to oxidation of stored S in lake catchments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:243c955a05c1",
+      "name": "lake re-acidification",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0bc2db0677",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:406b52cde37e",
+      "name": "metal mobilization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b3d47a6212",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3a78b2b62ae",
+      "name": "changes in thermal structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c681b85874",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c288d758b40",
+      "name": "increased UV-B penetration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b9c91645d1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "UV-B penetration",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bc8c159df217",
+      "name": "zooplankton and phytoplankton communities",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_ce2b62b5c6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Such effects were observed in Sudbury area lakes following the 2-year drought of 1986 –87 (Keller et al., 1992; Y an et al., 1996a) and had large impacts on zooplankton and phytoplankton communities in Swan Lake"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5cbc8143dba2",
+      "name": "Elevated lakewater concentrations of metals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee946ab15c",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "metal concentration",
+      "source_spans": [
+        {
+          "text": "Elevated lakewater concentrations of metals, and metal-contaminated sediments, undoubtedly still affect aquatic communities in some lakes close to the Sudbury smelters."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8776f3b16b4",
+      "name": "aquatic communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_91962edb6c",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Elevated lakewater concentrations of metals, and metal-contaminated sediments, undoubtedly still affect aquatic communities in some lakes close to the Sudbury smelters."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08cc11b6cb4a",
+      "name": "Nickel",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6b3d687d11",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Nickel, in particular, has been implicated as the contaminant most responsible for sediment toxicity to the amphipod Hyalella in lakes within the City of Sudbury"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99c9eb24c5a1",
+      "name": "sediment toxicity to the amphipod Hyalella",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93f9f00262",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Nickel, in particular, has been implicated as the contaminant most responsible for sediment toxicity to the amphipod Hyalella in lakes within the City of Sudbury"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dfee24e9abd7",
+      "name": "Elevated waterborne metal concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ff7ef14caa",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "metal concentration",
+      "source_spans": [
+        {
+          "text": "Elevated waterborne metal concentrations are a likely explanation for the lack of recovery of cladoceran zooplankton in Middle Lake"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ba25dbcc9f9",
+      "name": "recovery of cladoceran zooplankton",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_429fa20acb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Elevated waterborne metal concentrations are a likely explanation for the lack of recovery of cladoceran zooplankton in Middle Lake"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e582307d49fd",
+      "name": "Heavy predation by perch",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ca4500a036",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Heavy predation by perch may be a factor inhibiting the recovery of cladoceran zooplankton communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dd920dbc58f8",
+      "name": "recovery of cladoceran zooplankton communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b1e099397b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Heavy predation by perch may be a factor inhibiting the recovery of cladoceran zooplankton communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5465296d4ff8",
+      "name": "Climate change",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000629",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Effects of climate change may interact with changes in acidity and resultant changes in lake clarity to affect lake thermal structure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4b3f11574aaf",
+      "name": "lake thermal structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_601c49d34f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Effects of climate change may interact with changes in acidity and resultant changes in lake clarity to affect lake thermal structure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3ea8fcdc0c7",
+      "name": "expansions of some non-indigenous species",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2cdcaa314c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "As well, expansions of some non-indigenous species may be promoted by climate change with resultant effects on recovering aquatic communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58d22f277108",
+      "name": "recovering aquatic communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3890d1adfa",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "As well, expansions of some non-indigenous species may be promoted by climate change with resultant effects on recovering aquatic communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:447e22975bdb",
+      "name": "Calcium declines",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_045478ae4e",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "Calcium concentration",
+      "source_spans": [
+        {
+          "text": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:568e72f3a685",
+      "name": "distributions of some Ca-rich biota",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_31e6daacc0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22a118e0e2f9",
+      "name": "sensitivity of some organisms to acid, metals or UV-B",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8ed12300b1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:80e764ff163d",
+      "subject": "causal_mosaic:node:62856b6f1621",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c986423e2406",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations.",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:73beba610c82",
+      "subject": "causal_mosaic:node:62856b6f1621",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:94b2aa8533ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations.",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e4edf531f7ea",
+      "subject": "causal_mosaic:node:62856b6f1621",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3100d91d02a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations.",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a4ff402cfd17",
+      "subject": "causal_mosaic:node:62856b6f1621",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:597e3e66c560",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations.",
+      "source_spans": [
+        {
+          "text": "Air pollution controls have led to widespread changes in damaged Sudbury lakes, including increased pH and decreased concentrations of SO4, metals and base cations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dee11be3765a",
+      "subject": "causal_mosaic:node:e0cbd7609b89",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c986423e2406",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In response to reduced S deposition, substantial increases in the pH of acidified Sudbury lakes have been observed.",
+      "source_spans": [
+        {
+          "text": "In response to reduced S deposition, substantial increases in the pH of acidified Sudbury lakes have been observed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4e3207ef1762",
+      "subject": "causal_mosaic:node:bdbecd438812",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:67a5034f1352",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Drought can lead to oxidation of stored S in lake catchments.",
+      "source_spans": [
+        {
+          "text": "Drought can lead to oxidation of stored S in lake catchments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:508a073d3d32",
+      "subject": "causal_mosaic:node:67a5034f1352",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:243c955a05c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:90b210baaa9d",
+      "subject": "causal_mosaic:node:243c955a05c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:406b52cde37e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ba8a37ca0807",
+      "subject": "causal_mosaic:node:243c955a05c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3a78b2b62ae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6aaefacd27d2",
+      "subject": "causal_mosaic:node:243c955a05c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c288d758b40",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration",
+      "source_spans": [
+        {
+          "text": "When wet conditions resume, the release of this stored acidity can lead to lake re-acidification and many related physical and chemical changes inclu ding metal mobilization, changes in thermal structure, and increased UV-B penetration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fbf5f360e3b9",
+      "subject": "causal_mosaic:node:243c955a05c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bc8c159df217",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Such effects were observed in Sudbury area lakes following the 2-year drought of 1986 –87 (Keller et al., 1992; Y an et al., 1996a) and had large impacts on zooplankton and phytoplankton communities in Swan Lake",
+      "source_spans": [
+        {
+          "text": "Such effects were observed in Sudbury area lakes following the 2-year drought of 1986 –87 (Keller et al., 1992; Y an et al., 1996a) and had large impacts on zooplankton and phytoplankton communities in Swan Lake"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:51411f146da8",
+      "subject": "causal_mosaic:node:5cbc8143dba2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a8776f3b16b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Elevated lakewater concentrations of metals, and metal-contaminated sediments, undoubtedly still affect aquatic communities in some lakes close to the Sudbury smelters.",
+      "source_spans": [
+        {
+          "text": "Elevated lakewater concentrations of metals, and metal-contaminated sediments, undoubtedly still affect aquatic communities in some lakes close to the Sudbury smelters."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c55cb06be36",
+      "subject": "causal_mosaic:node:08cc11b6cb4a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:99c9eb24c5a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Nickel, in particular, has been implicated as the contaminant most responsible for sediment toxicity to the amphipod Hyalella in lakes within the City of Sudbury",
+      "source_spans": [
+        {
+          "text": "Nickel, in particular, has been implicated as the contaminant most responsible for sediment toxicity to the amphipod Hyalella in lakes within the City of Sudbury"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dca69c3bcada",
+      "subject": "causal_mosaic:node:dfee24e9abd7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ba25dbcc9f9",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Elevated waterborne metal concentrations are a likely explanation for the lack of recovery of cladoceran zooplankton in Middle Lake",
+      "source_spans": [
+        {
+          "text": "Elevated waterborne metal concentrations are a likely explanation for the lack of recovery of cladoceran zooplankton in Middle Lake"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:57d25c87eaca",
+      "subject": "causal_mosaic:node:e582307d49fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dd920dbc58f8",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Heavy predation by perch may be a factor inhibiting the recovery of cladoceran zooplankton communities",
+      "source_spans": [
+        {
+          "text": "Heavy predation by perch may be a factor inhibiting the recovery of cladoceran zooplankton communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b9387fe18515",
+      "subject": "causal_mosaic:node:5465296d4ff8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4b3f11574aaf",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Effects of climate change may interact with changes in acidity and resultant changes in lake clarity to affect lake thermal structure",
+      "source_spans": [
+        {
+          "text": "Effects of climate change may interact with changes in acidity and resultant changes in lake clarity to affect lake thermal structure"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1a61bff087e1",
+      "subject": "causal_mosaic:node:5465296d4ff8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3ea8fcdc0c7",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As well, expansions of some non-indigenous species may be promoted by climate change with resultant effects on recovering aquatic communities",
+      "source_spans": [
+        {
+          "text": "As well, expansions of some non-indigenous species may be promoted by climate change with resultant effects on recovering aquatic communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f8f5d9a21963",
+      "subject": "causal_mosaic:node:f3ea8fcdc0c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58d22f277108",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As well, expansions of some non-indigenous species may be promoted by climate change with resultant effects on recovering aquatic communities",
+      "source_spans": [
+        {
+          "text": "As well, expansions of some non-indigenous species may be promoted by climate change with resultant effects on recovering aquatic communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a379c25890d2",
+      "subject": "causal_mosaic:node:447e22975bdb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:568e72f3a685",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B",
+      "source_spans": [
+        {
+          "text": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:24e6e9ddc0e3",
+      "subject": "causal_mosaic:node:447e22975bdb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:22a118e0e2f9",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B",
+      "source_spans": [
+        {
+          "text": "Calcium declines could alter distributions of some Ca-rich biota, and increase the sensitivity of some organisms to acid, metals or UV-B"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11267-006-9061-2",
+        "title": "Recovery of Acidified Lakes: Lessons From Sudbury, Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Keller, W.",
+          "Yan, N. D.",
+          "Gunn, J. M.",
+          "Heneberry, J."
+        ],
+        "journal": "Water Air Soil Pollut: Focus"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

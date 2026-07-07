@@ -1,0 +1,364 @@
+{
+  "graph_id": "causal_mosaic:graph:71ccadafae29",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:36:07.696407+00:00",
+    "source_corpus": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:acd696df9a4e",
+      "name": "Xylem anomalies",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d8948ca4e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Xylem anomalies that are caused by unusual climate events have long been used to aid cross-dating in tree ring research."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e62580473773",
+      "name": "Unusual climate events",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_796d5d4d72",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Xylem anomalies that are caused by unusual climate events have long been used to aid cross-dating in tree ring research."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:79d768ec2d1a",
+      "name": "Light rings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d5f350ed8c",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "light rings represent thin cell walls caused by an insufﬁcient growing season length"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0f4c32c9ace",
+      "name": "Insufficient growing season length",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_675ebf1f09",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "light rings represent thin cell walls caused by an insufﬁcient growing season length"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a862f98ededd",
+      "name": "Blue rings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c7d3d3964",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "blue rings were caused by a failure to complete ligniﬁcation of new wood due to an early end of the growing season"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:11b766a788e8",
+      "name": "Early end of the growing season",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bcbabc2b9f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "blue rings were caused by a failure to complete ligniﬁcation of new wood due to an early end of the growing season"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4dcc30b50689",
+      "name": "Double rings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5002a04659",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "double rings represent density ﬂuctuations due to drier than normal summers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ec270cdb7f5",
+      "name": "Drier than normal summers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f71b3c7089",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "double rings represent density ﬂuctuations due to drier than normal summers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88d73564cb4d",
+      "name": "Maladaptation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3dc87773aa",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "xylem anomalies may serve as a sensitive early indicator of maladaptation to climate before populations experience tree dieback or mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5d7c5aa9ead",
+      "name": "Assisted migration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_44aac064f6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "evaluate the success of assisted migration in reforestation to address climate change"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0258a72e70e",
+      "name": "White spruce",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q128116",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "common garden experiment of white spruce ( Picea glauca [Moench] Voss)"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f8308bb9cf89",
+      "subject": "causal_mosaic:node:e62580473773",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:acd696df9a4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Xylem anomalies that are caused by unusual climate events have long been used to aid cross-dating in tree ring research.",
+      "source_spans": [
+        {
+          "text": "Xylem anomalies that are caused by unusual climate events have long been used to aid cross-dating in tree ring research."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3389/fpls.2020.00208",
+        "title": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+        "year": 2020,
+        "authors": [
+          "Sebastian-Azcona, Jaime",
+          "Hacke, Uwe",
+          "Hamann, Andreas"
+        ],
+        "journal": "Front. Plant Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d6598a51805b",
+      "subject": "causal_mosaic:node:b0f4c32c9ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:79d768ec2d1a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "light rings represent thin cell walls caused by an insufﬁcient growing season length",
+      "source_spans": [
+        {
+          "text": "light rings represent thin cell walls caused by an insufﬁcient growing season length"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3389/fpls.2020.00208",
+        "title": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+        "year": 2020,
+        "authors": [
+          "Sebastian-Azcona, Jaime",
+          "Hacke, Uwe",
+          "Hamann, Andreas"
+        ],
+        "journal": "Front. Plant Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1c02b23a732",
+      "subject": "causal_mosaic:node:11b766a788e8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a862f98ededd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "blue rings were caused by a failure to complete ligniﬁcation of new wood due to an early end of the growing season",
+      "source_spans": [
+        {
+          "text": "blue rings were caused by a failure to complete ligniﬁcation of new wood due to an early end of the growing season"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3389/fpls.2020.00208",
+        "title": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+        "year": 2020,
+        "authors": [
+          "Sebastian-Azcona, Jaime",
+          "Hacke, Uwe",
+          "Hamann, Andreas"
+        ],
+        "journal": "Front. Plant Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:03d326c33510",
+      "subject": "causal_mosaic:node:2ec270cdb7f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4dcc30b50689",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "double rings represent density ﬂuctuations due to drier than normal summers",
+      "source_spans": [
+        {
+          "text": "double rings represent density ﬂuctuations due to drier than normal summers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3389/fpls.2020.00208",
+        "title": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+        "year": 2020,
+        "authors": [
+          "Sebastian-Azcona, Jaime",
+          "Hacke, Uwe",
+          "Hamann, Andreas"
+        ],
+        "journal": "Front. Plant Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0f72170ce88b",
+      "subject": "causal_mosaic:node:c5d7c5aa9ead",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:88d73564cb4d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "trees moved to the test site from other climate regions showed various types of xylem anomalies depending on their origin",
+      "source_spans": [
+        {
+          "text": "trees moved to the test site from other climate regions showed various types of xylem anomalies depending on their origin"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3389/fpls.2020.00208",
+        "title": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+        "year": 2020,
+        "authors": [
+          "Sebastian-Azcona, Jaime",
+          "Hacke, Uwe",
+          "Hamann, Andreas"
+        ],
+        "journal": "Front. Plant Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b97b6e92fc58",
+      "subject": "causal_mosaic:node:88d73564cb4d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:acd696df9a4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "xylem anomalies may serve as a sensitive early indicator of maladaptation to climate before populations experience tree dieback or mortality",
+      "source_spans": [
+        {
+          "text": "xylem anomalies may serve as a sensitive early indicator of maladaptation to climate before populations experience tree dieback or mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3389/fpls.2020.00208",
+        "title": "Xylem Anomalies as Indicators of Maladaptation to Climate in Forest Trees: Implications for Assisted Migration",
+        "year": 2020,
+        "authors": [
+          "Sebastian-Azcona, Jaime",
+          "Hacke, Uwe",
+          "Hamann, Andreas"
+        ],
+        "journal": "Front. Plant Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

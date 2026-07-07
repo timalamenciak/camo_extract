@@ -1,0 +1,204 @@
+{
+  "graph_id": "causal_mosaic:graph:2dc7fb98dab7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T15:01:46.015804+00:00",
+    "source_corpus": "VEGETATION RESPONSES TO ECOLOGICAL RESTORATION (REWETTING) OF ABANDONED BLOCK-CUT PEATLANDS IN EASTERN QUÉBEC",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6598cd87e501",
+      "name": "rewetting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4e0f2c73ff",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ecological restoration of abandoned blockucut peatlands involves blocking remnant drainage ditches, “rewetting” the residual peat body"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:016326f193a3",
+      "name": "vegetation assemblages",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d732fbac7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rapid community scale vegetation change occurred"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4547c249110c",
+      "name": "Sphagnum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15cecc3723",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sphagnum cover increased in all rewetted sectors"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0e757311c35",
+      "name": "tree above-ground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_739c54c92d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The rise in water table position due to rewetting caused large-scale tree mortality and a reduction in living tree biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f52a9cab3372",
+      "name": "fibric peat accumulation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a123901258",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Fibric peat accumulation is an order of magnitude higher for all rewetted trenches than in nonrewetted trenches"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:33c90dc86264",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:016326f193a3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rewetting activities within the three study sites has variably, but successfully forced a shift in vegetation assemblages",
+      "source_spans": [
+        {
+          "text": "rewetting activities within the three study sites has variably, but successfully forced a shift in vegetation assemblages"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "VEGETATION RESPONSES TO ECOLOGICAL RESTORATION (REWETTING) OF ABANDONED BLOCK-CUT PEATLANDS IN EASTERN QUÉBEC",
+        "year": 2005,
+        "authors": [
+          "Henstra, Steven W"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ed23e9acf51",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4547c249110c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum cover increased in all rewetted sectors",
+      "source_spans": [
+        {
+          "text": "Sphagnum cover increased in all rewetted sectors"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "VEGETATION RESPONSES TO ECOLOGICAL RESTORATION (REWETTING) OF ABANDONED BLOCK-CUT PEATLANDS IN EASTERN QUÉBEC",
+        "year": 2005,
+        "authors": [
+          "Henstra, Steven W"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:97c26b296bee",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0e757311c35",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The rise in water table position due to rewetting caused large-scale tree mortality and a reduction in living tree biomass",
+      "source_spans": [
+        {
+          "text": "The rise in water table position due to rewetting caused large-scale tree mortality and a reduction in living tree biomass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "VEGETATION RESPONSES TO ECOLOGICAL RESTORATION (REWETTING) OF ABANDONED BLOCK-CUT PEATLANDS IN EASTERN QUÉBEC",
+        "year": 2005,
+        "authors": [
+          "Henstra, Steven W"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2469c2d8cd5a",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f52a9cab3372",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fibric peat accumulation is an order of magnitude higher for all rewetted trenches than in nonrewetted trenches",
+      "source_spans": [
+        {
+          "text": "Fibric peat accumulation is an order of magnitude higher for all rewetted trenches than in nonrewetted trenches"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "VEGETATION RESPONSES TO ECOLOGICAL RESTORATION (REWETTING) OF ABANDONED BLOCK-CUT PEATLANDS IN EASTERN QUÉBEC",
+        "year": 2005,
+        "authors": [
+          "Henstra, Steven W"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

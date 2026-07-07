@@ -1,0 +1,360 @@
+{
+  "graph_id": "causal_mosaic:graph:537d6b4bea6d",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T15:42:05.183823+00:00",
+    "source_corpus": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e47bee4d6490",
+      "name": "broadcast fertilization with immediately available fertilizers (IAF)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dd3778f535",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "broadcast fertilization with immediately available fertilizers (IAF) results in generally low rates of nutrient recovery for planted trees."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e875fa45b443",
+      "name": "Directed application of controlled-release fertilizer (CRF) to the rhizosphere",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7c1847930c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Directed application of controlled-release fertilizer (CRF) to the rhizosphere offers an alternative to extend nutrient longevity while reducing nutrient leaching or uptake by competing vegetation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3c5464ae17d",
+      "name": "increased vegetative competition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9452600b9",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "application of IAF also dramatically increased vegetative competition surrounding the seedlings of both species during the first growing season relative to all other treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3fde27610f68",
+      "name": "increased seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f988faf83",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "White spruce year-1 height and diameter growth responded positively to both IAF and CRF relative to non-fertilized controls"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f0447140e947",
+      "name": "unchanged seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "No effect on seedling survival occurred."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c8074313cf2",
+      "name": "increased foliar N concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3193de980",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "both species had generally higher mean foliar N concentrations during the first growing season when treated with CRF vs. IAF"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:72bde5284eb1",
+      "name": "increased nutrient leaching",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b4f8eddf3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "rapid release of nutrients immediately following application of IAF creates potential for environmental contamination through leaching."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9763c19e00f6",
+      "name": "increased fertilizer use efficiency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_225720a636",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "This improves overall fertilizer use efficiency"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:bbcf57244b46",
+      "subject": "causal_mosaic:node:e47bee4d6490",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b3c5464ae17d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "application of IAF also dramatically increased vegetative competition surrounding the seedlings of both species during the first growing season relative to all other treatments",
+      "source_spans": [
+        {
+          "text": "application of IAF also dramatically increased vegetative competition surrounding the seedlings of both species during the first growing season relative to all other treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:138cc3609e38",
+      "subject": "causal_mosaic:node:e875fa45b443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3fde27610f68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "White spruce year-1 height and diameter growth responded positively to both IAF and CRF relative to non-fertilized controls",
+      "source_spans": [
+        {
+          "text": "White spruce year-1 height and diameter growth responded positively to both IAF and CRF relative to non-fertilized controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6738bffa357d",
+      "subject": "causal_mosaic:node:e875fa45b443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b3c5464ae17d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings that were fertilized with CRF, however, exhibited levels of vegetative competition cover during the first growing season that did not differ from that of unfertilized controls",
+      "source_spans": [
+        {
+          "text": "Seedlings that were fertilized with CRF, however, exhibited levels of vegetative competition cover during the first growing season that did not differ from that of unfertilized controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8bc8907b3bf9",
+      "subject": "causal_mosaic:node:e47bee4d6490",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f0447140e947",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "No effect on seedling survival occurred.",
+      "source_spans": [
+        {
+          "text": "No effect on seedling survival occurred."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:110a29141d17",
+      "subject": "causal_mosaic:node:e875fa45b443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2c8074313cf2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "both species had generally higher mean foliar N concentrations during the first growing season when treated with CRF vs. IAF",
+      "source_spans": [
+        {
+          "text": "both species had generally higher mean foliar N concentrations during the first growing season when treated with CRF vs. IAF"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fbd353ba19af",
+      "subject": "causal_mosaic:node:e47bee4d6490",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:72bde5284eb1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rapid release of nutrients immediately following application of IAF creates potential for environmental contamination through leaching.",
+      "source_spans": [
+        {
+          "text": "rapid release of nutrients immediately following application of IAF creates potential for environmental contamination through leaching."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4ebb14e925c3",
+      "subject": "causal_mosaic:node:e875fa45b443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9763c19e00f6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This improves overall fertilizer use efficiency",
+      "source_spans": [
+        {
+          "text": "This improves overall fertilizer use efficiency"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-013-9378-4",
+        "title": "Fertilization at planting influences seedling growth and vegetative competition on a post-mining boreal reclamation site",
+        "year": 2013,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

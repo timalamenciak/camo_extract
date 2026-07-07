@@ -1,0 +1,396 @@
+{
+  "graph_id": "causal_mosaic:graph:d11d571df1ca",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T20:18:57.017448+00:00",
+    "source_corpus": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6bccb32f2ace",
+      "name": "Scarification",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_54073252f0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "scarification",
+          "start_char": 1913,
+          "end_char": 1926,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c5a34ab2f3e",
+      "name": "Height of all conifer species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ce6421f39b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification."
+        },
+        {
+          "text": "Black spruce and jack pine height increased when Kalmia was controlled with herbicide, but height of tamarack was not."
+        },
+        {
+          "text": "Fertilization increased black spruce 15-year height by 30%"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f78efdcbbc2a",
+      "name": "Foliar biomass of all conifer species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d812e09e17",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "foliar biomass",
+      "source_spans": [
+        {
+          "text": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d41dcd64683b",
+      "name": "Herbicide application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ff18787a28",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "herbicide application",
+          "start_char": 1928,
+          "end_char": 1949,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:297dcd8f4d59",
+      "name": "Kalmia cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d6441ffe49",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+          "start_char": 2688,
+          "end_char": 2790,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa2ace82d3cf",
+      "name": "Ground-level diameter of all three conifer species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_35799c8d1e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "ground-level diameter",
+      "source_spans": [
+        {
+          "text": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+          "start_char": 2688,
+          "end_char": 2790,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3327b48c2349",
+      "name": "Fertilization at planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_695bfbec9f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fertilization at planting",
+          "start_char": 1951,
+          "end_char": 1976,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:436f70c0507f",
+      "name": "Annual leader growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1142e1a471",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "leader growth",
+      "source_spans": [
+        {
+          "text": "The effect of Kalmia cover on annual leader growth... was not significant"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:60b6253914b7",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c5a34ab2f3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification.",
+      "source_spans": [
+        {
+          "text": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:898872d90663",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f78efdcbbc2a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification.",
+      "source_spans": [
+        {
+          "text": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5bb201d8da49",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:297dcd8f4d59",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+      "source_spans": [
+        {
+          "text": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+          "start_char": 2688,
+          "end_char": 2790,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d1911d1dcad4",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c5a34ab2f3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Black spruce and jack pine height increased when Kalmia was controlled with herbicide, but height of tamarack was not.",
+      "source_spans": [
+        {
+          "text": "Black spruce and jack pine height increased when Kalmia was controlled with herbicide, but height of tamarack was not."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:667700145fe8",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fa2ace82d3cf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+      "source_spans": [
+        {
+          "text": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+          "start_char": 2688,
+          "end_char": 2790,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1a3578f3c53c",
+      "subject": "causal_mosaic:node:3327b48c2349",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c5a34ab2f3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization increased black spruce 15-year height by 30%",
+      "source_spans": [
+        {
+          "text": "Fertilization increased black spruce 15-year height by 30%"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d395b0f31af5",
+      "subject": "causal_mosaic:node:297dcd8f4d59",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:436f70c0507f",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The effect of Kalmia cover on annual leader growth... was not significant",
+      "source_spans": [
+        {
+          "text": "The effect of Kalmia cover on annual leader growth... was not significant"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

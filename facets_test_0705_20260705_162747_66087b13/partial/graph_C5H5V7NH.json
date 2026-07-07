@@ -1,0 +1,506 @@
+{
+  "graph_id": "causal_mosaic:graph:9b4a91e8652f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T05:34:43.612981+00:00",
+    "source_corpus": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:01861ad8d246",
+      "name": "Fishway/Carp Barrier",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ec96bd932c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "installation and operation of the fishway/carp barrier to exclude carp from the marsh"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e8dc7cbb66b7",
+      "name": "Carp abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c1fb08741c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "significant reduction of carp in Cootes Paradise"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a7052be62f70",
+      "name": "Carp exclusion",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fa0f2059c3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "following carp exclusion"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a3cd29c7187",
+      "name": "Emergent vegetation abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5ed0c79dde",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "emergent vegetation to increase dramatically"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:673098ef0a97",
+      "name": "Emergent vegetation diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ed71dcf555",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "significant effect on the diversity of the emergent plant community"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b51f0a2b3ff",
+      "name": "Water clarity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f152e7197",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "clarity",
+      "source_spans": [
+        {
+          "text": "improved water clarity",
+          "start_char": 7867,
+          "end_char": 7889,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5654e57005f4",
+      "name": "Suspended sediment",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000113",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "reductions in suspended sediment",
+          "start_char": 7895,
+          "end_char": 7927,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d79808cdc7f7",
+      "name": "Dissolved phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_295b9bef91",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "reductions in dissolved phosphorus"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:002c642ead49",
+      "name": "Water levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6b6138f8f2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "level",
+      "source_spans": [
+        {
+          "text": "low water levels in 1998 and 1999"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9857106231da",
+      "name": "Submergent plant densities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_47d174b4f6",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "submergent plant densities declined by half"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:509ebee04dbe",
+      "name": "Plant growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3e370ceb84",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "carp can seriously limit plant growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d9333a29a99",
+      "name": "Carp presence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c1fb08741c",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "PATO:0000070",
+      "source_spans": [
+        {
+          "text": "carp can seriously limit plant growth"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2ff0e3f3859e",
+      "subject": "causal_mosaic:node:01861ad8d246",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e8dc7cbb66b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "installation and operation of the fishway/carp barrier to exclude carp from the marsh",
+      "source_spans": [
+        {
+          "text": "installation and operation of the fishway/carp barrier to exclude carp from the marsh"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a8a860264afb",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a3cd29c7187",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We credit the significant reduction of carp in Cootes Paradise with enhancing the response of emergent vegetation to favorable water levels",
+      "source_spans": [
+        {
+          "text": "We credit the significant reduction of carp in Cootes Paradise with enhancing the response of emergent vegetation to favorable water levels"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e81a33bad169",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:673098ef0a97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "significant effect on the diversity of the emergent plant community",
+      "source_spans": [
+        {
+          "text": "significant effect on the diversity of the emergent plant community"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b252787bc614",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b51f0a2b3ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "improved water clarity",
+      "source_spans": [
+        {
+          "text": "improved water clarity",
+          "start_char": 7867,
+          "end_char": 7889,
+          "paragraph_id": "page:3"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a7d1066c5cc3",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5654e57005f4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reductions in suspended sediment",
+      "source_spans": [
+        {
+          "text": "reductions in suspended sediment",
+          "start_char": 7895,
+          "end_char": 7927,
+          "paragraph_id": "page:3"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c15021dbd3ac",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d79808cdc7f7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reductions in dissolved phosphorus",
+      "source_spans": [
+        {
+          "text": "reductions in dissolved phosphorus"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:70bb1f37c375",
+      "subject": "causal_mosaic:node:002c642ead49",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a3cd29c7187",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The low water levels in 1998 and 1999 allowed emergent vegetation to increase dramatically from natural sources",
+      "source_spans": [
+        {
+          "text": "The low water levels in 1998 and 1999 allowed emergent vegetation to increase dramatically from natural sources"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:176358f6a3be",
+      "subject": "causal_mosaic:node:002c642ead49",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9857106231da",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "submergent plant densities declined by half between 1998 and 1999, this difference is the result of a 30-year low in water levels",
+      "source_spans": [
+        {
+          "text": "submergent plant densities declined by half between 1998 and 1999, this difference is the result of a 30-year low in water levels"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ec0c7c10e8c7",
+      "subject": "causal_mosaic:node:6d9333a29a99",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:509ebee04dbe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "carp can seriously limit plant growth even when water levels are favorable",
+      "source_spans": [
+        {
+          "text": "carp can seriously limit plant growth even when water levels are favorable"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.19.3.145",
+        "title": "Wetland Vegetation Monitoring in Cootes Paradise: Measuring the Response to a Fishway/Carp Barrier",
+        "year": 2001,
+        "authors": [
+          "Smith, Tyler",
+          "Lundholm, Jeremy",
+          "Simser, Len"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

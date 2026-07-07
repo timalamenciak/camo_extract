@@ -1,0 +1,388 @@
+{
+  "graph_id": "causal_mosaic:graph:9a977c7ced90",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T09:23:42.574935+00:00",
+    "source_corpus": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:bd94d0b519cd",
+      "name": "Captive breeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a9023afce9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Captive breeding, in which individuals are removed from the natural environment for at least one entire life cycle to increase survival and reproductive capacity, can rapidly increase juvenile production in highly fecund species such as sockeye salmon."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c58a17c418d0",
+      "name": "Juvenile production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_be5190cf69",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Captive breeding, in which individuals are removed from the natural environment for at least one entire life cycle to increase survival and reproductive capacity, can rapidly increase juvenile production in highly fecund species such as sockeye salmon."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f022af86cfa",
+      "name": "Hatchery spawning in 2004",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5ae8f89f67",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Genetic analysis of 792 Cultus sockeye salmon that were spawned in captivity in 2004 and their adult progeny of 2007 and 2008 revealed a genetic bottleneck originating from 20 wild sockeye salmon hatchery-spawned at Cultus Lake in the previous generation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08a87693842c",
+      "name": "Genic diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_10909b933e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "G2 hatchery-produced age three fish sampled in 2007 (the captively-bred fish of this study) had lower levels of both genic diversity (HE) and allelic richness (AR)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c5350bd3dad",
+      "name": "G1 parents derived from the wild smolt collections",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_d1248de124",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The substantial genetic impact of G1 parents derived from the wild smolt collections was primarily responsible for the normalization of allele frequencies and levels of genetic diversity in these fish."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4d24a215d62c",
+      "name": "Levels of genetic diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3c95f409d8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The substantial genetic impact of G1 parents derived from the wild smolt collections was primarily responsible for the normalization of allele frequencies and levels of genetic diversity in these fish."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ebfb9337fcf6",
+      "name": "Combined hatchery and natural rearing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b5a1965799",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "combined hatchery and natural rearing in a salmonid population generally is expected to reduce Ne over time because of the increased the variation in family size"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:14e9392fefba",
+      "name": "Ne",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_970d72c99e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "combined hatchery and natural rearing in a salmonid population generally is expected to reduce Ne over time because of the increased the variation in family size"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21108ae63f16",
+      "name": "Domestication selection",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a18b6a757c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "modelling indicated could be the result of domestication selection acting upon multiple traits"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:03376b7a45ae",
+      "name": "Reproductive capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f15c041d2d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "modelling indicated could be the result of domestication selection acting upon multiple traits"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8fc5ea41845",
+      "name": "Captive breeding program",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5e21e412c0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This can viewed as a successful outcome of the captive breeding program"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99453421d58f",
+      "name": "Return of 521 sockeye salmon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_66753dae0a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The 2008 return of 521 sockeye salmon was five times larger than that of 2004, with 40 fish likely produced from wild spawning. This can viewed as a successful outcome of the captive breeding program"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5b8c46adb8c0",
+      "subject": "causal_mosaic:node:bd94d0b519cd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c58a17c418d0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Captive breeding, in which individuals are removed from the natural environment for at least one entire life cycle to increase survival and reproductive capacity, can rapidly increase juvenile production in highly fecund species such as sockeye salmon.",
+      "source_spans": [
+        {
+          "text": "Captive breeding, in which individuals are removed from the natural environment for at least one entire life cycle to increase survival and reproductive capacity, can rapidly increase juvenile production in highly fecund species such as sockeye salmon."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10592-011-0246-5",
+        "title": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+        "year": 2011,
+        "authors": [
+          "Withler, Ruth E.",
+          "Devlin, Robert H.",
+          "Latham, Steve",
+          "Wood, Chris C.",
+          "Supernault, K. Janine"
+        ],
+        "journal": "Conserv Genet"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b3067313345c",
+      "subject": "causal_mosaic:node:1f022af86cfa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:08a87693842c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Genetic analysis of 792 Cultus sockeye salmon that were spawned in captivity in 2004 and their adult progeny of 2007 and 2008 revealed a genetic bottleneck originating from 20 wild sockeye salmon hatchery-spawned at Cultus Lake in the previous generation.",
+      "source_spans": [
+        {
+          "text": "Genetic analysis of 792 Cultus sockeye salmon that were spawned in captivity in 2004 and their adult progeny of 2007 and 2008 revealed a genetic bottleneck originating from 20 wild sockeye salmon hatchery-spawned at Cultus Lake in the previous generation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10592-011-0246-5",
+        "title": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+        "year": 2011,
+        "authors": [
+          "Withler, Ruth E.",
+          "Devlin, Robert H.",
+          "Latham, Steve",
+          "Wood, Chris C.",
+          "Supernault, K. Janine"
+        ],
+        "journal": "Conserv Genet"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fa32988a4f03",
+      "subject": "causal_mosaic:node:2c5350bd3dad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4d24a215d62c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The substantial genetic impact of G1 parents derived from the wild smolt collections was primarily responsible for the normalization of allele frequencies and levels of genetic diversity in these fish.",
+      "source_spans": [
+        {
+          "text": "The substantial genetic impact of G1 parents derived from the wild smolt collections was primarily responsible for the normalization of allele frequencies and levels of genetic diversity in these fish."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10592-011-0246-5",
+        "title": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+        "year": 2011,
+        "authors": [
+          "Withler, Ruth E.",
+          "Devlin, Robert H.",
+          "Latham, Steve",
+          "Wood, Chris C.",
+          "Supernault, K. Janine"
+        ],
+        "journal": "Conserv Genet"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8492e4fa890c",
+      "subject": "causal_mosaic:node:ebfb9337fcf6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:14e9392fefba",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "combined hatchery and natural rearing in a salmonid population generally is expected to reduce Ne over time because of the increased the variation in family size",
+      "source_spans": [
+        {
+          "text": "combined hatchery and natural rearing in a salmonid population generally is expected to reduce Ne over time because of the increased the variation in family size"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10592-011-0246-5",
+        "title": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+        "year": 2011,
+        "authors": [
+          "Withler, Ruth E.",
+          "Devlin, Robert H.",
+          "Latham, Steve",
+          "Wood, Chris C.",
+          "Supernault, K. Janine"
+        ],
+        "journal": "Conserv Genet"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8d989cba51c2",
+      "subject": "causal_mosaic:node:21108ae63f16",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:03376b7a45ae",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "modelling indicated could be the result of domestication selection acting upon multiple traits",
+      "source_spans": [
+        {
+          "text": "modelling indicated could be the result of domestication selection acting upon multiple traits"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10592-011-0246-5",
+        "title": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+        "year": 2011,
+        "authors": [
+          "Withler, Ruth E.",
+          "Devlin, Robert H.",
+          "Latham, Steve",
+          "Wood, Chris C.",
+          "Supernault, K. Janine"
+        ],
+        "journal": "Conserv Genet"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:325cde5b4b3b",
+      "subject": "causal_mosaic:node:c8fc5ea41845",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:99453421d58f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 2008 return of 521 sockeye salmon was five times larger than that of 2004, with 40 fish likely produced from wild spawning. This can viewed as a successful outcome of the captive breeding program",
+      "source_spans": [
+        {
+          "text": "The 2008 return of 521 sockeye salmon was five times larger than that of 2004, with 40 fish likely produced from wild spawning. This can viewed as a successful outcome of the captive breeding program"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10592-011-0246-5",
+        "title": "Analysis of gene origin in the first adult returns to the Cultus sockeye salmon captive breeding program",
+        "year": 2011,
+        "authors": [
+          "Withler, Ruth E.",
+          "Devlin, Robert H.",
+          "Latham, Steve",
+          "Wood, Chris C.",
+          "Supernault, K. Janine"
+        ],
+        "journal": "Conserv Genet"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

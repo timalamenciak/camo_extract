@@ -1,0 +1,780 @@
+{
+  "graph_id": "causal_mosaic:graph:310ec4d984cc",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T19:11:59.116472+00:00",
+    "source_corpus": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ed19ea790435",
+      "name": "LFH treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_74f7c31631",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fad4e5e4160",
+      "name": "plant abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8260214d3d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:782c792148c5",
+      "name": "soil nutrients",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_23800901c6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nutrients",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b562076b4cdc",
+      "name": "C:N ratios",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4fd8352d36",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "C:N ratios",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4483a737e68f",
+      "name": "soluble potassium",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4818dfbb52",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "potassium",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e932cdf3a29",
+      "name": "available phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_268c308134",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "phosphorus",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75031a2e360b",
+      "name": "20 cm of LFH",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_81d7868679",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "20 cm of LFH was more beneficial for plant community establishment than 10 cm."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5d7307baaaff",
+      "name": "plant community establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1327fea43d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "establishment",
+      "source_spans": [
+        {
+          "text": "20 cm of LFH was more beneficial for plant community establishment than 10 cm."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37749519cf58",
+      "name": "10 cm application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_211beccdea",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:62d62f94dac5",
+      "name": "admixture of fine-textured subsoil",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0230f155d9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8bf6f6532f6d",
+      "name": "organic carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4e5550a891",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "organic carbon",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:34e40a280297",
+      "name": "nitrogen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67f8295f6c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "nitrogen",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b7ae01e788a6",
+      "name": "potassium",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_799799e720",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "potassium",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4b6dd219f14",
+      "name": "LFH donor material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_72e628c62a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "LFH donor material had significantly more plant species emerge (37) from the propagule bank than did peat donor material (19)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:17bd0a041bb8",
+      "name": "propagule emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_30588d5207",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emerge",
+      "source_spans": [
+        {
+          "text": "LFH donor material had significantly more plant species emerge (37) from the propagule bank than did peat donor material (19)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:721328a8a6c9",
+      "name": "Admixing with subsoil materials",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4e21cb5429",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a46deafb6940",
+      "name": "soil propagules",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_101270462c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "propagules",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc4e28821be4",
+      "name": "organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e656228b8",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "organic matter",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0c4b678caf1",
+      "name": "nutrients",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_97045ae10a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "nutrients",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ad40e6cd57ff",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:80eaf03db889",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fad4e5e4160",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e68d9bedd8a7",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:782c792148c5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had significantly higher species richness (49, 47, 24, and 25 species for LFH 10 cm, LFH 20 cm, peat 10 cm, and peat 20 cm treatments, respectively), plant abundance, and soil nutrients than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:167f963c7854",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b562076b4cdc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9342df632e2b",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4483a737e68f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e03bcab11320",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e932cdf3a29",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios and higher soluble potassium and available phosphorus than peat."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08081982a40c",
+      "subject": "causal_mosaic:node:75031a2e360b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5d7307baaaff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "20 cm of LFH was more beneficial for plant community establishment than 10 cm.",
+      "source_spans": [
+        {
+          "text": "20 cm of LFH was more beneficial for plant community establishment than 10 cm."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:83b407bb7cb4",
+      "subject": "causal_mosaic:node:37749519cf58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:62d62f94dac5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f14c74ef420d",
+      "subject": "causal_mosaic:node:37749519cf58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8bf6f6532f6d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8822955363bf",
+      "subject": "causal_mosaic:node:37749519cf58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:34e40a280297",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8f1eab829770",
+      "subject": "causal_mosaic:node:37749519cf58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b7ae01e788a6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of fine-textured subsoil, reducing organic carbon, nitrogen, and potassium"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:58a335f9a636",
+      "subject": "causal_mosaic:node:a4b6dd219f14",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:17bd0a041bb8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH donor material had significantly more plant species emerge (37) from the propagule bank than did peat donor material (19).",
+      "source_spans": [
+        {
+          "text": "LFH donor material had significantly more plant species emerge (37) from the propagule bank than did peat donor material (19)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b63448f946d5",
+      "subject": "causal_mosaic:node:721328a8a6c9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a46deafb6940",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients.",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f35ff3eac3f7",
+      "subject": "causal_mosaic:node:721328a8a6c9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cc4e28821be4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients.",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9595e67aab53",
+      "subject": "causal_mosaic:node:721328a8a6c9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0c4b678caf1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients.",
+      "source_spans": [
+        {
+          "text": "When applying donor soils, admixing with subsoil materials should be avoided, as it dilutes soil propagules, organic matter, and nutrients."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

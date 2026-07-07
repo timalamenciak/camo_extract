@@ -1,0 +1,1024 @@
+{
+  "graph_id": "causal_mosaic:graph:228cc5cd6413",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T08:00:51.734584+00:00",
+    "source_corpus": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:44cf1088f7df",
+      "name": "liming",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6d602e8440",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "liming (3 Mg ha/H110021 of CaCO 3)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f273307fc55a",
+      "name": "release",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a0e7e366f6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "effect of release (removing all competitors withi n1mo f their crown perimeters)",
+          "start_char": 511,
+          "end_char": 591,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0dcffc6a69bc",
+      "name": "calcium concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0343510ef",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "calcium concentrations",
+      "source_spans": [
+        {
+          "text": "four-fold increa se in calcium concentrations of the upper soil layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3f9768dd5bf",
+      "name": "exchangeable acidity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd3e8d9d5c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "exchangeable acidity",
+      "source_spans": [
+        {
+          "text": "63% decrease in exchangeable acidity",
+          "start_char": 992,
+          "end_char": 1028,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b484f09c978",
+      "name": "soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200010",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "pH",
+      "source_spans": [
+        {
+          "text": "The pH of the 0 –12 cm soil layer was slightly higher in the limed treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:451c06aeedc6",
+      "name": "organic C concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fa1ceef792",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "organic C concentrations",
+      "source_spans": [
+        {
+          "text": "Organic C concentrations were slightly higher in the limed soil 0 –12 cm layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3f43fbd0298",
+      "name": "soil base saturation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_59952c50d1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "BS",
+      "source_spans": [
+        {
+          "text": "BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d7cbd431235",
+      "name": "soil calcium saturation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9441b3908",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "CaS",
+      "source_spans": [
+        {
+          "text": "BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9f43c285d16e",
+      "name": "soil Ca/Mg ratio",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b356b17ee3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Ca/Mg ratio",
+      "source_spans": [
+        {
+          "text": "BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3bd77e913355",
+      "name": "soil K/Mg ratio",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9df25da51e",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "K/Mg ratio",
+      "source_spans": [
+        {
+          "text": "while the K/Mg ratio slightly lower",
+          "start_char": 15809,
+          "end_char": 15844,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d9ff57886014",
+      "name": "biomass growth of SM saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c743559afc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biomass growth",
+      "source_spans": [
+        {
+          "text": "liming increased biomass growth of SM saplings",
+          "start_char": 1166,
+          "end_char": 1212,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f339205c752",
+      "name": "biomass growth of AB saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8c5ff92c85",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "biomass growth",
+      "source_spans": [
+        {
+          "text": "while there was no effect on AB growth",
+          "start_char": 1270,
+          "end_char": 1308,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d3a96976460",
+      "name": "height growth of SM saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3343d481d7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "height growth",
+      "source_spans": [
+        {
+          "text": "height growth of released SM (8%) was lower than height growth of unreleased SM saplings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:760670ac9581",
+      "name": "height growth of AB saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f5d43469d3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "height growth",
+      "source_spans": [
+        {
+          "text": "released AB saplings grew faster (41%) in height than unreleased AB saplings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3b109d9c6bcd",
+      "name": "basal area growth of SM saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d624af51c4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "basal area growth",
+      "source_spans": [
+        {
+          "text": "basal area of released SM and AB saplings had increased by 73 and 217%, respectively"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1efd051aef1e",
+      "name": "basal area growth of AB saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8cabe0533e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "basal area growth",
+      "source_spans": [
+        {
+          "text": "basal area of released SM and AB saplings had increased by 73 and 217%, respectively"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af61c9ea6e61",
+      "name": "interaction of light availability and soil Ca availability",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3b784edc7d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "availability of light and of soil Ca interacts to increase growth of SM saplings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08bc83d9cb69",
+      "name": "growth of SM saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c0cf7bdf7c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "interacts to increase growth of SM saplings"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e9e37d166cfa",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dcffc6a69bc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lime application had the desired effect on soil chemistry, expressed notably as a four-fold increa se in calcium concentrations of the upper soil layer (0 –12 cm)",
+      "source_spans": [
+        {
+          "text": "Lime application had the desired effect on soil chemistry, expressed notably as a four-fold increa se in calcium concentrations of the upper soil layer (0 –12 cm)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ebea56523523",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3f9768dd5bf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lime application had the desired effect on soil chemistry, expressed notably as a four-fold increa se in calcium concentrations of the upper soil layer (0 –12 cm) and a 63% decrease in exchangeable acidity.",
+      "source_spans": [
+        {
+          "text": "Lime application had the desired effect on soil chemistry, expressed notably as a four-fold increa se in calcium concentrations of the upper soil layer (0 –12 cm) and a 63% decrease in exchangeable acidity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:78762aa43e19",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b484f09c978",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The pH of the 0 –12 cm soil layer was slightly higher in the limed treatment",
+      "source_spans": [
+        {
+          "text": "The pH of the 0 –12 cm soil layer was slightly higher in the limed treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:af0c48862a6e",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:451c06aeedc6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Organic C concentrations were slightly higher in the limed soil 0 –12 cm layer compared to the controls",
+      "source_spans": [
+        {
+          "text": "Organic C concentrations were slightly higher in the limed soil 0 –12 cm layer compared to the controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:de521d23c43d",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3f43fbd0298",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Consequently, CEC, BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher",
+      "source_spans": [
+        {
+          "text": "Consequently, CEC, BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a4d053d9a444",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d7cbd431235",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Consequently, CEC, BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher",
+      "source_spans": [
+        {
+          "text": "Consequently, CEC, BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1782169735fa",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9f43c285d16e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Consequently, CEC, BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher",
+      "source_spans": [
+        {
+          "text": "Consequently, CEC, BS, CaS, and the Ca/Mg ratio were 1.5–3.3 times higher"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e27dda914990",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3bd77e913355",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "while the K/Mg ratio slightly lower",
+      "source_spans": [
+        {
+          "text": "while the K/Mg ratio slightly lower",
+          "start_char": 15809,
+          "end_char": 15844,
+          "paragraph_id": "page:3"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1f94aeeb9b0f",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9ff57886014",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "liming increased biomass growth of SM saplings (approximately 2 times compared with unlimed saplings)",
+      "source_spans": [
+        {
+          "text": "liming increased biomass growth of SM saplings (approximately 2 times compared with unlimed saplings)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a3b34e1b489d",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f339205c752",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "while there was no effect on AB growth",
+      "source_spans": [
+        {
+          "text": "while there was no effect on AB growth",
+          "start_char": 1270,
+          "end_char": 1308,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bea051ef08b9",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8d3a96976460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there was no effect of the liming treatment on overall height growth",
+      "source_spans": [
+        {
+          "text": "there was no effect of the liming treatment on overall height growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95cd315d95af",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:760670ac9581",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there was no effect of the liming treatment on overall height growth",
+      "source_spans": [
+        {
+          "text": "there was no effect of the liming treatment on overall height growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fa9c13c99aed",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3b109d9c6bcd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "basal area of limed SM saplings increased by 75%, while unlimed saplings increased by 37%",
+      "source_spans": [
+        {
+          "text": "basal area of limed SM saplings increased by 75%, while unlimed saplings increased by 37%"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:043635f7b079",
+      "subject": "causal_mosaic:node:44cf1088f7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1efd051aef1e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Growth of limed and unlimed AB saplings did not differ significantly",
+      "source_spans": [
+        {
+          "text": "Growth of limed and unlimed AB saplings did not differ significantly"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4dd1230c8a38",
+      "subject": "causal_mosaic:node:f273307fc55a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9ff57886014",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Relative biomass growth of released SM and AB saplings after the 7-year period was respectively 1.5 and 2.3 times higher than for unreleased saplings",
+      "source_spans": [
+        {
+          "text": "Relative biomass growth of released SM and AB saplings after the 7-year period was respectively 1.5 and 2.3 times higher than for unreleased saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ba86c3bc0862",
+      "subject": "causal_mosaic:node:f273307fc55a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f339205c752",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Relative biomass growth of released SM and AB saplings after the 7-year period was respectively 1.5 and 2.3 times higher than for unreleased saplings",
+      "source_spans": [
+        {
+          "text": "Relative biomass growth of released SM and AB saplings after the 7-year period was respectively 1.5 and 2.3 times higher than for unreleased saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:195c90c4bec3",
+      "subject": "causal_mosaic:node:f273307fc55a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8d3a96976460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "height growth of released SM (8%) was lower than height growth of unreleased SM saplings",
+      "source_spans": [
+        {
+          "text": "height growth of released SM (8%) was lower than height growth of unreleased SM saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e8ce8d88b266",
+      "subject": "causal_mosaic:node:f273307fc55a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:760670ac9581",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "released AB saplings grew faster (41%) in height than unreleased AB saplings",
+      "source_spans": [
+        {
+          "text": "released AB saplings grew faster (41%) in height than unreleased AB saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e44ae5499c96",
+      "subject": "causal_mosaic:node:f273307fc55a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3b109d9c6bcd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "basal area of released SM and AB saplings had increased by 73 and 217%, respectively",
+      "source_spans": [
+        {
+          "text": "basal area of released SM and AB saplings had increased by 73 and 217%, respectively"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:885c00cbee03",
+      "subject": "causal_mosaic:node:f273307fc55a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1efd051aef1e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "basal area of released SM and AB saplings had increased by 73 and 217%, respectively",
+      "source_spans": [
+        {
+          "text": "basal area of released SM and AB saplings had increased by 73 and 217%, respectively"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:03d666a041f5",
+      "subject": "causal_mosaic:node:af61c9ea6e61",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:08bc83d9cb69",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "availability of light and of soil Ca interacts to increase growth of SM saplings",
+      "source_spans": [
+        {
+          "text": "availability of light and of soil Ca interacts to increase growth of SM saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5849/njaf.12-012",
+        "title": "Partitioning the Effect of Release and Liming on Growth of Sugar Maple and American Beech Saplings",
+        "year": 2013,
+        "authors": [
+          "Duchesne, Louis",
+          "Moore, Jean-David",
+          "Ouimet, Rock"
+        ],
+        "journal": "Northern Journal of Applied Forestry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

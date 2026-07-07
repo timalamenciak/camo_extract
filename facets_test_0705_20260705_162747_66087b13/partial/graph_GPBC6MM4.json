@@ -1,0 +1,679 @@
+{
+  "graph_id": "causal_mosaic:graph:a5ed479c395b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T04:24:49.152869+00:00",
+    "source_corpus": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6598cd87e501",
+      "name": "rewetting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4e0f2c73ff",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rewetting mitigated the increase in tree dominance",
+          "start_char": 1633,
+          "end_char": 1683,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55bf7195080c",
+      "name": "blockage of drainage ditches",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ea3e613d6f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "blockage of former drainage ditches",
+          "start_char": 1962,
+          "end_char": 1997,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6bc0223f9b94",
+      "name": "tree dominance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_421628ed32",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "rewetting mitigated the increase in tree dominance",
+          "start_char": 1633,
+          "end_char": 1683,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:270ec489885d",
+      "name": "dominance by ericaceous shrubs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_18b6f76c19",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "rewetting... decreased the dominance by ericaceous shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fbf5114d56c5",
+      "name": "non-vascular species with a wet habitat preference",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9999aa6b4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "rewetting... favored the spread of non-vascular species with a wet habitat preference"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4547c249110c",
+      "name": "Sphagnum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15cecc3723",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sphagnum species... experienced a high overall increase in cover after rewetting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ebb3525e0e32",
+      "name": "tendency towards more closed canopies",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6b69845366",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "restoration seemed to have reversed the tendency towards more closed canopies"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7189b2d7b0c6",
+      "name": "shade-tolerant species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3b48ec6df",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decline of shade-tolerant species such as the moss Pleurozium schreberi"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36211d12c79d",
+      "name": "species with wet preferences",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_200bed5e04",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "positive response of other vascular and non-vascular species with wet preferences"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cb4f6c504fe6",
+      "name": "species more tolerant of dry conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_abf2bd21f9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decline of species more tolerant of dry conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:729f976efb93",
+      "name": "undesired vegetation trajectories",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77a9f361c0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "blockage of former drainage ditches... can re-orient undesired vegetation trajectories"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5020bfdb513",
+      "name": "recovery of typical bog vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_27914151fb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "blockage of former primary drainage ditches can effectively counteract undesired trajectories and promote the recovery of typical bog vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:293f04b73b84",
+      "name": "agricultural drainage",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_48ab45b055",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "partially driven by agricultural drainage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8a006899f44",
+      "name": "afforestation",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500011",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "generalized process of afforestation",
+          "start_char": 1131,
+          "end_char": 1167,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:31671f409e18",
+      "name": "ericaceous shrubs",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_fbc3b6b7c1",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "ericaceous shrubs that hampered the spontaneous recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86d6f44bf392",
+      "name": "spontaneous recovery of a Sphagnum-dominated system",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2313a6271d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "hampered the spontaneous recovery of a Sphagnum-dominated system"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1cabf1abd770",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6bc0223f9b94",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rewetting mitigated the increase in tree dominance",
+      "source_spans": [
+        {
+          "text": "rewetting mitigated the increase in tree dominance",
+          "start_char": 1633,
+          "end_char": 1683,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3e7d7238d056",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:270ec489885d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rewetting... decreased the dominance by ericaceous shrubs",
+      "source_spans": [
+        {
+          "text": "rewetting... decreased the dominance by ericaceous shrubs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cd7a386cc6cc",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fbf5114d56c5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rewetting... favored the spread of non-vascular species with a wet habitat preference",
+      "source_spans": [
+        {
+          "text": "rewetting... favored the spread of non-vascular species with a wet habitat preference"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9f032e7ae186",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ebb3525e0e32",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoration seemed to have reversed the tendency towards more closed canopies",
+      "source_spans": [
+        {
+          "text": "restoration seemed to have reversed the tendency towards more closed canopies"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4cfd89fe046a",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4547c249110c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum species... experienced a high overall increase in cover after rewetting",
+      "source_spans": [
+        {
+          "text": "Sphagnum species... experienced a high overall increase in cover after rewetting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c54695851172",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7189b2d7b0c6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "decline of shade-tolerant species such as the moss Pleurozium schreberi",
+      "source_spans": [
+        {
+          "text": "decline of shade-tolerant species such as the moss Pleurozium schreberi"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:67551d15ff5f",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36211d12c79d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "positive response of other vascular and non-vascular species with wet preferences",
+      "source_spans": [
+        {
+          "text": "positive response of other vascular and non-vascular species with wet preferences"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fec3bca95aa7",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cb4f6c504fe6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "decline of species more tolerant of dry conditions",
+      "source_spans": [
+        {
+          "text": "decline of species more tolerant of dry conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3a3f35c0e492",
+      "subject": "causal_mosaic:node:55bf7195080c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:729f976efb93",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "blockage of former drainage ditches... can re-orient undesired vegetation trajectories",
+      "source_spans": [
+        {
+          "text": "blockage of former drainage ditches... can re-orient undesired vegetation trajectories"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:485a5f8ccbdf",
+      "subject": "causal_mosaic:node:55bf7195080c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b5020bfdb513",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "blockage of former primary drainage ditches can effectively counteract undesired trajectories and promote the recovery of typical bog vegetation",
+      "source_spans": [
+        {
+          "text": "blockage of former primary drainage ditches can effectively counteract undesired trajectories and promote the recovery of typical bog vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cf5239b9d6bd",
+      "subject": "causal_mosaic:node:293f04b73b84",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c8a006899f44",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "generalized process of afforestation... partially driven by agricultural drainage",
+      "source_spans": [
+        {
+          "text": "generalized process of afforestation... partially driven by agricultural drainage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2b2ea05316ed",
+      "subject": "causal_mosaic:node:31671f409e18",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86d6f44bf392",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "ericaceous shrubs that hampered the spontaneous recovery of a Sphagnum-dominated system",
+      "source_spans": [
+        {
+          "text": "ericaceous shrubs that hampered the spontaneous recovery of a Sphagnum-dominated system"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-013-9322-6",
+        "title": "Is rewetting enough to recover Sphagnum and associated peat-accumulating species in traditionally exploited bogs?",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Henstra, S. W.",
+          "Rochefort, L.",
+          "Bradfield, G. E.",
+          "Poulin, M."
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

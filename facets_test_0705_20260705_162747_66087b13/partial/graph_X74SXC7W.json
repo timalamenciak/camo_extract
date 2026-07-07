@@ -1,0 +1,175 @@
+{
+  "graph_id": "causal_mosaic:graph:f88f65507edb",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T10:31:57.010872+00:00",
+    "source_corpus": "Promising Results Restoring Grassland Disturbances with Native Hay (Alberta)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:67017b152c58",
+      "name": "native hay application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dc33a41b29",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "native hay application",
+          "start_char": 5326,
+          "end_char": 5348,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a3fa8273bda6",
+      "name": "ground cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000337",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Applied hay would have increased ground cover",
+          "start_char": 16316,
+          "end_char": 16361,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a3e29391d384",
+      "name": "weedy species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b8540995b4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reduction of weedy species",
+          "start_char": 16394,
+          "end_char": 16420,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0438315465b",
+      "name": "rough fescue establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6bbaa94880",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rough fescue establishment",
+          "start_char": 15495,
+          "end_char": 15521,
+          "paragraph_id": "page:4"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c7cbc44eefe4",
+      "subject": "causal_mosaic:node:67017b152c58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a3fa8273bda6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applied hay would have increased ground cover, which likely accounted for the reduction of weedy species on the ROW",
+      "source_spans": [
+        {
+          "text": "Applied hay would have increased ground cover, which likely accounted for the reduction of weedy species on the ROW"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.3.215",
+        "title": "Promising Results Restoring Grassland Disturbances with Native Hay (Alberta)",
+        "year": 2011,
+        "authors": [
+          "Naeth, M.A., Desserud, P.A."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b6446bd37c72",
+      "subject": "causal_mosaic:node:67017b152c58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a3e29391d384",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applied hay would have increased ground cover, which likely accounted for the reduction of weedy species on the ROW",
+      "source_spans": [
+        {
+          "text": "Applied hay would have increased ground cover, which likely accounted for the reduction of weedy species on the ROW"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.3.215",
+        "title": "Promising Results Restoring Grassland Disturbances with Native Hay (Alberta)",
+        "year": 2011,
+        "authors": [
+          "Naeth, M.A., Desserud, P.A."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:34b3e3a27fe4",
+      "subject": "causal_mosaic:node:67017b152c58",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0438315465b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This experiment supports the hypothesis that native hay cut from rough fescue grassland is a viable seed source for restoring disturbances.",
+      "source_spans": [
+        {
+          "text": "This experiment supports the hypothesis that native hay cut from rough fescue grassland is a viable seed source for restoring disturbances."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.3.215",
+        "title": "Promising Results Restoring Grassland Disturbances with Native Hay (Alberta)",
+        "year": 2011,
+        "authors": [
+          "Naeth, M.A., Desserud, P.A."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

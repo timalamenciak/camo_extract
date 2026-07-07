@@ -1,0 +1,874 @@
+{
+  "graph_id": "causal_mosaic:graph:321cec8f09fb",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T02:15:38.485076+00:00",
+    "source_corpus": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b8c9c7b38d00",
+      "name": "Wastewater addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_739232e4a9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Within five years of wastewater addition to the marsh, over 130 bird species had been reintroduced"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18db3260fc96",
+      "name": "Bird species reintroduction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_47ce3083a8",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species reintroduction",
+      "source_spans": [
+        {
+          "text": "Within five years of wastewater addition to the marsh, over 130 bird species had been reintroduced"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f19c6d022648",
+      "name": "Wastewater nutrient reduction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e8298edefd",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nutrient reduction",
+      "source_spans": [
+        {
+          "text": "the marsh had demonstrated a significant capacity for wastewater nutrient reduction"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b2c0306ce67f",
+      "name": "Agricultural drainage and encroachment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_68d2c71070",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Agricultural drainage and encroachment had substantially reduced the size of Frank Lake"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54313d828ecb",
+      "name": "Size of Frank Lake",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3751367beb",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0000117",
+      "source_spans": [
+        {
+          "text": "Agricultural drainage and encroachment had substantially reduced the size of Frank Lake"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ca5ed74d750",
+      "name": "Cultivation, grazing, and fire suppression",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6c3036d0a6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Disturbance by cultivation, repeated heavy grazing, and fire suppression had reduced or eliminated several native plant and animal populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8bfe1a29faaa",
+      "name": "Native plant and animal populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_de81620628",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "populations",
+      "source_spans": [
+        {
+          "text": "Disturbance by cultivation, repeated heavy grazing, and fire suppression had reduced or eliminated several native plant and animal populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c981f5dbf3c0",
+      "name": "Marsh restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f18ad5d656",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Many avian species have only recently returned to Frank Lake following marsh restoration in 1990"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f975087feaf2",
+      "name": "Avian species return",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f19664a071",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species return",
+      "source_spans": [
+        {
+          "text": "Many avian species have only recently returned to Frank Lake following marsh restoration in 1990"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95c209c7c0fc",
+      "name": "Upland and water management strategies",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_05da5edde6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The success of upland and water management strategies is reflected in the increase of target species’ abundance and richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c72bf01e55b4",
+      "name": "Target species' abundance and richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_660b3f9eef",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance and richness",
+      "source_spans": [
+        {
+          "text": "The success of upland and water management strategies is reflected in the increase of target species’ abundance and richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ad49ff2feb0c",
+      "name": "Waters flowing through the first basin",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_00dfcefa3a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "significant N and P reduction occurs as waters flow through the first basin of the marsh"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a65b857f2720",
+      "name": "N and P reduction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e1d49d6339",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "nitrogen and phosphorus reduction",
+      "source_spans": [
+        {
+          "text": "significant N and P reduction occurs as waters flow through the first basin of the marsh"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:02ac5ff2dd03",
+      "name": "Creation of wetland for wastewater treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_336a81f5c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the creation of an industry and a wetland for wastewater treatment that could treat industrial wastewater and improve water quality in nearby watercourses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04de6960d1bb",
+      "name": "Water quality in nearby watercourses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7a322f2132",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "water quality",
+      "source_spans": [
+        {
+          "text": "the creation of an industry and a wetland for wastewater treatment that could treat industrial wastewater and improve water quality in nearby watercourses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cd9649c0452",
+      "name": "Elimination of municipal wastewater dumping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b47aaa5e3c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the project eliminated municipal wastewater dumping into the Highwood River, quickly improving water quality in the Highwood River"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4eaeda2d6bd8",
+      "name": "Water quality in the Highwood River",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_59045eca45",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "water quality",
+      "source_spans": [
+        {
+          "text": "the project eliminated municipal wastewater dumping into the Highwood River, quickly improving water quality in the Highwood River"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f9e87224e65",
+      "name": "Cooperative venture (restoration)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_52dbda190d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Results from local plant and animal inventories show that this cooperative venture has been quite successful in restoring site biodiversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bdb58f1afdff",
+      "name": "Site biodiversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8a6949fe10",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biodiversity",
+      "source_spans": [
+        {
+          "text": "Results from local plant and animal inventories show that this cooperative venture has been quite successful in restoring site biodiversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d68878382793",
+      "name": "Seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8d402dbcde",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Almost 800 ha of upland cover have already been restored to native grasses and shrubs by seeding"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4b3b87815049",
+      "name": "Upland cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_81eb979f5d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Almost 800 ha of upland cover have already been restored to native grasses and shrubs by seeding"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:558a2a72178f",
+      "name": "Backflood irrigation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9f957aec17",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "An additional 283 ha (700 acres) of marsh is added to the existing basin every spring at Frank Lake with backflood irrigation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:334d0448cd32",
+      "name": "Marsh area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1083750e96",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001323",
+      "source_spans": [
+        {
+          "text": "An additional 283 ha (700 acres) of marsh is added to the existing basin every spring at Frank Lake with backflood irrigation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba32b2e68708",
+      "name": "Nesting structures",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5bedc1d6d9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The success of the nesting structures is reflected in the large number of immature birds banded at Frank Lake from 1993 to 1996"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1e9f848c20c0",
+      "name": "Immature birds banded",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9313bf0e1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "number of immature birds",
+      "source_spans": [
+        {
+          "text": "The success of the nesting structures is reflected in the large number of immature birds banded at Frank Lake from 1993 to 1996"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0e854e09a53a",
+      "name": "Nutrient treatment by the marsh",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9972673623",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "preliminary findings of nutrient treatment by the marsh showed total phosphorus retention of 64% and NH3 retention of 87%"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87c7b84d617e",
+      "name": "Phosphorus retention",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4c83ca2ba7",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "phosphorus retention",
+      "source_spans": [
+        {
+          "text": "preliminary findings of nutrient treatment by the marsh showed total phosphorus retention of 64% and NH3 retention of 87%"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d43d3e029a48",
+      "name": "Minimization of management activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a5a1b9a20c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Management and recreation activities, such as hunting and bird-watching are minimized at Frank Lake during critical periods to reduce impacts on wildlife"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4af32fbc7c8",
+      "name": "Impacts on wildlife",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_50dbe8da2d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "impacts",
+      "source_spans": [
+        {
+          "text": "Management and recreation activities, such as hunting and bird-watching are minimized at Frank Lake during critical periods to reduce impacts on wildlife"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:80632c50a17a",
+      "subject": "causal_mosaic:node:b8c9c7b38d00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18db3260fc96",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Within five years of wastewater addition to the marsh, over 130 bird species had been reintroduced, several other species of flora and fauna had reestablished, and the marsh had demonstrated a significant capacity for wastewater nutrient reduction.",
+      "source_spans": [
+        {
+          "text": "Within five years of wastewater addition to the marsh, over 130 bird species had been reintroduced, several other species of flora and fauna had reestablished, and the marsh had demonstrated a significant capacity for wastewater nutrient reduction."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b7e8ad0d90d8",
+      "subject": "causal_mosaic:node:b8c9c7b38d00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f19c6d022648",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Within five years of wastewater addition to the marsh, over 130 bird species had been reintroduced, several other species of flora and fauna had reestablished, and the marsh had demonstrated a significant capacity for wastewater nutrient reduction.",
+      "source_spans": [
+        {
+          "text": "Within five years of wastewater addition to the marsh, over 130 bird species had been reintroduced, several other species of flora and fauna had reestablished, and the marsh had demonstrated a significant capacity for wastewater nutrient reduction."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0aa50b1b8a37",
+      "subject": "causal_mosaic:node:b2c0306ce67f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54313d828ecb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Agricultural drainage and encroachment had substantially reduced the size of Frank Lake and by the early 1980s, the wetland was dry.",
+      "source_spans": [
+        {
+          "text": "Agricultural drainage and encroachment had substantially reduced the size of Frank Lake and by the early 1980s, the wetland was dry."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:aec41b46117b",
+      "subject": "causal_mosaic:node:0ca5ed74d750",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8bfe1a29faaa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Disturbance by cultivation, repeated heavy grazing, and fire suppression had reduced or eliminated several native plant and animal populations (Wallis and others 1996), such as the extirpation of wolf (Canis lupus), coyote (Canis latrans), badger (Taxidea taxus), swift fox (Vulpes velox), antelope (Antilocapra americana ), sharp-tailed grouse ( Tympanuchus phasianellus), and greater prairie chicken (Tympanuchus cupido) from the High River area (Fowler 1937).",
+      "source_spans": [
+        {
+          "text": "Disturbance by cultivation, repeated heavy grazing, and fire suppression had reduced or eliminated several native plant and animal populations (Wallis and others 1996), such as the extirpation of wolf (Canis lupus), coyote (Canis latrans), badger (Taxidea taxus), swift fox (Vulpes velox), antelope (Antilocapra americana ), sharp-tailed grouse ( Tympanuchus phasianellus), and greater prairie chicken (Tympanuchus cupido) from the High River area (Fowler 1937)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4c4dcae3d385",
+      "subject": "causal_mosaic:node:c981f5dbf3c0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f975087feaf2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Many avian species have only recently returned to Frank Lake following marsh restoration in 1990, including 44 waterfowl species (Table 1), 15 raptor species (Table 2), 50 shorebird species (Table 3), and 28 other bird species (Table 4).",
+      "source_spans": [
+        {
+          "text": "Many avian species have only recently returned to Frank Lake following marsh restoration in 1990, including 44 waterfowl species (Table 1), 15 raptor species (Table 2), 50 shorebird species (Table 3), and 28 other bird species (Table 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e9da58a8b22b",
+      "subject": "causal_mosaic:node:95c209c7c0fc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c72bf01e55b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The success of upland and water management strategies is reflected in the increase of target species’ abundance and richness: 50 shorebird species, 44 waterfowl species, 15 raptor species, and 28 other new bird species have returned to the marsh since restoration.",
+      "source_spans": [
+        {
+          "text": "The success of upland and water management strategies is reflected in the increase of target species’ abundance and richness: 50 shorebird species, 44 waterfowl species, 15 raptor species, and 28 other new bird species have returned to the marsh since restoration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1ac3de52f3b1",
+      "subject": "causal_mosaic:node:ad49ff2feb0c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a65b857f2720",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As well, significant N and P reduction occurs as waters flow through the first basin of the marsh.",
+      "source_spans": [
+        {
+          "text": "As well, significant N and P reduction occurs as waters flow through the first basin of the marsh."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2438e6e4e99c",
+      "subject": "causal_mosaic:node:02ac5ff2dd03",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04de6960d1bb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "For the beef-processing facility (Cargill Foods Ltd.), the creation of an industry and a wetland for wastewater treatment that could treat industrial wastewater and improve water quality in nearby watercourses was both profitable and environmentally sound.",
+      "source_spans": [
+        {
+          "text": "For the beef-processing facility (Cargill Foods Ltd.), the creation of an industry and a wetland for wastewater treatment that could treat industrial wastewater and improve water quality in nearby watercourses was both profitable and environmentally sound."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0cf1354c4e4f",
+      "subject": "causal_mosaic:node:6cd9649c0452",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4eaeda2d6bd8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In addition to creating both upland and wetland habitats, the project eliminated municipal wastewater dumping into the Highwood River, quickly improving water quality in the Highwood River (Sosiak personal communication) and reducing stress on the famous trout fishery.",
+      "source_spans": [
+        {
+          "text": "In addition to creating both upland and wetland habitats, the project eliminated municipal wastewater dumping into the Highwood River, quickly improving water quality in the Highwood River (Sosiak personal communication) and reducing stress on the famous trout fishery."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:118e6a3aa9f7",
+      "subject": "causal_mosaic:node:4f9e87224e65",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bdb58f1afdff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results from local plant and animal inventories show that this cooperative venture has been quite successful in restoring site biodiversity (Wallis and others 1996).",
+      "source_spans": [
+        {
+          "text": "Results from local plant and animal inventories show that this cooperative venture has been quite successful in restoring site biodiversity (Wallis and others 1996)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:996aef11837d",
+      "subject": "causal_mosaic:node:d68878382793",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4b3b87815049",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Almost 800 ha of upland cover have already been restored to native grasses and shrubs by seeding (Sadler and others 1995).",
+      "source_spans": [
+        {
+          "text": "Almost 800 ha of upland cover have already been restored to native grasses and shrubs by seeding (Sadler and others 1995)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6232c59a84d6",
+      "subject": "causal_mosaic:node:558a2a72178f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:334d0448cd32",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "An additional 283 ha (700 acres) of marsh is added to the existing basin every spring at Frank Lake with backflood irrigation (Haworth-Brockman and Smallwood 1989).",
+      "source_spans": [
+        {
+          "text": "An additional 283 ha (700 acres) of marsh is added to the existing basin every spring at Frank Lake with backflood irrigation (Haworth-Brockman and Smallwood 1989)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:94776f12d2a5",
+      "subject": "causal_mosaic:node:ba32b2e68708",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1e9f848c20c0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The success of the nesting structures is reflected in the large number of immature birds banded at Frank Lake from 1993 to 1996 (Table 8).",
+      "source_spans": [
+        {
+          "text": "The success of the nesting structures is reflected in the large number of immature birds banded at Frank Lake from 1993 to 1996 (Table 8)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ff43c50a5182",
+      "subject": "causal_mosaic:node:0e854e09a53a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:87c7b84d617e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Despite the short-circuiting of marsh water, preliminary findings of nutrient treatment by the marsh showed total phosphorus retention of 64% and NH3 retention of 87% during 1994–1995 (White and Bayley unpublished).",
+      "source_spans": [
+        {
+          "text": "Despite the short-circuiting of marsh water, preliminary findings of nutrient treatment by the marsh showed total phosphorus retention of 64% and NH3 retention of 87% during 1994–1995 (White and Bayley unpublished)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0297d0a07c97",
+      "subject": "causal_mosaic:node:d43d3e029a48",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a4af32fbc7c8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Management and recreation activities, such as hunting and bird-watching are minimized at Frank Lake during critical periods to reduce impacts on wildlife, and trail creation has been curbed in sensitive and productive areas.",
+      "source_spans": [
+        {
+          "text": "Management and recreation activities, such as hunting and bird-watching are minimized at Frank Lake during critical periods to reduce impacts on wildlife, and trail creation has been curbed in sensitive and productive areas."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s002679900212",
+        "title": "Restoration of a Canadian Prairie Wetland with Agricultural and Municipal Wastewater",
+        "year": 1999,
+        "authors": [
+          "White, Jay S."
+        ],
+        "journal": "Environmental Management"
+      }
+    }
+  ]
+}

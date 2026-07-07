@@ -1,0 +1,337 @@
+{
+  "graph_id": "causal_mosaic:graph:466304e3dd12",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T01:21:03.076989+00:00",
+    "source_corpus": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a69ace96118d",
+      "name": "Supplemental feeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8b0a1d3e69",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Supplemental feeding of bluebirds also was used to experimentally assess nutritional limitation of birds feeding on terrestrial invertebrates."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:702adcf80561",
+      "name": "Increased clutch size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39c3b84469",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "clutch size",
+      "source_spans": [
+        {
+          "text": "females that initiated breeding earlier in the season produced larger clutches, as did those that received supplemental food"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:029177b8422e",
+      "name": "Reclaimed mine land",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f224c4f6f7",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Bluebirds on reclaimed land initiated clutches later",
+          "start_char": 2091,
+          "end_char": 2143,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:df02c6dc4adb",
+      "name": "Later clutch initiation date",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e26204fa70",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "clutch initiation date",
+      "source_spans": [
+        {
+          "text": "Bluebirds on reclaimed land initiated clutches later",
+          "start_char": 2091,
+          "end_char": 2143,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7b0cafa011f",
+      "name": "Decreased fledging success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_13d29ed333",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "fledging success",
+      "source_spans": [
+        {
+          "text": "Bluebirds on reclaimed land... had lower fledging success compared to birds on the reference area."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:545da75b47c9",
+      "name": "Decreased nestling body mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e702b9d0be",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "body mass",
+      "source_spans": [
+        {
+          "text": "In 2012, nestling MOBL in supplemented broods on HVC were structurally smaller, weighed less and developed shorter flight feathers than control broods"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:25014fe7214f",
+      "name": "Increased nestling body mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e702b9d0be",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "body mass",
+      "source_spans": [
+        {
+          "text": "In contrast, supplementation in 2013 increased all nestling measures on HVC relative to control broods"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51d0ee87d877",
+      "name": "Hatching date",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_409d0349bd",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "hatching date",
+      "source_spans": [
+        {
+          "text": "Body mass of nestling TRES... decreased with hatching date"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:87d353a13e43",
+      "subject": "causal_mosaic:node:a69ace96118d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:702adcf80561",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "females that initiated breeding earlier in the season produced larger clutches, as did those that received supplemental food",
+      "source_spans": [
+        {
+          "text": "females that initiated breeding earlier in the season produced larger clutches, as did those that received supplemental food"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.02.146",
+        "title": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+        "year": 2016,
+        "authors": [
+          "O'Brien, Erin L.",
+          "Dawson, Russell D."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:770992fc04a3",
+      "subject": "causal_mosaic:node:029177b8422e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:df02c6dc4adb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bluebirds on reclaimed land initiated clutches later",
+      "source_spans": [
+        {
+          "text": "Bluebirds on reclaimed land initiated clutches later",
+          "start_char": 2091,
+          "end_char": 2143,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.02.146",
+        "title": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+        "year": 2016,
+        "authors": [
+          "O'Brien, Erin L.",
+          "Dawson, Russell D."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a2b9883be29",
+      "subject": "causal_mosaic:node:029177b8422e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d7b0cafa011f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bluebirds on reclaimed land... had lower fledging success compared to birds on the reference area.",
+      "source_spans": [
+        {
+          "text": "Bluebirds on reclaimed land... had lower fledging success compared to birds on the reference area."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.02.146",
+        "title": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+        "year": 2016,
+        "authors": [
+          "O'Brien, Erin L.",
+          "Dawson, Russell D."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9ba0b88a7c22",
+      "subject": "causal_mosaic:node:a69ace96118d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:545da75b47c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 2012, nestling MOBL in supplemented broods on HVC were structurally smaller, weighed less and developed shorter flight feathers than control broods",
+      "source_spans": [
+        {
+          "text": "In 2012, nestling MOBL in supplemented broods on HVC were structurally smaller, weighed less and developed shorter flight feathers than control broods"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.02.146",
+        "title": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+        "year": 2016,
+        "authors": [
+          "O'Brien, Erin L.",
+          "Dawson, Russell D."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3300bf8e0751",
+      "subject": "causal_mosaic:node:a69ace96118d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:25014fe7214f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, supplementation in 2013 increased all nestling measures on HVC relative to control broods",
+      "source_spans": [
+        {
+          "text": "In contrast, supplementation in 2013 increased all nestling measures on HVC relative to control broods"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.02.146",
+        "title": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+        "year": 2016,
+        "authors": [
+          "O'Brien, Erin L.",
+          "Dawson, Russell D."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:26469e951063",
+      "subject": "causal_mosaic:node:51d0ee87d877",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:545da75b47c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Body mass of nestling TRES... decreased with hatching date",
+      "source_spans": [
+        {
+          "text": "Body mass of nestling TRES... decreased with hatching date"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.02.146",
+        "title": "Life-history and phenotypic traits of insectivorous songbirds breeding on reclaimed mine land reveal ecological constraints",
+        "year": 2016,
+        "authors": [
+          "O'Brien, Erin L.",
+          "Dawson, Russell D."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

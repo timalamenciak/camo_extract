@@ -1,0 +1,4581 @@
+graph_id: causal_mosaic:graph:61b0a82805f1
+schema_version: 0.7.1
+provenance:
+  ontology_framework: ELMO + ENVO + Wikidata + CAMO
+  elm_version: '2026-07-03'
+  causal_mosaic_version: 0.7.1
+  created: '2026-07-05T15:18:55.245290+00:00'
+  source_corpus: Long‐term effects of prairie restoration on plant community structure
+    and native population dynamics
+  project: EcoWeaver
+nodes:
+- id: causal_mosaic:node:e7f2e48d8679
+  name: supplemental seeding
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_4199c7e60d
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: plots that received supplemental seeding continued to exhibit higher richness
+      of native species than those left unseeded
+- id: causal_mosaic:node:4e62559161cf
+  name: native species richness
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9a0f94fd62
+  state_or_change_qualifier: increased
+  measured_attribute: species richness
+  source_spans:
+  - text: plots that received supplemental seeding continued to exhibit higher richness
+      of native species than those left unseeded
+- id: causal_mosaic:node:a60650af4d5a
+  name: native species abundance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_a130016d12
+  state_or_change_qualifier: increased
+  measured_attribute: percent cover
+  source_spans:
+  - text: addition of native seed effectively increased both the richness and abundance
+      (defined as percent cover) of native species
+- id: causal_mosaic:node:2890a5e69fcb
+  name: disturbance treatments
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_2c27bf3e15
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: both seeding and disturbance treatments could positively influence native
+      species abundance over the long term
+- id: causal_mosaic:node:e544cdeaedeb
+  name: grass-specific herbicide
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_4b6d0ec7de
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: treatments that included grass-specific herbicide were the most effective
+      at reducing the abundance of exotic grasses
+- id: causal_mosaic:node:5b6c1552b126
+  name: burn treatments
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_cfd2c644ed
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+- id: causal_mosaic:node:054efcbbf947
+  name: exotic grasses
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_93d4f2c8eb
+  state_or_change_qualifier: decreased
+  measured_attribute: abundance
+  source_spans:
+  - text: treatments that included grass-specific herbicide were the most effective
+      at reducing the abundance of exotic grasses
+- id: causal_mosaic:node:4f439245119f
+  name: Eriophyllum lanatum
+  entity_type: taxon
+  entity_term: WD:Q2592617
+  state_or_change_qualifier: increased
+  measured_attribute: cover
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+- id: causal_mosaic:node:f64d65fbe7e7
+  name: Achillea millefolium
+  entity_type: taxon
+  entity_term: WD:Q25408
+  state_or_change_qualifier: increased
+  measured_attribute: cover
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+- id: causal_mosaic:node:485e950bbcf7
+  name: Ranunculus occidentalis
+  entity_type: taxon
+  entity_term: WD:Q7293615
+  state_or_change_qualifier: increased
+  measured_attribute: cover
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+- id: causal_mosaic:node:5865e51e7e80
+  name: Festuca roemeri
+  entity_type: taxon
+  entity_term: WD:Q17364157
+  state_or_change_qualifier: increased
+  measured_attribute: cover
+  source_spans:
+  - text: native grass species, Festuca roemeri, had greater cover in treatments that
+      included the grass-specific herbicide sethoxydim
+- id: causal_mosaic:node:c553b0bd33f0
+  name: population spread
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_7c415e3474
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: there is evidence that all eight species colonized new plots since the last
+      round of monitoring
+- id: causal_mosaic:node:2e622a596add
+  name: Donor material collection
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_1fb91e88a2
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Donor material collection involves collecting the top 5–10 cm of the living
+      vegetation from an appropriate donor peatland.
+- id: causal_mosaic:node:669fead67602
+  name: Water table
+  entity_type: environmental_variable
+  entity_term: ENVO:06105201
+  state_or_change_qualifier: increased
+  measured_attribute: water table position
+  source_spans:
+  - text: This is due to removal of the top layer of vegetation in the donor sites
+      that results in a reduced depth to the water table.
+- id: causal_mosaic:node:915d76b66623
+  name: Methane emissions
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_3b04ce03b5
+  state_or_change_qualifier: increased
+  measured_attribute: CH4 flux
+  source_spans:
+  - text: Methane emissions were higher from donor sites compared to natural sites
+      due to the high water table
+- id: causal_mosaic:node:137a4b492eb7
+  name: Sedge cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_12bbf47e1e
+  state_or_change_qualifier: increased
+  measured_attribute: sedge cover
+  source_spans:
+  - text: Higher sedge cover resulted in more negative NEE values (greater CO2 uptake)
+      across the fen
+- id: causal_mosaic:node:71c262360a5a
+  name: Moss cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_fd19ca2bfa
+  state_or_change_qualifier: increased
+  measured_attribute: moss cover
+  source_spans:
+  - text: GEPmax became more negative (greater CO2 uptake) in plots with higher moss
+      cover across the bog sites
+- id: causal_mosaic:node:3a965252bc61
+  name: Total vegetation cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_c1804842da
+  state_or_change_qualifier: increased
+  measured_attribute: total plant cover
+  source_spans:
+  - text: At both the bog and fen GEP max became more negative with increasing total
+      plant cover
+- id: causal_mosaic:node:07cab96d6d4e
+  name: CO2 flux
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_21890b2f52
+  state_or_change_qualifier: increased
+  measured_attribute: NEE
+  source_spans:
+  - text: Higher sedge cover resulted in more negative NEE values (greater CO2 uptake)
+      across the fen
+- id: causal_mosaic:node:84b1b4c94e2c
+  name: Tree recruitment
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_1873b0fd3a
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: tree recruitment at the donor sites was limited
+- id: causal_mosaic:node:07b23f44e787
+  name: Vegetation re-establishment
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_3d8904a155
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: vegetation re-establishment on donor sites was rapid
+- id: causal_mosaic:node:516be9a4a7af
+  name: Carbon-cycle functioning
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_67052ee456
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: it is possible that these sites will return to their original carbon-cycle
+      functioning after disturbance
+- id: causal_mosaic:node:a7e00142e14a
+  name: restoration activities
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_38b8d9b144
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: The abundance of W. Yellow-breasted Chats significantly increased between
+      2002 and 2013 in areas where restoration activities occurred.
+- id: causal_mosaic:node:6cee06f874b8
+  name: abundance of W. Yellow-breasted Chats
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_a2c0313dde
+  state_or_change_qualifier: increased
+  measured_attribute: abundance
+  source_spans:
+  - text: The abundance of W. Yellow-breasted Chats significantly increased between
+      2002 and 2013 in areas where restoration activities occurred.
+- id: causal_mosaic:node:48250db538a6
+  name: breeding performance of W. Yellow-breasted Chats
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_77f3224097
+  state_or_change_qualifier: unchanged
+  measured_attribute: breeding performance
+  source_spans:
+  - text: Cattle exclusion did not lead to an improvement in the breeding performance
+      of W. Yellow-breasted Chats at restoration sites.
+- id: causal_mosaic:node:5c2a68b4962d
+  name: abundance of other riparian birds
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_e5dc062d7f
+  state_or_change_qualifier: unchanged
+  measured_attribute: abundance
+  source_spans:
+  - text: Restoration did not have significant effects on the abundance, richness,
+      or breeding performance of other riparian birds at the restoration sites independent
+      of temporal changes that occurred at reference sites.
+- id: causal_mosaic:node:593aab3817ea
+  name: livestock exclusion
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_a645dc2ecd
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: A combination of permanent and seasonal exclusion of livestock can lead
+      to increased abundance of riparian birds that depend on early successional habitat
+      for nesting such as Western Yellow-breasted Chats.
+- id: causal_mosaic:node:0d0d319b341a
+  name: recolonization by Albertan fishers
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_8b9b4a5db5
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Instead it appears that recolonization by Albertan fishers is responsible
+      for the current CLM population.
+- id: causal_mosaic:node:6cfc2aa87001
+  name: current CLM population
+  entity_type: taxon
+  entity_term: causal_mosaic:unresolved_aada8860d6
+  state_or_change_qualifier: present
+  source_spans:
+  - text: Instead it appears that recolonization by Albertan fishers is responsible
+      for the current CLM population.
+- id: causal_mosaic:node:e4845ff873c1
+  name: Obtaining appropriate genetic samples
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_7eec80128e
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Obtaining appropriate genetic samples in relation to reintroductions will
+      help determine when future reintroduction is likely to be the best conservation
+      initiative.
+- id: causal_mosaic:node:25eb234695c7
+  name: determine when future reintroduction is likely to be the best conservation
+    initiative
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_9b33e341d5
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Obtaining appropriate genetic samples in relation to reintroductions will
+      help determine when future reintroduction is likely to be the best conservation
+      initiative.
+- id: causal_mosaic:node:12db5971fe80
+  name: genetic testing for reintroduction success
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_f063538fc5
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Our review of all fisher reintroductions demonstrated that 47% have been
+      given a different reintroduction status once genetic testing for reintroduction
+      success was performed
+- id: causal_mosaic:node:0fc6a4ac81f4
+  name: different reintroduction status
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_7c17efa16e
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: Our review of all fisher reintroductions demonstrated that 47% have been
+      given a different reintroduction status once genetic testing for reintroduction
+      success was performed
+- id: causal_mosaic:node:b1e1d544af47
+  name: targeted granivory
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_c4317ec011
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: resulting in reduced prairie diversity outside of experimental exclosures.
+- id: causal_mosaic:node:910d7264cc42
+  name: prairie diversity
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_f06a732f17
+  state_or_change_qualifier: decreased
+  measured_attribute: diversity
+  source_spans:
+  - text: resulting in reduced prairie diversity outside of experimental exclosures.
+- id: causal_mosaic:node:62ffb4153337
+  name: rodents
+  entity_type: taxon
+  entity_term: causal_mosaic:unresolved_41f2ce462b
+  state_or_change_qualifier: present
+  source_spans:
+  - text: rodents may reduce the restoration success of tallgrass prairie in our region
+- id: causal_mosaic:node:d8d4a6354294
+  name: restoration success
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_1afb6656ff
+  state_or_change_qualifier: decreased
+  measured_attribute: success
+  source_spans:
+  - text: rodents may reduce the restoration success of tallgrass prairie in our region
+- id: causal_mosaic:node:e6ec8f85f9e1
+  name: recruitment
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_1e9065c9af
+  state_or_change_qualifier: decreased
+  measured_attribute: recruitment
+  source_spans:
+  - text: some planted species likely to suffer future recruitment difficulties due
+      to granivory
+- id: causal_mosaic:node:d67f50c3cd38
+  name: abundance of planted native seedlings
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_c2292049fe
+  state_or_change_qualifier: decreased
+  measured_attribute: abundance
+  source_spans:
+  - text: The exclosed plots had twice the abundance of planted native seedlings ...
+      than areas lacking protection from small mammals
+- id: causal_mosaic:node:d0be693e20f5
+  name: richness of planted species
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_08a2ffbf56
+  state_or_change_qualifier: decreased
+  measured_attribute: richness
+  source_spans:
+  - text: signiﬁcantly higher richness of planted species ... than areas lacking protection
+      from small mammals
+- id: causal_mosaic:node:0cb78476f89a
+  name: rodent density
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_29217d1a10
+  state_or_change_qualifier: unspecified
+  measured_attribute: AFO:_0001019
+  source_spans:
+  - text: Rodent density per month and numbers of oldﬁeld species consumed per month
+      were positively correlated
+- id: causal_mosaic:node:6dba78289a8f
+  name: numbers of oldfield species consumed
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_bf61a7ff37
+  state_or_change_qualifier: increased
+  measured_attribute: numbers
+  source_spans:
+  - text: Rodent density per month and numbers of oldﬁeld species consumed per month
+      were positively correlated
+- id: causal_mosaic:node:267fc199954a
+  name: persistence of rarer prairie species
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_3af0c42dd3
+  state_or_change_qualifier: decreased
+  measured_attribute: PATO:0000082
+  source_spans:
+  - text: insufﬁcient to shelter rarer prairie species from targeted granivory, which
+      in turn may hamper their persistence
+- id: causal_mosaic:node:bab90dfe6fba
+  name: Deer browsing
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_459696a31e
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Deer browsing outweighs the effects of site preparation and mechanical release
+      on balsam fir seedlings performance
+- id: causal_mosaic:node:189efe126c6f
+  name: Seedling height
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_d0a6cd1d6a
+  state_or_change_qualifier: decreased
+  measured_attribute: AFO:_0000119
+  source_spans:
+  - text: Cumulative browsing on terminal shoot ... had a negative effect on height
+      and diameter
+- id: causal_mosaic:node:6511eddc197f
+  name: Seedling diameter
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_93ffb1a081
+  state_or_change_qualifier: decreased
+  measured_attribute: AFO:_0001334
+  source_spans:
+  - text: Cumulative browsing on terminal shoot ... had a negative effect on height
+      and diameter
+- id: causal_mosaic:node:50db490b202d
+  name: Cover of large herbaceous species
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_e8bf265013
+  state_or_change_qualifier: decreased
+  measured_attribute: cover
+  source_spans:
+  - text: The cover and modal height of large herbaceous species decreased ... in
+      unfenced plots
+- id: causal_mosaic:node:a50f6d42dd1f
+  name: Cover of deciduous species
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_f11adf7e3d
+  state_or_change_qualifier: decreased
+  measured_attribute: cover
+  source_spans:
+  - text: Deer browsing ... diminished the cover of deciduous and large herbaceous
+      species
+- id: causal_mosaic:node:c800918b9c4a
+  name: Light interception
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_7330b7342a
+  state_or_change_qualifier: increased
+  measured_attribute: light conditions
+  source_spans:
+  - text: Deer browsing ... improving light conditions for the planted seedlings
+- id: causal_mosaic:node:0354e1882ae6
+  name: Site preparation
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_3c16dc79ce
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Site preparation and mechanical release did not improve morphological parameters
+- id: causal_mosaic:node:ac56fbcb395c
+  name: Mechanical release
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_5f624166c8
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Mechanical release had no significant effect on seedling height
+- id: causal_mosaic:node:89f03caeea5e
+  name: Seedling performance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_99f1604957
+  state_or_change_qualifier: unchanged
+  source_spans:
+  - text: Site preparation and mechanical release did not improve morphological parameters
+- id: causal_mosaic:node:33f76269a2b6
+  name: Glyphosate application
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_df81af45a1
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Glyphosate application reduced non-native grasses, but not non-native forbs.
+- id: causal_mosaic:node:090c5d50d368
+  name: Non-native grass cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_d8937bfb68
+  state_or_change_qualifier: decreased
+  measured_attribute: cover
+  source_spans:
+  - text: Glyphosate reduced non-native grass cover for three growing seasons following
+      application
+- id: causal_mosaic:node:0313527e3e8a
+  name: Non-native forb cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9571abe10d
+  state_or_change_qualifier: increased
+  measured_attribute: cover
+  source_spans:
+  - text: Glyphosate led to significant increases in non-native forb cover
+- id: causal_mosaic:node:30bde3f7aa05
+  name: Native forb cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_6a45f2302e
+  state_or_change_qualifier: decreased
+  measured_attribute: cover
+  source_spans:
+  - text: native forb cover had significantly decreased with glyphosate at Site 3
+- id: causal_mosaic:node:4de0fea0d4b3
+  name: Native forb richness
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_d16233a2d3
+  state_or_change_qualifier: decreased
+  measured_attribute: richness
+  source_spans:
+  - text: native forb cover and richness were significantly lower with glyphosate
+      than controls at Site 3
+- id: causal_mosaic:node:6223d70d314e
+  name: Non-native grass species richness
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_01fc78281c
+  state_or_change_qualifier: decreased
+  measured_attribute: richness
+  source_spans:
+  - text: Non-native grass species richness and diversity were significantly lower
+      with glyphosate
+- id: causal_mosaic:node:e506b39d2fa7
+  name: Non-native grass diversity
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_bd4a92d6a4
+  state_or_change_qualifier: decreased
+  measured_attribute: diversity
+  source_spans:
+  - text: Non-native grass species richness and diversity were significantly lower
+      with glyphosate
+- id: causal_mosaic:node:6622131dcc73
+  name: Total diversity
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_f5ec1235cc
+  state_or_change_qualifier: decreased
+  measured_attribute: diversity
+  source_spans:
+  - text: Total diversity was significantly lower with glyphosate across sites in
+      2011
+- id: causal_mosaic:node:27f98932f586
+  name: Non-native grass flowering
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_fd26c96d98
+  state_or_change_qualifier: decreased
+  measured_attribute: flowering
+  source_spans:
+  - text: Flowering and seed set of non-native grasses was significantly reduced with
+      glyphosate at Site 1
+- id: causal_mosaic:node:af66462baac7
+  name: Non-native grass seed production
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_fd26c96d98
+  state_or_change_qualifier: decreased
+  measured_attribute: seed production
+  source_spans:
+  - text: Flowering and seed set of non-native grasses was significantly reduced with
+      glyphosate at Site 1
+- id: causal_mosaic:node:fee2cdd38c1c
+  name: Native forb flowering
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_13561290da
+  state_or_change_qualifier: decreased
+  measured_attribute: flowering
+  source_spans:
+  - text: that of non-native forbs was significantly reduced with cutting and glyphosate
+      at Site 2
+- id: causal_mosaic:node:6a0d71ed774f
+  name: Native forb seed production
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_eaf48f1249
+  state_or_change_qualifier: decreased
+  measured_attribute: seed production
+  source_spans:
+  - text: that of non-native forbs was significantly reduced with cutting and glyphosate
+      at Site 2
+- id: causal_mosaic:node:125eedbec94e
+  name: Native forb flowering and seed production
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_2cecb85919
+  state_or_change_qualifier: decreased
+  measured_attribute: flowering and seed production
+  source_spans:
+  - text: it significantly reduced that of native grasses and forbs
+- id: causal_mosaic:node:7695cfdf043a
+  name: Native grass flowering and seed production
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_136cfbcb59
+  state_or_change_qualifier: decreased
+  measured_attribute: flowering and seed production
+  source_spans:
+  - text: it significantly reduced that of native grasses and forbs
+- id: causal_mosaic:node:a4a6dc4ba723
+  name: Non-native perennial grasses dominance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_ef9a0d0d13
+  state_or_change_qualifier: decreased
+  measured_attribute: dominance
+  source_spans:
+  - text: Glyphosate shifted communities dominated by non-native perennial grasses
+      to dominance by non-native forbs
+- id: causal_mosaic:node:8303a2c58ba3
+  name: Non-native forbs dominance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_49954d5d83
+  state_or_change_qualifier: increased
+  measured_attribute: dominance
+  source_spans:
+  - text: Glyphosate shifted communities dominated by non-native perennial grasses
+      to dominance by non-native forbs
+- id: causal_mosaic:node:b362d46cefad
+  name: Cutting
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_20bc74e9f2
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Cutting and steam had little significant impact on vegetation diversity
+      and species richness
+- id: causal_mosaic:node:40ba5ef04ff7
+  name: Steam application
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_15a0a9cba5
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: steam reduced non-native grass cover at the most heavily invaded site
+- id: causal_mosaic:node:21fac651b897
+  name: Heterotheca villosa
+  entity_type: taxon
+  entity_term: WD:Q15562549
+  state_or_change_qualifier: removed
+  source_spans:
+  - text: The native forb species Heterotheca villosa (Pursch) Shinners (hairy false
+      golden aster) and Achillea millefolium L. (common yarrow) were eliminated by
+      glyphosate.
+- id: causal_mosaic:node:4cc62ea060f3
+  name: Achillea millefolium
+  entity_type: taxon
+  entity_term: WD:Q25408
+  state_or_change_qualifier: removed
+  source_spans:
+  - text: The native forb species Heterotheca villosa (Pursch) Shinners (hairy false
+      golden aster) and Achillea millefolium L. (common yarrow) were eliminated by
+      glyphosate.
+- id: causal_mosaic:node:2efb4be693c4
+  name: Landfill restoration
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_087f77ce37
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Landﬁll restoration and the creation of foraging and nesting habitat resulted
+      in rapid and persistent occupation by bees
+- id: causal_mosaic:node:55f1b97226f6
+  name: Creation of foraging and nesting habitat
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_1d5e6e8bb4
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Landﬁll restoration and the creation of foraging and nesting habitat resulted
+      in rapid and persistent occupation by bees
+- id: causal_mosaic:node:03dd250ece10
+  name: Occupation by bees
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_ee55e74803
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Landﬁll restoration and the creation of foraging and nesting habitat resulted
+      in rapid and persistent occupation by bees
+- id: causal_mosaic:node:391ed503319f
+  name: Bee abundance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9bc1e7e673
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: bee abundance and species richness in restored sites increased until 2006/2007
+- id: causal_mosaic:node:60dbca3dbde8
+  name: Species richness
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_fc4f5f80e4
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: bee abundance and species richness in restored sites increased until 2006/2007
+- id: causal_mosaic:node:5ab0f0c6ff02
+  name: Bee abundance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9bc1e7e673
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: subsequently declined
+    start_char: 1912
+    end_char: 1933
+    paragraph_id: page:1
+- id: causal_mosaic:node:e3813acf5676
+  name: Species richness
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_fc4f5f80e4
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: subsequently declined
+    start_char: 1912
+    end_char: 1933
+    paragraph_id: page:1
+- id: causal_mosaic:node:bdbecd438812
+  name: Drought
+  entity_type: environmental_process
+  entity_term: ENVO:1000745
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Between 2003 and 2013, there were two signiﬁcant summer droughts
+- id: causal_mosaic:node:9ac8738ff7ef
+  name: Foraging success
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_4834d50c67
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: undoubtedly contributed to lower foraging success by bees
+- id: causal_mosaic:node:fdb809311f4f
+  name: Vegetational succession
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_896064abd5
+  state_or_change_qualifier: ongoing
+  source_spans:
+  - text: vegetational succession
+    start_char: 47642
+    end_char: 47665
+    paragraph_id: page:10
+- id: causal_mosaic:node:4bc2d36de2ac
+  name: Bare soil patches
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_d2b39d1219
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: loss of bare soil patches for nesting sites
+- id: causal_mosaic:node:1b0d92111b59
+  name: Halictidae abundance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_067b57c31e
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: decline over time was due in large part to a loss of bare soil patches
+- id: causal_mosaic:node:4c5b768d9659
+  name: Suburbanisation
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_4e6b348bd0
+  state_or_change_qualifier: ongoing
+  source_spans:
+  - text: increasing suburbanisation of the surrounding landscape
+    start_char: 2245
+    end_char: 2300
+    paragraph_id: page:1
+- id: causal_mosaic:node:286da4b0bfeb
+  name: Habitat loss
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_acda07a3d0
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: loss of habitat around the sites has likely contributed
+- id: causal_mosaic:node:e1f4328a7f54
+  name: Bee populations
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_ab0fdfe84e
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: contributed to declining populations in the control sites
+- id: causal_mosaic:node:0b33985812f5
+  name: Feather moss
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_797e23a2e4
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+- id: causal_mosaic:node:187d3841e9ae
+  name: Thick soil surface organic layers
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_20d7a6700e
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+- id: causal_mosaic:node:1c6f3cb54967
+  name: Litter
+  entity_type: environmental_variable
+  entity_term: ENVO:03501259
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+- id: causal_mosaic:node:0642dc01e7b5
+  name: Solid wood
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_e273ee16bf
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+- id: causal_mosaic:node:63468b86b73e
+  name: Early successional mosses
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_0ba79a3b3f
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Early successional mosses establishing on mineral soil, thin organics, and
+      rotten wood were generally favourable microsites
+- id: causal_mosaic:node:18ff418561f3
+  name: Mineral soil
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_7e82ce857a
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: In Peace River, exposed mineral soil was the most strongly preferred substrate.
+- id: causal_mosaic:node:9d99e37e64c0
+  name: Thin organics
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_61d3997739
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Early successional mosses establishing on mineral soil, thin organics, and
+      rotten wood were generally favourable microsites
+- id: causal_mosaic:node:c5b6b0f23525
+  name: Rotten wood
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_1f309208aa
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Early successional mosses establishing on mineral soil, thin organics, and
+      rotten wood were generally favourable microsites
+- id: causal_mosaic:node:e4fe23b6eb6a
+  name: Shelf position
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_d848a2b10b
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: On the ripper-ploughed conifer-dominated sites, the shelf position... resulted
+      in the highest early seedling establishment of white spruce
+- id: causal_mosaic:node:1a6c5c7298d6
+  name: Scraped rotten wood
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_fac9ddda86
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: On the ripper-ploughed conifer-dominated sites, the shelf position... and
+      scraped rotten wood resulted in the highest early seedling establishment of
+      white spruce
+- id: causal_mosaic:node:39e4894ccd09
+  name: Aspen litter
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_0c9f42738d
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Burial by aspen litter greatly increased seedling mortality
+- id: causal_mosaic:node:3060d1356ea2
+  name: Submergence
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_8f23111edf
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Burial by aspen litter greatly increased seedling mortality, especially
+      when combined with a brief period of submergence
+- id: causal_mosaic:node:f94ad12f9c5c
+  name: Flooding
+  entity_type: environmental_variable
+  entity_term: ENVO:02500002
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Both temporary spring flooding and especially cover by aspen leaf litter
+      in the spring reduced seedling survival
+- id: causal_mosaic:node:5a52247f3ec4
+  name: Heavy competing vegetation
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_8d5d712066
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: heavy competing vegetation had a negative impact on older seedlings
+- id: causal_mosaic:node:2cdd501afde4
+  name: Surrounding vegetation
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_dab4324b1b
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: There was some evidence that survival and growth of seedlings were improved
+      by surrounding vegetation in the first years
+- id: causal_mosaic:node:f5d44f8c0f40
+  name: Sapling abundance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_d18f39f2e0
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: In Peace River... all four measures of sapling (primarily aspen suckers)
+      abundance were higher in plots in which seedlings survived
+- id: causal_mosaic:node:8975cafe1108
+  name: Live graminoid cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_93d71e7b4a
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: live graminoid cover was negatively associated with seedling survival
+- id: causal_mosaic:node:f2ef4c339cf1
+  name: Forb abundance
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_b112c8f685
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: In Grande Prairie, forb abundance... was higher in plots in which seedlings
+      survived
+- id: causal_mosaic:node:1b690c420968
+  name: Tall sapling cover
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_a66736c93d
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: cover of tall saplings was negatively related to growth
+- id: causal_mosaic:node:c4b801f42f04
+  name: White spruce establishment
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9a458db069
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: establishment of white spruce
+    start_char: 10145
+    end_char: 10174
+    paragraph_id: page:2
+- id: causal_mosaic:node:3bedc32c54ff
+  name: White spruce survival
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_8be15b4b8b
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: survival and growth of seedlings
+    start_char: 1129
+    end_char: 1161
+    paragraph_id: page:1
+- id: causal_mosaic:node:6edf6d80509f
+  name: White spruce growth
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9f988faf83
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: survival and growth of seedlings
+    start_char: 1129
+    end_char: 1161
+    paragraph_id: page:1
+- id: causal_mosaic:node:2ff4dc7f5b76
+  name: White spruce mortality
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_3bf2422be4
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: seedling mortality
+    start_char: 22140
+    end_char: 22158
+    paragraph_id: page:4
+- id: causal_mosaic:node:b99a44488126
+  name: erosion control blanket, hay, and straw
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_711e07a17f
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: The addition of erosion control blanket, hay, and straw to flat sites was
+      just as productive as on topographic microsites.
+- id: causal_mosaic:node:02a04cb57a13
+  name: grass and forb emergence
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_b9ff0ab07b
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: These amendments increased grass and forb emergence and buffered soil temperature.
+- id: causal_mosaic:node:4e6847cb1542
+  name: Mounds
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_caf49778a5
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Mounds increased first year forb emergence and reduced over winter survival
+      rates for grasses and forbs.
+- id: causal_mosaic:node:60983a509f70
+  name: first year forb emergence
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_a8b5bcf3d6
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Mounds increased first year forb emergence and reduced over winter survival
+      rates for grasses and forbs.
+- id: causal_mosaic:node:947b0aa8de0d
+  name: over winter survival rates
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_1ae29bb887
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Mounds increased first year forb emergence and reduced over winter survival
+      rates for grasses and forbs.
+- id: causal_mosaic:node:ae016821d819
+  name: Pits
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_4abf53931d
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Pits were not beneficial for revegetation.
+- id: causal_mosaic:node:d10330e01666
+  name: Grass survival
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_f100483aa5
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Grass survival was significantly lower in pits at Mattheis than all microsites
+      at the other two sites.
+- id: causal_mosaic:node:386b379b0dd6
+  name: Soil water content
+  entity_type: environmental_variable
+  entity_term: ENVO:09000026
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: During the 2013 growing season, water content of pits was significantly
+      higher than mounds and flats at Elk Island and mounds at Mattheis.
+- id: causal_mosaic:node:4fa5c00a4c19
+  name: Soil temperature
+  entity_type: environmental_variable
+  entity_term: ENVO:09200012
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Near surface soil temperature was significantly affected by topographic
+      microsite, with growing season temperatures in flats and mounds 0.3−2.6oC higher
+      than in pits across sites and years
+- id: causal_mosaic:node:e0e0bc10aab2
+  name: flats and mounds
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_7653062bb1
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Near surface soil temperature was significantly affected by topographic
+      microsite, with growing season temperatures in flats and mounds 0.3−2.6oC higher
+      than in pits across sites and years
+- id: causal_mosaic:node:8f0abdd35092
+  name: erosion control blanket
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_9cf4fec431
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Treatments that provided ground cover, such as erosion control blanket and
+      straw, generally had 0.5− 2oC lower temperatures than the control and/or manure
+      treatment
+- id: causal_mosaic:node:de1484b55fe1
+  name: straw
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_92dffcd7a2
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Treatments that provided ground cover, such as erosion control blanket and
+      straw, generally had 0.5− 2oC lower temperatures than the control and/or manure
+      treatment
+- id: causal_mosaic:node:bf3c134c051d
+  name: hydrogel
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_01f6f7ca4b
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: At Mattheis in yr 2, grass emergence with hydrogel and manure was significantly
+      greater than in the control.
+- id: causal_mosaic:node:add4b95a8f66
+  name: Manure
+  entity_type: management_intervention
+  entity_term: causal_mosaic:unresolved_a08a915e5d
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+- id: causal_mosaic:node:d05f77dbb64d
+  name: electrical conductivity
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_55911bd6dc
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+- id: causal_mosaic:node:ed13f6dfe993
+  name: total organic carbon
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_31eed19f54
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+- id: causal_mosaic:node:8beb0e6981e8
+  name: total nitrogen
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_80f18650ea
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+- id: causal_mosaic:node:6978a9e14a91
+  name: new grass emergence
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_4dec7f3d07
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: Straw had significantly less new grass emergence than other treatments except
+      hay and was not favorable to blue grama.
+- id: causal_mosaic:node:a2f794683bb0
+  name: water table level
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_c4717587a9
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: water table level
+    start_char: 2787
+    end_char: 2804
+    paragraph_id: page:3
+- id: causal_mosaic:node:2483ec0aeb69
+  name: water pH
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_f6d1569748
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: water pH
+    start_char: 2777
+    end_char: 2785
+    paragraph_id: page:3
+- id: causal_mosaic:node:9d55efef67e2
+  name: residual peat thickness
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_a72f8cfcbe
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: residual peat thickness
+    start_char: 19310
+    end_char: 19333
+    paragraph_id: page:13
+- id: causal_mosaic:node:48df82bb1191
+  name: plant assemblages
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_b2f2220694
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: plant assemblages
+    start_char: 104
+    end_char: 121
+    paragraph_id: page:1
+- id: causal_mosaic:node:062047ea7b16
+  name: high water table level
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_6cab67c915
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: high water table level
+    start_char: 2981
+    end_char: 3003
+    paragraph_id: page:3
+- id: causal_mosaic:node:ba6fd88731b3
+  name: revegetation success
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_3d08133215
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: revegetation success
+    start_char: 3024
+    end_char: 3044
+    paragraph_id: page:3
+- id: causal_mosaic:node:3d1f0eda24ed
+  name: beaver dams
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_0ac2b4a163
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: beaver dams
+    start_char: 32273
+    end_char: 32284
+    paragraph_id: page:20
+- id: causal_mosaic:node:9d17f888c3ae
+  name: effectiveness of the ditches
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_9419bf8bb4
+  state_or_change_qualifier: decreased
+  source_spans:
+  - text: effectiveness of the ditches
+    start_char: 13091
+    end_char: 13119
+    paragraph_id: page:10
+- id: causal_mosaic:node:94e0b39ba681
+  name: Sphagnum plants
+  entity_type: taxon
+  entity_term: causal_mosaic:unresolved_3536094ad3
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Sphagnum plants
+    start_char: 39269
+    end_char: 39284
+    paragraph_id: page:24
+- id: causal_mosaic:node:3f9ead10dc96
+  name: acidification
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_1916db40d4
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: acidification
+    start_char: 39322
+    end_char: 39335
+    paragraph_id: page:24
+- id: causal_mosaic:node:48c26430a0db
+  name: Scirpus cyperinus
+  entity_type: taxon
+  entity_term: WD:Q162249
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Scirpus cyperinus
+    start_char: 659
+    end_char: 676
+    paragraph_id: page:1
+- id: causal_mosaic:node:e480d9bd1e38
+  name: peat accumulation
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_8d1a10ec26
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: peat accumulation
+    start_char: 35476
+    end_char: 35493
+    paragraph_id: page:22
+- id: causal_mosaic:node:8534226613d9
+  name: Rhynchospora alba
+  entity_type: taxon
+  entity_term: WD:Q1276484
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Rhynchospora alba
+    start_char: 23192
+    end_char: 23209
+    paragraph_id: page:15
+- id: causal_mosaic:node:5441a25124f3
+  name: Sphagnum establishment
+  entity_type: environmental_process
+  entity_term: causal_mosaic:unresolved_3dda6056cd
+  state_or_change_qualifier: occurred
+  source_spans:
+  - text: Sphagnum establishment
+    start_char: 38125
+    end_char: 38147
+    paragraph_id: page:24
+- id: causal_mosaic:node:b2298ad1cfec
+  name: high pH
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_5e92b13576
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: high pH
+    start_char: 11131
+    end_char: 11138
+    paragraph_id: page:8
+- id: causal_mosaic:node:27448cfb6957
+  name: electrical conductivity
+  entity_type: environmental_variable
+  entity_term: causal_mosaic:unresolved_55911bd6dc
+  state_or_change_qualifier: unspecified
+  source_spans:
+  - text: electrical conductivity
+    start_char: 11017
+    end_char: 11040
+    paragraph_id: page:8
+- id: causal_mosaic:node:ce3e23e17c91
+  name: fen species
+  entity_type: taxon
+  entity_term: causal_mosaic:unresolved_2a6dab987b
+  state_or_change_qualifier: increased
+  source_spans:
+  - text: fen species
+    start_char: 3360
+    end_char: 3371
+    paragraph_id: page:3
+edges:
+- id: causal_mosaic:edge:aeda0c6bbdde
+  subject: causal_mosaic:node:e7f2e48d8679
+  predicate: causes
+  object: causal_mosaic:node:4e62559161cf
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: plots that received supplemental seeding continued to exhibit
+    higher richness of native species than those left unseeded
+  source_spans:
+  - text: plots that received supplemental seeding continued to exhibit higher richness
+      of native species than those left unseeded
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:98dd3d657f00
+  subject: causal_mosaic:node:e7f2e48d8679
+  predicate: causes
+  object: causal_mosaic:node:a60650af4d5a
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: addition of native seed effectively increased both the richness
+    and abundance (defined as percent cover) of native species
+  source_spans:
+  - text: addition of native seed effectively increased both the richness and abundance
+      (defined as percent cover) of native species
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:f4aed920e276
+  subject: causal_mosaic:node:e544cdeaedeb
+  predicate: causes
+  object: causal_mosaic:node:a60650af4d5a
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: treatments that included grass-specific herbicide were the most
+    effective at reducing the abundance of exotic grasses
+  source_spans:
+  - text: treatments that included grass-specific herbicide were the most effective
+      at reducing the abundance of exotic grasses
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:206458c3b8af
+  subject: causal_mosaic:node:5b6c1552b126
+  predicate: causes
+  object: causal_mosaic:node:4f439245119f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+    and Ranunculus occidentalis) responded more positively to both of the burn treatments
+    compared with other treatments
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:fde7d2e2a10e
+  subject: causal_mosaic:node:5b6c1552b126
+  predicate: causes
+  object: causal_mosaic:node:f64d65fbe7e7
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+    and Ranunculus occidentalis) responded more positively to both of the burn treatments
+    compared with other treatments
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:e3e501f8e975
+  subject: causal_mosaic:node:5b6c1552b126
+  predicate: causes
+  object: causal_mosaic:node:485e950bbcf7
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+    and Ranunculus occidentalis) responded more positively to both of the burn treatments
+    compared with other treatments
+  source_spans:
+  - text: three perennial forb species (Eriophyllum lanatum, Achillea millefolium,
+      and Ranunculus occidentalis) responded more positively to both of the burn treatments
+      compared with other treatments
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:b0ff8373db16
+  subject: causal_mosaic:node:e544cdeaedeb
+  predicate: causes
+  object: causal_mosaic:node:5865e51e7e80
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: native grass species, Festuca roemeri, had greater cover in treatments
+    that included the grass-specific herbicide sethoxydim
+  source_spans:
+  - text: native grass species, Festuca roemeri, had greater cover in treatments that
+      included the grass-specific herbicide sethoxydim
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:95a897d955cd
+  subject: causal_mosaic:node:e544cdeaedeb
+  predicate: causes
+  object: causal_mosaic:node:054efcbbf947
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: treatments that included grass-specific herbicide were the most
+    effective at reducing the abundance of exotic grasses
+  source_spans:
+  - text: treatments that included grass-specific herbicide were the most effective
+      at reducing the abundance of exotic grasses
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:eda9002505f8
+  subject: causal_mosaic:node:e7f2e48d8679
+  predicate: causes
+  object: causal_mosaic:node:c553b0bd33f0
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: there is evidence that all eight species colonized new plots
+    since the last round of monitoring
+  source_spans:
+  - text: there is evidence that all eight species colonized new plots since the last
+      round of monitoring
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12468
+    title: Long‐term effects of prairie restoration on plant community structure and
+      native population dynamics
+    year: 2017
+    authors:
+    - Trowbridge, Charlotte C.
+    - Stanley, Amanda
+    - Kaye, Thomas N.
+    - Dunwiddie, Peter W.
+    - Williams, Jennifer L.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:6c229ca5ef27
+  subject: causal_mosaic:node:2e622a596add
+  predicate: causes
+  object: causal_mosaic:node:669fead67602
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: This is due to removal of the top layer of vegetation in the
+    donor sites that results in a reduced depth to the water table.
+  source_spans:
+  - text: This is due to removal of the top layer of vegetation in the donor sites
+      that results in a reduced depth to the water table.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:08d9922cb8f2
+  subject: causal_mosaic:node:669fead67602
+  predicate: causes
+  object: causal_mosaic:node:915d76b66623
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Methane emissions were higher from donor sites compared to natural
+    sites due to the high water table
+  source_spans:
+  - text: Methane emissions were higher from donor sites compared to natural sites
+      due to the high water table
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:1eea54aaa38a
+  subject: causal_mosaic:node:137a4b492eb7
+  predicate: causes
+  object: causal_mosaic:node:07cab96d6d4e
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Higher sedge cover resulted in more negative NEE values (greater
+    CO2 uptake) across the fen
+  source_spans:
+  - text: Higher sedge cover resulted in more negative NEE values (greater CO2 uptake)
+      across the fen
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:5f92fcfa5aef
+  subject: causal_mosaic:node:71c262360a5a
+  predicate: causes
+  object: causal_mosaic:node:07cab96d6d4e
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: GEPmax became more negative (greater CO2 uptake) in plots with
+    higher moss cover across the bog sites
+  source_spans:
+  - text: GEPmax became more negative (greater CO2 uptake) in plots with higher moss
+      cover across the bog sites
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:5d7f1d7862f7
+  subject: causal_mosaic:node:3a965252bc61
+  predicate: causes
+  object: causal_mosaic:node:07cab96d6d4e
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: At both the bog and fen GEP max became more negative with increasing
+    total plant cover
+  source_spans:
+  - text: At both the bog and fen GEP max became more negative with increasing total
+      plant cover
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:5f801795ead9
+  subject: causal_mosaic:node:07b23f44e787
+  predicate: causes
+  object: causal_mosaic:node:516be9a4a7af
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: vegetation re-establishment on donor sites was rapid, and it
+    is possible that these sites will return to their original carbon-cycle functioning
+    after disturbance
+  source_spans:
+  - text: vegetation re-establishment on donor sites was rapid, and it is possible
+      that these sites will return to their original carbon-cycle functioning after
+      disturbance
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:24258ab5e5ac
+  subject: causal_mosaic:node:84b1b4c94e2c
+  predicate: causes
+  object: causal_mosaic:node:07cab96d6d4e
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: tree recruitment at the donor sites was limited
+  source_spans:
+  - text: tree recruitment at the donor sites was limited
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1007/s11273-017-9531-5
+    title: Growing season carbon gas exchange from peatlands used as a source of vegetation
+      donor material for restoration
+    year: 2017
+    authors:
+    - Murray, Kimberley R.
+    - Borkenhagen, Andrea K.
+    - Cooper, David J.
+    - Strack, Maria
+    journal: Wetlands Ecol Manage
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:92658b397d92
+  subject: causal_mosaic:node:a7e00142e14a
+  predicate: causes
+  object: causal_mosaic:node:6cee06f874b8
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The abundance of W. Yellow-breasted Chats significantly increased
+    between 2002 and 2013 in areas where restoration activities occurred.
+  source_spans:
+  - text: The abundance of W. Yellow-breasted Chats significantly increased between
+      2002 and 2013 in areas where restoration activities occurred.
+  evidential_basis:
+    evidence_types:
+    - quasi_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12495
+    title: Evaluating the efficacy of seasonal grazing and livestock exclusion as
+      restoration tools for birds in riparian habitat of the Okanagan Valley, British
+      Columbia, Canada
+    year: 2017
+    authors:
+    - Forrester, Timothy R.
+    - Green, David J.
+    - McKibbin, René
+    - Bishop, Christine A.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:90b54e0e82b5
+  subject: causal_mosaic:node:593aab3817ea
+  predicate: causes
+  object: causal_mosaic:node:6cee06f874b8
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: A combination of permanent and seasonal exclusion of livestock
+    can lead to increased abundance of riparian birds that depend on early successional
+    habitat for nesting such as Western Yellow-breasted Chats.
+  source_spans:
+  - text: A combination of permanent and seasonal exclusion of livestock can lead
+      to increased abundance of riparian birds that depend on early successional habitat
+      for nesting such as Western Yellow-breasted Chats.
+  evidential_basis:
+    evidence_types:
+    - quasi_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12495
+    title: Evaluating the efficacy of seasonal grazing and livestock exclusion as
+      restoration tools for birds in riparian habitat of the Okanagan Valley, British
+      Columbia, Canada
+    year: 2017
+    authors:
+    - Forrester, Timothy R.
+    - Green, David J.
+    - McKibbin, René
+    - Bishop, Christine A.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:d8102171cebd
+  subject: causal_mosaic:node:593aab3817ea
+  predicate: causes
+  object: causal_mosaic:node:48250db538a6
+  claim_strength: no_relationship
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Cattle exclusion did not lead to an improvement in the breeding
+    performance of W. Yellow-breasted Chats at restoration sites.
+  source_spans:
+  - text: Cattle exclusion did not lead to an improvement in the breeding performance
+      of W. Yellow-breasted Chats at restoration sites.
+  evidential_basis:
+    evidence_types:
+    - quasi_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12495
+    title: Evaluating the efficacy of seasonal grazing and livestock exclusion as
+      restoration tools for birds in riparian habitat of the Okanagan Valley, British
+      Columbia, Canada
+    year: 2017
+    authors:
+    - Forrester, Timothy R.
+    - Green, David J.
+    - McKibbin, René
+    - Bishop, Christine A.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:4ca9edb63ad5
+  subject: causal_mosaic:node:a7e00142e14a
+  predicate: causes
+  object: causal_mosaic:node:5c2a68b4962d
+  claim_strength: no_relationship
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Restoration did not have significant effects on the abundance,
+    richness, or breeding performance of other riparian birds at the restoration sites
+    independent of temporal changes that occurred at reference sites.
+  source_spans:
+  - text: Restoration did not have significant effects on the abundance, richness,
+      or breeding performance of other riparian birds at the restoration sites independent
+      of temporal changes that occurred at reference sites.
+  evidential_basis:
+    evidence_types:
+    - quasi_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/rec.12495
+    title: Evaluating the efficacy of seasonal grazing and livestock exclusion as
+      restoration tools for birds in riparian habitat of the Okanagan Valley, British
+      Columbia, Canada
+    year: 2017
+    authors:
+    - Forrester, Timothy R.
+    - Green, David J.
+    - McKibbin, René
+    - Bishop, Christine A.
+    journal: Restoration Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:6271e1239256
+  subject: causal_mosaic:node:0d0d319b341a
+  predicate: causes
+  object: causal_mosaic:node:6cfc2aa87001
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Instead it appears that recolonization by Albertan fishers is
+    responsible for the current CLM population.
+  source_spans:
+  - text: Instead it appears that recolonization by Albertan fishers is responsible
+      for the current CLM population.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.biocon.2017.08.004
+    title: Distinguishing reintroduction from recolonization with genetic testing
+    year: 2017
+    authors:
+    - Stewart, Frances E.C.
+    - Volpe, John P.
+    - Taylor, John S.
+    - Bowman, Jeff
+    - Thomas, Philippe J.
+    - Pybus, Margo J.
+    - Fisher, Jason T.
+    journal: Biological Conservation
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:96570cfc4369
+  subject: causal_mosaic:node:e4845ff873c1
+  predicate: causes
+  object: causal_mosaic:node:25eb234695c7
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Obtaining appropriate genetic samples in relation to reintroductions
+    will help determine when future reintroduction is likely to be the best conservation
+    initiative.
+  source_spans:
+  - text: Obtaining appropriate genetic samples in relation to reintroductions will
+      help determine when future reintroduction is likely to be the best conservation
+      initiative.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.biocon.2017.08.004
+    title: Distinguishing reintroduction from recolonization with genetic testing
+    year: 2017
+    authors:
+    - Stewart, Frances E.C.
+    - Volpe, John P.
+    - Taylor, John S.
+    - Bowman, Jeff
+    - Thomas, Philippe J.
+    - Pybus, Margo J.
+    - Fisher, Jason T.
+    journal: Biological Conservation
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:7261824f6a4a
+  subject: causal_mosaic:node:12db5971fe80
+  predicate: causes
+  object: causal_mosaic:node:0fc6a4ac81f4
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Our review of all fisher reintroductions demonstrated that 47%
+    have been given a different reintroduction status once genetic testing for reintroduction
+    success was performed
+  source_spans:
+  - text: Our review of all fisher reintroductions demonstrated that 47% have been
+      given a different reintroduction status once genetic testing for reintroduction
+      success was performed
+  evidential_basis:
+    evidence_types:
+    - systematic_review
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.biocon.2017.08.004
+    title: Distinguishing reintroduction from recolonization with genetic testing
+    year: 2017
+    authors:
+    - Stewart, Frances E.C.
+    - Volpe, John P.
+    - Taylor, John S.
+    - Bowman, Jeff
+    - Thomas, Philippe J.
+    - Pybus, Margo J.
+    - Fisher, Jason T.
+    journal: Biological Conservation
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:2dec14d20070
+  subject: causal_mosaic:node:b1e1d544af47
+  predicate: causes
+  object: causal_mosaic:node:910d7264cc42
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Non-targeted oldﬁeld species thus appeared to be of sufﬁcient
+    quality to support rodent populations (peaking at 23 individuals ha /C01 in summer),
+    but without rescuing rarer prairie species from targeted granivory and resulting
+    in reduced prairie diversity outside of experimental exclosures.
+  source_spans:
+  - text: Non-targeted oldﬁeld species thus appeared to be of sufﬁcient quality to
+      support rodent populations (peaking at 23 individuals ha /C01 in summer), but
+      without rescuing rarer prairie species from targeted granivory and resulting
+      in reduced prairie diversity outside of experimental exclosures.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:5d690860c106
+  subject: causal_mosaic:node:62ffb4153337
+  predicate: causes
+  object: causal_mosaic:node:d8d4a6354294
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: These findings suggest that rodents may reduce the restoration
+    success of tallgrass prairie in our region, with some planted species likely to
+    suffer future recruitment difficulties due to granivory.
+  source_spans:
+  - text: These findings suggest that rodents may reduce the restoration success of
+      tallgrass prairie in our region, with some planted species likely to suffer
+      future recruitment difficulties due to granivory.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:983a4be7e2a7
+  subject: causal_mosaic:node:b1e1d544af47
+  predicate: causes
+  object: causal_mosaic:node:e6ec8f85f9e1
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: These findings suggest that rodents may reduce the restoration
+    success of tallgrass prairie in our region, with some planted species likely to
+    suffer future recruitment difficulties due to granivory.
+  source_spans:
+  - text: These findings suggest that rodents may reduce the restoration success of
+      tallgrass prairie in our region, with some planted species likely to suffer
+      future recruitment difficulties due to granivory.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:86256cbb8b5b
+  subject: causal_mosaic:node:62ffb4153337
+  predicate: causes
+  object: causal_mosaic:node:d67f50c3cd38
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The exclosed plots had twice the abundance of planted native
+    seedlings ( F 1,5 = 5/C192, P = 0/C10196) and signiﬁcantly higher richness of
+    planted species ( F1,5 = 13/C18, P < 0/C1001) than areas lacking protection from
+    small mammals (Figs 2 and S1).
+  source_spans:
+  - text: The exclosed plots had twice the abundance of planted native seedlings (
+      F 1,5 = 5/C192, P = 0/C10196) and signiﬁcantly higher richness of planted species
+      ( F1,5 = 13/C18, P < 0/C1001) than areas lacking protection from small mammals
+      (Figs 2 and S1).
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:b6faa52f3c76
+  subject: causal_mosaic:node:62ffb4153337
+  predicate: causes
+  object: causal_mosaic:node:d0be693e20f5
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The exclosed plots had twice the abundance of planted native
+    seedlings ( F 1,5 = 5/C192, P = 0/C10196) and signiﬁcantly higher richness of
+    planted species ( F1,5 = 13/C18, P < 0/C1001) than areas lacking protection from
+    small mammals (Figs 2 and S1).
+  source_spans:
+  - text: The exclosed plots had twice the abundance of planted native seedlings (
+      F 1,5 = 5/C192, P = 0/C10196) and signiﬁcantly higher richness of planted species
+      ( F1,5 = 13/C18, P < 0/C1001) than areas lacking protection from small mammals
+      (Figs 2 and S1).
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:8ea9fbafbee2
+  subject: causal_mosaic:node:0cb78476f89a
+  predicate: causes
+  object: causal_mosaic:node:6dba78289a8f
+  claim_strength: associational
+  philosophical_accounts:
+  - interventionist
+  original_sentence: There were varying relationships between the density of the rodent
+    community by month and the rodent diet as revealed by the DNA analysis (Fig. 4).
+    Rodent density per month and numbers of oldﬁeld species consumed per month were
+    positively correlated ( R 2 = 0/C1166, P = 0/C1041), while no relationship was
+    detectable between rodent density and native plant consumption ( R 2 = 0/C10786,
+    P = 0/C143).
+  source_spans:
+  - text: There were varying relationships between the density of the rodent community
+      by month and the rodent diet as revealed by the DNA analysis (Fig. 4). Rodent
+      density per month and numbers of oldﬁeld species consumed per month were positively
+      correlated ( R 2 = 0/C1166, P = 0/C1041), while no relationship was detectable
+      between rodent density and native plant consumption ( R 2 = 0/C10786, P = 0/C143).
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:b50bf87c7aac
+  subject: causal_mosaic:node:b1e1d544af47
+  predicate: causes
+  object: causal_mosaic:node:267fc199954a
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: However, this seems to be insufﬁcient to shelter rarer prairie
+    species from targeted granivory, which in turn may hamper their persistence.
+  source_spans:
+  - text: However, this seems to be insufﬁcient to shelter rarer prairie species from
+      targeted granivory, which in turn may hamper their persistence.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/1365-2664.12886
+    title: Selective plant foraging and the top‐down suppression of native diversity
+      in a restored prairie
+    year: 2017
+    authors:
+    - Schneider, Stefan
+    - Steeves, Royce
+    - Newmaster, Steve
+    - MacDougall, Andrew S.
+    journal: Journal of Applied Ecology
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:9413c0c55075
+  subject: causal_mosaic:node:bab90dfe6fba
+  predicate: causes
+  object: causal_mosaic:node:189efe126c6f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Cumulative browsing on terminal shoot ... had a negative effect
+    on height and diameter
+  source_spans:
+  - text: Cumulative browsing on terminal shoot ... had a negative effect on height
+      and diameter
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+- id: causal_mosaic:edge:59e8a5ad1131
+  subject: causal_mosaic:node:bab90dfe6fba
+  predicate: causes
+  object: causal_mosaic:node:6511eddc197f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Cumulative browsing on terminal shoot ... had a negative effect
+    on height and diameter
+  source_spans:
+  - text: Cumulative browsing on terminal shoot ... had a negative effect on height
+      and diameter
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+- id: causal_mosaic:edge:ea31fe59361f
+  subject: causal_mosaic:node:bab90dfe6fba
+  predicate: causes
+  object: causal_mosaic:node:50db490b202d
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The cover and modal height of large herbaceous species decreased
+    ... in unfenced plots
+  source_spans:
+  - text: The cover and modal height of large herbaceous species decreased ... in
+      unfenced plots
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+- id: causal_mosaic:edge:5e57e9319070
+  subject: causal_mosaic:node:bab90dfe6fba
+  predicate: causes
+  object: causal_mosaic:node:a50f6d42dd1f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Deer browsing ... diminished the cover of deciduous and large
+    herbaceous species
+  source_spans:
+  - text: Deer browsing ... diminished the cover of deciduous and large herbaceous
+      species
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+- id: causal_mosaic:edge:2e6128a8f205
+  subject: causal_mosaic:node:bab90dfe6fba
+  predicate: causes
+  object: causal_mosaic:node:c800918b9c4a
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Deer browsing ... improving light conditions for the planted
+    seedlings
+  source_spans:
+  - text: Deer browsing ... improving light conditions for the planted seedlings
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+- id: causal_mosaic:edge:a34139442f29
+  subject: causal_mosaic:node:0354e1882ae6
+  predicate: associated_with
+  object: causal_mosaic:node:89f03caeea5e
+  claim_strength: no_relationship
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Site preparation and mechanical release did not improve morphological
+    parameters
+  source_spans:
+  - text: Site preparation and mechanical release did not improve morphological parameters
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+  annotation_notes: 'Normalization: edges[5].predicate: unknown ''no_relationship''
+    -> ''associated_with'''
+- id: causal_mosaic:edge:9deee1f046bf
+  subject: causal_mosaic:node:ac56fbcb395c
+  predicate: associated_with
+  object: causal_mosaic:node:189efe126c6f
+  claim_strength: no_relationship
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Mechanical release had no significant effect on seedling height
+  source_spans:
+  - text: Mechanical release had no significant effect on seedling height
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.foreco.2017.09.024
+    title: 'Deer browsing outweighs the effects of site preparation and mechanical
+      release on balsam fir seedlings performance: Implications to forest management'
+    year: 2017
+    authors:
+    - Brousseau, Maxime
+    - Thiffault, Nelson
+    - Beguin, Julien
+    - Roy, Vincent
+    - Tremblay, Jean-Pierre
+    journal: Forest Ecology and Management
+  annotation_notes: 'Normalization: edges[6].predicate: unknown ''no_relationship''
+    -> ''associated_with'''
+- id: causal_mosaic:edge:7e9476e5a180
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:090c5d50d368
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Glyphosate reduced non-native grass cover for three growing seasons
+    following application and non-native forbs for one growing season.
+  source_spans:
+  - text: Glyphosate reduced non-native grass cover for three growing seasons following
+      application and non-native forbs for one growing season.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:260a8fec82bc
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:0313527e3e8a
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Glyphosate led to significant increases in non-native forb cover,
+    more than double pre-existing values 2 and 3 yr after application.
+  source_spans:
+  - text: Glyphosate led to significant increases in non-native forb cover, more than
+      double pre-existing values 2 and 3 yr after application.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:7f7ba2419c88
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:30bde3f7aa05
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: By the end of the study non-native forb cover was significantly
+    higher with glyphosate than pre-treatment at Sites 1 and 2, and native forb cover
+    had significantly decreased with glyphosate at Site 3
+  source_spans:
+  - text: By the end of the study non-native forb cover was significantly higher with
+      glyphosate than pre-treatment at Sites 1 and 2, and native forb cover had significantly
+      decreased with glyphosate at Site 3
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:00a463084f18
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:4de0fea0d4b3
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: In 2011 and 2012 native forb cover and richness were significantly
+    lower with glyphosate than controls at Site 3
+  source_spans:
+  - text: In 2011 and 2012 native forb cover and richness were significantly lower
+      with glyphosate than controls at Site 3
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:92783545d87a
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:6223d70d314e
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Non-native grass species richness and diversity were significantly
+    lower with glyphosate at Sites 1 and 2 in 2011
+  source_spans:
+  - text: Non-native grass species richness and diversity were significantly lower
+      with glyphosate at Sites 1 and 2 in 2011
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:7d731d498d9a
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:e506b39d2fa7
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Non-native grass species richness and diversity were significantly
+    lower with glyphosate at Sites 1 and 2 in 2011
+  source_spans:
+  - text: Non-native grass species richness and diversity were significantly lower
+      with glyphosate at Sites 1 and 2 in 2011
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:e7d42eb7af36
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:6622131dcc73
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Total diversity was significantly lower with glyphosate across
+    sites in 2011 but only at Site 3 in 2012.
+  source_spans:
+  - text: Total diversity was significantly lower with glyphosate across sites in
+      2011 but only at Site 3 in 2012.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:8087de3a16e5
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:27f98932f586
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Flowering and seed set of non-native grasses was significantly
+    reduced with glyphosate at Site 1
+  source_spans:
+  - text: Flowering and seed set of non-native grasses was significantly reduced with
+      glyphosate at Site 1
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:0b609df4e34e
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:af66462baac7
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Flowering and seed set of non-native grasses was significantly
+    reduced with glyphosate at Site 1
+  source_spans:
+  - text: Flowering and seed set of non-native grasses was significantly reduced with
+      glyphosate at Site 1
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:c4bd8fbc15e1
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:fee2cdd38c1c
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: that of non-native forbs was significantly reduced with cutting
+    and glyphosate at Site 2
+  source_spans:
+  - text: that of non-native forbs was significantly reduced with cutting and glyphosate
+      at Site 2
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:4f4a1b9c2169
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:6a0d71ed774f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: that of non-native forbs was significantly reduced with cutting
+    and glyphosate at Site 2
+  source_spans:
+  - text: that of non-native forbs was significantly reduced with cutting and glyphosate
+      at Site 2
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:75ca71bbedea
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:125eedbec94e
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: At Site 3, treatment had no effect on non-native plant flowering
+    and seed production, although it significantly reduced that of native grasses
+    and forbs.
+  source_spans:
+  - text: At Site 3, treatment had no effect on non-native plant flowering and seed
+      production, although it significantly reduced that of native grasses and forbs.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:38cce38697af
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:7695cfdf043a
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: At Site 3, treatment had no effect on non-native plant flowering
+    and seed production, although it significantly reduced that of native grasses
+    and forbs.
+  source_spans:
+  - text: At Site 3, treatment had no effect on non-native plant flowering and seed
+      production, although it significantly reduced that of native grasses and forbs.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:a9d258ec5e0b
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:a4a6dc4ba723
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Glyphosate shifted communities dominated by non-native perennial
+    grasses to dominance by non-native forbs
+  source_spans:
+  - text: Glyphosate shifted communities dominated by non-native perennial grasses
+      to dominance by non-native forbs
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:047210682711
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:8303a2c58ba3
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Glyphosate shifted communities dominated by non-native perennial
+    grasses to dominance by non-native forbs
+  source_spans:
+  - text: Glyphosate shifted communities dominated by non-native perennial grasses
+      to dominance by non-native forbs
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:7fc54a944510
+  subject: causal_mosaic:node:b362d46cefad
+  predicate: causes
+  object: causal_mosaic:node:090c5d50d368
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: over 3 yr, non-native grass cover was significantly lower with
+    steam at Site 1 and with cutting at Site 3
+  source_spans:
+  - text: over 3 yr, non-native grass cover was significantly lower with steam at
+      Site 1 and with cutting at Site 3
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:2cff5961d439
+  subject: causal_mosaic:node:b362d46cefad
+  predicate: causes
+  object: causal_mosaic:node:fee2cdd38c1c
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: that of non-native forbs was significantly reduced with cutting
+    and glyphosate at Site 2
+  source_spans:
+  - text: that of non-native forbs was significantly reduced with cutting and glyphosate
+      at Site 2
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:fb44706bc6b8
+  subject: causal_mosaic:node:40ba5ef04ff7
+  predicate: causes
+  object: causal_mosaic:node:090c5d50d368
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: steam reduced non-native grass cover at the most heavily invaded
+    site.
+  source_spans:
+  - text: steam reduced non-native grass cover at the most heavily invaded site.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:8f8638ee5128
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:21fac651b897
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The native forb species Heterotheca villosa (Pursch) Shinners
+    (hairy false golden aster) and Achillea millefolium L. (common yarrow) were eliminated
+    by glyphosate.
+  source_spans:
+  - text: The native forb species Heterotheca villosa (Pursch) Shinners (hairy false
+      golden aster) and Achillea millefolium L. (common yarrow) were eliminated by
+      glyphosate.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:75f006c6788a
+  subject: causal_mosaic:node:33f76269a2b6
+  predicate: causes
+  object: causal_mosaic:node:4cc62ea060f3
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The native forb species Heterotheca villosa (Pursch) Shinners
+    (hairy false golden aster) and Achillea millefolium L. (common yarrow) were eliminated
+    by glyphosate.
+  source_spans:
+  - text: The native forb species Heterotheca villosa (Pursch) Shinners (hairy false
+      golden aster) and Achillea millefolium L. (common yarrow) were eliminated by
+      glyphosate.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/avsc.12316
+    title: Glyphosate, steam and cutting for non‐native plant control in Alberta fescue
+      grassland restoration
+    year: 2017
+    authors:
+    - Stover, Holly J.
+    - Naeth, M. Anne
+    - Wilkinson, Sarah R.
+    journal: Applied Vegetation Science
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:1c5a4dc48ad8
+  subject: causal_mosaic:node:2efb4be693c4
+  predicate: causes
+  object: causal_mosaic:node:03dd250ece10
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Landﬁll restoration and the creation of foraging and nesting
+    habitat resulted in rapid and persistent occupation by bees
+  source_spans:
+  - text: Landﬁll restoration and the creation of foraging and nesting habitat resulted
+      in rapid and persistent occupation by bees
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:6af4c5b5846a
+  subject: causal_mosaic:node:2efb4be693c4
+  predicate: causes
+  object: causal_mosaic:node:391ed503319f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: bee abundance and species richness in restored sites increased
+    until 2006/2007
+  source_spans:
+  - text: bee abundance and species richness in restored sites increased until 2006/2007
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:88be09e97e08
+  subject: causal_mosaic:node:2efb4be693c4
+  predicate: causes
+  object: causal_mosaic:node:60dbca3dbde8
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: bee abundance and species richness in restored sites increased
+    until 2006/2007
+  source_spans:
+  - text: bee abundance and species richness in restored sites increased until 2006/2007
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:66aec0437daa
+  subject: causal_mosaic:node:2efb4be693c4
+  predicate: causes
+  object: causal_mosaic:node:5ab0f0c6ff02
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: subsequently declined
+  source_spans:
+  - text: subsequently declined
+    start_char: 1912
+    end_char: 1933
+    paragraph_id: page:1
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:9c6c8c1f611e
+  subject: causal_mosaic:node:2efb4be693c4
+  predicate: causes
+  object: causal_mosaic:node:e3813acf5676
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: subsequently declined
+  source_spans:
+  - text: subsequently declined
+    start_char: 1912
+    end_char: 1933
+    paragraph_id: page:1
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:be53d2e3e845
+  subject: causal_mosaic:node:bdbecd438812
+  predicate: causes
+  object: causal_mosaic:node:9ac8738ff7ef
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Both droughts had obvious negative effects on plant growth in
+    both natural and agricultural ecosystems, and undoubtedly contributed to lower
+    foraging success by bees
+  source_spans:
+  - text: Both droughts had obvious negative effects on plant growth in both natural
+      and agricultural ecosystems, and undoubtedly contributed to lower foraging success
+      by bees
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:e7267ea019f4
+  subject: causal_mosaic:node:bdbecd438812
+  predicate: causes
+  object: causal_mosaic:node:391ed503319f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Both droughts had obvious negative effects on plant growth in
+    both natural and agricultural ecosystems, and undoubtedly contributed to lower
+    foraging success by bees
+  source_spans:
+  - text: Both droughts had obvious negative effects on plant growth in both natural
+      and agricultural ecosystems, and undoubtedly contributed to lower foraging success
+      by bees
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:08e68cccc5e3
+  subject: causal_mosaic:node:fdb809311f4f
+  predicate: causes
+  object: causal_mosaic:node:4bc2d36de2ac
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: vegetational succession
+  source_spans:
+  - text: vegetational succession
+    start_char: 47642
+    end_char: 47665
+    paragraph_id: page:10
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:f3a6f7017326
+  subject: causal_mosaic:node:4bc2d36de2ac
+  predicate: causes
+  object: causal_mosaic:node:1b0d92111b59
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: decline over time was due in large part to a loss of bare soil
+    patches for nesting sites
+  source_spans:
+  - text: decline over time was due in large part to a loss of bare soil patches for
+      nesting sites
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:c6fc58d57c08
+  subject: causal_mosaic:node:4c5b768d9659
+  predicate: causes
+  object: causal_mosaic:node:286da4b0bfeb
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: loss of habitat around the sites has likely contributed to declining
+    populations in the control sites
+  source_spans:
+  - text: loss of habitat around the sites has likely contributed to declining populations
+      in the control sites
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:84b79d6ad96a
+  subject: causal_mosaic:node:286da4b0bfeb
+  predicate: causes
+  object: causal_mosaic:node:e1f4328a7f54
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: loss of habitat around the sites has likely contributed to declining
+    populations in the control sites
+  source_spans:
+  - text: loss of habitat around the sites has likely contributed to declining populations
+      in the control sites
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1111/icad.12261
+    title: Rapid initial recovery and long‐term persistence of a bee community in
+      a former landfill
+    year: 2018
+    authors:
+    - Onuferko, Thomas M.
+    - Skandalis, Dimitri A.
+    - León Cordero, Rodrigo
+    - Richards, Miriam H.
+    journal: Insect Conserv Diversity
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:585a233bd4ae
+  subject: causal_mosaic:node:0b33985812f5
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Feather moss, thick soil surface organic layers, litter, and
+    solid wood were poor substrates for establishment.
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:18d9f4bc58dc
+  subject: causal_mosaic:node:187d3841e9ae
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Feather moss, thick soil surface organic layers, litter, and
+    solid wood were poor substrates for establishment.
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:ae3e5aa6073a
+  subject: causal_mosaic:node:1c6f3cb54967
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Feather moss, thick soil surface organic layers, litter, and
+    solid wood were poor substrates for establishment.
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:9584a08f19b1
+  subject: causal_mosaic:node:0642dc01e7b5
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Feather moss, thick soil surface organic layers, litter, and
+    solid wood were poor substrates for establishment.
+  source_spans:
+  - text: Feather moss, thick soil surface organic layers, litter, and solid wood
+      were poor substrates for establishment.
+    start_char: 620
+    end_char: 731
+    paragraph_id: page:1
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:cfdeac8ae4c3
+  subject: causal_mosaic:node:63468b86b73e
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Early successional mosses establishing on mineral soil, thin
+    organics, and rotten wood were generally favourable microsites
+  source_spans:
+  - text: Early successional mosses establishing on mineral soil, thin organics, and
+      rotten wood were generally favourable microsites
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:0b89c2332240
+  subject: causal_mosaic:node:18ff418561f3
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: In Peace River, exposed mineral soil was the most strongly preferred
+    substrate.
+  source_spans:
+  - text: In Peace River, exposed mineral soil was the most strongly preferred substrate.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:237928226898
+  subject: causal_mosaic:node:9d99e37e64c0
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Early successional mosses establishing on mineral soil, thin
+    organics, and rotten wood were generally favourable microsites
+  source_spans:
+  - text: Early successional mosses establishing on mineral soil, thin organics, and
+      rotten wood were generally favourable microsites
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:c8f05203038a
+  subject: causal_mosaic:node:c5b6b0f23525
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Early successional mosses establishing on mineral soil, thin
+    organics, and rotten wood were generally favourable microsites
+  source_spans:
+  - text: Early successional mosses establishing on mineral soil, thin organics, and
+      rotten wood were generally favourable microsites
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:9953eed35439
+  subject: causal_mosaic:node:e4fe23b6eb6a
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: On the ripper-ploughed conifer-dominated sites, the shelf position...
+    resulted in the highest early seedling establishment of white spruce
+  source_spans:
+  - text: On the ripper-ploughed conifer-dominated sites, the shelf position... resulted
+      in the highest early seedling establishment of white spruce
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:65b0ee2c66b7
+  subject: causal_mosaic:node:1a6c5c7298d6
+  predicate: causes
+  object: causal_mosaic:node:c4b801f42f04
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: On the ripper-ploughed conifer-dominated sites, the shelf position...
+    and scraped rotten wood resulted in the highest early seedling establishment of
+    white spruce
+  source_spans:
+  - text: On the ripper-ploughed conifer-dominated sites, the shelf position... and
+      scraped rotten wood resulted in the highest early seedling establishment of
+      white spruce
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:6b99d32eb45d
+  subject: causal_mosaic:node:39e4894ccd09
+  predicate: causes
+  object: causal_mosaic:node:2ff4dc7f5b76
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Burial by aspen litter greatly increased seedling mortality
+  source_spans:
+  - text: Burial by aspen litter greatly increased seedling mortality
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:c3d6487bc7a4
+  subject: causal_mosaic:node:3060d1356ea2
+  predicate: causes
+  object: causal_mosaic:node:2ff4dc7f5b76
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Burial by aspen litter greatly increased seedling mortality,
+    especially when combined with a brief period of submergence
+  source_spans:
+  - text: Burial by aspen litter greatly increased seedling mortality, especially
+      when combined with a brief period of submergence
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:fd53ca80e84b
+  subject: causal_mosaic:node:f94ad12f9c5c
+  predicate: causes
+  object: causal_mosaic:node:3bedc32c54ff
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Both temporary spring flooding and especially cover by aspen
+    leaf litter in the spring reduced seedling survival
+  source_spans:
+  - text: Both temporary spring flooding and especially cover by aspen leaf litter
+      in the spring reduced seedling survival
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:641a73593799
+  subject: causal_mosaic:node:5a52247f3ec4
+  predicate: causes
+  object: causal_mosaic:node:3bedc32c54ff
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: heavy competing vegetation had a negative impact on older seedlings
+  source_spans:
+  - text: heavy competing vegetation had a negative impact on older seedlings
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:153b47fcda81
+  subject: causal_mosaic:node:2cdd501afde4
+  predicate: causes
+  object: causal_mosaic:node:3bedc32c54ff
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: There was some evidence that survival and growth of seedlings
+    were improved by surrounding vegetation in the first years
+  source_spans:
+  - text: There was some evidence that survival and growth of seedlings were improved
+      by surrounding vegetation in the first years
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:f4c449296bda
+  subject: causal_mosaic:node:f5d44f8c0f40
+  predicate: causes
+  object: causal_mosaic:node:3bedc32c54ff
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: In Peace River... all four measures of sapling (primarily aspen
+    suckers) abundance were higher in plots in which seedlings survived
+  source_spans:
+  - text: In Peace River... all four measures of sapling (primarily aspen suckers)
+      abundance were higher in plots in which seedlings survived
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:1dbb33815295
+  subject: causal_mosaic:node:8975cafe1108
+  predicate: causes
+  object: causal_mosaic:node:3bedc32c54ff
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: live graminoid cover was negatively associated with seedling
+    survival
+  source_spans:
+  - text: live graminoid cover was negatively associated with seedling survival
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:ec9da90a8fb8
+  subject: causal_mosaic:node:f2ef4c339cf1
+  predicate: causes
+  object: causal_mosaic:node:3bedc32c54ff
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: In Grande Prairie, forb abundance... was higher in plots in which
+    seedlings survived
+  source_spans:
+  - text: In Grande Prairie, forb abundance... was higher in plots in which seedlings
+      survived
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:844d8aa1dccc
+  subject: causal_mosaic:node:1b690c420968
+  predicate: causes
+  object: causal_mosaic:node:6edf6d80509f
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: cover of tall saplings was negatively related to growth
+  source_spans:
+  - text: cover of tall saplings was negatively related to growth
+  evidential_basis:
+    evidence_types:
+    - observational_longitudinal
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjfr-2017-0307
+    title: Effects of substrate availability and competing vegetation on natural regeneration
+      of white spruce on logged boreal mixedwood sites
+    year: 2018
+    authors:
+    - Kokkonen, Nicola A.
+    - Macdonald, S. Ellen
+    - Curran, Ian
+    - Landhäusser, Simon M.
+    - Lieffers, Victor J.
+    journal: Can. J. For. Res.
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:69b69c3d6335
+  subject: causal_mosaic:node:b99a44488126
+  predicate: causes
+  object: causal_mosaic:node:02a04cb57a13
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: These amendments increased grass and forb emergence and buffered
+    soil temperature.
+  source_spans:
+  - text: These amendments increased grass and forb emergence and buffered soil temperature.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:c418c730e56d
+  subject: causal_mosaic:node:4e6847cb1542
+  predicate: causes
+  object: causal_mosaic:node:60983a509f70
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Mounds increased first year forb emergence and reduced over winter
+    survival rates for grasses and forbs.
+  source_spans:
+  - text: Mounds increased first year forb emergence and reduced over winter survival
+      rates for grasses and forbs.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:453e2c323673
+  subject: causal_mosaic:node:4e6847cb1542
+  predicate: causes
+  object: causal_mosaic:node:947b0aa8de0d
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Mounds increased first year forb emergence and reduced over winter
+    survival rates for grasses and forbs.
+  source_spans:
+  - text: Mounds increased first year forb emergence and reduced over winter survival
+      rates for grasses and forbs.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:a16e260c626f
+  subject: causal_mosaic:node:ae016821d819
+  predicate: causes
+  object: causal_mosaic:node:d10330e01666
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Grass survival was significantly lower in pits at Mattheis than
+    all microsites at the other two sites.
+  source_spans:
+  - text: Grass survival was significantly lower in pits at Mattheis than all microsites
+      at the other two sites.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:58bece866e83
+  subject: causal_mosaic:node:ae016821d819
+  predicate: causes
+  object: causal_mosaic:node:386b379b0dd6
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: During the 2013 growing season, water content of pits was significantly
+    higher than mounds and flats at Elk Island and mounds at Mattheis.
+  source_spans:
+  - text: During the 2013 growing season, water content of pits was significantly
+      higher than mounds and flats at Elk Island and mounds at Mattheis.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:49f6a16567b8
+  subject: causal_mosaic:node:e0e0bc10aab2
+  predicate: causes
+  object: causal_mosaic:node:4fa5c00a4c19
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Near surface soil temperature was significantly affected by topographic
+    microsite, with growing season temperatures in flats and mounds 0.3−2.6oC higher
+    than in pits across sites and years
+  source_spans:
+  - text: Near surface soil temperature was significantly affected by topographic
+      microsite, with growing season temperatures in flats and mounds 0.3−2.6oC higher
+      than in pits across sites and years
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:2e04124dd852
+  subject: causal_mosaic:node:8f0abdd35092
+  predicate: causes
+  object: causal_mosaic:node:4fa5c00a4c19
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Treatments that provided ground cover, such as erosion control
+    blanket and straw, generally had 0.5− 2oC lower temperatures than the control
+    and/or manure treatment
+  source_spans:
+  - text: Treatments that provided ground cover, such as erosion control blanket and
+      straw, generally had 0.5− 2oC lower temperatures than the control and/or manure
+      treatment
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:6aea2861bd07
+  subject: causal_mosaic:node:de1484b55fe1
+  predicate: causes
+  object: causal_mosaic:node:4fa5c00a4c19
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Treatments that provided ground cover, such as erosion control
+    blanket and straw, generally had 0.5− 2oC lower temperatures than the control
+    and/or manure treatment
+  source_spans:
+  - text: Treatments that provided ground cover, such as erosion control blanket and
+      straw, generally had 0.5− 2oC lower temperatures than the control and/or manure
+      treatment
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:55ffe9ae9d05
+  subject: causal_mosaic:node:bf3c134c051d
+  predicate: causes
+  object: causal_mosaic:node:02a04cb57a13
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: At Mattheis in yr 2, grass emergence with hydrogel and manure
+    was significantly greater than in the control.
+  source_spans:
+  - text: At Mattheis in yr 2, grass emergence with hydrogel and manure was significantly
+      greater than in the control.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:17b223fd4172
+  subject: causal_mosaic:node:bf3c134c051d
+  predicate: causes
+  object: causal_mosaic:node:386b379b0dd6
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Water content among amendments was only significantly greater
+    in hydrogel than straw, manure, and control at Elk Island in June 2012
+  source_spans:
+  - text: Water content among amendments was only significantly greater in hydrogel
+      than straw, manure, and control at Elk Island in June 2012
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:7cbade04e79a
+  subject: causal_mosaic:node:add4b95a8f66
+  predicate: causes
+  object: causal_mosaic:node:d05f77dbb64d
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Manure increased electrical conductivity at all sites, total
+    organic carbon and total nitrogen at Mattheis, and total organic carbon at Devonian
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:79a0d8d7a706
+  subject: causal_mosaic:node:add4b95a8f66
+  predicate: causes
+  object: causal_mosaic:node:ed13f6dfe993
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Manure increased electrical conductivity at all sites, total
+    organic carbon and total nitrogen at Mattheis, and total organic carbon at Devonian
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:680b66501fa0
+  subject: causal_mosaic:node:add4b95a8f66
+  predicate: causes
+  object: causal_mosaic:node:8beb0e6981e8
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Manure increased electrical conductivity at all sites, total
+    organic carbon and total nitrogen at Mattheis, and total organic carbon at Devonian
+  source_spans:
+  - text: Manure increased electrical conductivity at all sites, total organic carbon
+      and total nitrogen at Mattheis, and total organic carbon at Devonian
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:ad9abdd8b460
+  subject: causal_mosaic:node:de1484b55fe1
+  predicate: causes
+  object: causal_mosaic:node:6978a9e14a91
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Straw had significantly less new grass emergence than other treatments
+    except hay and was not favorable to blue grama.
+  source_spans:
+  - text: Straw had significantly less new grass emergence than other treatments except
+      hay and was not favorable to blue grama.
+  evidential_basis:
+    evidence_types:
+    - randomized_experiment
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1016/j.rama.2017.08.004
+    title: Enriched Topographic Microsites for Improved Native Grass and Forb Establishment
+      in Reclamation
+    year: 2018
+    authors:
+    - Naeth, M. Anne
+    - Cohen Fernández, Anayansi C.
+    - Mollard, Federico P.O.
+    - Yao, Linjun
+    - Wilkinson, Sarah R.
+    - Jiao, Zhichao
+    journal: Rangeland Ecology & Management
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:cf98aaeb4baf
+  subject: causal_mosaic:node:a2f794683bb0
+  predicate: causes
+  object: causal_mosaic:node:48df82bb1191
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: the composition of plant assemblages varied considerably across
+    the site depending on certain abiotic variables, particularly water pH, water
+    table level, and the thickness of the residual peat layer.
+  source_spans:
+  - text: the composition of plant assemblages varied considerably across the site
+      depending on certain abiotic variables, particularly water pH, water table level,
+      and the thickness of the residual peat layer.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:f6e91e598c1a
+  subject: causal_mosaic:node:2483ec0aeb69
+  predicate: causes
+  object: causal_mosaic:node:48df82bb1191
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: the composition of plant assemblages varied considerably across
+    the site depending on certain abiotic variables, particularly water pH, water
+    table level, and the thickness of the residual peat layer.
+  source_spans:
+  - text: the composition of plant assemblages varied considerably across the site
+      depending on certain abiotic variables, particularly water pH, water table level,
+      and the thickness of the residual peat layer.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:5ae624b06fb9
+  subject: causal_mosaic:node:9d55efef67e2
+  predicate: causes
+  object: causal_mosaic:node:48df82bb1191
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: the composition of plant assemblages varied considerably across
+    the site depending on certain abiotic variables, particularly water pH, water
+    table level, and the thickness of the residual peat layer.
+  source_spans:
+  - text: the composition of plant assemblages varied considerably across the site
+      depending on certain abiotic variables, particularly water pH, water table level,
+      and the thickness of the residual peat layer.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:0e1a0bea3e36
+  subject: causal_mosaic:node:062047ea7b16
+  predicate: causes
+  object: causal_mosaic:node:ba6fd88731b3
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: The high water table level may in part explain revegetation success.
+  source_spans:
+  - text: The high water table level may in part explain revegetation success.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:6fe5676db75c
+  subject: causal_mosaic:node:3d1f0eda24ed
+  predicate: causes
+  object: causal_mosaic:node:9d17f888c3ae
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Many beavers have taken up residence on site and erected dams
+    across some drainage canals, which probably reduces the effectiveness of the ditches.
+  source_spans:
+  - text: Many beavers have taken up residence on site and erected dams across some
+      drainage canals, which probably reduces the effectiveness of the ditches.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:b79e70fdad7d
+  subject: causal_mosaic:node:94e0b39ba681
+  predicate: causes
+  object: causal_mosaic:node:3f9ead10dc96
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: Following establishment, Sphagnum plants then probably contributed
+    to further acidification
+  source_spans:
+  - text: Following establishment, Sphagnum plants then probably contributed to further
+      acidification
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:32562955b68e
+  subject: causal_mosaic:node:48c26430a0db
+  predicate: causes
+  object: causal_mosaic:node:e480d9bd1e38
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: this bulrush species decomposes slowly... and has consequently
+    a peat accumulation potential that could help to restore the positive carbon balance
+    of a peatland.
+  source_spans:
+  - text: this bulrush species decomposes slowly... and has consequently a peat accumulation
+      potential that could help to restore the positive carbon balance of a peatland.
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:f38c9c1f2d39
+  subject: causal_mosaic:node:8534226613d9
+  predicate: causes
+  object: causal_mosaic:node:5441a25124f3
+  claim_strength: uncertain_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: It has been observed that R. alba precedes Sphagnum establishment,
+    probably due to a facilitation effect
+  source_spans:
+  - text: It has been observed that R. alba precedes Sphagnum establishment, probably
+      due to a facilitation effect
+  evidential_basis:
+    evidence_types:
+    - mechanistic_study
+    evidence_objects:
+    - mechanism
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:d052cb880414
+  subject: causal_mosaic:node:b2298ad1cfec
+  predicate: causes
+  object: causal_mosaic:node:ce3e23e17c91
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: high pH and electrical conductivity favour fen species.
+  source_spans:
+  - text: high pH and electrical conductivity favour fen species.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed
+- id: causal_mosaic:edge:4f22d3aab693
+  subject: causal_mosaic:node:27448cfb6957
+  predicate: causes
+  object: causal_mosaic:node:ce3e23e17c91
+  claim_strength: direct_causal
+  philosophical_accounts:
+  - interventionist
+  original_sentence: high pH and electrical conductivity favour fen species.
+  source_spans:
+  - text: high pH and electrical conductivity favour fen species.
+  evidential_basis:
+    evidence_types:
+    - observational_cross_sectional
+    evidence_objects:
+    - correlation
+  source_document:
+    doi: 10.1139/cjb-2018-0109
+    title: 'Spontaneous revegetation of a peatland in Manitoba after peat extraction:
+      diversity of plant assemblages and restoration perspectives'
+    year: 2018
+    authors:
+    - Gagnon, Félix
+    - Rochefort, Line
+    - Lavoie, Claude
+    journal: Botany
+  temporal_ordering: implicitly_assumed

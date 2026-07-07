@@ -1,0 +1,320 @@
+{
+  "graph_id": "causal_mosaic:graph:80de059f49ce",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T18:01:54.268074+00:00",
+    "source_corpus": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:529e24c48ae9",
+      "name": "fallow",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b040dd0ea2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The farm was fallowed in 1998"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:353297e8ccaa",
+      "name": "Chemical remediation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0472eadc13",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f279f5f5dba3",
+      "name": "Biological remediation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_786576148c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Biological remediation was nearing completion at distances z80 m from the netpens, but was not complete under and at shorter distances in 2002 following 4 years of fallow"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5fbe12d6559",
+      "name": "total volatile solids (TVS)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d3b3b0a2d2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fb0b312eb6d",
+      "name": "free sediment sulfides",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8bdd2da5ff",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0734ba57026b",
+      "name": "Sediment concentrations of zinc",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8e04d6d817",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Sediment concentrations of zinc have declined throughout this study at all distances and were approaching background concentrations in 2002 and 2003"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c840baf01a2e",
+      "name": "Macrofaunal communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a345282e10",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Macrofaunal communities at Carrie Bay’s reference stations were dominated by mollusks with significantly fewer annelids and very few crustaceans. This community did not respond to organic enrichment in the classic way described by Pearson and Rosenberg [Oceanogr. Mar. Boil. Annu. Rev. 16 (1978) 229], which has accurately predicted the macrobenthic response at many intensive aquaculture facilities. None of the eight opportunistic taxa frequently found proliferating in enriched sediments near B.C. salmon farms were a large component of the Carrie Bay macrobenthos at any place or at any time. Rather, a single annelid ( Nephtys cornuta ) was found in moderate abundance and several bivalve mollusks that dominated local reference communities have slowly recruited into the remediating sediments."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a1dccd643071",
+      "subject": "causal_mosaic:node:529e24c48ae9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:353297e8ccaa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The farm was fallowed in 1998... Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002",
+      "source_spans": [
+        {
+          "text": "The farm was fallowed in 1998... Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquaculture.2003.12.024",
+        "title": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Brooks, Kenneth M.",
+          "Stierns, Annette R.",
+          "Backman, Clare"
+        ],
+        "journal": "Aquaculture"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6f7b2a590d2",
+      "subject": "causal_mosaic:node:529e24c48ae9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f279f5f5dba3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Biological remediation was nearing completion at distances z80 m from the netpens, but was not complete under and at shorter distances in 2002 following 4 years of fallow",
+      "source_spans": [
+        {
+          "text": "Biological remediation was nearing completion at distances z80 m from the netpens, but was not complete under and at shorter distances in 2002 following 4 years of fallow"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquaculture.2003.12.024",
+        "title": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Brooks, Kenneth M.",
+          "Stierns, Annette R.",
+          "Backman, Clare"
+        ],
+        "journal": "Aquaculture"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:65fab76e59f3",
+      "subject": "causal_mosaic:node:353297e8ccaa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f5fbe12d6559",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002",
+      "source_spans": [
+        {
+          "text": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquaculture.2003.12.024",
+        "title": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Brooks, Kenneth M.",
+          "Stierns, Annette R.",
+          "Backman, Clare"
+        ],
+        "journal": "Aquaculture"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3b171ac6a42e",
+      "subject": "causal_mosaic:node:353297e8ccaa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fb0b312eb6d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002",
+      "source_spans": [
+        {
+          "text": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquaculture.2003.12.024",
+        "title": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Brooks, Kenneth M.",
+          "Stierns, Annette R.",
+          "Backman, Clare"
+        ],
+        "journal": "Aquaculture"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:315cd912db5a",
+      "subject": "causal_mosaic:node:353297e8ccaa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0734ba57026b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002",
+      "source_spans": [
+        {
+          "text": "Chemical remediation, including reductions in total volatile solids (TVS), free sulfides, redox potential and zinc were nearly complete at distances >80 m in 2002"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquaculture.2003.12.024",
+        "title": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Brooks, Kenneth M.",
+          "Stierns, Annette R.",
+          "Backman, Clare"
+        ],
+        "journal": "Aquaculture"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2b5124a6ce3d",
+      "subject": "causal_mosaic:node:529e24c48ae9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c840baf01a2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Macrofaunal communities at Carrie Bay’s reference stations were dominated by mollusks with significantly fewer annelids and very few crustaceans. This community did not respond to organic enrichment in the classic way described by Pearson and Rosenberg [Oceanogr. Mar. Boil. Annu. Rev. 16 (1978) 229], which has accurately predicted the macrobenthic response at many intensive aquaculture facilities. None of the eight opportunistic taxa frequently found proliferating in enriched sediments near B.C. salmon farms were a large component of the Carrie Bay macrobenthos at any place or at any time. Rather, a single annelid ( Nephtys cornuta ) was found in moderate abundance and several bivalve mollusks that dominated local reference communities have slowly recruited into the remediating sediments.",
+      "source_spans": [
+        {
+          "text": "Macrofaunal communities at Carrie Bay’s reference stations were dominated by mollusks with significantly fewer annelids and very few crustaceans. This community did not respond to organic enrichment in the classic way described by Pearson and Rosenberg [Oceanogr. Mar. Boil. Annu. Rev. 16 (1978) 229], which has accurately predicted the macrobenthic response at many intensive aquaculture facilities. None of the eight opportunistic taxa frequently found proliferating in enriched sediments near B.C. salmon farms were a large component of the Carrie Bay macrobenthos at any place or at any time. Rather, a single annelid ( Nephtys cornuta ) was found in moderate abundance and several bivalve mollusks that dominated local reference communities have slowly recruited into the remediating sediments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquaculture.2003.12.024",
+        "title": "Seven year remediation study at the Carrie Bay Atlantic salmon (Salmo salar) farm in the Broughton Archipelago, British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Brooks, Kenneth M.",
+          "Stierns, Annette R.",
+          "Backman, Clare"
+        ],
+        "journal": "Aquaculture"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

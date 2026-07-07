@@ -1,0 +1,406 @@
+{
+  "graph_id": "causal_mosaic:graph:cce0f8441e58",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T17:26:24.706899+00:00",
+    "source_corpus": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ee90ec078a5d",
+      "name": "Selective plant foraging",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ffc7442f32",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Selective plant foraging and the top-down suppression of native diversity in a restored prairie"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:782159c7fde9",
+      "name": "native diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77d7809dd0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Selective plant foraging and the top-down suppression of native diversity in a restored prairie"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9442a40a113c",
+      "name": "native rodents",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_8d401a6147",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "native rodents consumed mostly non-planted oldﬁeld species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:224a77b9783e",
+      "name": "restoration success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1afb6656ff",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "rodents may reduce the restoration success of tallgrass prairie"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1fa1880099a",
+      "name": "abundance of planted native seedlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c2292049fe",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "exclosed plots had twice the abundance of planted native seedlings than areas lacking protection"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb1a15d3fdc6",
+      "name": "richness of planted species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_08a2ffbf56",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "signiﬁcantly higher richness of planted species than areas lacking protection"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b1e1d544af47",
+      "name": "targeted granivory",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c4317ec011",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "targeted granivory and resulting in reduced prairie diversity",
+          "start_char": 1962,
+          "end_char": 2023,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc390600e15b",
+      "name": "non-targeted oldﬁeld species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_7177f0353a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Non-targeted oldﬁeld species thus appeared to be of sufﬁcient quality to support rodent populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bd61adfc2e4c",
+      "name": "rodent populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_09b993bbff",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "support rodent populations",
+          "start_char": 1840,
+          "end_char": 1866,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5ae598186cfc",
+      "name": "weasels",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q28521",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Weasels can have rapid and sizeable impacts on grassland rodent populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:534c90add580",
+      "name": "rodent population size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_521922dd50",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reduced rodent population size"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a00d6bf00968",
+      "subject": "causal_mosaic:node:9442a40a113c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b1e1d544af47",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "native rodents consumed mostly non-planted oldﬁeld species",
+      "source_spans": [
+        {
+          "text": "native rodents consumed mostly non-planted oldﬁeld species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8289a4a1755b",
+      "subject": "causal_mosaic:node:b1e1d544af47",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:782159c7fde9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "targeted granivory and resulting in reduced prairie diversity outside of experimental exclosures",
+      "source_spans": [
+        {
+          "text": "targeted granivory and resulting in reduced prairie diversity outside of experimental exclosures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5472009dee80",
+      "subject": "causal_mosaic:node:9442a40a113c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:224a77b9783e",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rodents may reduce the restoration success of tallgrass prairie",
+      "source_spans": [
+        {
+          "text": "rodents may reduce the restoration success of tallgrass prairie"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5e2438015793",
+      "subject": "causal_mosaic:node:9442a40a113c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c1fa1880099a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "exclosed plots had twice the abundance of planted native seedlings than areas lacking protection",
+      "source_spans": [
+        {
+          "text": "exclosed plots had twice the abundance of planted native seedlings than areas lacking protection"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ad771598a44b",
+      "subject": "causal_mosaic:node:9442a40a113c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bb1a15d3fdc6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "signiﬁcantly higher richness of planted species than areas lacking protection",
+      "source_spans": [
+        {
+          "text": "signiﬁcantly higher richness of planted species than areas lacking protection"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:27f61646c0b5",
+      "subject": "causal_mosaic:node:cc390600e15b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bd61adfc2e4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Non-targeted oldﬁeld species thus appeared to be of sufﬁcient quality to support rodent populations",
+      "source_spans": [
+        {
+          "text": "Non-targeted oldﬁeld species thus appeared to be of sufﬁcient quality to support rodent populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c2633bcf0135",
+      "subject": "causal_mosaic:node:5ae598186cfc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:534c90add580",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Weasels can have rapid and sizeable impacts on grassland rodent populations",
+      "source_spans": [
+        {
+          "text": "Weasels can have rapid and sizeable impacts on grassland rodent populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12886",
+        "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+        "year": 2017,
+        "authors": [
+          "Schneider, Stefan",
+          "Steeves, Royce",
+          "Newmaster, Steve",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    }
+  ]
+}

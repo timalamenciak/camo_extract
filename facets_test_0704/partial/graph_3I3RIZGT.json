@@ -1,0 +1,509 @@
+{
+  "graph_id": "causal_mosaic:graph:313e3abd506b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T15:18:55.245290+00:00",
+    "source_corpus": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e7f2e48d8679",
+      "name": "supplemental seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4199c7e60d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e62559161cf",
+      "name": "native species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a0f94fd62",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a60650af4d5a",
+      "name": "native species abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a130016d12",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "percent cover",
+      "source_spans": [
+        {
+          "text": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2890a5e69fcb",
+      "name": "disturbance treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2c27bf3e15",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "both seeding and disturbance treatments could positively influence native species abundance over the long term"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e544cdeaedeb",
+      "name": "grass-specific herbicide",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4b6d0ec7de",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5b6c1552b126",
+      "name": "burn treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cfd2c644ed",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:054efcbbf947",
+      "name": "exotic grasses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93d4f2c8eb",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f439245119f",
+      "name": "Eriophyllum lanatum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q2592617",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f64d65fbe7e7",
+      "name": "Achillea millefolium",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q25408",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:485e950bbcf7",
+      "name": "Ranunculus occidentalis",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q7293615",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5865e51e7e80",
+      "name": "Festuca roemeri",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q17364157",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c553b0bd33f0",
+      "name": "population spread",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7c415e3474",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "there is evidence that all eight species colonized new plots since the last round of monitoring"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:aeda0c6bbdde",
+      "subject": "causal_mosaic:node:e7f2e48d8679",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4e62559161cf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded",
+      "source_spans": [
+        {
+          "text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:98dd3d657f00",
+      "subject": "causal_mosaic:node:e7f2e48d8679",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a60650af4d5a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species",
+      "source_spans": [
+        {
+          "text": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f4aed920e276",
+      "subject": "causal_mosaic:node:e544cdeaedeb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a60650af4d5a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses",
+      "source_spans": [
+        {
+          "text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:206458c3b8af",
+      "subject": "causal_mosaic:node:5b6c1552b126",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f439245119f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fde7d2e2a10e",
+      "subject": "causal_mosaic:node:5b6c1552b126",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f64d65fbe7e7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e3e501f8e975",
+      "subject": "causal_mosaic:node:5b6c1552b126",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:485e950bbcf7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments",
+      "source_spans": [
+        {
+          "text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b0ff8373db16",
+      "subject": "causal_mosaic:node:e544cdeaedeb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5865e51e7e80",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim",
+      "source_spans": [
+        {
+          "text": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95a897d955cd",
+      "subject": "causal_mosaic:node:e544cdeaedeb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:054efcbbf947",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses",
+      "source_spans": [
+        {
+          "text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eda9002505f8",
+      "subject": "causal_mosaic:node:e7f2e48d8679",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c553b0bd33f0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there is evidence that all eight species colonized new plots since the last round of monitoring",
+      "source_spans": [
+        {
+          "text": "there is evidence that all eight species colonized new plots since the last round of monitoring"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12468",
+        "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+        "year": 2017,
+        "authors": [
+          "Trowbridge, Charlotte C.",
+          "Stanley, Amanda",
+          "Kaye, Thomas N.",
+          "Dunwiddie, Peter W.",
+          "Williams, Jennifer L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

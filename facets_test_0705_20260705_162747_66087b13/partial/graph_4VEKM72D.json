@@ -1,0 +1,295 @@
+{
+  "graph_id": "causal_mosaic:graph:b7ad0be2d41b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T23:11:40.714239+00:00",
+    "source_corpus": "Le potentiel de régénération naturelle de l'épinette rouge (picea rubens sarg.) sur les anciennes terres agricoles dans le Parc National de l'Île-du Prince-Édouard",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fcb2525269ca",
+      "name": "Red spruce regeneration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_df4f3c79f6",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "the seed rain is the only source from which red spruce can naturally reforest the old fields."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:821d26ae28ab",
+      "name": "Red spruce seed bank",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1e6e9733a1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The red spruce soil seed bank was, as hypothesised, extremely small.",
+          "start_char": 99499,
+          "end_char": 99567,
+          "paragraph_id": "page:61"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f290cd859e0d",
+      "name": "Red spruce seed rain",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ea21962ba1",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Red spruce seed rain was more abundant, particularly in the forest."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76ce9ca23ea9",
+      "name": "Germination rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4d7a5d3669",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Our seeds had a low germination rate of 0.004%"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:426c52cbbd69",
+      "name": "Hybridization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_59bd6c28c8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Hybridisation between red and black spruce reduces seed viability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e7769c99cd3",
+      "name": "Seed viability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2f07e04253",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Hybridisation between red and black spruce reduces seed viability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4bfad055654",
+      "name": "Time since abandonment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_76812f8059",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "length of time since the fields were abandoned explain red spruce regeneration patterns"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6661831c15e8",
+      "name": "Distance from forest edge",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_729ace9d45",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "seed rain... decreased with distance from the forest edge"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:903bddba6d75",
+      "name": "Competition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_29b4860b5c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ericaceous species... can be inhibitory to spruce establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:763e4e05a4ae",
+      "name": "Spruce establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c700dec4c0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Ericaceous species... can be inhibitory to spruce establishment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8412dafceb63",
+      "subject": "causal_mosaic:node:f290cd859e0d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fcb2525269ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the seed rain is the only source from which red spruce can naturally reforest the old fields.",
+      "source_spans": [
+        {
+          "text": "the seed rain is the only source from which red spruce can naturally reforest the old fields."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Le potentiel de régénération naturelle de l'épinette rouge (picea rubens sarg.) sur les anciennes terres agricoles dans le Parc National de l'Île-du Prince-Édouard",
+        "year": 2008,
+        "authors": [
+          "Cavallin, Nadia"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:77befda32e5e",
+      "subject": "causal_mosaic:node:426c52cbbd69",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4e7769c99cd3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hybridisation between red and black spruce reduces seed viability",
+      "source_spans": [
+        {
+          "text": "Hybridisation between red and black spruce reduces seed viability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Le potentiel de régénération naturelle de l'épinette rouge (picea rubens sarg.) sur les anciennes terres agricoles dans le Parc National de l'Île-du Prince-Édouard",
+        "year": 2008,
+        "authors": [
+          "Cavallin, Nadia"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8e139d226db4",
+      "subject": "causal_mosaic:node:a4bfad055654",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:fcb2525269ca",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "length of time since the fields were abandoned explain red spruce regeneration patterns",
+      "source_spans": [
+        {
+          "text": "length of time since the fields were abandoned explain red spruce regeneration patterns"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Le potentiel de régénération naturelle de l'épinette rouge (picea rubens sarg.) sur les anciennes terres agricoles dans le Parc National de l'Île-du Prince-Édouard",
+        "year": 2008,
+        "authors": [
+          "Cavallin, Nadia"
+        ]
+      },
+      "annotation_notes": "Normalization: edges[2].predicate: unknown 'influences' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:dd733879ece6",
+      "subject": "causal_mosaic:node:6661831c15e8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f290cd859e0d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seed rain... decreased with distance from the forest edge",
+      "source_spans": [
+        {
+          "text": "seed rain... decreased with distance from the forest edge"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Le potentiel de régénération naturelle de l'épinette rouge (picea rubens sarg.) sur les anciennes terres agricoles dans le Parc National de l'Île-du Prince-Édouard",
+        "year": 2008,
+        "authors": [
+          "Cavallin, Nadia"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:fc3a55a5e3cc",
+      "subject": "causal_mosaic:node:903bddba6d75",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:763e4e05a4ae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ericaceous species... can be inhibitory to spruce establishment",
+      "source_spans": [
+        {
+          "text": "Ericaceous species... can be inhibitory to spruce establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Le potentiel de régénération naturelle de l'épinette rouge (picea rubens sarg.) sur les anciennes terres agricoles dans le Parc National de l'Île-du Prince-Édouard",
+        "year": 2008,
+        "authors": [
+          "Cavallin, Nadia"
+        ]
+      }
+    }
+  ]
+}

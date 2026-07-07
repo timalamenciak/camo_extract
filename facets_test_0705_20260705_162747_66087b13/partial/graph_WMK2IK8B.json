@@ -1,0 +1,871 @@
+{
+  "graph_id": "causal_mosaic:graph:877ac08e6ab5",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:02:27.719253+00:00",
+    "source_corpus": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:212821e8ecf0",
+      "name": "single surface application of biosolids",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_26df624584",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This paper examines the effects of a single surface application of biosolids (at 20 dry Mg ha /C0 1) on plant species composition, forage quality and quantity, and C stocks after 14 yr of rest in rangelands of the Central Interior of British Columbia."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bc5ee6196b02",
+      "name": "aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39242f5e25",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "More than two times the aboveground biomass of grasses and the percent cover of plant litter were found in the biosolids treatment relative to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e6db633224e3",
+      "name": "grass biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_82814832e7",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "An examination of biomass by functional group showed that the grass biomass was more than double in the biosolids plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99aa4fb9a756",
+      "name": "bluebunch wheatgrass cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07e15c220a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Bluebunch wheatgrass, the late-seral native grass species, had significantly increased cover and aboveground biomass in the biosolids treatment relative to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a37f79f6cfac",
+      "name": "bluebunch wheatgrass aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2e91fd5ae",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "Bluebunch wheatgrass, the late-seral native grass species, had significantly increased cover and aboveground biomass in the biosolids treatment relative to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3089b158510",
+      "name": "Kentucky bluegrass cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c649ff5d1a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Kentucky bluegrass was significantly greater in the biosolids treatment in 2016, covering 26% of biosolids plots and < 1% of control plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c5e10cde76a",
+      "name": "bare soil cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79ec3d7067",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "reductions in bare soil and microbiotic crust cover",
+          "start_char": 2671,
+          "end_char": 2722,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4af1e511e16f",
+      "name": "microbiotic crust cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8fe706c235",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "reductions in bare soil and microbiotic crust cover",
+          "start_char": 2671,
+          "end_char": 2722,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e70bb8bde868",
+      "name": "litter cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b8cd6c6a58",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "More than two times the aboveground biomass of grasses and the percent cover of plant litter were found in the biosolids treatment relative to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69ea2a35bad3",
+      "name": "plant nutrient uptake",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_21557206e3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "uptake",
+      "source_spans": [
+        {
+          "text": "Significantly greater plant uptake of all macronutrients (C, N, P, K, S, Ca, and Mg); most micronutrients (B, Cu, Mn, Mo, and Zn); and Al occurred in the biosolids treatment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b556d5736bbf",
+      "name": "forage P concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_16b603ffd8",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "P and Cu were the only two nutrients to be more concentrated in the biosolids-treated forage relative to the control forage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:431a8963dd91",
+      "name": "forage Cu concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_59c9356d9a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "P and Cu were the only two nutrients to be more concentrated in the biosolids-treated forage relative to the control forage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c4f247acb42",
+      "name": "forage N concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6bc390e1f0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "N, Mg, and protein were more concentrated in the control forage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dbc55d8dd993",
+      "name": "forage Mg concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1331e55b77",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "N, Mg, and protein were more concentrated in the control forage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:579f740d86a3",
+      "name": "vegetation C stock",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ef09078d92",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "C stock",
+      "source_spans": [
+        {
+          "text": "aboveground plant biomass (i.e., vegetation) C stock was nearly double in the biosolids plots as compared with the control plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f0ad213a95cb",
+      "name": "thatch C stock",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15a6c1b288",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "C stock",
+      "source_spans": [
+        {
+          "text": "The thatch on the biosolids plots represented a C stock of 6.4 Mg ha /C0 1... It was not present on the control plots."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b6b317e6a315",
+      "name": "grazing exclusion",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6a77b42a55",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The decrease in bare soil in both treatments in the first 3 yr of the experiment was likely a result of the exclusion of grazing"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:214f133b21ad",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bc5ee6196b02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "More than two times the aboveground biomass of grasses and the percent cover of plant litter were found in the biosolids treatment relative to the control",
+      "source_spans": [
+        {
+          "text": "More than two times the aboveground biomass of grasses and the percent cover of plant litter were found in the biosolids treatment relative to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2fd7ae5a7337",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e6db633224e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "An examination of biomass by functional group showed that the grass biomass was more than double in the biosolids plots",
+      "source_spans": [
+        {
+          "text": "An examination of biomass by functional group showed that the grass biomass was more than double in the biosolids plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:931e186a6602",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:99aa4fb9a756",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bluebunch wheatgrass, the late-seral native grass species, had significantly increased cover and aboveground biomass in the biosolids treatment relative to the control",
+      "source_spans": [
+        {
+          "text": "Bluebunch wheatgrass, the late-seral native grass species, had significantly increased cover and aboveground biomass in the biosolids treatment relative to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bad84053e5c9",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a37f79f6cfac",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bluebunch wheatgrass, the late-seral native grass species, had significantly increased cover and aboveground biomass in the biosolids treatment relative to the control",
+      "source_spans": [
+        {
+          "text": "Bluebunch wheatgrass, the late-seral native grass species, had significantly increased cover and aboveground biomass in the biosolids treatment relative to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:853771844666",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3089b158510",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Kentucky bluegrass was significantly greater in the biosolids treatment in 2016, covering 26% of biosolids plots and < 1% of control plots",
+      "source_spans": [
+        {
+          "text": "Kentucky bluegrass was significantly greater in the biosolids treatment in 2016, covering 26% of biosolids plots and < 1% of control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:52362f89adc0",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c5e10cde76a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reductions in bare soil and microbiotic crust cover",
+      "source_spans": [
+        {
+          "text": "reductions in bare soil and microbiotic crust cover",
+          "start_char": 2671,
+          "end_char": 2722,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6355f6ef0543",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4af1e511e16f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reductions in bare soil and microbiotic crust cover",
+      "source_spans": [
+        {
+          "text": "reductions in bare soil and microbiotic crust cover",
+          "start_char": 2671,
+          "end_char": 2722,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f52c3e5cc54f",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e70bb8bde868",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "More than two times the aboveground biomass of grasses and the percent cover of plant litter were found in the biosolids treatment relative to the control",
+      "source_spans": [
+        {
+          "text": "More than two times the aboveground biomass of grasses and the percent cover of plant litter were found in the biosolids treatment relative to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dff3abf7293c",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:69ea2a35bad3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Significantly greater plant uptake of all macronutrients (C, N, P, K, S, Ca, and Mg); most micronutrients (B, Cu, Mn, Mo, and Zn); and Al occurred in the biosolids treatment.",
+      "source_spans": [
+        {
+          "text": "Significantly greater plant uptake of all macronutrients (C, N, P, K, S, Ca, and Mg); most micronutrients (B, Cu, Mn, Mo, and Zn); and Al occurred in the biosolids treatment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ff77e06ec9da",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b556d5736bbf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P and Cu were the only two nutrients to be more concentrated in the biosolids-treated forage relative to the control forage",
+      "source_spans": [
+        {
+          "text": "P and Cu were the only two nutrients to be more concentrated in the biosolids-treated forage relative to the control forage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:05ab0b5c5dce",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:431a8963dd91",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P and Cu were the only two nutrients to be more concentrated in the biosolids-treated forage relative to the control forage",
+      "source_spans": [
+        {
+          "text": "P and Cu were the only two nutrients to be more concentrated in the biosolids-treated forage relative to the control forage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:850ee43ee1a1",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c4f247acb42",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "N, Mg, and protein were more concentrated in the control forage",
+      "source_spans": [
+        {
+          "text": "N, Mg, and protein were more concentrated in the control forage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d0b4b8b9475e",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dbc55d8dd993",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "N, Mg, and protein were more concentrated in the control forage",
+      "source_spans": [
+        {
+          "text": "N, Mg, and protein were more concentrated in the control forage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0cbb1787fc13",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:579f740d86a3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "aboveground plant biomass (i.e., vegetation) C stock was nearly double in the biosolids plots as compared with the control plots",
+      "source_spans": [
+        {
+          "text": "aboveground plant biomass (i.e., vegetation) C stock was nearly double in the biosolids plots as compared with the control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0bbe577bf6f8",
+      "subject": "causal_mosaic:node:212821e8ecf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f0ad213a95cb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The thatch on the biosolids plots represented a C stock of 6.4 Mg ha /C0 1... It was not present on the control plots.",
+      "source_spans": [
+        {
+          "text": "The thatch on the biosolids plots represented a C stock of 6.4 Mg ha /C0 1... It was not present on the control plots."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:352bea1a5d54",
+      "subject": "causal_mosaic:node:b6b317e6a315",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c5e10cde76a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The decrease in bare soil in both treatments in the first 3 yr of the experiment was likely a result of the exclusion of grazing",
+      "source_spans": [
+        {
+          "text": "The decrease in bare soil in both treatments in the first 3 yr of the experiment was likely a result of the exclusion of grazing"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2019.07.003",
+        "title": "Plant Species Composition and Forage Production 14 Yr After Biosolids Application and Grazing Exclusion",
+        "year": 2019,
+        "authors": [
+          "Avery, E.",
+          "Krzic, M.",
+          "Wallace, B.M.",
+          "Newman, R.F.",
+          "Bradfield, G.E.",
+          "Smukler, S.M."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "graph_id": "causal_mosaic:graph:bceb0bd6c67c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T19:00:00.524113+00:00",
+    "source_corpus": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:bfebeb7bf8ae",
+      "name": "Transplanting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_db78f1d61e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective with 85% of the transplants surviving"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:892672ced460",
+      "name": "Survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "85% of the transplants surviving",
+          "start_char": 1007,
+          "end_char": 1039,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e30ef79455b9",
+      "name": "Flower production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c449030e60",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "41% flowering",
+          "start_char": 1041,
+          "end_char": 1054,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d6fc81943f82",
+      "name": "Fruit production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dad7f43500",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "34% fruiting",
+          "start_char": 1060,
+          "end_char": 1072,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:316ce9f9cedc",
+      "name": "Area of occupancy",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f79302295d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "transplanting may increase area of occupancy"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e72c897a2cc6",
+      "name": "Soil turnover",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_22faba6eb2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil turnover alone and combined with fertilization caused a significant increase in plant size"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:adbcb61dbdcb",
+      "name": "Plant size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4b9e16290a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "significant increase in plant size",
+          "start_char": 1189,
+          "end_char": 1223,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a83461f4584c",
+      "name": "Cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_db020b35aa",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "significantly increased cover",
+          "start_char": 22597,
+          "end_char": 22626,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a5edf835aa48",
+      "name": "Rarity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_11b3e99737",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Present lack of such disturbances may contribute to present rarity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a97d632701a",
+      "name": "Lack of disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_eb233dd59f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Present lack of such disturbances"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7fb50e3b75c1",
+      "subject": "causal_mosaic:node:bfebeb7bf8ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplanting was effective with 85% of the transplants surviving, 41% flowering, and 34% fruiting",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective with 85% of the transplants surviving, 41% flowering, and 34% fruiting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f2cc7c814762",
+      "subject": "causal_mosaic:node:bfebeb7bf8ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e30ef79455b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplanting was effective with 85% of the transplants surviving, 41% flowering, and 34% fruiting",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective with 85% of the transplants surviving, 41% flowering, and 34% fruiting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:889da6293043",
+      "subject": "causal_mosaic:node:bfebeb7bf8ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d6fc81943f82",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplanting was effective with 85% of the transplants surviving, 41% flowering, and 34% fruiting",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective with 85% of the transplants surviving, 41% flowering, and 34% fruiting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:69b27b5025e1",
+      "subject": "causal_mosaic:node:bfebeb7bf8ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:316ce9f9cedc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "thus, transplanting may increase area of occupancy",
+      "source_spans": [
+        {
+          "text": "thus, transplanting may increase area of occupancy"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a5ff95519df7",
+      "subject": "causal_mosaic:node:e72c897a2cc6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:adbcb61dbdcb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil turnover alone and combined with fertilization caused a significant increase in plant size available to support production of fruit",
+      "source_spans": [
+        {
+          "text": "Soil turnover alone and combined with fertilization caused a significant increase in plant size available to support production of fruit"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:242f92e3edb0",
+      "subject": "causal_mosaic:node:e72c897a2cc6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a83461f4584c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Goldenseal clearly benefits from disturbance simulation involving soil turnover through significantly increased cover",
+      "source_spans": [
+        {
+          "text": "Goldenseal clearly benefits from disturbance simulation involving soil turnover through significantly increased cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5c646dbbd5e1",
+      "subject": "causal_mosaic:node:e72c897a2cc6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e30ef79455b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increased flower and significantly increased fruit production were also characteristic of soil-turned plots",
+      "source_spans": [
+        {
+          "text": "Increased flower and significantly increased fruit production were also characteristic of soil-turned plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4ba523c87e90",
+      "subject": "causal_mosaic:node:e72c897a2cc6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d6fc81943f82",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increased flower and significantly increased fruit production were also characteristic of soil-turned plots",
+      "source_spans": [
+        {
+          "text": "Increased flower and significantly increased fruit production were also characteristic of soil-turned plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b3ab1000849",
+      "subject": "causal_mosaic:node:6a97d632701a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a5edf835aa48",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Present lack of such disturbances may contribute to present rarity",
+      "source_spans": [
+        {
+          "text": "Present lack of such disturbances may contribute to present rarity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00183.x",
+        "title": "Restoration of <i>Hydrastis canadensis</i> by Transplanting with Disturbance Simulation: Results of One Growing Season",
+        "year": 2003,
+        "authors": [
+          "Sinclair, Adrianne",
+          "Catling, Paul M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

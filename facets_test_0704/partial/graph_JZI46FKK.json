@@ -1,0 +1,529 @@
+{
+  "graph_id": "causal_mosaic:graph:47768a7b5f28",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T20:13:48.861707+00:00",
+    "source_corpus": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fd19cf4cd294",
+      "name": "Sphagnum peatland restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5856b9a898",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Changes in microbial community structure and function following Sphagnum peatland restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dcb63df166a8",
+      "name": "Changes in microbial community structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e2a3514ec4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "recovery of particular plant groups, namely mosses and shrubs in restored peatlands might be the driver of changes occurring in the structure of the microbial communities in restored peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a88a3a66b153",
+      "name": "Increased decomposition capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c42b58eca1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Complete Sphagnum cover is associated with greater decomposition of carbon compounds"
+        },
+        {
+          "text": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b3d2c7b5b50",
+      "name": "Decreased decomposition capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c42b58eca1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "high bulk density are related to lower decomposition potential"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f8c7c6488fdc",
+      "name": "Decreased microbial activity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e4bd395cca",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9114218eadbe",
+      "name": "Increased microbial activity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e4bd395cca",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "combination of fresh organic matter (low bulk density + presence of mosses) and the absence of ericaceous shrubs create conditions favourable for the development of an active microbial biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61e67e027367",
+      "name": "Sphagnum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15cecc3723",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Complete Sphagnum cover is associated with greater decomposition of carbon compounds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ad79e65c4f1c",
+      "name": "Increased Sphagnum thickness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0e43a54124",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "Increased pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:823a7941bde9",
+      "name": "Increased bulk density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b376e1938f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high bulk density are related to lower decomposition potential"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c9007ea57b1f",
+      "name": "Increased bacterial PLFAs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2ddebabfc5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high proportion of bacteria and high bulk density are related to lower decomposition potential"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:31671f409e18",
+      "name": "Ericaceous shrubs",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_fbc3b6b7c1",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:acd8b61efe05",
+      "name": "Fresh organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d32eaa92d4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "combination of fresh organic matter (low bulk density + presence of mosses) and the absence of ericaceous shrubs create conditions favourable for the development of an active microbial biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07ab9701389f",
+      "name": "Phenolic allelochemicals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43c8181a06",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:20f5c3d4ea3d",
+      "subject": "causal_mosaic:node:fd19cf4cd294",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dcb63df166a8",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, this study demonstrates that the recovery of particular plant groups, namely mosses and shrubs in restored peatlands might be the driver of changes occurring in the structure of the microbial communities in restored peatlands.",
+      "source_spans": [
+        {
+          "text": "Overall, this study demonstrates that the recovery of particular plant groups, namely mosses and shrubs in restored peatlands might be the driver of changes occurring in the structure of the microbial communities in restored peatlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c24809550cec",
+      "subject": "causal_mosaic:node:61e67e027367",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a88a3a66b153",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Complete Sphagnum cover is associated with greater decomposition of carbon compounds",
+      "source_spans": [
+        {
+          "text": "Complete Sphagnum cover is associated with greater decomposition of carbon compounds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cc9949db2c12",
+      "subject": "causal_mosaic:node:ad79e65c4f1c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a88a3a66b153",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH.",
+      "source_spans": [
+        {
+          "text": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:339d01912c22",
+      "subject": "causal_mosaic:node:c830811facfe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a88a3a66b153",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH.",
+      "source_spans": [
+        {
+          "text": "The decomposition potential increased with increasing Sphagnum thickness, but also with pH."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b1eea1dd6d09",
+      "subject": "causal_mosaic:node:823a7941bde9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b3d2c7b5b50",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "high bulk density are related to lower decomposition potential",
+      "source_spans": [
+        {
+          "text": "high bulk density are related to lower decomposition potential"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6847de511f92",
+      "subject": "causal_mosaic:node:c9007ea57b1f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b3d2c7b5b50",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "high proportion of bacteria and high bulk density are related to lower decomposition potential",
+      "source_spans": [
+        {
+          "text": "high proportion of bacteria and high bulk density are related to lower decomposition potential"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3bb776499c9b",
+      "subject": "causal_mosaic:node:31671f409e18",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f8c7c6488fdc",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus",
+      "source_spans": [
+        {
+          "text": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8f58559b22ef",
+      "subject": "causal_mosaic:node:acd8b61efe05",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9114218eadbe",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "combination of fresh organic matter (low bulk density + presence of mosses) and the absence of ericaceous shrubs create conditions favourable for the development of an active microbial biomass",
+      "source_spans": [
+        {
+          "text": "combination of fresh organic matter (low bulk density + presence of mosses) and the absence of ericaceous shrubs create conditions favourable for the development of an active microbial biomass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b83beb8ddd4",
+      "subject": "causal_mosaic:node:07ab9701389f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f8c7c6488fdc",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus",
+      "source_spans": [
+        {
+          "text": "The presence of ericaceous shrubs can also reduce the microbial activity through the inhibitory activity of phenolic allelochemicals found in ericaceous humus"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2009.11.006",
+        "title": "Changes in microbial community structure and function following Sphagnum peatland restoration",
+        "year": 2010,
+        "authors": [
+          "Andersen, Roxane",
+          "Grasset, Laurent",
+          "Thormann, Markus N.",
+          "Rochefort, Line",
+          "Francez, André-Jean"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

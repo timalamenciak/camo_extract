@@ -1,0 +1,624 @@
+{
+  "graph_id": "causal_mosaic:graph:0d49970f0d49",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T15:40:09.631742+00:00",
+    "source_corpus": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:2efb4be693c4",
+      "name": "Landfill restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_087f77ce37",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55f1b97226f6",
+      "name": "Creation of foraging and nesting habitat",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1d5e6e8bb4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:03dd250ece10",
+      "name": "Occupation by bees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee55e74803",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:391ed503319f",
+      "name": "Bee abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9bc1e7e673",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "bee abundance and species richness in restored sites increased until 2006/2007"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60dbca3dbde8",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "bee abundance and species richness in restored sites increased until 2006/2007"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5ab0f0c6ff02",
+      "name": "Bee abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9bc1e7e673",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "subsequently declined",
+          "start_char": 1912,
+          "end_char": 1933,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3813acf5676",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "subsequently declined",
+          "start_char": 1912,
+          "end_char": 1933,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bdbecd438812",
+      "name": "Drought",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:1000745",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Between 2003 and 2013, there were two signiﬁcant summer droughts"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9ac8738ff7ef",
+      "name": "Foraging success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4834d50c67",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "undoubtedly contributed to lower foraging success by bees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fdb809311f4f",
+      "name": "Vegetational succession",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_896064abd5",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "vegetational succession",
+          "start_char": 47642,
+          "end_char": 47665,
+          "paragraph_id": "page:10"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4bc2d36de2ac",
+      "name": "Bare soil patches",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2b39d1219",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "loss of bare soil patches for nesting sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1b0d92111b59",
+      "name": "Halictidae abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_067b57c31e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decline over time was due in large part to a loss of bare soil patches"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4c5b768d9659",
+      "name": "Suburbanisation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4e6b348bd0",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "increasing suburbanisation of the surrounding landscape",
+          "start_char": 2245,
+          "end_char": 2300,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:286da4b0bfeb",
+      "name": "Habitat loss",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_acda07a3d0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "loss of habitat around the sites has likely contributed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1f4328a7f54",
+      "name": "Bee populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ab0fdfe84e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "contributed to declining populations in the control sites"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1c5a4dc48ad8",
+      "subject": "causal_mosaic:node:2efb4be693c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:03dd250ece10",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees",
+      "source_spans": [
+        {
+          "text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6af4c5b5846a",
+      "subject": "causal_mosaic:node:2efb4be693c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:391ed503319f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "bee abundance and species richness in restored sites increased until 2006/2007",
+      "source_spans": [
+        {
+          "text": "bee abundance and species richness in restored sites increased until 2006/2007"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:88be09e97e08",
+      "subject": "causal_mosaic:node:2efb4be693c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60dbca3dbde8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "bee abundance and species richness in restored sites increased until 2006/2007",
+      "source_spans": [
+        {
+          "text": "bee abundance and species richness in restored sites increased until 2006/2007"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:66aec0437daa",
+      "subject": "causal_mosaic:node:2efb4be693c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5ab0f0c6ff02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "subsequently declined",
+      "source_spans": [
+        {
+          "text": "subsequently declined",
+          "start_char": 1912,
+          "end_char": 1933,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9c6c8c1f611e",
+      "subject": "causal_mosaic:node:2efb4be693c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3813acf5676",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "subsequently declined",
+      "source_spans": [
+        {
+          "text": "subsequently declined",
+          "start_char": 1912,
+          "end_char": 1933,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:be53d2e3e845",
+      "subject": "causal_mosaic:node:bdbecd438812",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9ac8738ff7ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both droughts had obvious negative effects on plant growth in both natural and agricultural ecosystems, and undoubtedly contributed to lower foraging success by bees",
+      "source_spans": [
+        {
+          "text": "Both droughts had obvious negative effects on plant growth in both natural and agricultural ecosystems, and undoubtedly contributed to lower foraging success by bees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e7267ea019f4",
+      "subject": "causal_mosaic:node:bdbecd438812",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:391ed503319f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both droughts had obvious negative effects on plant growth in both natural and agricultural ecosystems, and undoubtedly contributed to lower foraging success by bees",
+      "source_spans": [
+        {
+          "text": "Both droughts had obvious negative effects on plant growth in both natural and agricultural ecosystems, and undoubtedly contributed to lower foraging success by bees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08e68cccc5e3",
+      "subject": "causal_mosaic:node:fdb809311f4f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4bc2d36de2ac",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "vegetational succession",
+      "source_spans": [
+        {
+          "text": "vegetational succession",
+          "start_char": 47642,
+          "end_char": 47665,
+          "paragraph_id": "page:10"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f3a6f7017326",
+      "subject": "causal_mosaic:node:4bc2d36de2ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1b0d92111b59",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "decline over time was due in large part to a loss of bare soil patches for nesting sites",
+      "source_spans": [
+        {
+          "text": "decline over time was due in large part to a loss of bare soil patches for nesting sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c6fc58d57c08",
+      "subject": "causal_mosaic:node:4c5b768d9659",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:286da4b0bfeb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "loss of habitat around the sites has likely contributed to declining populations in the control sites",
+      "source_spans": [
+        {
+          "text": "loss of habitat around the sites has likely contributed to declining populations in the control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:84b79d6ad96a",
+      "subject": "causal_mosaic:node:286da4b0bfeb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1f4328a7f54",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "loss of habitat around the sites has likely contributed to declining populations in the control sites",
+      "source_spans": [
+        {
+          "text": "loss of habitat around the sites has likely contributed to declining populations in the control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/icad.12261",
+        "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+        "year": 2018,
+        "authors": [
+          "Onuferko, Thomas M.",
+          "Skandalis, Dimitri A.",
+          "León Cordero, Rodrigo",
+          "Richards, Miriam H."
+        ],
+        "journal": "Insect Conserv Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

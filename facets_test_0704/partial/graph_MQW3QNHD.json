@@ -1,0 +1,452 @@
+{
+  "graph_id": "causal_mosaic:graph:0f2dea57af2b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T01:19:25.428812+00:00",
+    "source_corpus": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:72298d916e34",
+      "name": "Mining activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_049cba2327",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04964ba70884",
+      "name": "Peat volume",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b8aaaebd71",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The peatland lost 34% of its initial peat volume between 1946 and 1998"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84ffc3ea1041",
+      "name": "Water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c4717587a9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sphagnum species are located in trenches with a high water table level"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6edbc856923f",
+      "name": "Sphagnum species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_feb3cefeb6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sphagnum species are located in trenches with a high water table level"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:058671cfe53a",
+      "name": "Water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_90f82ef705",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Tree species are more abundant in drier sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3487df0ac49c",
+      "name": "Tree species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fa98c82491",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Tree species are more abundant in drier sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5d3e0d34b43",
+      "name": "Drainage ditches",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ebd85e4e6d",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "drainage ditches are still operational and contribute to drying out the bog"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5f431a342487",
+      "name": "Bog dryness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_91e8253af7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "drainage ditches are still operational and contribute to drying out the bog"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54412c0f0eea",
+      "name": "Water table fluctuations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d2138eb2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Removal of the acrotelm and mining of peat from the upper part of the catotelm contributed to increasing water table fluctuations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d037aabbb9ca",
+      "name": "Soil surface dryness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_078f8ecadf",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the dryness of the soil surface facilitated the establishment of lichen species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5b27546ab54",
+      "name": "Lichen species establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e8b5a3f95",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the dryness of the soil surface facilitated the establishment of lichen species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9543d2da221",
+      "name": "Sphagnum colonies reestablishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_21e52d6f26",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A water level just below the soil surface (less than 40 cm) seems to be sufficient to allow the rapid reestablishment of Sphagnum colonies"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37b537657041",
+      "name": "Trees",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q10884",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "trees, which intercept precipitation and lose water through transpiration, further contributing to the drying out of the bog"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8785f041c497",
+      "subject": "causal_mosaic:node:72298d916e34",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04964ba70884",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The peatland lost 34% of its initial peat volume between 1946 and 1998",
+      "source_spans": [
+        {
+          "text": "The peatland lost 34% of its initial peat volume between 1946 and 1998"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a93bb4345a4d",
+      "subject": "causal_mosaic:node:84ffc3ea1041",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6edbc856923f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum species are located in trenches with a high water table level",
+      "source_spans": [
+        {
+          "text": "Sphagnum species are located in trenches with a high water table level"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1cc838139721",
+      "subject": "causal_mosaic:node:058671cfe53a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3487df0ac49c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree species are more abundant in drier sites",
+      "source_spans": [
+        {
+          "text": "Tree species are more abundant in drier sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:76ddf903dab2",
+      "subject": "causal_mosaic:node:f5d3e0d34b43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5f431a342487",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "drainage ditches are still operational and contribute to drying out the bog",
+      "source_spans": [
+        {
+          "text": "drainage ditches are still operational and contribute to drying out the bog"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:37f6aa8c09a0",
+      "subject": "causal_mosaic:node:72298d916e34",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54412c0f0eea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Removal of the acrotelm and mining of peat from the upper part of the catotelm contributed to increasing water table fluctuations",
+      "source_spans": [
+        {
+          "text": "Removal of the acrotelm and mining of peat from the upper part of the catotelm contributed to increasing water table fluctuations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8dab3b7f2a67",
+      "subject": "causal_mosaic:node:d037aabbb9ca",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f5b27546ab54",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the dryness of the soil surface facilitated the establishment of lichen species",
+      "source_spans": [
+        {
+          "text": "the dryness of the soil surface facilitated the establishment of lichen species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:9c3da15a0d9d",
+      "subject": "causal_mosaic:node:84ffc3ea1041",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e9543d2da221",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A water level just below the soil surface (less than 40 cm) seems to be sufficient to allow the rapid reestablishment of Sphagnum colonies",
+      "source_spans": [
+        {
+          "text": "A water level just below the soil surface (less than 40 cm) seems to be sufficient to allow the rapid reestablishment of Sphagnum colonies"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c2342994642e",
+      "subject": "causal_mosaic:node:37b537657041",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5f431a342487",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "trees, which intercept precipitation and lose water through transpiration, further contributing to the drying out of the bog",
+      "source_spans": [
+        {
+          "text": "trees, which intercept precipitation and lose water through transpiration, further contributing to the drying out of the bog"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    }
+  ]
+}

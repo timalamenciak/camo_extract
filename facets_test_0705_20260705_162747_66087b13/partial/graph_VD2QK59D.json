@@ -1,0 +1,370 @@
+{
+  "graph_id": "causal_mosaic:graph:d7c3f9ac2ae1",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T20:36:34.245581+00:00",
+    "source_corpus": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ee8f18467be6",
+      "name": "Deciduous sites",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_418fd5c12b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deciduous sites",
+          "start_char": 1407,
+          "end_char": 1422,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0dd027a83e2e",
+      "name": "Grass sites",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9a135388f2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Grass sites",
+          "start_char": 1559,
+          "end_char": 1570,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ddbda6ac41ce",
+      "name": "Spruce sites",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7f2fd0d76d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Spruce sites",
+          "start_char": 16474,
+          "end_char": 16486,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49a981fadc19",
+      "name": "soil organic matter concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c0d476e5c2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "concentrations",
+      "source_spans": [
+        {
+          "text": "soil organic matter concentrations",
+          "start_char": 22571,
+          "end_char": 22605,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:404805f4e037",
+      "name": "root abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_47d3dc4739",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "root abundance",
+          "start_char": 2025,
+          "end_char": 2039,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:992716509dec",
+      "name": "macrofaunal activity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_02d4e3869e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "activity",
+      "source_spans": [
+        {
+          "text": "macrofaunal activity",
+          "start_char": 1739,
+          "end_char": 1759,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:241b9e87df4a",
+      "name": "SOM accumulation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_229ec78748",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "SOM accumulation",
+          "start_char": 883,
+          "end_char": 899,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9953d6c2f645",
+      "name": "C sequestration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ef2fd53559",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "C sequestration",
+          "start_char": 2329,
+          "end_char": 2344,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d39f5cbb750b",
+      "name": "planting of aspen",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a31770bd6b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "planting of aspen"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:97a0e17a1eb3",
+      "subject": "causal_mosaic:node:ee8f18467be6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49a981fadc19",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Concentrations of soil organic matter in the upper 30 cm of soil were highest at the Deciduous sites",
+      "source_spans": [
+        {
+          "text": "Concentrations of soil organic matter in the upper 30 cm of soil were highest at the Deciduous sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-9646-4",
+        "title": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Anderson, Jeff",
+          "Prescott, Cindy E.",
+          "Grayston, Sue J."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08c0b4affe2d",
+      "subject": "causal_mosaic:node:0dd027a83e2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49a981fadc19",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SOM concentrations in the upper 30 cm of mineral soil/PMM were significantly higher at the Deciduous sites (15.2%), than the Spruce (10.4%) and Grass sites (10.9%)",
+      "source_spans": [
+        {
+          "text": "SOM concentrations in the upper 30 cm of mineral soil/PMM were significantly higher at the Deciduous sites (15.2%), than the Spruce (10.4%) and Grass sites (10.9%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-9646-4",
+        "title": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Anderson, Jeff",
+          "Prescott, Cindy E.",
+          "Grayston, Sue J."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:951df3119a76",
+      "subject": "causal_mosaic:node:404805f4e037",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49a981fadc19",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SOM concentrations were significantly positively related to root abundance at Grass sites (indicating a contribution of roots to SOM)",
+      "source_spans": [
+        {
+          "text": "SOM concentrations were significantly positively related to root abundance at Grass sites (indicating a contribution of roots to SOM)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-9646-4",
+        "title": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Anderson, Jeff",
+          "Prescott, Cindy E.",
+          "Grayston, Sue J."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a87cbac0eaed",
+      "subject": "causal_mosaic:node:992716509dec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49a981fadc19",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Taken together, these relationships indicate higher levels of processing of surface organic matter by soil macrofauna in Grass and Deciduous sites than in Spruce and Natural sites",
+      "source_spans": [
+        {
+          "text": "Taken together, these relationships indicate higher levels of processing of surface organic matter by soil macrofauna in Grass and Deciduous sites than in Spruce and Natural sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-9646-4",
+        "title": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Anderson, Jeff",
+          "Prescott, Cindy E.",
+          "Grayston, Sue J."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b137a8026841",
+      "subject": "causal_mosaic:node:ddbda6ac41ce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:241b9e87df4a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was no indication of new SOM accumulating in PMM planted with spruce",
+      "source_spans": [
+        {
+          "text": "There was no indication of new SOM accumulating in PMM planted with spruce",
+          "start_char": 24530,
+          "end_char": 24604,
+          "paragraph_id": "page:10"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-9646-4",
+        "title": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Anderson, Jeff",
+          "Prescott, Cindy E.",
+          "Grayston, Sue J."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a57c12ad4a5c",
+      "subject": "causal_mosaic:node:d39f5cbb750b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9953d6c2f645",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "planting of aspen following reclamation would hasten C sequestration into soil organic matter",
+      "source_spans": [
+        {
+          "text": "planting of aspen following reclamation would hasten C sequestration into soil organic matter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-9646-4",
+        "title": "Organic matter accumulation in reclaimed soils under spruce, poplar and grass in the Alberta Oil Sands",
+        "year": 2019,
+        "authors": [
+          "Anderson, Jeff",
+          "Prescott, Cindy E.",
+          "Grayston, Sue J."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "graph_id": "causal_mosaic:graph:b3aaecb36639",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T20:49:19.691208+00:00",
+    "source_corpus": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:664d6745e094",
+      "name": "Prescribed fire",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_80305770a0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "prescribed fire results in the greatest increase in pitch pine seedling recruitment compared to mechanical or no treatment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eabcfdc275a1",
+      "name": "Pitch pine seedling recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b156808548",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "recruitment",
+      "source_spans": [
+        {
+          "text": "only fire had a significant positive effect on recruitment.",
+          "start_char": 2446,
+          "end_char": 2505,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36605f8d2036",
+      "name": "Canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_163f8f094d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Percent canopy cover significantly decreased following both the fire (df = 95, P < 0.0001) and mechanical treatments (df = 95, P < 0.0001; Figure 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b8adb4090df",
+      "name": "Depth to mineral soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3f4ee36c47",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001595",
+      "source_spans": [
+        {
+          "text": "depth to mineral soil decreased significantly in the fire treatment (df = 95, P = 0.013) but not in the mechanical treatment (df = 95, P = 0.149; Figure 6)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:baf816aaf8b8",
+      "name": "Mechanical treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_36a981651a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mechanical treatments",
+          "start_char": 10329,
+          "end_char": 10350,
+          "paragraph_id": "page:3"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:3cf48237373e",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eabcfdc275a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "only fire had a significant positive effect on recruitment.",
+      "source_spans": [
+        {
+          "text": "only fire had a significant positive effect on recruitment.",
+          "start_char": 2446,
+          "end_char": 2505,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f5d995d59a18",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36605f8d2036",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Percent canopy cover significantly decreased following both the fire (df = 95, P < 0.0001) and mechanical treatments (df = 95, P < 0.0001; Figure 4).",
+      "source_spans": [
+        {
+          "text": "Percent canopy cover significantly decreased following both the fire (df = 95, P < 0.0001) and mechanical treatments (df = 95, P < 0.0001; Figure 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:113027bc952c",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b8adb4090df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "depth to mineral soil decreased significantly in the fire treatment (df = 95, P = 0.013) but not in the mechanical treatment (df = 95, P = 0.149; Figure 6).",
+      "source_spans": [
+        {
+          "text": "depth to mineral soil decreased significantly in the fire treatment (df = 95, P = 0.013) but not in the mechanical treatment (df = 95, P = 0.149; Figure 6)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b31058b973ff",
+      "subject": "causal_mosaic:node:baf816aaf8b8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36605f8d2036",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Percent canopy cover significantly decreased following both the fire (df = 95, P < 0.0001) and mechanical treatments (df = 95, P < 0.0001; Figure 4).",
+      "source_spans": [
+        {
+          "text": "Percent canopy cover significantly decreased following both the fire (df = 95, P < 0.0001) and mechanical treatments (df = 95, P < 0.0001; Figure 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

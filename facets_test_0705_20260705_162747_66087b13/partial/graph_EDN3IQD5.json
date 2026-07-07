@@ -1,0 +1,335 @@
+{
+  "graph_id": "causal_mosaic:graph:c7621b8bfa24",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T01:12:21.732198+00:00",
+    "source_corpus": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:399ff6da78cf",
+      "name": "vegetation productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_116a4b125b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "productivity",
+      "source_spans": [
+        {
+          "text": "Enhanced vegetation productivity is correlated with higher DOC concentrations in soil solution"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:02d02aa84fe9",
+      "name": "vascular plant productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6bc045792f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "productivity",
+      "source_spans": [
+        {
+          "text": "DOC concentration is likely to increase in future at CF as vascular plant productivity increases"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:253adb84f8f9",
+      "name": "DOC concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f01867027d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Higher water temperature resulted in higher DOC concentration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9505f267453e",
+      "name": "water temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200014",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000146",
+      "source_spans": [
+        {
+          "text": "Higher water temperature resulted in higher DOC concentration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d3283733d46",
+      "name": "Electrical conductivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_865ae3b551",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001585",
+      "source_spans": [
+        {
+          "text": "There was a significant positive correlation between EC and DOC concentration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:83ad91b33fa7",
+      "name": "Water table position",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d08cce574",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000140",
+      "source_spans": [
+        {
+          "text": "DOC concentration was higher when WT was deeper"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0d965283972",
+      "name": "plants established on site",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_77fc67a0d1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Changes in DOC chemistry at constructed fen in year 2 likely resulted from increasing inputs from plants established on site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:85a90ab342f1",
+      "name": "DOC chemistry",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e0e98cf0b3",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "chemistry",
+      "source_spans": [
+        {
+          "text": "Changes in DOC chemistry at constructed fen in year 2 likely resulted from increasing inputs from plants established on site"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a31822d69884",
+      "subject": "causal_mosaic:node:399ff6da78cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:253adb84f8f9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Enhanced vegetation productivity is correlated with higher DOC concentrations in soil solution",
+      "source_spans": [
+        {
+          "text": "Enhanced vegetation productivity is correlated with higher DOC concentrations in soil solution"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.03.081",
+        "title": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+        "year": 2016,
+        "authors": [
+          "Khadka, Bhupesh",
+          "Munir, Tariq M.",
+          "Strack, Maria"
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c75271d3a2c",
+      "subject": "causal_mosaic:node:02d02aa84fe9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:253adb84f8f9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "DOC concentration is likely to increase in future at CF as vascular plant productivity increases",
+      "source_spans": [
+        {
+          "text": "DOC concentration is likely to increase in future at CF as vascular plant productivity increases"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.03.081",
+        "title": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+        "year": 2016,
+        "authors": [
+          "Khadka, Bhupesh",
+          "Munir, Tariq M.",
+          "Strack, Maria"
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a29fb8f04a1",
+      "subject": "causal_mosaic:node:9505f267453e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:253adb84f8f9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher water temperature resulted in higher DOC concentration",
+      "source_spans": [
+        {
+          "text": "Higher water temperature resulted in higher DOC concentration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.03.081",
+        "title": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+        "year": 2016,
+        "authors": [
+          "Khadka, Bhupesh",
+          "Munir, Tariq M.",
+          "Strack, Maria"
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:660cf6a59d40",
+      "subject": "causal_mosaic:node:7d3283733d46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:253adb84f8f9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was a significant positive correlation between EC and DOC concentration",
+      "source_spans": [
+        {
+          "text": "There was a significant positive correlation between EC and DOC concentration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.03.081",
+        "title": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+        "year": 2016,
+        "authors": [
+          "Khadka, Bhupesh",
+          "Munir, Tariq M.",
+          "Strack, Maria"
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95410fcb9cda",
+      "subject": "causal_mosaic:node:83ad91b33fa7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:253adb84f8f9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "DOC concentration was higher when WT was deeper",
+      "source_spans": [
+        {
+          "text": "DOC concentration was higher when WT was deeper"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.03.081",
+        "title": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+        "year": 2016,
+        "authors": [
+          "Khadka, Bhupesh",
+          "Munir, Tariq M.",
+          "Strack, Maria"
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1a6ac135ef36",
+      "subject": "causal_mosaic:node:b0d965283972",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:85a90ab342f1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changes in DOC chemistry at constructed fen in year 2 likely resulted from increasing inputs from plants established on site",
+      "source_spans": [
+        {
+          "text": "Changes in DOC chemistry at constructed fen in year 2 likely resulted from increasing inputs from plants established on site"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2016.03.081",
+        "title": "Dissolved organic carbon in a constructed and natural fens in the Athabasca oil sands region, Alberta, Canada",
+        "year": 2016,
+        "authors": [
+          "Khadka, Bhupesh",
+          "Munir, Tariq M.",
+          "Strack, Maria"
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "graph_id": "causal_mosaic:graph:1c5d4f94f625",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T21:37:12.275894+00:00",
+    "source_corpus": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:582828dd948b",
+      "name": "peat-mineral mix soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b387b875a8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Average deciduous seedling establishment was greater on PMM than on FFMM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:df97bbe4b637",
+      "name": "seedling establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d57cdc2866",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Average deciduous seedling establishment was greater on PMM than on FFMM"
+        },
+        {
+          "text": "greater with no fertilizer than with fertilizer",
+          "start_char": 16416,
+          "end_char": 16463,
+          "paragraph_id": "page:4"
+        },
+        {
+          "text": "Sampling points with surface roughness greater than 32 cm had significantly more seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44c9ff21f994",
+      "name": "forest floor-mineral mix",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0f0a7bed45",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Average deciduous seedling establishment was greater on PMM than on FFMM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca36e2a9c65d",
+      "name": "seedling establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d57cdc2866",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Average deciduous seedling establishment was greater on PMM than on FFMM"
+        },
+        {
+          "text": "greater with no fertilizer than with fertilizer",
+          "start_char": 16416,
+          "end_char": 16463,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8e2f99348db0",
+      "name": "no fertilizer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9c224dec10",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "greater with no fertilizer than with fertilizer",
+          "start_char": 16416,
+          "end_char": 16463,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e200b17714b",
+      "name": "fertilizer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_922dc656ef",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "greater with no fertilizer than with fertilizer",
+          "start_char": 16416,
+          "end_char": 16463,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5724602b618a",
+      "name": "surface roughness > 32 cm",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d4718d492b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sampling points with surface roughness greater than 32 cm had significantly more seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be47d9498fee",
+      "name": "vegetation cover < 51%",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "cover less than 51% had greater tree seedling regeneration",
+          "start_char": 17655,
+          "end_char": 17713,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a7496e6326c9",
+      "name": "seedling regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc8a7adc0e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "cover less than 51% had greater tree seedling regeneration",
+          "start_char": 17655,
+          "end_char": 17713,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88a261201ded",
+      "name": "vegetation cover > 51%",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "cover less than 51% had greater tree seedling regeneration",
+          "start_char": 17655,
+          "end_char": 17713,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2776c9aa315b",
+      "name": "seedling regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc8a7adc0e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "cover less than 51% had greater tree seedling regeneration",
+          "start_char": 17655,
+          "end_char": 17713,
+          "paragraph_id": "page:4"
+        },
+        {
+          "text": "high soil moisture (> 56%) was negatively related to seedling regeneration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a871a59de06f",
+      "name": "soil moisture > 56%",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high soil moisture (> 56%) was negatively related to seedling regeneration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a498b4b4870",
+      "name": "microsite characteristics",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6b8ce67f85",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "microsite did not appear to have a significant impact"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92871389bf23",
+      "name": "seedling establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d57cdc2866",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "microsite did not appear to have a significant impact"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4bed3c58683",
+      "name": "soil types",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_764a03c3ac",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "not different among soil types"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c9b773891c9a",
+      "name": "seedling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0a6cd1d6a",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "not different among soil types"
+        },
+        {
+          "text": "not different... fertilization treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48083cdd7f26",
+      "name": "fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_20f5fdd40b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "not different... fertilization treatments"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a52213314248",
+      "subject": "causal_mosaic:node:582828dd948b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:df97bbe4b637",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Average deciduous seedling establishment was greater on PMM than on FFMM",
+      "source_spans": [
+        {
+          "text": "Average deciduous seedling establishment was greater on PMM than on FFMM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a8eb070792d2",
+      "subject": "causal_mosaic:node:44c9ff21f994",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca36e2a9c65d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Average deciduous seedling establishment was greater on PMM than on FFMM",
+      "source_spans": [
+        {
+          "text": "Average deciduous seedling establishment was greater on PMM than on FFMM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:585cf1a6bb55",
+      "subject": "causal_mosaic:node:8e2f99348db0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:df97bbe4b637",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "greater with no fertilizer than with fertilizer",
+      "source_spans": [
+        {
+          "text": "greater with no fertilizer than with fertilizer",
+          "start_char": 16416,
+          "end_char": 16463,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:85e1bd00422c",
+      "subject": "causal_mosaic:node:7e200b17714b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca36e2a9c65d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "greater with no fertilizer than with fertilizer",
+      "source_spans": [
+        {
+          "text": "greater with no fertilizer than with fertilizer",
+          "start_char": 16416,
+          "end_char": 16463,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3570573f8733",
+      "subject": "causal_mosaic:node:5724602b618a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:df97bbe4b637",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sampling points with surface roughness greater than 32 cm had significantly more seedlings",
+      "source_spans": [
+        {
+          "text": "Sampling points with surface roughness greater than 32 cm had significantly more seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a4775b109c5e",
+      "subject": "causal_mosaic:node:be47d9498fee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a7496e6326c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cover less than 51% had greater tree seedling regeneration",
+      "source_spans": [
+        {
+          "text": "cover less than 51% had greater tree seedling regeneration",
+          "start_char": 17655,
+          "end_char": 17713,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:13243a634faa",
+      "subject": "causal_mosaic:node:88a261201ded",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2776c9aa315b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cover less than 51% had greater tree seedling regeneration",
+      "source_spans": [
+        {
+          "text": "cover less than 51% had greater tree seedling regeneration",
+          "start_char": 17655,
+          "end_char": 17713,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3d4687879c99",
+      "subject": "causal_mosaic:node:a871a59de06f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2776c9aa315b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "high soil moisture (> 56%) was negatively related to seedling regeneration",
+      "source_spans": [
+        {
+          "text": "high soil moisture (> 56%) was negatively related to seedling regeneration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a7f50dd89414",
+      "subject": "causal_mosaic:node:6a498b4b4870",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92871389bf23",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "microsite did not appear to have a significant impact",
+      "source_spans": [
+        {
+          "text": "microsite did not appear to have a significant impact"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:97a47c1d488b",
+      "subject": "causal_mosaic:node:b4bed3c58683",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c9b773891c9a",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "not different among soil types",
+      "source_spans": [
+        {
+          "text": "not different among soil types"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:10458abe9414",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c9b773891c9a",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "not different... fertilization treatments",
+      "source_spans": [
+        {
+          "text": "not different... fertilization treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.33.1.43",
+        "title": "Maximizing Natural Trembling Aspen Seedling Establishment on a Reclaimed Boreal Oil Sands Site",
+        "year": 2015,
+        "authors": [
+          "Pinno, B. D.",
+          "Errington, R. C."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    }
+  ]
+}

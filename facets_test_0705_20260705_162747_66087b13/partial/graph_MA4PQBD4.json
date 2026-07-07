@@ -1,0 +1,459 @@
+{
+  "graph_id": "causal_mosaic:graph:5ae2057543dd",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T17:30:21.310582+00:00",
+    "source_corpus": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4eb4b37a0784",
+      "name": "Deer browsing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c3b5ec429b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deer browsing on surrounding species modifies vegetation structure and composition towards more open environments, improving light conditions for the planted seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:189efe126c6f",
+      "name": "Seedling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0a6cd1d6a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot (ranging from 0 to 4 browsing events) had a negative eﬀect on height (F 1,162 = 3.8, p = 0.05) and diameter (F 1,163 = 5.3, p = 0.02)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6511eddc197f",
+      "name": "Seedling diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93ffb1a081",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001334",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot (ranging from 0 to 4 browsing events) had a negative eﬀect on height (F 1,162 = 3.8, p = 0.05) and diameter (F 1,163 = 5.3, p = 0.02)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c800918b9c4a",
+      "name": "Light conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7330b7342a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "light conditions",
+      "source_spans": [
+        {
+          "text": "Deer browsing on surrounding species modifies vegetation structure and composition towards more open environments, improving light conditions for the planted seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38b4d54c776b",
+      "name": "Large herbaceous species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6d237d5bc4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The cover and modal height of large herbaceous species decreased from 35 ± 2% and 94.7 ± 3.0 cm in fenced plots to 18 ± 1% and 62.6 ± 1.4 cm in unfenced plots (F 1,12 = 21.0; p < 0.01 and F1,12=43.8, p < 0.01, respectively)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0354e1882ae6",
+      "name": "Site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3c16dc79ce",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Graminoids positively responded to the soil disturbance, probably as a result of the dispersing and fragmenting of rhizomes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:159aa3e9c86c",
+      "name": "Graminoid cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_996afff341",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Graminoids positively responded to the soil disturbance, probably as a result of the dispersing and fragmenting of rhizomes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4310d8d1541e",
+      "name": "Deer exclusion",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a16be7ba7a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deer exclusion increased the cover of deciduous species in unprepared plots (site preparation × deer exclusion: F 2,12 = 3.75, p = 0.05; no deer: 18.6 ± 4.5%; with deer: 9.3 ± 2.2%, t 8.7 = −3.3; p = 0.01)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5745018d54e3",
+      "name": "Deciduous species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f11adf7e3d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Deer exclusion increased the cover of deciduous species in unprepared plots (site preparation × deer exclusion: F 2,12 = 3.75, p = 0.05; no deer: 18.6 ± 4.5%; with deer: 9.3 ± 2.2%, t 8.7 = −3.3; p = 0.01)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1755b3ccdcea",
+      "name": "Seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Survival ... tended to be lower when deer were excluded (56.0 ± 5.4%; mean ± standard error) compared to control conditions (65.7 ± 4.1%) (F 1,12 = 3.51, p = 0.09; Fig. 2)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ac56fbcb395c",
+      "name": "Mechanical release",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5f624166c8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "balsam ﬁr seedlings submitted to mechanical release tended to have a larger diameter (2.4 ± 0.1 cm vs. 1.6 ± 0.1 cm) and a smaller h:d ratio (50 ± 1 vs. 59 ± 1) than seedlings that had not been released ( Table 1)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2fd6478cca72",
+      "subject": "causal_mosaic:node:4eb4b37a0784",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:189efe126c6f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cumulative browsing on terminal shoot (ranging from 0 to 4 browsing events) had a negative eﬀect on height (F 1,162 = 3.8, p = 0.05) and diameter (F 1,163 = 5.3, p = 0.02).",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot (ranging from 0 to 4 browsing events) had a negative eﬀect on height (F 1,162 = 3.8, p = 0.05) and diameter (F 1,163 = 5.3, p = 0.02)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ce659b33ec1d",
+      "subject": "causal_mosaic:node:4eb4b37a0784",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6511eddc197f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cumulative browsing on terminal shoot (ranging from 0 to 4 browsing events) had a negative eﬀect on height (F 1,162 = 3.8, p = 0.05) and diameter (F 1,163 = 5.3, p = 0.02).",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot (ranging from 0 to 4 browsing events) had a negative eﬀect on height (F 1,162 = 3.8, p = 0.05) and diameter (F 1,163 = 5.3, p = 0.02)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:41fb8eb74a3b",
+      "subject": "causal_mosaic:node:4eb4b37a0784",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c800918b9c4a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deer browsing on surrounding species modifies vegetation structure and composition towards more open environments, improving light conditions for the planted seedlings.",
+      "source_spans": [
+        {
+          "text": "Deer browsing on surrounding species modifies vegetation structure and composition towards more open environments, improving light conditions for the planted seedlings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d7d9cfae011f",
+      "subject": "causal_mosaic:node:4eb4b37a0784",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38b4d54c776b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover and modal height of large herbaceous species decreased from 35 ± 2% and 94.7 ± 3.0 cm in fenced plots to 18 ± 1% and 62.6 ± 1.4 cm in unfenced plots (F 1,12 = 21.0; p < 0.01 and F1,12=43.8, p < 0.01, respectively).",
+      "source_spans": [
+        {
+          "text": "The cover and modal height of large herbaceous species decreased from 35 ± 2% and 94.7 ± 3.0 cm in fenced plots to 18 ± 1% and 62.6 ± 1.4 cm in unfenced plots (F 1,12 = 21.0; p < 0.01 and F1,12=43.8, p < 0.01, respectively)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a3e61a543128",
+      "subject": "causal_mosaic:node:0354e1882ae6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:159aa3e9c86c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Graminoids positively responded to the soil disturbance, probably as a result of the dispersing and fragmenting of rhizomes",
+      "source_spans": [
+        {
+          "text": "Graminoids positively responded to the soil disturbance, probably as a result of the dispersing and fragmenting of rhizomes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6fd9ab382005",
+      "subject": "causal_mosaic:node:4310d8d1541e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5745018d54e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deer exclusion increased the cover of deciduous species in unprepared plots (site preparation × deer exclusion: F 2,12 = 3.75, p = 0.05; no deer: 18.6 ± 4.5%; with deer: 9.3 ± 2.2%, t 8.7 = −3.3; p = 0.01)",
+      "source_spans": [
+        {
+          "text": "Deer exclusion increased the cover of deciduous species in unprepared plots (site preparation × deer exclusion: F 2,12 = 3.75, p = 0.05; no deer: 18.6 ± 4.5%; with deer: 9.3 ± 2.2%, t 8.7 = −3.3; p = 0.01)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ac2a297a389",
+      "subject": "causal_mosaic:node:4310d8d1541e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1755b3ccdcea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Survival ... tended to be lower when deer were excluded (56.0 ± 5.4%; mean ± standard error) compared to control conditions (65.7 ± 4.1%) (F 1,12 = 3.51, p = 0.09; Fig. 2).",
+      "source_spans": [
+        {
+          "text": "Survival ... tended to be lower when deer were excluded (56.0 ± 5.4%; mean ± standard error) compared to control conditions (65.7 ± 4.1%) (F 1,12 = 3.51, p = 0.09; Fig. 2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e465c8b5771f",
+      "subject": "causal_mosaic:node:ac56fbcb395c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6511eddc197f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "balsam ﬁr seedlings submitted to mechanical release tended to have a larger diameter (2.4 ± 0.1 cm vs. 1.6 ± 0.1 cm) and a smaller h:d ratio (50 ± 1 vs. 59 ± 1) than seedlings that had not been released ( Table 1).",
+      "source_spans": [
+        {
+          "text": "balsam ﬁr seedlings submitted to mechanical release tended to have a larger diameter (2.4 ± 0.1 cm vs. 1.6 ± 0.1 cm) and a smaller h:d ratio (50 ± 1 vs. 59 ± 1) than seedlings that had not been released ( Table 1)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

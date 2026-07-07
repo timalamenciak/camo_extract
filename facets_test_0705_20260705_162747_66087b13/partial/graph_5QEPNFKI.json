@@ -1,0 +1,688 @@
+{
+  "graph_id": "causal_mosaic:graph:67ca356a79ae",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T18:55:25.138869+00:00",
+    "source_corpus": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e5e860596de7",
+      "name": "Relative visitor density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e6ee6f3710",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Relative visitor density, as estimated from spot counts of visitors, had the largest effect on restoration success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:224a77b9783e",
+      "name": "Restoration success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1afb6656ff",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Relative visitor density, as estimated from spot counts of visitors, had the largest effect on restoration success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba2b082e632c",
+      "name": "Planting location",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_97ed14cc61",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Trees planted away from the cliff edge and from pathways had the greatest establishment success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c78724796ad4",
+      "name": "Establishment success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_85eeedf843",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Trees planted away from the cliff edge and from pathways had the greatest establishment success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8131bdee4c12",
+      "name": "Supplemental soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9fbe8ee796",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Supplemental soil improved the health of planted trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:01bce46bd350",
+      "name": "Health of planted trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_06442d3da0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Supplemental soil improved the health of planted trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1a6b8df0984",
+      "name": "Watering",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c10bb42cfb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "both soil and water slightly improved their survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:892672ced460",
+      "name": "Survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "both soil and water slightly improved their survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b915e623e949",
+      "name": "Cages",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e38afb554b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Cages did not affect survival and growth but decreased damage to 4-year-old trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a17227b54419",
+      "name": "Damage to 4-year-old trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c67f787c52",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Cages did not affect survival and growth but decreased damage to 4-year-old trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc4a34a03704",
+      "name": "Damage to 10-year-old trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4789ec77f8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Cages did not affect survival and growth but decreased damage to 4-year-old trees and increased it for 10-year-olds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5aa119529010",
+      "name": "Signs",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_36dab99431",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Signs had no effect on any measured variable"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8f407eebd7a",
+      "name": "Measured variables",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_25d15f0dca",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Signs had no effect on any measured variable"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7034f2846e38",
+      "name": "Younger trees",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2bfe14c05b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Younger trees showed faster initial establishment and growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:520f3468e101",
+      "name": "Initial establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a1ca8c2dd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Younger trees showed faster initial establishment and growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37f5c916d26e",
+      "name": "Growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Younger trees showed faster initial establishment and growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9d02985dc26",
+      "name": "Shady sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_403391ed8f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Trees planted in shady sites were much more likely to be healthy throughout"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:31024c082e21",
+      "name": "Healthy throughout",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2874fb12f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Trees planted in shady sites were much more likely to be healthy throughout"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69b2dded959a",
+      "name": "Planting seeds",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1c31b87a38",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "No trees became successfully established from seed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec203344c6dd",
+      "name": "Successful establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_494ea01a17",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "No trees became successfully established from seed"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:204d9b242ada",
+      "subject": "causal_mosaic:node:e5e860596de7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:224a77b9783e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Relative visitor density, as estimated from spot counts of visitors, had the largest effect on restoration success",
+      "source_spans": [
+        {
+          "text": "Relative visitor density, as estimated from spot counts of visitors, had the largest effect on restoration success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e5af83c0a4a2",
+      "subject": "causal_mosaic:node:ba2b082e632c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c78724796ad4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Trees planted away from the cliff edge and from pathways had the greatest establishment success",
+      "source_spans": [
+        {
+          "text": "Trees planted away from the cliff edge and from pathways had the greatest establishment success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9874d15b1006",
+      "subject": "causal_mosaic:node:8131bdee4c12",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:01bce46bd350",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Supplemental soil improved the health of planted trees",
+      "source_spans": [
+        {
+          "text": "Supplemental soil improved the health of planted trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:acc1ddaf8a8e",
+      "subject": "causal_mosaic:node:8131bdee4c12",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "both soil and water slightly improved their survival",
+      "source_spans": [
+        {
+          "text": "both soil and water slightly improved their survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:44d340350651",
+      "subject": "causal_mosaic:node:c1a6b8df0984",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "both soil and water slightly improved their survival",
+      "source_spans": [
+        {
+          "text": "both soil and water slightly improved their survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ec6741a1b54",
+      "subject": "causal_mosaic:node:b915e623e949",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a17227b54419",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cages did not affect survival and growth but decreased damage to 4-year-old trees",
+      "source_spans": [
+        {
+          "text": "Cages did not affect survival and growth but decreased damage to 4-year-old trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e2cd804d860",
+      "subject": "causal_mosaic:node:b915e623e949",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cc4a34a03704",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cages did not affect survival and growth but decreased damage to 4-year-old trees and increased it for 10-year-olds",
+      "source_spans": [
+        {
+          "text": "Cages did not affect survival and growth but decreased damage to 4-year-old trees and increased it for 10-year-olds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3e99ebeb24e",
+      "subject": "causal_mosaic:node:5aa119529010",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a8f407eebd7a",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Signs had no effect on any measured variable",
+      "source_spans": [
+        {
+          "text": "Signs had no effect on any measured variable"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:41ff80fe36e9",
+      "subject": "causal_mosaic:node:7034f2846e38",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:520f3468e101",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Younger trees showed faster initial establishment and growth",
+      "source_spans": [
+        {
+          "text": "Younger trees showed faster initial establishment and growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b43605d61152",
+      "subject": "causal_mosaic:node:7034f2846e38",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Younger trees showed faster initial establishment and growth",
+      "source_spans": [
+        {
+          "text": "Younger trees showed faster initial establishment and growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a7c6d7ec6f73",
+      "subject": "causal_mosaic:node:b9d02985dc26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:31024c082e21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Trees planted in shady sites were much more likely to be healthy throughout",
+      "source_spans": [
+        {
+          "text": "Trees planted in shady sites were much more likely to be healthy throughout"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2b371fb5700c",
+      "subject": "causal_mosaic:node:69b2dded959a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec203344c6dd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "No trees became successfully established from seed",
+      "source_spans": [
+        {
+          "text": "No trees became successfully established from seed"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00140.x",
+        "title": "Experimental Restoration of Disturbed Cliff‐Edge Forests in Bruce Peninsula National Park, Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "Matthes, U.",
+          "Gerrath, J. A.",
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

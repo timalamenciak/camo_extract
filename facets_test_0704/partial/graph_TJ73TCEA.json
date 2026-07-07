@@ -1,0 +1,373 @@
+{
+  "graph_id": "causal_mosaic:graph:bf31af89e0a4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T14:38:47.652453+00:00",
+    "source_corpus": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:db0a37eef13c",
+      "name": "removal of invasive vegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f12bbb2742",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "invasive vegetation was removed from a coastal dune complex"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:edcce0d312c5",
+      "name": "aeolian activity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d9bcec4f90",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "enhancing all indicators including: increased aeolian activity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6bd657425f54",
+      "name": "sediment budgets",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6f116390bc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "All units experienced net increases in sediment budgets compared to a pre-restoration surface"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:12ecc62ca154",
+      "name": "geomorphic resilience",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fb79713200",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "enhanced geomorphic resilience",
+          "start_char": 56370,
+          "end_char": 56400,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78bd485fd213",
+      "name": "dune morphodynamics",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9028e2988b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased dune morphodynamics",
+          "start_char": 3175,
+          "end_char": 3204,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3b800ccda8c",
+      "name": "geomorphic diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3dbed902f2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "improved geomorphic diversity",
+          "start_char": 3206,
+          "end_char": 3235,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0e550a0bc482",
+      "name": "active sand surface area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bbd869ed35",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "active sand surface area increased only slightly... mostly by creation of open sand surfaces where vegetation was removed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c187e95d0d2",
+      "name": "sand bypassing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4921098459",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "sand bypassing through the foredune was greatest in the two months following vegetation removal"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6f604b3083e3",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:edcce0d312c5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "initial phase of the restoration treatment was effective in enhancing all indicators including: increased aeolian activity",
+      "source_spans": [
+        {
+          "text": "initial phase of the restoration treatment was effective in enhancing all indicators including: increased aeolian activity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:614ce66f4796",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6bd657425f54",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All units experienced net increases in sediment budgets compared to a pre-restoration surface",
+      "source_spans": [
+        {
+          "text": "All units experienced net increases in sediment budgets compared to a pre-restoration surface"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d43b33c96dee",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:12ecc62ca154",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "initial phase of the restoration treatment was effective in enhancing all indicators including: enhanced geomorphic resilience",
+      "source_spans": [
+        {
+          "text": "initial phase of the restoration treatment was effective in enhancing all indicators including: enhanced geomorphic resilience"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dcb6f19404fd",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:78bd485fd213",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "initial phase of the restoration treatment was effective in enhancing all indicators including: increased dune morphodynamics",
+      "source_spans": [
+        {
+          "text": "initial phase of the restoration treatment was effective in enhancing all indicators including: increased dune morphodynamics"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a58012431be9",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3b800ccda8c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "initial phase of the restoration treatment was effective in enhancing all indicators including: improved geomorphic diversity",
+      "source_spans": [
+        {
+          "text": "initial phase of the restoration treatment was effective in enhancing all indicators including: improved geomorphic diversity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ac3b7cbb4cc",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0e550a0bc482",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "active sand surface area increased only slightly... mostly by creation of open sand surfaces where vegetation was removed",
+      "source_spans": [
+        {
+          "text": "active sand surface area increased only slightly... mostly by creation of open sand surfaces where vegetation was removed"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:226e61ef50e8",
+      "subject": "causal_mosaic:node:db0a37eef13c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c187e95d0d2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "sand bypassing through the foredune was greatest in the two months following vegetation removal",
+      "source_spans": [
+        {
+          "text": "sand bypassing through the foredune was greatest in the two months following vegetation removal"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.geomorph.2013.04.023",
+        "title": "Assessing significant geomorphic changes and effectiveness of dynamic restoration in a coastal dune ecosystem",
+        "year": 2013,
+        "authors": [
+          "Walker, Ian J.",
+          "Eamer, Jordan B.R.",
+          "Darke, Ian B."
+        ],
+        "journal": "Geomorphology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

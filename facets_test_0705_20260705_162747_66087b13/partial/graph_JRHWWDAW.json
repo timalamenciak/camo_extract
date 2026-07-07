@@ -1,0 +1,264 @@
+{
+  "graph_id": "causal_mosaic:graph:917a0aa85fb3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:13:29.508933+00:00",
+    "source_corpus": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:88dc92cd0f0c",
+      "name": "inputs of more modern, more bioavailable organic carbon sources",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b411693b7e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Specifically, we investigated whether inputs of more modern, more bioavailable organic carbon sources from the surface environment were driving increased microbial activity and stimulating H2S production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d8019269a69",
+      "name": "microbial activity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8f29997bef",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Specifically, we investigated whether inputs of more modern, more bioavailable organic carbon sources from the surface environment were driving increased microbial activity and stimulating H2S production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fcfe0dafe357",
+      "name": "inputs of more modern carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_19469dc4b0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Since there is evidence that much of the microbial activity within the sand cap is related to sulphur cycling ( Reid and Warren, 2016), these observations imply that these inputs of more modern carbon can greatly contribute to the generation of metabolites such as H2S that represent a potential management hazard at this site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bc23444c10fd",
+      "name": "generation of metabolites such as H2S",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_866a5fac1d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Since there is evidence that much of the microbial activity within the sand cap is related to sulphur cycling ( Reid and Warren, 2016), these observations imply that these inputs of more modern carbon can greatly contribute to the generation of metabolites such as H2S that represent a potential management hazard at this site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4566d36783bc",
+      "name": "inputs of younger, more bioavailable carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bc69a39724",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The results of this study demonstrate that the impact of inputs of younger, more bioavailable carbon to geochemically reactive zones can result in stimulation of microbial biogeochemical cycling."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:01377c44ea57",
+      "name": "microbial biogeochemical cycling",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c977222b53",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The results of this study demonstrate that the impact of inputs of younger, more bioavailable carbon to geochemically reactive zones can result in stimulation of microbial biogeochemical cycling."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:019f78f2ab5a",
+      "name": "utilization of this more modern carbon",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9a1ce99a4a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Correlation between cellular abundance estimates based on PLFA concentrations and the D14CPLFA indicated that the utilization of this more modern carbon was stimulating the microbial community at depth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e518a837e51c",
+      "name": "microbial community at depth",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_d0e555ba11",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Correlation between cellular abundance estimates based on PLFA concentrations and the D14CPLFA indicated that the utilization of this more modern carbon was stimulating the microbial community at depth."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c2c03b19146c",
+      "subject": "causal_mosaic:node:88dc92cd0f0c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8d8019269a69",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Specifically, we investigated whether inputs of more modern, more bioavailable organic carbon sources from the surface environment were driving increased microbial activity and stimulating H2S production.",
+      "source_spans": [
+        {
+          "text": "Specifically, we investigated whether inputs of more modern, more bioavailable organic carbon sources from the surface environment were driving increased microbial activity and stimulating H2S production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:778081b18fde",
+      "subject": "causal_mosaic:node:fcfe0dafe357",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bc23444c10fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Since there is evidence that much of the microbial activity within the sand cap is related to sulphur cycling ( Reid and Warren, 2016), these observations imply that these inputs of more modern carbon can greatly contribute to the generation of metabolites such as H2S that represent a potential management hazard at this site.",
+      "source_spans": [
+        {
+          "text": "Since there is evidence that much of the microbial activity within the sand cap is related to sulphur cycling ( Reid and Warren, 2016), these observations imply that these inputs of more modern carbon can greatly contribute to the generation of metabolites such as H2S that represent a potential management hazard at this site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:15fc2b4ff44a",
+      "subject": "causal_mosaic:node:4566d36783bc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:01377c44ea57",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The results of this study demonstrate that the impact of inputs of younger, more bioavailable carbon to geochemically reactive zones can result in stimulation of microbial biogeochemical cycling.",
+      "source_spans": [
+        {
+          "text": "The results of this study demonstrate that the impact of inputs of younger, more bioavailable carbon to geochemically reactive zones can result in stimulation of microbial biogeochemical cycling."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8f6f5466b279",
+      "subject": "causal_mosaic:node:019f78f2ab5a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e518a837e51c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Correlation between cellular abundance estimates based on PLFA concentrations and the D14CPLFA indicated that the utilization of this more modern carbon was stimulating the microbial community at depth.",
+      "source_spans": [
+        {
+          "text": "Correlation between cellular abundance estimates based on PLFA concentrations and the D14CPLFA indicated that the utilization of this more modern carbon was stimulating the microbial community at depth."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2016.11.029",
+        "title": "Elucidating carbon sources driving microbial metabolism during oil sands reclamation",
+        "year": 2017,
+        "authors": [
+          "Bradford, Lauren M.",
+          "Ziolkowski, Lori A.",
+          "Goad, Corey",
+          "Warren, Lesley A.",
+          "Slater, Gregory F."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

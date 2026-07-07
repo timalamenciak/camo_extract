@@ -1,0 +1,624 @@
+{
+  "graph_id": "causal_mosaic:graph:1dc0754cebf8",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T04:37:10.219449+00:00",
+    "source_corpus": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a576619be977",
+      "name": "low water availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ec5ea010ad",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:639a5bfe07e5",
+      "name": "lodgepole pine growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_28d9652d09",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:135181a82dc8",
+      "name": "low soil N availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_81424d8960",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:035a419d25dd",
+      "name": "white spruce growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c382b57b40",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8b7b7b4bbf2",
+      "name": "high salinity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_edf8ae7231",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48101d5f4443",
+      "name": "soil compaction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_433b8124b6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "N availability, salinity and soil compaction combined limited Sw growth on reconstructed sites using the PMM over the OB substrate."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:62a1a516cf3d",
+      "name": "volumetric water content (VWC)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a310af5485",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "On Pl sites, HG, DBHG and ABG were all positively correlated with VWC"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4d88367d3bce",
+      "name": "dissolved organic carbon (DOC)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f053e7612d",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The VWC and dissolved organic carbon (DOC) together explained 80% of the variation in both the current annual increment of height (HI) ( p = 0.007) and aboveground biomass (ABI) ( p = 0.008)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c334b0f2474",
+      "name": "foliar d13C",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fbd4807437",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The HG and ABG were negatively correlated with foliar d13C in current-year needles"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:627addbf849e",
+      "name": "foliar N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_28f2c08b76",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:877be0e66f89",
+      "name": "foliar K",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cfa4268e4b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95187afd3e41",
+      "name": "soil inorganic N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d4ea5c3f8b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ad043e455e99",
+      "name": "bulk density (Db)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d22b66300",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM, and negatively correlated with Db."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:988c2f2b2628",
+      "name": "soil electrical conductivity (EC)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7124b044ff",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The Db and inorganic N concentration together explained 67% of the variation in HI ( p = 0.037), while Db and EC together explained 79% of the variation in ABI ( p = 0.009)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e8ae607ee7bd",
+      "subject": "causal_mosaic:node:a576619be977",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:639a5bfe07e5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2195e2b81a97",
+      "subject": "causal_mosaic:node:135181a82dc8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites.",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9cc3979d261c",
+      "subject": "causal_mosaic:node:a8b7b7b4bbf2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites.",
+      "source_spans": [
+        {
+          "text": "In conclusion, lodgepole pine trees planted on PMM over TS sites were limited by low water availability, while low soil N availability and high salinity limited the growth of white spruce trees planted on PMM over OB sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:87eeba436e59",
+      "subject": "causal_mosaic:node:48101d5f4443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "N availability, salinity and soil compaction combined limited Sw growth on reconstructed sites using the PMM over the OB substrate.",
+      "source_spans": [
+        {
+          "text": "N availability, salinity and soil compaction combined limited Sw growth on reconstructed sites using the PMM over the OB substrate."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b20b45f6629f",
+      "subject": "causal_mosaic:node:62a1a516cf3d",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:639a5bfe07e5",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "On Pl sites, HG, DBHG and ABG were all positively correlated with VWC",
+      "source_spans": [
+        {
+          "text": "On Pl sites, HG, DBHG and ABG were all positively correlated with VWC"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[4].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:bea2d12527f1",
+      "subject": "causal_mosaic:node:4d88367d3bce",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:639a5bfe07e5",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The VWC and dissolved organic carbon (DOC) together explained 80% of the variation in both the current annual increment of height (HI) ( p = 0.007) and aboveground biomass (ABI) ( p = 0.008).",
+      "source_spans": [
+        {
+          "text": "The VWC and dissolved organic carbon (DOC) together explained 80% of the variation in both the current annual increment of height (HI) ( p = 0.007) and aboveground biomass (ABI) ( p = 0.008)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[5].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:086c34446816",
+      "subject": "causal_mosaic:node:5c334b0f2474",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:639a5bfe07e5",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The HG and ABG were negatively correlated with foliar d13C in current-year needles",
+      "source_spans": [
+        {
+          "text": "The HG and ABG were negatively correlated with foliar d13C in current-year needles"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[6].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:91c8129e0c18",
+      "subject": "causal_mosaic:node:627addbf849e",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[7].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:6dd7fa0d3a52",
+      "subject": "causal_mosaic:node:877be0e66f89",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[8].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:d797b22ff38e",
+      "subject": "causal_mosaic:node:95187afd3e41",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[9].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:db0d36b97f7b",
+      "subject": "causal_mosaic:node:ad043e455e99",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM, and negatively correlated with Db.",
+      "source_spans": [
+        {
+          "text": "In Sw sites, HG, DBHG and ABG were all positively correlated with foliar N, foliar K, and soil inorganic N in PMM, and negatively correlated with Db."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[10].predicate: unknown 'associates_with' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:326dc18425ac",
+      "subject": "causal_mosaic:node:988c2f2b2628",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:035a419d25dd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The Db and inorganic N concentration together explained 67% of the variation in HI ( p = 0.037), while Db and EC together explained 79% of the variation in ABI ( p = 0.009).",
+      "source_spans": [
+        {
+          "text": "The Db and inorganic N concentration together explained 67% of the variation in HI ( p = 0.037), while Db and EC together explained 79% of the variation in ABI ( p = 0.009)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2014.12.010",
+        "title": "Limiting factors for lodgepole pine (Pinus contorta) and white spruce (Picea glauca) growth differ in some reconstructed sites in the Athabasca oil sands region",
+        "year": 2015,
+        "authors": [
+          "Duan, Min",
+          "House, Jason",
+          "Chang, Scott X."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[11].predicate: unknown 'associates_with' -> 'associated_with'"
+    }
+  ]
+}

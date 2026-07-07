@@ -1,0 +1,508 @@
+{
+  "graph_id": "causal_mosaic:graph:001d22fdaa1e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T07:06:13.383365+00:00",
+    "source_corpus": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a08a52b27c10",
+      "name": "increased salvage depth",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5a32a35fe3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6b3d01efaf3",
+      "name": "sucker density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_737df7b095",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Higher sucker densities... at the 40 cm treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c9e18c466a06",
+      "name": "sucker height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3273cd94ba",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "taller suckers... in the deep treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3997b7276a0b",
+      "name": "sucker mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_05567f26c8",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lower sucker mortality at the 40 cm treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b234677cd143",
+      "name": "soil-root contact",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0f613c5889",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "soil-root contact plays a crucial role"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c50eebc6daca",
+      "name": "success of root suckering",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_993e9e7fe7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "success of root suckering from root fragments",
+          "start_char": 105725,
+          "end_char": 105770,
+          "paragraph_id": "page:53"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c80faee4283",
+      "name": "initial carbohydrate reserve levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79053f5ac9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "initial carbohydrate reserve levels of roots were strongly linked to sucker growth and root survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e06ff39b93c",
+      "name": "root survival",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d579de776b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "root survival",
+          "start_char": 1886,
+          "end_char": 1899,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:98989bd944e2",
+      "name": "burial depth of 40 cm",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8793b1fa2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "buried at a depth of 40 cm",
+          "start_char": 187700,
+          "end_char": 187726,
+          "paragraph_id": "page:102"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1e910ecc1c17",
+      "name": "suckers emerged above the soil surface",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b8fe6ac33d",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "suckers emerged above the soil surface"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:893a7517b889",
+      "name": "presence of fine roots",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f3720a88eb",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "presence of fine roots on root fragments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de9f268d8e79",
+      "name": "sucker numbers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a7ff2acb1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "root fragments with fine roots attached... three times more suckers... without fine roots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:510269e47eb8",
+      "name": "emerged suckers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3df27b8976",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "emerged suckers",
+          "start_char": 1930,
+          "end_char": 1945,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29ec54b7d16c",
+      "name": "growth of new fine roots",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7d02db09f4",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "growth of new fine roots was only associated with the presence of emerged suckers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7faca38c6238",
+      "name": "invasive agricultural species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_c65c51bdae",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "invasive agricultural species like Alsike clover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7f822bc9f284",
+      "name": "smaller suckers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e534ee2f86",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "smaller suckers, which were prone to being smothered"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:91b8cab55178",
+      "subject": "causal_mosaic:node:a08a52b27c10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6b3d01efaf3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher sucker densities, taller suckers and lower sucker mortality at the 40 cm treatment suggest that increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering.",
+      "source_spans": [
+        {
+          "text": "Higher sucker densities, taller suckers and lower sucker mortality at the 40 cm treatment suggest that increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:efaaf63fd4ef",
+      "subject": "causal_mosaic:node:a08a52b27c10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c9e18c466a06",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher sucker densities, taller suckers and lower sucker mortality at the 40 cm treatment suggest that increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering.",
+      "source_spans": [
+        {
+          "text": "Higher sucker densities, taller suckers and lower sucker mortality at the 40 cm treatment suggest that increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6fb2954865cb",
+      "subject": "causal_mosaic:node:a08a52b27c10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3997b7276a0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher sucker densities, taller suckers and lower sucker mortality at the 40 cm treatment suggest that increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering.",
+      "source_spans": [
+        {
+          "text": "Higher sucker densities, taller suckers and lower sucker mortality at the 40 cm treatment suggest that increased salvage depth (good mineral soil-root contact) is a prerequisite for successful suckering."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a4bed7f2bc92",
+      "subject": "causal_mosaic:node:b234677cd143",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c50eebc6daca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Thus, the improved suckering in the deep treatment strongly supports our hypotheses that soil-root contact plays a crucial role in the success of root suckering from root fragments.",
+      "source_spans": [
+        {
+          "text": "Thus, the improved suckering in the deep treatment strongly supports our hypotheses that soil-root contact plays a crucial role in the success of root suckering from root fragments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ed42a74d5a6",
+      "subject": "causal_mosaic:node:9c80faee4283",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4e06ff39b93c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Since only a limited amount of carbohydrates can be stored in root fragments, the quick emergence of suckers and the establishment of leaf area are crucial to root and sucker survival. We found that root fragments with emerged suckers attached had considerably higher carbohydrate contents than roots without emerged suckers.",
+      "source_spans": [
+        {
+          "text": "Since only a limited amount of carbohydrates can be stored in root fragments, the quick emergence of suckers and the establishment of leaf area are crucial to root and sucker survival. We found that root fragments with emerged suckers attached had considerably higher carbohydrate contents than roots without emerged suckers."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:980755d69016",
+      "subject": "causal_mosaic:node:98989bd944e2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1e910ecc1c17",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Suckers from root fragments buried at a depth of 40 cm were unsuccessful in reaching the soil surface, indicating that the reserves in the root fragments were not sufficient to allow suckers to grow from a depth greater than 20 cm.",
+      "source_spans": [
+        {
+          "text": "Suckers from root fragments buried at a depth of 40 cm were unsuccessful in reaching the soil surface, indicating that the reserves in the root fragments were not sufficient to allow suckers to grow from a depth greater than 20 cm."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:609665c1f97a",
+      "subject": "causal_mosaic:node:893a7517b889",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de9f268d8e79",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The presence of fine roots on root fragments appears not to play a positive role in root suckering; indeed, attached fine roots appear to be potentially a liability, as overall sucker numbers (emerged and non-emerged suckers) were three times higher in root fragments that had all their fine roots removed compared to root fragments with fine roots attached.",
+      "source_spans": [
+        {
+          "text": "The presence of fine roots on root fragments appears not to play a positive role in root suckering; indeed, attached fine roots appear to be potentially a liability, as overall sucker numbers (emerged and non-emerged suckers) were three times higher in root fragments that had all their fine roots removed compared to root fragments with fine roots attached."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bf2b1984ce8f",
+      "subject": "causal_mosaic:node:510269e47eb8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:29ec54b7d16c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "We found that growth of new fine roots was only associated with the presence of emerged suckers.",
+      "source_spans": [
+        {
+          "text": "We found that growth of new fine roots was only associated with the presence of emerged suckers."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d21015646e0a",
+      "subject": "causal_mosaic:node:7faca38c6238",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f822bc9f284",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In our study invasive agricultural species like Alsike clover flourished on the site and overtopped the smaller suckers, which were prone to being smothered under the heavy leaf cover.",
+      "source_spans": [
+        {
+          "text": "In our study invasive agricultural species like Alsike clover flourished on the site and overtopped the smaller suckers, which were prone to being smothered under the heavy leaf cover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Transfer of live aspen roots as a reclamation technique – Effects of soil depth, root diameter and fine root growth on root suckering ability –",
+        "year": 2012,
+        "authors": [
+          "Wachowski, Julia"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

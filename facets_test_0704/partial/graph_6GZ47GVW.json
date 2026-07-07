@@ -1,0 +1,432 @@
+{
+  "graph_id": "causal_mosaic:graph:69548ad06f40",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T13:49:48.607247+00:00",
+    "source_corpus": "A test of the umbrella species approach in restored floodplain ponds",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5ad293d7db98",
+      "name": "Coho salmon",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q934874",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "coho salmon Oncorhynchus kisutch",
+          "start_char": 1051,
+          "end_char": 1083,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5864591152da",
+      "name": "Listed species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_f4af0f59b1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "listed species",
+          "start_char": 1648,
+          "end_char": 1662,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:20991941af15",
+      "name": "Fish excluding threespine stickleback",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_d7d3a98d2d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "fish excluding threespine stickleback"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9345b4e520b0",
+      "name": "Benthic invertebrates",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_0d95a2e52f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "benthic invertebrates",
+          "start_char": 1331,
+          "end_char": 1352,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:43d727ddbff5",
+      "name": "Wood",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00002040",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "wood",
+          "start_char": 11675,
+          "end_char": 11679,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d9c5161fc7b5",
+      "name": "Groundwater inputs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dea7ef1ada",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "groundwater inputs",
+          "start_char": 23013,
+          "end_char": 23031,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d5e6251a4588",
+      "name": "Maximum temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_474a5faaa4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "maximum temperature",
+          "start_char": 12883,
+          "end_char": 12902,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8297d189d9ac",
+      "name": "Elevation",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00000176",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "elevation",
+          "start_char": 22639,
+          "end_char": 22648,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:034d5495b4fc",
+      "name": "Aquatic vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e9b4bec45d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "aquatic vegetation",
+          "start_char": 23069,
+          "end_char": 23087,
+          "paragraph_id": "page:5"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c4fdeed2e647",
+      "subject": "causal_mosaic:node:5ad293d7db98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5864591152da",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Positive relationships were identified between coho abundance and biomass and species richness, abundance and biomass of fish and listed species.",
+      "source_spans": [
+        {
+          "text": "Positive relationships were identified between coho abundance and biomass and species richness, abundance and biomass of fish and listed species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:613ab6bbcfeb",
+      "subject": "causal_mosaic:node:5ad293d7db98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:20991941af15",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was a significant negative relationship between the abundance of fish and that of coho, however, when threespine stickleback were excluded from the model that relationship became positive",
+      "source_spans": [
+        {
+          "text": "There was a significant negative relationship between the abundance of fish and that of coho, however, when threespine stickleback were excluded from the model that relationship became positive"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:579bc77b6657",
+      "subject": "causal_mosaic:node:5ad293d7db98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9345b4e520b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Benthic invertebrate species richness decreased significantly as coho abundance and biomass increased",
+      "source_spans": [
+        {
+          "text": "Benthic invertebrate species richness decreased significantly as coho abundance and biomass increased"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d497502bf4fd",
+      "subject": "causal_mosaic:node:43d727ddbff5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5ad293d7db98",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation.",
+      "source_spans": [
+        {
+          "text": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0c0234224cf7",
+      "subject": "causal_mosaic:node:d9c5161fc7b5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5ad293d7db98",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation.",
+      "source_spans": [
+        {
+          "text": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fd48d196d4d4",
+      "subject": "causal_mosaic:node:d5e6251a4588",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5ad293d7db98",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation.",
+      "source_spans": [
+        {
+          "text": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b9be6ecc8de8",
+      "subject": "causal_mosaic:node:8297d189d9ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5ad293d7db98",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation.",
+      "source_spans": [
+        {
+          "text": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:70cede0441f5",
+      "subject": "causal_mosaic:node:034d5495b4fc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5ad293d7db98",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation.",
+      "source_spans": [
+        {
+          "text": "Salmonids, including coho, were clustered on the negative side of axis 1, which was characterized by higher elevation, more wood, groundwater inputs, lower maximum temperatures and less aquatic vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12248",
+        "title": "A test of the umbrella species approach in restored floodplain ponds",
+        "year": 2014,
+        "authors": [
+          "Branton, Margaret A.",
+          "Richardson, John S."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

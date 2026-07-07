@@ -1,0 +1,407 @@
+{
+  "graph_id": "causal_mosaic:graph:19fc501241a9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T07:54:48.644916+00:00",
+    "source_corpus": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:10c40aeef8d9",
+      "name": "Soil impoverishment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_12183c3932",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil impoverishment",
+          "start_char": 468,
+          "end_char": 487,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:314cd8a78d97",
+      "name": "Prairie restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1f121b3fa2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "prairie restoration",
+          "start_char": 1187,
+          "end_char": 1206,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d569e517eb56",
+      "name": "Weed growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_083b1b8cce",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "weed growth",
+          "start_char": 2056,
+          "end_char": 2067,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3635358aeeb0",
+      "name": "Growth of native prairie species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bd9bd2eece",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "growth of native prairie species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7047e10ab39f",
+      "name": "Incorporation of oat hulls",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2ea816bd06",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Incorporation of oat hulls",
+          "start_char": 1208,
+          "end_char": 1234,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb0a004c039c",
+      "name": "Soil nitrate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0884e4fac4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "soil nitrate",
+          "start_char": 1262,
+          "end_char": 1274,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c98d6ad43e23",
+      "name": "Weed levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_251e79c16e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "weed levels",
+          "start_char": 1279,
+          "end_char": 1290,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e9d579856ee",
+      "name": "Native warm-season grass species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_e7abe3b87e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Native warm-season grass species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61ba4afd7146",
+      "name": "Cool-season exotics",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_e99af8fb06",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "cool-season exotics"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b60cbf63579",
+      "name": "Microbial decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8fc743b49c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Microbial decomposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3e403ca5b9e",
+      "name": "Nitrogen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67f8295f6c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "nitrogen",
+          "start_char": 137,
+          "end_char": 145,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:464fa6c5f789",
+      "subject": "causal_mosaic:node:10c40aeef8d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:314cd8a78d97",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil impoverishment may significantly enhance prairie restoration.",
+      "source_spans": [
+        {
+          "text": "Soil impoverishment may significantly enhance prairie restoration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1bda97606af8",
+      "subject": "causal_mosaic:node:10c40aeef8d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d569e517eb56",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The soil impoverization plots on one of our three research sites in 1992 showed a significant reduction in weed growth",
+      "source_spans": [
+        {
+          "text": "The soil impoverization plots on one of our three research sites in 1992 showed a significant reduction in weed growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2da8e1ec7248",
+      "subject": "causal_mosaic:node:10c40aeef8d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3635358aeeb0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "with no decrease in the growth of native prairie species",
+      "source_spans": [
+        {
+          "text": "with no decrease in the growth of native prairie species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:df10cf83f2ea",
+      "subject": "causal_mosaic:node:7047e10ab39f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bb0a004c039c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Incorporation of oat hulls as a carbon source lowered soil nitrate and weed levels in an Ontario experiment with legumes",
+      "source_spans": [
+        {
+          "text": "Incorporation of oat hulls as a carbon source lowered soil nitrate and weed levels in an Ontario experiment with legumes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a08fe4396b5",
+      "subject": "causal_mosaic:node:7047e10ab39f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c98d6ad43e23",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Incorporation of oat hulls as a carbon source lowered soil nitrate and weed levels in an Ontario experiment with legumes",
+      "source_spans": [
+        {
+          "text": "Incorporation of oat hulls as a carbon source lowered soil nitrate and weed levels in an Ontario experiment with legumes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:364137c756d4",
+      "subject": "causal_mosaic:node:7e9d579856ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:61ba4afd7146",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Native warm-season grass species have an innate ability to use nitrogen more efficiently than cool-season exotics such as quack grass (Agropyron repens) and Kentucky bluegrass (Poa pratensis), and can effectively outcompete them in low nitrogen conditions",
+      "source_spans": [
+        {
+          "text": "Native warm-season grass species have an innate ability to use nitrogen more efficiently than cool-season exotics such as quack grass (Agropyron repens) and Kentucky bluegrass (Poa pratensis), and can effectively outcompete them in low nitrogen conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a6807735db6",
+      "subject": "causal_mosaic:node:8b60cbf63579",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b3e403ca5b9e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Microbial decomposition of this organic matter temporarily monopolizes large amounts of nitrogen, making it unavailable to plants",
+      "source_spans": [
+        {
+          "text": "Microbial decomposition of this organic matter temporarily monopolizes large amounts of nitrogen, making it unavailable to plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.12.1.55",
+        "title": "Soil Impoverishment: A Little-Known Technique Holds Potential for Establishing Prairie",
+        "year": 1994,
+        "authors": [
+          "Morgan, John P."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

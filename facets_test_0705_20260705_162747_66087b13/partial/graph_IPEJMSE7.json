@@ -1,0 +1,406 @@
+{
+  "graph_id": "causal_mosaic:graph:ee831b4cf009",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T15:31:38.502232+00:00",
+    "source_corpus": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:847e65790774",
+      "name": "Diking",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_670ba57f75",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "When tidal salt marshes are diked",
+          "start_char": 4770,
+          "end_char": 4803,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fc084c99452",
+      "name": "Soil salinity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f27d62d865",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decreased soil salinity",
+          "start_char": 4871,
+          "end_char": 4894,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e6ea5b4047d",
+      "name": "Relative elevation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43c17323b3",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decreased... relative elevation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fea74d41de3f",
+      "name": "Dike breach",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c51860a8e7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A breach in the dike",
+          "start_char": 5392,
+          "end_char": 5412,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0c5b13c565e",
+      "name": "Marsh recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f932191cf8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "allow marsh recovery to proceed",
+          "start_char": 5555,
+          "end_char": 5586,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d83c6e982db5",
+      "name": "Tidal range",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7707b747a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increasing tidal ranges",
+          "start_char": 15465,
+          "end_char": 15488,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9307e150002",
+      "name": "Vertical range of Spartina alterniflora and Spartina patens",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bad89894c0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The vertical range of both Spartina alterniflora and Spartina patens increased with tidal range"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b16e8ba3dc3e",
+      "name": "Inundation frequency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_94d5ee30f6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "inundated less frequently",
+          "start_char": 2312,
+          "end_char": 2337,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c9c182d2836",
+      "name": "High sediment deposition rates",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6887b6af9c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "high sediment deposition rates",
+          "start_char": 2946,
+          "end_char": 2976,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1ff4da630a0",
+      "name": "Large growth range of S. alterniflora",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d51225f36",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "large growth range of S. alterniflora",
+          "start_char": 33895,
+          "end_char": 33932,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:882888726263",
+      "name": "Resilience",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_362d6bf52e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "makes Bay of Fundy marshes resilient"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:558af3563b59",
+      "subject": "causal_mosaic:node:847e65790774",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fc084c99452",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When tidal salt marshes are diked the loss of tidal flooding and the sediments it brings result in decreased soil salinity",
+      "source_spans": [
+        {
+          "text": "When tidal salt marshes are diked the loss of tidal flooding and the sediments it brings result in decreased soil salinity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:72cb8a960e55",
+      "subject": "causal_mosaic:node:847e65790774",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3e6ea5b4047d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When tidal salt marshes are diked the loss of tidal flooding and the sediments it brings result in decreased soil salinity and relative elevation",
+      "source_spans": [
+        {
+          "text": "When tidal salt marshes are diked the loss of tidal flooding and the sediments it brings result in decreased soil salinity and relative elevation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6389fc977600",
+      "subject": "causal_mosaic:node:fea74d41de3f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0c5b13c565e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A breach in the dike can be created to restore or reactivate salt marshes or unintentional dike breaches can occur during storm events and allow marsh recovery to proceed",
+      "source_spans": [
+        {
+          "text": "A breach in the dike can be created to restore or reactivate salt marshes or unintentional dike breaches can occur during storm events and allow marsh recovery to proceed"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:789c765d6097",
+      "subject": "causal_mosaic:node:d83c6e982db5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b9307e150002",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The vertical range of both Spartina alterniflora and Spartina patens increased with tidal range",
+      "source_spans": [
+        {
+          "text": "The vertical range of both Spartina alterniflora and Spartina patens increased with tidal range"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8ade2e1077a5",
+      "subject": "causal_mosaic:node:d83c6e982db5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b16e8ba3dc3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "S. alterniflora and S. patens are inundated less frequently than in microtidal marshes",
+      "source_spans": [
+        {
+          "text": "S. alterniflora and S. patens are inundated less frequently than in microtidal marshes",
+          "start_char": 2278,
+          "end_char": 2364,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a5686298598f",
+      "subject": "causal_mosaic:node:1c9c182d2836",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:882888726263",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The high sediment deposition rates and large growth range of S. alterniflora makes Bay of Fundy marshes resilient",
+      "source_spans": [
+        {
+          "text": "The high sediment deposition rates and large growth range of S. alterniflora makes Bay of Fundy marshes resilient"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:be115459f0bb",
+      "subject": "causal_mosaic:node:c1ff4da630a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:882888726263",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The high sediment deposition rates and large growth range of S. alterniflora makes Bay of Fundy marshes resilient",
+      "source_spans": [
+        {
+          "text": "The high sediment deposition rates and large growth range of S. alterniflora makes Bay of Fundy marshes resilient"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Salt Marsh Vegetation Recovery on the Bay of Fundy",
+        "year": 2007,
+        "authors": [
+          "Byers, Stacey E",
+          "Chmura, Gail L"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

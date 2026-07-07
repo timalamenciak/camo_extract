@@ -1,0 +1,190 @@
+{
+  "graph_id": "causal_mosaic:graph:ad83d3df4511",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T23:33:16.743311+00:00",
+    "source_corpus": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a6cecb3720dd",
+      "name": "Climate change",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000629",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4bb952bca4ba",
+      "name": "frequency and intensity of disturbances",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3a1e902482",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b35ded729115",
+      "name": "forest regrowth",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_651757d7c0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:df8a57060118",
+      "name": "harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5fe825c8ab",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "harvested areas are recovering more consistently over time relative to areas disturbed by wild fire"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4cbb9df19986",
+      "name": "recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d6cae891a3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "harvested areas are recovering more consistently over time relative to areas disturbed by wild fire"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1ebba5817100",
+      "subject": "causal_mosaic:node:a6cecb3720dd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4bb952bca4ba",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013).",
+      "source_spans": [
+        {
+          "text": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rse.2017.03.035",
+        "title": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+        "year": 2017,
+        "authors": [
+          "White, Joanne C.",
+          "Wulder, Michael A.",
+          "Hermosilla, Txomin",
+          "Coops, Nicholas C.",
+          "Hobart, Geordie W."
+        ],
+        "journal": "Remote Sensing of Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e7f7791a7a6c",
+      "subject": "causal_mosaic:node:a6cecb3720dd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b35ded729115",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013).",
+      "source_spans": [
+        {
+          "text": "Climate change will alter the frequency and intensity of disturbances ( Dale et al., 2001 ), as well as the rate and ef ﬁcacy of forest regrowth following disturbance ( Anderson-Teixeira et al., 2013)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rse.2017.03.035",
+        "title": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+        "year": 2017,
+        "authors": [
+          "White, Joanne C.",
+          "Wulder, Michael A.",
+          "Hermosilla, Txomin",
+          "Coops, Nicholas C.",
+          "Hobart, Geordie W."
+        ],
+        "journal": "Remote Sensing of Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c961a526001f",
+      "subject": "causal_mosaic:node:df8a57060118",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4cbb9df19986",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "harvested areas are recovering more consistently over time relative to areas disturbed by wild fire",
+      "source_spans": [
+        {
+          "text": "harvested areas are recovering more consistently over time relative to areas disturbed by wild fire"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rse.2017.03.035",
+        "title": "A nationwide annual characterization of 25 years of forest disturbance and recovery for Canada using Landsat time series",
+        "year": 2017,
+        "authors": [
+          "White, Joanne C.",
+          "Wulder, Michael A.",
+          "Hermosilla, Txomin",
+          "Coops, Nicholas C.",
+          "Hobart, Geordie W."
+        ],
+        "journal": "Remote Sensing of Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "graph_id": "causal_mosaic:graph:ea4f57d8509e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T12:25:50.452880+00:00",
+    "source_corpus": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3a02a64d4dc2",
+      "name": "Restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_61043458e1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration resulted in a shift in mean growing season fluxes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a0caf1460c5",
+      "name": "CO2 source",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dd210b4078",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "restoration would decrease the CO2 source from peat fields"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:458e201120b7",
+      "name": "CO2 sink",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d869718f72",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "possibly result in a CO2 sink",
+          "start_char": 7264,
+          "end_char": 7293,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0bf4b234292a",
+      "name": "CH4 efflux",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07c2e83c33",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "restoration would increase CH4 efflux"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d8352eacaa91",
+      "name": "Water table",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105201",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Water table was also related to CH4 flux"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be498b54eaf4",
+      "name": "CH4 flux",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_72cbe7823b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Water table was also related to CH4 flux, with higher emissions from wet sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5e9927e5d06",
+      "name": "Vascular plant cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ac1f14f0a0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Vascular plant cover was also a significant predictor of log (GEPmax)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a91996431196",
+      "name": "CO2 exchange",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9068a6dae5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Carbon dioxide exchange was correlated to vascular vegetation cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:db6f50f797b7",
+      "name": "GEPmax",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eb7f8bf197",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Vascular plant cover was also a significant predictor of log (GEPmax)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4f55138997f",
+      "name": "Graminoid cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4eae51ce24",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Water table position was significantly positively related to graminoid cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb9987131f13",
+      "name": "Global warming potential",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b740823ce2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "restoration reduced GWP from CO2 and CH4",
+          "start_char": 37925,
+          "end_char": 37965,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:583246d66167",
+      "name": "GHG sink",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3316bf8650",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "GHG sink at this site is optimized when water table is 17 cm below the surface"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e1f55cc67712",
+      "subject": "causal_mosaic:node:3a02a64d4dc2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a0caf1460c5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoration would decrease the CO2 source from peat fields and possibly result in a CO2 sink",
+      "source_spans": [
+        {
+          "text": "restoration would decrease the CO2 source from peat fields and possibly result in a CO2 sink"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e7e47e7f0b98",
+      "subject": "causal_mosaic:node:3a02a64d4dc2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:458e201120b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoration would decrease the CO2 source from peat fields and possibly result in a CO2 sink",
+      "source_spans": [
+        {
+          "text": "restoration would decrease the CO2 source from peat fields and possibly result in a CO2 sink"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5e7ab6d5af7f",
+      "subject": "causal_mosaic:node:3a02a64d4dc2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0bf4b234292a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoration would increase CH4 efflux",
+      "source_spans": [
+        {
+          "text": "restoration would increase CH4 efflux"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:45fba85ca00a",
+      "subject": "causal_mosaic:node:3a02a64d4dc2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb9987131f13",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "While on average restoration reduced GWP from CO2 and CH4 at both dry and wet restored plots",
+      "source_spans": [
+        {
+          "text": "While on average restoration reduced GWP from CO2 and CH4 at both dry and wet restored plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:811f0e7c41bd",
+      "subject": "causal_mosaic:node:d8352eacaa91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be498b54eaf4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Water table was also related to CH4 flux, with higher emissions from wet sites",
+      "source_spans": [
+        {
+          "text": "Water table was also related to CH4 flux, with higher emissions from wet sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:567ceeb6825e",
+      "subject": "causal_mosaic:node:d8352eacaa91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a4f55138997f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Water table position was significantly positively related to graminoid cover",
+      "source_spans": [
+        {
+          "text": "Water table position was significantly positively related to graminoid cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ca53a86c2d4c",
+      "subject": "causal_mosaic:node:b5e9927e5d06",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a91996431196",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Carbon dioxide exchange was correlated to vascular vegetation cover",
+      "source_spans": [
+        {
+          "text": "Carbon dioxide exchange was correlated to vascular vegetation cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ce7b9e129d1",
+      "subject": "causal_mosaic:node:b5e9927e5d06",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:db6f50f797b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Vascular plant cover was also a significant predictor of log (GEPmax)",
+      "source_spans": [
+        {
+          "text": "Vascular plant cover was also a significant predictor of log (GEPmax)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2fc19b32d57b",
+      "subject": "causal_mosaic:node:d8352eacaa91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:583246d66167",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "GHG sink at this site is optimized when water table is 17 cm below the surface",
+      "source_spans": [
+        {
+          "text": "GHG sink at this site is optimized when water table is 17 cm below the surface"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.12.013",
+        "title": "Growing season carbon dioxide and methane exchange at a restored peatland on the Western Boreal Plain",
+        "year": 2014,
+        "authors": [
+          "Strack, Maria",
+          "Keith, Arnold Magnus",
+          "Xu, Bin"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

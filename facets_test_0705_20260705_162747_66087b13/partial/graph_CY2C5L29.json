@@ -1,0 +1,544 @@
+{
+  "graph_id": "causal_mosaic:graph:6eae85f571e3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T08:28:11.322726+00:00",
+    "source_corpus": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:00b2905898c7",
+      "name": "Pipeline construction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4fb700ee9b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec4505eb548a",
+      "name": "vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_386ecba38a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a61aa4710943",
+      "name": "biological crusts including moss and lichen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_173f32f310",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:531d86273d63",
+      "name": "Pipeline construction techniques",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_71b1aa4536",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3899fd14418",
+      "name": "F. hallii cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a83627298",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3cd7b1c12b99",
+      "name": "wheatgrass cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b77751132f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f917962cb055",
+      "name": "ROWs",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ffe8fe523a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dee85cc11215",
+      "name": "Festuca hallii cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd010ae4e4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b969ffd8e164",
+      "name": "moss and lichen cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f64b13d8f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de0a0e3e61e4",
+      "name": "litter cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b8cd6c6a58",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9f19ef830842",
+      "name": "bare ground cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_530e80ed5b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Wheatgrasses ( Elymus lanceolatus, E. trachycaulus, and P . smithii) and bare ground cover were significantly lower on controls than ROWs (Figure 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75777ae89993",
+      "name": "rough fescue recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79bfe1575f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "recovery",
+      "source_spans": [
+        {
+          "text": "Plow-in pipelines had the fewest non-native species, greatest rough fescue recovery, and were similar to native grassland."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d34b6a4213d8",
+      "name": "Seeding native rough fescue",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9bd22d8697",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Seeding native rough fescue (Festuca hallii (Vasey) Piper or Festuca campestris Rydb.) has had no documented success."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ef6ff59f0139",
+      "name": "success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7806f49073",
+      "state_or_change_qualifier": "absent",
+      "measured_attribute": "success",
+      "source_spans": [
+        {
+          "text": "Seeding native rough fescue (Festuca hallii (Vasey) Piper or Festuca campestris Rydb.) has had no documented success."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2d6a25cfd5f4",
+      "subject": "causal_mosaic:node:00b2905898c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec4505eb548a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999).",
+      "source_spans": [
+        {
+          "text": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:306379f36570",
+      "subject": "causal_mosaic:node:00b2905898c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a61aa4710943",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999).",
+      "source_spans": [
+        {
+          "text": "Pipeline construction strips vegetation, leaving subsoil on the surface, admixing soil horizons, compacting soils, and destroying biological crusts including moss and lichen (Naeth et al. 1987; Lovich and Bainbridge 1999)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:82d5c21567a9",
+      "subject": "causal_mosaic:node:531d86273d63",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3899fd14418",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3).",
+      "source_spans": [
+        {
+          "text": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b3986f7d63e",
+      "subject": "causal_mosaic:node:531d86273d63",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3cd7b1c12b99",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3).",
+      "source_spans": [
+        {
+          "text": "Pipeline construction techniques affected F. hallii cover, which was significantly greater on plow-in pipelines, and wheatgrass cover, which was significantly greater on ditch-witch and topsoil-strip pipelines (Figure 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:54e414a0bfc3",
+      "subject": "causal_mosaic:node:f917962cb055",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dee85cc11215",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4).",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c6d0cdc48e0",
+      "subject": "causal_mosaic:node:f917962cb055",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b969ffd8e164",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4).",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fdb5a4d343e1",
+      "subject": "causal_mosaic:node:f917962cb055",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de0a0e3e61e4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4).",
+      "source_spans": [
+        {
+          "text": "Festuca hallii, moss and lichen, and litter cover were significantly greater on controls than ROWs (Figure 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a3aa853b4ae5",
+      "subject": "causal_mosaic:node:f917962cb055",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9f19ef830842",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wheatgrasses ( Elymus lanceolatus, E. trachycaulus, and P . smithii) and bare ground cover were significantly lower on controls than ROWs (Figure 4).",
+      "source_spans": [
+        {
+          "text": "Wheatgrasses ( Elymus lanceolatus, E. trachycaulus, and P . smithii) and bare ground cover were significantly lower on controls than ROWs (Figure 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b8829203d39d",
+      "subject": "causal_mosaic:node:75777ae89993",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75777ae89993",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plow-in pipelines had the fewest non-native species, greatest rough fescue recovery, and were similar to native grassland.",
+      "source_spans": [
+        {
+          "text": "Plow-in pipelines had the fewest non-native species, greatest rough fescue recovery, and were similar to native grassland."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:547e8e740d1f",
+      "subject": "causal_mosaic:node:d34b6a4213d8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ef6ff59f0139",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seeding native rough fescue (Festuca hallii (Vasey) Piper or Festuca campestris Rydb.) has had no documented success.",
+      "source_spans": [
+        {
+          "text": "Seeding native rough fescue (Festuca hallii (Vasey) Piper or Festuca campestris Rydb.) has had no documented success."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.033.0111",
+        "title": "Natural Recovery of Rough Fescue ( <i>Festuca hallii</i> (Vasey) Piper) Grassland After Disturbance by Pipeline Construction in Central Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy A.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

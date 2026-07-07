@@ -1,0 +1,460 @@
+{
+  "graph_id": "causal_mosaic:graph:640845ad580f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T13:34:31.560950+00:00",
+    "source_corpus": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:da219d286c64",
+      "name": "Grazing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0b51809e1f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6969e6fa438b",
+      "name": "plant litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000628",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "litter mass",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:278179eb797c",
+      "name": "solar exposure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_815bfd0f05",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "solar exposure",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6788b6f053f3",
+      "name": "soil temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200012",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000146",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:423d0c5b85f3",
+      "name": "evapotranspiration",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:02500033",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "evapotranspiration",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a7c1d6b68dda",
+      "name": "soil salinity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f27d62d865",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0085001",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:63a37bf816ac",
+      "name": "nitrogen demand",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3c47476a99",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nitrogen demand",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:985aab3547e6",
+      "name": "root production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b4d510af76",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "root production",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60e9d063a7f8",
+      "name": "belowground production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_01d13175ea",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "production",
+      "source_spans": [
+        {
+          "text": "Average belowground biomass was significantly greater in the grazed samples, whether we consider biomass normalized to 30 cm depth or that held in the top 20 or 10 cm (Table 1, Fig. 3). Cumulative belowground production to either 20 or 30 cm depth in the grazed area (487 and 524 g m −2, respectively) was more than twice that in the ungrazed area (223 and 229 gm −2, respectively; Fig. 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:94d0f34609d2",
+      "name": "soil carbon density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b7e2ed40b3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "carbon density",
+      "source_spans": [
+        {
+          "text": "In contrast, average soil carbon density of the grazed soil (0.032 gC cm −3) was significantly higher than in ungrazed soil (0.025 gC cm −3) (F1,17 = 25.1, p < 0.001)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:306010731a71",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6969e6fa438b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:07ee65bcc52e",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:278179eb797c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:836fc67c2b2f",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6788b6f053f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9fc5d448cb31",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:423d0c5b85f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:edb2714d6099",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a7c1d6b68dda",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d2876580379",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:63a37bf816ac",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b07d7510d87",
+      "subject": "causal_mosaic:node:63a37bf816ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:985aab3547e6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production.",
+      "source_spans": [
+        {
+          "text": "Grazing reduces plant litter and increases solar exposure, soil temperature (at this latitude, soil remained frozen until April) and evapotranspiration, thus raising soil salinity and nitrogen demand, the latter a driver of root production."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:49b4fa18a4bf",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60e9d063a7f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Average belowground biomass was significantly greater in the grazed samples, whether we consider biomass normalized to 30 cm depth or that held in the top 20 or 10 cm (Table 1, Fig. 3). Cumulative belowground production to either 20 or 30 cm depth in the grazed area (487 and 524 g m −2, respectively) was more than twice that in the ungrazed area (223 and 229 gm −2, respectively; Fig. 4).",
+      "source_spans": [
+        {
+          "text": "Average belowground biomass was significantly greater in the grazed samples, whether we consider biomass normalized to 30 cm depth or that held in the top 20 or 10 cm (Table 1, Fig. 3). Cumulative belowground production to either 20 or 30 cm depth in the grazed area (487 and 524 g m −2, respectively) was more than twice that in the ungrazed area (223 and 229 gm −2, respectively; Fig. 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:664da497abb5",
+      "subject": "causal_mosaic:node:da219d286c64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:94d0f34609d2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, average soil carbon density of the grazed soil (0.032 gC cm −3) was significantly higher than in ungrazed soil (0.025 gC cm −3) (F1,17 = 25.1, p < 0.001).",
+      "source_spans": [
+        {
+          "text": "In contrast, average soil carbon density of the grazed soil (0.032 gC cm −3) was significantly higher than in ungrazed soil (0.025 gC cm −3) (F1,17 = 25.1, p < 0.001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0376892910000184",
+        "title": "Soil carbon may be maintained under grazing in a St Lawrence Estuary tidal marsh",
+        "year": 2009,
+        "authors": [
+          "Yu, O.T.",
+          "Chmura, G.L."
+        ],
+        "journal": "Envir. Conserv."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

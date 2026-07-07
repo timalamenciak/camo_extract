@@ -1,0 +1,298 @@
+{
+  "graph_id": "causal_mosaic:graph:2a359d47cb5b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T22:02:54.896411+00:00",
+    "source_corpus": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e33014b285c7",
+      "name": "Predator removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8c9bfa62fc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9664ed449ecc",
+      "name": "Duck nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_861bfcd16a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nest survival",
+      "source_spans": [
+        {
+          "text": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8a67d427ead",
+      "name": "Nesting hen mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4dbfb66eed",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "mortality",
+      "source_spans": [
+        {
+          "text": "the common odds of nesting hen mortality due to predation were significantly higher in trapped plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9d9e8d9a878",
+      "name": "Observer activity",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ac2fb64577",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "observers negatively affecting nest survival in the control group",
+          "start_char": 35845,
+          "end_char": 35910,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f96a7b0648a7",
+      "name": "Duck nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5b26831d55",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "nest survival",
+      "source_spans": [
+        {
+          "text": "observers negatively affecting nest survival in the control group",
+          "start_char": 35845,
+          "end_char": 35910,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2bd20f6376a4",
+      "name": "Coyote presence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_327c09a5d4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "coyote presence is associated with higher nest survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5548640f2c69",
+      "name": "Duck nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5b26831d55",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nest survival",
+      "source_spans": [
+        {
+          "text": "coyote presence is associated with higher nest survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e6ad4c4f9d23",
+      "name": "Fox abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79af376c99",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "coyotes effectively reduce the abundance of fox"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:18cc5dda61ef",
+      "subject": "causal_mosaic:node:e33014b285c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9664ed449ecc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR).",
+      "source_spans": [
+        {
+          "text": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:559b010424ae",
+      "subject": "causal_mosaic:node:e33014b285c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c8a67d427ead",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the common odds of nesting hen mortality due to predation were significantly higher in trapped plots",
+      "source_spans": [
+        {
+          "text": "the common odds of nesting hen mortality due to predation were significantly higher in trapped plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:cd189069a7b1",
+      "subject": "causal_mosaic:node:b9d9e8d9a878",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f96a7b0648a7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "observers negatively affecting nest survival in the control group",
+      "source_spans": [
+        {
+          "text": "observers negatively affecting nest survival in the control group",
+          "start_char": 35845,
+          "end_char": 35910,
+          "paragraph_id": "page:9"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:be623923fdc7",
+      "subject": "causal_mosaic:node:2bd20f6376a4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5548640f2c69",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "coyote presence is associated with higher nest survival",
+      "source_spans": [
+        {
+          "text": "coyote presence is associated with higher nest survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "annotation_notes": "Normalization: edges[3].philosophical_accounts: unknown 'structural' -> 'probabilistic'; edges[3].evidential_basis.types: 'observational' -> type 'observational_cross_sectional'"
+    },
+    {
+      "id": "causal_mosaic:edge:15940a12134a",
+      "subject": "causal_mosaic:node:2bd20f6376a4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e6ad4c4f9d23",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "coyotes effectively reduce the abundance of fox",
+      "source_spans": [
+        {
+          "text": "coyotes effectively reduce the abundance of fox"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "annotation_notes": "Normalization: edges[4].philosophical_accounts: unknown 'structural' -> 'probabilistic'"
+    }
+  ]
+}

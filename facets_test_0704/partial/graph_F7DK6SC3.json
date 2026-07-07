@@ -1,0 +1,192 @@
+{
+  "graph_id": "causal_mosaic:graph:195ec25c7f06",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T11:53:30.556896+00:00",
+    "source_corpus": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:36d1c8583a41",
+      "name": "transplanting of E. americanum, P. peltatum and C. thalictroides",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1c5ac21b22",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "transplanting of E. americanum, P. peltatum and C. thalictroides into a predetermined forest area",
+          "start_char": 85062,
+          "end_char": 85159,
+          "paragraph_id": "page:38"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fc5158e5a94f",
+      "name": "structural success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_312066bc98",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "structural success obtained in this study"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1307ad1b29b",
+      "name": "Invasive species control",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f7a5ec9d0b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Invasive species control was not an experimental treatment, but rather just a method of site preparation and maintenance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48ca70a2ec1a",
+      "name": "survival of transplant specimens",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ab46903839",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "survival of transplant specimens"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c45092ad1e6",
+      "name": "P. peltatum transplants",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_31b75196cb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "P. peltatum transplants",
+          "start_char": 111892,
+          "end_char": 111915,
+          "paragraph_id": "page:52"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ddaf1f51307f",
+      "name": "clonal individuals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_55be303e98",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0001555",
+      "source_spans": [
+        {
+          "text": "clonal individuals",
+          "start_char": 155711,
+          "end_char": 155729,
+          "paragraph_id": "page:76"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c139dcfd04b5",
+      "subject": "causal_mosaic:node:36d1c8583a41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fc5158e5a94f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall the restoration effort was deemed to be successful, based on the structural success obtained in this study.",
+      "source_spans": [
+        {
+          "text": "Overall the restoration effort was deemed to be successful, based on the structural success obtained in this study."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+        "year": 2007,
+        "authors": [
+          "Ferguson, Kristyn Alexis"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c3e666377404",
+      "subject": "causal_mosaic:node:e1307ad1b29b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:48ca70a2ec1a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "It was likely a contributing factor to the overall success of the transplant specimens in this study.",
+      "source_spans": [
+        {
+          "text": "It was likely a contributing factor to the overall success of the transplant specimens in this study."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+        "year": 2007,
+        "authors": [
+          "Ferguson, Kristyn Alexis"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1fd6b4c222ce",
+      "subject": "causal_mosaic:node:2c45092ad1e6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ddaf1f51307f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This was determined by exposing the underground root system of the plants in question and following rhizomes from the original plant to the new plants to prove their origin.",
+      "source_spans": [
+        {
+          "text": "This was determined by exposing the underground root system of the plants in question and following rhizomes from the original plant to the new plants to prove their origin."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+        "year": 2007,
+        "authors": [
+          "Ferguson, Kristyn Alexis"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "graph_id": "causal_mosaic:graph:3b8da7e8ed2e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T00:45:03.636616+00:00",
+    "source_corpus": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:82aac330250b",
+      "name": "peat-mineral mix",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6740ebc935",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:98dc948c7eb4",
+      "name": "forest floor-mineral mix",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_570366096f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker and generally had a higher abundance of suckers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3d7e5a388a7",
+      "name": "tree height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65563d5509",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Tree height was also positively correlated with suckering probability and abundance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6b69c281cb25",
+      "name": "competition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77be31355f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "competition from surrounding vegetation decreased the probability and abundance of suckering"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0bca5308efcb",
+      "name": "Increased root suckering probability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a1ec7eec33",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "probability",
+      "source_spans": [
+        {
+          "text": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:19641c420802",
+      "name": "Increased root sucker abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8a1fd4412",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker and generally had a higher abundance of suckers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c25d525615c0",
+      "name": "Decreased root suckering probability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a1ec7eec33",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "probability",
+      "source_spans": [
+        {
+          "text": "competition from surrounding vegetation decreased the probability and abundance of suckering"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a43977bb3f8a",
+      "name": "Decreased root sucker abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8a1fd4412",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "competition from surrounding vegetation decreased the probability and abundance of suckering"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:678c4516ad1b",
+      "name": "Decreased stump sprouting probability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_19aef2a0ea",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "probability",
+      "source_spans": [
+        {
+          "text": "probability of a cut aspen to produce a stump sprout dropping by 5% per each 10% increment increase in tree cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ce38b83fabd",
+      "name": "above ground disturbance",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_371cca642b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54fbe429aac5",
+      "name": "root suckering initiation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a58fb602a1",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a9bd413b883",
+      "name": "stump sprouting initiation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_39a6f80d97",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67c20e070b0f",
+      "name": "Trembling aspen",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q469576",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Trembling aspen (Populus tremuloides Michx.) is an important early successional species",
+          "start_char": 440,
+          "end_char": 527,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:87ff29308e53",
+      "subject": "causal_mosaic:node:82aac330250b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0bca5308efcb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker",
+      "source_spans": [
+        {
+          "text": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b9d3bbc7ad68",
+      "subject": "causal_mosaic:node:82aac330250b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:19641c420802",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker and generally had a higher abundance of suckers",
+      "source_spans": [
+        {
+          "text": "Trees growing on peat-mineral mix were 7.8 times more likely to produce at least one sucker and generally had a higher abundance of suckers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:625f41b88102",
+      "subject": "causal_mosaic:node:f3d7e5a388a7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0bca5308efcb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree height was also positively correlated with suckering probability and abundance",
+      "source_spans": [
+        {
+          "text": "Tree height was also positively correlated with suckering probability and abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0872bee6d8f2",
+      "subject": "causal_mosaic:node:f3d7e5a388a7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:19641c420802",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree height was also positively correlated with suckering probability and abundance",
+      "source_spans": [
+        {
+          "text": "Tree height was also positively correlated with suckering probability and abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:222a41bcb949",
+      "subject": "causal_mosaic:node:6b69c281cb25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c25d525615c0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "competition from surrounding vegetation decreased the probability and abundance of suckering",
+      "source_spans": [
+        {
+          "text": "competition from surrounding vegetation decreased the probability and abundance of suckering"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:213d2d943b69",
+      "subject": "causal_mosaic:node:6b69c281cb25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a43977bb3f8a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "competition from surrounding vegetation decreased the probability and abundance of suckering",
+      "source_spans": [
+        {
+          "text": "competition from surrounding vegetation decreased the probability and abundance of suckering"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d03a037e344",
+      "subject": "causal_mosaic:node:6b69c281cb25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:678c4516ad1b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "probability of a cut aspen to produce a stump sprout dropping by 5% per each 10% increment increase in tree cover",
+      "source_spans": [
+        {
+          "text": "probability of a cut aspen to produce a stump sprout dropping by 5% per each 10% increment increase in tree cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:efb328c82bb9",
+      "subject": "causal_mosaic:node:0ce38b83fabd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54fbe429aac5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance",
+      "source_spans": [
+        {
+          "text": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4c2993373aa9",
+      "subject": "causal_mosaic:node:0ce38b83fabd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a9bd413b883",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance",
+      "source_spans": [
+        {
+          "text": "Trembling aspen... commonly regenerates via root suckering and, to a lesser extent, stump sprouting after aboveground disturbance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-018-09698-2",
+        "title": "Trembling aspen root suckering and stump sprouting response to above ground disturbance on a reclaimed boreal oil sands site in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Jean, Stephanie A.",
+          "Pinno, Bradley D.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

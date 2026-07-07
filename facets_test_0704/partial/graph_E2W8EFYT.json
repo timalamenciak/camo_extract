@@ -1,0 +1,490 @@
+{
+  "graph_id": "causal_mosaic:graph:11e77650084c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T17:30:52.536765+00:00",
+    "source_corpus": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:03e615cd475e",
+      "name": "naturally-regenerated post-harvest stands",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4baaaceb04",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f4b7c284782",
+      "name": "Abundance of hardwoods, shrubs, and herbaceous plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2200ba882",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9611a5171bb6",
+      "name": "logging",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dc2fb398d8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Relative to fire, disturbance from logging tends to lower dominance by conifer trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6572c6d83ee4",
+      "name": "dominance by conifer trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9dc787feb6",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "dominance",
+      "source_spans": [
+        {
+          "text": "Relative to fire, disturbance from logging tends to lower dominance by conifer trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d8a1cbbae33",
+      "name": "Planting and herbicide-spraying",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6dfd645bb0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Planting and herbicide-spraying accelerate succession toward conifer-dominance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0acaaa6336a4",
+      "name": "succession toward conifer-dominance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_71e39954a9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Planting and herbicide-spraying accelerate succession toward conifer-dominance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:106c0b10575a",
+      "name": "percentage of the landscape around the plots that was harvested and naturally regenerated (CUT)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_049c2c7bf0",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "percentage",
+      "source_spans": [
+        {
+          "text": "The percentage of the landscape around the plots that was harvested and naturally regenerated (CUT) at a scale of 10 km2 was significantly correlated with moose pellet counts"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f973e16a6963",
+      "name": "moose pellet counts",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a88d4b825",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "pellet counts",
+      "source_spans": [
+        {
+          "text": "The percentage of the landscape around the plots that was harvested and naturally regenerated (CUT) at a scale of 10 km2 was significantly correlated with moose pellet counts"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c20a04187ed",
+      "name": "Silvicultural investment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2badc6a5e7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Silvicultural investment was important in determining understory"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:89f4669af0ef",
+      "name": "understory",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000335",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Silvicultural investment was important in determining understory"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eec0679aac38",
+      "name": "conifer-dominance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_47905cd69d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Allelopathic effects likely contribute to lower vascular plant cover as a result of conifer-dominance associated with more intensive silviculture"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f82195c0ee7f",
+      "name": "vascular plant cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ac1f14f0a0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Allelopathic effects likely contribute to lower vascular plant cover as a result of conifer-dominance associated with more intensive silviculture"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a40c958937e1",
+      "name": "post-harvest, vegetation management",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f882198662",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our study supports the conclusion that post-harvest, vegetation management influences moose forage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:433fe845c554",
+      "name": "moose forage",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_efb600d819",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our study supports the conclusion that post-harvest, vegetation management influences moose forage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cb2008f0388d",
+      "name": "moose densities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2917084df8",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "densities",
+      "source_spans": [
+        {
+          "text": "Stands left to regenerate naturally after harvest were most likely to support increases in moose densities"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:58e2c2aeb42a",
+      "subject": "causal_mosaic:node:03e615cd475e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f4b7c284782",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands than in fire-origin and artificially regenerated post-harvest stands at both 10 and 30 years post-disturbance.",
+      "source_spans": [
+        {
+          "text": "Abundance of hardwoods, shrubs, and herbaceous plants was greater in naturally-regenerated post-harvest stands than in fire-origin and artificially regenerated post-harvest stands at both 10 and 30 years post-disturbance."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6e2679fe0f60",
+      "subject": "causal_mosaic:node:9611a5171bb6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6572c6d83ee4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Relative to fire, disturbance from logging tends to lower dominance by conifer trees",
+      "source_spans": [
+        {
+          "text": "Relative to fire, disturbance from logging tends to lower dominance by conifer trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:60575327d861",
+      "subject": "causal_mosaic:node:7d8a1cbbae33",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0acaaa6336a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Planting and herbicide-spraying accelerate succession toward conifer-dominance by establishing conifer stock and killing competing vegetation",
+      "source_spans": [
+        {
+          "text": "Planting and herbicide-spraying accelerate succession toward conifer-dominance by establishing conifer stock and killing competing vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:374b6c7c059d",
+      "subject": "causal_mosaic:node:106c0b10575a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f973e16a6963",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "The percentage of the landscape around the plots that was harvested and naturally regenerated (CUT) at a scale of 10 km2 was significantly correlated with moose pellet counts in 10-year-old stands",
+      "source_spans": [
+        {
+          "text": "The percentage of the landscape around the plots that was harvested and naturally regenerated (CUT) at a scale of 10 km2 was significantly correlated with moose pellet counts in 10-year-old stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a6ad942de69b",
+      "subject": "causal_mosaic:node:9c20a04187ed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:89f4669af0ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Silvicultural investment was important in determining understory, a critical component of habitat for ungulates.",
+      "source_spans": [
+        {
+          "text": "Silvicultural investment was important in determining understory, a critical component of habitat for ungulates."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a23f24a93d0c",
+      "subject": "causal_mosaic:node:eec0679aac38",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f82195c0ee7f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Allelopathic effects likely contribute to lower vascular plant cover as a result of conifer-dominance associated with more intensive silviculture.",
+      "source_spans": [
+        {
+          "text": "Allelopathic effects likely contribute to lower vascular plant cover as a result of conifer-dominance associated with more intensive silviculture."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5443e5f40f91",
+      "subject": "causal_mosaic:node:a40c958937e1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:433fe845c554",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our study supports the conclusion that post-harvest, vegetation management influences moose forage",
+      "source_spans": [
+        {
+          "text": "Our study supports the conclusion that post-harvest, vegetation management influences moose forage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8291b48c51c7",
+      "subject": "causal_mosaic:node:03e615cd475e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cb2008f0388d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stands left to regenerate naturally after harvest were most likely to support increases in moose densities, as a result of associated increases in mixed deciduous habitat abundant in forage",
+      "source_spans": [
+        {
+          "text": "Stands left to regenerate naturally after harvest were most likely to support increases in moose densities, as a result of associated increases in mixed deciduous habitat abundant in forage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.07.022",
+        "title": "Influence of post-harvest silviculture on understory vegetation: Implications for forage in a multi-ungulate system",
+        "year": 2011,
+        "authors": [
+          "Boan, Julee J.",
+          "McLaren, Brian E.",
+          "Malcolm, Jay R."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

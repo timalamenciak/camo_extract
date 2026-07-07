@@ -1,0 +1,323 @@
+{
+  "graph_id": "causal_mosaic:graph:a41af243a9e6",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T15:00:28.937805+00:00",
+    "source_corpus": "Climatic variability alters the outcome of long‐term community assembly",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9a053b1a4528",
+      "name": "selective herbicide applications",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fa0c104841",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "selective herbicide applications",
+          "start_char": 1029,
+          "end_char": 1061,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3134110d103f",
+      "name": "Native grass seed additions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_50d151d104",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Native grass seed additions",
+          "start_char": 932,
+          "end_char": 959,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b87843654e6a",
+      "name": "Bouteloua gracilis cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_71f6131cb2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "significantly higher B. gracilis cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c049a02da4f",
+      "name": "Agropyron cristatum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e553ca9eb0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "significantly lower A. cristatum cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d4213776027",
+      "name": "Native C3 grasses",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_947907fb21",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "All seeded grasses, other than B. gracilis, were mostly absent by 2004"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44d49d859d2d",
+      "name": "plot diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fbcdaf1a2f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Total species richness, however, was significantly higher in plots treated with herbicide until 2003"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:753ba442efd3",
+      "name": "monthly growing-season precipitation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_efbce414ab",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "precipitation",
+      "source_spans": [
+        {
+          "text": "variations in monthly growing-season precipitation from 68-year averages",
+          "start_char": 1361,
+          "end_char": 1433,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ec525666fb4b",
+      "subject": "causal_mosaic:node:9a053b1a4528",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b87843654e6a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Dominance by B. gracilis only occurred when A. cristatum was treated with herbicide.",
+      "source_spans": [
+        {
+          "text": "Dominance by B. gracilis only occurred when A. cristatum was treated with herbicide."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2745.2007.01333.x",
+        "title": "Climatic variability alters the outcome of long‐term community assembly",
+        "year": 2008,
+        "authors": [
+          "MacDougall, Andrew S.",
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D."
+        ],
+        "journal": "Journal of Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:45b4260c87cc",
+      "subject": "causal_mosaic:node:9a053b1a4528",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c049a02da4f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plots seeded in 1995 and herbicide-treated, and to a lesser degree in 1994, had significantly higher B. gracilis cover and significantly lower A. cristatum cover compared to herbicide-treated but unseeded plots",
+      "source_spans": [
+        {
+          "text": "plots seeded in 1995 and herbicide-treated, and to a lesser degree in 1994, had significantly higher B. gracilis cover and significantly lower A. cristatum cover compared to herbicide-treated but unseeded plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2745.2007.01333.x",
+        "title": "Climatic variability alters the outcome of long‐term community assembly",
+        "year": 2008,
+        "authors": [
+          "MacDougall, Andrew S.",
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D."
+        ],
+        "journal": "Journal of Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d478ff4f379a",
+      "subject": "causal_mosaic:node:3134110d103f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b87843654e6a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plots seeded in 1995 and herbicide-treated, and to a lesser degree in 1994, had significantly higher B. gracilis cover and significantly lower A. cristatum cover compared to herbicide-treated but unseeded plots",
+      "source_spans": [
+        {
+          "text": "plots seeded in 1995 and herbicide-treated, and to a lesser degree in 1994, had significantly higher B. gracilis cover and significantly lower A. cristatum cover compared to herbicide-treated but unseeded plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2745.2007.01333.x",
+        "title": "Climatic variability alters the outcome of long‐term community assembly",
+        "year": 2008,
+        "authors": [
+          "MacDougall, Andrew S.",
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D."
+        ],
+        "journal": "Journal of Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:56865e49b0d7",
+      "subject": "causal_mosaic:node:753ba442efd3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b87843654e6a",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The establishment success of B. gracilis was associated with variations in climate conditions in the spring and summer of the establishment years",
+      "source_spans": [
+        {
+          "text": "The establishment success of B. gracilis was associated with variations in climate conditions in the spring and summer of the establishment years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2745.2007.01333.x",
+        "title": "Climatic variability alters the outcome of long‐term community assembly",
+        "year": 2008,
+        "authors": [
+          "MacDougall, Andrew S.",
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D."
+        ],
+        "journal": "Journal of Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5bdd0eae8f6b",
+      "subject": "causal_mosaic:node:9a053b1a4528",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:44d49d859d2d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total species richness, however, was significantly higher in plots treated with herbicide until 2003",
+      "source_spans": [
+        {
+          "text": "Total species richness, however, was significantly higher in plots treated with herbicide until 2003"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2745.2007.01333.x",
+        "title": "Climatic variability alters the outcome of long‐term community assembly",
+        "year": 2008,
+        "authors": [
+          "MacDougall, Andrew S.",
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D."
+        ],
+        "journal": "Journal of Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b4bf9c6e032b",
+      "subject": "causal_mosaic:node:3134110d103f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3d4213776027",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All seeded grasses, other than B. gracilis, were mostly absent by 2004.",
+      "source_spans": [
+        {
+          "text": "All seeded grasses, other than B. gracilis, were mostly absent by 2004."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2745.2007.01333.x",
+        "title": "Climatic variability alters the outcome of long‐term community assembly",
+        "year": 2008,
+        "authors": [
+          "MacDougall, Andrew S.",
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D."
+        ],
+        "journal": "Journal of Ecology"
+      }
+    }
+  ]
+}

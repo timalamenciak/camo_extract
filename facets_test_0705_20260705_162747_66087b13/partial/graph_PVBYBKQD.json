@@ -1,0 +1,502 @@
+{
+  "graph_id": "causal_mosaic:graph:4a4cda57dec5",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T09:03:20.272647+00:00",
+    "source_corpus": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:35d369ac45a1",
+      "name": "Winter road clearances",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bc28d37aa0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "winter road clearances",
+          "start_char": 7333,
+          "end_char": 7355,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3344d86f5215",
+      "name": "Active layer thickness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8a8e10aac0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "significantly thinner active layer",
+          "start_char": 2087,
+          "end_char": 2121,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c4cc227e4520",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3695aa3b9e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "returned within 5 years to similar levels"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:05b18f495076",
+      "name": "Species richness per quadrat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b00c5e8233",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "species richness per quadrat remained lower"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1a1dd0a19c20",
+      "name": "Species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20f280f92b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "species composition differed",
+          "start_char": 2357,
+          "end_char": 2385,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0114a8a90f47",
+      "name": "Surface elevation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9b47ff7f7",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "No differences in surface elevation",
+          "start_char": 1869,
+          "end_char": 1904,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51d5f31c6932",
+      "name": "Black spruce frequency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8db08628d4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "black spruce remained less frequent",
+          "start_char": 30768,
+          "end_char": 30803,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1367d8d45be4",
+      "name": "Sphagnum frequency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_feb3cefeb6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Sphagnum species were generally less frequent",
+          "start_char": 32114,
+          "end_char": 32159,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0db97b36acea",
+      "name": "Abandonment of winter roads",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f79aa492b3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "abandonment",
+          "start_char": 1332,
+          "end_char": 1343,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6bcdc5098229",
+      "name": "Lack of vegetation structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eaa5c7c7b7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "lack of vegetation structure",
+          "start_char": 33563,
+          "end_char": 33591,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:73ecd0f5a5d6",
+      "name": "Slow return of Sphagnum",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1116cfbc49",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "slow return of Sphagnum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07ae5680db57",
+      "name": "Recovery of peatlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4d6b83e011",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "recovery of peatlands",
+          "start_char": 33699,
+          "end_char": 33720,
+          "paragraph_id": "page:8"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:fa5908feab10",
+      "subject": "causal_mosaic:node:35d369ac45a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3344d86f5215",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "clearances had significantly thinner active layer, which persisted at least 7 years after abandonment.",
+      "source_spans": [
+        {
+          "text": "clearances had significantly thinner active layer, which persisted at least 7 years after abandonment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6a2ed1d4bbf0",
+      "subject": "causal_mosaic:node:0db97b36acea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c4cc227e4520",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover of lichens, bryophytes, and vascular plants returned within 5 years to similar levels as in undisturbed peatlands",
+      "source_spans": [
+        {
+          "text": "The cover of lichens, bryophytes, and vascular plants returned within 5 years to similar levels as in undisturbed peatlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:42c219a50f97",
+      "subject": "causal_mosaic:node:35d369ac45a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:05b18f495076",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "species richness per quadrat remained lower and species composition differed.",
+      "source_spans": [
+        {
+          "text": "species richness per quadrat remained lower and species composition differed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:652d0e723d14",
+      "subject": "causal_mosaic:node:35d369ac45a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1a1dd0a19c20",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "species composition differed significantly between the roads and the adjacent undisturbed peatland",
+      "source_spans": [
+        {
+          "text": "species composition differed significantly between the roads and the adjacent undisturbed peatland"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f295070d391f",
+      "subject": "causal_mosaic:node:35d369ac45a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0114a8a90f47",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "No differences in surface elevation and hummock-hollow microtopography were detected between road clearances and adjacent peatlands",
+      "source_spans": [
+        {
+          "text": "No differences in surface elevation and hummock-hollow microtopography were detected between road clearances and adjacent peatlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:059208a5d554",
+      "subject": "causal_mosaic:node:35d369ac45a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:51d5f31c6932",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "black spruce remained less frequent in quadrats on the road clearances as in adjacent undisturbed peatland",
+      "source_spans": [
+        {
+          "text": "black spruce remained less frequent in quadrats on the road clearances as in adjacent undisturbed peatland"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:40127bb586be",
+      "subject": "causal_mosaic:node:35d369ac45a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1367d8d45be4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum species were generally less frequent on winter road clearances",
+      "source_spans": [
+        {
+          "text": "Sphagnum species were generally less frequent on winter road clearances"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:40dfeebfb83a",
+      "subject": "causal_mosaic:node:6bcdc5098229",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3344d86f5215",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "This lack of vegetation structure may cause the thinner active layer over road clearances.",
+      "source_spans": [
+        {
+          "text": "This lack of vegetation structure may cause the thinner active layer over road clearances."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bcc3ca771521",
+      "subject": "causal_mosaic:node:73ecd0f5a5d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07ae5680db57",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The slow return of Sphagnum may also hamper the recovery of peatlands",
+      "source_spans": [
+        {
+          "text": "The slow return of Sphagnum may also hamper the recovery of peatlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1657/1938-4246-44.2.155",
+        "title": "Natural Revegetation of Winter Roads on Peatlands in the Hudson Bay Lowland, Canada",
+        "year": 2012,
+        "authors": [
+          "Campbell, Daniel",
+          "Bergeron, Jaimée"
+        ],
+        "journal": "Arctic, Antarctic, and Alpine Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

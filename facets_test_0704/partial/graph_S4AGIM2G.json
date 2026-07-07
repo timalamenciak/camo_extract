@@ -1,0 +1,576 @@
+{
+  "graph_id": "causal_mosaic:graph:9ba1fc8f50a1",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T23:24:57.447642+00:00",
+    "source_corpus": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:11b11ef96e2e",
+      "name": "Industrial mining activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1439b08690",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The industrial mining activities, conducted in the Sudbury ar ea (Ontario, Canada) over the last 100 years, have had a significant environmental impact on the local ecosystems in the region."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e2a58ffef281",
+      "name": "Environmental impact",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e5d7c351b1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The industrial mining activities, conducted in the Sudbury ar ea (Ontario, Canada) over the last 100 years, have had a significant environmental impact on the local ecosystems in the region."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0cc67bd19827",
+      "name": "Natural vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_18c316a5bc",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The natural vegetation in the region was seriously affected, resulting in the loss of a significant portion of the vegetated cover and leading to soil erosion."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29f3e869eaed",
+      "name": "Soil erosion",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000706",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The natural vegetation in the region was seriously affected, resulting in the loss of a significant portion of the vegetated cover and leading to soil erosion."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa615c444890",
+      "name": "Liming",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d1a3a0df4b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a58de1875bfe",
+      "name": "Soil acidity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cce46f3e62",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f04666f787d7",
+      "name": "Metal contaminants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a7b6abe65f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66c69ee37e83",
+      "name": "Soil and atmospheric conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a7e420761",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The results of the study indicate that as the soil and atmospheric conditions improved, the vegetation cover showed reasonable expansion in size for a larger number of restoration sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88a261201ded",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The results of the study indicate that as the soil and atmospheric conditions improved, the vegetation cover showed reasonable expansion in size for a larger number of restoration sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c9d41784824a",
+      "name": "Re-vegetated polygons",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3d7ad32cff",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Many re-vegetated polygons are displaying a pattern of tree growth while few ones are displaying negative/or lack of growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c35964a2f87e",
+      "name": "Tree growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d254b7119d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Many re-vegetated polygons are displaying a pattern of tree growth while few ones are displaying negative/or lack of growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dfef92845ab4",
+      "name": "Healthy tree growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_30a957836a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "those planted in 1981, 1982, and 1989 (Figures 3c, d, and f) are showing lack of healthy tree growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a489b2abf38e",
+      "name": "Proximity to mining smelting activities",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_af70946e1a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Areas in close proximity to the mining smelting activities are also displaying healthy progress in the time span covered by the image data."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f17644e8be5",
+      "name": "Healthy progress",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8034d1b197",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Areas in close proximity to the mining smelting activities are also displaying healthy progress in the time span covered by the image data."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18dcd653b2ea",
+      "name": "Forest health",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2faa38cd6",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Areas of natural forests... have not been affected by the mining activities and, hence, portraying little to no-change in the forest health"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1c21bc104f1d",
+      "subject": "causal_mosaic:node:11b11ef96e2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e2a58ffef281",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The industrial mining activities, conducted in the Sudbury ar ea (Ontario, Canada) over the last 100 years, have had a significant environmental impact on the local ecosystems in the region.",
+      "source_spans": [
+        {
+          "text": "The industrial mining activities, conducted in the Sudbury ar ea (Ontario, Canada) over the last 100 years, have had a significant environmental impact on the local ecosystems in the region."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1edeb8b8addf",
+      "subject": "causal_mosaic:node:11b11ef96e2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0cc67bd19827",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The natural vegetation in the region was seriously affected, resulting in the loss of a significant portion of the vegetated cover and leading to soil erosion.",
+      "source_spans": [
+        {
+          "text": "The natural vegetation in the region was seriously affected, resulting in the loss of a significant portion of the vegetated cover and leading to soil erosion."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:19f49c37f4e4",
+      "subject": "causal_mosaic:node:11b11ef96e2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:29f3e869eaed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The natural vegetation in the region was seriously affected, resulting in the loss of a significant portion of the vegetated cover and leading to soil erosion.",
+      "source_spans": [
+        {
+          "text": "The natural vegetation in the region was seriously affected, resulting in the loss of a significant portion of the vegetated cover and leading to soil erosion."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ca7f655f583f",
+      "subject": "causal_mosaic:node:fa615c444890",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a58de1875bfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants.",
+      "source_spans": [
+        {
+          "text": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:71b3ec9fd683",
+      "subject": "causal_mosaic:node:fa615c444890",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f04666f787d7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants.",
+      "source_spans": [
+        {
+          "text": "Areas with significant disturbance and barren regions were limed to reduce soil acidity and immobilize metal contaminants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c2f2974588b9",
+      "subject": "causal_mosaic:node:66c69ee37e83",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:88a261201ded",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "The results of the study indicate that as the soil and atmospheric conditions improved, the vegetation cover showed reasonable expansion in size for a larger number of restoration sites.",
+      "source_spans": [
+        {
+          "text": "The results of the study indicate that as the soil and atmospheric conditions improved, the vegetation cover showed reasonable expansion in size for a larger number of restoration sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:93885dd0fb50",
+      "subject": "causal_mosaic:node:c9d41784824a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c35964a2f87e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Many re-vegetated polygons are displaying a pattern of tree growth while few ones are displaying negative/or lack of growth.",
+      "source_spans": [
+        {
+          "text": "Many re-vegetated polygons are displaying a pattern of tree growth while few ones are displaying negative/or lack of growth."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4f40258637a8",
+      "subject": "causal_mosaic:node:c9d41784824a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfef92845ab4",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "those planted in 1981, 1982, and 1989 (Figures 3c, d, and f) are showing lack of healthy tree growth.",
+      "source_spans": [
+        {
+          "text": "those planted in 1981, 1982, and 1989 (Figures 3c, d, and f) are showing lack of healthy tree growth."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:88c67d9e7f1a",
+      "subject": "causal_mosaic:node:a489b2abf38e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f17644e8be5",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Areas in close proximity to the mining smelting activities are also displaying healthy progress in the time span covered by the image data.",
+      "source_spans": [
+        {
+          "text": "Areas in close proximity to the mining smelting activities are also displaying healthy progress in the time span covered by the image data."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:23f74922391a",
+      "subject": "causal_mosaic:node:11b11ef96e2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18dcd653b2ea",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Areas of natural forests... have not been affected by the mining activities and, hence, portraying little to no-change in the forest health",
+      "source_spans": [
+        {
+          "text": "Areas of natural forests... have not been affected by the mining activities and, hence, portraying little to no-change in the forest health"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1109/AMTRSI.2005.1469879",
+        "title": "Use of multi-temporal remotely sensed data for monitoring land reclamation in Sudbury, Ontario (Canada)",
+        "year": 2005,
+        "authors": [
+          "Abuelgasim, A.",
+          "Chan-jo Chung",
+          "Champagne, C.",
+          "Staenz, K.",
+          "Monet, S.",
+          "Ko Fung"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

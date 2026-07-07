@@ -1,0 +1,302 @@
+{
+  "graph_id": "causal_mosaic:graph:e5c156fc118a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T14:02:17.317459+00:00",
+    "source_corpus": "Evaluating the Barrier Assessment Technique Derived from FishXing Software and the Upstream Movement of Brook Trout through Road Culverts",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f9a9c991d592",
+      "name": "culverts",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_393818c639",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Comparison of movements of PIT-tagged Brook Trout in reference sites and culverts indicated that culverts impair fish passage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92adaed25848",
+      "name": "fish passage",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6afd041f0f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Comparison of movements of PIT-tagged Brook Trout in reference sites and culverts indicated that culverts impair fish passage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea2320178a05",
+      "name": "range of passable flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aaa2ba0028",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "By comparing the range of passable flows between reference sites and stream culverts we determined there was a decreased range of passable flows through culverts."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6982ee611330",
+      "name": "velocity barriers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_56c8c2b42c",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The decreased range of passable flows in culverts A, B, and C support the presence of a velocity barrier."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:672580adc24a",
+      "name": "FishXing predictions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7b8bd5dc6f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "FishXing predictions of suitable fish passage discharges were conservative, and tagged fish successfully navigated partial barriers that were at least 2–3 times the upper limits of stream flow predicted to allow successful passage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:52a5b2adf369",
+      "name": "stream flow predicted to allow successful passage",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc485a863e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "FishXing predictions of suitable fish passage discharges were conservative, and tagged fish successfully navigated partial barriers that were at least 2–3 times the upper limits of stream flow predicted to allow successful passage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:30f8b6aaa48b",
+      "name": "fish swimming abilities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e408c3fc16",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The underestimation of fish swimming abilities can account for the conservative estimates by FishXing."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:814b457fccb8",
+      "name": "conservative estimates by FishXing",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4e94b96ced",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The underestimation of fish swimming abilities can account for the conservative estimates by FishXing."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:83e966e7a933",
+      "subject": "causal_mosaic:node:f9a9c991d592",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92adaed25848",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Comparison of movements of PIT-tagged Brook Trout in reference sites and culverts indicated that culverts impair fish passage.",
+      "source_spans": [
+        {
+          "text": "Comparison of movements of PIT-tagged Brook Trout in reference sites and culverts indicated that culverts impair fish passage."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/00028487.2013.825641",
+        "title": "Evaluating the Barrier Assessment Technique Derived from FishXing Software and the Upstream Movement of Brook Trout through Road Culverts",
+        "year": 2014,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Kehler, Dan",
+          "Clarke, Keith D."
+        ],
+        "journal": "Trans Am Fish Soc"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0006d46b8119",
+      "subject": "causal_mosaic:node:f9a9c991d592",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ea2320178a05",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "By comparing the range of passable flows between reference sites and stream culverts we determined there was a decreased range of passable flows through culverts.",
+      "source_spans": [
+        {
+          "text": "By comparing the range of passable flows between reference sites and stream culverts we determined there was a decreased range of passable flows through culverts."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/00028487.2013.825641",
+        "title": "Evaluating the Barrier Assessment Technique Derived from FishXing Software and the Upstream Movement of Brook Trout through Road Culverts",
+        "year": 2014,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Kehler, Dan",
+          "Clarke, Keith D."
+        ],
+        "journal": "Trans Am Fish Soc"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79f2d7b81913",
+      "subject": "causal_mosaic:node:f9a9c991d592",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6982ee611330",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The decreased range of passable flows in culverts A, B, and C support the presence of a velocity barrier.",
+      "source_spans": [
+        {
+          "text": "The decreased range of passable flows in culverts A, B, and C support the presence of a velocity barrier."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/00028487.2013.825641",
+        "title": "Evaluating the Barrier Assessment Technique Derived from FishXing Software and the Upstream Movement of Brook Trout through Road Culverts",
+        "year": 2014,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Kehler, Dan",
+          "Clarke, Keith D."
+        ],
+        "journal": "Trans Am Fish Soc"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:afaa51e84c42",
+      "subject": "causal_mosaic:node:672580adc24a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:52a5b2adf369",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "FishXing predictions of suitable fish passage discharges were conservative, and tagged fish successfully navigated partial barriers that were at least 2–3 times the upper limits of stream flow predicted to allow successful passage.",
+      "source_spans": [
+        {
+          "text": "FishXing predictions of suitable fish passage discharges were conservative, and tagged fish successfully navigated partial barriers that were at least 2–3 times the upper limits of stream flow predicted to allow successful passage."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/00028487.2013.825641",
+        "title": "Evaluating the Barrier Assessment Technique Derived from FishXing Software and the Upstream Movement of Brook Trout through Road Culverts",
+        "year": 2014,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Kehler, Dan",
+          "Clarke, Keith D."
+        ],
+        "journal": "Trans Am Fish Soc"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e4e02f699f3",
+      "subject": "causal_mosaic:node:30f8b6aaa48b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:814b457fccb8",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The underestimation of fish swimming abilities can account for the conservative estimates by FishXing.",
+      "source_spans": [
+        {
+          "text": "The underestimation of fish swimming abilities can account for the conservative estimates by FishXing."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/00028487.2013.825641",
+        "title": "Evaluating the Barrier Assessment Technique Derived from FishXing Software and the Upstream Movement of Brook Trout through Road Culverts",
+        "year": 2014,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Kehler, Dan",
+          "Clarke, Keith D."
+        ],
+        "journal": "Trans Am Fish Soc"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

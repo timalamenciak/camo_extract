@@ -1,0 +1,510 @@
+{
+  "graph_id": "causal_mosaic:graph:3a2d23fd6fc9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T19:32:36.124216+00:00",
+    "source_corpus": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f94743c4e1d6",
+      "name": "Reforestation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1aed8cb5e5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3a2577e2288c",
+      "name": "Soil restoration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_19cb61beb4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5d8d0027e26",
+      "name": "Soil bulk density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e7b8612a42",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86ef08f85b14",
+      "name": "Fertility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c570cf749d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92b9e489a080",
+      "name": "Soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7bb244f764",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bfa5d767bea1",
+      "name": "Soil organic C",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee3b155cec",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c92f939c023b",
+      "name": "Total N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fe1ce192a3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d4c2156cd94",
+      "name": "Available P",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a0ce2dc2b2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92dfe1730918",
+      "name": "Erosion",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9c23203c1a",
+      "state_or_change_qualifier": "terminated",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04bc440eb9b5",
+      "name": "Deflation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_efff928d7f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deflation, a regressive pedogenic process (Johnson and Watson-Stegner 1987), is a major contributor to soil degradation because organic matter and nutrient loss coincide with removal of topsoil and subsoil (Lyles 1975; Larney et al. 1998)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8edbc16a7db1",
+      "name": "Soil degradation",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000705",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Extensive deforestation after early European settlement followed by cultivation and pasturing of the land resulted in widespread soil degradation during the late 1800s and early 1900s, leading to eventual abandonment of farmlands (Carman 1941; Chapman and Putnam 1984; Wood 1991)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3ea49f90d8af",
+      "name": "Extensive deforestation followed by cultivation and pasturing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_42ebb56b50",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Extensive deforestation after early European settlement followed by cultivation and pasturing of the land resulted in widespread soil degradation during the late 1800s and early 1900s, leading to eventual abandonment of farmlands (Carman 1941; Chapman and Putnam 1984; Wood 1991)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:af63c9048225",
+      "subject": "causal_mosaic:node:3ea49f90d8af",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8edbc16a7db1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Extensive deforestation after early European settlement followed by cultivation and pasturing of the land resulted in widespread soil degradation during the late 1800s and early 1900s, leading to eventual abandonment of farmlands (Carman 1941; Chapman and Putnam 1984; Wood 1991).",
+      "source_spans": [
+        {
+          "text": "Extensive deforestation after early European settlement followed by cultivation and pasturing of the land resulted in widespread soil degradation during the late 1800s and early 1900s, leading to eventual abandonment of farmlands (Carman 1941; Chapman and Putnam 1984; Wood 1991)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6c22a272ed3e",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3a2577e2288c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil.",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e5f03544c88",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f5d8d0027e26",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil.",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c1904f40792d",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86ef08f85b14",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil.",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:63558bdf2a4b",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92b9e489a080",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil.",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:784068dfd72f",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bfa5d767bea1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites.",
+      "source_spans": [
+        {
+          "text": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d46dc1dbb4a5",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c92f939c023b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites.",
+      "source_spans": [
+        {
+          "text": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e6088a60a8d",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3d4c2156cd94",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites.",
+      "source_spans": [
+        {
+          "text": "Chronofunctions revealed substantial recovery in soil organic C, total N, available P, and exchangeable K, Ca and Mg status within 75 yr of initial reforestation on non-deflated, fallowed sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:34487ea41554",
+      "subject": "causal_mosaic:node:f94743c4e1d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92dfe1730918",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil.",
+      "source_spans": [
+        {
+          "text": "After reforestation, soil restoration was characterized by cessation of erosion, accelerated horizon development and differentiation, reduced soil bulk density, and increased fertility and acidification of the soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:893b2a613d0a",
+      "subject": "causal_mosaic:node:04bc440eb9b5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8edbc16a7db1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deflation, a regressive pedogenic process (Johnson and Watson-Stegner 1987), is a major contributor to soil degradation because organic matter and nutrient loss coincide with removal of topsoil and subsoil (Lyles 1975; Larney et al. 1998).",
+      "source_spans": [
+        {
+          "text": "Deflation, a regressive pedogenic process (Johnson and Watson-Stegner 1987), is a major contributor to soil degradation because organic matter and nutrient loss coincide with removal of topsoil and subsoil (Lyles 1975; Larney et al. 1998)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4141/S01-084",
+        "title": "Amelioration of degraded soils under red pine plantations on the Oak Ridges Moraine, Ontario",
+        "year": 2002,
+        "authors": [
+          "McPherson, T S",
+          "Timmer, V R"
+        ],
+        "journal": "Can. J. Soil. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

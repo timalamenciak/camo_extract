@@ -1,0 +1,629 @@
+{
+  "graph_id": "causal_mosaic:graph:efe0e87ee2c5",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T06:56:09.707720+00:00",
+    "source_corpus": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c2392897edd8",
+      "name": "Cutting Treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_003c0ec515",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The experimental design compared four cutting treatments",
+          "start_char": 845,
+          "end_char": 901,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dad471c2d20f",
+      "name": "Mechanical Release Treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a9750f9b38",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "a mechanical release treatment was applied",
+          "start_char": 1507,
+          "end_char": 1549,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d7b115a89b7",
+      "name": "Light Availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcecb2ea2a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "transmitted light",
+      "source_spans": [
+        {
+          "text": "The % of total transmitted light varied according to a consistent gradient"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38f4f2c2be85",
+      "name": "Seedling Survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Survival of planted seedlings decreased slightly and gradually over time"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:962249eac557",
+      "name": "Light-Saturated Photosynthesis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0b03ed750",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Amax",
+      "source_spans": [
+        {
+          "text": "Generally, Amax increased with cutting intensity",
+          "start_char": 23092,
+          "end_char": 23140,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:926bb1b8f650",
+      "name": "Specific Leaf Area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9aa488561",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "SLA",
+      "source_spans": [
+        {
+          "text": "In general, SLA decreased as cutting intensity increased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0936d74faff1",
+      "name": "Height Growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9c87a98c0",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "HG",
+      "source_spans": [
+        {
+          "text": "Generally, HG and DG were greater in cuts",
+          "start_char": 27367,
+          "end_char": 27408,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8ec9e5318688",
+      "name": "Diameter Growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d82684edc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "DG",
+      "source_spans": [
+        {
+          "text": "Generally, HG and DG were greater in cuts",
+          "start_char": 27367,
+          "end_char": 27408,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:faf5b183c0d9",
+      "name": "Number Of Branches Composing The Annual Whorl",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_507b4fbe71",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "NBW",
+      "source_spans": [
+        {
+          "text": "Overall, released seedlings also had greater NBW"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e611ddd5625d",
+      "name": "Number Of Annual Internodal Branches",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_82419651f5",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "NIB",
+      "source_spans": [
+        {
+          "text": "release enhanced NIB only in cuts"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2b99ebccd846",
+      "subject": "causal_mosaic:node:c2392897edd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d7b115a89b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The % of total transmitted light varied according to a consistent gradient (heavy cut > moderate cut > light cut > uncut control)",
+      "source_spans": [
+        {
+          "text": "The % of total transmitted light varied according to a consistent gradient (heavy cut > moderate cut > light cut > uncut control)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3fcfbc001d5",
+      "subject": "causal_mosaic:node:c2392897edd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38f4f2c2be85",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Survival of planted seedlings decreased slightly and gradually over time. By 2016, it reached 84% in the heavy and moderate cuts, and 77% in the light cut... In the control, survival dropped rapidly... to 37% by 2016.",
+      "source_spans": [
+        {
+          "text": "Survival of planted seedlings decreased slightly and gradually over time. By 2016, it reached 84% in the heavy and moderate cuts, and 77% in the light cut... In the control, survival dropped rapidly... to 37% by 2016."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a2cf2a84ac4",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38f4f2c2be85",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Release enhanced survival only in the control (+12%) and in the light cut (+21%)",
+      "source_spans": [
+        {
+          "text": "Release enhanced survival only in the control (+12%) and in the light cut (+21%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:adbb5546e2c0",
+      "subject": "causal_mosaic:node:c2392897edd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:962249eac557",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Generally, Amax increased with cutting intensity",
+      "source_spans": [
+        {
+          "text": "Generally, Amax increased with cutting intensity",
+          "start_char": 23092,
+          "end_char": 23140,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:781222385cf6",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:962249eac557",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Released seedlings had significantly greater Amax only in the heavy cut",
+      "source_spans": [
+        {
+          "text": "Released seedlings had significantly greater Amax only in the heavy cut"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d7cbd56028bc",
+      "subject": "causal_mosaic:node:c2392897edd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:926bb1b8f650",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In general, SLA decreased as cutting intensity increased",
+      "source_spans": [
+        {
+          "text": "In general, SLA decreased as cutting intensity increased"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2bf53c406f6",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:926bb1b8f650",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Release reduced SLA to a similar extent in all cuts",
+      "source_spans": [
+        {
+          "text": "Release reduced SLA to a similar extent in all cuts"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:21943b5dfa74",
+      "subject": "causal_mosaic:node:c2392897edd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0936d74faff1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Generally, HG and DG were greater in cuts than in the control",
+      "source_spans": [
+        {
+          "text": "Generally, HG and DG were greater in cuts than in the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0617d0e8eddc",
+      "subject": "causal_mosaic:node:c2392897edd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ec9e5318688",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Generally, HG and DG were greater in cuts than in the control",
+      "source_spans": [
+        {
+          "text": "Generally, HG and DG were greater in cuts than in the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8cec62277e8e",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0936d74faff1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Released seedlings had greater HG and DG only in cuts",
+      "source_spans": [
+        {
+          "text": "Released seedlings had greater HG and DG only in cuts"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6753610408d8",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ec9e5318688",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Released seedlings had greater HG and DG only in cuts",
+      "source_spans": [
+        {
+          "text": "Released seedlings had greater HG and DG only in cuts"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0469b084e32b",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:faf5b183c0d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, released seedlings also had greater NBW",
+      "source_spans": [
+        {
+          "text": "Overall, released seedlings also had greater NBW"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e73885d6575a",
+      "subject": "causal_mosaic:node:dad471c2d20f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e611ddd5625d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "release enhanced NIB only in cuts",
+      "source_spans": [
+        {
+          "text": "release enhanced NIB only in cuts"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118514",
+        "title": "Eight-year ecophysiology and growth dynamics of Picea rubens seedlings planted in harvest gaps of partially cut stands",
+        "year": 2020,
+        "authors": [
+          "Dumais, Daniel",
+          "Raymond, Patricia",
+          "Prévost, Marcel"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "graph_id": "causal_mosaic:graph:1c0fb0164e1d",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T05:12:43.104593+00:00",
+    "source_corpus": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b29c6c772069",
+      "name": "Disturbances that remove or disrupt the organic layer of soils",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_516c417971",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Disturbances that remove or disrupt the organic layer of soils substantially affect the composition of ectomycorrhizal fungal communities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d06a020522c",
+      "name": "composition of ectomycorrhizal fungal communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_455e9151a2",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "community composition",
+      "source_spans": [
+        {
+          "text": "Disturbances that remove or disrupt the organic layer of soils substantially affect the composition of ectomycorrhizal fungal communities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:258ec01a4a98",
+      "name": "disturbance severity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_35577ca115",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Shifts in the community composition of ectomycorrhizal fungi were driven to a greater extent by disturbance severity than either tree species planted or soil placement."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aee84fa45365",
+      "name": "EcM fungal OTU richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_97c89cf5bd",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Ectomycorrhizal fungal OTU richness varied across host seedlings differing in age... with EcM fungal OTU richness highest on 4-year-old seedlings compared to 1- and 2-year-old seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d9432e0eb898",
+      "name": "tree species planted",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a90662b276",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "EcM fungal community composition differed among the three host species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:27937ff238dc",
+      "name": "soil placement",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f517e237e2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "EcM fungal community composition differed among FFM, peat, and subsoil on 4-year-old seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bc7ceb27963c",
+      "name": "time",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3832761520",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ectomycorrhizal fungal OTU richness varied across host seedlings differing in age"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7ddbfa1973e9",
+      "name": "EcM fungal community composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9044b48242",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "community composition",
+      "source_spans": [
+        {
+          "text": "EcM fungal community composition differed among the three host species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:33be1991b9e3",
+      "name": "EcM fungal OTU richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_97c89cf5bd",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Ectomycorrhizal fungal OTU richness varied by disturbance severity... lowest where trees and forest floor had been removed"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7495ed30dcc0",
+      "subject": "causal_mosaic:node:b29c6c772069",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d06a020522c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Disturbances that remove or disrupt the organic layer of soils substantially affect the composition of ectomycorrhizal fungal communities.",
+      "source_spans": [
+        {
+          "text": "Disturbances that remove or disrupt the organic layer of soils substantially affect the composition of ectomycorrhizal fungal communities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12990",
+        "title": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+        "year": 2019,
+        "authors": [
+          "Pec, Gregory J.",
+          "Scott, Natalie M.",
+          "Hupperts, Stefan F.",
+          "Hankin, Shanon L.",
+          "Landhäusser, Simon M.",
+          "Karst, Justine"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:189ec194c732",
+      "subject": "causal_mosaic:node:258ec01a4a98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ddbfa1973e9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shifts in the community composition of ectomycorrhizal fungi were driven to a greater extent by disturbance severity than either tree species planted or soil placement.",
+      "source_spans": [
+        {
+          "text": "Shifts in the community composition of ectomycorrhizal fungi were driven to a greater extent by disturbance severity than either tree species planted or soil placement."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12990",
+        "title": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+        "year": 2019,
+        "authors": [
+          "Pec, Gregory J.",
+          "Scott, Natalie M.",
+          "Hupperts, Stefan F.",
+          "Hankin, Shanon L.",
+          "Landhäusser, Simon M.",
+          "Karst, Justine"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b186f898d66b",
+      "subject": "causal_mosaic:node:bc7ceb27963c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aee84fa45365",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ectomycorrhizal fungal OTU richness varied across host seedlings differing in age... with EcM fungal OTU richness highest on 4-year-old seedlings compared to 1- and 2-year-old seedlings",
+      "source_spans": [
+        {
+          "text": "Ectomycorrhizal fungal OTU richness varied across host seedlings differing in age... with EcM fungal OTU richness highest on 4-year-old seedlings compared to 1- and 2-year-old seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12990",
+        "title": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+        "year": 2019,
+        "authors": [
+          "Pec, Gregory J.",
+          "Scott, Natalie M.",
+          "Hupperts, Stefan F.",
+          "Hankin, Shanon L.",
+          "Landhäusser, Simon M.",
+          "Karst, Justine"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2d075148575c",
+      "subject": "causal_mosaic:node:d9432e0eb898",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ddbfa1973e9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "EcM fungal community composition differed among the three host species",
+      "source_spans": [
+        {
+          "text": "EcM fungal community composition differed among the three host species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12990",
+        "title": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+        "year": 2019,
+        "authors": [
+          "Pec, Gregory J.",
+          "Scott, Natalie M.",
+          "Hupperts, Stefan F.",
+          "Hankin, Shanon L.",
+          "Landhäusser, Simon M.",
+          "Karst, Justine"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:932426033ff6",
+      "subject": "causal_mosaic:node:27937ff238dc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ddbfa1973e9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "EcM fungal community composition differed among FFM, peat, and subsoil on 4-year-old seedlings",
+      "source_spans": [
+        {
+          "text": "EcM fungal community composition differed among FFM, peat, and subsoil on 4-year-old seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12990",
+        "title": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+        "year": 2019,
+        "authors": [
+          "Pec, Gregory J.",
+          "Scott, Natalie M.",
+          "Hupperts, Stefan F.",
+          "Hankin, Shanon L.",
+          "Landhäusser, Simon M.",
+          "Karst, Justine"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eaa778cc7bbe",
+      "subject": "causal_mosaic:node:258ec01a4a98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:33be1991b9e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ectomycorrhizal fungal OTU richness varied by disturbance severity... lowest where trees and forest floor had been removed",
+      "source_spans": [
+        {
+          "text": "Ectomycorrhizal fungal OTU richness varied by disturbance severity... lowest where trees and forest floor had been removed"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12990",
+        "title": "Restoration of belowground fungal communities in reclaimed landscapes of the Canadian boreal forest",
+        "year": 2019,
+        "authors": [
+          "Pec, Gregory J.",
+          "Scott, Natalie M.",
+          "Hupperts, Stefan F.",
+          "Hankin, Shanon L.",
+          "Landhäusser, Simon M.",
+          "Karst, Justine"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

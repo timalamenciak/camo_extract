@@ -1,0 +1,460 @@
+{
+  "graph_id": "causal_mosaic:graph:7ec61eed98d7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T04:36:37.396903+00:00",
+    "source_corpus": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:83b0a5767cc0",
+      "name": "Woody debris structures",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3bbe248ae2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Woody debris structures provided habitat on new clearcuts for M. gapperi at comparable or higher abundance than in uncut forest and 5.0 to 7.6 times higher than on dispersed sites in the first 5-year period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dba841378628",
+      "name": "Abundance of M. gapperi",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e3e50ed03d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Woody debris structures provided habitat on new clearcuts for M. gapperi at comparable or higher abundance than in uncut forest and 5.0 to 7.6 times higher than on dispersed sites in the first 5-year period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fce67e30e080",
+      "name": "Abundance of M. longicaudus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65ac854f8c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Mean abundance of M. longicaudus was consistently higher (2.8 to 3.5 times) in piles and windrows than in sites with dispersed woody debris over the first 5-year period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fda8164514c6",
+      "name": "Abundance of P. maniculatus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d79fd79577",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Mean abundance of P. maniculatus was similar among treatment sites and consistent over time."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5f972e4233b",
+      "name": "Abundance of N. amoenus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dd952b72c4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Mean abundance of N. amoenus was significantly different among treatment sites with the piles and windrows at consistently higher (DMRT; P = 0.05) numbers (2.5 to 5.7 times on average) than the dispersed and forest sites in 2007 –2011"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c078da709d29",
+      "name": "Abundance of total small mammals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e053e2a755",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Mean abundance of total small mammals was consistently higher (1.8 to 2.4 times) in piles and windrows than dispersed or forest sites in the first 5-year period and this pattern was continued at 11 –12 years post-construction."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Our results did not support H1 as abundance, species richness, and diversity were increased or maintained in the debris structures over the 12-year period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3aae2d3954f8",
+      "name": "Species diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38e5914f72",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species diversity",
+      "source_spans": [
+        {
+          "text": "Our results did not support H1 as abundance, species richness, and diversity were increased or maintained in the debris structures over the 12-year period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:72c337392e87",
+      "name": "Reproduction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e1faa103d3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "reproduction",
+      "source_spans": [
+        {
+          "text": "Reproduction and survival followed the pattern of abundance for the major species, and hence H2 was not supported."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2dfc51843a6a",
+      "name": "Survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Reproduction and survival followed the pattern of abundance for the major species, and hence H2 was not supported."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:bd14feabe25f",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dba841378628",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris structures provided habitat on new clearcuts for M. gapperi at comparable or higher abundance than in uncut forest and 5.0 to 7.6 times higher than on dispersed sites in the first 5-year period.",
+      "source_spans": [
+        {
+          "text": "Woody debris structures provided habitat on new clearcuts for M. gapperi at comparable or higher abundance than in uncut forest and 5.0 to 7.6 times higher than on dispersed sites in the first 5-year period."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c06448137fe2",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fce67e30e080",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean abundance of M. longicaudus was consistently higher (2.8 to 3.5 times) in piles and windrows than in sites with dispersed woody debris over the first 5-year period.",
+      "source_spans": [
+        {
+          "text": "Mean abundance of M. longicaudus was consistently higher (2.8 to 3.5 times) in piles and windrows than in sites with dispersed woody debris over the first 5-year period."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f43d94c961ca",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fda8164514c6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean abundance of P. maniculatus was similar among treatment sites and consistent over time.",
+      "source_spans": [
+        {
+          "text": "Mean abundance of P. maniculatus was similar among treatment sites and consistent over time."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2503e943c5d4",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f5f972e4233b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean abundance of N. amoenus was significantly different among treatment sites with the piles and windrows at consistently higher (DMRT; P = 0.05) numbers (2.5 to 5.7 times on average) than the dispersed and forest sites in 2007 –2011",
+      "source_spans": [
+        {
+          "text": "Mean abundance of N. amoenus was significantly different among treatment sites with the piles and windrows at consistently higher (DMRT; P = 0.05) numbers (2.5 to 5.7 times on average) than the dispersed and forest sites in 2007 –2011"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2e10e29030e1",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c078da709d29",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean abundance of total small mammals was consistently higher (1.8 to 2.4 times) in piles and windrows than dispersed or forest sites in the first 5-year period and this pattern was continued at 11 –12 years post-construction.",
+      "source_spans": [
+        {
+          "text": "Mean abundance of total small mammals was consistently higher (1.8 to 2.4 times) in piles and windrows than dispersed or forest sites in the first 5-year period and this pattern was continued at 11 –12 years post-construction."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6cbc6c60de39",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results did not support H1 as abundance, species richness, and diversity were increased or maintained in the debris structures over the 12-year period.",
+      "source_spans": [
+        {
+          "text": "Our results did not support H1 as abundance, species richness, and diversity were increased or maintained in the debris structures over the 12-year period."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c2e68f9bbb4",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3aae2d3954f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results did not support H1 as abundance, species richness, and diversity were increased or maintained in the debris structures over the 12-year period.",
+      "source_spans": [
+        {
+          "text": "Our results did not support H1 as abundance, species richness, and diversity were increased or maintained in the debris structures over the 12-year period."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:424958a30c2f",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:72c337392e87",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reproduction and survival followed the pattern of abundance for the major species, and hence H2 was not supported.",
+      "source_spans": [
+        {
+          "text": "Reproduction and survival followed the pattern of abundance for the major species, and hence H2 was not supported."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0907eaeb4fcc",
+      "subject": "causal_mosaic:node:83b0a5767cc0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2dfc51843a6a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reproduction and survival followed the pattern of abundance for the major species, and hence H2 was not supported.",
+      "source_spans": [
+        {
+          "text": "Reproduction and survival followed the pattern of abundance for the major species, and hence H2 was not supported."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117535",
+        "title": "Long-term functionality of woody debris structures for forest-floor small mammals on clearcuts",
+        "year": 2019,
+        "authors": [
+          "Sullivan, Thomas P.",
+          "Sullivan, Druscilla S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "graph_id": "causal_mosaic:graph:195ec25c7f06",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T07:01:22.187209+00:00",
+    "source_corpus": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6f9f833f6b25",
+      "name": "Transplanting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_16ac64d111",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "transplanting was the method chosen to introduce new stock into the degraded areas of the forest"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9669e2516439",
+      "name": "Return rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c295b24038",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survivorship",
+      "source_spans": [
+        {
+          "text": "return rates examining differences between the experimental blocks"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2a15de1b59c5",
+      "name": "aboveground biomass clipping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a30e981abd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Invasive species in the plots were controlled by aboveground biomass clipping"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:11297f0dd708",
+      "name": "biomass of exotic species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_adb855bf71",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "A decrease in the biomass of exotic species encountered was observed",
+          "start_char": 172878,
+          "end_char": 172946,
+          "paragraph_id": "page:83"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:65e78f20614e",
+      "name": "Podophyllum peltatum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q1572090",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Podophyllum peltatum",
+          "start_char": 1678,
+          "end_char": 1698,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ddaf1f51307f",
+      "name": "clonal individuals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_55be303e98",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0001555",
+      "source_spans": [
+        {
+          "text": "returning transplants spawning extra clonal individuals within the plots"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:877d1e5d0005",
+      "subject": "causal_mosaic:node:6f9f833f6b25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9669e2516439",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the spring of 2006, E. americanum and P. peltatum were planted at a density of 6 plants m-2, and C. thalictroides was transplanted into the plots at a density of 2 plants m-2. In the spring of 2007, second season survivorship was measured by counting the number of plants which returned to the plots. Erythronium americanum returned at a rate of 92%, P. peltatum at a rate of 97% and C. thalictroides at a rate of 100%.",
+      "source_spans": [
+        {
+          "text": "In the spring of 2006, E. americanum and P. peltatum were planted at a density of 6 plants m-2, and C. thalictroides was transplanted into the plots at a density of 2 plants m-2. In the spring of 2007, second season survivorship was measured by counting the number of plants which returned to the plots. Erythronium americanum returned at a rate of 92%, P. peltatum at a rate of 97% and C. thalictroides at a rate of 100%."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+        "year": 2007,
+        "authors": [
+          "Ferguson, Kristyn Alexis"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8baa171b1d96",
+      "subject": "causal_mosaic:node:2a15de1b59c5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:11297f0dd708",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Invasive species in the plots were controlled by aboveground biomass clipping during the same period. A decrease in the biomass of exotic species encountered was observed as the 2006 growing season neared an end.",
+      "source_spans": [
+        {
+          "text": "Invasive species in the plots were controlled by aboveground biomass clipping during the same period. A decrease in the biomass of exotic species encountered was observed as the 2006 growing season neared an end."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+        "year": 2007,
+        "authors": [
+          "Ferguson, Kristyn Alexis"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f773173b4a12",
+      "subject": "causal_mosaic:node:65e78f20614e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ddaf1f51307f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These included asexual plants returning as sexual plants, bearing flowers and producing fruit (P. peltatum and C. thalictroides), and returning transplants spawning extra clonal individuals within the plots (P. peltatum).",
+      "source_spans": [
+        {
+          "text": "These included asexual plants returning as sexual plants, bearing flowers and producing fruit (P. peltatum and C. thalictroides), and returning transplants spawning extra clonal individuals within the plots (P. peltatum)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Upland Hardwood Forest Restoration: Testing Combinations of Vegetation in the Progress of Early Restoration",
+        "year": 2007,
+        "authors": [
+          "Ferguson, Kristyn Alexis"
+        ]
+      }
+    }
+  ]
+}

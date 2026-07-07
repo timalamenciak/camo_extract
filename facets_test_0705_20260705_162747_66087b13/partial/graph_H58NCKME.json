@@ -1,0 +1,275 @@
+{
+  "graph_id": "causal_mosaic:graph:42e0e0a80cd2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T03:51:24.059772+00:00",
+    "source_corpus": "Do peat amendments to oil sands wet sediments affect Carex aquatilis biomass for reclamation success?",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:26906e56e8d0",
+      "name": "PM amendments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_75bc02aa0e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3870316ce381",
+      "name": "Increased C. aquatilis survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d4d7a3c79",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37063f970dcf",
+      "name": "Increased C. aquatilis biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ba225d323f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f4f72086516",
+      "name": "Decreased C. aquatilis belowground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79f889ec47",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The use of OSPW significantly reduced C. aquatilis belowground biomass and affected its physiological performance."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22801a283705",
+      "name": "Increased Performance Index",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6c453b9860",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In CT sediment types, C. aquatilis growing in OSPW had a significantly higher PI when compared to plants growing in freshwater."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:65274021e3a3",
+      "name": "Decreased belowground biomass allocation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4aa382c635",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "plant belowground biomass allocation was significantly lower in OSPW"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:103c8198d1cf",
+      "name": "OSPW",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ca5a724d6c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The use of OSPW significantly reduced C. aquatilis belowground biomass and affected its physiological performance."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c430ff98eed2",
+      "subject": "causal_mosaic:node:26906e56e8d0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3870316ce381",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass.",
+      "source_spans": [
+        {
+          "text": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2014.03.003",
+        "title": "Do peat amendments to oil sands wet sediments affect Carex aquatilis biomass for reclamation success?",
+        "year": 2014,
+        "authors": [
+          "Roy, Marie-Claude",
+          "Mollard, Federico P.O.",
+          "Foote, A. Lee"
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2c33ae7c6bba",
+      "subject": "causal_mosaic:node:26906e56e8d0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37063f970dcf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass.",
+      "source_spans": [
+        {
+          "text": "We demonstrated that PM amendments to oil sands sediments significantly increased C. aquatilis survival as well as below and aboveground biomass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2014.03.003",
+        "title": "Do peat amendments to oil sands wet sediments affect Carex aquatilis biomass for reclamation success?",
+        "year": 2014,
+        "authors": [
+          "Roy, Marie-Claude",
+          "Mollard, Federico P.O.",
+          "Foote, A. Lee"
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a46489cabb5e",
+      "subject": "causal_mosaic:node:103c8198d1cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1f4f72086516",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of OSPW significantly reduced C. aquatilis belowground biomass and affected its physiological performance.",
+      "source_spans": [
+        {
+          "text": "The use of OSPW significantly reduced C. aquatilis belowground biomass and affected its physiological performance."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2014.03.003",
+        "title": "Do peat amendments to oil sands wet sediments affect Carex aquatilis biomass for reclamation success?",
+        "year": 2014,
+        "authors": [
+          "Roy, Marie-Claude",
+          "Mollard, Federico P.O.",
+          "Foote, A. Lee"
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:bd52a955f864",
+      "subject": "causal_mosaic:node:103c8198d1cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:22801a283705",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In CT sediment types, C. aquatilis growing in OSPW had a significantly higher PI when compared to plants growing in freshwater.",
+      "source_spans": [
+        {
+          "text": "In CT sediment types, C. aquatilis growing in OSPW had a significantly higher PI when compared to plants growing in freshwater."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2014.03.003",
+        "title": "Do peat amendments to oil sands wet sediments affect Carex aquatilis biomass for reclamation success?",
+        "year": 2014,
+        "authors": [
+          "Roy, Marie-Claude",
+          "Mollard, Federico P.O.",
+          "Foote, A. Lee"
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6838125d2476",
+      "subject": "causal_mosaic:node:103c8198d1cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:65274021e3a3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plant belowground biomass allocation was significantly lower in OSPW",
+      "source_spans": [
+        {
+          "text": "plant belowground biomass allocation was significantly lower in OSPW"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2014.03.003",
+        "title": "Do peat amendments to oil sands wet sediments affect Carex aquatilis biomass for reclamation success?",
+        "year": 2014,
+        "authors": [
+          "Roy, Marie-Claude",
+          "Mollard, Federico P.O.",
+          "Foote, A. Lee"
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    }
+  ]
+}

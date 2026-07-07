@@ -1,0 +1,770 @@
+{
+  "graph_id": "causal_mosaic:graph:53d0eac78d89",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T08:44:11.399755+00:00",
+    "source_corpus": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c4a0342a033c",
+      "name": "simulating potholes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_590bfca846",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "simulating potholes had a detrimental effect on populations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:19613dbee971",
+      "name": "survivorship of the transplants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d520152ad8",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "simulating potholes had a detrimental effect on populations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cee22cee659b",
+      "name": "Competition for light",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_58b2997aa6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Competition for light can have negative influences on this plant's development"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f354e98f942",
+      "name": "plant's development",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62065b0067",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Competition for light can have negative influences on this plant's development"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1d9a456b53ac",
+      "name": "creation of these pothole patches",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d4e2ab53e6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The creation of these pothole patches allows for increase in light availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:11fdec413abb",
+      "name": "light availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcecb2ea2a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The creation of these pothole patches allows for increase in light availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aeae2f627b2b",
+      "name": "SLA establishment and development",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67d1707e69",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "all factors which benefit SLA establishment and development"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:52bbd3dff99b",
+      "name": "frequent flooding",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d5277504fd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This was presumably due in large part to the frequent flooding"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5aad788d4c9a",
+      "name": "consistent waterlogging",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4b09dbc6ba",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This was presumably due in large part to the frequent flooding and consistent waterlogging"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5a5f0cb6132",
+      "name": "eelgrass deposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8da875128a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "it is still possible that eelgrass deposition is a predominant factor that negatively affected the SLA seed bank and germination success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:484d4b70a486",
+      "name": "SLA seed bank and germination success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4a297d267d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "it is still possible that eelgrass deposition is a predominant factor that negatively affected the SLA seed bank and germination success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5444581f07b5",
+      "name": "accumulations of wrack",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34cfd4c358",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "These accumulations of wrack have the ability to bury the seeds in the seed bank and inhibit their germination."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b3fd449702c",
+      "name": "germination",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b8eddfe3fe",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "These accumulations of wrack have the ability to bury the seeds in the seed bank and inhibit their germination."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:39330d9487d4",
+      "name": "salt concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bee3d2a744",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Germination is reduced once salt concentrations reach 10 g/L"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1f74198e931",
+      "name": "low soil temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4193909ee6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "delays in germination resulting from exposure to low soil temperatures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3dc2043b23f3",
+      "name": "removal of vegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2feb9114a6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "transplants did not benefit from the removal of vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6ccf4d1ff9b0",
+      "name": "seeding and the transplantation of greenhouse-grown seedlings",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_32880de71b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Promising results related to seeding and the transplantation of greenhouse-grown seedlings at four in situ sites demonstrated that SLA plantlets have the potential to serve as seed stock to re-establish populations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:795b535a4ff4",
+      "name": "re-establish populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a1b4b80de7",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Promising results related to seeding and the transplantation of greenhouse-grown seedlings at four in situ sites demonstrated that SLA plantlets have the potential to serve as seed stock to re-establish populations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84f107adaabc",
+      "name": "reduction in competition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fb0d094927",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The reduction in competition from other plants is believed to play an important role in SLA's establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c86da2f33310",
+      "name": "SLA's establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1312908b37",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The reduction in competition from other plants is believed to play an important role in SLA's establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:892a67a89c4d",
+      "name": "ground temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d1d38abb6e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "ground temperature may not be optimal for SLA establishment throughout the germination season"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c13e7a1b37e2",
+      "name": "SLA establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5866eedd86",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "ground temperature may not be optimal for SLA establishment throughout the germination season"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:de960e45e5b8",
+      "subject": "causal_mosaic:node:c4a0342a033c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:19613dbee971",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "simulating potholes had a detrimental effect on populations.",
+      "source_spans": [
+        {
+          "text": "simulating potholes had a detrimental effect on populations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ac858e85052",
+      "subject": "causal_mosaic:node:cee22cee659b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f354e98f942",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Competition for light can have negative influences on this plant's development",
+      "source_spans": [
+        {
+          "text": "Competition for light can have negative influences on this plant's development"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7cfa04501abf",
+      "subject": "causal_mosaic:node:1d9a456b53ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:11fdec413abb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The creation of these pothole patches allows for increase in light availability",
+      "source_spans": [
+        {
+          "text": "The creation of these pothole patches allows for increase in light availability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:144f1f91f8ad",
+      "subject": "causal_mosaic:node:11fdec413abb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aeae2f627b2b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "all factors which benefit SLA establishment and development",
+      "source_spans": [
+        {
+          "text": "all factors which benefit SLA establishment and development"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e3a7cb0b825f",
+      "subject": "causal_mosaic:node:52bbd3dff99b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:19613dbee971",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This was presumably due in large part to the frequent flooding",
+      "source_spans": [
+        {
+          "text": "This was presumably due in large part to the frequent flooding"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d287da69b5ca",
+      "subject": "causal_mosaic:node:5aad788d4c9a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:19613dbee971",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This was presumably due in large part to the frequent flooding and consistent waterlogging",
+      "source_spans": [
+        {
+          "text": "This was presumably due in large part to the frequent flooding and consistent waterlogging"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:71ed875ce39b",
+      "subject": "causal_mosaic:node:f5a5f0cb6132",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:484d4b70a486",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "it is still possible that eelgrass deposition is a predominant factor that negatively affected the SLA seed bank and germination success",
+      "source_spans": [
+        {
+          "text": "it is still possible that eelgrass deposition is a predominant factor that negatively affected the SLA seed bank and germination success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3052c11e776b",
+      "subject": "causal_mosaic:node:5444581f07b5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b3fd449702c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These accumulations of wrack have the ability to bury the seeds in the seed bank and inhibit their germination.",
+      "source_spans": [
+        {
+          "text": "These accumulations of wrack have the ability to bury the seeds in the seed bank and inhibit their germination."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4c1901230314",
+      "subject": "causal_mosaic:node:39330d9487d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b3fd449702c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Germination is reduced once salt concentrations reach 10 g/L",
+      "source_spans": [
+        {
+          "text": "Germination is reduced once salt concentrations reach 10 g/L"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:281479cdce6b",
+      "subject": "causal_mosaic:node:c1f74198e931",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b3fd449702c",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "delays in germination resulting from exposure to low soil temperatures",
+      "source_spans": [
+        {
+          "text": "delays in germination resulting from exposure to low soil temperatures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e382c1f98b1e",
+      "subject": "causal_mosaic:node:3dc2043b23f3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:19613dbee971",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "transplants did not benefit from the removal of vegetation",
+      "source_spans": [
+        {
+          "text": "transplants did not benefit from the removal of vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:868d6ea0b6bf",
+      "subject": "causal_mosaic:node:6ccf4d1ff9b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:795b535a4ff4",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Promising results related to seeding and the transplantation of greenhouse-grown seedlings at four in situ sites demonstrated that SLA plantlets have the potential to serve as seed stock to re-establish populations.",
+      "source_spans": [
+        {
+          "text": "Promising results related to seeding and the transplantation of greenhouse-grown seedlings at four in situ sites demonstrated that SLA plantlets have the potential to serve as seed stock to re-establish populations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f37863e51573",
+      "subject": "causal_mosaic:node:84f107adaabc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c86da2f33310",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The reduction in competition from other plants is believed to play an important role in SLA's establishment",
+      "source_spans": [
+        {
+          "text": "The reduction in competition from other plants is believed to play an important role in SLA's establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f6d555d3be18",
+      "subject": "causal_mosaic:node:892a67a89c4d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c13e7a1b37e2",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "ground temperature may not be optimal for SLA establishment throughout the germination season",
+      "source_spans": [
+        {
+          "text": "ground temperature may not be optimal for SLA establishment throughout the germination season"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjb-2012-0074",
+        "title": "Evaluating reintroduction methods for the Gulf of Saint Lawrence aster ( <i>Symphyotrichum laurentianum</i> ) on Prince Edward Island",
+        "year": 2013,
+        "authors": [
+          "Atkinson, Kerry-Lynn",
+          "Lacroix, Christian"
+        ],
+        "journal": "Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

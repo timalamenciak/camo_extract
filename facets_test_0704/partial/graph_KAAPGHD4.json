@@ -1,0 +1,312 @@
+{
+  "graph_id": "causal_mosaic:graph:de51768d68c9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T12:16:28.570923+00:00",
+    "source_corpus": "A Century of Elk Restoration in Eastern North America",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:99306903331e",
+      "name": "Hunting seasons",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6dd8050a63",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Hunting seasons have been opened in several regions and contribute to population control and potentially account for slower rates of increase"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a1b0939416c1",
+      "name": "Population growth rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_95c9d2c6d0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Hunting seasons have been opened in several regions and contribute to population control and potentially account for slower rates of increase"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cee648433c96",
+      "name": "Small founder populations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d864268c69",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Small founder populations may affect more than population growth rates, as they often result in reduced genetic variability due to the founder effect and genetic drift"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91153070a132",
+      "name": "Genetic variability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_545099044d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Small founder populations may affect more than population growth rates, as they often result in reduced genetic variability due to the founder effect and genetic drift"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c225125347cc",
+      "name": "Holding elk for longer periods",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_441eb3357a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Post-release dispersal can be reduced by holding elk for longer periods of time prior to release to acclimate them to release sites. This has been shown to result in greater post-release site fidelity in Ontario elk"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:06026b79004a",
+      "name": "Post-release site fidelity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c49d324c40",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Post-release dispersal can be reduced by holding elk for longer periods of time prior to release to acclimate them to release sites. This has been shown to result in greater post-release site fidelity in Ontario elk"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b26f243020bd",
+      "name": "Meningeal worm",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_806292d87f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Mortality caused by meningeal worm (Parelaphostrongylus tenuis) accounted for 45.3% of reported deaths in Kentucky"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a1bf21f1d925",
+      "name": "Mortality",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_005e57ea89",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Mortality caused by meningeal worm (Parelaphostrongylus tenuis) accounted for 45.3% of reported deaths in Kentucky"
+        },
+        {
+          "text": "Predation was found to be a limiting factor in the Burwash and LOW populations of Ontario, accounting for 40.6 and 17.6% of the initial mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00c3639cc73c",
+      "name": "Predation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_01f07d84fc",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Predation was found to be a limiting factor in the Burwash and LOW populations of Ontario, accounting for 40.6 and 17.6% of the initial mortality"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:52e475d2c228",
+      "subject": "causal_mosaic:node:99306903331e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a1b0939416c1",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hunting seasons have been opened in several regions and contribute to population control and potentially account for slower rates of increase",
+      "source_spans": [
+        {
+          "text": "Hunting seasons have been opened in several regions and contribute to population control and potentially account for slower rates of increase"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12150",
+        "title": "A Century of Elk Restoration in Eastern North America",
+        "year": 2014,
+        "authors": [
+          "Popp, Jesse N.",
+          "Toman, Tom",
+          "Mallory, Frank F.",
+          "Hamr, Josef"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:42c99d9a9350",
+      "subject": "causal_mosaic:node:cee648433c96",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91153070a132",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Small founder populations may affect more than population growth rates, as they often result in reduced genetic variability due to the founder effect and genetic drift",
+      "source_spans": [
+        {
+          "text": "Small founder populations may affect more than population growth rates, as they often result in reduced genetic variability due to the founder effect and genetic drift"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "systematic_review"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12150",
+        "title": "A Century of Elk Restoration in Eastern North America",
+        "year": 2014,
+        "authors": [
+          "Popp, Jesse N.",
+          "Toman, Tom",
+          "Mallory, Frank F.",
+          "Hamr, Josef"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ef75ea18dfc",
+      "subject": "causal_mosaic:node:c225125347cc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06026b79004a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Post-release dispersal can be reduced by holding elk for longer periods of time prior to release to acclimate them to release sites. This has been shown to result in greater post-release site fidelity in Ontario elk",
+      "source_spans": [
+        {
+          "text": "Post-release dispersal can be reduced by holding elk for longer periods of time prior to release to acclimate them to release sites. This has been shown to result in greater post-release site fidelity in Ontario elk"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12150",
+        "title": "A Century of Elk Restoration in Eastern North America",
+        "year": 2014,
+        "authors": [
+          "Popp, Jesse N.",
+          "Toman, Tom",
+          "Mallory, Frank F.",
+          "Hamr, Josef"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:59743e32c1b1",
+      "subject": "causal_mosaic:node:b26f243020bd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a1bf21f1d925",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Mortality caused by meningeal worm (Parelaphostrongylus tenuis) accounted for 45.3% of reported deaths in Kentucky",
+      "source_spans": [
+        {
+          "text": "Mortality caused by meningeal worm (Parelaphostrongylus tenuis) accounted for 45.3% of reported deaths in Kentucky"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12150",
+        "title": "A Century of Elk Restoration in Eastern North America",
+        "year": 2014,
+        "authors": [
+          "Popp, Jesse N.",
+          "Toman, Tom",
+          "Mallory, Frank F.",
+          "Hamr, Josef"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:21d66a65cba6",
+      "subject": "causal_mosaic:node:00c3639cc73c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a1bf21f1d925",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Predation was found to be a limiting factor in the Burwash and LOW populations of Ontario, accounting for 40.6 and 17.6% of the initial mortality",
+      "source_spans": [
+        {
+          "text": "Predation was found to be a limiting factor in the Burwash and LOW populations of Ontario, accounting for 40.6 and 17.6% of the initial mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12150",
+        "title": "A Century of Elk Restoration in Eastern North America",
+        "year": 2014,
+        "authors": [
+          "Popp, Jesse N.",
+          "Toman, Tom",
+          "Mallory, Frank F.",
+          "Hamr, Josef"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

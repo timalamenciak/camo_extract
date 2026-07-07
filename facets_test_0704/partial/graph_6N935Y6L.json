@@ -1,0 +1,358 @@
+{
+  "graph_id": "causal_mosaic:graph:47512684ea86",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T11:01:38.210362+00:00",
+    "source_corpus": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:763218f63205",
+      "name": "revegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a63a3d6d91",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "revegetation process"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c198d9339975",
+      "name": "productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6587ed4437",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "productivity",
+          "start_char": 1522,
+          "end_char": 1534,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4e22be7d5f4",
+      "name": "NEP",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_81aa69895e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "NEP",
+          "start_char": 6318,
+          "end_char": 6321,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37cce48abfa4",
+      "name": "Rh",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0000198f26",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Rh",
+          "start_char": 6355,
+          "end_char": 6357,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:33374eb56201",
+      "name": "soil C stock",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_68983b60ee",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "soil C stock",
+          "start_char": 36077,
+          "end_char": 36089,
+          "paragraph_id": "page:10"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b53230d64e74",
+      "name": "hard pan",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa587e7d20",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hard pan",
+          "start_char": 21557,
+          "end_char": 21565,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9f6f8d83acea",
+      "name": "accumulation of Cu and Ni",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_757db1aae2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "accumulation of Cu and Ni",
+          "start_char": 60932,
+          "end_char": 60957,
+          "paragraph_id": "page:17"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0756c9a1184c",
+      "name": "climate change mitigation benefits",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0b7325ed36",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "climate change mitigation benefits"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:61af88b213c2",
+      "subject": "causal_mosaic:node:763218f63205",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c198d9339975",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The revegetated sites were highly productive, when compared to reference conditions based on site index, wood volume growth, and ecosystem production, congruent with other studies showing that forests on revegetated post mining sites can be highly productive.",
+      "source_spans": [
+        {
+          "text": "The revegetated sites were highly productive, when compared to reference conditions based on site index, wood volume growth, and ecosystem production, congruent with other studies showing that forests on revegetated post mining sites can be highly productive."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9110707",
+        "title": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+        "year": 2018,
+        "authors": [
+          "Metsaranta, Juha M.",
+          "Beauchemin, Suzanne",
+          "Langley, Sean",
+          "Tisch, Bryan",
+          "Dale, Phyllis"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fc0587e71dcd",
+      "subject": "causal_mosaic:node:37cce48abfa4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b4e22be7d5f4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Revegetated sites are a C sink almost immediately after establishment because Rh is very low.",
+      "source_spans": [
+        {
+          "text": "Revegetated sites are a C sink almost immediately after establishment because Rh is very low."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9110707",
+        "title": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+        "year": 2018,
+        "authors": [
+          "Metsaranta, Juha M.",
+          "Beauchemin, Suzanne",
+          "Langley, Sean",
+          "Tisch, Bryan",
+          "Dale, Phyllis"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:885301e4a1f8",
+      "subject": "causal_mosaic:node:763218f63205",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:33374eb56201",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The observed organic C content at the revegetated sites relative to observations made 20 years previously [12], particularly in the forest floor, are consistent with an increase in soil C stock over time.",
+      "source_spans": [
+        {
+          "text": "The observed organic C content at the revegetated sites relative to observations made 20 years previously [12], particularly in the forest floor, are consistent with an increase in soil C stock over time."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9110707",
+        "title": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+        "year": 2018,
+        "authors": [
+          "Metsaranta, Juha M.",
+          "Beauchemin, Suzanne",
+          "Langley, Sean",
+          "Tisch, Bryan",
+          "Dale, Phyllis"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c9cc076babfe",
+      "subject": "causal_mosaic:node:763218f63205",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b53230d64e74",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As the tailings are colonized by vegetation, organic acids are produced by decomposition of litter and exudation of roots, fungi and microbes. These organic acids contribute to mineral weathering by complexing Al and Fe and promoting their migration downwards where they can precipitate and form a hard pan",
+      "source_spans": [
+        {
+          "text": "As the tailings are colonized by vegetation, organic acids are produced by decomposition of litter and exudation of roots, fungi and microbes. These organic acids contribute to mineral weathering by complexing Al and Fe and promoting their migration downwards where they can precipitate and form a hard pan"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9110707",
+        "title": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+        "year": 2018,
+        "authors": [
+          "Metsaranta, Juha M.",
+          "Beauchemin, Suzanne",
+          "Langley, Sean",
+          "Tisch, Bryan",
+          "Dale, Phyllis"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:af099b49b25c",
+      "subject": "causal_mosaic:node:763218f63205",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9f6f8d83acea",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This phenomenon, coupled with potential dust contamination from surrounding barren tailings and vegetation uptake, may have contributed over the years to the accumulation of Cu and Ni in the tailings forest floor.",
+      "source_spans": [
+        {
+          "text": "This phenomenon, coupled with potential dust contamination from surrounding barren tailings and vegetation uptake, may have contributed over the years to the accumulation of Cu and Ni in the tailings forest floor."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9110707",
+        "title": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+        "year": 2018,
+        "authors": [
+          "Metsaranta, Juha M.",
+          "Beauchemin, Suzanne",
+          "Langley, Sean",
+          "Tisch, Bryan",
+          "Dale, Phyllis"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e982f4e97164",
+      "subject": "causal_mosaic:node:763218f63205",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0756c9a1184c",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Finally, despite the large quantity of GHG-intensive inputs required, the revegetation of industrially disturbed sites in this study may possibly have climate change mitigation benefits with similar C debt repayment times as some forest residue-derived bioenergy projects.",
+      "source_spans": [
+        {
+          "text": "Finally, despite the large quantity of GHG-intensive inputs required, the revegetation of industrially disturbed sites in this study may possibly have climate change mitigation benefits with similar C debt repayment times as some forest residue-derived bioenergy projects."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9110707",
+        "title": "Assessing the Long-Term Ecosystem Productivity Benefits and Potential Impacts of Forests Re-Established on a Mine Tailings Site",
+        "year": 2018,
+        "authors": [
+          "Metsaranta, Juha M.",
+          "Beauchemin, Suzanne",
+          "Langley, Sean",
+          "Tisch, Bryan",
+          "Dale, Phyllis"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "graph_id": "causal_mosaic:graph:5f8237ea6be2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T14:17:25.958943+00:00",
+    "source_corpus": "Comparison of two plant functional approaches to evaluate natural restoration along an old‐field – deciduous forest chronosequence",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:1d29b059b214",
+      "name": "canopy closure",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_410334270d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In our study, canopy closure led to a sharp decrease in light availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a159d7470fb",
+      "name": "light availability decreased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcecb2ea2a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "light availability",
+      "source_spans": [
+        {
+          "text": "In our study, canopy closure led to a sharp decrease in light availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd85ffdbe641",
+      "name": "seed size increased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cec0303177",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "seed size",
+      "source_spans": [
+        {
+          "text": "Seed size and plant height significantly increased along the chronosequence."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eeb529bb138d",
+      "name": "chronosequence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eb61463c01",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Seed size and plant height significantly increased along the chronosequence."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66f0aba75598",
+      "name": "Conversion of these lands to other functions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f1a0657d4d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Conversion of these lands to other functions may lead to irremediable loss of biodiversity."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:832382ef8bf7",
+      "name": "biodiversity decreased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e60e79168e",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "biodiversity",
+      "source_spans": [
+        {
+          "text": "Conversion of these lands to other functions may lead to irremediable loss of biodiversity."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:165d28dc0e49",
+      "name": "abandoned pastures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c48a719ec",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Both approaches indicated that abandoned pastures of the northern hardwood biome have good potential for natural recovery."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5fb0ea5506b",
+      "name": "natural recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2f698749c2",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Both approaches indicated that abandoned pastures of the northern hardwood biome have good potential for natural recovery."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7144142817ef",
+      "name": "animal or bird dispersal",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7b1b3324dd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our results (and particularly those at the trait level) showed the effectiveness of animal or bird dispersal for early recovery."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a3dea4928dcc",
+      "name": "early recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2649fa4eed",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Our results (and particularly those at the trait level) showed the effectiveness of animal or bird dispersal for early recovery."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f70f9a727fec",
+      "subject": "causal_mosaic:node:1d29b059b214",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a159d7470fb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In our study, canopy closure led to a sharp decrease in light availability, a decrease in grasses, and an increase in bare soil and leaf litter substrate (Table 1), conditions that provided some advantage to forest herbs (Collins et al. 1985; Facelli & Pickett 1991).",
+      "source_spans": [
+        {
+          "text": "In our study, canopy closure led to a sharp decrease in light availability, a decrease in grasses, and an increase in bare soil and leaf litter substrate (Table 1), conditions that provided some advantage to forest herbs (Collins et al. 1985; Facelli & Pickett 1991)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-1103.2009.05513.x",
+        "title": "Comparison of two plant functional approaches to evaluate natural restoration along an old‐field – deciduous forest chronosequence",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle",
+          "Ouellette, Marie‐Hélène",
+          "Legendre, Pierre",
+          "Messier, Christian",
+          "Bouchard, André"
+        ],
+        "journal": "J Vegetation Science"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:11d21313e77f",
+      "subject": "causal_mosaic:node:eeb529bb138d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd85ffdbe641",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seed size and plant height significantly increased along the chronosequence.",
+      "source_spans": [
+        {
+          "text": "Seed size and plant height significantly increased along the chronosequence."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-1103.2009.05513.x",
+        "title": "Comparison of two plant functional approaches to evaluate natural restoration along an old‐field – deciduous forest chronosequence",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle",
+          "Ouellette, Marie‐Hélène",
+          "Legendre, Pierre",
+          "Messier, Christian",
+          "Bouchard, André"
+        ],
+        "journal": "J Vegetation Science"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:44d71be77e3f",
+      "subject": "causal_mosaic:node:66f0aba75598",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:832382ef8bf7",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Conversion of these lands to other functions may lead to irremediable loss of biodiversity.",
+      "source_spans": [
+        {
+          "text": "Conversion of these lands to other functions may lead to irremediable loss of biodiversity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-1103.2009.05513.x",
+        "title": "Comparison of two plant functional approaches to evaluate natural restoration along an old‐field – deciduous forest chronosequence",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle",
+          "Ouellette, Marie‐Hélène",
+          "Legendre, Pierre",
+          "Messier, Christian",
+          "Bouchard, André"
+        ],
+        "journal": "J Vegetation Science"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:55f470c2f127",
+      "subject": "causal_mosaic:node:165d28dc0e49",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c5fb0ea5506b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both approaches indicated that abandoned pastures of the northern hardwood biome have good potential for natural recovery.",
+      "source_spans": [
+        {
+          "text": "Both approaches indicated that abandoned pastures of the northern hardwood biome have good potential for natural recovery."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-1103.2009.05513.x",
+        "title": "Comparison of two plant functional approaches to evaluate natural restoration along an old‐field – deciduous forest chronosequence",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle",
+          "Ouellette, Marie‐Hélène",
+          "Legendre, Pierre",
+          "Messier, Christian",
+          "Bouchard, André"
+        ],
+        "journal": "J Vegetation Science"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ee21429cec12",
+      "subject": "causal_mosaic:node:7144142817ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a3dea4928dcc",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results (and particularly those at the trait level) showed the effectiveness of animal or bird dispersal for early recovery.",
+      "source_spans": [
+        {
+          "text": "Our results (and particularly those at the trait level) showed the effectiveness of animal or bird dispersal for early recovery."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-1103.2009.05513.x",
+        "title": "Comparison of two plant functional approaches to evaluate natural restoration along an old‐field – deciduous forest chronosequence",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle",
+          "Ouellette, Marie‐Hélène",
+          "Legendre, Pierre",
+          "Messier, Christian",
+          "Bouchard, André"
+        ],
+        "journal": "J Vegetation Science"
+      }
+    }
+  ]
+}

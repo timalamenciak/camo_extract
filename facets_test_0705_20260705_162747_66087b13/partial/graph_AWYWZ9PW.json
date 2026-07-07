@@ -1,0 +1,623 @@
+{
+  "graph_id": "causal_mosaic:graph:30e0f0809038",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T10:16:33.641776+00:00",
+    "source_corpus": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5c4c23018d95",
+      "name": "Emission abatement strategies",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b117b54218",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "chemical quality of surface waters in acid-sensitive areas in these regions has clearly improved as a consequence of emission abatement strategies"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:525bd5624d2e",
+      "name": "Chemical quality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_242d022673",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "ELMO:PATO_0000001",
+      "source_spans": [
+        {
+          "text": "chemical quality of surface waters in acid-sensitive areas in these regions has clearly improved as a consequence of emission abatement strategies"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1437f03d85ec",
+      "name": "Acidification",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7e40f07370",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Acidification of the environment has lead to fish death and extinction of fish populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e81dc01ea6be",
+      "name": "Fish death",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d3ad3e2b2b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Acidification of the environment has lead to fish death and extinction of fish populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c42d10723e4",
+      "name": "Deposition of reactive nitrogen",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5b47515ea5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Recently, deposition of reactive nitrogen has also been shown to pose a threat to remote terrestrial and aquatic ecosystems through nutrient enrichment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:934824999e51",
+      "name": "Nutrient enrichment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_feaae7d42f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Recently, deposition of reactive nitrogen has also been shown to pose a threat to remote terrestrial and aquatic ecosystems through nutrient enrichment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:43093ec7aa3b",
+      "name": "Reduction in sulphur deposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_98e71fa7fa",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The reduction in sulphur deposition is considered to be the main driver of the improved acidification status of surface waters"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f76cf242495",
+      "name": "Improved acidification status",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c765a4d413",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "status",
+      "source_spans": [
+        {
+          "text": "The reduction in sulphur deposition is considered to be the main driver of the improved acidification status of surface waters"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d0b35bc951d",
+      "name": "Decreasing SO4* concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_14567b9308",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "indicating that reduced deposition of sulphur has been the main driver of decreasing SO4* concentrations in surface waters"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d2784a94db47",
+      "name": "Decreasing SO4 inputs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0620c896e3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "inputs",
+      "source_spans": [
+        {
+          "text": "One of the expected responses of catchments to decreasing SO4 inputs is the reduced leaching of base cations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fae0ad230c70",
+      "name": "Reduced leaching of base cations",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_864c1c9c74",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "One of the expected responses of catchments to decreasing SO4 inputs is the reduced leaching of base cations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eeb83da96903",
+      "name": "Decreasing H+ concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_80d6a3bc41",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "decreasing trends in Ali concentration are likely to have occurred at strongly acidified sites with decreasing H+ concentration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7873060d1458",
+      "name": "Ali concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f77106157d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "decreasing trends in Ali concentration are likely to have occurred at strongly acidified sites with decreasing H+ concentration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54ded0b54bd4",
+      "name": "Recovery of aquatic chemistry",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ddfa933c95",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "chemistry",
+      "source_spans": [
+        {
+          "text": "This recovery appears to be driven primarily by the reduction of sulphur deposition, confirming that emission control programmes are having their intended effect on aquatic chemistry"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f3e089f4927d",
+      "subject": "causal_mosaic:node:5c4c23018d95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:525bd5624d2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "From an ecological perspective, the chemical quality of surface waters in acid-sensitive areas in these regions has clearly improved as a consequence of emission abatement strategies, paving the way for some biological recovery.",
+      "source_spans": [
+        {
+          "text": "From an ecological perspective, the chemical quality of surface waters in acid-sensitive areas in these regions has clearly improved as a consequence of emission abatement strategies, paving the way for some biological recovery."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5c0966c78b67",
+      "subject": "causal_mosaic:node:1437f03d85ec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e81dc01ea6be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Acidification of the environment has lead to fish death and extinction of fish populations",
+      "source_spans": [
+        {
+          "text": "Acidification of the environment has lead to fish death and extinction of fish populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9f2b8b21eb92",
+      "subject": "causal_mosaic:node:0c42d10723e4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:934824999e51",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Recently, deposition of reactive nitrogen has also been shown to pose a threat to remote terrestrial and aquatic ecosystems through nutrient enrichment",
+      "source_spans": [
+        {
+          "text": "Recently, deposition of reactive nitrogen has also been shown to pose a threat to remote terrestrial and aquatic ecosystems through nutrient enrichment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4863a64485b7",
+      "subject": "causal_mosaic:node:43093ec7aa3b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f76cf242495",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The reduction in sulphur deposition is considered to be the main driver of the improved acidification status of surface waters",
+      "source_spans": [
+        {
+          "text": "The reduction in sulphur deposition is considered to be the main driver of the improved acidification status of surface waters"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6b3c7e122b98",
+      "subject": "causal_mosaic:node:43093ec7aa3b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d0b35bc951d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Regional and temporal patterns in changes of SO4* in surface water in North America and Europe were similar to those observed in precipitation, indicating that reduced deposition of sulphur has been the main driver of decreasing SO4* concentrations in surface waters.",
+      "source_spans": [
+        {
+          "text": "Regional and temporal patterns in changes of SO4* in surface water in North America and Europe were similar to those observed in precipitation, indicating that reduced deposition of sulphur has been the main driver of decreasing SO4* concentrations in surface waters."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e2a08eab54bb",
+      "subject": "causal_mosaic:node:d2784a94db47",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fae0ad230c70",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "One of the expected responses of catchments to decreasing SO4 inputs is the reduced leaching of base cations because of increased pH and cation scavenging by cation exchange sites",
+      "source_spans": [
+        {
+          "text": "One of the expected responses of catchments to decreasing SO4 inputs is the reduced leaching of base cations because of increased pH and cation scavenging by cation exchange sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e421323c3542",
+      "subject": "causal_mosaic:node:eeb83da96903",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7873060d1458",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The speciation of aluminium is highly dependent on pH, and decreasing trends in Ali concentration are likely to have occurred at strongly acidified sites with decreasing H+ concentration across the ICP Waters network.",
+      "source_spans": [
+        {
+          "text": "The speciation of aluminium is highly dependent on pH, and decreasing trends in Ali concentration are likely to have occurred at strongly acidified sites with decreasing H+ concentration across the ICP Waters network."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7cc7de08708b",
+      "subject": "causal_mosaic:node:43093ec7aa3b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54ded0b54bd4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This recovery appears to be driven primarily by the reduction of sulphur deposition, confirming that emission control programmes are having their intended effect on aquatic chemistry",
+      "source_spans": [
+        {
+          "text": "This recovery appears to be driven primarily by the reduction of sulphur deposition, confirming that emission control programmes are having their intended effect on aquatic chemistry"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-014-1880-6",
+        "title": "Trends in Surface Water Chemistry in Acidified Areas in Europe and North America from 1990 to 2008",
+        "year": 2014,
+        "authors": [
+          "Garmo, Øyvind A.",
+          "Skjelkvåle, Brit Lisa",
+          "de Wit, Heleen A.",
+          "Colombo, Luca",
+          "Curtis, Chris",
+          "Fölster, Jens",
+          "Hoffmann, Andreas",
+          "Hruška, Jakub",
+          "Høgåsen, Tore",
+          "Jeffries, Dean S.",
+          "Keller, W. Bill",
+          "Krám, Pavel",
+          "Majer, Vladimir",
+          "Monteith, Don T.",
+          "Paterson, Andrew M.",
+          "Rogora, Michela",
+          "Rzychon, Dorota",
+          "Steingruber, Sandra",
+          "Stoddard, John L.",
+          "Vuorenmaa, Jussi",
+          "Worsztynowicz, Adam"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "graph_id": "causal_mosaic:graph:4233cf0762f7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T19:38:58.190545+00:00",
+    "source_corpus": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ec11a23710a8",
+      "name": "Habitat loss",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d4d3043386",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Habitat loss is considered the most significant factor in this decline"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0590fb7bc4cc",
+      "name": "Amphibian populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7bf704a99a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Habitat loss is considered the most significant factor in this decline"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb71d86c9dd6",
+      "name": "Predatory fish",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_ec635866a4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The association of predatory fish with reduced species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3813acf5676",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The association of predatory fish with reduced species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a47d8b0a84d6",
+      "name": "Wetland habitat construction and enhancement",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_157a268912",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Wetland habitat construction and enhancement have doubled the number of available fishless ponds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7683777b73cf",
+      "name": "Number of available fishless ponds",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1c1d2ca2cc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Wetland habitat construction and enhancement have doubled the number of available fishless ponds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69bf1c9ffd4b",
+      "name": "Colonization and metamorphic success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd6a768ba4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Early signs of colonization and metamorphic success for Great Basin Spadefoot"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f06c35543e95",
+      "name": "Removal of non-native invasive goldfish",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d28bd06c5b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Successful removal of non-native invasive goldfish (Carassius auratus) at Site 14 resulted in rapid colonization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:90aff98b2c08",
+      "name": "Pond permanence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_60e4efc31b",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Permanent ponds resulted in about twice the likelihood of metamorphic success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07c33518eceb",
+      "name": "Metamorphic success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_87957827cd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Permanent ponds resulted in about twice the likelihood of metamorphic success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48101d5f4443",
+      "name": "Soil compaction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_433b8124b6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The soil compaction around conventional orchard ponds was often greater than 253 kg/m2",
+          "start_char": 44262,
+          "end_char": 44348,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d2f97c916a33",
+      "name": "Fossorial species movement",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0416c48938",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "which likely impedes fossorial species movement",
+          "start_char": 44350,
+          "end_char": 44397,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:661483004830",
+      "name": "Intense agricultural practices and urbanization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e356ee06c6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Intense agricultural practices (high inputs, monocrop culture, soil compaction) and urbanization are the mechanisms driving the loss"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb19b6eb7409",
+      "name": "Loss and transformation of critical native desert habitat",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_261dc756ed",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Intense agricultural practices (high inputs, monocrop culture, soil compaction) and urbanization are the mechanisms driving the loss and transformation of critical native desert habitat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:df71e109780b",
+      "name": "Impervious substrates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39698be4a0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "As substrates in urbanized and agricultural areas of the Okanagan become increasingly impervious"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2a5d3b481364",
+      "name": "Spadefoots being excluded",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e526109094",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the likelihood of spadefoots being excluded from these areas increases"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88a261201ded",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased metamorphic success with vegetation cover",
+          "start_char": 35466,
+          "end_char": 35517,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:25912ac42ee7",
+      "name": "Supplemental irrigation water",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_697607ddf1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Ephemeral ponds with metamorphic success was likely a result of supplemental irrigation water"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ac79d17fdddb",
+      "subject": "causal_mosaic:node:ec11a23710a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0590fb7bc4cc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Habitat loss is considered the most significant factor in this decline",
+      "source_spans": [
+        {
+          "text": "Habitat loss is considered the most significant factor in this decline"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a8709cb19914",
+      "subject": "causal_mosaic:node:eb71d86c9dd6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3813acf5676",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The association of predatory fish with reduced species richness is well acknowledged in the literature",
+      "source_spans": [
+        {
+          "text": "The association of predatory fish with reduced species richness is well acknowledged in the literature"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:283c514aabfa",
+      "subject": "causal_mosaic:node:a47d8b0a84d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7683777b73cf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wetland habitat construction and enhancement have doubled the number of available fishless ponds",
+      "source_spans": [
+        {
+          "text": "Wetland habitat construction and enhancement have doubled the number of available fishless ponds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ecbfaa6e3247",
+      "subject": "causal_mosaic:node:a47d8b0a84d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:69bf1c9ffd4b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Early signs of colonization and metamorphic success for Great Basin Spadefoot and Pacific treefrog populations have been observed",
+      "source_spans": [
+        {
+          "text": "Early signs of colonization and metamorphic success for Great Basin Spadefoot and Pacific treefrog populations have been observed"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7d019d147030",
+      "subject": "causal_mosaic:node:f06c35543e95",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:69bf1c9ffd4b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Successful removal of non-native invasive goldfish (Carassius auratus) at Site 14 resulted in rapid colonization of both frog species and successful metamorphosis in most years",
+      "source_spans": [
+        {
+          "text": "Successful removal of non-native invasive goldfish (Carassius auratus) at Site 14 resulted in rapid colonization of both frog species and successful metamorphosis in most years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:81e0eb6e991f",
+      "subject": "causal_mosaic:node:90aff98b2c08",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07c33518eceb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Permanent ponds resulted in about twice the likelihood of metamorphic success compared to the ephemeral ponds",
+      "source_spans": [
+        {
+          "text": "Permanent ponds resulted in about twice the likelihood of metamorphic success compared to the ephemeral ponds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:318802425256",
+      "subject": "causal_mosaic:node:48101d5f4443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d2f97c916a33",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The soil compaction around conventional orchard ponds was often greater than 253 kg/m2, which likely impedes fossorial species movement",
+      "source_spans": [
+        {
+          "text": "The soil compaction around conventional orchard ponds was often greater than 253 kg/m2, which likely impedes fossorial species movement"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cbba110e2aa5",
+      "subject": "causal_mosaic:node:661483004830",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bb19b6eb7409",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Intense agricultural practices (high inputs, monocrop culture, soil compaction) and urbanization are the mechanisms driving the loss and transformation of critical native desert habitat",
+      "source_spans": [
+        {
+          "text": "Intense agricultural practices (high inputs, monocrop culture, soil compaction) and urbanization are the mechanisms driving the loss and transformation of critical native desert habitat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f15586a29f99",
+      "subject": "causal_mosaic:node:df71e109780b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2a5d3b481364",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As substrates in urbanized and agricultural areas of the Okanagan become increasingly impervious, the likelihood of spadefoots being excluded from these areas increases",
+      "source_spans": [
+        {
+          "text": "As substrates in urbanized and agricultural areas of the Okanagan become increasingly impervious, the likelihood of spadefoots being excluded from these areas increases"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d0e0b72426bc",
+      "subject": "causal_mosaic:node:88a261201ded",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07c33518eceb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species response to habitat features over time has reported increased metamorphic success with vegetation cover",
+      "source_spans": [
+        {
+          "text": "Species response to habitat features over time has reported increased metamorphic success with vegetation cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8638937f036b",
+      "subject": "causal_mosaic:node:25912ac42ee7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07c33518eceb",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ephemeral ponds with metamorphic success was likely a result of supplemental irrigation water",
+      "source_spans": [
+        {
+          "text": "Ephemeral ponds with metamorphic success was likely a result of supplemental irrigation water"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d10040108",
+        "title": "Reconnecting Amphibian Habitat through Small Pond Construction and Enhancement, South Okanagan River Valley, British Columbia, Canada",
+        "year": 2018,
+        "authors": [
+          "Ashpole, Sara L.",
+          "Bishop, Christine A.",
+          "Murphy, Stephen D."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

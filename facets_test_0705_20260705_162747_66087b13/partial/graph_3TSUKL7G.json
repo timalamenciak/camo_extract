@@ -1,0 +1,485 @@
+{
+  "graph_id": "causal_mosaic:graph:c30774b14c73",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T07:31:38.836018+00:00",
+    "source_corpus": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e501cee4d9f8",
+      "name": "vertical slot fishway design",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a5fbfa7fb4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "this study revealed that the current vertical slot fishway design passes a wide variety of North American species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:230004e5abee",
+      "name": "passage of fish",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4864ae7a46",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "this study revealed that the current vertical slot fishway design passes a wide variety of North American species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d5af1389c17b",
+      "name": "Dams",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e47c25f16d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Dams associated with hydropower production or water management can serve as barriers to fish migration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67c517b62820",
+      "name": "watershed connectivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3f018f43ee",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reducing watershed connectivity",
+          "start_char": 2289,
+          "end_char": 2320,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:918c3162ddd4",
+      "name": "species",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q7432",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Passage efficiency was highly variable among species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8ffd1ce70d52",
+      "name": "passage efficiency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8aeebfb8de",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Passage efficiency was highly variable among species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d6734fa2a446",
+      "name": "passage duration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4f47d656d4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Passage duration was likewise highly variable both among and within species",
+          "start_char": 1428,
+          "end_char": 1503,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:82c3dec7cf54",
+      "name": "entrance delay",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20ed785c60",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Time from release until first entrance into the fishway (entrance delay) was significantly different among the eight species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c6b531602de7",
+      "name": "size of fish",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_33ca308f59",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "There were no significant differences in the size of fish that failed to re-ascend and those that succeeded"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bcb7f025af02",
+      "name": "passage success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9d81452558",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "There were no significant differences in the size of fish that failed to re-ascend and those that succeeded"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6badce54ad58",
+      "name": "Diel use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_78ee9f0537",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Diel use of the fishway varied among species"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:da581b26f3f7",
+      "subject": "causal_mosaic:node:e501cee4d9f8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:230004e5abee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "this study revealed that the current vertical slot fishway design passes a wide variety of North American species",
+      "source_spans": [
+        {
+          "text": "this study revealed that the current vertical slot fishway design passes a wide variety of North American species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8bc7cee93585",
+      "subject": "causal_mosaic:node:d5af1389c17b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:67c517b62820",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Dams associated with hydropower production or water management can serve as barriers to fish migration (Lucas and Baras, 2001), reducing watershed connectivity",
+      "source_spans": [
+        {
+          "text": "Dams associated with hydropower production or water management can serve as barriers to fish migration (Lucas and Baras, 2001), reducing watershed connectivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6970a1097d22",
+      "subject": "causal_mosaic:node:918c3162ddd4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ffd1ce70d52",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Passage efficiency was highly variable among species",
+      "source_spans": [
+        {
+          "text": "Passage efficiency was highly variable among species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b3b3cdcb1880",
+      "subject": "causal_mosaic:node:918c3162ddd4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d6734fa2a446",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Passage duration was likewise highly variable both among and within species",
+      "source_spans": [
+        {
+          "text": "Passage duration was likewise highly variable both among and within species",
+          "start_char": 1428,
+          "end_char": 1503,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c17a35e21c0f",
+      "subject": "causal_mosaic:node:918c3162ddd4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:82c3dec7cf54",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Time from release until first entrance into the fishway (entrance delay) was significantly different among the eight species",
+      "source_spans": [
+        {
+          "text": "Time from release until first entrance into the fishway (entrance delay) was significantly different among the eight species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3f4fef2786c5",
+      "subject": "causal_mosaic:node:c6b531602de7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bcb7f025af02",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "There were no significant differences in the size of fish that failed to re-ascend and those that succeeded",
+      "source_spans": [
+        {
+          "text": "There were no significant differences in the size of fish that failed to re-ascend and those that succeeded"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08e29a0a2169",
+      "subject": "causal_mosaic:node:c6b531602de7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d6734fa2a446",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Within species, no significant correlations occurred between passage duration and the size (TL) of fish",
+      "source_spans": [
+        {
+          "text": "Within species, no significant correlations occurred between passage duration and the size (TL) of fish"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5bd2c30f5c07",
+      "subject": "causal_mosaic:node:918c3162ddd4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6badce54ad58",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Diel use of the fishway varied among species",
+      "source_spans": [
+        {
+          "text": "Diel use of the fishway varied among species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

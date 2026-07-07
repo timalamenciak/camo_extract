@@ -1,0 +1,712 @@
+{
+  "graph_id": "causal_mosaic:graph:9c77c4131b46",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T13:09:06.291069+00:00",
+    "source_corpus": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:8751413e2531",
+      "name": "Higher summer temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8cebf9cd5e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Higher summer temperatures during the first year post restoration discriminated the bare peat-dominated category from the other two success categories"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3f2485fb337b",
+      "name": "Bare peat-dominated restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a211bd5ad1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Higher summer temperatures during the first year post restoration discriminated the bare peat-dominated category from the other two success categories"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:111a7217637f",
+      "name": "More efficient blockage of the secondary ditches",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_71d14e14ee",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "A more efficient blockage of the secondary ditches was related to Sphagnum-dominated restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e8bd8cf930d6",
+      "name": "Sphagnum-dominated restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2a7e7ecd2a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A more efficient blockage of the secondary ditches was related to Sphagnum-dominated restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e3892090972",
+      "name": "Restoring in spring",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_413e5a7529",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "restoring in spring favoured the establishment and development of P. strictum-dominated communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:52193efe4658",
+      "name": "P. strictum-dominated communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b4a29d26d3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "restoring in spring favoured the establishment and development of P. strictum-dominated communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:46fe91948cfc",
+      "name": "High temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fdd6dfe4be",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high temperatures and low precipitation of the first growing season after restoration hinders Sphagnum recolonisation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f9c9f9ad7121",
+      "name": "Sphagnum recolonisation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9a55a0ae2d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "high temperatures and low precipitation of the first growing season after restoration hinders Sphagnum recolonisation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7375e846bea7",
+      "name": "Polytrichum strictum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q637826",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:db7c9e341903",
+      "name": "Stabilize disturbed substrates",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b38af9ae70",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:042d4e077f52",
+      "name": "Improve microclimatic conditions",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ea8263f7e2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e5d7e2f317e",
+      "name": "Spreading straw mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d9fa322cfc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87405c5241df",
+      "name": "Protect diaspores",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3a6f4b8802",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1664627635d4",
+      "name": "Preventing desiccation of plant fragments",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5df6477cf3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:15fcf08dd67b",
+      "name": "Fertilizing with phosphorus",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_434bc0348f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75a7d9e2b3d5",
+      "name": "Colonization by plants that nurse Sphagnum mosses",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1aeb35a069",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5a096910a86",
+      "name": "Stabilize the peat substrate",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_171a2bb58b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "which can help to stabilize the peat substrate"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:610bff2cab78",
+      "name": "Mechanical disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e642fce1f5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "prone to mechanical disturbance (e.g., rutting by caterpillar tracks or tires), which in turn could have a negative inﬂuence on the plant community colonizing the restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24e862910644",
+      "name": "Plant community colonizing",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bd8405ef0e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "prone to mechanical disturbance (e.g., rutting by caterpillar tracks or tires), which in turn could have a negative inﬂuence on the plant community colonizing the restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9bbbfe310afe",
+      "name": "Polytrichum-moss establishment and growth",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_fe29fd24bf",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "10 years of Polytrichum-moss establishment and growth contributes to form a dense and thick carpet accumulating about 5 mm of Polytrichum-moss fiber per year"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2231509419f3",
+      "name": "Accumulating about 5 mm of Polytrichum-moss fiber per year",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f1f05af22f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "10 years of Polytrichum-moss establishment and growth contributes to form a dense and thick carpet accumulating about 5 mm of Polytrichum-moss fiber per year"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:dd411de6a829",
+      "subject": "causal_mosaic:node:8751413e2531",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3f2485fb337b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher summer temperatures during the first year post restoration discriminated the bare peat-dominated category from the other two success categories",
+      "source_spans": [
+        {
+          "text": "Higher summer temperatures during the first year post restoration discriminated the bare peat-dominated category from the other two success categories"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:48f873ea4e52",
+      "subject": "causal_mosaic:node:111a7217637f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e8bd8cf930d6",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A more efficient blockage of the secondary ditches was related to Sphagnum-dominated restoration",
+      "source_spans": [
+        {
+          "text": "A more efficient blockage of the secondary ditches was related to Sphagnum-dominated restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5d08109df647",
+      "subject": "causal_mosaic:node:3e3892090972",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:52193efe4658",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoring in spring favoured the establishment and development of P. strictum-dominated communities",
+      "source_spans": [
+        {
+          "text": "restoring in spring favoured the establishment and development of P. strictum-dominated communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b0229c0869c",
+      "subject": "causal_mosaic:node:46fe91948cfc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f9c9f9ad7121",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "high temperatures and low precipitation of the first growing season after restoration hinders Sphagnum recolonisation",
+      "source_spans": [
+        {
+          "text": "high temperatures and low precipitation of the first growing season after restoration hinders Sphagnum recolonisation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:04893991906e",
+      "subject": "causal_mosaic:node:7375e846bea7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:db7c9e341903",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6375d36667f5",
+      "subject": "causal_mosaic:node:7375e846bea7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:042d4e077f52",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum and other typical bog species, due to their capacity to stabilize disturbed substrates and improve microclimatic conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f199302a82fd",
+      "subject": "causal_mosaic:node:7e5d7e2f317e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:87405c5241df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments",
+      "source_spans": [
+        {
+          "text": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7253922a5fea",
+      "subject": "causal_mosaic:node:7e5d7e2f317e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1664627635d4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments",
+      "source_spans": [
+        {
+          "text": "spreading straw mulch to protect diaspores by improving micro-climatic conditions and preventing desiccation of plant fragments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:954be75a4574",
+      "subject": "causal_mosaic:node:15fcf08dd67b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75a7d9e2b3d5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses",
+      "source_spans": [
+        {
+          "text": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:935b41efffbd",
+      "subject": "causal_mosaic:node:15fcf08dd67b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b5a096910a86",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "which can help to stabilize the peat substrate",
+      "source_spans": [
+        {
+          "text": "which can help to stabilize the peat substrate"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:56c10660ca52",
+      "subject": "causal_mosaic:node:610bff2cab78",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24e862910644",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "prone to mechanical disturbance (e.g., rutting by caterpillar tracks or tires), which in turn could have a negative inﬂuence on the plant community colonizing the restored peatland",
+      "source_spans": [
+        {
+          "text": "prone to mechanical disturbance (e.g., rutting by caterpillar tracks or tires), which in turn could have a negative inﬂuence on the plant community colonizing the restored peatland"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9fa60dc3e6a6",
+      "subject": "causal_mosaic:node:9bbbfe310afe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2231509419f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "10 years of Polytrichum-moss establishment and growth contributes to form a dense and thick carpet accumulating about 5 mm of Polytrichum-moss fiber per year",
+      "source_spans": [
+        {
+          "text": "10 years of Polytrichum-moss establishment and growth contributes to form a dense and thick carpet accumulating about 5 mm of Polytrichum-moss fiber per year"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

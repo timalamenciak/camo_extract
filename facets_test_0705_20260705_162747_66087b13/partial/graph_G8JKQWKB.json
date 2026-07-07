@@ -1,0 +1,198 @@
+{
+  "graph_id": "causal_mosaic:graph:b9c00e532579",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T18:05:38.495839+00:00",
+    "source_corpus": "Evaluating Restoration Success on Lyell Island, British Columbia Using Oblique Videogrammetry",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f9279f709dfb",
+      "name": "treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2822af986d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The evaluation, based on digitized historical data, ground surveys, and the ODFS-derived data, indicates that the landslide rate (new area/year) tapered off following treatment; after 5 years it had been reduced by a factor of 3 relative to the background rate."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f78bc58982d2",
+      "name": "landslide rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5483c88dbb",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000161",
+      "source_spans": [
+        {
+          "text": "The evaluation, based on digitized historical data, ground surveys, and the ODFS-derived data, indicates that the landslide rate (new area/year) tapered off following treatment; after 5 years it had been reduced by a factor of 3 relative to the background rate."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7fb87eda6052",
+      "name": "expansion rate of existing slides",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e1f6add7e7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000161",
+      "source_spans": [
+        {
+          "text": "The treatment of slide areas through aerial seeding and road decommissioning has contributed to reducing the expansion rate of existing slides from a high of 2.6 ha/year in the 1984–1990 period to less than 0.1 ha/year in the post-treatment period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92a8e2387b18",
+      "name": "slope stability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9ac466821f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The apparent stability of these slopes indicates that the combination of seeding and waterbar construction is (likely) successful."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80c80e32ddf7",
+      "name": "aerial seeding and road decommissioning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8dd6bfb9c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The treatment of slide areas through aerial seeding and road decommissioning has contributed to reducing the expansion rate of existing slides from a high of 2.6 ha/year in the 1984–1990 period to less than 0.1 ha/year in the post-treatment period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a1f764e22b2",
+      "name": "combination of seeding and waterbar construction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4e5f3e4e2e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The apparent stability of these slopes indicates that the combination of seeding and waterbar construction is (likely) successful."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8efc794f4274",
+      "subject": "causal_mosaic:node:f9279f709dfb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f78bc58982d2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The evaluation, based on digitized historical data, ground surveys, and the ODFS-derived data, indicates that the landslide rate (new area/year) tapered off following treatment; after 5 years it had been reduced by a factor of 3 relative to the background rate.",
+      "source_spans": [
+        {
+          "text": "The evaluation, based on digitized historical data, ground surveys, and the ODFS-derived data, indicates that the landslide rate (new area/year) tapered off following treatment; after 5 years it had been reduced by a factor of 3 relative to the background rate."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.012316.x",
+        "title": "Evaluating Restoration Success on Lyell Island, British Columbia Using Oblique Videogrammetry",
+        "year": 2004,
+        "authors": [
+          "Davis, Trevor J.",
+          "Klinkenberg, Brian",
+          "Keller, C. Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c2a28f712616",
+      "subject": "causal_mosaic:node:80c80e32ddf7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7fb87eda6052",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The treatment of slide areas through aerial seeding and road decommissioning has contributed to reducing the expansion rate of existing slides from a high of 2.6 ha/year in the 1984–1990 period to less than 0.1 ha/year in the post-treatment period.",
+      "source_spans": [
+        {
+          "text": "The treatment of slide areas through aerial seeding and road decommissioning has contributed to reducing the expansion rate of existing slides from a high of 2.6 ha/year in the 1984–1990 period to less than 0.1 ha/year in the post-treatment period."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.012316.x",
+        "title": "Evaluating Restoration Success on Lyell Island, British Columbia Using Oblique Videogrammetry",
+        "year": 2004,
+        "authors": [
+          "Davis, Trevor J.",
+          "Klinkenberg, Brian",
+          "Keller, C. Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3cd933608d38",
+      "subject": "causal_mosaic:node:5a1f764e22b2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92a8e2387b18",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The apparent stability of these slopes indicates that the combination of seeding and waterbar construction is (likely) successful.",
+      "source_spans": [
+        {
+          "text": "The apparent stability of these slopes indicates that the combination of seeding and waterbar construction is (likely) successful."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.012316.x",
+        "title": "Evaluating Restoration Success on Lyell Island, British Columbia Using Oblique Videogrammetry",
+        "year": 2004,
+        "authors": [
+          "Davis, Trevor J.",
+          "Klinkenberg, Brian",
+          "Keller, C. Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

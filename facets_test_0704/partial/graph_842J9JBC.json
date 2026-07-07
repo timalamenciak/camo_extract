@@ -1,0 +1,707 @@
+{
+  "graph_id": "causal_mosaic:graph:9f13e4d11157",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T10:27:28.447012+00:00",
+    "source_corpus": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d0ae16b27731",
+      "name": "Transplanting turfs",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_89fff53509",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Transplanting turfs from areas slated for future development, with help of field crews, is a feasible method to accelerate the usually slow recovery of understory vegetation in restored forests after historical large-scale industrial damage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:696817c9c291",
+      "name": "Recovery of understory vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e193538677",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Transplanting turfs from areas slated for future development, with help of field crews, is a feasible method to accelerate the usually slow recovery of understory vegetation in restored forests after historical large-scale industrial damage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99d06322c223",
+      "name": "Initial establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a1ca8c2dd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Good initial establishment of the understory plants even on metal-contaminated soils, with minimal losses compared with original vegetation, can be achieved by transplanting sections of 10-cm thick turf (diameter >0.5m) to even larger plots (16m2)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:40f1677e6995",
+      "name": "Soil temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200012",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Root growth of Clintonia borealis (Aiton) Raf. and Gaultheria procumbens L. was positively related to soil temperature."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b88db366c26",
+      "name": "Root growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd4b348e02",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "root growth",
+      "source_spans": [
+        {
+          "text": "Root growth of Clintonia borealis (Aiton) Raf. and Gaultheria procumbens L. was positively related to soil temperature."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b87a074f9d7",
+      "name": "Soil Ni availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ccbb053bb5",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Root growth of G. procumbens correlated negatively with soil Ni availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d70efcf3c64",
+      "name": "Flowering frequency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c08f819f3c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "flowering frequency",
+      "source_spans": [
+        {
+          "text": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:acbf93023e6b",
+      "name": "Soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200010",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6bdaa5df0726",
+      "name": "Tree cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b2acd502ed",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c1636357884",
+      "name": "Soil SO4",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a33ebe6353",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Soil SO −2 4 had a negative effect on sexual reproduction of C. borealis."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76764fec41f5",
+      "name": "Sexual reproduction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a534ffe340",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "sexual reproduction",
+      "source_spans": [
+        {
+          "text": "Soil SO −2 4 had a negative effect on sexual reproduction of C. borealis."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67a2ac120b67",
+      "name": "Fruiting",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dad7f43500",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "fruiting",
+      "source_spans": [
+        {
+          "text": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f02afc16a877",
+      "name": "Plant-available Ni",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc63c846c2",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a011ce6141b6",
+      "name": "Plant-available As",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c362f25ec",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a72ad2867db0",
+      "name": "Environmental conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9cb2adc9f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a63e9a6ac411",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b00be7540a3d",
+      "name": "Diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5191936117",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0da081b15b8",
+      "name": "Evenness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2ed2341ce",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "evenness",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c568b666a2aa",
+      "subject": "causal_mosaic:node:d0ae16b27731",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:696817c9c291",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplanting turfs from areas slated for future development, with help of field crews, is a feasible method to accelerate the usually slow recovery of understory vegetation in restored forests after historical large-scale industrial damage.",
+      "source_spans": [
+        {
+          "text": "Transplanting turfs from areas slated for future development, with help of field crews, is a feasible method to accelerate the usually slow recovery of understory vegetation in restored forests after historical large-scale industrial damage."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:583b1b2581a5",
+      "subject": "causal_mosaic:node:d0ae16b27731",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:99d06322c223",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Good initial establishment of the understory plants even on metal-contaminated soils, with minimal losses compared with original vegetation, can be achieved by transplanting sections of 10-cm thick turf (diameter >0.5m) to even larger plots (16m2).",
+      "source_spans": [
+        {
+          "text": "Good initial establishment of the understory plants even on metal-contaminated soils, with minimal losses compared with original vegetation, can be achieved by transplanting sections of 10-cm thick turf (diameter >0.5m) to even larger plots (16m2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e1b3f031c8ad",
+      "subject": "causal_mosaic:node:40f1677e6995",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b88db366c26",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Root growth of Clintonia borealis (Aiton) Raf. and Gaultheria procumbens L. was positively related to soil temperature.",
+      "source_spans": [
+        {
+          "text": "Root growth of Clintonia borealis (Aiton) Raf. and Gaultheria procumbens L. was positively related to soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:22a500a1f24b",
+      "subject": "causal_mosaic:node:2b87a074f9d7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b88db366c26",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Root growth of G. procumbens correlated negatively with soil Ni availability",
+      "source_spans": [
+        {
+          "text": "Root growth of G. procumbens correlated negatively with soil Ni availability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bcdff24c5f50",
+      "subject": "causal_mosaic:node:acbf93023e6b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d70efcf3c64",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover",
+      "source_spans": [
+        {
+          "text": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:06195dec357f",
+      "subject": "causal_mosaic:node:6bdaa5df0726",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d70efcf3c64",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover",
+      "source_spans": [
+        {
+          "text": "Flowering frequency of G. procumbens correlated negatively with soil pH and positively with tree cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:757cdc633208",
+      "subject": "causal_mosaic:node:2c1636357884",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:76764fec41f5",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Soil SO −2 4 had a negative effect on sexual reproduction of C. borealis.",
+      "source_spans": [
+        {
+          "text": "Soil SO −2 4 had a negative effect on sexual reproduction of C. borealis."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:467ef0199498",
+      "subject": "causal_mosaic:node:f02afc16a877",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:67a2ac120b67",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As",
+      "source_spans": [
+        {
+          "text": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:45ab894ab211",
+      "subject": "causal_mosaic:node:a011ce6141b6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:67a2ac120b67",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As",
+      "source_spans": [
+        {
+          "text": "Unexpectedly, fruiting of C. borealis responded positively to Ni, and fruiting of Maianthemum canadense Desf. positively to As"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6970e88b110a",
+      "subject": "causal_mosaic:node:a72ad2867db0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a63e9a6ac411",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Species richness, diversity, and evenness were not affected by environmental conditions",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:236a7f4c9aff",
+      "subject": "causal_mosaic:node:a72ad2867db0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b00be7540a3d",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Species richness, diversity, and evenness were not affected by environmental conditions",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7698b00e2332",
+      "subject": "causal_mosaic:node:a72ad2867db0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0da081b15b8",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Species richness, diversity, and evenness were not affected by environmental conditions",
+      "source_spans": [
+        {
+          "text": "Species richness, diversity, and evenness were not affected by environmental conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12316",
+        "title": "Using turf transplants to reintroduce native forest understory plants into smelter‐disturbed forests",
+        "year": 2016,
+        "authors": [
+          "Santala, Kierann R.",
+          "Monet, Stephen",
+          "McCaffrey, Tina",
+          "Campbell, Daniel",
+          "Beckett, Peter",
+          "Ryser, Peter"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

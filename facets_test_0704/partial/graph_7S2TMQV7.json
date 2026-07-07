@@ -1,0 +1,280 @@
+{
+  "graph_id": "causal_mosaic:graph:5215954091a6",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T02:30:53.803375+00:00",
+    "source_corpus": "Estimating the benefits of widespread floodplain reconnection for Columbia River Chinook salmon",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d9627041ceed",
+      "name": "Floodplain reconnection",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8db2cb2378",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b421f0457afc",
+      "name": "side channel habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f3078ebb3f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c79c6f26dbf6",
+      "name": "spring Chinook salmon parr total rearing capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ba492417e3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f12926906c2f",
+      "name": "stream channel simplification",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8c14bd728d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In the Pacific Northwest, widespread stream channel simplification has led to a loss of habitat area and diversity for rearing salmon."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ed61822add3",
+      "name": "habitat area and diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c3c06a04c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In the Pacific Northwest, widespread stream channel simplification has led to a loss of habitat area and diversity for rearing salmon."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c198d9339975",
+      "name": "productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6587ed4437",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Where feasible, large-scale floodplain restoration activities can lead to increases in productivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0720c8fc7be9",
+      "name": "growth and survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0edbb2e155",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "allowing floodplain reconnection will directly benefit riverine vertebrates and invertebrates through increased growth and survival"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4bef9bbb0b54",
+      "subject": "causal_mosaic:node:d9627041ceed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b421f0457afc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates.",
+      "source_spans": [
+        {
+          "text": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2018-0108",
+        "title": "Estimating the benefits of widespread floodplain reconnection for Columbia River Chinook salmon",
+        "year": 2019,
+        "authors": [
+          "Bond, Morgan H.",
+          "Nodine, Tyler G.",
+          "Beechie, Tim J.",
+          "Zabel, Richard W."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:510d9084a01a",
+      "subject": "causal_mosaic:node:d9627041ceed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c79c6f26dbf6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates.",
+      "source_spans": [
+        {
+          "text": "Reconnection of historical floodplains currently used for agriculture could increase side channel habitat by 25% and spring Chinook salmon parr total rearing capacity by 9% over current estimates."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2018-0108",
+        "title": "Estimating the benefits of widespread floodplain reconnection for Columbia River Chinook salmon",
+        "year": 2019,
+        "authors": [
+          "Bond, Morgan H.",
+          "Nodine, Tyler G.",
+          "Beechie, Tim J.",
+          "Zabel, Richard W."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f29ea6b13c8b",
+      "subject": "causal_mosaic:node:f12926906c2f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ed61822add3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the Pacific Northwest, widespread stream channel simplification has led to a loss of habitat area and diversity for rearing salmon.",
+      "source_spans": [
+        {
+          "text": "In the Pacific Northwest, widespread stream channel simplification has led to a loss of habitat area and diversity for rearing salmon."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2018-0108",
+        "title": "Estimating the benefits of widespread floodplain reconnection for Columbia River Chinook salmon",
+        "year": 2019,
+        "authors": [
+          "Bond, Morgan H.",
+          "Nodine, Tyler G.",
+          "Beechie, Tim J.",
+          "Zabel, Richard W."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a9a63f2f0249",
+      "subject": "causal_mosaic:node:d9627041ceed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c198d9339975",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Where feasible, large-scale floodplain restoration activities can lead to increases in productivity",
+      "source_spans": [
+        {
+          "text": "Where feasible, large-scale floodplain restoration activities can lead to increases in productivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2018-0108",
+        "title": "Estimating the benefits of widespread floodplain reconnection for Columbia River Chinook salmon",
+        "year": 2019,
+        "authors": [
+          "Bond, Morgan H.",
+          "Nodine, Tyler G.",
+          "Beechie, Tim J.",
+          "Zabel, Richard W."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2e55da75f9ed",
+      "subject": "causal_mosaic:node:d9627041ceed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0720c8fc7be9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "allowing floodplain reconnection will directly benefit riverine vertebrates and invertebrates through increased growth and survival",
+      "source_spans": [
+        {
+          "text": "allowing floodplain reconnection will directly benefit riverine vertebrates and invertebrates through increased growth and survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2018-0108",
+        "title": "Estimating the benefits of widespread floodplain reconnection for Columbia River Chinook salmon",
+        "year": 2019,
+        "authors": [
+          "Bond, Morgan H.",
+          "Nodine, Tyler G.",
+          "Beechie, Tim J.",
+          "Zabel, Richard W."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      }
+    }
+  ]
+}

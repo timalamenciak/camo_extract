@@ -1,0 +1,316 @@
+{
+  "graph_id": "causal_mosaic:graph:2ff21d095fdc",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T12:24:10.249998+00:00",
+    "source_corpus": "Animal Colonization of Restored Peatlands: Inoculation of Plant Material as a Source of Insects",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:8850c5a027f1",
+      "name": "active or passive dispersal from the surrounding area",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_350ba0f4c1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Insects likely recolonize by active or passive dispersal from the surrounding area."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c67533b686b",
+      "name": "re-establishment of peatland fauna",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_31bb7dcb30",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "re-establishment",
+      "source_spans": [
+        {
+          "text": "Insects likely recolonize by active or passive dispersal from the surrounding area."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca702e454f09",
+      "name": "Diapause",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2c6549388b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Diapause may be a major factor for emergence success among seasons of collection."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f640e5f5ea8c",
+      "name": "emergence success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e603892853",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence success",
+      "source_spans": [
+        {
+          "text": "Diapause may be a major factor for emergence success among seasons of collection."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:16a0c50d444e",
+      "name": "inoculation with vegetation from another peatland in the same region",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0a01312ea1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "a mined site could be inoculated with vegetation from another peatland in the same region and this would not affect the insect assemblages at the initial stage of establishment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:408e6ca72732",
+      "name": "insect assemblages at the initial stage of establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7b30f1583",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "species assemblages",
+      "source_spans": [
+        {
+          "text": "a mined site could be inoculated with vegetation from another peatland in the same region and this would not affect the insect assemblages at the initial stage of establishment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44d3e48c7106",
+      "name": "vegetation collected and spread on the bog in September",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5694d61ee6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "If vegetation is collected and spread on the bog in September, mortality of diapausing stages is likely to be higher because of exposure on the surface."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:531122281a4b",
+      "name": "mortality of diapausing stages",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ab9d7943ed",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "mortality",
+      "source_spans": [
+        {
+          "text": "If vegetation is collected and spread on the bog in September, mortality of diapausing stages is likely to be higher because of exposure on the surface."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5f7587427cb",
+      "name": "shredding and stockpiling of vegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5ca7acd875",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Aspects of the restoration process (depth of collection, shredding and stockpiling of vegetation) could have a direct impact by killing the insects or altering requirements for breaking dormancy."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9bebcb7f70bd",
+      "name": "survival of organisms",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0dbe41415",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Aspects of the restoration process (depth of collection, shredding and stockpiling of vegetation) could have a direct impact by killing the insects or altering requirements for breaking dormancy."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:def5063c0e45",
+      "subject": "causal_mosaic:node:8850c5a027f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c67533b686b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Insects likely recolonize by active or passive dispersal from the surrounding area.",
+      "source_spans": [
+        {
+          "text": "Insects likely recolonize by active or passive dispersal from the surrounding area."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00867.x",
+        "title": "Animal Colonization of Restored Peatlands: Inoculation of Plant Material as a Source of Insects",
+        "year": 2013,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c95e81b52408",
+      "subject": "causal_mosaic:node:ca702e454f09",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f640e5f5ea8c",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Diapause may be a major factor for emergence success among seasons of collection.",
+      "source_spans": [
+        {
+          "text": "Diapause may be a major factor for emergence success among seasons of collection."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00867.x",
+        "title": "Animal Colonization of Restored Peatlands: Inoculation of Plant Material as a Source of Insects",
+        "year": 2013,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7f3dabaa9468",
+      "subject": "causal_mosaic:node:16a0c50d444e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:408e6ca72732",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a mined site could be inoculated with vegetation from another peatland in the same region and this would not affect the insect assemblages at the initial stage of establishment.",
+      "source_spans": [
+        {
+          "text": "a mined site could be inoculated with vegetation from another peatland in the same region and this would not affect the insect assemblages at the initial stage of establishment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00867.x",
+        "title": "Animal Colonization of Restored Peatlands: Inoculation of Plant Material as a Source of Insects",
+        "year": 2013,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f8a49e35bd24",
+      "subject": "causal_mosaic:node:44d3e48c7106",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:531122281a4b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "If vegetation is collected and spread on the bog in September, mortality of diapausing stages is likely to be higher because of exposure on the surface.",
+      "source_spans": [
+        {
+          "text": "If vegetation is collected and spread on the bog in September, mortality of diapausing stages is likely to be higher because of exposure on the surface."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00867.x",
+        "title": "Animal Colonization of Restored Peatlands: Inoculation of Plant Material as a Source of Insects",
+        "year": 2013,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:00789352b7dc",
+      "subject": "causal_mosaic:node:f5f7587427cb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9bebcb7f70bd",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Aspects of the restoration process (depth of collection, shredding and stockpiling of vegetation) could have a direct impact by killing the insects or altering requirements for breaking dormancy.",
+      "source_spans": [
+        {
+          "text": "Aspects of the restoration process (depth of collection, shredding and stockpiling of vegetation) could have a direct impact by killing the insects or altering requirements for breaking dormancy."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00867.x",
+        "title": "Animal Colonization of Restored Peatlands: Inoculation of Plant Material as a Source of Insects",
+        "year": 2013,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

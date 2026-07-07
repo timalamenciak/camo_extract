@@ -1,0 +1,311 @@
+{
+  "graph_id": "causal_mosaic:graph:1d56d3696055",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T03:53:23.376447+00:00",
+    "source_corpus": "Incomplete recovery of plant diversity in restored prairie wetlands on agricultural landscapes",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:830d0d291942",
+      "name": "restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ace0331c6d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "species richness is lowest in drained wetlands, increases rapidly within 5 years of restoration, and appears to stabilize within 6–10 years of restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "species richness is lowest in drained wetlands, increases rapidly within 5 years of restoration, and appears to stabilize within 6–10 years of restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:35f6ac3007bd",
+      "name": "Wetland area",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00000043",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Wetland area was positively correlated with species richness (r=0.474, p=0.009)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86f32be2891e",
+      "name": "Wetland slope",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f79540ab96",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "wetland slope was positively correlated with percent cover of non-native species (r=0.456, p=0.013)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c77a9dfa02c",
+      "name": "percent cover of non-native species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_73327d80bb",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "percent cover",
+      "source_spans": [
+        {
+          "text": "wetland slope was positively correlated with percent cover of non-native species (r=0.456, p=0.013)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:751c30420d05",
+      "name": "agricultural landscapes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_17c245c576",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "large-scale loss of wetlands from these landscapes has resulted in scarce or depauperate native seed banks and plant propagules"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:11cf3105035b",
+      "name": "native seed bank",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2a7ddf346",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "large-scale loss of wetlands from these landscapes has resulted in scarce or depauperate native seed banks and plant propagules"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7063216672c8",
+      "name": "invasive species",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q183368",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Key features of invasive species... provide an advantage in newly disturbed habitats for these species to establish quickly and efficiently, thereby impeding establishment of native hydrophytes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:10ed25bdfda4",
+      "name": "establishment of native hydrophytes",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_226acc4d56",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Key features of invasive species... provide an advantage in newly disturbed habitats for these species to establish quickly and efficiently, thereby impeding establishment of native hydrophytes"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:85351dff602c",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "species richness is lowest in drained wetlands, increases rapidly within 5 years of restoration, and appears to stabilize within 6–10 years of restoration",
+      "source_spans": [
+        {
+          "text": "species richness is lowest in drained wetlands, increases rapidly within 5 years of restoration, and appears to stabilize within 6–10 years of restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12890",
+        "title": "Incomplete recovery of plant diversity in restored prairie wetlands on agricultural landscapes",
+        "year": 2019,
+        "authors": [
+          "Salaria, Saloni",
+          "Howard, Renee",
+          "Clare, Shari",
+          "Creed, Irena F."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f9a2a7e3ad90",
+      "subject": "causal_mosaic:node:35f6ac3007bd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wetland area was positively correlated with species richness (r=0.474, p=0.009)",
+      "source_spans": [
+        {
+          "text": "Wetland area was positively correlated with species richness (r=0.474, p=0.009)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12890",
+        "title": "Incomplete recovery of plant diversity in restored prairie wetlands on agricultural landscapes",
+        "year": 2019,
+        "authors": [
+          "Salaria, Saloni",
+          "Howard, Renee",
+          "Clare, Shari",
+          "Creed, Irena F."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ba44e3c3afe",
+      "subject": "causal_mosaic:node:86f32be2891e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c77a9dfa02c",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "wetland slope was positively correlated with percent cover of non-native species (r=0.456, p=0.013)",
+      "source_spans": [
+        {
+          "text": "wetland slope was positively correlated with percent cover of non-native species (r=0.456, p=0.013)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12890",
+        "title": "Incomplete recovery of plant diversity in restored prairie wetlands on agricultural landscapes",
+        "year": 2019,
+        "authors": [
+          "Salaria, Saloni",
+          "Howard, Renee",
+          "Clare, Shari",
+          "Creed, Irena F."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:53f593b98dd5",
+      "subject": "causal_mosaic:node:751c30420d05",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:11cf3105035b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "large-scale loss of wetlands from these landscapes has resulted in scarce or depauperate native seed banks and plant propagules",
+      "source_spans": [
+        {
+          "text": "large-scale loss of wetlands from these landscapes has resulted in scarce or depauperate native seed banks and plant propagules"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12890",
+        "title": "Incomplete recovery of plant diversity in restored prairie wetlands on agricultural landscapes",
+        "year": 2019,
+        "authors": [
+          "Salaria, Saloni",
+          "Howard, Renee",
+          "Clare, Shari",
+          "Creed, Irena F."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:57f777170b32",
+      "subject": "causal_mosaic:node:7063216672c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:10ed25bdfda4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Key features of invasive species... provide an advantage in newly disturbed habitats for these species to establish quickly and efficiently, thereby impeding establishment of native hydrophytes",
+      "source_spans": [
+        {
+          "text": "Key features of invasive species... provide an advantage in newly disturbed habitats for these species to establish quickly and efficiently, thereby impeding establishment of native hydrophytes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12890",
+        "title": "Incomplete recovery of plant diversity in restored prairie wetlands on agricultural landscapes",
+        "year": 2019,
+        "authors": [
+          "Salaria, Saloni",
+          "Howard, Renee",
+          "Clare, Shari",
+          "Creed, Irena F."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

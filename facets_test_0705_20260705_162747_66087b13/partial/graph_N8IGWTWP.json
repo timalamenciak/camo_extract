@@ -1,0 +1,427 @@
+{
+  "graph_id": "causal_mosaic:graph:35f7bc8a34a2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T10:09:01.892721+00:00",
+    "source_corpus": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fe50ada59d8c",
+      "name": "Re-establishment of hummock topography",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_44fb1e1948",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7729d3cbf833",
+      "name": "tree regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4e753d5488",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3cab4eddcb0",
+      "name": "conifer seedling density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dee3cb0316",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "conifer seedling density was more than five times higher on elevated spots than the mostly flat, flood-prone areas between them"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d37220c54dd9",
+      "name": "mound height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_69a6018e90",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "seedling density was positively related to mound height",
+          "start_char": 1484,
+          "end_char": 1539,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2117d4773dd7",
+      "name": "strength of seed source",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6e674d339c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "seedling density was positively related to mound height and strength of seed source",
+          "start_char": 1484,
+          "end_char": 1567,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c57a4e73afdd",
+      "name": "artificial mounds",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_41f8e1d4c1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "there was more than a five-fold increase in the density of natural regeneration of tamarack and black spruce on artificial mounds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b00833959f1",
+      "name": "flooding",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500002",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "flooding reduced survival of pine seedlings in peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fc977ec830ba",
+      "name": "survival of conifer seedlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9577d5df07",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "flooding reduced survival of pine seedlings in peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2bf7b4502cd2",
+      "name": "peat humification",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93d5777396",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "these pads had peat with higher humification"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1be4998f9e6c",
+      "name": "mound erosion",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5651a24eea",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Mounds on some of the pads were heavily eroded down",
+          "start_char": 1616,
+          "end_char": 1667,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5656b3666bf0",
+      "name": "Winter exploration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_224420c486",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Winter exploration of oil sands deposits underlying wooded fens mostly eliminates the hummock-hollow topography"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a112392322a",
+      "name": "hummock-hollow topography",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c1b23e6c8b",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "Winter exploration of oil sands deposits underlying wooded fens mostly eliminates the hummock-hollow topography"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:0c93b37b91dd",
+      "subject": "causal_mosaic:node:fe50ada59d8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7729d3cbf833",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+      "source_spans": [
+        {
+          "text": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9543fe1c61f3",
+      "subject": "causal_mosaic:node:c57a4e73afdd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3cab4eddcb0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there was more than a five-fold increase in the density of natural regeneration of tamarack and black spruce on artificial mounds",
+      "source_spans": [
+        {
+          "text": "there was more than a five-fold increase in the density of natural regeneration of tamarack and black spruce on artificial mounds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5f042265bac9",
+      "subject": "causal_mosaic:node:d37220c54dd9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3cab4eddcb0",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedling density was positively related to mound height",
+      "source_spans": [
+        {
+          "text": "seedling density was positively related to mound height",
+          "start_char": 1484,
+          "end_char": 1539,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3a81eaa9de49",
+      "subject": "causal_mosaic:node:2117d4773dd7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3cab4eddcb0",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedling density was positively related to mound height and strength of seed source",
+      "source_spans": [
+        {
+          "text": "seedling density was positively related to mound height and strength of seed source",
+          "start_char": 1484,
+          "end_char": 1567,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:53eae77b2578",
+      "subject": "causal_mosaic:node:7b00833959f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fc977ec830ba",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "flooding reduced survival of pine seedlings in peatlands",
+      "source_spans": [
+        {
+          "text": "flooding reduced survival of pine seedlings in peatlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:73b0b639bdda",
+      "subject": "causal_mosaic:node:2bf7b4502cd2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1be4998f9e6c",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mounds on some of the pads were heavily eroded down; these pads had peat with higher humification",
+      "source_spans": [
+        {
+          "text": "Mounds on some of the pads were heavily eroded down; these pads had peat with higher humification"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:944c7cd3c5bf",
+      "subject": "causal_mosaic:node:5656b3666bf0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a112392322a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Winter exploration of oil sands deposits underlying wooded fens mostly eliminates the hummock-hollow topography",
+      "source_spans": [
+        {
+          "text": "Winter exploration of oil sands deposits underlying wooded fens mostly eliminates the hummock-hollow topography"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2017.04.002",
+        "title": "Re-establishment of hummock topography promotes tree regeneration on highly disturbed moderate-rich fens",
+        "year": 2017,
+        "authors": [
+          "Lieffers, Victor J.",
+          "Caners, Richard T.",
+          "Ge, Hangfei"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

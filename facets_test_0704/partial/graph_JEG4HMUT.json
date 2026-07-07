@@ -1,0 +1,591 @@
+{
+  "graph_id": "causal_mosaic:graph:9d3c8334c5d7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T09:25:35.642360+00:00",
+    "source_corpus": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:177aafa123a0",
+      "name": "lake acidity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2a272d13b4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Direct and indirect effects of lake acidity appeared to be major controls on the structure of these communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:173e77d8ce1f",
+      "name": "abundances of several taxa of Ephemeroptera",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee4e29e99b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Declines in abundances of several taxa of Ephemeroptera at pH below 5.5 were attributable to acid toxicity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cca7b349d88a",
+      "name": "abundances of Odonata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c5affd2b59",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "increases in the abundances of Odonata and Diptera at pH below 5.5 were associated with the absence of fish predators and other indirect effects of acidity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cb6f6be494ef",
+      "name": "abundances of Diptera",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fecdc48ff1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "increases in the abundances of Odonata and Diptera at pH below 5.5 were associated with the absence of fish predators and other indirect effects of acidity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:158162f861a1",
+      "name": "Neutralization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1a2cc69653",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:32a29cd67f53",
+      "name": "abundance of the acid-sensitive mayfly, Stenacron interpunctatum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39ec3711ba",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:757a1ed99309",
+      "name": "abundance of the dragonfly, Boyeria grafiana",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7f6c6c3aaf",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum, and the dragonfly, Boyeria grafiana"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ed4ef83ff838",
+      "name": "fish predation pressure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_928d162a62",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:77d3d99e602e",
+      "name": "abundances of the dragonflies Aeshna interrupta",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_690825c5d1",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c38e351ca077",
+      "name": "abundances of the dragonflies Aeshna eremita",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ffe2c8c7a3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:693f2b160f38",
+      "name": "abundances of the dragonflies Leucorrhinia glacialis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9c2a59414b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:406980431397",
+      "name": "abundances of the dipterans Ceratopogonidae",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4a0e7facab",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3dc7dc8dc0b",
+      "name": "abundances of the dipterans Psectrocladius",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1c1971b9a7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8045cb615c8d",
+      "name": "abundances of the dipterans Stackelbergina",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2423266fda",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ab0d6eeb4c83",
+      "subject": "causal_mosaic:node:177aafa123a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:173e77d8ce1f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Declines in abundances of several taxa of Ephemeroptera at pH below 5.5 were attributable to acid toxicity",
+      "source_spans": [
+        {
+          "text": "Declines in abundances of several taxa of Ephemeroptera at pH below 5.5 were attributable to acid toxicity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0f0a6d90e34d",
+      "subject": "causal_mosaic:node:177aafa123a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cca7b349d88a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "increases in the abundances of Odonata and Diptera at pH below 5.5 were associated with the absence of fish predators and other indirect effects of acidity",
+      "source_spans": [
+        {
+          "text": "increases in the abundances of Odonata and Diptera at pH below 5.5 were associated with the absence of fish predators and other indirect effects of acidity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c2b5a6fa0f0",
+      "subject": "causal_mosaic:node:177aafa123a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cb6f6be494ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "increases in the abundances of Odonata and Diptera at pH below 5.5 were associated with the absence of fish predators and other indirect effects of acidity",
+      "source_spans": [
+        {
+          "text": "increases in the abundances of Odonata and Diptera at pH below 5.5 were associated with the absence of fish predators and other indirect effects of acidity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79a71c7d1068",
+      "subject": "causal_mosaic:node:158162f861a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:32a29cd67f53",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum",
+      "source_spans": [
+        {
+          "text": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d0c10fd352fd",
+      "subject": "causal_mosaic:node:158162f861a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:757a1ed99309",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum, and the dragonfly, Boyeria grafiana",
+      "source_spans": [
+        {
+          "text": "Neutralization led to recolonization or increased abundance of the acid-sensitive mayfly, Stenacron interpunctatum, and the dragonfly, Boyeria grafiana"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e406db4c9a91",
+      "subject": "causal_mosaic:node:ed4ef83ff838",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:77d3d99e602e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee7f746a589a",
+      "subject": "causal_mosaic:node:ed4ef83ff838",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c38e351ca077",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:951a64760019",
+      "subject": "causal_mosaic:node:ed4ef83ff838",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:693f2b160f38",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure",
+      "source_spans": [
+        {
+          "text": "declines in the abundances of the dragonflies Aeshna interrupta, Aeshna eremita, and Leucorrhinia glacialis in the neutralized lakes were associated with reintroductions of Salvelinus fontinalis (aurora trout) and increased fish predation pressure"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:91c9c7d54f17",
+      "subject": "causal_mosaic:node:177aafa123a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:406980431397",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation",
+      "source_spans": [
+        {
+          "text": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:09ea9ec7a7c1",
+      "subject": "causal_mosaic:node:177aafa123a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3dc7dc8dc0b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation",
+      "source_spans": [
+        {
+          "text": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a85ea10385ab",
+      "subject": "causal_mosaic:node:177aafa123a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8045cb615c8d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation",
+      "source_spans": [
+        {
+          "text": "reduced abundances of the dipterans Ceratopogonidae, Psectrocladius, and Stackelbergina may be related to indirect effects of acidity other than fish predation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.1998.06408.x",
+        "title": "Effects of Changes in Acidity on Aquatic Insects in Rocky Littoral Habitats of Lakes Near Sudbur y, Ontario",
+        "year": 1998,
+        "authors": [
+          "Carbone, J.",
+          "Keller, W.",
+          "Griffiths, R. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "graph_id": "causal_mosaic:graph:168bcafef38b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T11:00:13.664097+00:00",
+    "source_corpus": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e6a7da5bc182",
+      "name": "Low-density spruce plantations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e6e802872b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Low-density spruce plantations increase foraging by moose",
+          "start_char": 11,
+          "end_char": 68,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a9bf7fc9ea25",
+      "name": "Standard high-density plantations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dd06d11ee3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "standard high-density plantations currently used throughout eastern Canada",
+          "start_char": 1677,
+          "end_char": 1751,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7deeddc6dd04",
+      "name": "Moose",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q35517",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "moose Alces americanus",
+          "start_char": 1642,
+          "end_char": 1664,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b46be69e4562",
+      "name": "Increased proportion of stems browsed",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9ae36b70e6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "stems browsed",
+      "source_spans": [
+        {
+          "text": "The proportion of stems browsed by moose increased with the number of available stems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0e713cbfd0b",
+      "name": "Decreased number of moose feces",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1b926ac9ed",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "moose feces",
+      "source_spans": [
+        {
+          "text": "The number of moose feces... was lower in thinned... stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18f17b8480cd",
+      "name": "Increased number of available stems",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7793e3dc1c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "stems",
+      "source_spans": [
+        {
+          "text": "The P1350 had more stems... compared to the P2000"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44f7608e01a7",
+      "name": "Increased vertical cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_11569cb972",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "vertical cover",
+      "source_spans": [
+        {
+          "text": "The P1350... had... a denser vertical cover... compared to the P2000"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9ae61b447a00",
+      "name": "Pre-commercial thinning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c8dd083174",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Pre-commercial thinning had a negative effect",
+          "start_char": 34105,
+          "end_char": 34150,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5db02fe72e92",
+      "name": "Decreased availability of deciduous stems",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7d85eecd38",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "deciduous stems",
+      "source_spans": [
+        {
+          "text": "Pre-commercial thinning had a negative effect on the availability of deciduous stems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78e84250ae76",
+      "name": "Increased density of commercial trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_08595fa5ef",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "commercial trees",
+      "source_spans": [
+        {
+          "text": "Thinning increased the density and diameter of commercial trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e872b628eda9",
+      "name": "Increased diameter of commercial trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_76d00e8111",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "commercial trees",
+      "source_spans": [
+        {
+          "text": "Thinning increased the density and diameter of commercial trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a0cf5ea906a4",
+      "name": "Increased proportion of browsed stems (5 years old)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c6b7880b64",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "browsed stems",
+      "source_spans": [
+        {
+          "text": "Older stands had a lower proportion of browsed stems... 0.50... in 5-years-old"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:efc6d970868a",
+      "name": "Decreased vertical cover (5 years old)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_11569cb972",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "vertical cover",
+      "source_spans": [
+        {
+          "text": "Older stands... showed the densest vertical cover... 7.59... in 5-years-old"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:55462e9a1b04",
+      "subject": "causal_mosaic:node:e6a7da5bc182",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b46be69e4562",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Low-density spruce plantations increase foraging by moose",
+      "source_spans": [
+        {
+          "text": "Low-density spruce plantations increase foraging by moose",
+          "start_char": 11,
+          "end_char": 68,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0e523cc1afd6",
+      "subject": "causal_mosaic:node:18f17b8480cd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b46be69e4562",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The proportion of stems browsed by moose increased with the number of available stems",
+      "source_spans": [
+        {
+          "text": "The proportion of stems browsed by moose increased with the number of available stems"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:11ef225c35f3",
+      "subject": "causal_mosaic:node:44f7608e01a7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b46be69e4562",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The proportion of stems browsed by moose... decreased with vertical cover",
+      "source_spans": [
+        {
+          "text": "The proportion of stems browsed by moose... decreased with vertical cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e3736be82a18",
+      "subject": "causal_mosaic:node:9ae61b447a00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0e713cbfd0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Pre-commercial thinning had a negative effect on... the number of moose feces",
+      "source_spans": [
+        {
+          "text": "Pre-commercial thinning had a negative effect on... the number of moose feces"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c73deb207e60",
+      "subject": "causal_mosaic:node:9ae61b447a00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5db02fe72e92",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Pre-commercial thinning had a negative effect on the availability of deciduous stems",
+      "source_spans": [
+        {
+          "text": "Pre-commercial thinning had a negative effect on the availability of deciduous stems"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e23d97d139b4",
+      "subject": "causal_mosaic:node:9ae61b447a00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:78e84250ae76",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Thinning increased the density and diameter of commercial trees",
+      "source_spans": [
+        {
+          "text": "Thinning increased the density and diameter of commercial trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5532de10d60d",
+      "subject": "causal_mosaic:node:9ae61b447a00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e872b628eda9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Thinning increased the density and diameter of commercial trees",
+      "source_spans": [
+        {
+          "text": "Thinning increased the density and diameter of commercial trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4001a3982938",
+      "subject": "causal_mosaic:node:e6a7da5bc182",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18f17b8480cd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The P1350 had more stems... compared to the P2000",
+      "source_spans": [
+        {
+          "text": "The P1350 had more stems... compared to the P2000"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:32004946f1b0",
+      "subject": "causal_mosaic:node:e6a7da5bc182",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:44f7608e01a7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The P1350... had... a denser vertical cover... compared to the P2000",
+      "source_spans": [
+        {
+          "text": "The P1350... had... a denser vertical cover... compared to the P2000"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e506d3742867",
+      "subject": "causal_mosaic:node:a0cf5ea906a4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a0cf5ea906a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Older stands had a lower proportion of browsed stems... 0.50... in 5-years-old",
+      "source_spans": [
+        {
+          "text": "Older stands had a lower proportion of browsed stems... 0.50... in 5-years-old"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:993b7a8bea1f",
+      "subject": "causal_mosaic:node:efc6d970868a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:efc6d970868a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Older stands... showed the densest vertical cover... 7.59... in 5-years-old",
+      "source_spans": [
+        {
+          "text": "Older stands... showed the densest vertical cover... 7.59... in 5-years-old"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.03.034",
+        "title": "Low-density spruce plantations increase foraging by moose in a northeastern temperate forest",
+        "year": 2015,
+        "authors": [
+          "Leblond, Mathieu",
+          "Dussault, Christian",
+          "St-Laurent, Martin-Hugues"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

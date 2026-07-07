@@ -1,0 +1,227 @@
+{
+  "graph_id": "causal_mosaic:graph:174ae2c0cc70",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T08:21:56.652913+00:00",
+    "source_corpus": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6b7455d0406b",
+      "name": "reduced white-tailed deer density",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9f2227e4c5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1d22753d3a0e",
+      "name": "insect communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93011a2c30",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "we evaluated the effects of reducing white-tailed deer ( Odocoileus virginianus) density from [20 down to 15, 7.5 and 0 deer km -2, on four insect taxa representing different levels of dependence on plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0dbd2ffd3000",
+      "name": "species richness of macro Lepidoptera",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6602dc8f14",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "However, the effect of deer density was significant on the number of species of macro Lepidoptera (Table 3; Fig. 1b), for which more species were captured at 7.5 and 15 deer km -2 than in uncontrolled densities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b2a604c77bd5",
+      "name": "abundance of dominant species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c67a3a85b5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "The abundance of the dominant species of Syrphidae ( Melanostoma mellinum) and Carabidae (S. impunctatus) in both harvested and forested areas, decreased at reduced deer densities (Fig. 2a)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4b9380561bcf",
+      "name": "abundance of rare species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ca42fd9cf3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "The abundance of rare species of macro Lepidoptera was significantly higher at reduced deer densities than in uncontrolled densities in both harvested and forested areas (Fig. 2d)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:cfff8c8a0e8f",
+      "subject": "causal_mosaic:node:6b7455d0406b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1d22753d3a0e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem",
+      "source_spans": [
+        {
+          "text": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-012-0400-5",
+        "title": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem",
+        "year": 2013,
+        "authors": [
+          "Brousseau, Pierre-Marc",
+          "Hébert, Christian",
+          "Cloutier, Conrad",
+          "Côté, Steeve D."
+        ],
+        "journal": "Biodivers Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:70c68d9eaa0c",
+      "subject": "causal_mosaic:node:6b7455d0406b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dbd2ffd3000",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, the effect of deer density was significant on the number of species of macro Lepidoptera (Table 3; Fig. 1b), for which more species were captured at 7.5 and 15 deer km -2 than in uncontrolled densities.",
+      "source_spans": [
+        {
+          "text": "However, the effect of deer density was significant on the number of species of macro Lepidoptera (Table 3; Fig. 1b), for which more species were captured at 7.5 and 15 deer km -2 than in uncontrolled densities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-012-0400-5",
+        "title": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem",
+        "year": 2013,
+        "authors": [
+          "Brousseau, Pierre-Marc",
+          "Hébert, Christian",
+          "Cloutier, Conrad",
+          "Côté, Steeve D."
+        ],
+        "journal": "Biodivers Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c1c935b175a",
+      "subject": "causal_mosaic:node:6b7455d0406b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b2a604c77bd5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The abundance of the dominant species of Syrphidae ( Melanostoma mellinum) and Carabidae (S. impunctatus) in both harvested and forested areas, decreased at reduced deer densities (Fig. 2a).",
+      "source_spans": [
+        {
+          "text": "The abundance of the dominant species of Syrphidae ( Melanostoma mellinum) and Carabidae (S. impunctatus) in both harvested and forested areas, decreased at reduced deer densities (Fig. 2a)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-012-0400-5",
+        "title": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem",
+        "year": 2013,
+        "authors": [
+          "Brousseau, Pierre-Marc",
+          "Hébert, Christian",
+          "Cloutier, Conrad",
+          "Côté, Steeve D."
+        ],
+        "journal": "Biodivers Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4f89c957f6c0",
+      "subject": "causal_mosaic:node:6b7455d0406b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4b9380561bcf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The abundance of rare species of macro Lepidoptera was significantly higher at reduced deer densities than in uncontrolled densities in both harvested and forested areas (Fig. 2d).",
+      "source_spans": [
+        {
+          "text": "The abundance of rare species of macro Lepidoptera was significantly higher at reduced deer densities than in uncontrolled densities in both harvested and forested areas (Fig. 2d)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-012-0400-5",
+        "title": "Short-term effects of reduced white-tailed deer density on insect communities in a strongly overbrowsed boreal forest ecosystem",
+        "year": 2013,
+        "authors": [
+          "Brousseau, Pierre-Marc",
+          "Hébert, Christian",
+          "Cloutier, Conrad",
+          "Côté, Steeve D."
+        ],
+        "journal": "Biodivers Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

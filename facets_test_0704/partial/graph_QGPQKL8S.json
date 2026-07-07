@@ -1,0 +1,749 @@
+{
+  "graph_id": "causal_mosaic:graph:fead4e852581",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T05:11:32.071531+00:00",
+    "source_corpus": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:1f8b6edab54a",
+      "name": "Stratification treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_752575f0b0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The stratification treatment significantly enhanced seed germination of K. angustifolia, I. versicolor, J. effusus and E. vaginatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1c79c5ed622",
+      "name": "Seed germination of K. angustifolia, I. versicolor, J. effusus and E. vaginatum",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_20bf2b370b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "germination",
+      "source_spans": [
+        {
+          "text": "The stratification treatment significantly enhanced seed germination of K. angustifolia, I. versicolor, J. effusus and E. vaginatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aad51b03aa2d",
+      "name": "Organic matter mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_61cb7959e6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "germination was increased by 20% in organic matter mulch compared to the control"
+        },
+        {
+          "text": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings"
+        },
+        {
+          "text": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control"
+        },
+        {
+          "text": "Root and shoot dry mass of the species was less in organic matter mulch than in hay-mat mulch and control"
+        },
+        {
+          "text": "their shoot biomass was lower in hay-mat mulch than organic matter mulch"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9ff4905cda3",
+      "name": "Germination of I. versicolor",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c311f8cac2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "germination",
+      "source_spans": [
+        {
+          "text": "germination was increased by 20% in organic matter mulch compared to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a046c9dd5526",
+      "name": "Hay-mat mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5c496bd1d9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Germination of I. versicolor was lower (5%) in hay-mat mulch than control"
+        },
+        {
+          "text": "for J. communis the hay-mat mulch provided significantly more survival"
+        },
+        {
+          "text": "Shoot length of E. nigrum cuttings was almost double in hay-mat mulch than in organic matter mulch"
+        },
+        {
+          "text": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control"
+        },
+        {
+          "text": "The root-shoot ratio of E. nigrum was higher in hay-mat mulch than control and organic matter mulch"
+        },
+        {
+          "text": "it caused significant reduction in shoot dry mass compared to organic matter mulch and control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fda0864b85f5",
+      "name": "Germination of I. versicolor",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_78b62400f6",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "germination",
+      "source_spans": [
+        {
+          "text": "Germination of I. versicolor was lower (5%) in hay-mat mulch than control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3266fdc9d508",
+      "name": "Hay-mat mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bde706a441",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86fea865bd4f",
+      "name": "Survival of E. nigrum stem cuttings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b4cd7364c2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c08d079ac315",
+      "name": "Survival of J. communis stem cuttings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5555d1b2c9",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "for J. communis the hay-mat mulch provided significantly more survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a2f432652a10",
+      "name": "Shoot length of E. nigrum cuttings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3143f87ca5",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "shoot length",
+      "source_spans": [
+        {
+          "text": "Shoot length of E. nigrum cuttings was almost double in hay-mat mulch than in organic matter mulch"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bd475d34bc14",
+      "name": "Mulching treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4fc4025547",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Shoot growth of I. versicolor was lower in the mulching treatments than control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69b3e15f72f1",
+      "name": "Shoot growth of I. versicolor",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_57a171dabc",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "shoot growth",
+      "source_spans": [
+        {
+          "text": "Shoot growth of I. versicolor was lower in the mulching treatments than control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70cf6d305c0e",
+      "name": "Total biomass of I. versicolor",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_438961ab22",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2bf05cc4253e",
+      "name": "Shoot dry mass of I. versicolor",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b61ec17da3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "shoot dry mass",
+      "source_spans": [
+        {
+          "text": "Root and shoot dry mass of the species was less in organic matter mulch than in hay-mat mulch and control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84281b96a11c",
+      "name": "Root-shoot ratio of E. nigrum cuttings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_646662cd84",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "root-shoot ratio",
+      "source_spans": [
+        {
+          "text": "The root-shoot ratio of E. nigrum was higher in hay-mat mulch than control and organic matter mulch"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81a44c3620bc",
+      "name": "Shoot dry mass of E. nigrum and J. communis cuttings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1252a30695",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "shoot dry mass",
+      "source_spans": [
+        {
+          "text": "it caused significant reduction in shoot dry mass compared to organic matter mulch and control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c27e806477c",
+      "name": "Shoot biomass of E. nigrum and J. communis cuttings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f664d777f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "shoot biomass",
+      "source_spans": [
+        {
+          "text": "their shoot biomass was lower in hay-mat mulch than organic matter mulch"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:adde9b348789",
+      "subject": "causal_mosaic:node:1f8b6edab54a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1c79c5ed622",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The stratification treatment significantly enhanced seed germination of K. angustifolia, I. versicolor, J. effusus and E. vaginatum",
+      "source_spans": [
+        {
+          "text": "The stratification treatment significantly enhanced seed germination of K. angustifolia, I. versicolor, J. effusus and E. vaginatum"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:60ae2a7a1a6e",
+      "subject": "causal_mosaic:node:aad51b03aa2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b9ff4905cda3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "germination was increased by 20% in organic matter mulch compared to the control",
+      "source_spans": [
+        {
+          "text": "germination was increased by 20% in organic matter mulch compared to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ab343206c3ef",
+      "subject": "causal_mosaic:node:a046c9dd5526",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fda0864b85f5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Germination of I. versicolor was lower (5%) in hay-mat mulch than control",
+      "source_spans": [
+        {
+          "text": "Germination of I. versicolor was lower (5%) in hay-mat mulch than control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:def9764b8d05",
+      "subject": "causal_mosaic:node:3266fdc9d508",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86fea865bd4f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings",
+      "source_spans": [
+        {
+          "text": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c1a766f66aa5",
+      "subject": "causal_mosaic:node:aad51b03aa2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86fea865bd4f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings",
+      "source_spans": [
+        {
+          "text": "Hay-mat mulch and organic matter mulch provided higher survival of E. nigrum stem cuttings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2a8bb4e5077",
+      "subject": "causal_mosaic:node:a046c9dd5526",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c08d079ac315",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "for J. communis the hay-mat mulch provided significantly more survival",
+      "source_spans": [
+        {
+          "text": "for J. communis the hay-mat mulch provided significantly more survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a35311c47b31",
+      "subject": "causal_mosaic:node:a046c9dd5526",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a2f432652a10",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shoot length of E. nigrum cuttings was almost double in hay-mat mulch than in organic matter mulch",
+      "source_spans": [
+        {
+          "text": "Shoot length of E. nigrum cuttings was almost double in hay-mat mulch than in organic matter mulch"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b1664fb328ba",
+      "subject": "causal_mosaic:node:bd475d34bc14",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:69b3e15f72f1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shoot growth of I. versicolor was lower in the mulching treatments than control",
+      "source_spans": [
+        {
+          "text": "Shoot growth of I. versicolor was lower in the mulching treatments than control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4fbdf0c7ffea",
+      "subject": "causal_mosaic:node:a046c9dd5526",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:70cf6d305c0e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control",
+      "source_spans": [
+        {
+          "text": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3e16fa4c3177",
+      "subject": "causal_mosaic:node:aad51b03aa2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:70cf6d305c0e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control",
+      "source_spans": [
+        {
+          "text": "Total biomass of I. versicolor was lower in hay-mat mulch and organic matter mulch than control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:56258a7ce95f",
+      "subject": "causal_mosaic:node:aad51b03aa2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2bf05cc4253e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Root and shoot dry mass of the species was less in organic matter mulch than in hay-mat mulch and control",
+      "source_spans": [
+        {
+          "text": "Root and shoot dry mass of the species was less in organic matter mulch than in hay-mat mulch and control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f86efa7f5bab",
+      "subject": "causal_mosaic:node:a046c9dd5526",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84281b96a11c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The root-shoot ratio of E. nigrum was higher in hay-mat mulch than control and organic matter mulch",
+      "source_spans": [
+        {
+          "text": "The root-shoot ratio of E. nigrum was higher in hay-mat mulch than control and organic matter mulch"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1428776264e",
+      "subject": "causal_mosaic:node:a046c9dd5526",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81a44c3620bc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "it caused significant reduction in shoot dry mass compared to organic matter mulch and control",
+      "source_spans": [
+        {
+          "text": "it caused significant reduction in shoot dry mass compared to organic matter mulch and control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee16cde2fe9b",
+      "subject": "causal_mosaic:node:aad51b03aa2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c27e806477c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "their shoot biomass was lower in hay-mat mulch than organic matter mulch",
+      "source_spans": [
+        {
+          "text": "their shoot biomass was lower in hay-mat mulch than organic matter mulch"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18570",
+        "title": "Roadside revegetation with native plants: Experimental seeding and transplanting of stem cuttings",
+        "year": 2008,
+        "authors": [
+          "Mallik, Azim U.",
+          "Karim, M.N."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

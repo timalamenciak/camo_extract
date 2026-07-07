@@ -1,0 +1,406 @@
+{
+  "graph_id": "causal_mosaic:graph:f76aebf5b7d4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T11:19:50.366004+00:00",
+    "source_corpus": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:800270feba38",
+      "name": "Geographic distance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4a6c7d19cb",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Geographic distance was estimated as the straight-line distance between Home and Away populations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fc6321e0cf4e",
+      "name": "Difference in annual mean temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aec01f9f13",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "difference in annual mean temperature",
+          "start_char": 8764,
+          "end_char": 8801,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9dc92b330a56",
+      "name": "Difference in annual precipitation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3019e65f48",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "difference in annual precipitation",
+          "start_char": 3666,
+          "end_char": 3700,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4936e5f0bce5",
+      "name": "Decreased final aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd92d6f763",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Crosses between populations with dissimilar precipitation accumulated less biomass than crosses between populations that received similar amounts of precipitation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9bb0adfbfb97",
+      "name": "Decreased seed size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cec0303177",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Crosses between populations with dissimilar temperatures produced smaller seeds than crosses between populations with similar temperatures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e75e564b5763",
+      "name": "Increased seeds per fruit",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9616079303",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "crosses between populations with dissimilar precipitation produced more seeds per fruit than crosses between populations with similar precipitation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:177c612f8fa8",
+      "name": "Decreased seeds per fruit",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9616079303",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "crosses between distant populations set fewer seeds per fruit than crosses between geographically proximate populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:456cbade6fa3",
+      "name": "Increased seed size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cec0303177",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "between-population crosses produced larger seeds than within-population crosses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:056d2543288c",
+      "name": "Between-population crosses",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_127ed65301",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "between-population crosses",
+          "start_char": 3039,
+          "end_char": 3065,
+          "paragraph_id": "page:2"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4bb62525d5fd",
+      "subject": "causal_mosaic:node:800270feba38",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fc6321e0cf4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Geographically proximate L. siphilitica populations had more similar annual mean temperatures than distant populations",
+      "source_spans": [
+        {
+          "text": "Geographically proximate L. siphilitica populations had more similar annual mean temperatures than distant populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:98ee1600bf1f",
+      "subject": "causal_mosaic:node:9dc92b330a56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4936e5f0bce5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Crosses between populations with dissimilar precipitation accumulated less biomass than crosses between populations that received similar amounts of precipitation",
+      "source_spans": [
+        {
+          "text": "Crosses between populations with dissimilar precipitation accumulated less biomass than crosses between populations that received similar amounts of precipitation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2030e34d7ced",
+      "subject": "causal_mosaic:node:fc6321e0cf4e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9bb0adfbfb97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Crosses between populations with dissimilar temperatures produced smaller seeds than crosses between populations with similar temperatures",
+      "source_spans": [
+        {
+          "text": "Crosses between populations with dissimilar temperatures produced smaller seeds than crosses between populations with similar temperatures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:55e8a03879dd",
+      "subject": "causal_mosaic:node:9dc92b330a56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e75e564b5763",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "crosses between populations with dissimilar precipitation produced more seeds per fruit than crosses between populations with similar precipitation",
+      "source_spans": [
+        {
+          "text": "crosses between populations with dissimilar precipitation produced more seeds per fruit than crosses between populations with similar precipitation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:00f40fd36c06",
+      "subject": "causal_mosaic:node:fc6321e0cf4e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e75e564b5763",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "crosses between populations with dissimilar temperatures produced more seeds per fruit than crosses between populations with similar temperatures",
+      "source_spans": [
+        {
+          "text": "crosses between populations with dissimilar temperatures produced more seeds per fruit than crosses between populations with similar temperatures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bef4fe6ed851",
+      "subject": "causal_mosaic:node:800270feba38",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:177c612f8fa8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "crosses between distant populations set fewer seeds per fruit than crosses between geographically proximate populations",
+      "source_spans": [
+        {
+          "text": "crosses between distant populations set fewer seeds per fruit than crosses between geographically proximate populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:182bccc45480",
+      "subject": "causal_mosaic:node:056d2543288c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:456cbade6fa3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "between-population crosses produced larger seeds than within-population crosses",
+      "source_spans": [
+        {
+          "text": "between-population crosses produced larger seeds than within-population crosses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3159/TORREY-D-13-00055.1",
+        "title": "Effects of crossing distance on performance of the native wildflower Lobelia siphilitica: Implications for ecological restoration1",
+        "year": 2015,
+        "authors": [
+          "Caruso, Christina M.",
+          "Benscoter, Allison M.",
+          "Gale, Nigel V.",
+          "Seifert, Elizabeth K.",
+          "Mills, Emily R.",
+          "Case, Andrea L."
+        ],
+        "journal": "The Journal of the Torrey Botanical Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

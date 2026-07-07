@@ -1,0 +1,457 @@
+{
+  "report_version": "1.0",
+  "description": "Literature terms without accepted matches in their preferred ontologies.",
+  "ontology_sources": {
+    "ELMO": {
+      "version": "2026-07-03",
+      "url": "https://raw.githubusercontent.com/timalamenciak/elmo/2026-07-03/elmo.owl"
+    },
+    "OLS": {
+      "url": "https://www.ebi.ac.uk/ols4/api"
+    },
+    "Wikidata": {
+      "url": "https://www.wikidata.org/w/api.php"
+    }
+  },
+  "gaps": [
+    {
+      "term": "exotic grasses",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "exotic grasses",
+      "proposed_definition": "A environmental variable corresponding to 'exotic grasses'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:075b43097869",
+          "evidence_text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native species abundance",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native species abundance",
+      "proposed_definition": "A environmental variable corresponding to 'native species abundance'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:c04fe74a256e",
+          "evidence_text": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native species richness",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native species richness",
+      "proposed_definition": "A environmental variable corresponding to 'native species richness'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:8bd9e9ff21b7",
+          "evidence_text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "population spread",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "population spread",
+      "proposed_definition": "A environmental variable corresponding to 'population spread'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:6cef47d0f04e",
+          "evidence_text": "there is evidence that all eight species colonized new plots since the last round of monitoring"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "burn treatments",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "burn treatments",
+      "proposed_definition": "A management intervention corresponding to 'burn treatments'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:46bc4ba67cbb",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "disturbance treatments",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "disturbance treatments",
+      "proposed_definition": "A management intervention corresponding to 'disturbance treatments'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:3d37811ff1aa",
+          "evidence_text": "both seeding and disturbance treatments could positively influence native species abundance over the long term"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "grass-specific herbicide",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "grass-specific herbicide",
+      "proposed_definition": "A management intervention corresponding to 'grass-specific herbicide'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:eef8c78a0bca",
+          "evidence_text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "supplemental seeding",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "supplemental seeding",
+      "proposed_definition": "A management intervention corresponding to 'supplemental seeding'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:42c33f576b19",
+          "evidence_text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "abundance",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "abundance",
+      "proposed_definition": "A variable corresponding to 'abundance'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:075b43097869",
+          "evidence_text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "cover",
+      "proposed_definition": "A variable corresponding to 'cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3.2",
+          "label": "Species recovery",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.2",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.4762,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002289",
+          "label": "setose",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002289",
+          "synonyms": [],
+          "definition": "Setose as a label is used extensively to describe insect phenotypes that have hairy-like appearances (i.e., they are covered in setae, not the hairs of mammals). A bristle is a type of seta.",
+          "score": 0.3636,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001320",
+          "label": "pubescent hair",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001320",
+          "synonyms": [],
+          "definition": "A pilosity quality of being covered with short hairs or soft down.",
+          "score": 0.3158,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620023",
+          "label": "cut and cover removal process",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620023",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.2941,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001823",
+          "label": "wet",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001823",
+          "synonyms": [],
+          "definition": "A wetness quality inhering in a bearer by virtue of the bearer's being covered by a liquid.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001824",
+          "label": "dry",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001824",
+          "synonyms": [],
+          "definition": "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001804",
+          "label": "scaly",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001804",
+          "synonyms": [
+            "squamous"
+          ],
+          "definition": "A texture quality inhering in a bearer by virtue of the bearer's being covered or partially covered with scales.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000454",
+          "label": "hairy",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000454",
+          "synonyms": [],
+          "definition": "A pilosity quality inhering in a bearer by virtue of the bearer's being covered with hair or hairlike projections.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001361",
+          "label": "warty",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001361",
+          "synonyms": [],
+          "definition": "A texture quality inhering in a bearer by virtue of the bearer's being covered with warts or projections that resemble warts resulting in a hard rough surface.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001822",
+          "label": "wetness",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001822",
+          "synonyms": [],
+          "definition": "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid.",
+          "score": 0.1667,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:94c2e1c5a80c",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:56e849b79d47",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:ce02158f7878",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:0cf9bb666a43",
+          "evidence_text": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 4
+    },
+    {
+      "term": "percent cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "percent cover",
+      "proposed_definition": "A variable corresponding to 'percent cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:c04fe74a256e",
+          "evidence_text": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "species richness",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "species richness",
+      "proposed_definition": "A variable corresponding to 'species richness'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.069,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:8bd9e9ff21b7",
+          "evidence_text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    }
+  ]
+}

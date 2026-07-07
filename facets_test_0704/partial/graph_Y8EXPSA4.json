@@ -1,0 +1,321 @@
+{
+  "graph_id": "causal_mosaic:graph:c2bdd12c480d",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T15:14:26.277446+00:00",
+    "source_corpus": "A riverbank erosion control method with environmental value",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b819c4179d10",
+      "name": "rounded granular material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5fe4e2fcb3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rounded granular material of glacioﬂuvial origin"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e06f0accf576",
+      "name": "erosion",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01001346",
+      "state_or_change_qualifier": "terminated",
+      "source_spans": [
+        {
+          "text": "halted erosion",
+          "start_char": 1690,
+          "end_char": 1704,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b28a5843739",
+      "name": "indigenous vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e769c5352e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "80–90% covered by indigenous vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c63ef9a58e8f",
+      "name": "riparian ecotone",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43b224bd84",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "created a riparian ecotone",
+          "start_char": 29163,
+          "end_char": 29189,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8d6c167df14",
+      "name": "vegetation root system",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d665cd861",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "vegetation root system",
+          "start_char": 33801,
+          "end_char": 33823,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9940684fa3ff",
+      "name": "soil cohesion",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d96a77fd86",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cohesion",
+      "source_spans": [
+        {
+          "text": "increases its cohesion"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6333fa88c70c",
+      "name": "work done in winter",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9241fd1c6b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "work... was done in winter"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1fad22b00d65",
+      "name": "damage to the riverbanks",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d542e9e6db",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "minimized damage to the riverbanks",
+          "start_char": 2117,
+          "end_char": 2151,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:cc90666d8d08",
+      "subject": "causal_mosaic:node:b819c4179d10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e06f0accf576",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After ﬁfteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone.",
+      "source_spans": [
+        {
+          "text": "After ﬁfteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c322b50d390f",
+      "subject": "causal_mosaic:node:b819c4179d10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b28a5843739",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The follow-up also shows that the banks and structures are 80–90% covered by indigenous vegetation.",
+      "source_spans": [
+        {
+          "text": "The follow-up also shows that the banks and structures are 80–90% covered by indigenous vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:59ff6210be8d",
+      "subject": "causal_mosaic:node:b819c4179d10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c63ef9a58e8f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After ﬁfteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone.",
+      "source_spans": [
+        {
+          "text": "After ﬁfteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fd7bcc2e00b1",
+      "subject": "causal_mosaic:node:c8d6c167df14",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9940684fa3ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The root system holds the soil and increases its cohesion.",
+      "source_spans": [
+        {
+          "text": "The root system holds the soil and increases its cohesion."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d1c622557409",
+      "subject": "causal_mosaic:node:6333fa88c70c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1fad22b00d65",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The work minimized damage to the riverbanks as it was done in winter so that shore ice could be used for access.",
+      "source_spans": [
+        {
+          "text": "The work minimized damage to the riverbanks as it was done in winter so that shore ice could be used for access."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

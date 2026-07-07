@@ -1,0 +1,365 @@
+{
+  "graph_id": "causal_mosaic:graph:18aec59f3a73",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T08:48:13.716775+00:00",
+    "source_corpus": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:830d0d291942",
+      "name": "Restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ace0331c6d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration had a substantial eﬀect on diversity and species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4c1a34ac0f4",
+      "name": "Native species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a0f94fd62",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Overall and native diversity decreased over time",
+          "start_char": 1011,
+          "end_char": 1059,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c05bd084625",
+      "name": "Exotic species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2320858555",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "restoration sites had signiﬁcantly lower native and higher exotic diversity than reference sites",
+          "start_char": 913,
+          "end_char": 1009,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6086bc204eaa",
+      "name": "Similarity of restoration and reference vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d9b0832fa1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Similarity of restoration and reference vegetation increased over time"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60e8d2106a2e",
+      "name": "Soil phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b3c61ebe1a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil phosphorus was signiﬁcantly higher in restoration and future restoration sites than in reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aabcdfc4e3fd",
+      "name": "Organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c0d9a8c0c4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "organic matter was signiﬁcantly higher in the reference sites than in other sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5d05befe390a",
+      "name": "Forb species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_56bf9bb8c1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "High levels of soil phosphorus may compromise slow-growing, often forb species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a0e52f97ec5f",
+      "name": "Time-since-restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_01c42cae41",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "time-since-restoration had a substantial impact on diversity and species composition",
+          "start_char": 1892,
+          "end_char": 1976,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:eeab769967ad",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4c1a34ac0f4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration had a substantial eﬀect on diversity and species composition",
+      "source_spans": [
+        {
+          "text": "Restoration had a substantial eﬀect on diversity and species composition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:464c2af3917e",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c05bd084625",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoration sites had signiﬁcantly lower native and higher exotic diversity than reference sites",
+      "source_spans": [
+        {
+          "text": "restoration sites had signiﬁcantly lower native and higher exotic diversity than reference sites",
+          "start_char": 913,
+          "end_char": 1009,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5014b95d46da",
+      "subject": "causal_mosaic:node:a0e52f97ec5f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4c1a34ac0f4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "time-since-restoration had a substantial impact on diversity and species composition",
+      "source_spans": [
+        {
+          "text": "time-since-restoration had a substantial impact on diversity and species composition",
+          "start_char": 1892,
+          "end_char": 1976,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1d9358d52e4f",
+      "subject": "causal_mosaic:node:a0e52f97ec5f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6086bc204eaa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Similarity of restoration and reference vegetation increased over time",
+      "source_spans": [
+        {
+          "text": "Similarity of restoration and reference vegetation increased over time"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:cc5414b50202",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60e8d2106a2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil phosphorus was signiﬁcantly higher in restoration and future restoration sites than in reference sites",
+      "source_spans": [
+        {
+          "text": "Soil phosphorus was signiﬁcantly higher in restoration and future restoration sites than in reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6e9a02eb53de",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aabcdfc4e3fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "organic matter was signiﬁcantly higher in the reference sites than in other sites",
+      "source_spans": [
+        {
+          "text": "organic matter was signiﬁcantly higher in the reference sites than in other sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:9352e7f9b3cb",
+      "subject": "causal_mosaic:node:60e8d2106a2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5d05befe390a",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "High levels of soil phosphorus may compromise slow-growing, often forb species",
+      "source_spans": [
+        {
+          "text": "High levels of soil phosphorus may compromise slow-growing, often forb species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2005.01.014",
+        "title": "Assessment of long-term tallgrass prairie restoration in Manitoba, Canada",
+        "year": 2005,
+        "authors": [
+          "McLachlan, S.M.",
+          "Knispel, A.L."
+        ],
+        "journal": "Biological Conservation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "graph_id": "causal_mosaic:graph:05d47e6127c4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T22:48:08.484473+00:00",
+    "source_corpus": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3dff50cf951e",
+      "name": "Cutting trees",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_de1a575a3f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Cutting trees caused a shallower WTL",
+          "start_char": 27572,
+          "end_char": 27608,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:45d3bb772bee",
+      "name": "Water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b7d966612",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "level",
+      "source_spans": [
+        {
+          "text": "Water table level",
+          "start_char": 21946,
+          "end_char": 21963,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6598cd87e501",
+      "name": "Rewetting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4e0f2c73ff",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rewetting",
+          "start_char": 61,
+          "end_char": 70,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:479a7e00bbb3",
+      "name": "Water chemistry",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_95ca94b9d6",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "chemistry",
+      "source_spans": [
+        {
+          "text": "water chemistry",
+          "start_char": 1847,
+          "end_char": 1862,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0f7bcec09f4",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bdf33bc9da",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "percentage cover",
+          "start_char": 20195,
+          "end_char": 20211,
+          "paragraph_id": "page:5"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:33a871af28a8",
+      "subject": "causal_mosaic:node:3dff50cf951e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:45d3bb772bee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cutting trees caused a shallower WTL, which was significantly shallower in the cut transect than the uncut transect, at each distance from the ditch",
+      "source_spans": [
+        {
+          "text": "Cutting trees caused a shallower WTL, which was significantly shallower in the cut transect than the uncut transect, at each distance from the ditch"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:42700e84e2bd",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:45d3bb772bee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was an effect of rewetting on WTL in three out of four transects where the water table rose, post-rewetting in 2012",
+      "source_spans": [
+        {
+          "text": "There was an effect of rewetting on WTL in three out of four transects where the water table rose, post-rewetting in 2012"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8c51edf6b26",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:479a7e00bbb3",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There were no overall changes in water chemistry following rewetting, as shown by the PRC, which suggested no significant temporal variation between the rewetted treatment and reference sites",
+      "source_spans": [
+        {
+          "text": "There were no overall changes in water chemistry following rewetting, as shown by the PRC, which suggested no significant temporal variation between the rewetted treatment and reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8246bcb1e1bb",
+      "subject": "causal_mosaic:node:6598cd87e501",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0f7bcec09f4",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "rewetting had no significant effects on percentage cover of any of the vegetation functional groups within the rewetted zone",
+      "source_spans": [
+        {
+          "text": "rewetting had no significant effects on percentage cover of any of the vegetation functional groups within the rewetted zone"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

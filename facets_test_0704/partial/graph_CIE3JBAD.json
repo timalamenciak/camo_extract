@@ -1,0 +1,317 @@
+{
+  "graph_id": "causal_mosaic:graph:17c8e5556c08",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T15:55:17.402168+00:00",
+    "source_corpus": "Use of Stable Isotopes to Identify Redds of Putative Hatchery and Wild Atlantic Salmon and Evaluate Their Spawning Habitat and Egg Thiamine Status in a Lake Ontario Tributary",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:73efde524f48",
+      "name": "Diet dominated by Alewives",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7c1c90a044",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "As a result, a diet dominated by Alewives can lead to thiamine deﬁciency."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aef3833e6877",
+      "name": "Thiamine deﬁciency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1b628fa4df",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "As a result, a diet dominated by Alewives can lead to thiamine deﬁciency."
+        },
+        {
+          "text": "The prolonged period of reduced thiamine intake during this time would worsen a preexisting thiamine deﬁciency causing lower than expected thiamine levels in eggs leading to higher than expected embryonic mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04e501e1731a",
+      "name": "Diet of the maternal parent",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6eb83ee81b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The salmonine egg receives all of its thiamine, an essential nutrient, from the maternal parent (Koski et al. 2005), such that the thiamine content of a salmonine egg will reﬂect the diet of the maternal parent."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a9daaa0a78d5",
+      "name": "Thiamine content of a salmonine egg",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e30c804792",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The salmonine egg receives all of its thiamine, an essential nutrient, from the maternal parent (Koski et al. 2005), such that the thiamine content of a salmonine egg will reﬂect the diet of the maternal parent."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e14b4328514d",
+      "name": "Diet of hatchery-reared salmonids",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_be4d0cdc89",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The thiamine content of the diet of hatchery-reared salmonids tends to be much higher than that of diets of wild salmonids, resulting in much higher egg thiamine concentrations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5edd973d14e",
+      "name": "Egg thiamine concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9cf65bb1f6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The thiamine content of the diet of hatchery-reared salmonids tends to be much higher than that of diets of wild salmonids, resulting in much higher egg thiamine concentrations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55335f63a49a",
+      "name": "Embryonic mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d0e71e986",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The prolonged period of reduced thiamine intake during this time would worsen a preexisting thiamine deﬁciency causing lower than expected thiamine levels in eggs leading to higher than expected embryonic mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:963db4bd739e",
+      "name": "Alewife abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e50afbd4fd",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "As a result of changes in the Lake Ontario food chain beginning in the late 1990s (Mills et al. 2003), Alewife underwent a dramatic decline in abundance, thus reducing the potential for thiamine deﬁciency"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3b50950f8a02",
+      "name": "Potential for thiamine deﬁciency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1df6fc2890",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "As a result of changes in the Lake Ontario food chain beginning in the late 1990s (Mills et al. 2003), Alewife underwent a dramatic decline in abundance, thus reducing the potential for thiamine deﬁciency"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c31d3ed6fbae",
+      "subject": "causal_mosaic:node:73efde524f48",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aef3833e6877",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As a result, a diet dominated by Alewives can lead to thiamine deﬁciency.",
+      "source_spans": [
+        {
+          "text": "As a result, a diet dominated by Alewives can lead to thiamine deﬁciency."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02755947.2013.806380",
+        "title": "Use of Stable Isotopes to Identify Redds of Putative Hatchery and Wild Atlantic Salmon and Evaluate Their Spawning Habitat and Egg Thiamine Status in a Lake Ontario Tributary",
+        "year": 2013,
+        "authors": [
+          "Fitzsimons, John D.",
+          "Dalton, Alex",
+          "MacVeigh, Brydon",
+          "Heaton, Mark",
+          "Wilson, Chris",
+          "Honeyfield, Dale C."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d375a712a909",
+      "subject": "causal_mosaic:node:04e501e1731a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a9daaa0a78d5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The salmonine egg receives all of its thiamine, an essential nutrient, from the maternal parent (Koski et al. 2005), such that the thiamine content of a salmonine egg will reﬂect the diet of the maternal parent.",
+      "source_spans": [
+        {
+          "text": "The salmonine egg receives all of its thiamine, an essential nutrient, from the maternal parent (Koski et al. 2005), such that the thiamine content of a salmonine egg will reﬂect the diet of the maternal parent."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02755947.2013.806380",
+        "title": "Use of Stable Isotopes to Identify Redds of Putative Hatchery and Wild Atlantic Salmon and Evaluate Their Spawning Habitat and Egg Thiamine Status in a Lake Ontario Tributary",
+        "year": 2013,
+        "authors": [
+          "Fitzsimons, John D.",
+          "Dalton, Alex",
+          "MacVeigh, Brydon",
+          "Heaton, Mark",
+          "Wilson, Chris",
+          "Honeyfield, Dale C."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b87b19103809",
+      "subject": "causal_mosaic:node:e14b4328514d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f5edd973d14e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The thiamine content of the diet of hatchery-reared salmonids tends to be much higher than that of diets of wild salmonids, resulting in much higher egg thiamine concentrations",
+      "source_spans": [
+        {
+          "text": "The thiamine content of the diet of hatchery-reared salmonids tends to be much higher than that of diets of wild salmonids, resulting in much higher egg thiamine concentrations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02755947.2013.806380",
+        "title": "Use of Stable Isotopes to Identify Redds of Putative Hatchery and Wild Atlantic Salmon and Evaluate Their Spawning Habitat and Egg Thiamine Status in a Lake Ontario Tributary",
+        "year": 2013,
+        "authors": [
+          "Fitzsimons, John D.",
+          "Dalton, Alex",
+          "MacVeigh, Brydon",
+          "Heaton, Mark",
+          "Wilson, Chris",
+          "Honeyfield, Dale C."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b4e0201d819",
+      "subject": "causal_mosaic:node:aef3833e6877",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55335f63a49a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The prolonged period of reduced thiamine intake during this time would worsen a preexisting thiamine deﬁciency causing lower than expected thiamine levels in eggs leading to higher than expected embryonic mortality",
+      "source_spans": [
+        {
+          "text": "The prolonged period of reduced thiamine intake during this time would worsen a preexisting thiamine deﬁciency causing lower than expected thiamine levels in eggs leading to higher than expected embryonic mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02755947.2013.806380",
+        "title": "Use of Stable Isotopes to Identify Redds of Putative Hatchery and Wild Atlantic Salmon and Evaluate Their Spawning Habitat and Egg Thiamine Status in a Lake Ontario Tributary",
+        "year": 2013,
+        "authors": [
+          "Fitzsimons, John D.",
+          "Dalton, Alex",
+          "MacVeigh, Brydon",
+          "Heaton, Mark",
+          "Wilson, Chris",
+          "Honeyfield, Dale C."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:42504e749236",
+      "subject": "causal_mosaic:node:963db4bd739e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3b50950f8a02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As a result of changes in the Lake Ontario food chain beginning in the late 1990s (Mills et al. 2003), Alewife underwent a dramatic decline in abundance, thus reducing the potential for thiamine deﬁciency",
+      "source_spans": [
+        {
+          "text": "As a result of changes in the Lake Ontario food chain beginning in the late 1990s (Mills et al. 2003), Alewife underwent a dramatic decline in abundance, thus reducing the potential for thiamine deﬁciency"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02755947.2013.806380",
+        "title": "Use of Stable Isotopes to Identify Redds of Putative Hatchery and Wild Atlantic Salmon and Evaluate Their Spawning Habitat and Egg Thiamine Status in a Lake Ontario Tributary",
+        "year": 2013,
+        "authors": [
+          "Fitzsimons, John D.",
+          "Dalton, Alex",
+          "MacVeigh, Brydon",
+          "Heaton, Mark",
+          "Wilson, Chris",
+          "Honeyfield, Dale C."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

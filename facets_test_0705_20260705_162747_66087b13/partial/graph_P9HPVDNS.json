@@ -1,0 +1,334 @@
+{
+  "graph_id": "causal_mosaic:graph:33749994b59a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:16:20.997551+00:00",
+    "source_corpus": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5057a7a686c6",
+      "name": "clearcutting and slashburning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9c346f98b9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f2eb3fe8006",
+      "name": "species diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38e5914f72",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Twenty years post-treatment, species diversity increased in all zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49eeb2289b04",
+      "name": "plant abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8260214d3d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "plant abundance was greatest in the Interior Cedar-Hemlock"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6b37218debd6",
+      "name": "cover of understory plant functional types associated with mature conifer forests",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e895924ee7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Cover of understory plant functional types associated with mature conifer forests increased in all zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:605a5de756ca",
+      "name": "understory species diagnostic of mature forests",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a3509bba4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Understory species diagnostic of mature forests were present in all zones by year 20"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7869de9750fb",
+      "name": "loss of compositional or functional diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ec8808312a",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Overall, loss of compositional or functional diversity following harvest and site remediation was not detected"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91b18bd6f0e8",
+      "name": "resilience",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_362d6bf52e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "suggesting that montane and subalpine forests in British Columbia are resilient to this treatment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:021bb6cf53b3",
+      "subject": "causal_mosaic:node:5057a7a686c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f2eb3fe8006",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Twenty years post-treatment, species diversity increased in all zones and plant abundance was greatest in the Interior Cedar-Hemlock.",
+      "source_spans": [
+        {
+          "text": "Twenty years post-treatment, species diversity increased in all zones and plant abundance was greatest in the Interior Cedar-Hemlock."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0172667",
+        "title": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Chandler, Julia R.",
+          "Haeussler, Sybille",
+          "Hamilton, Evelyn H.",
+          "Feller, Michael",
+          "Bradfield, Gary",
+          "Simard, Suzanne W."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e2d918fb1147",
+      "subject": "causal_mosaic:node:5057a7a686c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49eeb2289b04",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Twenty years post-treatment, species diversity increased in all zones and plant abundance was greatest in the Interior Cedar-Hemlock.",
+      "source_spans": [
+        {
+          "text": "Twenty years post-treatment, species diversity increased in all zones and plant abundance was greatest in the Interior Cedar-Hemlock."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0172667",
+        "title": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Chandler, Julia R.",
+          "Haeussler, Sybille",
+          "Hamilton, Evelyn H.",
+          "Feller, Michael",
+          "Bradfield, Gary",
+          "Simard, Suzanne W."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:918f557eb478",
+      "subject": "causal_mosaic:node:5057a7a686c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6b37218debd6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cover of understory plant functional types associated with mature conifer forests increased in all zones, constituting a significant proportion (> 40%) of the vegetation community by year 20.",
+      "source_spans": [
+        {
+          "text": "Cover of understory plant functional types associated with mature conifer forests increased in all zones, constituting a significant proportion (> 40%) of the vegetation community by year 20."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0172667",
+        "title": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Chandler, Julia R.",
+          "Haeussler, Sybille",
+          "Hamilton, Evelyn H.",
+          "Feller, Michael",
+          "Bradfield, Gary",
+          "Simard, Suzanne W."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1551c390f212",
+      "subject": "causal_mosaic:node:5057a7a686c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:605a5de756ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Understory species diagnostic of mature forests were present in all zones by year 20, but we identified indicator species sensitive to slashburning or requiring more time for recovery, including white-flowered rhododendron (Rhododendron albiflorum) and devil’s club (Oplopanax horridus).",
+      "source_spans": [
+        {
+          "text": "Understory species diagnostic of mature forests were present in all zones by year 20, but we identified indicator species sensitive to slashburning or requiring more time for recovery, including white-flowered rhododendron (Rhododendron albiflorum) and devil’s club (Oplopanax horridus)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0172667",
+        "title": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Chandler, Julia R.",
+          "Haeussler, Sybille",
+          "Hamilton, Evelyn H.",
+          "Feller, Michael",
+          "Bradfield, Gary",
+          "Simard, Suzanne W."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0097a7d95ac8",
+      "subject": "causal_mosaic:node:5057a7a686c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7869de9750fb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, loss of compositional or functional diversity following harvest and site remediation was not detected, suggesting that montane and subalpine forests in British Columbia are resilient to this treatment.",
+      "source_spans": [
+        {
+          "text": "Overall, loss of compositional or functional diversity following harvest and site remediation was not detected, suggesting that montane and subalpine forests in British Columbia are resilient to this treatment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0172667",
+        "title": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Chandler, Julia R.",
+          "Haeussler, Sybille",
+          "Hamilton, Evelyn H.",
+          "Feller, Michael",
+          "Bradfield, Gary",
+          "Simard, Suzanne W."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c9e7d6884fad",
+      "subject": "causal_mosaic:node:5057a7a686c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91b18bd6f0e8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, loss of compositional or functional diversity following harvest and site remediation was not detected, suggesting that montane and subalpine forests in British Columbia are resilient to this treatment.",
+      "source_spans": [
+        {
+          "text": "Overall, loss of compositional or functional diversity following harvest and site remediation was not detected, suggesting that montane and subalpine forests in British Columbia are resilient to this treatment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0172667",
+        "title": "Twenty years of ecosystem response after clearcutting and slashburning in conifer forests of central British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Chandler, Julia R.",
+          "Haeussler, Sybille",
+          "Hamilton, Evelyn H.",
+          "Feller, Michael",
+          "Bradfield, Gary",
+          "Simard, Suzanne W."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

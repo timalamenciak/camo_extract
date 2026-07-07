@@ -1,0 +1,3426 @@
+{
+  "report_version": "1.0",
+  "description": "Literature terms without accepted matches in their preferred ontologies.",
+  "ontology_sources": {
+    "ELMO": {
+      "version": "2026-07-03",
+      "url": "https://raw.githubusercontent.com/timalamenciak/elmo/2026-07-03/elmo.owl"
+    },
+    "OLS": {
+      "url": "https://www.ebi.ac.uk/ols4/api"
+    },
+    "Wikidata": {
+      "url": "https://www.wikidata.org/w/api.php"
+    }
+  },
+  "gaps": [
+    {
+      "term": "abundance",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "abundance",
+      "proposed_definition": "A variable corresponding to 'abundance'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:075b43097869",
+          "evidence_text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        },
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:f8241ed0e2f1",
+          "evidence_text": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred."
+        },
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:3f792175737d",
+          "evidence_text": "Restoration did not have significant effects on the abundance, richness, or breeding performance of other riparian birds at the restoration sites independent of temporal changes that occurred at reference sites."
+        },
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:1d3738fa5403",
+          "evidence_text": "The exclosed plots had twice the abundance of planted native seedlings ... than areas lacking protection from small mammals"
+        }
+      ],
+      "article_count": 3,
+      "occurrence_count": 4
+    },
+    {
+      "term": "cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "cover",
+      "proposed_definition": "A variable corresponding to 'cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3.2",
+          "label": "Species recovery",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.2",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.4762,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002289",
+          "label": "setose",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002289",
+          "synonyms": [],
+          "definition": "Setose as a label is used extensively to describe insect phenotypes that have hairy-like appearances (i.e., they are covered in setae, not the hairs of mammals). A bristle is a type of seta.",
+          "score": 0.3636,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001320",
+          "label": "pubescent hair",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001320",
+          "synonyms": [],
+          "definition": "A pilosity quality of being covered with short hairs or soft down.",
+          "score": 0.3158,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620023",
+          "label": "cut and cover removal process",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620023",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.2941,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001823",
+          "label": "wet",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001823",
+          "synonyms": [],
+          "definition": "A wetness quality inhering in a bearer by virtue of the bearer's being covered by a liquid.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001824",
+          "label": "dry",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001824",
+          "synonyms": [],
+          "definition": "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001804",
+          "label": "scaly",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001804",
+          "synonyms": [
+            "squamous"
+          ],
+          "definition": "A texture quality inhering in a bearer by virtue of the bearer's being covered or partially covered with scales.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000454",
+          "label": "hairy",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000454",
+          "synonyms": [],
+          "definition": "A pilosity quality inhering in a bearer by virtue of the bearer's being covered with hair or hairlike projections.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001361",
+          "label": "warty",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001361",
+          "synonyms": [],
+          "definition": "A texture quality inhering in a bearer by virtue of the bearer's being covered with warts or projections that resemble warts resulting in a hard rough surface.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001822",
+          "label": "wetness",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001822",
+          "synonyms": [],
+          "definition": "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid.",
+          "score": 0.1667,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:94c2e1c5a80c",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:56e849b79d47",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:ce02158f7878",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:0cf9bb666a43",
+          "evidence_text": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim"
+        },
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:f88db9042a92",
+          "evidence_text": "The cover and modal height of large herbaceous species decreased ... in unfenced plots"
+        },
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:a3933ed0175f",
+          "evidence_text": "Deer browsing ... diminished the cover of deciduous and large herbaceous species"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:deb5f98de276",
+          "evidence_text": "Glyphosate reduced non-native grass cover for three growing seasons following application"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:4032a3977fc6",
+          "evidence_text": "Glyphosate led to significant increases in non-native forb cover"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:9633a46859bb",
+          "evidence_text": "native forb cover had significantly decreased with glyphosate at Site 3"
+        }
+      ],
+      "article_count": 3,
+      "occurrence_count": 9
+    },
+    {
+      "term": "diversity",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "diversity",
+      "proposed_definition": "A variable corresponding to 'diversity'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001608",
+          "label": "patchy",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001608",
+          "synonyms": [],
+          "definition": "A spatial pattern inhering in a bearer by virtue of the bearer's being marked by, consisting of, or diversified with patches.",
+          "score": 0.2667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0065002",
+          "label": "patchy pigmentation",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0065002",
+          "synonyms": [],
+          "definition": "A degree of pigmentation quality that is diversified with patches, or irregularity.",
+          "score": 0.2143,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:9a336b31c480",
+          "evidence_text": "resulting in reduced prairie diversity outside of experimental exclosures."
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:d28ffd45e785",
+          "evidence_text": "Non-native grass species richness and diversity were significantly lower with glyphosate"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:3a375688c67b",
+          "evidence_text": "Total diversity was significantly lower with glyphosate across sites in 2011"
+        }
+      ],
+      "article_count": 2,
+      "occurrence_count": 3
+    },
+    {
+      "term": "richness",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "richness",
+      "proposed_definition": "A variable corresponding to 'richness'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.381,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:5022a0b18650",
+          "evidence_text": "signiﬁcantly higher richness of planted species ... than areas lacking protection from small mammals"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:5af272200aac",
+          "evidence_text": "native forb cover and richness were significantly lower with glyphosate than controls at Site 3"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:b210dfaebd11",
+          "evidence_text": "Non-native grass species richness and diversity were significantly lower with glyphosate"
+        }
+      ],
+      "article_count": 2,
+      "occurrence_count": 3
+    },
+    {
+      "term": "Deer browsing",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Deer browsing",
+      "proposed_definition": "A environmental process corresponding to 'Deer browsing'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:0f16f516c07b",
+          "evidence_text": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "determine when future reintroduction is likely to be the best conservation initiative",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "determine when future reintroduction is likely to be the best conservation initiative",
+      "proposed_definition": "A environmental process corresponding to 'determine when future reintroduction is likely to be the best conservation initiative'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3.3.1",
+          "label": "Reintroduction",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.3.1",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.6222,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.biocon.2017.08.004",
+          "title": "Distinguishing reintroduction from recolonization with genetic testing",
+          "node_id": "causal_mosaic:node:bffa9d39e595",
+          "evidence_text": "Obtaining appropriate genetic samples in relation to reintroductions will help determine when future reintroduction is likely to be the best conservation initiative."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "loss of habitat",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "loss of habitat",
+      "proposed_definition": "A environmental process corresponding to 'loss of habitat'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01001174",
+          "label": "ecosystem decay",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001174",
+          "synonyms": [],
+          "definition": "This process may be caused by direct anthropisation (i.e. the fragmentation of ecosystems due to the establishment of cropland) or by more natural events such as forest fires or erosion of land bridges.",
+          "score": 0.3333,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:8930d4562de0",
+          "evidence_text": "loss of habitat around the sites has likely contributed"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "recolonization by Albertan fishers",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "recolonization by Albertan fishers",
+      "proposed_definition": "A environmental process corresponding to 'recolonization by Albertan fishers'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.biocon.2017.08.004",
+          "title": "Distinguishing reintroduction from recolonization with genetic testing",
+          "node_id": "causal_mosaic:node:c18d3461b3d2",
+          "evidence_text": "Instead it appears that recolonization by Albertan fishers is responsible for the current CLM population."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "suburbanisation",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "suburbanisation",
+      "proposed_definition": "A environmental process corresponding to 'suburbanisation'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:9d0e7db2645b",
+          "evidence_text": "increasing suburbanisation of the surrounding landscape"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "targeted granivory",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "targeted granivory",
+      "proposed_definition": "A environmental process corresponding to 'targeted granivory'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:6b76d4a4ba7e",
+          "evidence_text": "resulting in reduced prairie diversity outside of experimental exclosures."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "vegetational succession",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "vegetational succession",
+      "proposed_definition": "A environmental process corresponding to 'vegetational succession'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000869",
+          "label": "area of scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000869",
+          "synonyms": [
+            "area of shrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of scrub or shrub are dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.3333,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:50febfada989",
+          "evidence_text": "vegetational succession"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "abundance of planted native seedlings",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "abundance of planted native seedlings",
+      "proposed_definition": "A environmental variable corresponding to 'abundance of planted native seedlings'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:1d3738fa5403",
+          "evidence_text": "The exclosed plots had twice the abundance of planted native seedlings ... than areas lacking protection from small mammals"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "abundance of W. Yellow-breasted Chats",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "abundance of W. Yellow-breasted Chats",
+      "proposed_definition": "A environmental variable corresponding to 'abundance of W. Yellow-breasted Chats'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:f8241ed0e2f1",
+          "evidence_text": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "abundance... of other riparian birds",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "abundance... of other riparian birds",
+      "proposed_definition": "A environmental variable corresponding to 'abundance... of other riparian birds'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:3f792175737d",
+          "evidence_text": "Restoration did not have significant effects on the abundance, richness, or breeding performance of other riparian birds at the restoration sites independent of temporal changes that occurred at reference sites."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "bare soil patches",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "bare soil patches",
+      "proposed_definition": "A environmental variable corresponding to 'bare soil patches'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:15299dede911",
+          "evidence_text": "loss of bare soil patches for nesting sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "bee abundance",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "bee abundance",
+      "proposed_definition": "A environmental variable corresponding to 'bee abundance'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:027896b6ee0b",
+          "evidence_text": "bee abundance and species richness in restored sites increased until 2006/2007"
+        },
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:9e7df4fd877b",
+          "evidence_text": "subsequently declined"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "bee populations",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "bee populations",
+      "proposed_definition": "A environmental variable corresponding to 'bee populations'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:776363552aa2",
+          "evidence_text": "contributed to declining populations in the control sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "breeding performance of W. Yellow-breasted Chats",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "breeding performance of W. Yellow-breasted Chats",
+      "proposed_definition": "A environmental variable corresponding to 'breeding performance of W. Yellow-breasted Chats'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:6b3f1609d3d5",
+          "evidence_text": "Cattle exclusion did not lead to an improvement in the breeding performance of W. Yellow-breasted Chats at restoration sites."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "carbon-cycle functioning",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "carbon-cycle functioning",
+      "proposed_definition": "A environmental variable corresponding to 'carbon-cycle functioning'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:BFO_0000034",
+          "label": "function",
+          "ontology": "ELMO",
+          "iri": "http://purl.obolibrary.org/obo/BFO_0000034",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.5,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:9f640ddf72d8",
+          "evidence_text": "it is possible that these sites will return to their original carbon-cycle functioning after disturbance"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "CO2 flux",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "CO2 flux",
+      "proposed_definition": "A environmental variable corresponding to 'CO2 flux'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:c1a271aad3c3",
+          "evidence_text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "communities dominated by non-native perennial grasses",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "communities dominated by non-native perennial grasses",
+      "proposed_definition": "A environmental variable corresponding to 'communities dominated by non-native perennial grasses'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:1f21f18bdb72",
+          "evidence_text": "Glyphosate shifted communities dominated by non-native perennial grasses to dominance by non-native forbs"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover ... of large herbaceous species",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "cover ... of large herbaceous species",
+      "proposed_definition": "A environmental variable corresponding to 'cover ... of large herbaceous species'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:f88db9042a92",
+          "evidence_text": "The cover and modal height of large herbaceous species decreased ... in unfenced plots"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover of deciduous species",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "cover of deciduous species",
+      "proposed_definition": "A environmental variable corresponding to 'cover of deciduous species'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:a3933ed0175f",
+          "evidence_text": "Deer browsing ... diminished the cover of deciduous and large herbaceous species"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "different reintroduction status",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "different reintroduction status",
+      "proposed_definition": "A environmental variable corresponding to 'different reintroduction status'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3.3.1",
+          "label": "Reintroduction",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.3.1",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.6222,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.biocon.2017.08.004",
+          "title": "Distinguishing reintroduction from recolonization with genetic testing",
+          "node_id": "causal_mosaic:node:59e006ee44a1",
+          "evidence_text": "Our review of all fisher reintroductions demonstrated that 47% have been given a different reintroduction status once genetic testing for reintroduction success was performed"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "dominance by non-native forbs",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "dominance by non-native forbs",
+      "proposed_definition": "A environmental variable corresponding to 'dominance by non-native forbs'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:1efa0a204221",
+          "evidence_text": "Glyphosate shifted communities dominated by non-native perennial grasses to dominance by non-native forbs"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "exotic grasses",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "exotic grasses",
+      "proposed_definition": "A environmental variable corresponding to 'exotic grasses'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:075b43097869",
+          "evidence_text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Flowering and seed set of non-native grasses",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Flowering and seed set of non-native grasses",
+      "proposed_definition": "A environmental variable corresponding to 'Flowering and seed set of non-native grasses'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:7114f1008352",
+          "evidence_text": "Flowering and seed set of non-native grasses was significantly reduced with glyphosate at Site 1"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:fa0a18f63fe6",
+          "evidence_text": "Flowering and seed set of non-native grasses was significantly reduced with glyphosate at Site 1"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "foraging success",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "foraging success",
+      "proposed_definition": "A environmental variable corresponding to 'foraging success'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:fa4316c0ba1a",
+          "evidence_text": "undoubtedly contributed to lower foraging success by bees"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "ground-level diameter",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "ground-level diameter",
+      "proposed_definition": "A environmental variable corresponding to 'ground-level diameter'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:3c656094699a",
+          "evidence_text": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Halictidae",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Halictidae",
+      "proposed_definition": "A environmental variable corresponding to 'Halictidae'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:9ea89fccfe76",
+          "evidence_text": "decline over time was due in large part to a loss of bare soil patches"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "light conditions",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "light conditions",
+      "proposed_definition": "A environmental variable corresponding to 'light conditions'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01001848",
+          "label": "rime",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001848",
+          "synonyms": [],
+          "definition": "Rime is denser and harder than hoarfrost, but lighter, softer, and less transparent than glaze. Rime is composed essentially of discrete ice granules and has densities as low as 0.2-0.3 g cm-3. Glaze is generally continuous but with some air pockets and has much higher densities. Factors that favor rime formation are small drop size, slow accretion, a high degree of supercooling, and rapid dissipation of latent heat of fusion. The opposite effects favor glaze formation. Both rime and glaze occur when supercooled water drops strike an object at a temperature below freezing. Such formation on terrestrial objects constitutes an ice storm; on aircraft, it is called aircraft icing (where rime is known as rime ice). Either rime or glaze may form on snow crystals, droxtals, or other ice particles in the atmosphere. When such a deposit is wholly or chiefly of rime, snow pellets result; when most or all of the deposit is glaze, ordinary hail or ice pellets result. The alternating clear and opaque layers of some hailstones represent glaze and rime, deposited under varying conditions around the growing hailstone.",
+          "score": 0.1,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:d5f7fbaf7039",
+          "evidence_text": "Deer browsing ... improving light conditions for the planted seedlings"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Methane emissions",
+      "semantic_role": "environmental_variable",
+      "status": "close_match_needs_review",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Methane emissions",
+      "proposed_definition": "A environmental variable corresponding to 'Methane emissions'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:03000094",
+          "label": "methane gas emission process",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_03000094",
+          "synonyms": [],
+          "definition": "Methane is emitted during the production and transport of coal, natural gas, and oil. Methane emissions also result from livestock and other agricultural practices and by the decay of organic waste in municipal solid waste landfills.",
+          "score": 0.7556,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000263",
+          "label": "cold seep",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000263",
+          "synonyms": [
+            "hydrocarbon seep",
+            "methane seep"
+          ],
+          "definition": "MERGED DEFINITION:\nTARGET DEFINITION: A cold seep is a seep in which methane and other hydrocarbon-rich fluids rise to the sea floor.\n--------------------\nSOURCE DEFINITION: An area of the ocean floor where hydrogen sulfide, methane and other hydrocarbon-rich fluid seepage occurs. Cold seeps are distinct from hydrothermal vents: the former's emissions are of the same temperature as the surrounding seawater, whereas the latter's emissions are super-heated.",
+          "score": 0.1538,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:426f5b39d22c",
+          "evidence_text": "Methane emissions were higher from donor sites compared to natural sites due to the high water table"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "moss cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "moss cover",
+      "proposed_definition": "A environmental variable corresponding to 'moss cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000890",
+          "label": "area of moss-dominated vegetation",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000890",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, at least 80% of these areas are covered by mosses.  Such thresholds - which are themselves fuzzy - are not strictly asserted in this definition. The original definition notes that this is intended as an \"Alaska only\" category.",
+          "score": 0.3721,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001370",
+          "label": "tundra ecosystem",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001370",
+          "synonyms": [],
+          "definition": "Tundra ecosysems are often underlaid by permafrost, with the result that drainage is bad and the soil may be saturated for long periods. It does not have a permanent snow-ice cover.  Productivity is low in this biome because of the extremes of climate.",
+          "score": 0.3077,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001457",
+          "label": "cloud forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001457",
+          "synonyms": [
+            "tropical montane cloud forest"
+          ],
+          "definition": "A montane forest ecosystem which 1) is evergreen, 2) present on mountains where there is frequent cloud and mist cover, 3) which has a large proportion of ferns and mosses in its plant communities, growing on all tree trunks and branches present in the ecosystem, and 3) harvests aerosolised water and adds it to the terrestrial water supply.",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:16fa1ee9b9ac",
+          "evidence_text": "GEPmax became more negative (greater CO2 uptake) in plots with higher moss cover across the bog sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native forb cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native forb cover",
+      "proposed_definition": "A environmental variable corresponding to 'native forb cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:9633a46859bb",
+          "evidence_text": "native forb cover had significantly decreased with glyphosate at Site 3"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native forb flowering",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native forb flowering",
+      "proposed_definition": "A environmental variable corresponding to 'native forb flowering'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:8b03c4263e48",
+          "evidence_text": "that of non-native forbs was significantly reduced with cutting and glyphosate at Site 2"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native forb flowering and seed production",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native forb flowering and seed production",
+      "proposed_definition": "A environmental variable corresponding to 'native forb flowering and seed production'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:1fa99724de6c",
+          "evidence_text": "it significantly reduced that of native grasses and forbs"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native forb richness",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native forb richness",
+      "proposed_definition": "A environmental variable corresponding to 'native forb richness'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:5af272200aac",
+          "evidence_text": "native forb cover and richness were significantly lower with glyphosate than controls at Site 3"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native forb seed production",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native forb seed production",
+      "proposed_definition": "A environmental variable corresponding to 'native forb seed production'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:9e7f5ecd3263",
+          "evidence_text": "that of non-native forbs was significantly reduced with cutting and glyphosate at Site 2"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native grasses and forbs",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native grasses and forbs",
+      "proposed_definition": "A environmental variable corresponding to 'native grasses and forbs'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:971c0c23f6c8",
+          "evidence_text": "it significantly reduced that of native grasses and forbs"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native species abundance",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native species abundance",
+      "proposed_definition": "A environmental variable corresponding to 'native species abundance'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:c04fe74a256e",
+          "evidence_text": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native species richness",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native species richness",
+      "proposed_definition": "A environmental variable corresponding to 'native species richness'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:8bd9e9ff21b7",
+          "evidence_text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "non-native forb cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "non-native forb cover",
+      "proposed_definition": "A environmental variable corresponding to 'non-native forb cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:4032a3977fc6",
+          "evidence_text": "Glyphosate led to significant increases in non-native forb cover"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "non-native grass cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "non-native grass cover",
+      "proposed_definition": "A environmental variable corresponding to 'non-native grass cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:deb5f98de276",
+          "evidence_text": "Glyphosate reduced non-native grass cover for three growing seasons following application"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Non-native grass diversity",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Non-native grass diversity",
+      "proposed_definition": "A environmental variable corresponding to 'Non-native grass diversity'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:d28ffd45e785",
+          "evidence_text": "Non-native grass species richness and diversity were significantly lower with glyphosate"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Non-native grass species richness",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Non-native grass species richness",
+      "proposed_definition": "A environmental variable corresponding to 'Non-native grass species richness'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:b210dfaebd11",
+          "evidence_text": "Non-native grass species richness and diversity were significantly lower with glyphosate"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "numbers of oldﬁeld species consumed",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "numbers of oldﬁeld species consumed",
+      "proposed_definition": "A environmental variable corresponding to 'numbers of oldﬁeld species consumed'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:24217ab75cfe",
+          "evidence_text": "Rodent density per month and numbers of oldﬁeld species consumed per month were positively correlated"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "occupation by bees",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "occupation by bees",
+      "proposed_definition": "A environmental variable corresponding to 'occupation by bees'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:fc574f03587c",
+          "evidence_text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "persistence",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "persistence",
+      "proposed_definition": "A environmental variable corresponding to 'persistence'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:03000115",
+          "label": "perennial snow patch",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_03000115",
+          "synonyms": [
+            "perennial snowpatch"
+          ],
+          "definition": "A snow patch is defined as perennial if it survives two or more melt seasons.",
+          "score": 0.3871,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:03600036",
+          "label": "pathogen-suppressive soil",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_03600036",
+          "synonyms": [
+            "disease-suppressive soil"
+          ],
+          "definition": "The pathogenicity that is suppressed is typically directed towards plants, especially crops. Soils are typically classified as pathogen-suppressive if a pathogen 1) cannot establish itself or persist, 2) is able to establish itself, but causes little or no damage, or 3) is able to establishe itself, but only causes disease that does not result in long-term harm.",
+          "score": 0.3333,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000069",
+          "label": "mesoscale marine eddy",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000069",
+          "synonyms": [],
+          "definition": "Mesoscale marine eddies are characterized by currents which flow in a roughly circular motion around the center of the eddy. The sense of rotation of these currents may either be cyclonic or anticyclonic. Ocean eddies are also usually made of water masses that are different to those outside of the eddy. Marine mesoscale eddies are between about 10 and 500 km in diameter, and persist for periods of days to months. They may be formed when an ocean current develops an instability. This instability grows, causing the current to meander, and eventually an eddy is pinched off from the meander.",
+          "score": 0.3125,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001359",
+          "label": "atmospheric aerosolised particle formation event",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001359",
+          "synonyms": [
+            "rapid formation of liquid or solid particles from gaseous material in an atmosphere"
+          ],
+          "definition": "An aerosol formation event  which occurs in an atmosphere.",
+          "score": 0.3051,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001452",
+          "label": "Calyptra habitat",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001452",
+          "synonyms": [
+            "vampire moth habitat"
+          ],
+          "definition": "A habitat which supports the persistence and growth of a population of Calyptra moths and which overlaps mesic meadows and edges and clearings in vegetated areas.",
+          "score": 0.2963,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000953",
+          "label": "tree line ecotone",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000953",
+          "synonyms": [
+            "tree line",
+            "tree-line",
+            "treeline"
+          ],
+          "definition": "An ecotone which overlaps at least one biome which supports the growth and persistence of trees and at least one that does not. Before ceasing altogether, tree growth becomes sparse and trees appear stunted as conditions become less favourable along this ecotone.",
+          "score": 0.2857,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001373",
+          "label": "secondary atmospheric aerosol formation event",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001373",
+          "synonyms": [
+            "atmospheric new particle formation event"
+          ],
+          "definition": "A secondary aerosol formation process which occurs in an atmosphere at an increased rate relative to background processes of the same kind.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:00000484",
+          "label": "polynya",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000484",
+          "synonyms": [
+            "Polyn'ya"
+          ],
+          "definition": "A polynya is a Russian term for any non-linear shaped area of open water within the ice pack. Polynyas may contain brash ice and/or be covered with new ice, nilas or young ice; submariners refer to these as skylights.\n\nSometimes the polynya is limited on one side by the coast and is called a shore polynya or by fast ice and is called a flaw polynya. If it recurs in the same position every year, e.g. off the mouths of big rivers, it is called a recurring polynya. A temporary small clearing in pack ice which consists of small floes and brash in continuous local movement is called an unstable polynya; an opening which is flanked by large floes and therefore appears to be relatively stable is called a stable polynya.\n\nPolynyas range in size from relatively small to enormous. The largest polynya observed in the Antarctic was the Weddell Polynya of 1975-77, covering an area of 2x105km2.\n\nThe two main categories of polynya are sensible heat and latent heat, depending on the mechanism responsible for maintaining their presence. Latent heat polynyas are maintained by persistent katabatic winds that drain off the continent. Newly formed ice is advected away by the wind, leaving the surface ice-free and open to more ice formation. In this manner latent heat polynyas can be major sources of new ice production. Coastal polynyas are primarily of this type. Sensible heat polynyas are maintained by upwelling warm water that supplies a sufficiently large oceanic heat flux to the base of the ice to reduce its thickness, or melt it completely. These polynyas are not responsible for large quantities of new ice production. A polynya may also form by a combination of the sensible and latent heat processes.\n\n\nFrom the remote sensing/sea ice standpoint a polynya is a hole in the ice that ordinarily wouldn't be there - except that either the wind is creating it by pushing the ice away or there is something under the ice that is warmer than its surroundings and melting the ice that would otherwise be there.",
+          "score": 0.2222,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000065",
+          "label": "marine oxygen minimum zone",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000065",
+          "synonyms": [],
+          "definition": "Low oxygen rates are typically due to the rate of respiration being greater than the rate of oxygen resupply, and are not necessarily due to anthropogenic activity.",
+          "score": 0.2162,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:03000116",
+          "label": "snowpack",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_03000116",
+          "synonyms": [
+            "snow pack"
+          ],
+          "definition": "The GCW analysis of multiple glossaries found eight definitions of snowpack, with many commonalities but also disagreements. Please see the corresponding report \"WMO GCW Nomenclature Assessment\" for more information.",
+          "score": 0.2105,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:2fadf7acc2d2",
+          "evidence_text": "insufﬁcient to shelter rarer prairie species from targeted granivory, which in turn may hamper their persistence"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "population spread",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "population spread",
+      "proposed_definition": "A environmental variable corresponding to 'population spread'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:6cef47d0f04e",
+          "evidence_text": "there is evidence that all eight species colonized new plots since the last round of monitoring"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "prairie diversity",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "prairie diversity",
+      "proposed_definition": "A environmental variable corresponding to 'prairie diversity'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000449",
+          "label": "wet meadow ecosystem",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000449",
+          "synonyms": [],
+          "definition": "A wet meadow is a type of wetland with soils that are saturated with water for part or all of the growing season.",
+          "score": 0.1622,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:9a336b31c480",
+          "evidence_text": "resulting in reduced prairie diversity outside of experimental exclosures."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "recruitment",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "recruitment",
+      "proposed_definition": "A environmental variable corresponding to 'recruitment'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:1c45dfb4f134",
+          "evidence_text": "some planted species likely to suffer future recruitment difficulties due to granivory"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "restoration success",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "restoration success",
+      "proposed_definition": "A environmental variable corresponding to 'restoration success'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:00000428",
+          "label": "biome",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000428",
+          "synonyms": [
+            "EcosytemType",
+            "major habitat type"
+          ],
+          "definition": "In this definition, there is an assumption that no major perturbations are occurring or have occurred in a time frame affects the successional dynamics of the ecosystem. A \"major\" perturbation is one which disrupts the community's ability to restore its (near) equilibrium. Usually, pioneer or early secondary successional processes would be in effect in such scenarios.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:5b8ef04f1c35",
+          "evidence_text": "rodents may reduce the restoration success of tallgrass prairie in our region"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "richness of planted species",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "richness of planted species",
+      "proposed_definition": "A environmental variable corresponding to 'richness of planted species'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:5022a0b18650",
+          "evidence_text": "signiﬁcantly higher richness of planted species ... than areas lacking protection from small mammals"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "rodent density",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "rodent density",
+      "proposed_definition": "A environmental variable corresponding to 'rodent density'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:3fb8ff61c7fb",
+          "evidence_text": "Rodent density per month and numbers of oldﬁeld species consumed per month were positively correlated"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "sedge cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "sedge cover",
+      "proposed_definition": "A environmental variable corresponding to 'sedge cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000887",
+          "label": "area of sedge- and forb-dominated herbaceous vegetation",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000887",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, at least 80% of these areas are covered by sedge or forbs.  Such thresholds - which are themselves fuzzy - are not strictly asserted in this definition. The NLCD description also notes that land covered by sedge tundra and sedge tussock tundra are subsumed in this category. The original definition notes that this is intended as an \"Alaska only\" category.",
+          "score": 0.3077,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001370",
+          "label": "tundra ecosystem",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001370",
+          "synonyms": [],
+          "definition": "Tundra ecosysems are often underlaid by permafrost, with the result that drainage is bad and the soil may be saturated for long periods. It does not have a permanent snow-ice cover.  Productivity is low in this biome because of the extremes of climate.",
+          "score": 0.2963,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000861",
+          "label": "area of dwarf scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000861",
+          "synonyms": [
+            "area of subshrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of dwarf scrub are dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation. The NLCD 2011 notes that this is intended as an Alaska only land cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:00000187",
+          "label": "tundra mire",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000187",
+          "synonyms": [],
+          "definition": "Peatlands with a shallow peat layer, only about 500 mm thick, dominated by sedges and grasses. They form in permafrost areas, covering around 110,000 to 160,000 km2 in Alaska, Canada, and the former USSR.",
+          "score": 0.0909,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:1edc091a3b7f",
+          "evidence_text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "seedling height",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "seedling height",
+      "proposed_definition": "A environmental variable corresponding to 'seedling height'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:1d720a550415",
+          "evidence_text": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "seedling performance",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "seedling performance",
+      "proposed_definition": "A environmental variable corresponding to 'seedling performance'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:14c138af0a66",
+          "evidence_text": "Site preparation and mechanical release did not improve morphological parameters"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "species richness",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "species richness",
+      "proposed_definition": "A environmental variable corresponding to 'species richness'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000005",
+          "label": "upwelling",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000005",
+          "synonyms": [
+            "marine upwelling"
+          ],
+          "definition": "This term is specific to marine upwellings.",
+          "score": 0.32,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:78ca36c2b860",
+          "evidence_text": "bee abundance and species richness in restored sites increased until 2006/2007"
+        },
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:f6578c0d32d5",
+          "evidence_text": "subsequently declined"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "Total diversity",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Total diversity",
+      "proposed_definition": "A environmental variable corresponding to 'Total diversity'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:3a375688c67b",
+          "evidence_text": "Total diversity was significantly lower with glyphosate across sites in 2011"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "total vegetation cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "total vegetation cover",
+      "proposed_definition": "A environmental variable corresponding to 'total vegetation cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000843",
+          "label": "area of evergreen forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000843",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, areas of evergreen forest are dominated by trees generally greater than 5 meters tall, and making up more than 20% of total vegetation cover. The NLCD 2011 continues to state that more than 75% of these trees should maintain their foliage despite seasonal change - the canopy is never without green foliage. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2609,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000861",
+          "label": "area of dwarf scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000861",
+          "synonyms": [
+            "area of subshrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of dwarf scrub are dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation. The NLCD 2011 notes that this is intended as an Alaska only land cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2439,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000869",
+          "label": "area of scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000869",
+          "synonyms": [
+            "area of shrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of scrub or shrub are dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2286,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000855",
+          "label": "area of mixed forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000855",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, areas of mixed forest are dominated by trees generally greater than 5 meters tall, and making up more than 20% of total vegetation cover. The NLCD 2011 continues to state that neither deciduous or evergreen trees make up more than 75% of the total tree cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.0476,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000816",
+          "label": "area of deciduous forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000816",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, areas of deciduous forest are dominated by trees generally greater than 5 meters tall, and making up more than 20% of total vegetation cover. The NLCD 2011 continues to state that more than 75% of these trees should shed foliage simultaneously in response to seasonal change. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.0435,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:b2a6bd325b82",
+          "evidence_text": "At both the bog and fen GEP max became more negative with increasing total plant cover"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "tree recruitment",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "tree recruitment",
+      "proposed_definition": "A environmental variable corresponding to 'tree recruitment'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:2398c5e0e896",
+          "evidence_text": "tree recruitment at the donor sites was limited"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "vegetation re-establishment",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "vegetation re-establishment",
+      "proposed_definition": "A environmental variable corresponding to 'vegetation re-establishment'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:59fbeff772d9",
+          "evidence_text": "vegetation re-establishment on donor sites was rapid"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "burn treatments",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "burn treatments",
+      "proposed_definition": "A management intervention corresponding to 'burn treatments'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:46bc4ba67cbb",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments compared with other treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "creation of foraging and nesting habitat",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "creation of foraging and nesting habitat",
+      "proposed_definition": "A management intervention corresponding to 'creation of foraging and nesting habitat'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:c71cd854fb85",
+          "evidence_text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Cutting",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "Cutting",
+      "proposed_definition": "A management intervention corresponding to 'Cutting'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3620024",
+          "label": "cutting removal process",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620024",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.4667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3621021",
+          "label": "shelterwood cutting process",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3621021",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.4118,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:82dacc2f0d1c",
+          "evidence_text": "Cutting and steam had little significant impact on vegetation diversity and species richness"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "disturbance treatments",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "disturbance treatments",
+      "proposed_definition": "A management intervention corresponding to 'disturbance treatments'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:3d37811ff1aa",
+          "evidence_text": "both seeding and disturbance treatments could positively influence native species abundance over the long term"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Donor material collection",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "Donor material collection",
+      "proposed_definition": "A management intervention corresponding to 'Donor material collection'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:d78d76e18566",
+          "evidence_text": "Donor material collection involves collecting the top 5–10 cm of the living vegetation from an appropriate donor peatland."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "genetic testing for reintroduction success",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "genetic testing for reintroduction success",
+      "proposed_definition": "A management intervention corresponding to 'genetic testing for reintroduction success'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3.3.1",
+          "label": "Reintroduction",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.3.1",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.6222,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.biocon.2017.08.004",
+          "title": "Distinguishing reintroduction from recolonization with genetic testing",
+          "node_id": "causal_mosaic:node:d2238e944b44",
+          "evidence_text": "Our review of all fisher reintroductions demonstrated that 47% have been given a different reintroduction status once genetic testing for reintroduction success was performed"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Glyphosate application",
+      "semantic_role": "management_intervention",
+      "status": "close_match_needs_review",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "Glyphosate application",
+      "proposed_definition": "A management intervention corresponding to 'Glyphosate application'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3620505",
+          "label": "glyphosate application process",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620505",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.8462,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:a6695fa02463",
+          "evidence_text": "Glyphosate application reduced non-native grasses, but not non-native forbs."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "grass-specific herbicide",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "grass-specific herbicide",
+      "proposed_definition": "A management intervention corresponding to 'grass-specific herbicide'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:eef8c78a0bca",
+          "evidence_text": "treatments that included grass-specific herbicide were the most effective at reducing the abundance of exotic grasses"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Landfill restoration",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "Landfill restoration",
+      "proposed_definition": "A management intervention corresponding to 'Landfill restoration'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/icad.12261",
+          "title": "Rapid initial recovery and long‐term persistence of a bee community in a former landfill",
+          "node_id": "causal_mosaic:node:e72d76d3518c",
+          "evidence_text": "Landﬁll restoration and the creation of foraging and nesting habitat resulted in rapid and persistent occupation by bees"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "livestock exclusion",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "livestock exclusion",
+      "proposed_definition": "A management intervention corresponding to 'livestock exclusion'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:eb9b249f8ca5",
+          "evidence_text": "A combination of permanent and seasonal exclusion of livestock can lead to increased abundance of riparian birds that depend on early successional habitat for nesting such as Western Yellow-breasted Chats."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "mechanical release",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "mechanical release",
+      "proposed_definition": "A management intervention corresponding to 'mechanical release'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:09d7349c202b",
+          "evidence_text": "Mechanical release had no significant effect on seedling height"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Obtaining appropriate genetic samples",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "Obtaining appropriate genetic samples",
+      "proposed_definition": "A management intervention corresponding to 'Obtaining appropriate genetic samples'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.biocon.2017.08.004",
+          "title": "Distinguishing reintroduction from recolonization with genetic testing",
+          "node_id": "causal_mosaic:node:c1406db88511",
+          "evidence_text": "Obtaining appropriate genetic samples in relation to reintroductions will help determine when future reintroduction is likely to be the best conservation initiative."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "restoration activities",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "restoration activities",
+      "proposed_definition": "A management intervention corresponding to 'restoration activities'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:abdcfa5d0a84",
+          "evidence_text": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "site preparation",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "site preparation",
+      "proposed_definition": "A management intervention corresponding to 'site preparation'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:50f2e3571107",
+          "evidence_text": "Site preparation and mechanical release did not improve morphological parameters"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Steam application",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "Steam application",
+      "proposed_definition": "A management intervention corresponding to 'Steam application'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:6cbf782f196e",
+          "evidence_text": "steam reduced non-native grass cover at the most heavily invaded site"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "supplemental seeding",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "supplemental seeding",
+      "proposed_definition": "A management intervention corresponding to 'supplemental seeding'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:42c33f576b19",
+          "evidence_text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "current CLM population",
+      "semantic_role": "taxon",
+      "status": "no_match",
+      "target_ontologies": [
+        "WIKIDATA"
+      ],
+      "proposed_label": "current CLM population",
+      "proposed_definition": "A taxon corresponding to 'current CLM population'.",
+      "candidate_parent": "Wikidata taxon",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.biocon.2017.08.004",
+          "title": "Distinguishing reintroduction from recolonization with genetic testing",
+          "node_id": "causal_mosaic:node:2fa48bb0e362",
+          "evidence_text": "Instead it appears that recolonization by Albertan fishers is responsible for the current CLM population."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "rodents",
+      "semantic_role": "taxon",
+      "status": "no_match",
+      "target_ontologies": [
+        "WIKIDATA"
+      ],
+      "proposed_label": "rodents",
+      "proposed_definition": "A taxon corresponding to 'rodents'.",
+      "candidate_parent": "Wikidata taxon",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:f374830d9a51",
+          "evidence_text": "rodents may reduce the restoration success of tallgrass prairie in our region"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "breeding performance",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "breeding performance",
+      "proposed_definition": "A variable corresponding to 'breeding performance'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12495",
+          "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+          "node_id": "causal_mosaic:node:6b3f1609d3d5",
+          "evidence_text": "Cattle exclusion did not lead to an improvement in the breeding performance of W. Yellow-breasted Chats at restoration sites."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "CH4 flux",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "CH4 flux",
+      "proposed_definition": "A variable corresponding to 'CH4 flux'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:426f5b39d22c",
+          "evidence_text": "Methane emissions were higher from donor sites compared to natural sites due to the high water table"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "dominance",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "dominance",
+      "proposed_definition": "A variable corresponding to 'dominance'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0002203",
+          "label": "right handedness",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002203",
+          "synonyms": [],
+          "definition": "Handedness where the organism preferentially uses the right hand or foot for tasks requiring the use of a single hand or foot or a dominant hand or foot.",
+          "score": 0.32,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002204",
+          "label": "ambidextrous handedness",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002204",
+          "synonyms": [],
+          "definition": "Handedness where the organism exhibits no overall dominance in the use of right or left hand or foot in the performance of tasks that require one hand or foot or a dominant hand or foot.",
+          "score": 0.3125,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002202",
+          "label": "left handedness",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002202",
+          "synonyms": [],
+          "definition": "Handedness where the organism preferentially uses the left hand or foot for tasks requiring the use of a single hand or foot or a dominant hand or foot.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000015",
+          "label": "color hue",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000015",
+          "synonyms": [],
+          "definition": "A chromatic scalar-circular quality inhering in an object that manifests in an observer by virtue of the dominant wavelength of the visible light; may be subject to fiat divisions, typically into 7 or 8 spectra.",
+          "score": 0.2222,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:1f21f18bdb72",
+          "evidence_text": "Glyphosate shifted communities dominated by non-native perennial grasses to dominance by non-native forbs"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:1efa0a204221",
+          "evidence_text": "Glyphosate shifted communities dominated by non-native perennial grasses to dominance by non-native forbs"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "flowering",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "flowering",
+      "proposed_definition": "A variable corresponding to 'flowering'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0040051",
+          "label": "monandrous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0040051",
+          "synonyms": [],
+          "definition": "A phenotypic sex quality inhering in a  plant organism or a population of plants in which the flowers have only one stamen.",
+          "score": 0.2105,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001436",
+          "label": "sessile (sensu botany)",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001436",
+          "synonyms": [],
+          "definition": "An attachment quality inhering in a flower by virtue of the bearer's lacking a stalk, as in flowers or leaves that grow directly from the stem.",
+          "score": 0.2069,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0040050",
+          "label": "diandrous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0040050",
+          "synonyms": [],
+          "definition": "A phenotypic sex quality inhering in a  plant organism or a population of plants in which the flowers have two stamens.",
+          "score": 0.1111,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:7114f1008352",
+          "evidence_text": "Flowering and seed set of non-native grasses was significantly reduced with glyphosate at Site 1"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:8b03c4263e48",
+          "evidence_text": "that of non-native forbs was significantly reduced with cutting and glyphosate at Site 2"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "flowering and seed production",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "flowering and seed production",
+      "proposed_definition": "A variable corresponding to 'flowering and seed production'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:1fa99724de6c",
+          "evidence_text": "it significantly reduced that of native grasses and forbs"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:971c0c23f6c8",
+          "evidence_text": "it significantly reduced that of native grasses and forbs"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "light conditions",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "light conditions",
+      "proposed_definition": "A variable corresponding to 'light conditions'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1016/j.foreco.2017.09.024",
+          "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+          "node_id": "causal_mosaic:node:d5f7fbaf7039",
+          "evidence_text": "Deer browsing ... improving light conditions for the planted seedlings"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "moss cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "moss cover",
+      "proposed_definition": "A variable corresponding to 'moss cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:16fa1ee9b9ac",
+          "evidence_text": "GEPmax became more negative (greater CO2 uptake) in plots with higher moss cover across the bog sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "NEE",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "NEE",
+      "proposed_definition": "A variable corresponding to 'NEE'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001954",
+          "label": "subulate",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001954",
+          "synonyms": [
+            "awl-shaped",
+            "needle-like"
+          ],
+          "definition": "A shape quality inhering in a bearer by virtue of the bearer's being linear, very narrow, tapering to a very fine point from a narrow base.",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001439",
+          "label": "tonicity",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001439",
+          "synonyms": [
+            "tone"
+          ],
+          "definition": "TODO: we need a clearer differentium between this and contractility - or merge?",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0005007",
+          "label": "hypsodont",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0005007",
+          "synonyms": [],
+          "definition": "Need to include axiom: hypsodont inheres_in some ('tooth crown' and bearer_of 'increased \nheight').",
+          "score": 0.1667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0005008",
+          "label": "brachydont",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0005008",
+          "synonyms": [],
+          "definition": "Need to include axiom: brachydont inheres_in some ('tooth crown' and bearer_of 'decreased \nheight').",
+          "score": 0.1538,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000021",
+          "label": "compatibility",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000021",
+          "synonyms": [],
+          "definition": "Needs redefined or obsoleted. Is this the same as genetic incompatibility? Moved to organismal quality.",
+          "score": 0.0,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:c1a271aad3c3",
+          "evidence_text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "numbers",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "numbers",
+      "proposed_definition": "A variable corresponding to 'numbers'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001555",
+          "label": "has number of",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001555",
+          "synonyms": [
+            "cardinality",
+            "extra or missing physical or functional parts",
+            "has or lacks parts of type",
+            "mereological quality",
+            "number of",
+            "number"
+          ],
+          "definition": "The number of parts of a particular type that the bearer entity has. This is a relational quality, and thus holds between two entities: the bearer of the quality, and the type of parts.",
+          "score": 0.6,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002083",
+          "label": "altered number of",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002083",
+          "synonyms": [],
+          "definition": "Having extra or fewer parts.",
+          "score": 0.5,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001905",
+          "label": "has normal numbers of parts of type",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001905",
+          "synonyms": [
+            "having physical part"
+          ],
+          "definition": "The bearer of this quality has_part = n, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part.",
+          "score": 0.3333,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002001",
+          "label": "has fewer parts of type",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002001",
+          "synonyms": [
+            "decreased number of",
+            "has decreased number of",
+            "has fewer physical parts of type"
+          ],
+          "definition": "Example: [E=hand Q=has_fewer_parts_of_type E2=digit] - applies to an organism that has no less fingers than is normal for organisms of that type.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002002",
+          "label": "has extra parts of type",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002002",
+          "synonyms": [
+            "has extra parts of",
+            "has increased number of",
+            "having extra physical parts",
+            "having supernumerary physical parts",
+            "increased number of"
+          ],
+          "definition": "In polydactyly, the bearer of the quality is the hand, and the entity type being counted is 'finger'. In EQ syntax, E=hand, Q=<this> E2=finger.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000470",
+          "label": "increased amount",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000470",
+          "synonyms": [
+            "accessory",
+            "increased number",
+            "increased",
+            "present in greater numbers in organism",
+            "supernumerary"
+          ],
+          "definition": "An amount which is relatively high.",
+          "score": 0.1739,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000070",
+          "label": "amount",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000070",
+          "synonyms": [
+            "count in organism",
+            "number",
+            "presence or absence in organism",
+            "presence",
+            "quantitative"
+          ],
+          "definition": "This term was originally named \"presence\". It has been renamed to reduce ambiguity. Consider annotating with the reciprocal relation,PATO:0001555, has_number_of. For example, rather than E=fin ray Q=count in organism C=10, say E=organism Q=has number of E2= fin ray C=10.",
+          "score": 0.1538,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001392",
+          "label": "endopolyploid",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001392",
+          "synonyms": [],
+          "definition": "A polyploidy quality inhering in a bearer by virtue of the bearer's chromosome number being increased by endomitosis and for which the degree of ploidy is proportional to the number of times that endomitosis has taken place.",
+          "score": 0.1,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001997",
+          "label": "decreased amount",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001997",
+          "synonyms": [
+            "decreased number",
+            "decreased",
+            "present in fewer numbers in organism",
+            "reduced",
+            "subnumerary"
+          ],
+          "definition": "An amount which is relatively low.",
+          "score": 0.087,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0005001",
+          "label": "variability of count",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0005001",
+          "synonyms": [
+            "variable number"
+          ],
+          "definition": "A variability quality inhering in the bearer by virtue of the bearer having a variable number or count of an entity.",
+          "score": 0.0741,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:24217ab75cfe",
+          "evidence_text": "Rodent density per month and numbers of oldﬁeld species consumed per month were positively correlated"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "percent cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "percent cover",
+      "proposed_definition": "A variable corresponding to 'percent cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:c04fe74a256e",
+          "evidence_text": "addition of native seed effectively increased both the richness and abundance (defined as percent cover) of native species"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "recruitment",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "recruitment",
+      "proposed_definition": "A variable corresponding to 'recruitment'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:1c45dfb4f134",
+          "evidence_text": "some planted species likely to suffer future recruitment difficulties due to granivory"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "sedge cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "sedge cover",
+      "proposed_definition": "A variable corresponding to 'sedge cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:1edc091a3b7f",
+          "evidence_text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "seed production",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "seed production",
+      "proposed_definition": "A variable corresponding to 'seed production'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:fa0a18f63fe6",
+          "evidence_text": "Flowering and seed set of non-native grasses was significantly reduced with glyphosate at Site 1"
+        },
+        {
+          "doi": "10.1111/avsc.12316",
+          "title": "Glyphosate, steam and cutting for non‐native plant control in Alberta fescue grassland restoration",
+          "node_id": "causal_mosaic:node:9e7f5ecd3263",
+          "evidence_text": "that of non-native forbs was significantly reduced with cutting and glyphosate at Site 2"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "species richness",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "species richness",
+      "proposed_definition": "A variable corresponding to 'species richness'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.069,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:8bd9e9ff21b7",
+          "evidence_text": "plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "success",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "success",
+      "proposed_definition": "A variable corresponding to 'success'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0040028",
+          "label": "parous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0040028",
+          "synonyms": [],
+          "definition": "An organismal quality of having successfully reproduced.",
+          "score": 0.1538,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000999",
+          "label": "alternation",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000999",
+          "synonyms": [],
+          "definition": "A quality of a single process inhering in a bearer by virtue of the bearer's successive change from one thing or state to another and back again.",
+          "score": 0.1111,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/1365-2664.12886",
+          "title": "Selective plant foraging and the top‐down suppression of native diversity in a restored prairie",
+          "node_id": "causal_mosaic:node:5b8ef04f1c35",
+          "evidence_text": "rodents may reduce the restoration success of tallgrass prairie in our region"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "total plant cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "total plant cover",
+      "proposed_definition": "A variable corresponding to 'total plant cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:b2a6bd325b82",
+          "evidence_text": "At both the bog and fen GEP max became more negative with increasing total plant cover"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "water table position",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "water table position",
+      "proposed_definition": "A variable corresponding to 'water table position'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:9d690c4fe3ad",
+          "evidence_text": "This is due to removal of the top layer of vegetation in the donor sites that results in a reduced depth to the water table."
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    }
+  ]
+}

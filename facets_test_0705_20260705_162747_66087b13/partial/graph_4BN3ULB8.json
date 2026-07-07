@@ -1,0 +1,519 @@
+{
+  "graph_id": "causal_mosaic:graph:7bb1e0c0268b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T22:27:20.851957+00:00",
+    "source_corpus": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3af231c4976d",
+      "name": "Moss Layer Transfer Technique",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1f2751c283",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Moss Layer Transfer Technique (MLTT)",
+          "start_char": 1045,
+          "end_char": 1081,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c6d169710a8",
+      "name": "plant diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a53ab14d0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "restore the plant diversity",
+          "start_char": 25487,
+          "end_char": 25514,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ddbacfe0e7ac",
+      "name": "peat Mg concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c8690dd85c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "peat Mg concentration",
+          "start_char": 24702,
+          "end_char": 24723,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2af4ad1cc232",
+      "name": "presence of Recalcitrant Species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0b6c7caf44",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "presence of Recalcitrant Species",
+          "start_char": 24803,
+          "end_char": 24835,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af312150bb57",
+      "name": "fragmentation of the rhizome",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_17400e588f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fragmentation of the rhizome",
+          "start_char": 31667,
+          "end_char": 31695,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f78cca0799a5",
+      "name": "regeneration of new individuals",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4b78a7d44f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "regeneration of new individuals",
+          "start_char": 32019,
+          "end_char": 32050,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8dc5354cb035",
+      "name": "time elapsed since the restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9adf55678f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "time elapsed since the restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:06abe14f36f1",
+      "name": "recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e3ab370d05",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "recovery",
+          "start_char": 2259,
+          "end_char": 2267,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f5e61c941dc",
+      "name": "shaded conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_df1d7da1d0",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "shaded conditions",
+          "start_char": 32993,
+          "end_char": 33010,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:735cfa7e5a2f",
+      "name": "germination rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4d7a5d3669",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "germination rate",
+          "start_char": 32935,
+          "end_char": 32951,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78977853a5df",
+      "name": "presence of compatible mycorrhizal fungi",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34b6b203bb",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "presence of compatible mycorrhizal fungi",
+          "start_char": 33726,
+          "end_char": 33766,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0822d04b6a67",
+      "name": "germination and development",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3e5e4362a2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "germination and development",
+          "start_char": 33677,
+          "end_char": 33704,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:72d53d87b3fc",
+      "name": "planting trees and shrubs",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_be50965089",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "planting trees and shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f61e7148471",
+      "name": "adding magnesium",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8b88ef3e73",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "adding magnesium",
+          "start_char": 35029,
+          "end_char": 35045,
+          "paragraph_id": "page:9"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:3e6f159a9ce9",
+      "subject": "causal_mosaic:node:3af231c4976d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c6d169710a8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This study confirms that the MLTT is an effective method to restore the plant diversity of Sphagnum peatlands following peat extraction activities.",
+      "source_spans": [
+        {
+          "text": "This study confirms that the MLTT is an effective method to restore the plant diversity of Sphagnum peatlands following peat extraction activities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:970bea19d03b",
+      "subject": "causal_mosaic:node:ddbacfe0e7ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2af4ad1cc232",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The peat Mg concentration was the only other variable explaining significantly the presence of Recalcitrant Species in restored sites according to the RDA model",
+      "source_spans": [
+        {
+          "text": "The peat Mg concentration was the only other variable explaining significantly the presence of Recalcitrant Species in restored sites according to the RDA model"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c8a7b5d099a2",
+      "subject": "causal_mosaic:node:af312150bb57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f78cca0799a5",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "fragmentation of the rhizome during the restoration process is problematic",
+      "source_spans": [
+        {
+          "text": "fragmentation of the rhizome during the restoration process is problematic",
+          "start_char": 31667,
+          "end_char": 31741,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e316d5d90d29",
+      "subject": "causal_mosaic:node:8dc5354cb035",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06abe14f36f1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "relatively short time elapsed since the restoration was probably not sufficient for their recovery",
+      "source_spans": [
+        {
+          "text": "relatively short time elapsed since the restoration was probably not sufficient for their recovery"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c1851bb9b2dd",
+      "subject": "causal_mosaic:node:0f5e61c941dc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:735cfa7e5a2f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "germination rate of both species was 3 e5 times higher in shaded conditions compared to full sunlight",
+      "source_spans": [
+        {
+          "text": "germination rate of both species was 3 e5 times higher in shaded conditions compared to full sunlight"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b99291038da9",
+      "subject": "causal_mosaic:node:78977853a5df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0822d04b6a67",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "germination and development is restricted by the presence of compatible mycorrhizal fungi",
+      "source_spans": [
+        {
+          "text": "germination and development is restricted by the presence of compatible mycorrhizal fungi"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c6e4706ca56f",
+      "subject": "causal_mosaic:node:72d53d87b3fc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06abe14f36f1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "planting trees and shrubs to accelerate the formation of a canopy could favour the germination of C. trisperma and I. mucronata",
+      "source_spans": [
+        {
+          "text": "planting trees and shrubs to accelerate the formation of a canopy could favour the germination of C. trisperma and I. mucronata"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5da8b49485aa",
+      "subject": "causal_mosaic:node:8f61e7148471",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06abe14f36f1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "adding magnesium along with phosphorus during the fertilization step could probably improve the establishment conditions",
+      "source_spans": [
+        {
+          "text": "adding magnesium along with phosphorus during the fertilization step could probably improve the establishment conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.gecco.2020.e01000",
+        "title": "Plant reintroduction in restored peatlands: 80% successfully transferred – Does the remaining 20% matter?",
+        "year": 2020,
+        "authors": [
+          "Hugron, Sandrine",
+          "Guêné-Nanchen, Mélina",
+          "Roux, Noémie",
+          "LeBlanc, Marie-Claire",
+          "Rochefort, Line"
+        ],
+        "journal": "Global Ecology and Conservation"
+      }
+    }
+  ]
+}

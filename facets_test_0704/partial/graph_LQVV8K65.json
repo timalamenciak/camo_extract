@@ -1,0 +1,616 @@
+{
+  "graph_id": "causal_mosaic:graph:4764e080fbf0",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T11:23:11.942505+00:00",
+    "source_corpus": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d365e6485c8c",
+      "name": "N addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c890b13392",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We used a field experiment to examine how N addition affected species composition and plant productivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bea570653b42",
+      "name": "Total percent cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8870d4fb4a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Total percent cover (i.e. percent cover values summed over all species) increased with N addition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d6f08c2c44b3",
+      "name": "Native non-leguminous forbs",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_ddf3b1e7c2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "significant increase in non-leguminous native forbs with N addition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bee3b5a8e690",
+      "name": "Conyza canadensis",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q794305",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "driven by increases in the cover of Conyza canadensis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa56d20a3e37",
+      "name": "Native legumes",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_1b496d3b28",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "native leguminous forbs were significantly lower in the N addition plots than the control plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:68d4526cf996",
+      "name": "Native C3 grasses",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_82908b6c02",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "significant increase in total native C3 grass cover in response to N addition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ccd4cfc8bfc",
+      "name": "Native C4 grasses",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_95de781dd2",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "no significant N addition effects on total native C4 grass cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3c0f668464d",
+      "name": "Adventive grasses",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_1185243e9a",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "adventive grasses remained mostly absent from the plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca686939a0b0",
+      "name": "Aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39242f5e25",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on total aboveground biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8495f83ce1ec",
+      "name": "Shannon diversity index",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_375dbd2777",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on the Shannon diversity index"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e7708ae692d",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on... species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:56c8e74b0bae",
+      "name": "Species evenness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_be808f6811",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on... species evenness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a54a77f28bab",
+      "name": "Site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4f129ddcde",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Site preparation designed to exhaust the soil seedbank of adventive species can improve the success of tallgrass prairie restoration"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4f53067e8247",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bea570653b42",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total percent cover (i.e. percent cover values summed over all species) increased with N addition ( P=0.01)",
+      "source_spans": [
+        {
+          "text": "Total percent cover (i.e. percent cover values summed over all species) increased with N addition ( P=0.01)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d8c1d1072ed",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d6f08c2c44b3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Much of the N addition response was explained by the significant increase in non-leguminous native forbs with N addition",
+      "source_spans": [
+        {
+          "text": "Much of the N addition response was explained by the significant increase in non-leguminous native forbs with N addition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f8a457a338b4",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bee3b5a8e690",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the N effect on non-leguminous forbs that were not seeded was primarily driven by increases in the cover of Conyza canadensis",
+      "source_spans": [
+        {
+          "text": "the N effect on non-leguminous forbs that were not seeded was primarily driven by increases in the cover of Conyza canadensis"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6193c1089f31",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aa56d20a3e37",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "native leguminous forbs were significantly lower in the N addition plots than the control plots",
+      "source_spans": [
+        {
+          "text": "native leguminous forbs were significantly lower in the N addition plots than the control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee45ddca8fba",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:68d4526cf996",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there was a significant increase in total native C3 grass cover in response to N addition in the second and third years",
+      "source_spans": [
+        {
+          "text": "there was a significant increase in total native C3 grass cover in response to N addition in the second and third years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:671edfba8be6",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ccd4cfc8bfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there were no significant N addition effects on total native C4 grass cover",
+      "source_spans": [
+        {
+          "text": "there were no significant N addition effects on total native C4 grass cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9988cd5454c3",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3c0f668464d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "adventive grasses remained mostly absent from the plots",
+      "source_spans": [
+        {
+          "text": "adventive grasses remained mostly absent from the plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8fd0c279602b",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca686939a0b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There were no significant effects of N addition on total aboveground biomass",
+      "source_spans": [
+        {
+          "text": "There were no significant effects of N addition on total aboveground biomass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4417ad2bd5e0",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8495f83ce1ec",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "no significant effects of N addition on the Shannon diversity index",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on the Shannon diversity index"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4adfee95bfa6",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e7708ae692d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "no significant effects of N addition on... species richness",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on... species richness"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aa1d986a092b",
+      "subject": "causal_mosaic:node:d365e6485c8c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:56c8e74b0bae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "no significant effects of N addition on... species evenness",
+      "source_spans": [
+        {
+          "text": "no significant effects of N addition on... species evenness"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2986c292c19a",
+      "subject": "causal_mosaic:node:a54a77f28bab",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3c0f668464d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "site pre-treatment with herbicide may continue to be effective in minimizing adventive grasses in restored tallgrass prairie",
+      "source_spans": [
+        {
+          "text": "site pre-treatment with herbicide may continue to be effective in minimizing adventive grasses in restored tallgrass prairie"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12156",
+        "title": "Tallgrass prairie restoration: implications of increased atmospheric nitrogen deposition when site preparation minimizes adventive grasses",
+        "year": 2015,
+        "authors": [
+          "McPhee, Jennifer",
+          "Borden, Laura",
+          "Bowles, Jane",
+          "Henry, Hugh A. L."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

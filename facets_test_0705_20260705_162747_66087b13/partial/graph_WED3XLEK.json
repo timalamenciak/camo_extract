@@ -1,0 +1,641 @@
+{
+  "graph_id": "causal_mosaic:graph:23c25c235a3c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T03:17:28.634639+00:00",
+    "source_corpus": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9991367d4672",
+      "name": "Herbicide",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_24dc8a688b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Both herbicide and clipping significantly reduced the cover of A. cristatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4526c68cdd71",
+      "name": "Clipping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ef425a5560",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Both herbicide and clipping significantly reduced the cover of A. cristatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba14efb933dd",
+      "name": "Seed addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ad0cb031d7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The cover of B. gracilis increased significantly with seed addition and herbicide"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a1b0a058184",
+      "name": "Cover of A. cristatum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cbd5ba3dbd",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Both herbicide and clipping significantly reduced the cover of A. cristatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:279affe77398",
+      "name": "Cover of B. gracilis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3fa9f70ab7",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The cover of B. gracilis increased significantly with seed addition and herbicide"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9076d0507b70",
+      "name": "Total cover of native species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e7d39847b8",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The total cover of native species increased significantly with clipping and herbicide"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58efa33b3268",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "species richness was significantly higher in plots receiving herbicide"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6876ea3aa6d1",
+      "name": "Seed bank of A. cristatum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc3346347b",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "seed bank",
+      "source_spans": [
+        {
+          "text": "No treatment had any effect on the seed bank of A. cristatum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dbbc0c51a3cd",
+      "name": "Seed head density of A. cristatum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_353428d105",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "was three times higher in plots receiving herbicide",
+          "start_char": 20027,
+          "end_char": 20078,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c670461a4b72",
+      "name": "Clipping season",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f65c5cbaf4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Clipping season had no effect on any variable",
+          "start_char": 1882,
+          "end_char": 1927,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c78dbf7ceba5",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a1b0a058184",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both herbicide and clipping significantly reduced the cover of A. cristatum, but clipping produced an immediate and consistent decrease, whereas herbicide control varied among years.",
+      "source_spans": [
+        {
+          "text": "Both herbicide and clipping significantly reduced the cover of A. cristatum, but clipping produced an immediate and consistent decrease, whereas herbicide control varied among years."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6dc479e5e5e",
+      "subject": "causal_mosaic:node:4526c68cdd71",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a1b0a058184",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both herbicide and clipping significantly reduced the cover of A. cristatum, but clipping produced an immediate and consistent decrease, whereas herbicide control varied among years.",
+      "source_spans": [
+        {
+          "text": "Both herbicide and clipping significantly reduced the cover of A. cristatum, but clipping produced an immediate and consistent decrease, whereas herbicide control varied among years."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cb34cb570fa0",
+      "subject": "causal_mosaic:node:ba14efb933dd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:279affe77398",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover of B. gracilis increased significantly with seed addition and herbicide, and, after 7 years, was similar to that in undisturbed prairie.",
+      "source_spans": [
+        {
+          "text": "The cover of B. gracilis increased significantly with seed addition and herbicide, and, after 7 years, was similar to that in undisturbed prairie."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c899d8057651",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:279affe77398",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover of B. gracilis increased significantly with seed addition and herbicide, and, after 7 years, was similar to that in undisturbed prairie.",
+      "source_spans": [
+        {
+          "text": "The cover of B. gracilis increased significantly with seed addition and herbicide, and, after 7 years, was similar to that in undisturbed prairie."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0110aa741cf1",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9076d0507b70",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide.",
+      "source_spans": [
+        {
+          "text": "The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c04524db4ce4",
+      "subject": "causal_mosaic:node:4526c68cdd71",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9076d0507b70",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide.",
+      "source_spans": [
+        {
+          "text": "The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:efffaf2ea723",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide.",
+      "source_spans": [
+        {
+          "text": "The total cover of native species increased significantly with clipping and herbicide, and species richness was significantly higher in plots receiving herbicide."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9f9e94b215c1",
+      "subject": "causal_mosaic:node:279affe77398",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a1b0a058184",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover of A. cristatum decreased significantly with increasing cover of a seeded native grass, B. gracilis, suggesting that both top-down (i.e., grazing) and bottom-up (i.e., resource competition) strategies can contribute to A. cristatum control.",
+      "source_spans": [
+        {
+          "text": "The cover of A. cristatum decreased significantly with increasing cover of a seeded native grass, B. gracilis, suggesting that both top-down (i.e., grazing) and bottom-up (i.e., resource competition) strategies can contribute to A. cristatum control."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b7216c4b8ff9",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6876ea3aa6d1",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "No treatment had any effect on the seed bank of A. cristatum.",
+      "source_spans": [
+        {
+          "text": "No treatment had any effect on the seed bank of A. cristatum."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0db70dfe2e3f",
+      "subject": "causal_mosaic:node:4526c68cdd71",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6876ea3aa6d1",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "No treatment had any effect on the seed bank of A. cristatum.",
+      "source_spans": [
+        {
+          "text": "No treatment had any effect on the seed bank of A. cristatum."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:012d14b4f76e",
+      "subject": "causal_mosaic:node:ba14efb933dd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a1b0a058184",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover of A. cristatum in 2000 was significantly ( p < 0.05, df = 1, 16 for all three-factor ANOVAs) lower in plots receiving herbicide (Fig. 1, F = 46.83) and clipping (F = 18.50) but was unaffected by the addition of native seeds (F = 1.19).",
+      "source_spans": [
+        {
+          "text": "The cover of A. cristatum in 2000 was significantly ( p < 0.05, df = 1, 16 for all three-factor ANOVAs) lower in plots receiving herbicide (Fig. 1, F = 46.83) and clipping (F = 18.50) but was unaffected by the addition of native seeds (F = 1.19)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8ad763c32733",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dbbc0c51a3cd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The density of A. cristatum seed heads did not vary significantly between control and herbicide plots in 1998 but was three times higher in plots receiving herbicide (42 seed heads/m2) than in untreated controls (12/m2).",
+      "source_spans": [
+        {
+          "text": "The density of A. cristatum seed heads did not vary significantly between control and herbicide plots in 1998 but was three times higher in plots receiving herbicide (42 seed heads/m2) than in untreated controls (12/m2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3087413adaa",
+      "subject": "causal_mosaic:node:9991367d4672",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dbbc0c51a3cd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seed head density was significantly reduced by herbicide in 1999 (control, 70/m2; herbicide, 2/m2; F = 8.37) and was unaffected in 2000 (control, 1.4/m2; herbicide, 1.8/m2).",
+      "source_spans": [
+        {
+          "text": "Seed head density was significantly reduced by herbicide in 1999 (control, 70/m2; herbicide, 2/m2; F = 8.37) and was unaffected in 2000 (control, 1.4/m2; herbicide, 1.8/m2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cf44bf55ebc0",
+      "subject": "causal_mosaic:node:c670461a4b72",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a1b0a058184",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Clipping season had no effect on any variable.",
+      "source_spans": [
+        {
+          "text": "Clipping season had no effect on any variable.",
+          "start_char": 1882,
+          "end_char": 1928,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.rec0217.x",
+        "title": "Extirpation or Coexistence? Management of a Persistent Introduced Grass in a Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Wilson, Scott D.",
+          "Pärtel, Meelis"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

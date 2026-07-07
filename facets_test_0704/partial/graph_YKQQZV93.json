@@ -1,0 +1,395 @@
+{
+  "graph_id": "causal_mosaic:graph:800a1a0081c4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T04:28:27.093773+00:00",
+    "source_corpus": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:8019bc9e230c",
+      "name": "transplanting S. canadensis",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_aee0959221",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "transplanting S. canadensis was effective at mitigating the spread of A. petiolata"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e25466cb27a",
+      "name": "populations of A. petiolata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0e68aa3e15",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "populations of A. petiolata were affected by competition with S. canadensis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a6dc31d58eb3",
+      "name": "initial S. canadensis densities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a078e7519d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "initial S. canadensis densities of as little as 5 ramets/m 2 suppressed A. petiolata"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81b6860d4411",
+      "name": "seedlings of A. petiolata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ff2557b5bb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "kill significantly more seedlings of A. petiolata before they matured"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cf0f0c73139a",
+      "name": "rosettes of A. petiolata",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79e8d9410b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "initial densities of even 5 ramets/m 2 of S. canadensis significantly harmed early-spring, late-spring, and autumn rosettes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:026e436e47cc",
+      "name": "number of stem leaves, gross leaf area, number of flowers, number of siliques, and height at final flowering",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a725c8800e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "number of stem leaves, gross leaf area, number of flowers, number of siliques, and height at final flowering were all significantly suppressed by S. canadensis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09f6c4a93c57",
+      "name": "habitat fragmentation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6d112e5c61",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fragmentation facilitates invasion",
+          "start_char": 2350,
+          "end_char": 2384,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:185b2bb3aa6b",
+      "name": "invasion",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a1a4957c67",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "fragmentation facilitates invasion",
+          "start_char": 2350,
+          "end_char": 2384,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d09a5332de05",
+      "name": "Alliaria petiolata",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q160097",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Alliaria petiolata outcompetes herbs, shrubs, and trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ef083dd923dc",
+      "name": "native understory species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_d48b67aced",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "outcompete and possibly extirpate much of the native understory species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58993961b0aa",
+      "name": "gross chemistry of soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a7009e0eca",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "changes the mycorrhizal community and perhaps the gross chemistry of soil"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:57bdf4878640",
+      "subject": "causal_mosaic:node:8019bc9e230c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3e25466cb27a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the experiments indicated that transplanting S. canadensis was effective at mitigating the spread of A. petiolata.",
+      "source_spans": [
+        {
+          "text": "the experiments indicated that transplanting S. canadensis was effective at mitigating the spread of A. petiolata."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7386dda53a68",
+      "subject": "causal_mosaic:node:a6dc31d58eb3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81b6860d4411",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "leaﬁng at (initial) densities of S. canadensis above 7 ramets/m 2 was early enough to kill significantly more seedlings of A. petiolata before they matured",
+      "source_spans": [
+        {
+          "text": "leaﬁng at (initial) densities of S. canadensis above 7 ramets/m 2 was early enough to kill significantly more seedlings of A. petiolata before they matured"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:223fb5ff3e92",
+      "subject": "causal_mosaic:node:a6dc31d58eb3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cf0f0c73139a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "initial densities of even 5 ramets/m 2 of S. canadensis significantly harmed early-spring, late-spring, and autumn rosettes",
+      "source_spans": [
+        {
+          "text": "initial densities of even 5 ramets/m 2 of S. canadensis significantly harmed early-spring, late-spring, and autumn rosettes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:696005e22cdc",
+      "subject": "causal_mosaic:node:a6dc31d58eb3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:026e436e47cc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "number of stem leaves, gross leaf area, number of flowers, number of siliques, and height at final flowering were all significantly suppressed by S. canadensis",
+      "source_spans": [
+        {
+          "text": "number of stem leaves, gross leaf area, number of flowers, number of siliques, and height at final flowering were all significantly suppressed by S. canadensis"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:84b538523cfc",
+      "subject": "causal_mosaic:node:09f6c4a93c57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:185b2bb3aa6b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "fragmentation facilitates invasion",
+      "source_spans": [
+        {
+          "text": "fragmentation facilitates invasion",
+          "start_char": 2350,
+          "end_char": 2384,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:49ef1364179c",
+      "subject": "causal_mosaic:node:d09a5332de05",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ef083dd923dc",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Alliaria petiolata outcompetes herbs, shrubs, and trees",
+      "source_spans": [
+        {
+          "text": "Alliaria petiolata outcompetes herbs, shrubs, and trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a5bbe452d8a1",
+      "subject": "causal_mosaic:node:d09a5332de05",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58993961b0aa",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A. petiolata changes the mycorrhizal community and perhaps the gross chemistry of soil via allelopathy",
+      "source_spans": [
+        {
+          "text": "A. petiolata changes the mycorrhizal community and perhaps the gross chemistry of soil via allelopathy"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00075.x",
+        "title": "Concurrent Management of an Exotic Species and Initial Restoration Efforts in Forests",
+        "year": 2005,
+        "authors": [
+          "Murphy, Stephen D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

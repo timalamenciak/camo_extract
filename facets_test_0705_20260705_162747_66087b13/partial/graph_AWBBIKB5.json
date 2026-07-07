@@ -1,0 +1,178 @@
+{
+  "graph_id": "causal_mosaic:graph:5de5e767616a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T08:50:25.961920+00:00",
+    "source_corpus": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ed7da5ac3b0d",
+      "name": "eelgrass cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ae36f583d1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "eelgrass cover had noticeably increased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9df20ac2e923",
+      "name": "juvenile cod density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43a3a188d5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "juvenile cod density responds to annual expansion and contraction of eelgrass cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6eb7e0962ccd",
+      "name": "disturbance from winter pack-ice",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1e8a541897",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "likely as a result of reduced disturbance from winter pack-ice"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5465296d4ff8",
+      "name": "climate change",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000629",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "associated with climate change",
+          "start_char": 2725,
+          "end_char": 2755,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1ba6d7697358",
+      "subject": "causal_mosaic:node:6eb7e0962ccd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed7da5ac3b0d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Eelgrass has been expanding at this location, likely as a result of reduced disturbance from winter pack-ice in the past decade.",
+      "source_spans": [
+        {
+          "text": "Eelgrass has been expanding at this location, likely as a result of reduced disturbance from winter pack-ice in the past decade."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jembe.2010.08.011",
+        "title": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+        "year": 2010,
+        "authors": [
+          "Warren, M.A.",
+          "Gregory, R.S.",
+          "Laurel, B.J.",
+          "Snelgrove, P.V.R."
+        ],
+        "journal": "Journal of Experimental Marine Biology and Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3f69577bff3c",
+      "subject": "causal_mosaic:node:ed7da5ac3b0d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9df20ac2e923",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Using randomized intervention analysis (RIA) we detected positive relationships between eelgrass cover and relative fish density during 2001 –2006.",
+      "source_spans": [
+        {
+          "text": "Using randomized intervention analysis (RIA) we detected positive relationships between eelgrass cover and relative fish density during 2001 –2006."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jembe.2010.08.011",
+        "title": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+        "year": 2010,
+        "authors": [
+          "Warren, M.A.",
+          "Gregory, R.S.",
+          "Laurel, B.J.",
+          "Snelgrove, P.V.R."
+        ],
+        "journal": "Journal of Experimental Marine Biology and Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:804d7230338c",
+      "subject": "causal_mosaic:node:5465296d4ff8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed7da5ac3b0d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "possibly because of warmer mean summertime coastal sea temperatures and reduced winter sea ice conditions that may be associated with climate change",
+      "source_spans": [
+        {
+          "text": "possibly because of warmer mean summertime coastal sea temperatures and reduced winter sea ice conditions that may be associated with climate change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jembe.2010.08.011",
+        "title": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+        "year": 2010,
+        "authors": [
+          "Warren, M.A.",
+          "Gregory, R.S.",
+          "Laurel, B.J.",
+          "Snelgrove, P.V.R."
+        ],
+        "journal": "Journal of Experimental Marine Biology and Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

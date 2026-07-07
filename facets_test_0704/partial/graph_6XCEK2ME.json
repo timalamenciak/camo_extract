@@ -1,0 +1,793 @@
+{
+  "graph_id": "causal_mosaic:graph:d990711c3db2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T00:57:14.512991+00:00",
+    "source_corpus": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:df4e9e66e64f",
+      "name": "Time since restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_01c42cae41",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "as time-since-restoration increased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0dc24c782120",
+      "name": "Similarity of understorey plant communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0ba08433a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "There was a signiﬁcant increase (P<0.0001) in the similarity of understorey plant communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c3cfcddd580",
+      "name": "Forest recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_180e1344b4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration activity facilitates forest recovery",
+          "start_char": 2103,
+          "end_char": 2151,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:56aa97920f23",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1ae465e5a2",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b5fcbc55e7a",
+      "name": "Canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_163f8f094d",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61d99577e763",
+      "name": "Distance to continuous forest",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9c20f78b47",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7080a3de7a7f",
+      "name": "Site-shape",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_97efc3e029",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d2c736688d3",
+      "name": "Plant species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9479964a1c",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44ec1c3aaa15",
+      "name": "Restoration activity",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9891edc11e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration activity facilitates forest recovery",
+          "start_char": 2103,
+          "end_char": 2151,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9e3cf0d8b91f",
+      "name": "Active restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_98faa2a7ea",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "sites that were actively restored in the 1980s"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9772507f895",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The species richness of both non-native and total species was higher"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:83ed8bc9bba0",
+      "name": "Road sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_23f585b134",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Road sites seemed to have more rapid regeneration than cottage sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0301c54a80c",
+      "name": "Lawn sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_78acf8cd6b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The species richness of both native and total species was signiﬁcantly lower in lawn sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:345b0098dfeb",
+      "name": "Proximity to natural vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b6c50bab49",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "attributed to their proximity to natural vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:90a613ff886b",
+      "name": "Seed source",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3769909aff",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "and its function as a seed source",
+          "start_char": 1885,
+          "end_char": 1918,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:826676d05e3c",
+      "name": "Disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_518d83382f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Active restoration became an eﬀective measure of disturbance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9036c3f013ca",
+      "name": "Vegetational change",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a0601bfe49",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "former lawn species that can inhibit vegetational change"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0a63f387c68d",
+      "name": "Degradation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_037a996641",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "mitigating ongoing conﬂicts between conservation and human use"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9202148895d6",
+      "name": "Former lawn species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3239d73dac",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "dominated by former lawn species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7fb6f9aec044",
+      "name": "Regeneration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b476add8e0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Road sites seemed to have more rapid regeneration",
+          "start_char": 32824,
+          "end_char": 32873,
+          "paragraph_id": "page:8"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f483bc95ebaa",
+      "subject": "causal_mosaic:node:df4e9e66e64f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dc24c782120",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "There was a signiﬁcant increase (P<0.0001) in the similarity of understorey plant communities between restored and reference sites as time-since-restoration increased.",
+      "source_spans": [
+        {
+          "text": "There was a signiﬁcant increase (P<0.0001) in the similarity of understorey plant communities between restored and reference sites as time-since-restoration increased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:85b912552919",
+      "subject": "causal_mosaic:node:df4e9e66e64f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c3cfcddd580",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "indicating that the overall plant species composition of restored sites was becoming more similar to the reference sites or recovering over time",
+      "source_spans": [
+        {
+          "text": "indicating that the overall plant species composition of restored sites was becoming more similar to the reference sites or recovering over time"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e8b9d11875e3",
+      "subject": "causal_mosaic:node:56aa97920f23",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d2c736688d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition.",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:607f92f315d5",
+      "subject": "causal_mosaic:node:7b5fcbc55e7a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d2c736688d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition.",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b2cd0da754c1",
+      "subject": "causal_mosaic:node:61d99577e763",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d2c736688d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition.",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39cc873cd696",
+      "subject": "causal_mosaic:node:7080a3de7a7f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d2c736688d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition.",
+      "source_spans": [
+        {
+          "text": "Soil moisture, canopy cover, distance to continuous forest, and site-shape all signiﬁcantly aﬀected plant species composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6ef711dbaed6",
+      "subject": "causal_mosaic:node:44ec1c3aaa15",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c3cfcddd580",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration activity facilitates forest recovery and would appear to have a valuable function in mitigating ongoing conﬂicts between conservation and human use in this region.",
+      "source_spans": [
+        {
+          "text": "Restoration activity facilitates forest recovery and would appear to have a valuable function in mitigating ongoing conﬂicts between conservation and human use in this region."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a6d594e6e12e",
+      "subject": "causal_mosaic:node:9e3cf0d8b91f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e9772507f895",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The species richness of both non-native and total species was higher in sites that were actively restored in the 1980s than in sites that were passively restored",
+      "source_spans": [
+        {
+          "text": "The species richness of both non-native and total species was higher in sites that were actively restored in the 1980s than in sites that were passively restored"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9c64534cbf98",
+      "subject": "causal_mosaic:node:b0301c54a80c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e9772507f895",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The species richness of both native and total species was signiﬁcantly lower in lawn sites than cottage sites",
+      "source_spans": [
+        {
+          "text": "The species richness of both native and total species was signiﬁcantly lower in lawn sites than cottage sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aebb862b1de6",
+      "subject": "causal_mosaic:node:83ed8bc9bba0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7fb6f9aec044",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Road sites seemed to have more rapid regeneration than cottage sites especially when recently restored.",
+      "source_spans": [
+        {
+          "text": "Road sites seemed to have more rapid regeneration than cottage sites especially when recently restored."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c98f015dd69c",
+      "subject": "causal_mosaic:node:345b0098dfeb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c3cfcddd580",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The observed recovery of understorey plant communities in restored sites is attributed to their proximity to natural vegetation, and its function as a seed source.",
+      "source_spans": [
+        {
+          "text": "The observed recovery of understorey plant communities in restored sites is attributed to their proximity to natural vegetation, and its function as a seed source."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8b903c53b5b9",
+      "subject": "causal_mosaic:node:90a613ff886b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c3cfcddd580",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The observed recovery of understorey plant communities in restored sites is attributed to their proximity to natural vegetation, and its function as a seed source.",
+      "source_spans": [
+        {
+          "text": "The observed recovery of understorey plant communities in restored sites is attributed to their proximity to natural vegetation, and its function as a seed source."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee97d4319f5c",
+      "subject": "causal_mosaic:node:9e3cf0d8b91f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:826676d05e3c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Active restoration became an eﬀective measure of disturbance.",
+      "source_spans": [
+        {
+          "text": "Active restoration became an eﬀective measure of disturbance."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac9b9062020a",
+      "subject": "causal_mosaic:node:9202148895d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9036c3f013ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Converted cottage sites also were dominated by former lawn species that can inhibit vegetational change",
+      "source_spans": [
+        {
+          "text": "Converted cottage sites also were dominated by former lawn species that can inhibit vegetational change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d9b8cb9c6dd6",
+      "subject": "causal_mosaic:node:44ec1c3aaa15",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0a63f387c68d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration activity facilitates forest recovery and would appear to have a valuable function in mitigating ongoing conﬂicts between conservation and human use in this region.",
+      "source_spans": [
+        {
+          "text": "Restoration activity facilitates forest recovery and would appear to have a valuable function in mitigating ongoing conﬂicts between conservation and human use in this region."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0006-3207(02)00248-3",
+        "title": "Outcomes of longterm deciduous forest restoration in southwestern Ontario, Canada",
+        "year": 2003,
+        "authors": [
+          "McLachlan, S.M",
+          "Bazely, D.R"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

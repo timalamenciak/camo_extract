@@ -1,0 +1,405 @@
+{
+  "graph_id": "causal_mosaic:graph:d6bd2355fc7b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T02:39:14.082994+00:00",
+    "source_corpus": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:8d09a73dff10",
+      "name": "Deer density management",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0eae8e90ca",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deer density management led to rapid changes in the composition of the herbaceous community in clearcut areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:267bdb27716d",
+      "name": "composition of the herbaceous community",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f407d2ecb8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deer density management led to rapid changes in the composition of the herbaceous community in clearcut areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fec67c54675",
+      "name": "species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20f280f92b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "only plots in deer exclosures had a significantly different species composition than plots under intensive browsing"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81002bb147c4",
+      "name": "functional trait assemblages",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cad69f8202",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "a reduced density of 7.5 deer · km 2 was sufficient to induce significant changes in functional trait assemblages of regenerating stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99aaec748e9e",
+      "name": "reduced deer densities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ba11925db9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "reduced deer densities favored plants with brightly colored flowers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fb4a33cc37d",
+      "name": "plants with brightly colored flowers and compound inflorescences pollinated by animals and producing large seeds and fleshy fruits dispersed by animals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f2dc053eb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "reduced deer densities favored plants with brightly colored flowers and compound inflorescences pollinated by animals and producing large seeds and fleshy fruits dispersed by animals"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bdde6ec4a9fb",
+      "name": "densities equal to or higher than 15 deer · km -2",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_af942abccc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "densities equal to or higher than 15 deer · km -2 included wind- or gravity-dispersed seeds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb54acdb1ec8",
+      "name": "plant traits favored under densities equal to or higher than 15 deer · km -2",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8693f0373e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The plant traits favored under densities equal to or higher than 15 deer · km -2 included wind- or gravity-dispersed seeds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:027d58fa04e3",
+      "name": "resilience of understory plant communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_98244176f7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "promote resilience of understory plant communities in Abies balsamea forests"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bbab3fe5e732",
+      "name": "Clearcutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3aaf6a71e1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Clearcutting has been shown to be a disturbance essential for catalyzing compositional changes",
+          "start_char": 17516,
+          "end_char": 17610,
+          "paragraph_id": "page:9"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:60d30f04eece",
+      "subject": "causal_mosaic:node:8d09a73dff10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:267bdb27716d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deer density management led to rapid changes in the composition of the herbaceous community in clearcut areas, as the three curves corresponding to density exclusion and reduction were already lower than the in situ density benchmark two years after treatment establishment (Fig. 1).",
+      "source_spans": [
+        {
+          "text": "Deer density management led to rapid changes in the composition of the herbaceous community in clearcut areas, as the three curves corresponding to density exclusion and reduction were already lower than the in situ density benchmark two years after treatment establishment (Fig. 1)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d6bb5b7dbcab",
+      "subject": "causal_mosaic:node:8d09a73dff10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fec67c54675",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, changes slowed after six years, and only plots in deer exclosures had a significantly different species composition than plots under intensive browsing ( in situ density) during the final year of the experiment (Table 2, Fig. 1).",
+      "source_spans": [
+        {
+          "text": "However, changes slowed after six years, and only plots in deer exclosures had a significantly different species composition than plots under intensive browsing ( in situ density) during the final year of the experiment (Table 2, Fig. 1)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:76aa40b22cf4",
+      "subject": "causal_mosaic:node:99aaec748e9e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81002bb147c4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Indeed, it seems unnecessary to completely exclude deer to achieve a significant change in plant trait communities, as plots with a density of 7.5 deer · km -2 were significantly different from those under in situ densities after eight years of succession (Table 2 ).",
+      "source_spans": [
+        {
+          "text": "Indeed, it seems unnecessary to completely exclude deer to achieve a significant change in plant trait communities, as plots with a density of 7.5 deer · km -2 were significantly different from those under in situ densities after eight years of succession (Table 2 )."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:07fde2caf981",
+      "subject": "causal_mosaic:node:99aaec748e9e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8fb4a33cc37d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "On the other hand, reducing deer density favored species with brightly colored flowers and compound inflorescences pollinated by animals and producing large seeds and fleshy fruits, dispersed by birds or other animals (Fig. 2).",
+      "source_spans": [
+        {
+          "text": "On the other hand, reducing deer density favored species with brightly colored flowers and compound inflorescences pollinated by animals and producing large seeds and fleshy fruits, dispersed by birds or other animals (Fig. 2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:225284f805c4",
+      "subject": "causal_mosaic:node:bdde6ec4a9fb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb54acdb1ec8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The plant traits favored under densities equal to or higher than 15 deer · km -2 included wind- or gravity-dispersed seeds, erect foliage, storage organs, exotic origin, as well as vegetative propagation and self- and abiotic pollination (Fig. 2).",
+      "source_spans": [
+        {
+          "text": "The plant traits favored under densities equal to or higher than 15 deer · km -2 included wind- or gravity-dispersed seeds, erect foliage, storage organs, exotic origin, as well as vegetative propagation and self- and abiotic pollination (Fig. 2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e7bd6cfdd895",
+      "subject": "causal_mosaic:node:99aaec748e9e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:027d58fa04e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We conclude that the boreal forest’s herbaceous communities are resilient to chronic browsing when deer population reduction and forest clearcutting are applied in synergy.",
+      "source_spans": [
+        {
+          "text": "We conclude that the boreal forest’s herbaceous communities are resilient to chronic browsing when deer population reduction and forest clearcutting are applied in synergy."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:587037b15eea",
+      "subject": "causal_mosaic:node:bbab3fe5e732",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:267bdb27716d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Clearcutting has been shown to be a disturbance essential for catalyzing compositional changes after deer density reduction (Tremblay et al. 2007), but our study shows that it may also benefit closed canopy species and promote resilience of understory plant communities in Abies balsamea forests.",
+      "source_spans": [
+        {
+          "text": "Clearcutting has been shown to be a disturbance essential for catalyzing compositional changes after deer density reduction (Tremblay et al. 2007), but our study shows that it may also benefit closed canopy species and promote resilience of understory plant communities in Abies balsamea forests."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0533",
+        "title": "Compositional and functional trajectories of herbaceous communities after deer density control in clear-cut boreal forests",
+        "year": 2015,
+        "authors": [
+          "Bachand, Marianne",
+          "Pellerin, Stéphanie",
+          "Tremblay, Jean-Pierre",
+          "Côté, Steeve D.",
+          "Poulin, Monique"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

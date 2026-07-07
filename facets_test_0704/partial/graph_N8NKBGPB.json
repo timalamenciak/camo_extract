@@ -1,0 +1,323 @@
+{
+  "graph_id": "causal_mosaic:graph:dae8f651c8d2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T08:51:25.517976+00:00",
+    "source_corpus": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:830d0d291942",
+      "name": "Restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ace0331c6d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Following large-scale restoration of a cut-over peatland",
+          "start_char": 477,
+          "end_char": 533,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d107560ca285",
+      "name": "Peatland species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4f1eb285e3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "In the restored sites, Peatland species richness was equal (ditches) or greater (peat fields) than in the reference ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c46b2f8a404",
+      "name": "Ruderal species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e4501292c3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Restoration also helped suppressing undesirable species such as ruderal plants"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61110c7560f6",
+      "name": "Forest species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e18124f788",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Site preparation followed by wetter conditions brought upon by restoration significantly reduced richness and diversity of Forest species compared with the unrestored peat fields"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f262cd412442",
+      "name": "Sphagnum rubellum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q150145",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sphagnum rubellum appeared to be even more frequent in the restored fields than in the reference ecosystem"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ed289719fbca",
+      "name": "Wetland species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ab7382aa7e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Wetland species contributed to about 15% of the species richness in the restored peat fields"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eefca0fc716f",
+      "name": "Typha latifolia",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q147520",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Typha latifolia densely recolonized the site in its early stage after restoration and proliferated along ditches and adjacent peat fields surfaces"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:cb903865db42",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d107560ca285",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the restored sites, Peatland species richness was equal (ditches) or greater (peat fields) than in the reference ecosystem.",
+      "source_spans": [
+        {
+          "text": "In the restored sites, Peatland species richness was equal (ditches) or greater (peat fields) than in the reference ecosystem."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00889.x",
+        "title": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+        "year": 2013,
+        "authors": [
+          "Poulin, Monique",
+          "Andersen, Roxane",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b5dd9b9335af",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c46b2f8a404",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration also helped suppressing undesirable species such as ruderal plants",
+      "source_spans": [
+        {
+          "text": "Restoration also helped suppressing undesirable species such as ruderal plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00889.x",
+        "title": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+        "year": 2013,
+        "authors": [
+          "Poulin, Monique",
+          "Andersen, Roxane",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:812dbb855c65",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:61110c7560f6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Site preparation followed by wetter conditions brought upon by restoration significantly reduced richness and diversity of Forest species compared with the unrestored peat fields",
+      "source_spans": [
+        {
+          "text": "Site preparation followed by wetter conditions brought upon by restoration significantly reduced richness and diversity of Forest species compared with the unrestored peat fields"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00889.x",
+        "title": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+        "year": 2013,
+        "authors": [
+          "Poulin, Monique",
+          "Andersen, Roxane",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3812c02baafa",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f262cd412442",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum rubellum appeared to be even more frequent in the restored fields than in the reference ecosystem",
+      "source_spans": [
+        {
+          "text": "Sphagnum rubellum appeared to be even more frequent in the restored fields than in the reference ecosystem"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00889.x",
+        "title": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+        "year": 2013,
+        "authors": [
+          "Poulin, Monique",
+          "Andersen, Roxane",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:822a66379de7",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed289719fbca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wetland species contributed to about 15% of the species richness in the restored peat fields",
+      "source_spans": [
+        {
+          "text": "Wetland species contributed to about 15% of the species richness in the restored peat fields"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00889.x",
+        "title": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+        "year": 2013,
+        "authors": [
+          "Poulin, Monique",
+          "Andersen, Roxane",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:81ccaf60fc96",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eefca0fc716f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Typha latifolia densely recolonized the site in its early stage after restoration and proliferated along ditches and adjacent peat fields surfaces",
+      "source_spans": [
+        {
+          "text": "Typha latifolia densely recolonized the site in its early stage after restoration and proliferated along ditches and adjacent peat fields surfaces"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2012.00889.x",
+        "title": "A New Approach for Tracking Vegetation Change after Restoration: A Case Study with Peatlands",
+        "year": 2013,
+        "authors": [
+          "Poulin, Monique",
+          "Andersen, Roxane",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

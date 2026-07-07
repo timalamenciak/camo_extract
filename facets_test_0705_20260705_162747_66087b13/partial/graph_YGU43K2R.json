@@ -1,0 +1,613 @@
+{
+  "graph_id": "causal_mosaic:graph:82f3487fd814",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T18:20:40.222869+00:00",
+    "source_corpus": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:612732873d32",
+      "name": "Neighbor control",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3f3ce57163",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Neighbor control had no effect on establishment and rarely any effect on first-year survival."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3813acf5676",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Species richness at the end of the second growing season was decreased significantly by neighbor control each year"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5a09d2381d6",
+      "name": "Nonnative species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d942208af8",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The total cover of nonnative species at the end of the second growing season... was reduced by neighbor control every year"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1a1e8ce5efc7",
+      "name": "Available N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1ce5b7968e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Available N at the end of the second growing season was significantly increased by neighbor control for plots sown in 1994 and 1995"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a871a59de06f",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil moisture at the end of the second growing season in plots sown in 1994 was increased significantly by both neighbor control and straw mulch"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d8b5db3fc522",
+      "name": "Root mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3a9611156c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Root mass in plots seeded in 1994... was significantly decreased by neighbor control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c2d6cb5b8ff",
+      "name": "Survivorship",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d520152ad8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "neighbor control significantly improved survivorship in 1996 plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:524c06ff71b3",
+      "name": "Straw mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_571295d946",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Straw mulch increased soil moisture and available N"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c427d0af2915",
+      "name": "Sawdust mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_21e1da91a5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "sawdust mulch significantly decreased N"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e3c4a620337",
+      "name": "Cleaning remainders",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_368b22b79b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The highest long-term establishment of native species was produced by broadcasting cleaning remainders"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ef081b0db3c0",
+      "name": "Native hay",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6f9024e860",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Almost no seedlings emerged from plots supplied with native hay"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36d2274500bc",
+      "name": "Cool, dry summer",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2a3adf1112",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Establishment... was lowest during a cool, dry summer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f153ede627b9",
+      "name": "Establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a458db069",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Establishment... was lowest during a cool, dry summer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4072e8df4051",
+      "name": "Seedlings emerged",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bd35686e10",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Almost no seedlings emerged from plots supplied with native hay"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:0262e40a3504",
+      "subject": "causal_mosaic:node:612732873d32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3813acf5676",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness at the end of the second growing season was decreased significantly by neighbor control each year",
+      "source_spans": [
+        {
+          "text": "Species richness at the end of the second growing season was decreased significantly by neighbor control each year"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2efaf840ef77",
+      "subject": "causal_mosaic:node:612732873d32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c5a09d2381d6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The total cover of nonnative species at the end of the second growing season... was reduced by neighbor control every year",
+      "source_spans": [
+        {
+          "text": "The total cover of nonnative species at the end of the second growing season... was reduced by neighbor control every year"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e917979c8309",
+      "subject": "causal_mosaic:node:612732873d32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1a1e8ce5efc7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Available N at the end of the second growing season was significantly increased by neighbor control for plots sown in 1994 and 1995",
+      "source_spans": [
+        {
+          "text": "Available N at the end of the second growing season was significantly increased by neighbor control for plots sown in 1994 and 1995"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:67065b85d495",
+      "subject": "causal_mosaic:node:612732873d32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a871a59de06f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil moisture at the end of the second growing season in plots sown in 1994 was increased significantly by both neighbor control and straw mulch",
+      "source_spans": [
+        {
+          "text": "Soil moisture at the end of the second growing season in plots sown in 1994 was increased significantly by both neighbor control and straw mulch"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:87140d1ceb35",
+      "subject": "causal_mosaic:node:612732873d32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d8b5db3fc522",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Root mass in plots seeded in 1994... was significantly decreased by neighbor control",
+      "source_spans": [
+        {
+          "text": "Root mass in plots seeded in 1994... was significantly decreased by neighbor control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5e7f015fe08e",
+      "subject": "causal_mosaic:node:612732873d32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1c2d6cb5b8ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "neighbor control significantly improved survivorship in 1996 plots",
+      "source_spans": [
+        {
+          "text": "neighbor control significantly improved survivorship in 1996 plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6fdb65c424d",
+      "subject": "causal_mosaic:node:524c06ff71b3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a871a59de06f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Straw mulch increased soil moisture and available N",
+      "source_spans": [
+        {
+          "text": "Straw mulch increased soil moisture and available N"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ad9de4002e3",
+      "subject": "causal_mosaic:node:c427d0af2915",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1a1e8ce5efc7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "sawdust mulch significantly decreased N",
+      "source_spans": [
+        {
+          "text": "sawdust mulch significantly decreased N"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c9edd2050e40",
+      "subject": "causal_mosaic:node:4e3c4a620337",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The highest long-term establishment of native species was produced by broadcasting cleaning remainders",
+      "source_spans": [
+        {
+          "text": "The highest long-term establishment of native species was produced by broadcasting cleaning remainders"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2aa7e1b58325",
+      "subject": "causal_mosaic:node:ef081b0db3c0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4072e8df4051",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Almost no seedlings emerged from plots supplied with native hay",
+      "source_spans": [
+        {
+          "text": "Almost no seedlings emerged from plots supplied with native hay"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b3524c3c0d5",
+      "subject": "causal_mosaic:node:36d2274500bc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Establishment... was lowest during a cool, dry summer",
+      "source_spans": [
+        {
+          "text": "Establishment... was lowest during a cool, dry summer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/02-5296",
+        "title": "SEMIARID OLD‐FIELD RESTORATION: IS NEIGHBOR CONTROL NEEDED?",
+        "year": 2004,
+        "authors": [
+          "Wilson, Scott D.",
+          "Bakker, Jonathan D.",
+          "Christian, Janice M.",
+          "Li, Xingdong",
+          "Ambrose, Laura G.",
+          "Waddington, John"
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

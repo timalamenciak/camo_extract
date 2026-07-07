@@ -1,0 +1,313 @@
+{
+  "graph_id": "causal_mosaic:graph:bac02f20621e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T18:39:55.479505+00:00",
+    "source_corpus": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:681cea0d95b0",
+      "name": "Seeding treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cb847d0cc1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Seeding treatments",
+          "start_char": 11219,
+          "end_char": 11237,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c6982b27e70",
+      "name": "Vegetative cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8eeb9aab1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Vegetative cover increased significantly between 1997 and 2008"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60ebfa344f23",
+      "name": "Bare soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001616",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "decline in the proportion of bare soil found in all treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1fe590d8208",
+      "name": "Fescue cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_abb8383f97",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "fescue cover... increased significantly between 1997 and 2008"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:956253c979a2",
+      "name": "Weed cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2e73dc1c09",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "establish a plant community with a reduced abundance of weeds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:213f98faae3d",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e63d20f2b35",
+      "name": "Composition of plant communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f4d392c604",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "AFO:_0000025",
+      "source_spans": [
+        {
+          "text": "Plant communities remained significantly different among the seeding treatments"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1a2760a819c9",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c6982b27e70",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetative cover increased significantly between 1997 and 2008 (F 5,58 = 39.75, p < 0.0001; Table 2, Fig. 2a), however differences among treatments did not change consistently with time and the interaction between the year of seeding and seeding treatment was not significant (F 20,58 = 1.29, p = 0.2225).",
+      "source_spans": [
+        {
+          "text": "Vegetative cover increased significantly between 1997 and 2008 (F 5,58 = 39.75, p < 0.0001; Table 2, Fig. 2a), however differences among treatments did not change consistently with time and the interaction between the year of seeding and seeding treatment was not significant (F 20,58 = 1.29, p = 0.2225)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:258e9c73749f",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60ebfa344f23",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Over time, increasing vegetative cover was reflected in a decline in the proportion of bare soil found in all treatments (F 5,58 = 54.33, p < 0.0001; Table 2), however the low proportion of bare soil in the control treatment (Fig. 2c), contributed to the significant interaction between the sampling year and the remaining seeding treatments (F 20,58 = 3.33, p < 0.001).",
+      "source_spans": [
+        {
+          "text": "Over time, increasing vegetative cover was reflected in a decline in the proportion of bare soil found in all treatments (F 5,58 = 54.33, p < 0.0001; Table 2), however the low proportion of bare soil in the control treatment (Fig. 2c), contributed to the significant interaction between the sampling year and the remaining seeding treatments (F 20,58 = 3.33, p < 0.001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f14c51593d48",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1fe590d8208",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, although fescue cover remained highest in the control treatment (F 4,58 = 21.50, p < 0.0001; Fig. 2e), it increased significantly between 1997 and 2008 for all treatments (F20,58 = 2.93, p < 0.0001; Table 2, Fig. 2e).",
+      "source_spans": [
+        {
+          "text": "In contrast, although fescue cover remained highest in the control treatment (F 4,58 = 21.50, p < 0.0001; Fig. 2e), it increased significantly between 1997 and 2008 for all treatments (F20,58 = 2.93, p < 0.0001; Table 2, Fig. 2e)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:12a62f9cd6d6",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:956253c979a2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results illustrate that even simple mixes of two native species can help re-establish community structure, including vegetative and soil cover, and establish a plant community with a reduced abundance of weeds.",
+      "source_spans": [
+        {
+          "text": "Our results illustrate that even simple mixes of two native species can help re-establish community structure, including vegetative and soil cover, and establish a plant community with a reduced abundance of weeds."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2aac6bd34af3",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:213f98faae3d",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Despite this, means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments (p > 0.05; Table 3).",
+      "source_spans": [
+        {
+          "text": "Despite this, means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments (p > 0.05; Table 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3e134caddfed",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3e63d20f2b35",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plant communities remained significantly different among the seeding treatments. Beta-diversities among plant communities changed significantly between treatments (F4,14 = 1.8271, p = 0.002).",
+      "source_spans": [
+        {
+          "text": "Plant communities remained significantly different among the seeding treatments. Beta-diversities among plant communities changed significantly between treatments (F4,14 = 1.8271, p = 0.002)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    }
+  ]
+}

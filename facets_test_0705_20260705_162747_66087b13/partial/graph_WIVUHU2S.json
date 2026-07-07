@@ -1,0 +1,554 @@
+{
+  "graph_id": "causal_mosaic:graph:cb3d546a7d03",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T06:42:44.825110+00:00",
+    "source_corpus": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:1e0adb8c31d9",
+      "name": "Seed size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cec0303177",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size",
+          "start_char": 20054,
+          "end_char": 20140,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:217d9b3574d5",
+      "name": "Increased seedling emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62679445e0",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size",
+          "start_char": 20054,
+          "end_char": 20140,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:994feef9bf59",
+      "name": "Increased seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size",
+          "start_char": 20054,
+          "end_char": 20140,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4ac14c34840",
+      "name": "Decreased red oak diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9cd615fed2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001334",
+      "source_spans": [
+        {
+          "text": "vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a772f8b00506",
+      "name": "Decreased shoot biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f664d777f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7a165b8d946f",
+      "name": "Increased specific leaf area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9aa488561",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "specific leaf area",
+      "source_spans": [
+        {
+          "text": "vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c1bf7c71772",
+      "name": "Decreased soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "moisture",
+      "source_spans": [
+        {
+          "text": "Vegetation also had a negative effect on soil moisture"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92346fe316fc",
+      "name": "Decreased Percentage of photosynthetic photon flux density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_944e127597",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "photosynthetic photon flux density",
+      "source_spans": [
+        {
+          "text": "Percentage of photosynthetic photon flux density (%PPFD) was lower under vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:595d49f87c22",
+      "name": "Unchanged seedling emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62679445e0",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f99bba0be83",
+      "name": "Unchanged seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8ce9e69df7f5",
+      "name": "Unchanged seedling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ce6421f39b",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:56161ba9ca42",
+      "name": "Herbaceous vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_807dcefc07",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "elimination of the herbaceous vegetation cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84123d4633f3",
+      "name": "Protection from birds and mammals",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_53850fd33b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "protection from birds and mammals",
+          "start_char": 1990,
+          "end_char": 2023,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5ad455d4ef64",
+      "subject": "causal_mosaic:node:1e0adb8c31d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:217d9b3574d5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size (R2 = 0.63, p < 0.0001; R2 = 0.47, p = 0.0006, respectively).",
+      "source_spans": [
+        {
+          "text": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size (R2 = 0.63, p < 0.0001; R2 = 0.47, p = 0.0006, respectively)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4ee9976a1ae0",
+      "subject": "causal_mosaic:node:1e0adb8c31d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:994feef9bf59",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size (R2 = 0.63, p < 0.0001; R2 = 0.47, p = 0.0006, respectively).",
+      "source_spans": [
+        {
+          "text": "Seedling emergence and, to a lesser extent, seedling survival increased with seed size (R2 = 0.63, p < 0.0001; R2 = 0.47, p = 0.0006, respectively)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac9b7bcce5f8",
+      "subject": "causal_mosaic:node:56161ba9ca42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4ac14c34840",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Post hoc tests in the analysis of variance of five growth variables showed that vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area (Table 3), while the protection treatment had no effect.",
+      "source_spans": [
+        {
+          "text": "Post hoc tests in the analysis of variance of five growth variables showed that vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area (Table 3), while the protection treatment had no effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:72ac1b04416d",
+      "subject": "causal_mosaic:node:56161ba9ca42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a772f8b00506",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Post hoc tests in the analysis of variance of five growth variables showed that vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area (Table 3), while the protection treatment had no effect.",
+      "source_spans": [
+        {
+          "text": "Post hoc tests in the analysis of variance of five growth variables showed that vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area (Table 3), while the protection treatment had no effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0344b0075775",
+      "subject": "causal_mosaic:node:56161ba9ca42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7a165b8d946f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Post hoc tests in the analysis of variance of five growth variables showed that vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area (Table 3), while the protection treatment had no effect.",
+      "source_spans": [
+        {
+          "text": "Post hoc tests in the analysis of variance of five growth variables showed that vegetation significantly reduced red oak diameter and shoot biomass and increased specific leaf area (Table 3), while the protection treatment had no effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47cfe772d4fc",
+      "subject": "causal_mosaic:node:56161ba9ca42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2c1bf7c71772",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetation also had a negative effect on soil moisture ( p ≤ 0.05).",
+      "source_spans": [
+        {
+          "text": "Vegetation also had a negative effect on soil moisture ( p ≤ 0.05)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2d36544f6650",
+      "subject": "causal_mosaic:node:56161ba9ca42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92346fe316fc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Percentage of photosynthetic photon flux density (%PPFD) was lower under vegetation (23.1%) than on bare soil (88.3%) (F1,1.97 = 3066.28, p ≤ 0.05).",
+      "source_spans": [
+        {
+          "text": "Percentage of photosynthetic photon flux density (%PPFD) was lower under vegetation (23.1%) than on bare soil (88.3%) (F1,1.97 = 3066.28, p ≤ 0.05)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:792b74e3dfd8",
+      "subject": "causal_mosaic:node:84123d4633f3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:595d49f87c22",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height.",
+      "source_spans": [
+        {
+          "text": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c292d9b0732e",
+      "subject": "causal_mosaic:node:84123d4633f3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f99bba0be83",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height.",
+      "source_spans": [
+        {
+          "text": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5bceab0fe10d",
+      "subject": "causal_mosaic:node:84123d4633f3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ce9e69df7f5",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height.",
+      "source_spans": [
+        {
+          "text": "Overall, protection from birds and mammals and elimination of the herbaceous vegetation cover had no detectable effects on seedling emergence, survival and height."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f4020500",
+        "title": "Seed Size, the Only Factor Positively Affecting Direct Seeding Success in an Abandoned Field in Quebec, Canada",
+        "year": 2013,
+        "authors": [
+          "St-Denis, Annick",
+          "Messier, Christian",
+          "Kneeshaw, Daniel"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

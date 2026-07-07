@@ -1,0 +1,484 @@
+{
+  "graph_id": "causal_mosaic:graph:5ee0f3848602",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T07:09:04.710879+00:00",
+    "source_corpus": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fb0340de7fdc",
+      "name": "human disturbance",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_767c77b6ea",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "L'intégrité écologique des érables est évaluée par une comparaison de l'assemblage du sous-bois de forêts ayant un historique d'utilisation varié à celui de forêts anciennes non aménagées servant de référence pour le caractère naturel des forêts de ce domaine."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0925d41d19ec",
+      "name": "understory species assemblages",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93db0cf2b3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ecological integrity was evaluated by the divergence of understory species assemblages from those observed in comparable unmanaged forest."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5e6892ed7e1",
+      "name": "spring geophytes",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_698ec32e44",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "a decrease of spring geophytes",
+          "start_char": 97949,
+          "end_char": 97979,
+          "paragraph_id": "page:58"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c2fc9c9bfab3",
+      "name": "species associated with open environment",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_21eae333e5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "an increase of species associated with open environment",
+          "start_char": 97861,
+          "end_char": 97916,
+          "paragraph_id": "page:58"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb155dddca62",
+      "name": "agricultural abandonment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9e11e901d9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "la revegetalisation naturelle suite à une déprise agricole est globalement efficace du point de vue du fonctionnement de l'écosystème."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84a614d04019",
+      "name": "natural revegetation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e0effa22c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "la revegetalisation naturelle suite à une déprise agricole est globalement efficace du point de vue du fonctionnement de l'écosystème."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f52a1af000d1",
+      "name": "deciduous plantations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c05e0b5d41",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "les plantations de feuillues peuvent se naturaliser et devenir un habitat viable pour la flore de sous-bois."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80fc8dd6f273",
+      "name": "understory functional groups",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7fd023d100",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The understory functional groups and environmental conditions of deciduous plantations converged toward those of natural forests."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7f1d08b2e64a",
+      "name": "understory vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3010f269f0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Elle agit notamment comme filtre déterminant quelles espèces arborescentes pourront s'établir et composer la canopée de demain"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ad6f40a9ac2e",
+      "name": "tree species establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e2c2e1700a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Elle agit notamment comme filtre déterminant quelles espèces arborescentes pourront s'établir et composer la canopée de demain"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c3e1503880e",
+      "name": "soil fertility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_801d48b2f5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Elle joue également un rôle déterminant sur la fertilité des sols"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e6a453e6609",
+      "name": "light availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcecb2ea2a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "la disponibilité en élément nutritif et en lumière"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f88a30bed82f",
+      "name": "modifications of silvicultural practices",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_495349e241",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "la capacité de naturalisation d'une plantation pourrait être améliorée par des modifications de nos pratiques sylvicoles."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:242a963ae76b",
+      "name": "natural restoration capacity of plantations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d18eca51a9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "la capacité de naturalisation d'une plantation pourrait être améliorée par des modifications de nos pratiques sylvicoles."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1922494a7a8d",
+      "subject": "causal_mosaic:node:fb0340de7fdc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0925d41d19ec",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ecological integrity was evaluated by the divergence of understory species assemblages from those observed in comparable unmanaged forest.",
+      "source_spans": [
+        {
+          "text": "Ecological integrity was evaluated by the divergence of understory species assemblages from those observed in comparable unmanaged forest."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:630e3c5051d3",
+      "subject": "causal_mosaic:node:fb0340de7fdc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c5e6892ed7e1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a decrease of spring geophytes",
+      "source_spans": [
+        {
+          "text": "a decrease of spring geophytes",
+          "start_char": 97949,
+          "end_char": 97979,
+          "paragraph_id": "page:58"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d020ef676a8e",
+      "subject": "causal_mosaic:node:fb0340de7fdc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c2fc9c9bfab3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "an increase of species associated with open environment",
+      "source_spans": [
+        {
+          "text": "an increase of species associated with open environment",
+          "start_char": 97861,
+          "end_char": 97916,
+          "paragraph_id": "page:58"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c4e31b86b582",
+      "subject": "causal_mosaic:node:bb155dddca62",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a614d04019",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "la revegetalisation naturelle suite à une déprise agricole est globalement efficace du point de vue du fonctionnement de l'écosystème.",
+      "source_spans": [
+        {
+          "text": "la revegetalisation naturelle suite à une déprise agricole est globalement efficace du point de vue du fonctionnement de l'écosystème."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2c9465aa62c2",
+      "subject": "causal_mosaic:node:f52a1af000d1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:80fc8dd6f273",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The understory functional groups and environmental conditions of deciduous plantations converged toward those of natural forests.",
+      "source_spans": [
+        {
+          "text": "The understory functional groups and environmental conditions of deciduous plantations converged toward those of natural forests."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ffd5a5effd53",
+      "subject": "causal_mosaic:node:7f1d08b2e64a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ad6f40a9ac2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Elle agit notamment comme filtre déterminant quelles espèces arborescentes pourront s'établir et composer la canopée de demain",
+      "source_spans": [
+        {
+          "text": "Elle agit notamment comme filtre déterminant quelles espèces arborescentes pourront s'établir et composer la canopée de demain"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bdfc546b9bc9",
+      "subject": "causal_mosaic:node:7f1d08b2e64a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1c3e1503880e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Elle joue également un rôle déterminant sur la fertilité des sols",
+      "source_spans": [
+        {
+          "text": "Elle joue également un rôle déterminant sur la fertilité des sols"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f798f0030ed4",
+      "subject": "causal_mosaic:node:7f1d08b2e64a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7e6a453e6609",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "la disponibilité en élément nutritif et en lumière",
+      "source_spans": [
+        {
+          "text": "la disponibilité en élément nutritif et en lumière"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02c694d3e4cc",
+      "subject": "causal_mosaic:node:f88a30bed82f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:242a963ae76b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "la capacité de naturalisation d'une plantation pourrait être améliorée par des modifications de nos pratiques sylvicoles.",
+      "source_spans": [
+        {
+          "text": "la capacité de naturalisation d'une plantation pourrait être améliorée par des modifications de nos pratiques sylvicoles."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Évaluation de l'intégrité écologique des écosystèmes forestiers du Québec méridional: développement d'une approche basée sur le fonctionnement et la structure du sous-bois",
+        "year": 2009,
+        "authors": [
+          "Aubin, Isabelle"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

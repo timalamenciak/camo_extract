@@ -1,0 +1,254 @@
+{
+  "graph_id": "causal_mosaic:graph:b3aaecb36639",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T04:13:13.371246+00:00",
+    "source_corpus": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:664d6745e094",
+      "name": "prescribed fire",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_80305770a0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our results suggest that prescribed fire is effective in increasing pitch pine seedling recruitment even in a marginal natural pitch pine population."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:baf816aaf8b8",
+      "name": "mechanical treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_36a981651a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fire was more effective than mechanical disturbance at increasing initial pitch pine seedling recruitment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eabcfdc275a1",
+      "name": "pitch pine seedling recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b156808548",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "recruitment",
+      "source_spans": [
+        {
+          "text": "Our results suggest that prescribed fire is effective in increasing pitch pine seedling recruitment even in a marginal natural pitch pine population."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36605f8d2036",
+      "name": "canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_163f8f094d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Percent canopy cover significantly decreased following both the fire and mechanical treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b8adb4090df",
+      "name": "depth to mineral soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3f4ee36c47",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001595",
+      "source_spans": [
+        {
+          "text": "depth to mineral soil decreased significantly in the fire treatment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8d92890f0df9",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eabcfdc275a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results suggest that prescribed fire is effective in increasing pitch pine seedling recruitment even in a marginal natural pitch pine population.",
+      "source_spans": [
+        {
+          "text": "Our results suggest that prescribed fire is effective in increasing pitch pine seedling recruitment even in a marginal natural pitch pine population."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f3cc6b1c22b9",
+      "subject": "causal_mosaic:node:baf816aaf8b8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eabcfdc275a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "fire was more effective than mechanical disturbance at increasing initial pitch pine seedling recruitment",
+      "source_spans": [
+        {
+          "text": "fire was more effective than mechanical disturbance at increasing initial pitch pine seedling recruitment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:70d1f819ab77",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36605f8d2036",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Percent canopy cover significantly decreased following both the fire and mechanical treatments",
+      "source_spans": [
+        {
+          "text": "Percent canopy cover significantly decreased following both the fire and mechanical treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9ad87551b276",
+      "subject": "causal_mosaic:node:baf816aaf8b8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36605f8d2036",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Percent canopy cover significantly decreased following both the fire and mechanical treatments",
+      "source_spans": [
+        {
+          "text": "Percent canopy cover significantly decreased following both the fire and mechanical treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:42705b663ddd",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b8adb4090df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "depth to mineral soil decreased significantly in the fire treatment",
+      "source_spans": [
+        {
+          "text": "depth to mineral soil decreased significantly in the fire treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3375/043.039.0303",
+        "title": "Prescribed Fire Increases Seedling Recruitment in a Natural Pitch Pine (Pinus rigida) Population at its Northern Range Limit",
+        "year": 2019,
+        "authors": [
+          "Van Wieren, Joshua Frans",
+          "Simons, Andrew M."
+        ],
+        "journal": "Natural Areas Journal"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

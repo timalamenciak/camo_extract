@@ -1,0 +1,310 @@
+{
+  "graph_id": "causal_mosaic:graph:a13a4c36d30a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T23:05:46.977552+00:00",
+    "source_corpus": "Effects of oil sands tailings compounds and harsh weather on mortality rates, growth and detoxification efforts in nestling tree swallows (Tachycineta bicolor)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:da40c56dcaa3",
+      "name": "harsh weather",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a15c565b70",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In 2003, harsh weather triggered a widespread nestling die-off.",
+          "start_char": 1178,
+          "end_char": 1241,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:405866c4f69e",
+      "name": "nestling die-off",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d96f525a66",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In 2003, harsh weather triggered a widespread nestling die-off.",
+          "start_char": 1178,
+          "end_char": 1241,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d69028defe0",
+      "name": "mortality rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c8f34d57b8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Mortality rates on the control site reached 48% while they ranged from 59% to 100% on reclaimed wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:445a7d0467fd",
+      "name": "reclaimed wetlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_27a086e38f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Mortality rates on the control site reached 48% while they ranged from 59% to 100% on reclaimed wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8110e511a68",
+      "name": "nestling weight",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20ab377019",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "nestlings on reclaimed wetlands weighed less than those on the control site",
+          "start_char": 1535,
+          "end_char": 1610,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0dda3a15f498",
+      "name": "EROD activity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a792ef07a1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "nestlings on reclaimed wetlands weighed less than those on the control site, and had higher EROD activity.",
+          "start_char": 1535,
+          "end_char": 1641,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ac87f184cc6a",
+      "name": "Oil Sands Process Material (OSPM)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_30d7f2a49e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "nestlings from OSPM-impacted wetlands may be less able to withstand additional stressors",
+          "start_char": 1701,
+          "end_char": 1789,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c500f56472ec",
+      "subject": "causal_mosaic:node:da40c56dcaa3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:405866c4f69e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 2003, harsh weather triggered a widespread nestling die-off.",
+      "source_spans": [
+        {
+          "text": "In 2003, harsh weather triggered a widespread nestling die-off.",
+          "start_char": 1178,
+          "end_char": 1241,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.envpol.2005.09.013",
+        "title": "Effects of oil sands tailings compounds and harsh weather on mortality rates, growth and detoxification efforts in nestling tree swallows (Tachycineta bicolor)",
+        "year": 2006,
+        "authors": [
+          "Gentes, Marie-Line",
+          "Waldner, Cheryl",
+          "Papp, Zsuzsanna",
+          "Smits, Judit E.G."
+        ],
+        "journal": "Environmental Pollution"
+      },
+      "temporal_ordering": "not_addressed",
+      "annotation_notes": "Normalization: edges[0].temporal_ordering: unknown 'explicitly_stated' -> 'not_addressed'"
+    },
+    {
+      "id": "causal_mosaic:edge:458ba64c289e",
+      "subject": "causal_mosaic:node:445a7d0467fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d69028defe0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mortality rates on the control site reached 48% while they ranged from 59% to 100% on reclaimed wetlands.",
+      "source_spans": [
+        {
+          "text": "Mortality rates on the control site reached 48% while they ranged from 59% to 100% on reclaimed wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.envpol.2005.09.013",
+        "title": "Effects of oil sands tailings compounds and harsh weather on mortality rates, growth and detoxification efforts in nestling tree swallows (Tachycineta bicolor)",
+        "year": 2006,
+        "authors": [
+          "Gentes, Marie-Line",
+          "Waldner, Cheryl",
+          "Papp, Zsuzsanna",
+          "Smits, Judit E.G."
+        ],
+        "journal": "Environmental Pollution"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6a769b78feb9",
+      "subject": "causal_mosaic:node:445a7d0467fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b8110e511a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "nestlings on reclaimed wetlands weighed less than those on the control site",
+      "source_spans": [
+        {
+          "text": "nestlings on reclaimed wetlands weighed less than those on the control site",
+          "start_char": 1535,
+          "end_char": 1610,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.envpol.2005.09.013",
+        "title": "Effects of oil sands tailings compounds and harsh weather on mortality rates, growth and detoxification efforts in nestling tree swallows (Tachycineta bicolor)",
+        "year": 2006,
+        "authors": [
+          "Gentes, Marie-Line",
+          "Waldner, Cheryl",
+          "Papp, Zsuzsanna",
+          "Smits, Judit E.G."
+        ],
+        "journal": "Environmental Pollution"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bfaea6f7588e",
+      "subject": "causal_mosaic:node:445a7d0467fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dda3a15f498",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "nestlings on reclaimed wetlands weighed less than those on the control site, and had higher EROD activity.",
+      "source_spans": [
+        {
+          "text": "nestlings on reclaimed wetlands weighed less than those on the control site, and had higher EROD activity.",
+          "start_char": 1535,
+          "end_char": 1641,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.envpol.2005.09.013",
+        "title": "Effects of oil sands tailings compounds and harsh weather on mortality rates, growth and detoxification efforts in nestling tree swallows (Tachycineta bicolor)",
+        "year": 2006,
+        "authors": [
+          "Gentes, Marie-Line",
+          "Waldner, Cheryl",
+          "Papp, Zsuzsanna",
+          "Smits, Judit E.G."
+        ],
+        "journal": "Environmental Pollution"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e30ad2036535",
+      "subject": "causal_mosaic:node:ac87f184cc6a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dda3a15f498",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cytochrome P450 activity increased proportionally with the degree of wetland contamination, which was presumably linked to the presence of PAHs and NAs in nestlings’ diet.",
+      "source_spans": [
+        {
+          "text": "Cytochrome P450 activity increased proportionally with the degree of wetland contamination, which was presumably linked to the presence of PAHs and NAs in nestlings’ diet."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.envpol.2005.09.013",
+        "title": "Effects of oil sands tailings compounds and harsh weather on mortality rates, growth and detoxification efforts in nestling tree swallows (Tachycineta bicolor)",
+        "year": 2006,
+        "authors": [
+          "Gentes, Marie-Line",
+          "Waldner, Cheryl",
+          "Papp, Zsuzsanna",
+          "Smits, Judit E.G."
+        ],
+        "journal": "Environmental Pollution"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

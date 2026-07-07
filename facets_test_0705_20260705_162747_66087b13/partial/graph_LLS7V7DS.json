@@ -1,0 +1,771 @@
+{
+  "graph_id": "causal_mosaic:graph:958d21cfee51",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T07:36:47.409934+00:00",
+    "source_corpus": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:8e0c68b40c37",
+      "name": "Oil sands mining",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_713b2dc54f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Oil sands mining creates vast areas of disturbed land with contaminated sediment and sub-saline water that require reclamation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:789f03a4c478",
+      "name": "Disturbed land",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d03ccf10f1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Oil sands mining creates vast areas of disturbed land with contaminated sediment and sub-saline water that require reclamation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8910fde1fd33",
+      "name": "Exposure to oil sands process-affected water",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7e5e46c6e5",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "exposure to oil sands process-affected water does not determine the vegetation community that will develop in reclaimed oil sands wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb8e8ecfb98d",
+      "name": "Vegetation community",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e103152bc2",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "exposure to oil sands process-affected water does not determine the vegetation community that will develop in reclaimed oil sands wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0a0f6f54d61d",
+      "name": "Reclaimed wetlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_27a086e38f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The majority of vegetation communities that develop in reclaimed wetlands produce less aboveground biomass than natural wetlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:85951e5897b1",
+      "name": "Aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39242f5e25",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The majority of vegetation communities that develop in reclaimed wetlands produce less aboveground biomass than natural wetlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18152e4da8b0",
+      "name": "Oil sands reclaimed wetlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9c9f54fbd9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c4b066aff267",
+      "name": "Sediment nutrients",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d29538f529",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8164666c9750",
+      "name": "Sediment water content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_97db14a14c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99c92aaa81cd",
+      "name": "Deficiencies in sediment nutrients/water content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a141968cd",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands, and these deficiencies may be limiting vegetation community biomass production compared to natural wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f7b2a36d1655",
+      "name": "Vegetation community biomass production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7ce4738ead",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands, and these deficiencies may be limiting vegetation community biomass production compared to natural wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:02acd6d38364",
+      "name": "Proximity to propagule sources",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8f1458523",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The closer reclaimed wetlands are to propagule sources, the more likely viable vegetation propagules will arrive on reclaimed substrates from nearby sources."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:25fb37f68e29",
+      "name": "Arrival of viable vegetation propagules",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_40da7b6047",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The closer reclaimed wetlands are to propagule sources, the more likely viable vegetation propagules will arrive on reclaimed substrates from nearby sources."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e1cc7e73cb6",
+      "name": "Fertilization with N, P and K",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5371eeca8d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Fertilization with N, P and K increased production when water was not a limiting factor"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:33744cab66ce",
+      "name": "Production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9ad260ef25",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Fertilization with N, P and K increased production when water was not a limiting factor"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1dd66d01a282",
+      "name": "Fertilization of European wet grasslands with N, P and K",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_029cf4fa2a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Fertilization of European wet grasslands with N, P and K effectively increased aboveground biomass production"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c23f445f486",
+      "name": "Aboveground biomass production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2311e557b1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Fertilization of European wet grasslands with N, P and K effectively increased aboveground biomass production"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af250a5ea68f",
+      "name": "Revegetation targeting Carex species-dominated community",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_85418150d4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The presence of a Carex species-dominated vegetation community at some reclaimed sites shows promise for future reclamation success, if revegetation targets the establishment of this community."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9085b5bd12dc",
+      "name": "Future reclamation success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d54d76a290",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The presence of a Carex species-dominated vegetation community at some reclaimed sites shows promise for future reclamation success, if revegetation targets the establishment of this community."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:26066bbd9836",
+      "name": "Strong initial efforts to establish specific vegetation communities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9359176689",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "strong initial efforts to establish specific vegetation communities in reclaimed wetlands may be the best method to increase success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f2b11d520e3",
+      "name": "Success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7806f49073",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "strong initial efforts to establish specific vegetation communities in reclaimed wetlands may be the best method to increase success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22eeb89f2767",
+      "name": "natsedge community",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d32ce2f63",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The natsedge community produced significantly higher August peak aboveground biomass than either the recsedge or distsal communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ebb69540127",
+      "name": "August peak aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f999ed5d79",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The natsedge community produced significantly higher August peak aboveground biomass than either the recsedge or distsal communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1e9f528dbb73",
+      "name": "distsal community",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0dada54beb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The distsal community had significantly lower vegetation cover than the natsedge community"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be47d9498fee",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The distsal community had significantly lower vegetation cover than the natsedge community"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:38904459f99d",
+      "subject": "causal_mosaic:node:8e0c68b40c37",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:789f03a4c478",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Oil sands mining creates vast areas of disturbed land with contaminated sediment and sub-saline water that require reclamation.",
+      "source_spans": [
+        {
+          "text": "Oil sands mining creates vast areas of disturbed land with contaminated sediment and sub-saline water that require reclamation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6a403efceb40",
+      "subject": "causal_mosaic:node:8910fde1fd33",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb8e8ecfb98d",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "exposure to oil sands process-affected water does not determine the vegetation community that will develop in reclaimed oil sands wetlands.",
+      "source_spans": [
+        {
+          "text": "exposure to oil sands process-affected water does not determine the vegetation community that will develop in reclaimed oil sands wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4638f58ca4ca",
+      "subject": "causal_mosaic:node:0a0f6f54d61d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:85951e5897b1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The majority of vegetation communities that develop in reclaimed wetlands produce less aboveground biomass than natural wetlands",
+      "source_spans": [
+        {
+          "text": "The majority of vegetation communities that develop in reclaimed wetlands produce less aboveground biomass than natural wetlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ca45d7a2c5b",
+      "subject": "causal_mosaic:node:18152e4da8b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c4b066aff267",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:19687b7738ae",
+      "subject": "causal_mosaic:node:18152e4da8b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8164666c9750",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:235f550e25a1",
+      "subject": "causal_mosaic:node:99c92aaa81cd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f7b2a36d1655",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands, and these deficiencies may be limiting vegetation community biomass production compared to natural wetlands.",
+      "source_spans": [
+        {
+          "text": "In general, oil sands reclaimed wetlands have lower levels of sediment nutrients and lower sediment water content than natural wetlands, and these deficiencies may be limiting vegetation community biomass production compared to natural wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5519f4ca76e3",
+      "subject": "causal_mosaic:node:02acd6d38364",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:25fb37f68e29",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The closer reclaimed wetlands are to propagule sources, the more likely viable vegetation propagules will arrive on reclaimed substrates from nearby sources.",
+      "source_spans": [
+        {
+          "text": "The closer reclaimed wetlands are to propagule sources, the more likely viable vegetation propagules will arrive on reclaimed substrates from nearby sources."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4f99413073b1",
+      "subject": "causal_mosaic:node:6e1cc7e73cb6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:33744cab66ce",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization with N, P and K increased production when water was not a limiting factor",
+      "source_spans": [
+        {
+          "text": "Fertilization with N, P and K increased production when water was not a limiting factor"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:919c4e2c6f22",
+      "subject": "causal_mosaic:node:1dd66d01a282",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c23f445f486",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization of European wet grasslands with N, P and K effectively increased aboveground biomass production",
+      "source_spans": [
+        {
+          "text": "Fertilization of European wet grasslands with N, P and K effectively increased aboveground biomass production"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c2482dfa9728",
+      "subject": "causal_mosaic:node:af250a5ea68f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9085b5bd12dc",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The presence of a Carex species-dominated vegetation community at some reclaimed sites shows promise for future reclamation success, if revegetation targets the establishment of this community.",
+      "source_spans": [
+        {
+          "text": "The presence of a Carex species-dominated vegetation community at some reclaimed sites shows promise for future reclamation success, if revegetation targets the establishment of this community."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fa264fcc38c0",
+      "subject": "causal_mosaic:node:26066bbd9836",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f2b11d520e3",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "strong initial efforts to establish specific vegetation communities in reclaimed wetlands may be the best method to increase success",
+      "source_spans": [
+        {
+          "text": "strong initial efforts to establish specific vegetation communities in reclaimed wetlands may be the best method to increase success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4246b1a332e",
+      "subject": "causal_mosaic:node:22eeb89f2767",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ebb69540127",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The natsedge community produced significantly higher August peak aboveground biomass than either the recsedge or distsal communities",
+      "source_spans": [
+        {
+          "text": "The natsedge community produced significantly higher August peak aboveground biomass than either the recsedge or distsal communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6085ec412d33",
+      "subject": "causal_mosaic:node:1e9f528dbb73",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be47d9498fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The distsal community had significantly lower vegetation cover than the natsedge community",
+      "source_spans": [
+        {
+          "text": "The distsal community had significantly lower vegetation cover than the natsedge community"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.01.024",
+        "title": "A Carex species-dominated marsh community represents the best short-term target for reclaiming wet meadow habitat following oil sands mining in Alberta, Canada",
+        "year": 2013,
+        "authors": [
+          "Raab, Dustin",
+          "Bayley, Suzanne E."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "graph_id": "causal_mosaic:graph:59d11c2c0f09",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T06:14:37.539934+00:00",
+    "source_corpus": "Can Mulch and Fertilizer Alone Rehabilitate Surface-disturbed Subarctic Peatlands?",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:50aba5f39714",
+      "name": "Recolonization of Sphagnum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dd6ef70d2d",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:708b414f4219",
+      "name": "Sphagnum abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fae6ffef59",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:30e5337aa299",
+      "name": "Colonization of bare peat by lichens",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3a541b99e6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a3e50588360f",
+      "name": "Colonization of bare peat by bryophytes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6de121c536",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b41a8d741c34",
+      "name": "Sphagnum recolonization on cut hummocks",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8958042f7c",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Cut hummocks on winter road clearances appear to be especially recalcitrant to recolonization by Sphagnum and typical assemblages of peatlands plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:524c06ff71b3",
+      "name": "Straw mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_571295d946",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:10117a583ece",
+      "name": "Rock phosphate fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6dec3b233d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ac73a8f430e",
+      "name": "Cut hummocks",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fbad6a91eb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Cut hummocks on winter road clearances appear to be especially recalcitrant to recolonization by Sphagnum and typical assemblages of peatlands plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:805c9d519dea",
+      "name": "Bare peat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_649c3e41aa",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1b32cb1a71f6",
+      "subject": "causal_mosaic:node:524c06ff71b3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:50aba5f39714",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants.",
+      "source_spans": [
+        {
+          "text": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.32.2.153",
+        "title": "Can Mulch and Fertilizer Alone Rehabilitate Surface-disturbed Subarctic Peatlands?",
+        "year": 2014,
+        "authors": [
+          "Campbell, Daniel",
+          "Corson, Angie"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e23c0b71d8ba",
+      "subject": "causal_mosaic:node:10117a583ece",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:50aba5f39714",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants.",
+      "source_spans": [
+        {
+          "text": "Rock phosphate fertilization and straw mulch did not increase the recolonization of Sphagnum nor of other bryophytes, lichens or vascular plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.32.2.153",
+        "title": "Can Mulch and Fertilizer Alone Rehabilitate Surface-disturbed Subarctic Peatlands?",
+        "year": 2014,
+        "authors": [
+          "Campbell, Daniel",
+          "Corson, Angie"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f49ef2db105d",
+      "subject": "causal_mosaic:node:2ac73a8f430e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b41a8d741c34",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cut hummocks on winter road clearances appear to be especially recalcitrant to recolonization by Sphagnum and typical assemblages of peatlands plants.",
+      "source_spans": [
+        {
+          "text": "Cut hummocks on winter road clearances appear to be especially recalcitrant to recolonization by Sphagnum and typical assemblages of peatlands plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.32.2.153",
+        "title": "Can Mulch and Fertilizer Alone Rehabilitate Surface-disturbed Subarctic Peatlands?",
+        "year": 2014,
+        "authors": [
+          "Campbell, Daniel",
+          "Corson, Angie"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fb79a0443d71",
+      "subject": "causal_mosaic:node:805c9d519dea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:30e5337aa299",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces.",
+      "source_spans": [
+        {
+          "text": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.32.2.153",
+        "title": "Can Mulch and Fertilizer Alone Rehabilitate Surface-disturbed Subarctic Peatlands?",
+        "year": 2014,
+        "authors": [
+          "Campbell, Daniel",
+          "Corson, Angie"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:714f98a02c55",
+      "subject": "causal_mosaic:node:805c9d519dea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a3e50588360f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces.",
+      "source_spans": [
+        {
+          "text": "Sphagnum remained almost absent and bare peat was colonized mostly by lichens and bryophytes typical of disturbed peat surfaces."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.32.2.153",
+        "title": "Can Mulch and Fertilizer Alone Rehabilitate Surface-disturbed Subarctic Peatlands?",
+        "year": 2014,
+        "authors": [
+          "Campbell, Daniel",
+          "Corson, Angie"
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

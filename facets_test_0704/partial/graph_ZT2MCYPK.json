@@ -1,0 +1,440 @@
+{
+  "graph_id": "causal_mosaic:graph:a67386521641",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T21:51:00.491378+00:00",
+    "source_corpus": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5b22f319eb03",
+      "name": "scarcity of coarse organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_352b874235",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "We suggest, however, that a scarcity of coarse organic matter is a major contributor to the low densities of macroinvertebrates inhabiting the constructed stream following its development"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b9e836db350",
+      "name": "low densities of macroinvertebrates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_606ac28266",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "densities",
+      "source_spans": [
+        {
+          "text": "We suggest, however, that a scarcity of coarse organic matter is a major contributor to the low densities of macroinvertebrates inhabiting the constructed stream following its development"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5441dfa9ec81",
+      "name": "phase of hydraulic flux",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1580d79fc5",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Low macroinvertebrate abundances and low coverage by macrophytes and bryophytes in the constructed stream may also have resulted because much of it was still in a phase of hydraulic flux, with marked erosion and deposition of river bed materials."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c301441ac46",
+      "name": "Low macroinvertebrate abundances",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d72aedfcc2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundances",
+      "source_spans": [
+        {
+          "text": "Low macroinvertebrate abundances and low coverage by macrophytes and bryophytes in the constructed stream may also have resulted because much of it was still in a phase of hydraulic flux, with marked erosion and deposition of river bed materials."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:deeff4fc0de3",
+      "name": "active bed movement",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_219d971a4e",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "As well, the spring freshet is accompanied by active bed movement, sediment mobilization, bed scour, and high water turbidity (Jones and others 2003b), which are known to hamper macroinvertebrate establishment and growth (Waters 1995; Shaw and Richardson 2001)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bd2980117643",
+      "name": "macroinvertebrate establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_30fcbbbc57",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "As well, the spring freshet is accompanied by active bed movement, sediment mobilization, bed scour, and high water turbidity (Jones and others 2003b), which are known to hamper macroinvertebrate establishment and growth (Waters 1995; Shaw and Richardson 2001)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9dfdc75e0803",
+      "name": "virtual lack of local riparian vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3b1bff2c48",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "The virtual lack of local riparian vegetation to serve as a source pool for large woody debris and CPOM, combined with low retention of large woody materials, also precludes the establishment of snag-dwelling invertebrate communities (Benke and others 2001) that reside in natural streams."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2fe1ec57af68",
+      "name": "establishment of snag-dwelling invertebrate communities",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9d4c245a4d",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "The virtual lack of local riparian vegetation to serve as a source pool for large woody debris and CPOM, combined with low retention of large woody materials, also precludes the establishment of snag-dwelling invertebrate communities (Benke and others 2001) that reside in natural streams."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d881ef07b05",
+      "name": "lower macroinvertebrate densities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2260c3cb01",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "densities",
+      "source_spans": [
+        {
+          "text": "In turn, lower macroinvertebrate densities resulted in reduced forage base and growth of young-of-the-year Arctic grayling in the constructed stream (Jones and others 2003a, b)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80f1392ac7d0",
+      "name": "reduced forage base and growth of young-of-the-year Arctic grayling",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_37c4961eee",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "In turn, lower macroinvertebrate densities resulted in reduced forage base and growth of young-of-the-year Arctic grayling in the constructed stream (Jones and others 2003a, b)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:39dc6530cc68",
+      "name": "initial efforts to improve fish habitat",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9adbb26848",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Because initial efforts to improve fish habitat in the constructed stream focused on physical structures (e.g., weirs, vanes, rock, groins), ecological factors limiting fish growth were not considered and likely constrained success."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f4899742648",
+      "name": "success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7806f49073",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Because initial efforts to improve fish habitat in the constructed stream focused on physical structures (e.g., weirs, vanes, rock, groins), ecological factors limiting fish growth were not considered and likely constrained success."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b10f8dd3d6d",
+      "name": "The addition of woody debris and CPOM",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a29307f439",
+      "state_or_change_qualifier": "introduced",
+      "source_spans": [
+        {
+          "text": "The addition of woody debris and CPOM, combined with planting of shrubs and herbs along the stream, should provide a source of allochthonous matter for the biotic community while large cobble and boulders should improve the physical stability of stream system, protecting its organic components."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a69b41f9a22d",
+      "name": "source of allochthonous matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ba66dbc05f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The addition of woody debris and CPOM, combined with planting of shrubs and herbs along the stream, should provide a source of allochthonous matter for the biotic community while large cobble and boulders should improve the physical stability of stream system, protecting its organic components."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e39300293857",
+      "subject": "causal_mosaic:node:5b22f319eb03",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b9e836db350",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We suggest, however, that a scarcity of coarse organic matter is a major contributor to the low densities of macroinvertebrates inhabiting the constructed stream following its development",
+      "source_spans": [
+        {
+          "text": "We suggest, however, that a scarcity of coarse organic matter is a major contributor to the low densities of macroinvertebrates inhabiting the constructed stream following its development"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:78d75d762c3f",
+      "subject": "causal_mosaic:node:5441dfa9ec81",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1c301441ac46",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Low macroinvertebrate abundances and low coverage by macrophytes and bryophytes in the constructed stream may also have resulted because much of it was still in a phase of hydraulic flux, with marked erosion and deposition of river bed materials.",
+      "source_spans": [
+        {
+          "text": "Low macroinvertebrate abundances and low coverage by macrophytes and bryophytes in the constructed stream may also have resulted because much of it was still in a phase of hydraulic flux, with marked erosion and deposition of river bed materials."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5da54f233ef5",
+      "subject": "causal_mosaic:node:deeff4fc0de3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bd2980117643",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As well, the spring freshet is accompanied by active bed movement, sediment mobilization, bed scour, and high water turbidity (Jones and others 2003b), which are known to hamper macroinvertebrate establishment and growth (Waters 1995; Shaw and Richardson 2001).",
+      "source_spans": [
+        {
+          "text": "As well, the spring freshet is accompanied by active bed movement, sediment mobilization, bed scour, and high water turbidity (Jones and others 2003b), which are known to hamper macroinvertebrate establishment and growth (Waters 1995; Shaw and Richardson 2001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:554875b479a0",
+      "subject": "causal_mosaic:node:9dfdc75e0803",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2fe1ec57af68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The virtual lack of local riparian vegetation to serve as a source pool for large woody debris and CPOM, combined with low retention of large woody materials, also precludes the establishment of snag-dwelling invertebrate communities (Benke and others 2001) that reside in natural streams.",
+      "source_spans": [
+        {
+          "text": "The virtual lack of local riparian vegetation to serve as a source pool for large woody debris and CPOM, combined with low retention of large woody materials, also precludes the establishment of snag-dwelling invertebrate communities (Benke and others 2001) that reside in natural streams."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d94c27a7b85a",
+      "subject": "causal_mosaic:node:6d881ef07b05",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:80f1392ac7d0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In turn, lower macroinvertebrate densities resulted in reduced forage base and growth of young-of-the-year Arctic grayling in the constructed stream (Jones and others 2003a, b).",
+      "source_spans": [
+        {
+          "text": "In turn, lower macroinvertebrate densities resulted in reduced forage base and growth of young-of-the-year Arctic grayling in the constructed stream (Jones and others 2003a, b)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cb1bde5b44b5",
+      "subject": "causal_mosaic:node:39dc6530cc68",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f4899742648",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Because initial efforts to improve fish habitat in the constructed stream focused on physical structures (e.g., weirs, vanes, rock, groins), ecological factors limiting fish growth were not considered and likely constrained success.",
+      "source_spans": [
+        {
+          "text": "Because initial efforts to improve fish habitat in the constructed stream focused on physical structures (e.g., weirs, vanes, rock, groins), ecological factors limiting fish growth were not considered and likely constrained success."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0aa42a37f010",
+      "subject": "causal_mosaic:node:8b10f8dd3d6d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a69b41f9a22d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The addition of woody debris and CPOM, combined with planting of shrubs and herbs along the stream, should provide a source of allochthonous matter for the biotic community while large cobble and boulders should improve the physical stability of stream system, protecting its organic components.",
+      "source_spans": [
+        {
+          "text": "The addition of woody debris and CPOM, combined with planting of shrubs and herbs along the stream, should provide a source of allochthonous matter for the biotic community while large cobble and boulders should improve the physical stability of stream system, protecting its organic components."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-008-9218-z",
+        "title": "Assessing the Effectiveness of a Constructed Arctic Stream Using Multiple Biological Attributes",
+        "year": 2008,
+        "authors": [
+          "Jones, Nicholas E.",
+          "Scrimgeour, Garry J.",
+          "Tonn, William M."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

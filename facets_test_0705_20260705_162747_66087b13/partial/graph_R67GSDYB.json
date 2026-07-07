@@ -1,0 +1,283 @@
+{
+  "graph_id": "causal_mosaic:graph:c72922c722bb",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T10:25:09.997797+00:00",
+    "source_corpus": "<i>Sphagnum</i> moss moisture retention following the re‐vegetation of degraded peatlands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:10e396a49c56",
+      "name": "Ecosystem scale restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a91cce45b1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In the autumn of 1999, ecosystem scale restoration commenced using the standard Canadian restoration technique"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b92c9c7653ef",
+      "name": "S. rubellum capitula density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_94f8feceda",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "capitula density",
+      "source_spans": [
+        {
+          "text": "S. rubellum capitula density ( /SUB C) for upper Sphagnum samples was significantly higher ( p< 0Ð05) for the restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7ed82c5e48eb",
+      "name": "Residual moisture content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_50145ffd1d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "residual moisture content",
+      "source_spans": [
+        {
+          "text": "Residual moisture content at a soil water pressure of /NUL200 mb (/DC2r) was significantly lower ( p< 0Ð05) for the restored site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ade04be5d9b5",
+      "name": "Bulk density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_113e7360c5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "bulk density",
+      "source_spans": [
+        {
+          "text": "Lower samples for the natural and naturally re-vegetated sites had a bulk density of 43 š 5 and 41 š 11 kg m /NUL3, respectively, almost twice as high as the value for lower samples from the restored site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:03a3ff0b80cc",
+      "name": "Re-vegetation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2021908777",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum moss has been observed to re-vegetate naturally on the remaining cutover peat following human disturbance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b85c0cb20aa",
+      "name": "Net sink for CO2",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e155f004a7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "peatland can return to a net sink for CO2 within 3–5 years following Sphagnum re-vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bf6db317ba62",
+      "name": "Soil water pressure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c6b854a81f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "sites characterized by soil moisture>50%, soil water pressure>/NUL100 mb and high water table"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6712f4a2ba36",
+      "subject": "causal_mosaic:node:10e396a49c56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b92c9c7653ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "S. rubellum capitula density ( /SUB C) for upper Sphagnum samples was significantly higher ( p< 0Ð05) for the restored peatland (28 726 š 3384 # m/NUL2) when compared to the natural site (26 050 š 5573 # m /NUL2)",
+      "source_spans": [
+        {
+          "text": "S. rubellum capitula density ( /SUB C) for upper Sphagnum samples was significantly higher ( p< 0Ð05) for the restored peatland (28 726 š 3384 # m/NUL2) when compared to the natural site (26 050 š 5573 # m /NUL2)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.130",
+        "title": "<i>Sphagnum</i> moss moisture retention following the re‐vegetation of degraded peatlands",
+        "year": 2011,
+        "authors": [
+          "Waddington, J. M.",
+          "Lucchese, M. C.",
+          "Duval, T. P."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8a5d07ba392c",
+      "subject": "causal_mosaic:node:10e396a49c56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ed82c5e48eb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Residual moisture content at a soil water pressure of /NUL200 mb (/DC2r) was significantly lower ( p< 0Ð05) for the restored site in comparison to the natural and naturally re-vegetated sites for the lower samples.",
+      "source_spans": [
+        {
+          "text": "Residual moisture content at a soil water pressure of /NUL200 mb (/DC2r) was significantly lower ( p< 0Ð05) for the restored site in comparison to the natural and naturally re-vegetated sites for the lower samples."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.130",
+        "title": "<i>Sphagnum</i> moss moisture retention following the re‐vegetation of degraded peatlands",
+        "year": 2011,
+        "authors": [
+          "Waddington, J. M.",
+          "Lucchese, M. C.",
+          "Duval, T. P."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7cd36b259ea2",
+      "subject": "causal_mosaic:node:10e396a49c56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ade04be5d9b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lower samples for the natural and naturally re-vegetated sites had a bulk density of 43 š 5 and 41 š 11 kg m /NUL3, respectively, almost twice as high as the value for lower samples from the restored site (24 š 4k gm /NUL3).",
+      "source_spans": [
+        {
+          "text": "Lower samples for the natural and naturally re-vegetated sites had a bulk density of 43 š 5 and 41 š 11 kg m /NUL3, respectively, almost twice as high as the value for lower samples from the restored site (24 š 4k gm /NUL3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.130",
+        "title": "<i>Sphagnum</i> moss moisture retention following the re‐vegetation of degraded peatlands",
+        "year": 2011,
+        "authors": [
+          "Waddington, J. M.",
+          "Lucchese, M. C.",
+          "Duval, T. P."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4421ae56db7b",
+      "subject": "causal_mosaic:node:bf6db317ba62",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:03a3ff0b80cc",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Sphagnum moss has been observed to re-vegetate naturally on the remaining cutover peat following human disturbance at sites characterized by soil moisture>50%, soil water pressure>/NUL100 mb and high water table",
+      "source_spans": [
+        {
+          "text": "Sphagnum moss has been observed to re-vegetate naturally on the remaining cutover peat following human disturbance at sites characterized by soil moisture>50%, soil water pressure>/NUL100 mb and high water table"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.130",
+        "title": "<i>Sphagnum</i> moss moisture retention following the re‐vegetation of degraded peatlands",
+        "year": 2011,
+        "authors": [
+          "Waddington, J. M.",
+          "Lucchese, M. C.",
+          "Duval, T. P."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dc5c5a281945",
+      "subject": "causal_mosaic:node:03a3ff0b80cc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0b85c0cb20aa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "While research has demonstrated that a peatland can return to a net sink for CO2 within 3–5 years following Sphagnum re-vegetation",
+      "source_spans": [
+        {
+          "text": "While research has demonstrated that a peatland can return to a net sink for CO2 within 3–5 years following Sphagnum re-vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.130",
+        "title": "<i>Sphagnum</i> moss moisture retention following the re‐vegetation of degraded peatlands",
+        "year": 2011,
+        "authors": [
+          "Waddington, J. M.",
+          "Lucchese, M. C.",
+          "Duval, T. P."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

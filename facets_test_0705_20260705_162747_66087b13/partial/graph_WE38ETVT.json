@@ -1,0 +1,248 @@
+{
+  "graph_id": "causal_mosaic:graph:1f0f2f642aa2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:32:00.232789+00:00",
+    "source_corpus": "Telemetry-Determined Habitat Use Informs Multi-Species Habitat Management in an Urban Harbour",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6da416fc8449",
+      "name": "Habitat restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_71b3613aba",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92010fb23b44",
+      "name": "Daily site fidelity of Yellow Perch",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eec5c70001",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "site fidelity",
+      "source_spans": [
+        {
+          "text": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:032d318a0bb7",
+      "name": "Daily site fidelity of Largemouth Bass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eec5c70001",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "site fidelity",
+      "source_spans": [
+        {
+          "text": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d966c62e6270",
+      "name": "Use of target native species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7b270674a4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "This allowed us to confirm that the restoration efforts in Toronto Harbour appear to be successful as these areas are being highly used by the two target native species, but less highly used by a non-native fish."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ab0a6bc8837d",
+      "name": "Use of non-native fish",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fcf8f7c942",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "This allowed us to confirm that the restoration efforts in Toronto Harbour appear to be successful as these areas are being highly used by the two target native species, but less highly used by a non-native fish."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2120750cc0bc",
+      "subject": "causal_mosaic:node:6da416fc8449",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92010fb23b44",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp.",
+      "source_spans": [
+        {
+          "text": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-016-0775-2",
+        "title": "Telemetry-Determined Habitat Use Informs Multi-Species Habitat Management in an Urban Harbour",
+        "year": 2017,
+        "authors": [
+          "Rous, Andrew M.",
+          "Midwood, Jonathon D.",
+          "Gutowsky, Lee F.G.",
+          "Lapointe, Nicolas W.R.",
+          "Portiss, Rick",
+          "Sciscione, Thomas",
+          "Wells, Mathew G.",
+          "Doka, Susan E.",
+          "Cooke, Steven J."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:57bbe7434fe6",
+      "subject": "causal_mosaic:node:6da416fc8449",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:032d318a0bb7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp.",
+      "source_spans": [
+        {
+          "text": "Daily site fidelity was higher in restored sites compared to non-restored sites for Yellow Perch and Northern Pike, but lower for Largemouth Bass and Common Carp."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-016-0775-2",
+        "title": "Telemetry-Determined Habitat Use Informs Multi-Species Habitat Management in an Urban Harbour",
+        "year": 2017,
+        "authors": [
+          "Rous, Andrew M.",
+          "Midwood, Jonathon D.",
+          "Gutowsky, Lee F.G.",
+          "Lapointe, Nicolas W.R.",
+          "Portiss, Rick",
+          "Sciscione, Thomas",
+          "Wells, Mathew G.",
+          "Doka, Susan E.",
+          "Cooke, Steven J."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:77540b0aa277",
+      "subject": "causal_mosaic:node:6da416fc8449",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d966c62e6270",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This allowed us to confirm that the restoration efforts in Toronto Harbour appear to be successful as these areas are being highly used by the two target native species, but less highly used by a non-native fish.",
+      "source_spans": [
+        {
+          "text": "This allowed us to confirm that the restoration efforts in Toronto Harbour appear to be successful as these areas are being highly used by the two target native species, but less highly used by a non-native fish."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-016-0775-2",
+        "title": "Telemetry-Determined Habitat Use Informs Multi-Species Habitat Management in an Urban Harbour",
+        "year": 2017,
+        "authors": [
+          "Rous, Andrew M.",
+          "Midwood, Jonathon D.",
+          "Gutowsky, Lee F.G.",
+          "Lapointe, Nicolas W.R.",
+          "Portiss, Rick",
+          "Sciscione, Thomas",
+          "Wells, Mathew G.",
+          "Doka, Susan E.",
+          "Cooke, Steven J."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79f1f3c1db1e",
+      "subject": "causal_mosaic:node:6da416fc8449",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ab0a6bc8837d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This allowed us to confirm that the restoration efforts in Toronto Harbour appear to be successful as these areas are being highly used by the two target native species, but less highly used by a non-native fish.",
+      "source_spans": [
+        {
+          "text": "This allowed us to confirm that the restoration efforts in Toronto Harbour appear to be successful as these areas are being highly used by the two target native species, but less highly used by a non-native fish."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s00267-016-0775-2",
+        "title": "Telemetry-Determined Habitat Use Informs Multi-Species Habitat Management in an Urban Harbour",
+        "year": 2017,
+        "authors": [
+          "Rous, Andrew M.",
+          "Midwood, Jonathon D.",
+          "Gutowsky, Lee F.G.",
+          "Lapointe, Nicolas W.R.",
+          "Portiss, Rick",
+          "Sciscione, Thomas",
+          "Wells, Mathew G.",
+          "Doka, Susan E.",
+          "Cooke, Steven J."
+        ],
+        "journal": "Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

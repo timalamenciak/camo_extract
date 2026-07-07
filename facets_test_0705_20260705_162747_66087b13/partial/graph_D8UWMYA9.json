@@ -1,0 +1,523 @@
+{
+  "graph_id": "causal_mosaic:graph:d2306e1194ec",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T00:40:00.478652+00:00",
+    "source_corpus": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fd053c6eda81",
+      "name": "environmental flow regime",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fa37cb332c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ee053900ff9b",
+      "name": "increased minimum flow",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b95907215f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca2d067089a4",
+      "name": "cottonwood growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7a25c6091",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7c0de6531408",
+      "name": "reduced in-stream flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3119441a52",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "With reduced in-stream flows due to water withdrawal for irrigation, the bands of cottonwood colonization were lowered."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1e17d079dff",
+      "name": "bands of cottonwood colonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0e54bde84d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "With reduced in-stream flows due to water withdrawal for irrigation, the bands of cottonwood colonization were lowered."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f73076455d31",
+      "name": "reduced flow",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b817f5a6f1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b3c52da9e34",
+      "name": "physiological stress",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a35665581a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:63e6dab2ee47",
+      "name": "trunk mortality",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f9f269118a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:12480368abc9",
+      "name": "finer sediments",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f7dec261f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Cottonwood recruitment was correlated with sediment texture, increasing with finer sediments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36a80437426b",
+      "name": "cottonwood recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b1a8beafd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Cottonwood recruitment was correlated with sediment texture, increasing with finer sediments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21bdc18d4151",
+      "name": "densities of cottonwoods",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d312db6e72",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sites that contained finer sediments supported higher densities of cottonwoods and generally allowed cottonwood establishment at higher elevations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9ed3804eb42d",
+      "name": "steeper river slopes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e9b65d2286",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Linking hydrogeomorphic characteristics, locations along steeper river slopes were associated with coarser sediments and reduced occurrences and elevational positions of cottonwoods."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:47de7fcd0440",
+      "name": "occurrences",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8f8c9c569",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Linking hydrogeomorphic characteristics, locations along steeper river slopes were associated with coarser sediments and reduced occurrences and elevational positions of cottonwoods."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:976826dfe6d6",
+      "name": "insufficient in-stream flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4c09dc03cc",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "insufficient in-stream flows would impose drought stress on the riparian woodlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:28e5dbde17e7",
+      "name": "drought stress",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d80ac49cd0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "insufficient in-stream flows would impose drought stress on the riparian woodlands."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f839c76ed302",
+      "subject": "causal_mosaic:node:fd053c6eda81",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca2d067089a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow.",
+      "source_spans": [
+        {
+          "text": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ecf6d7c854e9",
+      "subject": "causal_mosaic:node:ee053900ff9b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca2d067089a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow.",
+      "source_spans": [
+        {
+          "text": "Analyses of tree rings demonstrated increased cottonwood growth from 1991 to 2013, probably reflecting the increased minimum flow."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b33c9d192eec",
+      "subject": "causal_mosaic:node:7c0de6531408",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c1e17d079dff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "With reduced in-stream flows due to water withdrawal for irrigation, the bands of cottonwood colonization were lowered.",
+      "source_spans": [
+        {
+          "text": "With reduced in-stream flows due to water withdrawal for irrigation, the bands of cottonwood colonization were lowered."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2cc6e120e959",
+      "subject": "causal_mosaic:node:f73076455d31",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7b3c52da9e34",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality.",
+      "source_spans": [
+        {
+          "text": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:23699a685da6",
+      "subject": "causal_mosaic:node:f73076455d31",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:63e6dab2ee47",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality.",
+      "source_spans": [
+        {
+          "text": "The reduced flow causes physiological stress to cottonwoods by desiccating seedlings and inducing xylem cavitation that leads to branch and crown die-back and trunk mortality."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d9526fae1ded",
+      "subject": "causal_mosaic:node:12480368abc9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36a80437426b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Cottonwood recruitment was correlated with sediment texture, increasing with finer sediments.",
+      "source_spans": [
+        {
+          "text": "Cottonwood recruitment was correlated with sediment texture, increasing with finer sediments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[5].philosophical_accounts: unknown 'correlationist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:01709bbe5036",
+      "subject": "causal_mosaic:node:12480368abc9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:21bdc18d4151",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Sites that contained finer sediments supported higher densities of cottonwoods and generally allowed cottonwood establishment at higher elevations.",
+      "source_spans": [
+        {
+          "text": "Sites that contained finer sediments supported higher densities of cottonwoods and generally allowed cottonwood establishment at higher elevations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[6].philosophical_accounts: unknown 'correlationist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:b1731ef92028",
+      "subject": "causal_mosaic:node:9ed3804eb42d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:47de7fcd0440",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Linking hydrogeomorphic characteristics, locations along steeper river slopes were associated with coarser sediments and reduced occurrences and elevational positions of cottonwoods.",
+      "source_spans": [
+        {
+          "text": "Linking hydrogeomorphic characteristics, locations along steeper river slopes were associated with coarser sediments and reduced occurrences and elevational positions of cottonwoods."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[7].philosophical_accounts: unknown 'correlationist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:736fd570bffc",
+      "subject": "causal_mosaic:node:976826dfe6d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:28e5dbde17e7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "insufficient in-stream flows would impose drought stress on the riparian woodlands.",
+      "source_spans": [
+        {
+          "text": "insufficient in-stream flows would impose drought stress on the riparian woodlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12654",
+        "title": "Functional flows: an environmental flow regime benefits riparian cottonwoods along the Waterton River, Alberta",
+        "year": 2018,
+        "authors": [
+          "Foster, Stephen G.",
+          "Mahoney, John M.",
+          "Rood, Stewart B."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

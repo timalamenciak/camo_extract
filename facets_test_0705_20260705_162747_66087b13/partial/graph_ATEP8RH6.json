@@ -1,0 +1,376 @@
+{
+  "graph_id": "causal_mosaic:graph:a86820db7004",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T17:27:15.047128+00:00",
+    "source_corpus": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:986e4036bcf8",
+      "name": "shallow basins",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8960bc81cd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "shallow basins were generally effective at promoting Sphagnum establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7f5a9690350b",
+      "name": "Sphagnum establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9dfa63a2d7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "shallow basins were generally effective at promoting Sphagnum establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca5df4f77070",
+      "name": "water retention",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5162f7a069",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Shallow basins and adjacent peat ridges act to retain water"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:386b379b0dd6",
+      "name": "Soil-moisture content",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09000026",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil-moisture content (linear positive effect) ... were shown to be determinant of plant recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04c2a7f3979e",
+      "name": "Sphagnum establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9dfa63a2d7",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d835b217226",
+      "name": "duration and severity of flooding events",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c393be450a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "duration and severity of flooding events (quadratic effect) were shown to be determinant of plant recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8bbe9629ccd1",
+      "name": "density of straw cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5efb9736a0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "density of straw cover (positive effect) ... were also instrumental in explaining local variation in Sphagnum cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ed2c4268fd8",
+      "name": "surface roughness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d4718d492b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f2b23f38adca",
+      "name": "manual reintroductions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4716ae74c5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Plant cover after three and four growing seasons averaged ... 40–60% in manual reintroductions"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:46ff10576382",
+      "subject": "causal_mosaic:node:986e4036bcf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f5a9690350b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results of these experiments demonstrate that shallow basins were generally effective at promoting Sphagnum establishment",
+      "source_spans": [
+        {
+          "text": "Results of these experiments demonstrate that shallow basins were generally effective at promoting Sphagnum establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c593d20e386f",
+      "subject": "causal_mosaic:node:986e4036bcf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca5df4f77070",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shallow basins and adjacent peat ridges act to retain water in the spring or during rain events",
+      "source_spans": [
+        {
+          "text": "Shallow basins and adjacent peat ridges act to retain water in the spring or during rain events"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eb18fb26259c",
+      "subject": "causal_mosaic:node:386b379b0dd6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f5a9690350b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil-moisture content (linear positive effect) ... were shown to be determinant of plant recovery",
+      "source_spans": [
+        {
+          "text": "Soil-moisture content (linear positive effect) ... were shown to be determinant of plant recovery"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7a4edf7fd182",
+      "subject": "causal_mosaic:node:6d835b217226",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f5a9690350b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "duration and severity of flooding events (quadratic effect) were shown to be determinant of plant recovery",
+      "source_spans": [
+        {
+          "text": "duration and severity of flooding events (quadratic effect) were shown to be determinant of plant recovery"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:077079253dff",
+      "subject": "causal_mosaic:node:8bbe9629ccd1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f5a9690350b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "density of straw cover (positive effect) ... were also instrumental in explaining local variation in Sphagnum cover",
+      "source_spans": [
+        {
+          "text": "density of straw cover (positive effect) ... were also instrumental in explaining local variation in Sphagnum cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3efc995960a3",
+      "subject": "causal_mosaic:node:2ed2c4268fd8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04c2a7f3979e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover",
+      "source_spans": [
+        {
+          "text": "surface roughness (negative effect) were also instrumental in explaining local variation in Sphagnum cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:12f8e9a7e6b0",
+      "subject": "causal_mosaic:node:f2b23f38adca",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f5a9690350b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plant cover after three and four growing seasons averaged ... 40–60% in manual reintroductions",
+      "source_spans": [
+        {
+          "text": "Plant cover after three and four growing seasons averaged ... 40–60% in manual reintroductions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1061-2971.2004.00302.x",
+        "title": "On the Use of Shallow Basins to Restore Cutover Peatlands: Plant Establishment",
+        "year": 2004,
+        "authors": [
+          "Campeau, Suzanne",
+          "Rochefort, Line",
+          "Price, Jonathan S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

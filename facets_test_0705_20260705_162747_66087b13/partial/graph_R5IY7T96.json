@@ -1,0 +1,478 @@
+{
+  "graph_id": "causal_mosaic:graph:b8a6d087c414",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T16:11:10.141627+00:00",
+    "source_corpus": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:75c59729d687",
+      "name": "Restoration work",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_efb1d552cf",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration work included not only the blockage of drainage ditches, but also the reintroduction of plant material"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88a261201ded",
+      "name": "vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the restored site had a good moss cover of 70%",
+          "start_char": 10915,
+          "end_char": 10961,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5304af5ac939",
+      "name": "microbial biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b75cb57d80",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Microbial biomass values derived from the FE technique followed a gradient natural O restoredOcutover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f945c4908268",
+      "name": "CO2 production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7c98dae77a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Samples from the upper layer (depth A) of the restored site had greater cumulative CO 2 production than cutover sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4cc2c291b630",
+      "name": "CH4 production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0a2a17b15a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Methane production was detected at low but measurable rates in the natural and the restored samples, but not in the cutover peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c09e4de6f36f",
+      "name": "fungal respiration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_78c17c4cf9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "restoration of a cutover peatland resulted in an increase of fungal respiration in subsurface layers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:516b2acd6eed",
+      "name": "harvesting activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_06642cb967",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "harvesting activities had a signiﬁcant negative effect on the size of peat microbial biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f1d593de8d61",
+      "name": "microbial biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b75cb57d80",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "harvesting activities reduced signiﬁcantly the microbial biomass C in the peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0caa8357d16b",
+      "name": "CO2 production",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7c98dae77a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "cutover peatlands had lower potentials for CO 2 production compared to natural sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The highest values, recorded in the restored site, might be a consequence of the presence of soluble calcium in higher concentrations, possibly because of the phosphorus fertilization applied after restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00eb72add8be",
+      "name": "phosphorus fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e9132b536c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Phosphorus fertilization was applied by the end of June 2000"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d4c2156cd94",
+      "name": "available P",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a0ce2dc2b2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the increase in available P might have improved the ﬁxation of C and N in the microbial biomass"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:69390b2466c9",
+      "subject": "causal_mosaic:node:75c59729d687",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:88a261201ded",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration work included not only the blockage of drainage ditches, but also the reintroduction of plant material... the restored site had a good moss cover of 70%",
+      "source_spans": [
+        {
+          "text": "Restoration work included not only the blockage of drainage ditches, but also the reintroduction of plant material... the restored site had a good moss cover of 70%"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:070bec37407c",
+      "subject": "causal_mosaic:node:75c59729d687",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5304af5ac939",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Microbial biomass values derived from the FE technique followed a gradient natural O restoredOcutover",
+      "source_spans": [
+        {
+          "text": "Microbial biomass values derived from the FE technique followed a gradient natural O restoredOcutover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b107673bfbc5",
+      "subject": "causal_mosaic:node:75c59729d687",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f945c4908268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Samples from the upper layer (depth A) of the restored site had greater cumulative CO 2 production than cutover sites",
+      "source_spans": [
+        {
+          "text": "Samples from the upper layer (depth A) of the restored site had greater cumulative CO 2 production than cutover sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:637ee6030f30",
+      "subject": "causal_mosaic:node:75c59729d687",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4cc2c291b630",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Methane production was detected at low but measurable rates in the natural and the restored samples, but not in the cutover peat",
+      "source_spans": [
+        {
+          "text": "Methane production was detected at low but measurable rates in the natural and the restored samples, but not in the cutover peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:9ae2fcf99456",
+      "subject": "causal_mosaic:node:75c59729d687",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c09e4de6f36f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoration of a cutover peatland resulted in an increase of fungal respiration in subsurface layers",
+      "source_spans": [
+        {
+          "text": "restoration of a cutover peatland resulted in an increase of fungal respiration in subsurface layers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:290acbeb91e4",
+      "subject": "causal_mosaic:node:516b2acd6eed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f1d593de8d61",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "harvesting activities had a signiﬁcant negative effect on the size of peat microbial biomass... harvesting activities reduced signiﬁcantly the microbial biomass C in the peat",
+      "source_spans": [
+        {
+          "text": "harvesting activities had a signiﬁcant negative effect on the size of peat microbial biomass... harvesting activities reduced signiﬁcantly the microbial biomass C in the peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:28c1819fc181",
+      "subject": "causal_mosaic:node:516b2acd6eed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0caa8357d16b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cutover peatlands had lower potentials for CO 2 production compared to natural sites because of the low substrate quality remaining after exploitation",
+      "source_spans": [
+        {
+          "text": "cutover peatlands had lower potentials for CO 2 production compared to natural sites because of the low substrate quality remaining after exploitation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c742c73209b5",
+      "subject": "causal_mosaic:node:00eb72add8be",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c830811facfe",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The highest values, recorded in the restored site, might be a consequence of the presence of soluble calcium in higher concentrations, possibly because of the phosphorus fertilization applied after restoration",
+      "source_spans": [
+        {
+          "text": "The highest values, recorded in the restored site, might be a consequence of the presence of soluble calcium in higher concentrations, possibly because of the phosphorus fertilization applied after restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1f5c2a9b345e",
+      "subject": "causal_mosaic:node:3d4c2156cd94",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5304af5ac939",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "the increase in available P might have improved the ﬁxation of C and N in the microbial biomass",
+      "source_spans": [
+        {
+          "text": "the increase in available P might have improved the ﬁxation of C and N in the microbial biomass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.soilbio.2005.10.012",
+        "title": "The physicochemical and microbiological status of a restored bog in Québec: Identification of relevant criteria to monitor success",
+        "year": 2006,
+        "authors": [
+          "Andersen, Roxane",
+          "Francez, André-Jean",
+          "Rochefort, Line"
+        ],
+        "journal": "Soil Biology and Biochemistry"
+      }
+    }
+  ]
+}

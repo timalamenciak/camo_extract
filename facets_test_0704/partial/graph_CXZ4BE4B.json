@@ -1,0 +1,376 @@
+{
+  "graph_id": "causal_mosaic:graph:a84a5fc28521",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T14:09:26.944097+00:00",
+    "source_corpus": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c10c19e14012",
+      "name": "Continuing metal toxicity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07063860a5",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Continuing metal toxicity appears to be the primary cause of the absence of some zooplankton species, particularly Daphnia spp. from metal-contaminated lakes."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:565a999185d0",
+      "name": "some zooplankton species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_13e7b0ebc4",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Continuing metal toxicity appears to be the primary cause of the absence of some zooplankton species, particularly Daphnia spp. from metal-contaminated lakes."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9d7f85cbf556",
+      "name": "decreased metal concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9fc29653b4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Examination of the data indicated that the species richness of crustacean zooplankton communities increased with decreased metal concentrations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1faddb1b3932",
+      "name": "species richness of crustacean zooplankton communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c09cd67b79",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Examination of the data indicated that the species richness of crustacean zooplankton communities increased with decreased metal concentrations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f05018289d13",
+      "name": "presence of planktivorous fish",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4f93158a0e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The abundance of large Daphnia species is usually low in the presence of planktivorous fish."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:009611916558",
+      "name": "abundance of large Daphnia species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6ad996a9ec",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The abundance of large Daphnia species is usually low in the presence of planktivorous fish."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66c4fcca5c5b",
+      "name": "Fish predation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6d92869118",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Fish predation forces zooplankton communities towards smaller-bodied species by selectively removing the larger-bodied forms."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de4579dabcfb",
+      "name": "larger-bodied forms",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_9a7a04054f",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "Fish predation forces zooplankton communities towards smaller-bodied species by selectively removing the larger-bodied forms."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f914346aa2bc",
+      "name": "Stocking of piscivorous fish species",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bb204d24bd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Stocking of piscivorous fish species may be needed to control planktivores and aid the reestablishment of typical zooplankton communities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5b8b876eee5",
+      "name": "reestablishment of typical zooplankton communities",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_12dd7d2910",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Stocking of piscivorous fish species may be needed to control planktivores and aid the reestablishment of typical zooplankton communities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9215bc10725b",
+      "name": "abundant perch",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_6b6032dcc4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "When populations of Daphnia spp. are first becoming established, the abundant perch characteristic of early fish population recovery can be a barrier to successful Daphnia colonization."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:74973e347240",
+      "name": "Daphnia colonization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_31d515016d",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "When populations of Daphnia spp. are first becoming established, the abundant perch characteristic of early fish population recovery can be a barrier to successful Daphnia colonization."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:0a1155532eb1",
+      "subject": "causal_mosaic:node:c10c19e14012",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:565a999185d0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Continuing metal toxicity appears to be the primary cause of the absence of some zooplankton species, particularly Daphnia spp. from metal-contaminated lakes.",
+      "source_spans": [
+        {
+          "text": "Continuing metal toxicity appears to be the primary cause of the absence of some zooplankton species, particularly Daphnia spp. from metal-contaminated lakes."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12013",
+        "title": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+        "year": 2013,
+        "authors": [
+          "Webster, Natalie I.",
+          "Keller, Wendel B.",
+          "Ramcharan, Charles W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5909d45702b9",
+      "subject": "causal_mosaic:node:9d7f85cbf556",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1faddb1b3932",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Examination of the data indicated that the species richness of crustacean zooplankton communities increased with decreased metal concentrations.",
+      "source_spans": [
+        {
+          "text": "Examination of the data indicated that the species richness of crustacean zooplankton communities increased with decreased metal concentrations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12013",
+        "title": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+        "year": 2013,
+        "authors": [
+          "Webster, Natalie I.",
+          "Keller, Wendel B.",
+          "Ramcharan, Charles W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b585cc1a3928",
+      "subject": "causal_mosaic:node:f05018289d13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:009611916558",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The abundance of large Daphnia species is usually low in the presence of planktivorous fish.",
+      "source_spans": [
+        {
+          "text": "The abundance of large Daphnia species is usually low in the presence of planktivorous fish."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12013",
+        "title": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+        "year": 2013,
+        "authors": [
+          "Webster, Natalie I.",
+          "Keller, Wendel B.",
+          "Ramcharan, Charles W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fd186f37d27f",
+      "subject": "causal_mosaic:node:66c4fcca5c5b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de4579dabcfb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Fish predation forces zooplankton communities towards smaller-bodied species by selectively removing the larger-bodied forms.",
+      "source_spans": [
+        {
+          "text": "Fish predation forces zooplankton communities towards smaller-bodied species by selectively removing the larger-bodied forms."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12013",
+        "title": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+        "year": 2013,
+        "authors": [
+          "Webster, Natalie I.",
+          "Keller, Wendel B.",
+          "Ramcharan, Charles W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1dd2c510645b",
+      "subject": "causal_mosaic:node:f914346aa2bc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b5b8b876eee5",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stocking of piscivorous fish species may be needed to control planktivores and aid the reestablishment of typical zooplankton communities.",
+      "source_spans": [
+        {
+          "text": "Stocking of piscivorous fish species may be needed to control planktivores and aid the reestablishment of typical zooplankton communities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12013",
+        "title": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+        "year": 2013,
+        "authors": [
+          "Webster, Natalie I.",
+          "Keller, Wendel B.",
+          "Ramcharan, Charles W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:50b36f9c9a4f",
+      "subject": "causal_mosaic:node:9215bc10725b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:74973e347240",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "When populations of Daphnia spp. are first becoming established, the abundant perch characteristic of early fish population recovery can be a barrier to successful Daphnia colonization.",
+      "source_spans": [
+        {
+          "text": "When populations of Daphnia spp. are first becoming established, the abundant perch characteristic of early fish population recovery can be a barrier to successful Daphnia colonization."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12013",
+        "title": "Restoration of Zooplankton Communities in Industrially Damaged Lakes: Influences of Residual Metal Contamination and the Recovery of Fish Communities",
+        "year": 2013,
+        "authors": [
+          "Webster, Natalie I.",
+          "Keller, Wendel B.",
+          "Ramcharan, Charles W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

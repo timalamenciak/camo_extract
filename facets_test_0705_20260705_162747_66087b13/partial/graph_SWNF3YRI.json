@@ -1,0 +1,570 @@
+{
+  "graph_id": "causal_mosaic:graph:1f2233229f36",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T08:11:12.370733+00:00",
+    "source_corpus": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:111d59e34725",
+      "name": "Forest floor mixing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a03bcd3c5f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "forest floor mixing",
+          "start_char": 76,
+          "end_char": 95,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37f5c916d26e",
+      "name": "Seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a871a59de06f",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil moisture was significantly higher (48%) in mixed plots than in nonmixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "Soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil-mixed plots had significantly higher... pH... than nonmixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55ff5e2a457f",
+      "name": "Litter decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9d115e46b7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Litter mass loss was significantly higher (21.5%) in mixed plots than nonmixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:faa376a419b2",
+      "name": "ECM formation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8ce20f5aa3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Inoculated seedlings had significantly higher initial ECM formation than the control seedlings",
+          "start_char": 1550,
+          "end_char": 1644,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:907d248cec11",
+      "name": "Foliar nutrient concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e4cc958d5f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher... foliar nutrient concentrations than nonmixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cdeef26502db",
+      "name": "Total N concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fe1ce192a3",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Forest floors in non-mixed plots had significantly higher total N... than the soil mixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:707dd28b99f7",
+      "name": "Total C concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_609580c833",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Forest floors in non-mixed plots had significantly higher... C... than the soil mixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5f2581f86405",
+      "name": "Insect-defoliated sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1e534289a6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Seedlings in insect-defoliated sites had significantly higher increases in height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b894d59cceb",
+      "name": "Mycorrhizal inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dabd3c5f2a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mycorrhizal inoculation",
+          "start_char": 100,
+          "end_char": 123,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4ebb58e1a80",
+      "name": "Foliar P concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3b65fc8771",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "foliar P concentration of inoculated seedlings was significantly greater (19.3%) than that of control seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ef716f62be4",
+      "name": "Fe concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cb8a63e6b2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil-mixed plots had significantly higher Fe... concentrations... than nonmixed plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7077a0046d97",
+      "name": "Al concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c7ac9681d5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil-mixed plots had significantly higher... Al... concentrations... than nonmixed plots"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:38f50a0c2a25",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition.",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:cb6f0aabfdb9",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a871a59de06f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil moisture was significantly higher (48%) in mixed plots than in nonmixed plots",
+      "source_spans": [
+        {
+          "text": "Soil moisture was significantly higher (48%) in mixed plots than in nonmixed plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d7c18f9e3760",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c830811facfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil-mixed plots had significantly higher Fe and Al concentrations, as well as higher pH, than nonmixed plots.",
+      "source_spans": [
+        {
+          "text": "Soil-mixed plots had significantly higher Fe and Al concentrations, as well as higher pH, than nonmixed plots."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:71531e03a930",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55ff5e2a457f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Litter mass loss was significantly higher (21.5%) in mixed plots than nonmixed plots",
+      "source_spans": [
+        {
+          "text": "Litter mass loss was significantly higher (21.5%) in mixed plots than nonmixed plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2e93fac31889",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cdeef26502db",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floors in non-mixed plots had significantly higher total N... than the soil mixed plots",
+      "source_spans": [
+        {
+          "text": "Forest floors in non-mixed plots had significantly higher total N... than the soil mixed plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:71869a181715",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:707dd28b99f7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floors in non-mixed plots had significantly higher... C... than the soil mixed plots",
+      "source_spans": [
+        {
+          "text": "Forest floors in non-mixed plots had significantly higher... C... than the soil mixed plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:10c810151549",
+      "subject": "causal_mosaic:node:8b894d59cceb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:faa376a419b2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Inoculated seedlings had significantly higher initial ECM formation than the control seedlings",
+      "source_spans": [
+        {
+          "text": "Inoculated seedlings had significantly higher initial ECM formation than the control seedlings",
+          "start_char": 1550,
+          "end_char": 1644,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:9b370e8d4545",
+      "subject": "causal_mosaic:node:8b894d59cceb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b4ebb58e1a80",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "foliar P concentration of inoculated seedlings was significantly greater (19.3%) than that of control seedlings",
+      "source_spans": [
+        {
+          "text": "foliar P concentration of inoculated seedlings was significantly greater (19.3%) than that of control seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1b9e2745a2f4",
+      "subject": "causal_mosaic:node:5f2581f86405",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites.",
+      "source_spans": [
+        {
+          "text": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4ac3d5c715bf",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ef716f62be4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil-mixed plots had significantly higher Fe... concentrations... than nonmixed plots",
+      "source_spans": [
+        {
+          "text": "Soil-mixed plots had significantly higher Fe... concentrations... than nonmixed plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:cd926399493b",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7077a0046d97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil-mixed plots had significantly higher... Al... concentrations... than nonmixed plots",
+      "source_spans": [
+        {
+          "text": "Soil-mixed plots had significantly higher... Al... concentrations... than nonmixed plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      }
+    }
+  ]
+}

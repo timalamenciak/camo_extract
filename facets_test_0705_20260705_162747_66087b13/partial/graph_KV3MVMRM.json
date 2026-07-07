@@ -1,0 +1,222 @@
+{
+  "graph_id": "causal_mosaic:graph:d94428ccaa66",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T12:42:00.948158+00:00",
+    "source_corpus": "Natural analogues of degraded ecosystems enhance conservation and reconstruction in extreme environments",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5a3f4f30af46",
+      "name": "alvar species addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8bb5e00465",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Resident communities doubled in species richness following alvar species addition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Resident communities doubled in species richness following alvar species addition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ed6cc151d006",
+      "name": "colonization success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d9fbc8fd0",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "colonization success",
+      "source_spans": [
+        {
+          "text": "Plots receiving alvar species exhibited greater PRR and CD when seed addition was accompanied by the low-nutrient substrate amendment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:493a86a47d69",
+      "name": "low-nutrient substrate amendment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_294ce6a976",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Plots receiving alvar species exhibited greater PRR and CD when seed addition was accompanied by the low-nutrient substrate amendment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c0b57bf25136",
+      "name": "removal of potential competitors",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2ab9e44c8a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "CD in plots in which potential competitors were removed... was significantly greater"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5abd694eb230",
+      "subject": "causal_mosaic:node:5a3f4f30af46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Resident communities doubled in species richness following alvar species addition",
+      "source_spans": [
+        {
+          "text": "Resident communities doubled in species richness following alvar species addition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/08-1092.1",
+        "title": "Natural analogues of degraded ecosystems enhance conservation and reconstruction in extreme environments",
+        "year": 2010,
+        "authors": [
+          "Richardson, Paul J.",
+          "Lundholm, Jeremy T.",
+          "Larson, Douglas W."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:012bd24801b9",
+      "subject": "causal_mosaic:node:5a3f4f30af46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed6cc151d006",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plots receiving alvar species exhibited greater PRR and CD when seed addition was accompanied by the low-nutrient substrate amendment",
+      "source_spans": [
+        {
+          "text": "Plots receiving alvar species exhibited greater PRR and CD when seed addition was accompanied by the low-nutrient substrate amendment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/08-1092.1",
+        "title": "Natural analogues of degraded ecosystems enhance conservation and reconstruction in extreme environments",
+        "year": 2010,
+        "authors": [
+          "Richardson, Paul J.",
+          "Lundholm, Jeremy T.",
+          "Larson, Douglas W."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e72846055215",
+      "subject": "causal_mosaic:node:493a86a47d69",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed6cc151d006",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plots receiving alvar species exhibited greater PRR and CD when seed addition was accompanied by the low-nutrient substrate amendment",
+      "source_spans": [
+        {
+          "text": "Plots receiving alvar species exhibited greater PRR and CD when seed addition was accompanied by the low-nutrient substrate amendment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/08-1092.1",
+        "title": "Natural analogues of degraded ecosystems enhance conservation and reconstruction in extreme environments",
+        "year": 2010,
+        "authors": [
+          "Richardson, Paul J.",
+          "Lundholm, Jeremy T.",
+          "Larson, Douglas W."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a32d0f1f83c",
+      "subject": "causal_mosaic:node:c0b57bf25136",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed6cc151d006",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "CD in plots in which potential competitors were removed... was significantly greater",
+      "source_spans": [
+        {
+          "text": "CD in plots in which potential competitors were removed... was significantly greater"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/08-1092.1",
+        "title": "Natural analogues of degraded ecosystems enhance conservation and reconstruction in extreme environments",
+        "year": 2010,
+        "authors": [
+          "Richardson, Paul J.",
+          "Lundholm, Jeremy T.",
+          "Larson, Douglas W."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

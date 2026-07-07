@@ -1,0 +1,415 @@
+{
+  "graph_id": "causal_mosaic:graph:9adb4966fb1f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T17:44:34.856578+00:00",
+    "source_corpus": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0dcece02f535",
+      "name": "Fine particulate organic matter (FPOM) quantity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0eb2da05cd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "amount of fine particulate organic matter (FPOM)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:82f8a64e3c2c",
+      "name": "Diversity of macroinvertebrate families",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_85cb477961",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "diversity of nearshore macroinvertebrate families"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:41b1a22e7783",
+      "name": "Forest area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0affa52232",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "absolute forest area (m2)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea7ffc28d111",
+      "name": "Wetland area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_23470d0f37",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "surface area of wetland",
+          "start_char": 1449,
+          "end_char": 1472,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c66e42f46524",
+      "name": "Proportion of FPOM",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a164d0c7bb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "relative amount of FPOM (percentage of total particulate material)",
+          "start_char": 1354,
+          "end_char": 1420,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4f95a2125a2",
+      "name": "Restoration of forests and wetlands",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fa5d560a6e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "restoration of forests and wetlands",
+          "start_char": 1609,
+          "end_char": 1644,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a308f9c201ae",
+      "name": "Water PC1",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9554b7d1a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Water PC1",
+          "start_char": 27034,
+          "end_char": 27043,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aff25f83d55d",
+      "name": "Leaf litter breakdown (coarse-mesh)",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_dd8a915eb1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Leaf litter breakdown (percent mass loss) in the coarse-mesh leaf packs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cce563d631b",
+      "name": "Macrophyte cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0492a4269",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "macrophyte cover on the deltas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d897cc953608",
+      "name": "FPIM",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf61051381",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "FPIM",
+          "start_char": 11155,
+          "end_char": 11159,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d485fcdea8f",
+      "name": "Leaf litter breakdown (fine-mesh)",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7ab341e90f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Breakdown (percent mass loss) in fine-mesh leaf packs"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9f7cdac86fbf",
+      "subject": "causal_mosaic:node:0dcece02f535",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:82f8a64e3c2c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stepwise multiple regressions revealed that diversity of nearshore macroinvertebrate families increased with the amount of fine particulate organic matter (FPOM) captured in sediment traps.",
+      "source_spans": [
+        {
+          "text": "Stepwise multiple regressions revealed that diversity of nearshore macroinvertebrate families increased with the amount of fine particulate organic matter (FPOM) captured in sediment traps."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7c7372b62169",
+      "subject": "causal_mosaic:node:41b1a22e7783",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dcece02f535",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The amount of FPOM increased with absolute forest area (m2) in the catchment",
+      "source_spans": [
+        {
+          "text": "The amount of FPOM increased with absolute forest area (m2) in the catchment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:84ea3a7af76f",
+      "subject": "causal_mosaic:node:ea7ffc28d111",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c66e42f46524",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Catchments with higher wetland area (m2) exported a higher amount of particulate material to the deltas. This single variable explained more than 40 % of the variation in proportion of FPOM",
+      "source_spans": [
+        {
+          "text": "Catchments with higher wetland area (m2) exported a higher amount of particulate material to the deltas. This single variable explained more than 40 % of the variation in proportion of FPOM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3e8c8707b565",
+      "subject": "causal_mosaic:node:b4f95a2125a2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:82f8a64e3c2c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This study shows that forests and wetlands promote macroinvertebrate diversity and function through the subsidy of fine particulate organic matter.",
+      "source_spans": [
+        {
+          "text": "This study shows that forests and wetlands promote macroinvertebrate diversity and function through the subsidy of fine particulate organic matter."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2c702ace6290",
+      "subject": "causal_mosaic:node:a308f9c201ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aff25f83d55d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Leaf litter breakdown (percent mass loss) in the coarse-mesh leaf packs increased with Water PC1",
+      "source_spans": [
+        {
+          "text": "Leaf litter breakdown (percent mass loss) in the coarse-mesh leaf packs increased with Water PC1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:380e00077896",
+      "subject": "causal_mosaic:node:6cce563d631b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aff25f83d55d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Leaf litter breakdown (percent mass loss) in the coarse-mesh leaf packs increased with Water PC1 and macrophyte cover on the deltas",
+      "source_spans": [
+        {
+          "text": "Leaf litter breakdown (percent mass loss) in the coarse-mesh leaf packs increased with Water PC1 and macrophyte cover on the deltas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1cf1d2fddd03",
+      "subject": "causal_mosaic:node:d897cc953608",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8d485fcdea8f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Breakdown (percent mass loss) in fine-mesh leaf packs increased with decreasing FPIM",
+      "source_spans": [
+        {
+          "text": "Breakdown (percent mass loss) in fine-mesh leaf packs increased with decreasing FPIM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/10-1967.1",
+        "title": "Terrestrial organic matter as subsidies that aid in the recovery of macroinvertebrates in industrially damaged lakes",
+        "year": 2011,
+        "authors": [
+          "Szkokan-Emilson, E. J.",
+          "Wesolek, B. E.",
+          "Gunn, J. M."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

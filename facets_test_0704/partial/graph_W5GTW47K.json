@@ -1,0 +1,371 @@
+{
+  "graph_id": "causal_mosaic:graph:2eb7200148bb",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T11:18:03.976524+00:00",
+    "source_corpus": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:1abaf131e9e7",
+      "name": "Riparian habitat restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_50ebe84a3f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b0758a70a5c",
+      "name": "availability and occupancy of Yellow-breasted Chat territories",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7603e4c655",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:427422b78c30",
+      "name": "brood parasitism",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e336800463",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "brood parasitism is the primary influence on reproductive performance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:714a6f0c20ff",
+      "name": "reproductive performance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f440103f67",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "brood parasitism is the primary influence on reproductive performance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3cdc3b2af13c",
+      "name": "daily nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_25718c1bad",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "parasitized nests had lower daily nest survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e1d8ebeadf1",
+      "name": "chat abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b65c04cfc5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "chat abundance increased so markedly in restoration sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:73b89065224b",
+      "name": "removing cowbird egg(s) or nestling(s)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b89023e1e1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "removing cowbird egg(s) or nestling(s) improved daily nest survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b703e65f135",
+      "name": "shrub cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_329a66141a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased shrub cover"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:fac40d46698c",
+      "subject": "causal_mosaic:node:1abaf131e9e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b0758a70a5c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories",
+      "source_spans": [
+        {
+          "text": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1b9ba6f407ca",
+      "subject": "causal_mosaic:node:1abaf131e9e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7e1d8ebeadf1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "chat abundance increased so markedly in restoration sites",
+      "source_spans": [
+        {
+          "text": "chat abundance increased so markedly in restoration sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aa6f5966741c",
+      "subject": "causal_mosaic:node:427422b78c30",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:714a6f0c20ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "brood parasitism is the primary influence on reproductive performance",
+      "source_spans": [
+        {
+          "text": "brood parasitism is the primary influence on reproductive performance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d88676cd1d40",
+      "subject": "causal_mosaic:node:427422b78c30",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3cdc3b2af13c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "parasitized nests had lower daily nest survival",
+      "source_spans": [
+        {
+          "text": "parasitized nests had lower daily nest survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4d5b33ac9efa",
+      "subject": "causal_mosaic:node:73b89065224b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3cdc3b2af13c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "removing cowbird egg(s) or nestling(s) improved daily nest survival",
+      "source_spans": [
+        {
+          "text": "removing cowbird egg(s) or nestling(s) improved daily nest survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5aab5646a86f",
+      "subject": "causal_mosaic:node:1abaf131e9e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3cdc3b2af13c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "daily nest survival was actually lower in restoration sites",
+      "source_spans": [
+        {
+          "text": "daily nest survival was actually lower in restoration sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:125c49eae7f6",
+      "subject": "causal_mosaic:node:0b703e65f135",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b0758a70a5c",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "chats preferred territories with high shrub cover",
+      "source_spans": [
+        {
+          "text": "chats preferred territories with high shrub cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/condor/duaa038",
+        "title": "Riparian habitat restoration increases the availability and occupancy of Yellow-breasted Chat territories but brood parasitism is the primary influence on reproductive performance",
+        "year": 2020,
+        "authors": [
+          "Forrester, Timothy R",
+          "Green, David J",
+          "McKibbin, René",
+          "Bezener, A Michael",
+          "Bishop, Christine A"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

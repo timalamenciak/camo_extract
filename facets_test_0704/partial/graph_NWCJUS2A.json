@@ -1,0 +1,456 @@
+{
+  "graph_id": "causal_mosaic:graph:341fd796339f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T06:11:48.255323+00:00",
+    "source_corpus": "Early boreal forest understory plant community development in reclaimed oil sands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:2fc0ce0e28ef",
+      "name": "Forest ﬂoor mineral mix (FMM)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e4413bb859",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Forest ﬂoor mineral mix (FMM)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61736623831d",
+      "name": "Peat mineral mix (PMM)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_61daeb3e85",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Peat mineral mix (PMM)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "FMM soil having greater species richness",
+          "start_char": 1008,
+          "end_char": 1048,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4be9e32ec5c",
+      "name": "Diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5191936117",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "FMM soil having greater... diversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa4e07c1ff55",
+      "name": "Total vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c1804842da",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "total vegetation cover",
+      "source_spans": [
+        {
+          "text": "FMM soil having greater... total vegetation cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e17b4ac0a74a",
+      "name": "Native species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a5a2a0c799",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Native species cover",
+      "source_spans": [
+        {
+          "text": "Native species cover increased with time",
+          "start_char": 16871,
+          "end_char": 16911,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cfa6653ee89b",
+      "name": "Non-native species cover in FMM",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77d106864e",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "Non-native species",
+      "source_spans": [
+        {
+          "text": "Non-native species declined with time in FMM",
+          "start_char": 1560,
+          "end_char": 1604,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4a6c53e7a99",
+      "name": "Non-native species cover in PMM",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77d106864e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Non-native species",
+      "source_spans": [
+        {
+          "text": "increased in PMM",
+          "start_char": 1618,
+          "end_char": 1634,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:14ecd37473cd",
+      "name": "Vegetation recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c088c7516b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "FMM cover soil leads to faster vegetation recovery",
+          "start_char": 1423,
+          "end_char": 1473,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:68a8d3b0d246",
+      "name": "Time since reclamation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9b8b5d4c1",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "time since reclamation",
+          "start_char": 3094,
+          "end_char": 3116,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:cb63bbf3f723",
+      "subject": "causal_mosaic:node:2fc0ce0e28ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cover soil type played a signi ﬁcant role in plant community development with FMM soil having greater species richness, diversity and total vegetation cover than PMM four years after reclamation.",
+      "source_spans": [
+        {
+          "text": "Cover soil type played a signi ﬁcant role in plant community development with FMM soil having greater species richness, diversity and total vegetation cover than PMM four years after reclamation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f778bf794bcf",
+      "subject": "causal_mosaic:node:2fc0ce0e28ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b4be9e32ec5c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cover soil type played a signi ﬁcant role in plant community development with FMM soil having greater species richness, diversity and total vegetation cover than PMM four years after reclamation.",
+      "source_spans": [
+        {
+          "text": "Cover soil type played a signi ﬁcant role in plant community development with FMM soil having greater species richness, diversity and total vegetation cover than PMM four years after reclamation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bdb77614e508",
+      "subject": "causal_mosaic:node:2fc0ce0e28ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aa4e07c1ff55",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cover soil type played a signi ﬁcant role in plant community development with FMM soil having greater species richness, diversity and total vegetation cover than PMM four years after reclamation.",
+      "source_spans": [
+        {
+          "text": "Cover soil type played a signi ﬁcant role in plant community development with FMM soil having greater species richness, diversity and total vegetation cover than PMM four years after reclamation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ecd565f54410",
+      "subject": "causal_mosaic:node:2fc0ce0e28ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:14ecd37473cd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This implies that FMM cover soil leads to faster vegetation recovery (from ruderal and annual communities to perennial communities) than PMM cover soil.",
+      "source_spans": [
+        {
+          "text": "This implies that FMM cover soil leads to faster vegetation recovery (from ruderal and annual communities to perennial communities) than PMM cover soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4795db80361e",
+      "subject": "causal_mosaic:node:61736623831d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4a6c53e7a99",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The PMM had greater non-native cover in both years (2 yr = 9, 4 yr = 13%) than the FMM (2 yr = 8, 4 yr = 4%) ( Fig. 2b).",
+      "source_spans": [
+        {
+          "text": "The PMM had greater non-native cover in both years (2 yr = 9, 4 yr = 13%) than the FMM (2 yr = 8, 4 yr = 4%) ( Fig. 2b)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bf2a573b3c91",
+      "subject": "causal_mosaic:node:68a8d3b0d246",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e17b4ac0a74a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Native species cover increased with time in both PMM (2 yr = 7, 4 yr = 15%) and FMM (2 yr = 5%, 4 yr = 30%) ( Fig. 2 a).",
+      "source_spans": [
+        {
+          "text": "Native species cover increased with time in both PMM (2 yr = 7, 4 yr = 15%) and FMM (2 yr = 5%, 4 yr = 30%) ( Fig. 2 a)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:89477f2370bc",
+      "subject": "causal_mosaic:node:68a8d3b0d246",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cfa6653ee89b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Non-native species declined with time in FMM (7.5–4%) and increased in PMM (8.9– 12.5%).",
+      "source_spans": [
+        {
+          "text": "Non-native species declined with time in FMM (7.5–4%) and increased in PMM (8.9– 12.5%)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e7eed896b59",
+      "subject": "causal_mosaic:node:68a8d3b0d246",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4a6c53e7a99",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Non-native species declined with time in FMM (7.5–4%) and increased in PMM (8.9– 12.5%).",
+      "source_spans": [
+        {
+          "text": "Non-native species declined with time in FMM (7.5–4%) and increased in PMM (8.9– 12.5%)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.106014",
+        "title": "Early boreal forest understory plant community development in reclaimed oil sands",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Vassov, Robert"
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

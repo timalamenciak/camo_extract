@@ -1,0 +1,637 @@
+{
+  "graph_id": "causal_mosaic:graph:fdd37a842e74",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T21:46:30.394451+00:00",
+    "source_corpus": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a7a17cb714f0",
+      "name": "Siltation and removal of fish spawning habitats, altered hydrological conditions disconnecting floodplains from river channels, and water pollution",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b5e924532e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Siltation and removal of fish spawning habitats, altered hydrological conditions disconnecting floodplains from river channels, and water pollution have reduced the reproductive capacity of large river systems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3ec3cf24c38b",
+      "name": "reproductive capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f15c041d2d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "reproductive capacity",
+      "source_spans": [
+        {
+          "text": "Siltation and removal of fish spawning habitats, altered hydrological conditions disconnecting floodplains from river channels, and water pollution have reduced the reproductive capacity of large river systems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9f87d9199c2",
+      "name": "overfishing and the removal of more than 46 million m3 of substrates",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c3395ef2c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "By 1925, overfishing and the removal of more than 46 million m3 of substrates from the Detroit River... and a like amount of substrates from the St. Clair River... greatly reduced the amount of spawning habitat and fish populations in these rivers."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0a916c91e7ad",
+      "name": "spawning habitat and fish populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc9e27b7f9",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "spawning habitat and fish populations",
+      "source_spans": [
+        {
+          "text": "By 1925, overfishing and the removal of more than 46 million m3 of substrates from the Detroit River... and a like amount of substrates from the St. Clair River... greatly reduced the amount of spawning habitat and fish populations in these rivers."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fee7e0581f5",
+      "name": "Livingstone Channel project",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_30c94d1741",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Particularly damaging was the Livingstone Channel project... destroyed many hectares of fish spawning grounds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b93ecc6665fb",
+      "name": "fish spawning grounds",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5e18dbffdc",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "fish spawning grounds",
+      "source_spans": [
+        {
+          "text": "Particularly damaging was the Livingstone Channel project... destroyed many hectares of fish spawning grounds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cdf343a1ee67",
+      "name": "adaptive management approach",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3d0b1edc72",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Using an adaptive management approach, we created 1,100m2 of productive fish spawning habitat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:016c5e000a16",
+      "name": "productive fish spawning habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1499ad264c",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "productive fish spawning habitat",
+      "source_spans": [
+        {
+          "text": "Using an adaptive management approach, we created 1,100m2 of productive fish spawning habitat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d09ddc42d4a7",
+      "name": "man-made reefs at Belle Isle",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_59b4a68b8f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Post-construction fisheries assessments conducted since 2004 have revealed that 14 species of fish... spawned on the man-made reefs at Belle Isle"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:795d1b75c4f2",
+      "name": "fish spawning",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ec3321317d",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "fish spawning",
+      "source_spans": [
+        {
+          "text": "Post-construction fisheries assessments conducted since 2004 have revealed that 14 species of fish... spawned on the man-made reefs at Belle Isle"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:956f16259599",
+      "name": "reefs at Fighting Island",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_83c8a4f8d8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "These reefs were promptly used for reproduction by A. fulvescens, S. vitreus, and C. clupeaformis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:da9481702c2e",
+      "name": "reproduction by A. fulvescens, S. vitreus, and C. clupeaformis",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a8023acf77",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "reproduction",
+      "source_spans": [
+        {
+          "text": "These reefs were promptly used for reproduction by A. fulvescens, S. vitreus, and C. clupeaformis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0373cea3ad99",
+      "name": "velocities were faster (>0.7msec−1)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_320e2dba28",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Spawning habitat on the west side of the channel, where velocities were faster (>0.7msec−1), remained viable with no evidence of infilling."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d98e6a87378b",
+      "name": "spawning habitat viability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f77da226d7",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "AFO:_0000169",
+      "source_spans": [
+        {
+          "text": "Spawning habitat on the west side of the channel, where velocities were faster (>0.7msec−1), remained viable with no evidence of infilling."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb3d4af1b17a",
+      "name": "reef placement",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b090b9326e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "small differences in reef placement within a channel can influence infilling with sediment and reef performance."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d5a3a87c13fb",
+      "name": "infilling",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b9822654c2",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "infilling",
+      "source_spans": [
+        {
+          "text": "small differences in reef placement within a channel can influence infilling with sediment and reef performance."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9a3cdc262d52",
+      "name": "identify and avoid depositional zones",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_09a83287b4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sites selected for future reef restoration have lower potential for infilling, due to the team’s ability to identify and avoid depositional zones"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:899c6b77f70e",
+      "name": "potential for infilling",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e43533fd1b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "potential for infilling",
+      "source_spans": [
+        {
+          "text": "Sites selected for future reef restoration have lower potential for infilling, due to the team’s ability to identify and avoid depositional zones"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:19f01f808473",
+      "subject": "causal_mosaic:node:a7a17cb714f0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3ec3cf24c38b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Siltation and removal of fish spawning habitats, altered hydrological conditions disconnecting floodplains from river channels, and water pollution have reduced the reproductive capacity of large river systems",
+      "source_spans": [
+        {
+          "text": "Siltation and removal of fish spawning habitats, altered hydrological conditions disconnecting floodplains from river channels, and water pollution have reduced the reproductive capacity of large river systems"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ffe8963b6e9d",
+      "subject": "causal_mosaic:node:e9f87d9199c2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0a916c91e7ad",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "By 1925, overfishing and the removal of more than 46 million m3 of substrates from the Detroit River... and a like amount of substrates from the St. Clair River... greatly reduced the amount of spawning habitat and fish populations in these rivers.",
+      "source_spans": [
+        {
+          "text": "By 1925, overfishing and the removal of more than 46 million m3 of substrates from the Detroit River... and a like amount of substrates from the St. Clair River... greatly reduced the amount of spawning habitat and fish populations in these rivers."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac654e386997",
+      "subject": "causal_mosaic:node:8fee7e0581f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b93ecc6665fb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Particularly damaging was the Livingstone Channel project... destroyed many hectares of fish spawning grounds",
+      "source_spans": [
+        {
+          "text": "Particularly damaging was the Livingstone Channel project... destroyed many hectares of fish spawning grounds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d57e0ea41ab9",
+      "subject": "causal_mosaic:node:cdf343a1ee67",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:016c5e000a16",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Using an adaptive management approach, we created 1,100m2 of productive fish spawning habitat",
+      "source_spans": [
+        {
+          "text": "Using an adaptive management approach, we created 1,100m2 of productive fish spawning habitat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9442dde36578",
+      "subject": "causal_mosaic:node:d09ddc42d4a7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:795d1b75c4f2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Post-construction fisheries assessments conducted since 2004 have revealed that 14 species of fish... spawned on the man-made reefs at Belle Isle",
+      "source_spans": [
+        {
+          "text": "Post-construction fisheries assessments conducted since 2004 have revealed that 14 species of fish... spawned on the man-made reefs at Belle Isle"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08ca402f7b81",
+      "subject": "causal_mosaic:node:956f16259599",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:da9481702c2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These reefs were promptly used for reproduction by A. fulvescens, S. vitreus, and C. clupeaformis",
+      "source_spans": [
+        {
+          "text": "These reefs were promptly used for reproduction by A. fulvescens, S. vitreus, and C. clupeaformis"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4d187d4b6470",
+      "subject": "causal_mosaic:node:0373cea3ad99",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d98e6a87378b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Spawning habitat on the west side of the channel, where velocities were faster (>0.7msec−1), remained viable with no evidence of infilling.",
+      "source_spans": [
+        {
+          "text": "Spawning habitat on the west side of the channel, where velocities were faster (>0.7msec−1), remained viable with no evidence of infilling."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:76cb9eb52087",
+      "subject": "causal_mosaic:node:bb3d4af1b17a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d5a3a87c13fb",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "small differences in reef placement within a channel can influence infilling with sediment and reef performance.",
+      "source_spans": [
+        {
+          "text": "small differences in reef placement within a channel can influence infilling with sediment and reef performance."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1d826e862952",
+      "subject": "causal_mosaic:node:9a3cdc262d52",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:899c6b77f70e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sites selected for future reef restoration have lower potential for infilling, due to the team’s ability to identify and avoid depositional zones",
+      "source_spans": [
+        {
+          "text": "Sites selected for future reef restoration have lower potential for infilling, due to the team’s ability to identify and avoid depositional zones"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "case_study"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12159",
+        "title": "A scientific basis for restoring fish spawning habitat in the St. Clair and Detroit Rivers of the Laurentian Great Lakes",
+        "year": 2015,
+        "authors": [
+          "Manny, Bruce A.",
+          "Roseman, Edward F.",
+          "Kennedy, Gregory",
+          "Boase, James C.",
+          "Craig, Jaquelyn M.",
+          "Bennion, David H.",
+          "Read, Jennifer",
+          "Vaccaro, Lynn",
+          "Chiotti, Justin",
+          "Drouin, Richard",
+          "Ellison, Rosanne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "graph_id": "causal_mosaic:graph:0863fcae4990",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T01:43:01.028393+00:00",
+    "source_corpus": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:87089d094140",
+      "name": "Natural regeneration on seismic lines",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6c9e756c74",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e9dd1e5822d",
+      "name": "Movement behaviour of wolves and grizzly bears",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ce5db4b87f",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:efbd74c27c7d",
+      "name": "Seismic lines",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_74dfebbbd0",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Seismic lines facilitate predator movement"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69a76e85d3c1",
+      "name": "Predator movement",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cdf8aa277d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seismic lines facilitate predator movement"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00624bd80fac",
+      "name": "Wolves",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_cc010dfa32",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "During summer, wolves moved towards seismic lines with lower vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9a546f2bd97",
+      "name": "Wolf movement towards seismic lines with lower vegetation height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c818b766f2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "During summer, wolves moved towards seismic lines with lower vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2d52d4d5d591",
+      "name": "Wolf movement rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9649d335c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "wolves moved faster near seismic lines with vegetation <0.7 m"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3b6f0b8a9dea",
+      "name": "Grizzly bears",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_2339b5e496",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Seismic lines with lower vegetation height were preferred by grizzly bears during spring and summer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f1be818cf9dc",
+      "name": "Grizzly bear movement towards seismic lines with lower vegetation height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_69b2bf4c8a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "grizzly bear steps brought them closer to lower vegetation height seismic lines",
+          "start_char": 36139,
+          "end_char": 36218,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a5cbdfab5532",
+      "name": "Wolf movement behaviour",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1e9f6e015c",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "seismic lines continue to influence wolf movement behaviour decades after they were built"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4729289dc567",
+      "subject": "causal_mosaic:node:87089d094140",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:4e9dd1e5822d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+      "source_spans": [
+        {
+          "text": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0195480",
+        "title": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+        "year": 2018,
+        "authors": [
+          "Finnegan, Laura",
+          "Pigeon, Karine E.",
+          "Cranston, Jerome",
+          "Hebblewhite, Mark",
+          "Musiani, Marco",
+          "Neufeld, Lalenia",
+          "Schmiegelow, Fiona",
+          "Duval, Julie",
+          "Stenhouse, Gordon B."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[0].predicate: unknown 'influences' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:29a491b344c9",
+      "subject": "causal_mosaic:node:efbd74c27c7d",
+      "predicate": "enables",
+      "object": "causal_mosaic:node:69a76e85d3c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seismic lines facilitate predator movement",
+      "source_spans": [
+        {
+          "text": "Seismic lines facilitate predator movement"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0195480",
+        "title": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+        "year": 2018,
+        "authors": [
+          "Finnegan, Laura",
+          "Pigeon, Karine E.",
+          "Cranston, Jerome",
+          "Hebblewhite, Mark",
+          "Musiani, Marco",
+          "Neufeld, Lalenia",
+          "Schmiegelow, Fiona",
+          "Duval, Julie",
+          "Stenhouse, Gordon B."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[1].predicate: 'facilitates' -> 'enables'"
+    },
+    {
+      "id": "causal_mosaic:edge:a173b1ed2cc8",
+      "subject": "causal_mosaic:node:00624bd80fac",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:e9a546f2bd97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "During summer, wolves moved towards seismic lines with lower vegetation",
+      "source_spans": [
+        {
+          "text": "During summer, wolves moved towards seismic lines with lower vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0195480",
+        "title": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+        "year": 2018,
+        "authors": [
+          "Finnegan, Laura",
+          "Pigeon, Karine E.",
+          "Cranston, Jerome",
+          "Hebblewhite, Mark",
+          "Musiani, Marco",
+          "Neufeld, Lalenia",
+          "Schmiegelow, Fiona",
+          "Duval, Julie",
+          "Stenhouse, Gordon B."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[2].predicate: unknown 'moves towards' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:8c01436b5994",
+      "subject": "causal_mosaic:node:00624bd80fac",
+      "predicate": "positively_regulates",
+      "object": "causal_mosaic:node:2d52d4d5d591",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "wolves moved faster near seismic lines with vegetation <0.7 m",
+      "source_spans": [
+        {
+          "text": "wolves moved faster near seismic lines with vegetation <0.7 m"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0195480",
+        "title": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+        "year": 2018,
+        "authors": [
+          "Finnegan, Laura",
+          "Pigeon, Karine E.",
+          "Cranston, Jerome",
+          "Hebblewhite, Mark",
+          "Musiani, Marco",
+          "Neufeld, Lalenia",
+          "Schmiegelow, Fiona",
+          "Duval, Julie",
+          "Stenhouse, Gordon B."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[3].predicate: 'increases' -> 'positively_regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:4b92fec77a61",
+      "subject": "causal_mosaic:node:3b6f0b8a9dea",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:f1be818cf9dc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seismic lines with lower vegetation height were preferred by grizzly bears during spring and summer",
+      "source_spans": [
+        {
+          "text": "Seismic lines with lower vegetation height were preferred by grizzly bears during spring and summer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0195480",
+        "title": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+        "year": 2018,
+        "authors": [
+          "Finnegan, Laura",
+          "Pigeon, Karine E.",
+          "Cranston, Jerome",
+          "Hebblewhite, Mark",
+          "Musiani, Marco",
+          "Neufeld, Lalenia",
+          "Schmiegelow, Fiona",
+          "Duval, Julie",
+          "Stenhouse, Gordon B."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[4].predicate: unknown 'prefers' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:1972801bcd2e",
+      "subject": "causal_mosaic:node:efbd74c27c7d",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:a5cbdfab5532",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seismic lines continue to influence wolf movement behaviour decades after they were built",
+      "source_spans": [
+        {
+          "text": "seismic lines continue to influence wolf movement behaviour decades after they were built"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0195480",
+        "title": "Natural regeneration on seismic lines influences movement behaviour of wolves and grizzly bears",
+        "year": 2018,
+        "authors": [
+          "Finnegan, Laura",
+          "Pigeon, Karine E.",
+          "Cranston, Jerome",
+          "Hebblewhite, Mark",
+          "Musiani, Marco",
+          "Neufeld, Lalenia",
+          "Schmiegelow, Fiona",
+          "Duval, Julie",
+          "Stenhouse, Gordon B."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[5].predicate: unknown 'influences' -> 'associated_with'"
+    }
+  ]
+}

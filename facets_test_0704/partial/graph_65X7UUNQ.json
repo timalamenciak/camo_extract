@@ -1,0 +1,408 @@
+{
+  "graph_id": "causal_mosaic:graph:1db9a88bd9a9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T04:24:33.643185+00:00",
+    "source_corpus": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a92ee8ecbc98",
+      "name": "extended conditioning period",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2cce0378e1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "suggesting that an extended conditioning period is beneficial from the standpoint of promoting philopatry."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e52309623e56",
+      "name": "dispersal distance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c74dd89cd0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48a1531c4b9c",
+      "name": "holding period length",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_06fbd7c1a4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "dispersal characteristics were affected by holding period length, with significantly lower dispersal distances seen in elk that were held for moderate periods."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:368f477e6f78",
+      "name": "dispersal direction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07c79c6ec8",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b30a8d394b24",
+      "name": "group demographics",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_88468a9561",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "elk movement characteristics are influenced by factors such as release protocol and group demographics"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:41a92b104284",
+      "name": "release area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5be8b68655",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bca135dcf954",
+      "name": "male calves",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_ca7e395e77",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "male calves remained in closer proximity (8.0 ± 13.2 km) to release sites than adult females"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:43fbae4e716e",
+      "name": "age class",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62ff9bae93",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "mean dispersal bearing also differed between sex/age groups"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:82a9987577b2",
+      "subject": "causal_mosaic:node:a92ee8ecbc98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e52309623e56",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "elk that were held for short periods prior to release (4–11 days) moved longer distances than those subject to extended conditioning (17–112 days), suggesting that an extended conditioning period is beneficial from the standpoint of promoting philopatry.",
+      "source_spans": [
+        {
+          "text": "elk that were held for short periods prior to release (4–11 days) moved longer distances than those subject to extended conditioning (17–112 days), suggesting that an extended conditioning period is beneficial from the standpoint of promoting philopatry."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c18e365920b5",
+      "subject": "causal_mosaic:node:48a1531c4b9c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e52309623e56",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "dispersal characteristics were affected by holding period length, with significantly lower dispersal distances seen in elk that were held for moderate periods.",
+      "source_spans": [
+        {
+          "text": "dispersal characteristics were affected by holding period length, with significantly lower dispersal distances seen in elk that were held for moderate periods."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7c7d24f9df00",
+      "subject": "causal_mosaic:node:48a1531c4b9c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:368f477e6f78",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Analysis of mean dispersal bearing revealed several significant differences between release groups",
+      "source_spans": [
+        {
+          "text": "Analysis of mean dispersal bearing revealed several significant differences between release groups"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0d8667d4ec1e",
+      "subject": "causal_mosaic:node:b30a8d394b24",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e52309623e56",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "elk movement characteristics are influenced by factors such as release protocol and group demographics",
+      "source_spans": [
+        {
+          "text": "elk movement characteristics are influenced by factors such as release protocol and group demographics"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8ed9b67df983",
+      "subject": "causal_mosaic:node:41a92b104284",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e52309623e56",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas",
+      "source_spans": [
+        {
+          "text": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3d4ccc7fcb36",
+      "subject": "causal_mosaic:node:41a92b104284",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:368f477e6f78",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas",
+      "source_spans": [
+        {
+          "text": "Mean dispersal distance ( F[3,340] = 3.018,p = 0.03) and dispersal direction ( F[3,337] = 33.439,p < 0.001) differed between the four release areas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02b043627f64",
+      "subject": "causal_mosaic:node:bca135dcf954",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e52309623e56",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "male calves remained in closer proximity (8.0 ± 13.2 km) to release sites than adult females",
+      "source_spans": [
+        {
+          "text": "male calves remained in closer proximity (8.0 ± 13.2 km) to release sites than adult females"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:030fd97b213f",
+      "subject": "causal_mosaic:node:43fbae4e716e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:368f477e6f78",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "mean dispersal bearing also differed between sex/age groups",
+      "source_spans": [
+        {
+          "text": "mean dispersal bearing also differed between sex/age groups"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2009.00523.x",
+        "title": "Postrelease Dispersal of Reintroduced Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada",
+        "year": 2010,
+        "authors": [
+          "Ryckman, Mark J.",
+          "Rosatte, Rick C.",
+          "McIntosh, Terese",
+          "Hamr, Josef",
+          "Jenkins, Deborah"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

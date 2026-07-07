@@ -1,0 +1,313 @@
+{
+  "graph_id": "causal_mosaic:graph:88aa2438fd6f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T09:12:45.039073+00:00",
+    "source_corpus": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:db1596db3c9c",
+      "name": "short fire return interval",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8cde9dd981",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "stands experiencing a short fire return interval (14–15 years)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:486993ad3d4e",
+      "name": "seed availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_094e804edb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "SI sites, which had lower counts of both total and viable black spruce seed than MF and LI sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9934eada0a7d",
+      "name": "black spruce recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dce39f604c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Recruitment was drastically reduced following two closely timed fires"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5de4598e38bf",
+      "name": "substrate quality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ae0dc9194d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "recruitment in unburned, mature forest stands is limited by substrate quality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:942134d8720a",
+      "name": "seed addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_af9a06236f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Adding black spruce seed resulted in significantly more seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8248c4257a28",
+      "name": "black spruce seedlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_957f9c11f0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "black spruce seedlings were significantly more abundant in hollows than on hummocks"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e18f1508898a",
+      "name": "microtopography",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_602239aef6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "microtopography",
+          "start_char": 8567,
+          "end_char": 8582,
+          "paragraph_id": "page:2"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6f01134e4b4d",
+      "subject": "causal_mosaic:node:db1596db3c9c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:486993ad3d4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SI sites, which had lower counts of both total and viable black spruce seed than MF and LI sites",
+      "source_spans": [
+        {
+          "text": "SI sites, which had lower counts of both total and viable black spruce seed than MF and LI sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9016bab84108",
+      "subject": "causal_mosaic:node:db1596db3c9c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9934eada0a7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Recruitment was drastically reduced following two closely timed fires",
+      "source_spans": [
+        {
+          "text": "Recruitment was drastically reduced following two closely timed fires"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0142bee15ebe",
+      "subject": "causal_mosaic:node:486993ad3d4e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9934eada0a7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "black spruce recruitment was limited by seed availability after a short fire return interval",
+      "source_spans": [
+        {
+          "text": "black spruce recruitment was limited by seed availability after a short fire return interval"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8fe76eb48cc",
+      "subject": "causal_mosaic:node:5de4598e38bf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9934eada0a7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "recruitment in unburned, mature forest stands is limited by substrate quality",
+      "source_spans": [
+        {
+          "text": "recruitment in unburned, mature forest stands is limited by substrate quality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:93340cd6ca38",
+      "subject": "causal_mosaic:node:942134d8720a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9934eada0a7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Adding black spruce seed resulted in significantly more seedlings than occurred due to natural recruitment",
+      "source_spans": [
+        {
+          "text": "Adding black spruce seed resulted in significantly more seedlings than occurred due to natural recruitment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:93622e60f6f5",
+      "subject": "causal_mosaic:node:e18f1508898a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8248c4257a28",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "black spruce seedlings were significantly more abundant in hollows than on hummocks",
+      "source_spans": [
+        {
+          "text": "black spruce seedlings were significantly more abundant in hollows than on hummocks"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

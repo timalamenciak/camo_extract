@@ -1,0 +1,1000 @@
+{
+  "graph_id": "causal_mosaic:graph:ead5fdf8a310",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T11:06:33.662088+00:00",
+    "source_corpus": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0950957e2fdf",
+      "name": "Pipeline construction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8cee2cef12",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Pipeline construction prior to 1997 typically required a right-of-way (ROW) of 15e30 m in width from which the topsoil was stripped"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f587d10a26df",
+      "name": "Topsoil depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1f957c247d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Topsoil was deeper on the controls than on the ROWs",
+          "start_char": 19103,
+          "end_char": 19154,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5df83c5a30f",
+      "name": "Bare soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001616",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the ROWs had more bare soil",
+          "start_char": 19171,
+          "end_char": 19198,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5117e5258c2",
+      "name": "Rangeland health",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3619ecdb06",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Estimates of rangeland health were higher on control plots than ROW plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:10931b38c104",
+      "name": "Introduced species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a38d760b0e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "All introduced species had greater cover on ROWs than on control plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d87086432c86",
+      "name": "Native species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_86fb7ffbcf",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "controls had greater cover by native forbs and graminoids overall than ROWs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e68c9075111",
+      "name": "Pipe diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_942d7ce023",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Pipe diameter varied from 1 1.4 to 107 cm"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f27b45d04dc1",
+      "name": "F. ovina cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ebe0341065",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "F. ovina cover was positively correlated with pipe diameter"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2337ac0333a9",
+      "name": "F. campestris cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9109699937",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "where it occurred, its cover was 20 e50% less than the control plots",
+          "start_char": 18560,
+          "end_char": 18628,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:190061fba80c",
+      "name": "Full width stripping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_65f4063ae9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "100 e full width stripping, when topsoil and subsoil are stripped and mixed together"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:779b7392b03f",
+      "name": "Trench-only stripping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_914053bdc2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "20 e trench-only stripping, entailing a narrow disturbance of 2 m or less"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:adb1e3310111",
+      "name": "Pipeline construction season",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_15ced80cc5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Pipeline construction season was positively correlated with Axis 3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0d2d7c84cd48",
+      "name": "Seeding rate",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_33817bc39a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Seeding rate significantly influenced percent cover of F. ovina"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d1e22bd42cc9",
+      "name": "Rough fescue grassland restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2c6eea398c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Reclamation practices appeared more important than time since restoration in the restoration of rough fescue grassland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cbb490f2fffd",
+      "name": "Pipeline disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e1f3a36bdc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Reclamation of pipeline disturbances resulted in an altered state",
+          "start_char": 25547,
+          "end_char": 25612,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e2944f14ba56",
+      "name": "Wild-harvested seeds",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0a0b5e7a50",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "F. campestris seed used on pipelines investigated in our study was wild-harvested"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e9558fb10f6",
+      "name": "Spring seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_61f808ea13",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "accepted practice of spring seeding for rough fescue",
+          "start_char": 34631,
+          "end_char": 34683,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a74d13afc933",
+      "name": "Late season seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8c3ed18f48",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "F. campestris succeeded better with late season seeding"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb0efb9a89f1",
+      "name": "F. ovina seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ddbc299d7c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "F. ovina became established at most sites where seeded"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e63456abee7f",
+      "name": "Non-native species dominance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_388862436a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Non-native species often dominate following disturbances such as pipelines"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f0d598bf7ba8",
+      "subject": "causal_mosaic:node:0950957e2fdf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f587d10a26df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Topsoil was deeper on the controls than on the ROWs",
+      "source_spans": [
+        {
+          "text": "Topsoil was deeper on the controls than on the ROWs",
+          "start_char": 19103,
+          "end_char": 19154,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ea4979ecb35e",
+      "subject": "causal_mosaic:node:0950957e2fdf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5df83c5a30f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the ROWs had more bare soil",
+      "source_spans": [
+        {
+          "text": "the ROWs had more bare soil",
+          "start_char": 19171,
+          "end_char": 19198,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4e972e2a7c9a",
+      "subject": "causal_mosaic:node:0950957e2fdf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b5117e5258c2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Estimates of rangeland health were higher on control plots than ROW plots",
+      "source_spans": [
+        {
+          "text": "Estimates of rangeland health were higher on control plots than ROW plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:65a3ca04df46",
+      "subject": "causal_mosaic:node:0950957e2fdf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:10931b38c104",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All introduced species had greater cover on ROWs than on control plots",
+      "source_spans": [
+        {
+          "text": "All introduced species had greater cover on ROWs than on control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:299f40c5db45",
+      "subject": "causal_mosaic:node:0950957e2fdf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d87086432c86",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "controls had greater cover by native forbs and graminoids overall than ROWs",
+      "source_spans": [
+        {
+          "text": "controls had greater cover by native forbs and graminoids overall than ROWs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:289e9804db4e",
+      "subject": "causal_mosaic:node:7e68c9075111",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f587d10a26df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Topsoil depth was negatively correlated with pipe diameter",
+      "source_spans": [
+        {
+          "text": "Topsoil depth was negatively correlated with pipe diameter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2fa790a0324f",
+      "subject": "causal_mosaic:node:7e68c9075111",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f27b45d04dc1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. ovina cover was positively correlated with pipe diameter",
+      "source_spans": [
+        {
+          "text": "F. ovina cover was positively correlated with pipe diameter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c34d350598ed",
+      "subject": "causal_mosaic:node:190061fba80c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f27b45d04dc1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The F. ovina community was associated with full width stripping",
+      "source_spans": [
+        {
+          "text": "The F. ovina community was associated with full width stripping",
+          "start_char": 24585,
+          "end_char": 24648,
+          "paragraph_id": "page:5"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:9f22128f3b68",
+      "subject": "causal_mosaic:node:779b7392b03f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mean cover of F. campestris/D. parryi was significantly higher on trench-only ROW sites",
+      "source_spans": [
+        {
+          "text": "mean cover of F. campestris/D. parryi was significantly higher on trench-only ROW sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0fadec167ea2",
+      "subject": "causal_mosaic:node:779b7392b03f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f27b45d04dc1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mean cover of F. ovina was least on trench-only ROW sites",
+      "source_spans": [
+        {
+          "text": "mean cover of F. ovina was least on trench-only ROW sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1ac46b46ef22",
+      "subject": "causal_mosaic:node:adb1e3310111",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. campestris/P. compressa plant community plots were positively associated with pipeline construction in fall or winter",
+      "source_spans": [
+        {
+          "text": "F. campestris/P. compressa plant community plots were positively associated with pipeline construction in fall or winter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e7ab343fdd60",
+      "subject": "causal_mosaic:node:0d2d7c84cd48",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f27b45d04dc1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seeding rate significantly influenced percent cover of F. ovina",
+      "source_spans": [
+        {
+          "text": "Seeding rate significantly influenced percent cover of F. ovina"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:52bcec094071",
+      "subject": "causal_mosaic:node:0950957e2fdf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d1e22bd42cc9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reclamation practices appeared more important than time since restoration in the restoration of rough fescue grassland",
+      "source_spans": [
+        {
+          "text": "Reclamation practices appeared more important than time since restoration in the restoration of rough fescue grassland"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f21ddc185b1b",
+      "subject": "causal_mosaic:node:cbb490f2fffd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reclamation of pipeline disturbances resulted in... declines in abundance and a number of native species",
+      "source_spans": [
+        {
+          "text": "Reclamation of pipeline disturbances resulted in... declines in abundance and a number of native species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:119d896ae8f4",
+      "subject": "causal_mosaic:node:e2944f14ba56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "this may have contributed to the poor establishment of F. campestris",
+      "source_spans": [
+        {
+          "text": "this may have contributed to the poor establishment of F. campestris"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f06057d71eab",
+      "subject": "causal_mosaic:node:4e9558fb10f6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Contrary to the accepted practice of spring seeding for rough fescue... F. campestris succeeded better with late season seeding",
+      "source_spans": [
+        {
+          "text": "Contrary to the accepted practice of spring seeding for rough fescue... F. campestris succeeded better with late season seeding"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f8b00911579c",
+      "subject": "causal_mosaic:node:a74d13afc933",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. campestris succeeded better with late season seeding",
+      "source_spans": [
+        {
+          "text": "F. campestris succeeded better with late season seeding"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:84aff31668fd",
+      "subject": "causal_mosaic:node:bb0efb9a89f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f27b45d04dc1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. ovina became established at most sites where seeded",
+      "source_spans": [
+        {
+          "text": "F. ovina became established at most sites where seeded"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6cf4dfa6d45a",
+      "subject": "causal_mosaic:node:cbb490f2fffd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e63456abee7f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Non-native species often dominate following disturbances such as pipelines",
+      "source_spans": [
+        {
+          "text": "Non-native species often dominate following disturbances such as pipelines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a1ef6ab435ba",
+      "subject": "causal_mosaic:node:f587d10a26df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2337ac0333a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Topsoil depth... was greatest in F. campestris/P. compressa communities",
+      "source_spans": [
+        {
+          "text": "Topsoil depth... was greatest in F. campestris/P. compressa communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      }
+    }
+  ]
+}

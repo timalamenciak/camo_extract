@@ -1,0 +1,570 @@
+{
+  "graph_id": "causal_mosaic:graph:7cf04e1bd5b9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T05:30:03.708517+00:00",
+    "source_corpus": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:cbe8b7e26372",
+      "name": "rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_688fa77c52",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e2115c9457b6",
+      "name": "hunting, trapping and poisoning programmes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_20b7b0b3b3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81240a86c5b0",
+      "name": "extirpation of this species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d54224a890",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99bcb9ba0cb8",
+      "name": "spring release experiment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e52808fb9e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The results showed that the survival of the 41 captive-raised juveniles used in the spring release experiment (7.4 per cent) was significantly lower than that of the 33 adult, wild, translocated swift foxes from the USA (58.9 per cent) (Brechtel et al., 1993)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b56b62ebf9f0",
+      "name": "survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "The results showed that the survival of the 41 captive-raised juveniles used in the spring release experiment (7.4 per cent) was significantly lower than that of the 33 adult, wild, translocated swift foxes from the USA (58.9 per cent) (Brechtel et al., 1993)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3c6e56b57d6",
+      "name": "autumn release",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1a3768c2ce",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The survival of 81 radio-collared captive-raised juvenile animals released in the autumn was significantly higher at 39.7 per cent."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2dfc51843a6a",
+      "name": "survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "The survival of 81 radio-collared captive-raised juvenile animals released in the autumn was significantly higher at 39.7 per cent."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:814a626df74c",
+      "name": "CEI method",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5e8f91fc16",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4277325803c8",
+      "name": "stress",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ae4e251fa2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "stress",
+      "source_spans": [
+        {
+          "text": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d9dbd7ba2bf4",
+      "name": "initial survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa9d539ced",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "initial survival",
+      "source_spans": [
+        {
+          "text": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9aa15af798e",
+      "name": "releases in the West Block",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dae9617585",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The monitoring data showed that by 1995 the population in the East Block occupied an area much smaller than the original release area. In contrast, the swift fox population in the West Block area expanded into new areas and maintained a population in the original release area as well."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c41166d69729",
+      "name": "population in the West Block area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_884366f937",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "population",
+      "source_spans": [
+        {
+          "text": "The monitoring data showed that by 1995 the population in the East Block occupied an area much smaller than the original release area. In contrast, the swift fox population in the West Block area expanded into new areas and maintained a population in the original release area as well."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04465bd33cf6",
+      "name": "reintroduction of swift foxes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2d93f0811a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "It has been demonstrated that the swift fox population in South Central Saskatchewan has been re-established, but the numbers in the wild are low making the survival of this newly established population uncertain."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b75b96861ceb",
+      "name": "swift fox population in South Central Saskatchewan",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6f68414514",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "population",
+      "source_spans": [
+        {
+          "text": "It has been demonstrated that the swift fox population in South Central Saskatchewan has been re-established, but the numbers in the wild are low making the survival of this newly established population uncertain."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c6ac5522ddd4",
+      "name": "release of 841 captive-raised and 91 translocated swift foxes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5671f11936",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Over this period, the release of 841 captive-raised and 91 translocated swift foxes resulted in a change in classification by the COSEWIC (1998) from extirpated to endangered in Canada."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:429a2d6c098e",
+      "name": "classification by the COSEWIC",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_48e656114d",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "classification",
+      "source_spans": [
+        {
+          "text": "Over this period, the release of 841 captive-raised and 91 translocated swift foxes resulted in a change in classification by the COSEWIC (1998) from extirpated to endangered in Canada."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b64a229c96e9",
+      "name": "reintroduced swift foxes surviving, breeding and successfully raising their young",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e000e3e447",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Although the reintroduced swift foxes have shown—by surviving, breeding and successfully raising their young in the wild—that their ecological niche still exists, it has not been established conclusively that the present swift fox population in Canada is now at a sustainable level."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aae09fdc81c2",
+      "name": "ecological niche",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee7569e5ea",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "niche",
+      "source_spans": [
+        {
+          "text": "Although the reintroduced swift foxes have shown—by surviving, breeding and successfully raising their young in the wild—that their ecological niche still exists, it has not been established conclusively that the present swift fox population in Canada is now at a sustainable level."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:aa5e4738c50c",
+      "subject": "causal_mosaic:node:cbe8b7e26372",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81240a86c5b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995).",
+      "source_spans": [
+        {
+          "text": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fd3372bad61b",
+      "subject": "causal_mosaic:node:e2115c9457b6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81240a86c5b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995).",
+      "source_spans": [
+        {
+          "text": "The causes of the extirpation of this species were attributed to the rapid and radical change of the Great Plains ecosystem from native grasslands to cultivated farmland, and the inevitable hunting, trapping and poisoning programmes which accompany such habitat transformation (Carlington, 1980; Weagle & Smeeton, 1995)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:34efdb9ad521",
+      "subject": "causal_mosaic:node:99bcb9ba0cb8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b56b62ebf9f0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The results showed that the survival of the 41 captive-raised juveniles used in the spring release experiment (7.4 per cent) was significantly lower than that of the 33 adult, wild, translocated swift foxes from the USA (58.9 per cent) (Brechtel et al., 1993).",
+      "source_spans": [
+        {
+          "text": "The results showed that the survival of the 41 captive-raised juveniles used in the spring release experiment (7.4 per cent) was significantly lower than that of the 33 adult, wild, translocated swift foxes from the USA (58.9 per cent) (Brechtel et al., 1993)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:89d013b9a0e6",
+      "subject": "causal_mosaic:node:c3c6e56b57d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2dfc51843a6a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The survival of 81 radio-collared captive-raised juvenile animals released in the autumn was significantly higher at 39.7 per cent.",
+      "source_spans": [
+        {
+          "text": "The survival of 81 radio-collared captive-raised juvenile animals released in the autumn was significantly higher at 39.7 per cent."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aaf9585c59cd",
+      "subject": "causal_mosaic:node:814a626df74c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4277325803c8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field.",
+      "source_spans": [
+        {
+          "text": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9ca11cec7fd9",
+      "subject": "causal_mosaic:node:814a626df74c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9dbd7ba2bf4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field.",
+      "source_spans": [
+        {
+          "text": "The CEI method had four components and was shown to reduce the stress on the transported swift foxes and to increase their initial survival in the field."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:44e19db45db1",
+      "subject": "causal_mosaic:node:b9aa15af798e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c41166d69729",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The monitoring data showed that by 1995 the population in the East Block occupied an area much smaller than the original release area. In contrast, the swift fox population in the West Block area expanded into new areas and maintained a population in the original release area as well.",
+      "source_spans": [
+        {
+          "text": "The monitoring data showed that by 1995 the population in the East Block occupied an area much smaller than the original release area. In contrast, the swift fox population in the West Block area expanded into new areas and maintained a population in the original release area as well."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39936b881b03",
+      "subject": "causal_mosaic:node:04465bd33cf6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b75b96861ceb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "It has been demonstrated that the swift fox population in South Central Saskatchewan has been re-established, but the numbers in the wild are low making the survival of this newly established population uncertain.",
+      "source_spans": [
+        {
+          "text": "It has been demonstrated that the swift fox population in South Central Saskatchewan has been re-established, but the numbers in the wild are low making the survival of this newly established population uncertain."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0cbe9b72915b",
+      "subject": "causal_mosaic:node:c6ac5522ddd4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:429a2d6c098e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Over this period, the release of 841 captive-raised and 91 translocated swift foxes resulted in a change in classification by the COSEWIC (1998) from extirpated to endangered in Canada.",
+      "source_spans": [
+        {
+          "text": "Over this period, the release of 841 captive-raised and 91 translocated swift foxes resulted in a change in classification by the COSEWIC (1998) from extirpated to endangered in Canada."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e82b3f7cd05d",
+      "subject": "causal_mosaic:node:b64a229c96e9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aae09fdc81c2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Although the reintroduced swift foxes have shown—by surviving, breeding and successfully raising their young in the wild—that their ecological niche still exists, it has not been established conclusively that the present swift fox population in Canada is now at a sustainable level.",
+      "source_spans": [
+        {
+          "text": "Although the reintroduced swift foxes have shown—by surviving, breeding and successfully raising their young in the wild—that their ecological niche still exists, it has not been established conclusively that the present swift fox population in Canada is now at a sustainable level."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "The reintroduction of the swift fox  Vulpes velox to South Central Saskatchewan, Canada",
+        "year": 2000,
+        "authors": [
+          "Smeeton, Clio",
+          "Weagle, Ken"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

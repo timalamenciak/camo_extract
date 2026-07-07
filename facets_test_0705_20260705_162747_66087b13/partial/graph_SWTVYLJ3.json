@@ -1,0 +1,260 @@
+{
+  "graph_id": "causal_mosaic:graph:faf4e37f054b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T22:53:20.020494+00:00",
+    "source_corpus": "Plant traits as indicators of recovery of reclaimed wellsites in forested areas: Slow but directional succession trajectory",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:32cdcdacd734",
+      "name": "time since reclamation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9b8b5d4c1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "We found an overall directional change in functional composition with time since reclamation towards that observed in reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c9ba65a592a1",
+      "name": "functional composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_452d7fc78f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We found an overall directional change in functional composition with time since reclamation towards that observed in reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f7ee8075f192",
+      "name": "canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_163f8f094d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Canopy cover increased with time since reclamation and certain traits showed a concurrent directional decline (e.g., graminoid, abundant seed and wind-far dispersed, shade-intolerant) or increase (e.g., bird dispersed and shade-tolerant)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:497bc59047e1",
+      "name": "resource-conservation traits",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_70eb3a2629",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "resource-conservation traits (e.g., shade tolerant, few seeds, and moisture preference) were negatively correlated with Axis 1; a pattern shared with variables such as canopy cover, coarse wood and mature forest that had negative loading on Axis 1."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7c826d898b40",
+      "name": "soil bulk density",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00010005",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "High soil bulk density and pH as well as the low amount of total organic carbon, coarse woody debris and canopy cover in young reclaimed wellsites favored fast-resource acquisition traits"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4294b1b3bd4d",
+      "name": "fast-resource acquisition traits",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_85470b5898",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "High soil bulk density and pH as well as the low amount of total organic carbon, coarse woody debris and canopy cover in young reclaimed wellsites favored fast-resource acquisition traits"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54cda65bb4ee",
+      "name": "active reclamation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6ff99a5c0e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The persistence of exotic species used for reclamation... highlights their potential long-term impact on community succession"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80bf60216bcd",
+      "name": "exotic species",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q1065449",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The persistence of exotic species used for reclamation... highlights their potential long-term impact on community succession"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:d8a3f2d33af7",
+      "subject": "causal_mosaic:node:32cdcdacd734",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c9ba65a592a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We found an overall directional change in functional composition with time since reclamation towards that observed in reference sites",
+      "source_spans": [
+        {
+          "text": "We found an overall directional change in functional composition with time since reclamation towards that observed in reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118180",
+        "title": "Plant traits as indicators of recovery of reclaimed wellsites in forested areas: Slow but directional succession trajectory",
+        "year": 2020,
+        "authors": [
+          "Azeria, Ermias T.",
+          "Santala, Kierann",
+          "McIntosh, Anne C.S.",
+          "Aubin, Isabelle"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b60fb273cf9e",
+      "subject": "causal_mosaic:node:f7ee8075f192",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:497bc59047e1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Canopy cover increased with time since reclamation and certain traits showed a concurrent directional decline (e.g., graminoid, abundant seed and wind-far dispersed, shade-intolerant) or increase (e.g., bird dispersed and shade-tolerant).",
+      "source_spans": [
+        {
+          "text": "Canopy cover increased with time since reclamation and certain traits showed a concurrent directional decline (e.g., graminoid, abundant seed and wind-far dispersed, shade-intolerant) or increase (e.g., bird dispersed and shade-tolerant)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118180",
+        "title": "Plant traits as indicators of recovery of reclaimed wellsites in forested areas: Slow but directional succession trajectory",
+        "year": 2020,
+        "authors": [
+          "Azeria, Ermias T.",
+          "Santala, Kierann",
+          "McIntosh, Anne C.S.",
+          "Aubin, Isabelle"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ae1a2faf9941",
+      "subject": "causal_mosaic:node:7c826d898b40",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4294b1b3bd4d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "High soil bulk density and pH as well as the low amount of total organic carbon, coarse woody debris and canopy cover in young reclaimed wellsites favored fast-resource acquisition traits",
+      "source_spans": [
+        {
+          "text": "High soil bulk density and pH as well as the low amount of total organic carbon, coarse woody debris and canopy cover in young reclaimed wellsites favored fast-resource acquisition traits"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118180",
+        "title": "Plant traits as indicators of recovery of reclaimed wellsites in forested areas: Slow but directional succession trajectory",
+        "year": 2020,
+        "authors": [
+          "Azeria, Ermias T.",
+          "Santala, Kierann",
+          "McIntosh, Anne C.S.",
+          "Aubin, Isabelle"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fa438f101f42",
+      "subject": "causal_mosaic:node:54cda65bb4ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:80bf60216bcd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The persistence of exotic species used for reclamation... highlights their potential long-term impact on community succession",
+      "source_spans": [
+        {
+          "text": "The persistence of exotic species used for reclamation... highlights their potential long-term impact on community succession"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2020.118180",
+        "title": "Plant traits as indicators of recovery of reclaimed wellsites in forested areas: Slow but directional succession trajectory",
+        "year": 2020,
+        "authors": [
+          "Azeria, Ermias T.",
+          "Santala, Kierann",
+          "McIntosh, Anne C.S.",
+          "Aubin, Isabelle"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

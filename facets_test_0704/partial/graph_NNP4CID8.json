@@ -1,0 +1,549 @@
+{
+  "graph_id": "causal_mosaic:graph:7f8dd7bf8009",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T04:44:27.604439+00:00",
+    "source_corpus": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4ceb96ea1e0e",
+      "name": "Breaching of a causeway",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_07577ace7f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "a causeway isolating the southern portion of the Sarita River estuary was breached in 2018"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:969619d16762",
+      "name": "Juvenile salmon access",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4a934402f9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "enhance juvenile salmon access",
+          "start_char": 622,
+          "end_char": 652,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9a0881960de2",
+      "name": "Colonization of Chinook and Chum Salmon",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_84a62a47de",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "promote colonization of Chinook and Chum Salmon in pools",
+          "start_char": 679,
+          "end_char": 735,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dab4a6b9bcb3",
+      "name": "Water chemistry homogenization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f8b25e5be5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Water chemistry was homogenized post-breach"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76bdc1115574",
+      "name": "Connectivity of the Sarita Estuary",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_526d6bd8e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increasing connectivity of the Sarita Estuary",
+          "start_char": 1469,
+          "end_char": 1514,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:421344d2e2b1",
+      "name": "Fragmenting impact of estuary causeways",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9deb93a729",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reduce the fragmenting impact of estuary causeways"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c69634275348",
+      "name": "Saltwater penetration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d11708134f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased saltwater penetration",
+          "start_char": 1334,
+          "end_char": 1365,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d32a55a8609",
+      "name": "Algal blooms",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cb5153a9f5",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "removal of algal blooms",
+          "start_char": 32518,
+          "end_char": 32541,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9bcca04723de",
+      "name": "Chinook Salmon",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q833503",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Chinook were observed in both pools"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:604e1172ecc3",
+      "name": "Chum Salmon",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q475211",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Chum were observed in the Saltwater Pool",
+          "start_char": 30428,
+          "end_char": 30468,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba496ad5f7d4",
+      "name": "Coho Salmon",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q934874",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Coho were observed in both pools",
+          "start_char": 22327,
+          "end_char": 22359,
+          "paragraph_id": "page:5"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1f53603dcfda",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:969619d16762",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a causeway isolating the southern portion of the Sarita River estuary was breached in 2018 to enhance juvenile salmon and tidal water access into the southern portion of the estuary.",
+      "source_spans": [
+        {
+          "text": "a causeway isolating the southern portion of the Sarita River estuary was breached in 2018 to enhance juvenile salmon and tidal water access into the southern portion of the estuary."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7b1ff3d037cd",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9a0881960de2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Short-term goals of breaching were to: (1) enhance juvenile salmon access through the causeway; (2) promote colonization of Chinook and Chum Salmon in pools, while retaining Coho Salmon;",
+      "source_spans": [
+        {
+          "text": "Short-term goals of breaching were to: (1) enhance juvenile salmon access through the causeway; (2) promote colonization of Chinook and Chum Salmon in pools, while retaining Coho Salmon;"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:aea7fce4b058",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dab4a6b9bcb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Water chemistry was homogenized post-breach, primarily due to increased saltwater penetration.",
+      "source_spans": [
+        {
+          "text": "Water chemistry was homogenized post-breach, primarily due to increased saltwater penetration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:43517d66bb12",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:76bdc1115574",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "short-term indicators suggest that breaching was effective in increasing connectivity of the Sarita Estuary, allowing access to 1.4 km 2 of habitat that had previously been inaccessible to juvenile salmon.",
+      "source_spans": [
+        {
+          "text": "short-term indicators suggest that breaching was effective in increasing connectivity of the Sarita Estuary, allowing access to 1.4 km 2 of habitat that had previously been inaccessible to juvenile salmon."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0c2c06ee7e3d",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:421344d2e2b1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Breaching may be an effective tool to reduce the fragmenting impact of estuary causeways.",
+      "source_spans": [
+        {
+          "text": "Breaching may be an effective tool to reduce the fragmenting impact of estuary causeways."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f14162576dd0",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c69634275348",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Water chemistry was homogenized post-breach, primarily due to increased saltwater penetration.",
+      "source_spans": [
+        {
+          "text": "Water chemistry was homogenized post-breach, primarily due to increased saltwater penetration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6593e13f4d41",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d32a55a8609",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following breaching, increased flow volume and velocities resulted in the removal of algal blooms and a rapid recovery of eelgrass stems.",
+      "source_spans": [
+        {
+          "text": "Following breaching, increased flow volume and velocities resulted in the removal of algal blooms and a rapid recovery of eelgrass stems."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d104efa59122",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9bcca04723de",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "prior to breaching Chinook Salmon were absent in both pools; however, after breaching Chinook were observed in both pools.",
+      "source_spans": [
+        {
+          "text": "prior to breaching Chinook Salmon were absent in both pools; however, after breaching Chinook were observed in both pools."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2fa5a0c55d1e",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:604e1172ecc3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Chum Salmon were also absent in both pools prior to breaching, and after breaching Chum were observed in the Saltwater Pool.",
+      "source_spans": [
+        {
+          "text": "Chum Salmon were also absent in both pools prior to breaching, and after breaching Chum were observed in the Saltwater Pool."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:23c8794e6748",
+      "subject": "causal_mosaic:node:4ceb96ea1e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ba496ad5f7d4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Coho Salmon were only observed in the Freshwater Pool prior to breaching, but following breaching Coho were observed in both pools.",
+      "source_spans": [
+        {
+          "text": "Coho Salmon were only observed in the Freshwater Pool prior to breaching, but following breaching Coho were observed in both pools."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13016",
+        "title": "Short‐term response of fish communities and water chemistry to breaching of a causeway in the Sarita River Estuary, British Columbia, Canada",
+        "year": 2019,
+        "authors": [
+          "Gerwing, Travis G.",
+          "Plate, Elmar",
+          "Sinclair, Jesse",
+          "Burns, Christopher",
+          "McCulloch, Cameron",
+          "Bocking, Robert C."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    }
+  ]
+}

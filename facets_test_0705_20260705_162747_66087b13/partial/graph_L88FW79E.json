@@ -1,0 +1,570 @@
+{
+  "graph_id": "causal_mosaic:graph:71abb131b2e5",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T00:29:35.007668+00:00",
+    "source_corpus": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:645b04bd89f2",
+      "name": "hilled treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2892b05339",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hilled treatment",
+          "start_char": 2495,
+          "end_char": 2511,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fad4e5e4160",
+      "name": "plant abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8260214d3d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "more than doubled plant abundance",
+          "start_char": 1052,
+          "end_char": 1085,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58efa33b3268",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "species richness",
+          "start_char": 1087,
+          "end_char": 1103,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4c58fd015850",
+      "name": "proportion of species that require higher soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d30272c1cf",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0001470",
+      "source_spans": [
+        {
+          "text": "increased the proportion of species that require higher soil moisture"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6b6bbdee18f3",
+      "name": "soil water content",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09000026",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "water content",
+      "source_spans": [
+        {
+          "text": "higher soil water content",
+          "start_char": 1286,
+          "end_char": 1311,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64bda67d8c7b",
+      "name": "soil bulk density",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00010005",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "bulk density",
+      "source_spans": [
+        {
+          "text": "hilled treatment with 1.03±0.02g/cm3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:740e910a7c16",
+      "name": "lower micro-elevations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_101445e425",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Lower micro-elevations",
+          "start_char": 1180,
+          "end_char": 1202,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4fbf6d3dccf",
+      "name": "northern microaspects",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a14d4eb133",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "northern microaspects",
+          "start_char": 1207,
+          "end_char": 1228,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:71e14588c56c",
+      "name": "loose placement of the cover soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a73c1013a4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "loose placement of the cover soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fde403d194ca",
+      "name": "higher infiltration capacity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_05cee5ced6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher infiltration capacity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3a94e767959a",
+      "name": "reduced run-off",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_288a6637c5",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reduced run-off",
+          "start_char": 42563,
+          "end_char": 42578,
+          "paragraph_id": "page:9"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7694eb44379b",
+      "subject": "causal_mosaic:node:645b04bd89f2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fad4e5e4160",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Placing materials in loose hills and providing heterogeneity in substrates more than doubled plant abundance, species richness, and increased the proportion of species that require higher soil moisture.",
+      "source_spans": [
+        {
+          "text": "Placing materials in loose hills and providing heterogeneity in substrates more than doubled plant abundance, species richness, and increased the proportion of species that require higher soil moisture."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eeb92561691b",
+      "subject": "causal_mosaic:node:645b04bd89f2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Placing materials in loose hills and providing heterogeneity in substrates more than doubled plant abundance, species richness, and increased the proportion of species that require higher soil moisture.",
+      "source_spans": [
+        {
+          "text": "Placing materials in loose hills and providing heterogeneity in substrates more than doubled plant abundance, species richness, and increased the proportion of species that require higher soil moisture."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b3fd8dfbaad7",
+      "subject": "causal_mosaic:node:645b04bd89f2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4c58fd015850",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Placing materials in loose hills and providing heterogeneity in substrates more than doubled plant abundance, species richness, and increased the proportion of species that require higher soil moisture.",
+      "source_spans": [
+        {
+          "text": "Placing materials in loose hills and providing heterogeneity in substrates more than doubled plant abundance, species richness, and increased the proportion of species that require higher soil moisture."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d232e388e769",
+      "subject": "causal_mosaic:node:740e910a7c16",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6b6bbdee18f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness.",
+      "source_spans": [
+        {
+          "text": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:76bc7b147463",
+      "subject": "causal_mosaic:node:f4fbf6d3dccf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6b6bbdee18f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness.",
+      "source_spans": [
+        {
+          "text": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:88f38c27dcdf",
+      "subject": "causal_mosaic:node:740e910a7c16",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness.",
+      "source_spans": [
+        {
+          "text": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d49eef1b114",
+      "subject": "causal_mosaic:node:f4fbf6d3dccf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness.",
+      "source_spans": [
+        {
+          "text": "Lower micro-elevations and northern microaspects of the microtopographic treatments had up to three times higher soil water content and double the species richness."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95ad476e6ab7",
+      "subject": "causal_mosaic:node:645b04bd89f2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64bda67d8c7b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The control treatment had the highest average bulk density, followed by the ridged treatment and the hilled treatment with 1.45 ±0.02, 1.34 ±0.02, and 1.03±0.02g/cm3, respectively.",
+      "source_spans": [
+        {
+          "text": "The control treatment had the highest average bulk density, followed by the ridged treatment and the hilled treatment with 1.45 ±0.02, 1.34 ±0.02, and 1.03±0.02g/cm3, respectively."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:35846b285bef",
+      "subject": "causal_mosaic:node:71e14588c56c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fde403d194ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The higher soil water content observed in the hilled treatment was likely the result of higher infiltration capacity of the loosely placed soil resulting in reduced run-off",
+      "source_spans": [
+        {
+          "text": "The higher soil water content observed in the hilled treatment was likely the result of higher infiltration capacity of the loosely placed soil resulting in reduced run-off"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:29822ada03c5",
+      "subject": "causal_mosaic:node:71e14588c56c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3a94e767959a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The higher soil water content observed in the hilled treatment was likely the result of higher infiltration capacity of the loosely placed soil resulting in reduced run-off",
+      "source_spans": [
+        {
+          "text": "The higher soil water content observed in the hilled treatment was likely the result of higher infiltration capacity of the loosely placed soil resulting in reduced run-off"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bb297a198589",
+      "subject": "causal_mosaic:node:71e14588c56c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6b6bbdee18f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The higher soil water content observed in the hilled treatment was likely the result of higher infiltration capacity of the loosely placed soil resulting in reduced run-off",
+      "source_spans": [
+        {
+          "text": "The higher soil water content observed in the hilled treatment was likely the result of higher infiltration capacity of the loosely placed soil resulting in reduced run-off"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12587",
+        "title": "Role of microtopography in the expression of soil propagule banks on reclamation sites",
+        "year": 2018,
+        "authors": [
+          "Melnik, Katharine",
+          "Landhäusser, Simon M.",
+          "Devito, Kevin"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

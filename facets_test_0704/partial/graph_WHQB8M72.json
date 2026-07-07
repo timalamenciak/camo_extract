@@ -1,0 +1,292 @@
+{
+  "graph_id": "causal_mosaic:graph:8ef75296ccde",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T23:38:23.974476+00:00",
+    "source_corpus": "Vegetation Dynamics on an Abandoned Vacuum-Mined Peatland: 5 Years of Monitoring",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5eb252a97112",
+      "name": "water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c4717587a9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78e45b679345",
+      "name": "frost heaving",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01001568",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:46f2c1ec99e3",
+      "name": "failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_875c39faf1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c758597fae2a",
+      "name": "uprooting",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_441bb5d25b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Frost heaving is the most probable cause of uprooting, and this may explain why so few new tussocks established, although numerous seeds were produced and seedlings germinated each year."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84ffc3ea1041",
+      "name": "water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c4717587a9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Even a slight increase in the water table level seems to improve growth conditions for many bog species, as observed at the RDLP2 site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:884901e888b1",
+      "name": "growth conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fcf05878ea",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Even a slight increase in the water table level seems to improve growth conditions for many bog species, as observed at the RDLP2 site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6ec7000241aa",
+      "name": "blocking drainage ditches",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8e8181de57",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "minimal restoration activities, such as blocking drainage ditches, may favour the rapid re-establishment of a dense cotton-grass cover and of many other typical bog plant species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2f205c97f2c2",
+      "name": "rapid re-establishment of a dense cotton-grass cover",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_29fe2170ff",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "minimal restoration activities, such as blocking drainage ditches, may favour the rapid re-establishment of a dense cotton-grass cover and of many other typical bog plant species"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9b445258f8e7",
+      "subject": "causal_mosaic:node:5eb252a97112",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:46f2c1ec99e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces.",
+      "source_spans": [
+        {
+          "text": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-005-0126-1",
+        "title": "Vegetation Dynamics on an Abandoned Vacuum-Mined Peatland: 5 Years of Monitoring",
+        "year": 2005,
+        "authors": [
+          "Lavoie, Claude",
+          "Saint-Louis, Annie",
+          "Lachance, Daniel"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0022793a5017",
+      "subject": "causal_mosaic:node:78e45b679345",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:46f2c1ec99e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces.",
+      "source_spans": [
+        {
+          "text": "The water table level (lower than 40 cm below the soil surface) and frost heaving appear to be the main factors explaining the failure of cotton-grass and of other typical bog plant species to colonize abandoned mined surfaces."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-005-0126-1",
+        "title": "Vegetation Dynamics on an Abandoned Vacuum-Mined Peatland: 5 Years of Monitoring",
+        "year": 2005,
+        "authors": [
+          "Lavoie, Claude",
+          "Saint-Louis, Annie",
+          "Lachance, Daniel"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9090f253cfb6",
+      "subject": "causal_mosaic:node:78e45b679345",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c758597fae2a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Frost heaving is the most probable cause of uprooting, and this may explain why so few new tussocks established, although numerous seeds were produced and seedlings germinated each year.",
+      "source_spans": [
+        {
+          "text": "Frost heaving is the most probable cause of uprooting, and this may explain why so few new tussocks established, although numerous seeds were produced and seedlings germinated each year."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-005-0126-1",
+        "title": "Vegetation Dynamics on an Abandoned Vacuum-Mined Peatland: 5 Years of Monitoring",
+        "year": 2005,
+        "authors": [
+          "Lavoie, Claude",
+          "Saint-Louis, Annie",
+          "Lachance, Daniel"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fbaccb68a625",
+      "subject": "causal_mosaic:node:84ffc3ea1041",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:884901e888b1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Even a slight increase in the water table level seems to improve growth conditions for many bog species, as observed at the RDLP2 site.",
+      "source_spans": [
+        {
+          "text": "Even a slight increase in the water table level seems to improve growth conditions for many bog species, as observed at the RDLP2 site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-005-0126-1",
+        "title": "Vegetation Dynamics on an Abandoned Vacuum-Mined Peatland: 5 Years of Monitoring",
+        "year": 2005,
+        "authors": [
+          "Lavoie, Claude",
+          "Saint-Louis, Annie",
+          "Lachance, Daniel"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d5bcb676721b",
+      "subject": "causal_mosaic:node:6ec7000241aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2f205c97f2c2",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "minimal restoration activities, such as blocking drainage ditches, may favour the rapid re-establishment of a dense cotton-grass cover and of many other typical bog plant species",
+      "source_spans": [
+        {
+          "text": "minimal restoration activities, such as blocking drainage ditches, may favour the rapid re-establishment of a dense cotton-grass cover and of many other typical bog plant species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-005-0126-1",
+        "title": "Vegetation Dynamics on an Abandoned Vacuum-Mined Peatland: 5 Years of Monitoring",
+        "year": 2005,
+        "authors": [
+          "Lavoie, Claude",
+          "Saint-Louis, Annie",
+          "Lachance, Daniel"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "graph_id": "causal_mosaic:graph:05d47e6127c4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T06:44:36.357324+00:00",
+    "source_corpus": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f94721530f5f",
+      "name": "Rewetting of the area affected by the ditch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_82bd849b06",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rewetting of the area affected by the ditch was carried out by the construction of six dams at 40 cm elevation intervals and felling of all trees (with diameter at breast height >10 cm) within 30 m."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e08b555e03ee",
+      "name": "Water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b7d966612",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "distance separating the water table and the peat surface",
+      "source_spans": [
+        {
+          "text": "Water table level was restored to levels similar to intact bog reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3dff50cf951e",
+      "name": "Cutting trees",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_de1a575a3f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Cutting trees caused a shallower WTL",
+          "start_char": 27572,
+          "end_char": 27608,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37b537657041",
+      "name": "Trees",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q10884",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Trees then continued to deepen the WTL",
+          "start_char": 38005,
+          "end_char": 38043,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8ecbf3b10dc0",
+      "name": "sulfate (SO4 2−)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_86b5cbeabd",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The only exception was sulfate (SO4 2−), which was highest in the rewetted sites pre-rewetting (2010) and decreased post-rewetting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:664298377772",
+      "name": "cover of pioneer mosses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_834199c057",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Five to 6 years post-rewetting, the cover of both pioneer mosses, and late successional mosses ( Sphagnum) had not changed significantly compared with pre-rewetting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d82adbced395",
+      "name": "Sphagnum recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5f41761709",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Sphagnum recruitment was prevented",
+          "start_char": 47531,
+          "end_char": 47565,
+          "paragraph_id": "page:13"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a7b848ea9d1d",
+      "subject": "causal_mosaic:node:f94721530f5f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e08b555e03ee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was an effect of rewetting on WTL in three out of four transects where the water table rose, post-rewetting in 2012",
+      "source_spans": [
+        {
+          "text": "There was an effect of rewetting on WTL in three out of four transects where the water table rose, post-rewetting in 2012"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:71e43c0b95c5",
+      "subject": "causal_mosaic:node:3dff50cf951e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e08b555e03ee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cutting trees led to a rise of the WTL as it 'switches off' the biological drainage",
+      "source_spans": [
+        {
+          "text": "Cutting trees led to a rise of the WTL as it 'switches off' the biological drainage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3397fbf0bd95",
+      "subject": "causal_mosaic:node:37b537657041",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e08b555e03ee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Trees then continued to deepen the WTL, through their biological pump",
+      "source_spans": [
+        {
+          "text": "Trees then continued to deepen the WTL, through their biological pump"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1ef4b21e4895",
+      "subject": "causal_mosaic:node:f94721530f5f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ecbf3b10dc0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The only exception was sulfate (SO4 2−), which was highest in the rewetted sites pre-rewetting (2010) and decreased post-rewetting.",
+      "source_spans": [
+        {
+          "text": "The only exception was sulfate (SO4 2−), which was highest in the rewetted sites pre-rewetting (2010) and decreased post-rewetting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:359fd56f5c06",
+      "subject": "causal_mosaic:node:f94721530f5f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:664298377772",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Five to 6 years post-rewetting, the cover of both pioneer mosses, and late successional mosses ( Sphagnum) had not changed significantly compared with pre-rewetting.",
+      "source_spans": [
+        {
+          "text": "Five to 6 years post-rewetting, the cover of both pioneer mosses, and late successional mosses ( Sphagnum) had not changed significantly compared with pre-rewetting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c846dcd1d6c8",
+      "subject": "causal_mosaic:node:f94721530f5f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d82adbced395",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum recruitment was prevented",
+      "source_spans": [
+        {
+          "text": "Sphagnum recruitment was prevented",
+          "start_char": 47531,
+          "end_char": 47565,
+          "paragraph_id": "page:13"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.2210",
+        "title": "Ecohydrological change following rewetting of a deep‐drained northern raised bog",
+        "year": 2020,
+        "authors": [
+          "Gaffney, Paul P.J.",
+          "Hugron, Sandrine",
+          "Jutras, Sylvain",
+          "Marcoux, Olivier",
+          "Raymond, Sébastien",
+          "Rochefort, Line"
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

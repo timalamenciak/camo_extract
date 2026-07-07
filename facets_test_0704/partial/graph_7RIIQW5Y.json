@@ -1,0 +1,607 @@
+{
+  "graph_id": "causal_mosaic:graph:329790a214ec",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T06:09:39.559183+00:00",
+    "source_corpus": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0d2149748713",
+      "name": "Localized site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_45616ccb11",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d91adfd5190",
+      "name": "growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d4b2ffaf72e4",
+      "name": "survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76b1871340f9",
+      "name": "proportion of white and black spruce",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee8f8618ec",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "PATO:0001470",
+      "source_spans": [
+        {
+          "text": "Furthermore, localized site preparation did not increase the proportion of white and black spruce, as evaluated by basal area."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a9d5365991a6",
+      "name": "plots planted with white spruce",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c125ae6186",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Spruce basal area was 0.02 m²/ha higher in plots planted with white spruce compared to plots planted with black spruce"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:43e350385a35",
+      "name": "Spruce basal area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_841e2fd54d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "basal area",
+      "source_spans": [
+        {
+          "text": "Spruce basal area was 0.02 m²/ha higher in plots planted with white spruce compared to plots planted with black spruce"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2184b9a9ccc5",
+      "name": "enrichment planting without site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b2d5f17381",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our results suggest that white spruce can be successfully established in enrichment planting in fir-dominated boreal forests, without site preparation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2462fabdd010",
+      "name": "white spruce establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_10485022d3",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "establishment",
+      "source_spans": [
+        {
+          "text": "Our results suggest that white spruce can be successfully established in enrichment planting in fir-dominated boreal forests, without site preparation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a9db8c2fe441",
+      "name": "forest management",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_df8472fae5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "a structural feature that often is reduced by forest management"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c6b212b9897",
+      "name": "decaying logs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77e4de0e13",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "a structural feature that often is reduced by forest management"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18a7ab6be806",
+      "name": "mechanical site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4ee388c6be",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In boreal stands, mechanical site preparation usually benefits tree establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a1284c683fdb",
+      "name": "tree establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_71c02e8cb2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In boreal stands, mechanical site preparation usually benefits tree establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1ab4c1bd09ec",
+      "name": "Deeply planted spruce seedlings",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fcb5ea7c38",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deeply planted spruce seedlings tends to form adventitious roots at the base of the stems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c641909a6430",
+      "name": "adventitious roots",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6cf74ee5b3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Deeply planted spruce seedlings tends to form adventitious roots at the base of the stems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5465296d4ff8",
+      "name": "climate change",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000629",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "a phenomenon expected to be worsened by climate change"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:884afab83781",
+      "name": "dieback syndrome",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3133e7c6b6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "a phenomenon expected to be worsened by climate change"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88d2fef1b3bf",
+      "name": "levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8734a87b9e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "levels that did not significantly affect seedling growth and survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6257cde863d6",
+      "name": "seedling growth and survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fda373d755",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "levels that did not significantly affect seedling growth and survival"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5e9f0bf3ec3d",
+      "subject": "causal_mosaic:node:0d2149748713",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3d91adfd5190",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions.",
+      "source_spans": [
+        {
+          "text": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac925d7088c1",
+      "subject": "causal_mosaic:node:0d2149748713",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d4b2ffaf72e4",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions.",
+      "source_spans": [
+        {
+          "text": "Localized site preparation did not significantly affect growth or survival for white spruce compared to control conditions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4c28aa3b80d4",
+      "subject": "causal_mosaic:node:0d2149748713",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:76b1871340f9",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Furthermore, localized site preparation did not increase the proportion of white and black spruce, as evaluated by basal area.",
+      "source_spans": [
+        {
+          "text": "Furthermore, localized site preparation did not increase the proportion of white and black spruce, as evaluated by basal area."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9dcf2ef6050a",
+      "subject": "causal_mosaic:node:a9d5365991a6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:43e350385a35",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spruce basal area was 0.02 m²/ha higher in plots planted with white spruce compared to plots planted with black spruce",
+      "source_spans": [
+        {
+          "text": "Spruce basal area was 0.02 m²/ha higher in plots planted with white spruce compared to plots planted with black spruce"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eb63c8134456",
+      "subject": "causal_mosaic:node:2184b9a9ccc5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2462fabdd010",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results suggest that white spruce can be successfully established in enrichment planting in fir-dominated boreal forests, without site preparation.",
+      "source_spans": [
+        {
+          "text": "Our results suggest that white spruce can be successfully established in enrichment planting in fir-dominated boreal forests, without site preparation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:517487d8da54",
+      "subject": "causal_mosaic:node:a9db8c2fe441",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c6b212b9897",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a structural feature that often is reduced by forest management",
+      "source_spans": [
+        {
+          "text": "a structural feature that often is reduced by forest management"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:de4be9816998",
+      "subject": "causal_mosaic:node:18a7ab6be806",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a1284c683fdb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In boreal stands, mechanical site preparation usually benefits tree establishment",
+      "source_spans": [
+        {
+          "text": "In boreal stands, mechanical site preparation usually benefits tree establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:856a99bc4c76",
+      "subject": "causal_mosaic:node:1ab4c1bd09ec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c641909a6430",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deeply planted spruce seedlings tends to form adventitious roots at the base of the stems",
+      "source_spans": [
+        {
+          "text": "Deeply planted spruce seedlings tends to form adventitious roots at the base of the stems"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8bb16728beca",
+      "subject": "causal_mosaic:node:5465296d4ff8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:884afab83781",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a phenomenon expected to be worsened by climate change",
+      "source_spans": [
+        {
+          "text": "a phenomenon expected to be worsened by climate change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ce933031f36",
+      "subject": "causal_mosaic:node:88d2fef1b3bf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6257cde863d6",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "levels that did not significantly affect seedling growth and survival",
+      "source_spans": [
+        {
+          "text": "levels that did not significantly affect seedling growth and survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc2020-005",
+        "title": "White spruce enrichment planting in boreal mixedwoods as influenced by localized site preparation: 11-year update",
+        "year": 2020,
+        "authors": [
+          "Delmaire, Myriam",
+          "Thiffault, Nelson",
+          "Thiffault, Evelyne",
+          "Bouliane, Julie"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

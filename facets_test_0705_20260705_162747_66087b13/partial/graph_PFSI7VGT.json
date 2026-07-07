@@ -1,0 +1,369 @@
+{
+  "graph_id": "causal_mosaic:graph:b172410006bd",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T23:49:33.070651+00:00",
+    "source_corpus": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:dc5e67817cd5",
+      "name": "Oldgrowth trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_215845c1d8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Oldgrowth trees supported about twice as many epiphyte species as young or mature trees in second growth stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a10c9cdf4358",
+      "name": "epiphyte species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8dc3e817c2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "Oldgrowth trees supported about twice as many epiphyte species as young or mature trees in second growth stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3cf5d3ecb250",
+      "name": "Oldgrowth communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_565ffef842",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Oldgrowth communities separated from young and mature communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:520e98831b4c",
+      "name": "epiphyte community composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_58747547b1",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "community composition",
+      "source_spans": [
+        {
+          "text": "Oldgrowth communities separated from young and mature communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ce707df07e6",
+      "name": "residual trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8ab942586b",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "we were unable to detect an effect of these remnant communities on epiphytic communities on younger trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:deb35ce0694f",
+      "name": "epiphyte community recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1d44dacefc",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "recovery",
+      "source_spans": [
+        {
+          "text": "we were unable to detect an effect of these remnant communities on epiphytic communities on younger trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:481c6986e2cd",
+      "name": "amabilis fir",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q936498",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "amabilis fir hosted more than twice as many cyanolichen species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3e3902625da",
+      "name": "cyanolichen richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07720a4dbf",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "amabilis fir hosted more than twice as many cyanolichen species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22ac15adb2d3",
+      "name": "western redcedar",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q147417",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "western redcedar hosted about half as many other macrolichens as other tree species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4986ae0efe7",
+      "name": "other macrolichen richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8a04b1aa39",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "western redcedar hosted about half as many other macrolichens as other tree species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9dcfb1d44af7",
+      "name": "Stand-level retention",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d2f495e3c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Stand-level retention at the level proposed for the Great Bear Rainforest (15%) may not facilitate recovery of epiphyte communities."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f93bd2460a68",
+      "subject": "causal_mosaic:node:dc5e67817cd5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a10c9cdf4358",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Oldgrowth trees supported about twice as many epiphyte species as young or mature trees in second growth stands",
+      "source_spans": [
+        {
+          "text": "Oldgrowth trees supported about twice as many epiphyte species as young or mature trees in second growth stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.02.023",
+        "title": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+        "year": 2017,
+        "authors": [
+          "Price, Karen",
+          "Lilles, Erica B.",
+          "Banner, Allen"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8e85b4f9b758",
+      "subject": "causal_mosaic:node:3cf5d3ecb250",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:520e98831b4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Oldgrowth communities separated from young and mature communities",
+      "source_spans": [
+        {
+          "text": "Oldgrowth communities separated from young and mature communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.02.023",
+        "title": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+        "year": 2017,
+        "authors": [
+          "Price, Karen",
+          "Lilles, Erica B.",
+          "Banner, Allen"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cc8a5a7b0322",
+      "subject": "causal_mosaic:node:0ce707df07e6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:deb35ce0694f",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "we were unable to detect an effect of these remnant communities on epiphytic communities on younger trees",
+      "source_spans": [
+        {
+          "text": "we were unable to detect an effect of these remnant communities on epiphytic communities on younger trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.02.023",
+        "title": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+        "year": 2017,
+        "authors": [
+          "Price, Karen",
+          "Lilles, Erica B.",
+          "Banner, Allen"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d6183eb79ad",
+      "subject": "causal_mosaic:node:481c6986e2cd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b3e3902625da",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "amabilis fir hosted more than twice as many cyanolichen species",
+      "source_spans": [
+        {
+          "text": "amabilis fir hosted more than twice as many cyanolichen species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.02.023",
+        "title": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+        "year": 2017,
+        "authors": [
+          "Price, Karen",
+          "Lilles, Erica B.",
+          "Banner, Allen"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:82062ff97a9e",
+      "subject": "causal_mosaic:node:22ac15adb2d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a4986ae0efe7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "western redcedar hosted about half as many other macrolichens as other tree species",
+      "source_spans": [
+        {
+          "text": "western redcedar hosted about half as many other macrolichens as other tree species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.02.023",
+        "title": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+        "year": 2017,
+        "authors": [
+          "Price, Karen",
+          "Lilles, Erica B.",
+          "Banner, Allen"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:34d4432ab1ea",
+      "subject": "causal_mosaic:node:9dcfb1d44af7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:deb35ce0694f",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stand-level retention at the level proposed for the Great Bear Rainforest (15%) may not facilitate recovery of epiphyte communities.",
+      "source_spans": [
+        {
+          "text": "Stand-level retention at the level proposed for the Great Bear Rainforest (15%) may not facilitate recovery of epiphyte communities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.02.023",
+        "title": "Long-term recovery of epiphytic communities in the Great Bear Rainforest of coastal British Columbia",
+        "year": 2017,
+        "authors": [
+          "Price, Karen",
+          "Lilles, Erica B.",
+          "Banner, Allen"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

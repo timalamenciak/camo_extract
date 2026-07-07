@@ -1,0 +1,379 @@
+{
+  "graph_id": "causal_mosaic:graph:b57fb069da8f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T01:18:13.482920+00:00",
+    "source_corpus": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0d6a7c9914e8",
+      "name": "functional flow regime",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_45e7bd0e11",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "functional flow regime"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d16598c82d09",
+      "name": "direct seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bcdb95272b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "direct seeding",
+          "start_char": 3580,
+          "end_char": 3594,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:12d111d9042b",
+      "name": "cottonwood colonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_84d3209af0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "cottonwood colonization",
+          "start_char": 1233,
+          "end_char": 1256,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:df97bbe4b637",
+      "name": "seedling establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d57cdc2866",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "seedling establishment",
+          "start_char": 16811,
+          "end_char": 16833,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38f4f2c2be85",
+      "name": "seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "seedling survival",
+          "start_char": 6266,
+          "end_char": 6283,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4685c32c3376",
+      "name": "Populus deltoides",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q149319",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Populus deltoides",
+          "start_char": 1583,
+          "end_char": 1600,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f735f492c804",
+      "name": "Populus angustifolia",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q2003088",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Populus angustifolia",
+          "start_char": 1634,
+          "end_char": 1654,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7209504f5e0e",
+      "name": "seed source trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_659aef2983",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "seed source trees",
+          "start_char": 1694,
+          "end_char": 1711,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:019f4c883fde",
+      "subject": "causal_mosaic:node:0d6a7c9914e8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:12d111d9042b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The combination of river regulation and seeding enabled cottonwood colonization",
+      "source_spans": [
+        {
+          "text": "The combination of river regulation and seeding enabled cottonwood colonization",
+          "start_char": 1177,
+          "end_char": 1256,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2919",
+        "title": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+        "year": 2016,
+        "authors": [
+          "Rood, S. B.",
+          "Kaluthota, S.",
+          "Gill, K. M.",
+          "Hillman, E. J.",
+          "Woodman, S. G.",
+          "Pearce, D. W.",
+          "Mahoney, J. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b470aeab99c1",
+      "subject": "causal_mosaic:node:d16598c82d09",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:df97bbe4b637",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the direct seeding should enable cottonwood seedling establishment",
+      "source_spans": [
+        {
+          "text": "the direct seeding should enable cottonwood seedling establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2919",
+        "title": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+        "year": 2016,
+        "authors": [
+          "Rood, S. B.",
+          "Kaluthota, S.",
+          "Gill, K. M.",
+          "Hillman, E. J.",
+          "Woodman, S. G.",
+          "Pearce, D. W.",
+          "Mahoney, J. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9fce0722a126",
+      "subject": "causal_mosaic:node:0d6a7c9914e8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38f4f2c2be85",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the functional flow regime would promote seedling establishment and survival",
+      "source_spans": [
+        {
+          "text": "the functional flow regime would promote seedling establishment and survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2919",
+        "title": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+        "year": 2016,
+        "authors": [
+          "Rood, S. B.",
+          "Kaluthota, S.",
+          "Gill, K. M.",
+          "Hillman, E. J.",
+          "Woodman, S. G.",
+          "Pearce, D. W.",
+          "Mahoney, J. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0db7e068dff0",
+      "subject": "causal_mosaic:node:4685c32c3376",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38f4f2c2be85",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "survival of P. deltoides was 10-fold higher",
+      "source_spans": [
+        {
+          "text": "survival of P. deltoides was 10-fold higher"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2919",
+        "title": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+        "year": 2016,
+        "authors": [
+          "Rood, S. B.",
+          "Kaluthota, S.",
+          "Gill, K. M.",
+          "Hillman, E. J.",
+          "Woodman, S. G.",
+          "Pearce, D. W.",
+          "Mahoney, J. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8fba97c8d2c7",
+      "subject": "causal_mosaic:node:f735f492c804",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38f4f2c2be85",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "survival of P. angustifolia... was still below that of the P. deltoides",
+      "source_spans": [
+        {
+          "text": "survival of P. angustifolia... was still below that of the P. deltoides"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2919",
+        "title": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+        "year": 2016,
+        "authors": [
+          "Rood, S. B.",
+          "Kaluthota, S.",
+          "Gill, K. M.",
+          "Hillman, E. J.",
+          "Woodman, S. G.",
+          "Pearce, D. W.",
+          "Mahoney, J. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:46cc30e1480c",
+      "subject": "causal_mosaic:node:7209504f5e0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:12d111d9042b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "lack of seed source trees limited cottonwood colonization",
+      "source_spans": [
+        {
+          "text": "lack of seed source trees limited cottonwood colonization",
+          "start_char": 1686,
+          "end_char": 1743,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2919",
+        "title": "A Twofold Strategy for Riparian Restoration: Combining a Functional Flow Regime and Direct Seeding to Re‐establish Cottonwoods",
+        "year": 2016,
+        "authors": [
+          "Rood, S. B.",
+          "Kaluthota, S.",
+          "Gill, K. M.",
+          "Hillman, E. J.",
+          "Woodman, S. G.",
+          "Pearce, D. W.",
+          "Mahoney, J. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

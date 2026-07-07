@@ -1,0 +1,533 @@
+{
+  "graph_id": "causal_mosaic:graph:928195db36f4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T04:06:44.970736+00:00",
+    "source_corpus": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c1bfa7303fce",
+      "name": "Clearcut harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d03bad514c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "clearcut harvesting",
+          "start_char": 703,
+          "end_char": 722,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fec67c54675",
+      "name": "Species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20f280f92b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "changes in species composition",
+          "start_char": 2140,
+          "end_char": 2170,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0d35c6569c17",
+      "name": "Late-seral species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_03f5b8cf1c",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Some late-seral species were locally eliminated",
+          "start_char": 2248,
+          "end_char": 2295,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ce2002eee730",
+      "name": "Ruderal invasive species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_4832e4d8f8",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "dominated by ruderal invasive species",
+          "start_char": 2209,
+          "end_char": 2246,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58efa33b3268",
+      "name": "Grass richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Richness of grasses was higher in clearcuts",
+          "start_char": 24189,
+          "end_char": 24232,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:266e6b424d92",
+      "name": "Moss abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2431cc167",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "moss abundance was lower in the upstream clearcuts"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa27346c4bb8",
+      "name": "Rubus idaeus",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q12252383",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Rubus idaeus was the most dominant species in clearcuts"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f81c9e566613",
+      "name": "Alnus incana",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q157641",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Alnus incana became dominant in clearcuts"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:65fad4f0bc8e",
+      "name": "Time since harvesting",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_558c5389da",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "time since harvesting",
+          "start_char": 9439,
+          "end_char": 9460,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6562c80f8be8",
+      "name": "Grass diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_452ad81cc6",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "differences gradually declined with time since harvesting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dabbaccda708",
+      "name": "Moss cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd19ca2bfa",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Moss and shrub cover... fully recovered"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9cf633dcb448",
+      "name": "Herb cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_23e8831bb9",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Herb cover... became lower than that of the reference sites"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:3dce35133ab2",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fec67c54675",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We found that clearcut harvesting had no immediate impact on overall species richness or diversity, but it was associated with changes in species composition.",
+      "source_spans": [
+        {
+          "text": "We found that clearcut harvesting had no immediate impact on overall species richness or diversity, but it was associated with changes in species composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:92f6a3cb94f4",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0d35c6569c17",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "clearcut harvesting also caused local elimination of some late-seral species such as Actaea rubra",
+      "source_spans": [
+        {
+          "text": "clearcut harvesting also caused local elimination of some late-seral species such as Actaea rubra"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ef49a672c3f1",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ce2002eee730",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The post-harvest habitats were often dominated by ruderal invasive species.",
+      "source_spans": [
+        {
+          "text": "The post-harvest habitats were often dominated by ruderal invasive species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7280039d5116",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Richness of grasses was higher in clearcuts compared to downstream unharvested forests and reference forests.",
+      "source_spans": [
+        {
+          "text": "Richness of grasses was higher in clearcuts compared to downstream unharvested forests and reference forests."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:468b37f06923",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:266e6b424d92",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Compared to downstream unharvested forests, moss abundance was lower in the upstream clearcuts",
+      "source_spans": [
+        {
+          "text": "Compared to downstream unharvested forests, moss abundance was lower in the upstream clearcuts"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:09bcc4485bf1",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aa27346c4bb8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rubus idaeus was the most dominant species in clearcuts of age 3–7 years",
+      "source_spans": [
+        {
+          "text": "Rubus idaeus was the most dominant species in clearcuts of age 3–7 years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2f043dae6c66",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f81c9e566613",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Alnus incana became dominant in clearcuts at 18 –23 years",
+      "source_spans": [
+        {
+          "text": "Alnus incana became dominant in clearcuts at 18 –23 years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:123f88cc4064",
+      "subject": "causal_mosaic:node:65fad4f0bc8e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6562c80f8be8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In early clearcuts grass diversity indices were very high compared to corresponding downstream unharvested forests but the differences gradually declined with time since harvesting.",
+      "source_spans": [
+        {
+          "text": "In early clearcuts grass diversity indices were very high compared to corresponding downstream unharvested forests but the differences gradually declined with time since harvesting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:22fea6195d3d",
+      "subject": "causal_mosaic:node:65fad4f0bc8e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dabbaccda708",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Moss and shrub cover initially declined... but fully recovered by 18 –23 years",
+      "source_spans": [
+        {
+          "text": "Moss and shrub cover initially declined... but fully recovered by 18 –23 years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8cfa5b17ea41",
+      "subject": "causal_mosaic:node:65fad4f0bc8e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9cf633dcb448",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Herb cover was high in the 3– 7-year age class and became lower than that of the reference sites in the 18– 23 year age class.",
+      "source_spans": [
+        {
+          "text": "Herb cover was high in the 3– 7-year age class and became lower than that of the reference sites in the 18– 23 year age class."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.04.010",
+        "title": "Riparian vegetation recovery in a 23 year chronosequence of clear-cuts along boreal headwater streams",
+        "year": 2019,
+        "authors": [
+          "Newaz, Md. S.",
+          "Mallik, Azim U.",
+          "Mackereth, Robert W."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    }
+  ]
+}

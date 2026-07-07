@@ -1,0 +1,619 @@
+{
+  "graph_id": "causal_mosaic:graph:310697b3d52a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T06:22:56.687749+00:00",
+    "source_corpus": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:601d093c5d2e",
+      "name": "Predation by wolves",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c22f1ecf68",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Predation by wolves was the most important proximate cause of mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:514da2c9cd16",
+      "name": "Mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e6c225c5ad",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Predation by wolves was the most important proximate cause of mortality"
+        },
+        {
+          "text": "risk of mortality was also higher for elk whose home range consisted of higher proportions of agricultural land"
+        },
+        {
+          "text": "risk of mortality was also higher for elk whose home range consisted of higher proportions of human settlement"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cb30f5b83b04",
+      "name": "Injuries from translocation and/or capture myopathy",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4d0c0f917b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "death due to injuries from translocation and/or capture myopathy"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:28c295dbaaa1",
+      "name": "Mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0416332884",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "death due to injuries from translocation and/or capture myopathy"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fdc4a032d209",
+      "name": "Holding period",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_959b679182",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "length of holding period",
+          "start_char": 1475,
+          "end_char": 1499,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ab10fc118a5",
+      "name": "Survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "elk released after limited holding being less likely to survive"
+        },
+        {
+          "text": "less likely to survive than those with smaller home ranges"
+        },
+        {
+          "text": "less likely to survive than those that dispersed in other directions"
+        },
+        {
+          "text": "Elk were also less likely to survive during the winter months December–April"
+        },
+        {
+          "text": "elk were less likely to survive in the year immediately following release"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51508cbf948a",
+      "name": "Annual home range size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_22554cbdde",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "elk with comparatively large annual home ranges",
+          "start_char": 26448,
+          "end_char": 26495,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc542b623aaa",
+      "name": "Dispersal direction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d902c5522b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "elk whose average direction was south/southwest of the release site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88a6ed8351ba",
+      "name": "Agricultural land proportion",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d33ad29bbb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher proportions of agricultural land"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9079415bad7",
+      "name": "Human settlement proportion",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65d2d4a674",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher proportions of human settlement"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1fa57d36a85e",
+      "name": "Male elk",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_086314d6f9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "male elk... experiencing higher rates of survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:892672ced460",
+      "name": "Survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "male elk... experiencing higher rates of survival"
+        },
+        {
+          "text": "calves... experiencing higher rates of survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3be56f55b70b",
+      "name": "Calves",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_071c43662c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "calves... experiencing higher rates of survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb05d47d5b85",
+      "name": "Winter season",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8f70c7f9a5",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Elk were also less likely to survive during the winter months December–April"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08de7979a772",
+      "name": "Year of study",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d96c075648",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "elk were less likely to survive in the year immediately following release"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9b81c5af1596",
+      "subject": "causal_mosaic:node:601d093c5d2e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:514da2c9cd16",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Predation by wolves was the most important proximate cause of mortality",
+      "source_spans": [
+        {
+          "text": "Predation by wolves was the most important proximate cause of mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8aee27768672",
+      "subject": "causal_mosaic:node:cb30f5b83b04",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:28c295dbaaa1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "death due to injuries from translocation and/or capture myopathy",
+      "source_spans": [
+        {
+          "text": "death due to injuries from translocation and/or capture myopathy"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c4c2d7a1be19",
+      "subject": "causal_mosaic:node:fdc4a032d209",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ab10fc118a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "elk released after limited holding being less likely to survive than those held for longer periods",
+      "source_spans": [
+        {
+          "text": "elk released after limited holding being less likely to survive than those held for longer periods"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a33deede354f",
+      "subject": "causal_mosaic:node:51508cbf948a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ab10fc118a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "elk with comparatively large annual home ranges were qualitatively less likely to survive than those with smaller home ranges",
+      "source_spans": [
+        {
+          "text": "elk with comparatively large annual home ranges were qualitatively less likely to survive than those with smaller home ranges"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b4d5155efe3d",
+      "subject": "causal_mosaic:node:cc542b623aaa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ab10fc118a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "elk whose average direction was south/southwest of the release site were qualitatively less likely to survive than those that dispersed in other directions",
+      "source_spans": [
+        {
+          "text": "elk whose average direction was south/southwest of the release site were qualitatively less likely to survive than those that dispersed in other directions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:fcccd3ac1e0f",
+      "subject": "causal_mosaic:node:88a6ed8351ba",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:514da2c9cd16",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "risk of mortality was also higher for elk whose home range consisted of higher proportions of agricultural land",
+      "source_spans": [
+        {
+          "text": "risk of mortality was also higher for elk whose home range consisted of higher proportions of agricultural land"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a8f56d22c1d0",
+      "subject": "causal_mosaic:node:e9079415bad7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:514da2c9cd16",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "risk of mortality was also higher for elk whose home range consisted of higher proportions of human settlement",
+      "source_spans": [
+        {
+          "text": "risk of mortality was also higher for elk whose home range consisted of higher proportions of human settlement"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6c559aec916f",
+      "subject": "causal_mosaic:node:1fa57d36a85e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "male elk... experiencing higher rates of survival",
+      "source_spans": [
+        {
+          "text": "male elk... experiencing higher rates of survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4a8dcd879176",
+      "subject": "causal_mosaic:node:3be56f55b70b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "calves... experiencing higher rates of survival",
+      "source_spans": [
+        {
+          "text": "calves... experiencing higher rates of survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8c3305bbfb9f",
+      "subject": "causal_mosaic:node:eb05d47d5b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ab10fc118a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Elk were also less likely to survive during the winter months December–April",
+      "source_spans": [
+        {
+          "text": "Elk were also less likely to survive during the winter months December–April"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:65afada2adb2",
+      "subject": "causal_mosaic:node:08de7979a772",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ab10fc118a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "elk were less likely to survive in the year immediately following release",
+      "source_spans": [
+        {
+          "text": "elk were less likely to survive in the year immediately following release"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12145",
+        "title": "Patterns of Mortality and Factors Influencing Survival of a Recently Restored Elk Population in Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "McIntosh, Terese E.",
+          "Rosatte, Richard C.",
+          "Hamr, Josef",
+          "Murray, Dennis L."
+        ],
+        "journal": "Restoration Ecology"
+      }
+    }
+  ]
+}

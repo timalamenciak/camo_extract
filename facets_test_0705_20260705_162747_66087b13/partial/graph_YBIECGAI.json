@@ -1,0 +1,382 @@
+{
+  "graph_id": "causal_mosaic:graph:ac24e419d82a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T10:12:56.677528+00:00",
+    "source_corpus": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a3f2408c2318",
+      "name": "Forest harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3be0e6c829",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Forest harvesting is a major factor contributing to increases in the number of moose",
+          "start_char": 1191,
+          "end_char": 1275,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b08262a15ac0",
+      "name": "number of moose",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c360df9923",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Forest harvesting is a major factor contributing to increases in the number of moose",
+          "start_char": 1191,
+          "end_char": 1275,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:69523b0157cb",
+      "name": "predator populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_90329cea22",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "which in turn increases predator populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fe0be246e200",
+      "name": "Caribou populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_01bcc9a3f2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Caribou populations decline as a result of increased predation",
+          "start_char": 1323,
+          "end_char": 1385,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78840878a4a3",
+      "name": "increased predation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d39a1b4ee4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Caribou populations decline as a result of increased predation",
+          "start_char": 1323,
+          "end_char": 1385,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09d192d8e363",
+      "name": "reduce moose numbers",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_724b6d23e4",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "reduce moose numbers to also maintain predators at low numbers",
+          "start_char": 1680,
+          "end_char": 1742,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c018fb36918",
+      "name": "predator numbers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bebbe04822",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "reduce moose numbers to also maintain predators at low numbers",
+          "start_char": 1680,
+          "end_char": 1742,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d9cee614c29e",
+      "name": "predator reductions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f8bcdc68b7",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "predator reductions positively affect caribou recruitment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:34470c9b54b6",
+      "name": "caribou recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4f9a3a609d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "recruitment",
+      "source_spans": [
+        {
+          "text": "predator reductions positively affect caribou recruitment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dd215503c801",
+      "name": "caribou abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6972221a56",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "predator reductions positively affect caribou recruitment and in some cases abundance"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8ca3d8024676",
+      "subject": "causal_mosaic:node:a3f2408c2318",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b08262a15ac0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest harvesting is a major factor contributing to increases in the number of moose, which in turn increases predator populations.",
+      "source_spans": [
+        {
+          "text": "Forest harvesting is a major factor contributing to increases in the number of moose, which in turn increases predator populations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2011.01998.x",
+        "title": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+        "year": 2011,
+        "authors": [
+          "Serrouya, Robert",
+          "McLellan, Bruce N.",
+          "Boutin, Stan",
+          "Seip, Dale R.",
+          "Nielsen, Scott E."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:20f3ba537b92",
+      "subject": "causal_mosaic:node:b08262a15ac0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:69523b0157cb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest harvesting is a major factor contributing to increases in the number of moose, which in turn increases predator populations.",
+      "source_spans": [
+        {
+          "text": "Forest harvesting is a major factor contributing to increases in the number of moose, which in turn increases predator populations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2011.01998.x",
+        "title": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+        "year": 2011,
+        "authors": [
+          "Serrouya, Robert",
+          "McLellan, Bruce N.",
+          "Boutin, Stan",
+          "Seip, Dale R.",
+          "Nielsen, Scott E."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:556536fc33cb",
+      "subject": "causal_mosaic:node:78840878a4a3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fe0be246e200",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Caribou populations decline as a result of increased predation representing a form of apparent competition between moose and caribou.",
+      "source_spans": [
+        {
+          "text": "Caribou populations decline as a result of increased predation representing a form of apparent competition between moose and caribou."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2011.01998.x",
+        "title": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+        "year": 2011,
+        "authors": [
+          "Serrouya, Robert",
+          "McLellan, Bruce N.",
+          "Boutin, Stan",
+          "Seip, Dale R.",
+          "Nielsen, Scott E."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02305f75eb17",
+      "subject": "causal_mosaic:node:09d192d8e363",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1c018fb36918",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A third option is to reduce moose numbers to also maintain predators at low numbers",
+      "source_spans": [
+        {
+          "text": "A third option is to reduce moose numbers to also maintain predators at low numbers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2011.01998.x",
+        "title": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+        "year": 2011,
+        "authors": [
+          "Serrouya, Robert",
+          "McLellan, Bruce N.",
+          "Boutin, Stan",
+          "Seip, Dale R.",
+          "Nielsen, Scott E."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d844bcc411d5",
+      "subject": "causal_mosaic:node:d9cee614c29e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:34470c9b54b6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Although predator reductions positively affect caribou recruitment and in some cases abundance",
+      "source_spans": [
+        {
+          "text": "Although predator reductions positively affect caribou recruitment and in some cases abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2011.01998.x",
+        "title": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+        "year": 2011,
+        "authors": [
+          "Serrouya, Robert",
+          "McLellan, Bruce N.",
+          "Boutin, Stan",
+          "Seip, Dale R.",
+          "Nielsen, Scott E."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f0522a47ad86",
+      "subject": "causal_mosaic:node:d9cee614c29e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dd215503c801",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Although predator reductions positively affect caribou recruitment and in some cases abundance",
+      "source_spans": [
+        {
+          "text": "Although predator reductions positively affect caribou recruitment and in some cases abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2011.01998.x",
+        "title": "Developing a population target for an overabundant ungulate for ecosystem restoration: Restoring a predator-prey system",
+        "year": 2011,
+        "authors": [
+          "Serrouya, Robert",
+          "McLellan, Bruce N.",
+          "Boutin, Stan",
+          "Seip, Dale R.",
+          "Nielsen, Scott E."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -65,12 +65,18 @@ input/
 python -m src.main input output
 python -m src.main input output --test-mode --max-articles 3
 python -m src.main input output --resume
+python -m src.main input output --force
 ```
 
 INFO progress logs are printed for every article and chunk and appended to
 `output/processing.log`. Use
 `--log-level WARNING` for quieter runs or `--log-level DEBUG` when diagnosing a
 failure.
+
+By default, a unique output folder is created by appending a timestamp and random
+suffix if the output folder already contains files (e.g., `output_20260705_142345_a1b2c3d4`).
+Use `--force` to overwrite existing content. Resume an interrupted run with
+`--resume` and the exact output folder path (including the unique suffix if generated).
 
 Both chunk limits are disabled by default, so a complete article is sent to the
 LLM in one request. Set `chunking.max_characters_per_chunk` and/or

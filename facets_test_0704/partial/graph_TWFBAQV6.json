@@ -1,0 +1,474 @@
+{
+  "graph_id": "causal_mosaic:graph:4ceb1b2134a0",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T00:57:52.977248+00:00",
+    "source_corpus": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f4602fae4589",
+      "name": "forest floor protection (FFP)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fc891d45e2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "forest floor protection (FFP)",
+          "start_char": 712,
+          "end_char": 741,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aef6aeb65d96",
+      "name": "forest understory species and aspen recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1bc5517e6e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "recovery",
+      "source_spans": [
+        {
+          "text": "forest understory species and aspen recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dd5f0214bf07",
+      "name": "rollback (RB)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_39b918ee0e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rollback (RB)",
+          "start_char": 9723,
+          "end_char": 9736,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:697490a7d2fd",
+      "name": "recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e3ab370d05",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "recovery",
+      "source_spans": [
+        {
+          "text": "delayed recovery",
+          "start_char": 27330,
+          "end_char": 27346,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:35488618fbee",
+      "name": "deciduous tree cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5852a0904c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "deciduous tree cover",
+          "start_char": 14049,
+          "end_char": 14069,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc0d6ec44977",
+      "name": "vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "vegetation cover",
+          "start_char": 9636,
+          "end_char": 9652,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b93d410d879",
+      "name": "surface soil disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_77ea087d32",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "surface soil disturbance",
+          "start_char": 11330,
+          "end_char": 11354,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3580d1816a19",
+      "name": "shrub cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_329a66141a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "shrub cover",
+          "start_char": 19607,
+          "end_char": 19618,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fdfc4c87055b",
+      "name": "slash cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6042042432",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "slash cover",
+          "start_char": 20158,
+          "end_char": 20169,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ae00e701f45e",
+      "name": "vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "vegetation cover",
+          "start_char": 9636,
+          "end_char": 9652,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ab06b1d74bac",
+      "name": "residual subsoil cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_73706945e8",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "residual subsoil cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d50e19b4fea",
+      "name": "total species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_28dd45c83f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "total species richness",
+          "start_char": 12433,
+          "end_char": 12455,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b08a3b2f1185",
+      "name": "graminoid cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4eae51ce24",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "graminoid cover",
+          "start_char": 26607,
+          "end_char": 26622,
+          "paragraph_id": "page:6"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a09813653f96",
+      "subject": "causal_mosaic:node:f4602fae4589",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aef6aeb65d96",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Protecting, rather than stripping the FF material during OSE pad construction resulted in greater forest understory species and aspen recovery.",
+      "source_spans": [
+        {
+          "text": "Protecting, rather than stripping the FF material during OSE pad construction resulted in greater forest understory species and aspen recovery."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cb9db4c445ee",
+      "subject": "causal_mosaic:node:dd5f0214bf07",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:697490a7d2fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The RB technique with its stripping, salvaging, and replacement of FF resulted in very delayed recovery.",
+      "source_spans": [
+        {
+          "text": "The RB technique with its stripping, salvaging, and replacement of FF resulted in very delayed recovery."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3aec6b148f0b",
+      "subject": "causal_mosaic:node:35488618fbee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cc0d6ec44977",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree cover was significantly associated with higher vegetation cover in 2016",
+      "source_spans": [
+        {
+          "text": "Tree cover was significantly associated with higher vegetation cover in 2016"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3f3a8ddb2c40",
+      "subject": "causal_mosaic:node:0b93d410d879",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3580d1816a19",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "we found that limited surface soil disturbance positively impacted shrub cover, total species richness, and shrub richness while reducing graminoid cover.",
+      "source_spans": [
+        {
+          "text": "we found that limited surface soil disturbance positively impacted shrub cover, total species richness, and shrub richness while reducing graminoid cover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38f0ff261f86",
+      "subject": "causal_mosaic:node:fdfc4c87055b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ae00e701f45e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Subplots in the FFP and CC treatments with higher slash cover were associated with lower vegetation cover",
+      "source_spans": [
+        {
+          "text": "Subplots in the FFP and CC treatments with higher slash cover were associated with lower vegetation cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:113247b01cf2",
+      "subject": "causal_mosaic:node:ab06b1d74bac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d50e19b4fea",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Subplots in the FFP treatment had significantly lower total species richness (R 2 =0.25,p<0.05) in 2016, particularly by forbspecies ( R2 =0.20,p<0.1),whenresidualsubsoilcover was greater.",
+      "source_spans": [
+        {
+          "text": "Subplots in the FFP treatment had significantly lower total species richness (R 2 =0.25,p<0.05) in 2016, particularly by forbspecies ( R2 =0.20,p<0.1),whenresidualsubsoilcover was greater."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2984c8e480cd",
+      "subject": "causal_mosaic:node:0b93d410d879",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b08a3b2f1185",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "we found that limited surface soil disturbance positively impacted shrub cover, total species richness, and shrub richness while reducing graminoid cover.",
+      "source_spans": [
+        {
+          "text": "we found that limited surface soil disturbance positively impacted shrub cover, total species richness, and shrub richness while reducing graminoid cover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12546",
+        "title": "Rapid understory plant recovery following forest floor protection on temporary drilling pads",
+        "year": 2018,
+        "authors": [
+          "Jones, Caren E.",
+          "Bachmann, Sascha",
+          "Lieffers, Victor J.",
+          "Landhäusser, Simon M."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

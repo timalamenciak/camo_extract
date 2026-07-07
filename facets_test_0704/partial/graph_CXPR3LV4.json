@@ -1,0 +1,346 @@
+{
+  "graph_id": "causal_mosaic:graph:4020e9c2b09d",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T23:55:24.445608+00:00",
+    "source_corpus": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a7052be62f70",
+      "name": "Carp exclusion",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fa0f2059c3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In 1997, common carp (Cyprinus carpio) was removed from Cootes Paradise Marsh (L. Ontario) to reduce sediment resuspension and bioturbation, and thus regenerate marsh plants that had declined dramatically since the 1930s."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:086f573e6930",
+      "name": "Decreased sediment resuspension",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_fabce83cea",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In 1997, common carp (Cyprinus carpio) was removed from Cootes Paradise Marsh (L. Ontario) to reduce sediment resuspension and bioturbation, and thus regenerate marsh plants that had declined dramatically since the 1930s."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0aeefbb9a87c",
+      "name": "Decreased total suspended solids",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_46e7a7b2b0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Removal of most of the common-carp population from Cootes Paradise resulted in a predictable decrease in TSS of about 25%, after the effects of inter-annual differences in water level was taken into account (Fig. 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4613f2ab610c",
+      "name": "Decreased water turbidity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a1c4f77d9",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "The revitalization of species diversity, comparable to levels observed prior to the 1970s (Chow-Fraser et al., 1998) may be partially attributed to reduced water turbidity in 1997 following carp exclusion (Table 1 and Fig. 4)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f85e841c68de",
+      "name": "High water levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77279c8ef3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:31256b955d23",
+      "name": "Decreased emergent vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_68887f5a87",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8263f3f89b73",
+      "name": "Increased emergent vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_922eeaf8f1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The return of the emergent vegetation in 1999 when water levels in Lake Ontario dropped to such favourable levels was highly predictable."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:35b8d3f3196a",
+      "name": "Decreased submergent vegetation stem density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_17154f2cc0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "This drop in water level coincided with a sharp decrease of more than half the stem density in 1999 (Fig. 5a)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:efa2afc1941f",
+      "name": "Limited light availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcecb2ea2a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "availability",
+      "source_spans": [
+        {
+          "text": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:376dfffc6424",
+      "name": "Low water levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aad73807f1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "During years of low water-level, fish cannot access the coastal marshes to spawn (Chow-Fraser & Albert, 1999; Wei et al., 2004), and if drawdown is sustained for several years, the submergent and floating vegetation can be greatly diminished or eliminated, and this can lead to loss of critical nursery habitat for many warm-water fish."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2c7a8b706912",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:086f573e6930",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 1997, common carp (Cyprinus carpio) was removed from Cootes Paradise Marsh (L. Ontario) to reduce sediment resuspension and bioturbation, and thus regenerate marsh plants that had declined dramatically since the 1930s.",
+      "source_spans": [
+        {
+          "text": "In 1997, common carp (Cyprinus carpio) was removed from Cootes Paradise Marsh (L. Ontario) to reduce sediment resuspension and bioturbation, and thus regenerate marsh plants that had declined dramatically since the 1930s."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10750-004-4868-1",
+        "title": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+        "year": 2005,
+        "authors": [
+          "Chow-Fraser, Patricia"
+        ],
+        "journal": "Hydrobiologia"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5fe0f59af5c9",
+      "subject": "causal_mosaic:node:a7052be62f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0aeefbb9a87c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Removal of most of the common-carp population from Cootes Paradise resulted in a predictable decrease in TSS of about 25%, after the effects of inter-annual differences in water level was taken into account (Fig. 4).",
+      "source_spans": [
+        {
+          "text": "Removal of most of the common-carp population from Cootes Paradise resulted in a predictable decrease in TSS of about 25%, after the effects of inter-annual differences in water level was taken into account (Fig. 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10750-004-4868-1",
+        "title": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+        "year": 2005,
+        "authors": [
+          "Chow-Fraser, Patricia"
+        ],
+        "journal": "Hydrobiologia"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2f54d4cf8f99",
+      "subject": "causal_mosaic:node:f85e841c68de",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:31256b955d23",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "counterfactual"
+      ],
+      "original_sentence": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules.",
+      "source_spans": [
+        {
+          "text": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10750-004-4868-1",
+        "title": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+        "year": 2005,
+        "authors": [
+          "Chow-Fraser, Patricia"
+        ],
+        "journal": "Hydrobiologia"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:db64bb60da45",
+      "subject": "causal_mosaic:node:376dfffc6424",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8263f3f89b73",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "counterfactual"
+      ],
+      "original_sentence": "The return of the emergent vegetation in 1999 when water levels in Lake Ontario dropped to such favourable levels was highly predictable.",
+      "source_spans": [
+        {
+          "text": "The return of the emergent vegetation in 1999 when water levels in Lake Ontario dropped to such favourable levels was highly predictable."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10750-004-4868-1",
+        "title": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+        "year": 2005,
+        "authors": [
+          "Chow-Fraser, Patricia"
+        ],
+        "journal": "Hydrobiologia"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ae3c96659f5c",
+      "subject": "causal_mosaic:node:376dfffc6424",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:35b8d3f3196a",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "counterfactual"
+      ],
+      "original_sentence": "This drop in water level coincided with a sharp decrease of more than half the stem density in 1999 (Fig. 5a). I suggest that wave disturbance and propagule burial associated with shallow water depths may have been the main reasons for the decline of the SAV in 1999 and 2000.",
+      "source_spans": [
+        {
+          "text": "This drop in water level coincided with a sharp decrease of more than half the stem density in 1999 (Fig. 5a). I suggest that wave disturbance and propagule burial associated with shallow water depths may have been the main reasons for the decline of the SAV in 1999 and 2000."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10750-004-4868-1",
+        "title": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+        "year": 2005,
+        "authors": [
+          "Chow-Fraser, Patricia"
+        ],
+        "journal": "Hydrobiologia"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:04b615ef05c3",
+      "subject": "causal_mosaic:node:f85e841c68de",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:efa2afc1941f",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "counterfactual"
+      ],
+      "original_sentence": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules.",
+      "source_spans": [
+        {
+          "text": "Loss of emergent vegetation has been attributed to sustained high water levels over the past 30 years, while the disappearance of submergent vegetation is thought to be due to poor light penetration that is assumed to be limiting germination and growth of seedlings and propagules."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10750-004-4868-1",
+        "title": "Ecosystem response to changes in water level of Lake Ontario marshes: lessons from the restoration of Cootes Paradise Marsh",
+        "year": 2005,
+        "authors": [
+          "Chow-Fraser, Patricia"
+        ],
+        "journal": "Hydrobiologia"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

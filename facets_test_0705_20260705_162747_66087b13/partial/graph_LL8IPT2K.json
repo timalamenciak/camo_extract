@@ -1,0 +1,241 @@
+{
+  "graph_id": "causal_mosaic:graph:82e9906f1aad",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T01:15:15.123437+00:00",
+    "source_corpus": "Are hatchery-reared abalone naïve of predators? Comparing the behaviours of wild and hatchery-reared northern abalone, <i>Haliotis kamtschatkana</i> (Jonas, 1845)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:784d1837a3a0",
+      "name": "hatchery-reared abalone",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_2e2da0251e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hatchery-reared abalone",
+          "start_char": 15,
+          "end_char": 38,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8f6c224018a",
+      "name": "wild abalone",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_094165e519",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "wild abalone",
+          "start_char": 1174,
+          "end_char": 1186,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:96421989e578",
+      "name": "intensity of response",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_72f5b33963",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000077",
+      "source_spans": [
+        {
+          "text": "intensity of response"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:27cce806cb57",
+      "name": "vulnerability of hatchery-reared abalone to predators",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_381397b4f6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "vulnerability of hatchery-reared abalone to predators"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bc0290de83be",
+      "name": "predator-induced mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_58d9842b80",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "predator-induced mortality",
+          "start_char": 755,
+          "end_char": 781,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cffc53b5fa4a",
+      "name": "outplanting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_80ff74280b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "outplanting",
+          "start_char": 2599,
+          "end_char": 2610,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:81880a8aa7d8",
+      "subject": "causal_mosaic:node:784d1837a3a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:96421989e578",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the field, outplanted hatchery-reared abalone were significantly less responsive than wild abalone, in terms of number of abalone responding and intensity of response, to nearby movement and to physical contact with an inert probe.",
+      "source_spans": [
+        {
+          "text": "In the field, outplanted hatchery-reared abalone were significantly less responsive than wild abalone, in terms of number of abalone responding and intensity of response, to nearby movement and to physical contact with an inert probe."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/are.12627",
+        "title": "Are hatchery-reared abalone naïve of predators? Comparing the behaviours of wild and hatchery-reared northern abalone, <i>Haliotis kamtschatkana</i> (Jonas, 1845)",
+        "year": 2016,
+        "authors": [
+          "Hansen, Sandra C",
+          "Gosselin, Louis A"
+        ],
+        "journal": "Aquac Res"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7578ddb5bc63",
+      "subject": "causal_mosaic:node:96421989e578",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:27cce806cb57",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These behavioural differences are expected to increase the vulnerability of hatchery-reared abalone to predators",
+      "source_spans": [
+        {
+          "text": "These behavioural differences are expected to increase the vulnerability of hatchery-reared abalone to predators"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/are.12627",
+        "title": "Are hatchery-reared abalone naïve of predators? Comparing the behaviours of wild and hatchery-reared northern abalone, <i>Haliotis kamtschatkana</i> (Jonas, 1845)",
+        "year": 2016,
+        "authors": [
+          "Hansen, Sandra C",
+          "Gosselin, Louis A"
+        ],
+        "journal": "Aquac Res"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fb35c45ffe80",
+      "subject": "causal_mosaic:node:96421989e578",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bc0290de83be",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These behavioural differences are expected to increase the vulnerability of hatchery-reared abalone to predators, and are likely a major cause of their elevated predator-induced mortality when outplanted.",
+      "source_spans": [
+        {
+          "text": "These behavioural differences are expected to increase the vulnerability of hatchery-reared abalone to predators, and are likely a major cause of their elevated predator-induced mortality when outplanted."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/are.12627",
+        "title": "Are hatchery-reared abalone naïve of predators? Comparing the behaviours of wild and hatchery-reared northern abalone, <i>Haliotis kamtschatkana</i> (Jonas, 1845)",
+        "year": 2016,
+        "authors": [
+          "Hansen, Sandra C",
+          "Gosselin, Louis A"
+        ],
+        "journal": "Aquac Res"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:75ae52d0e3ea",
+      "subject": "causal_mosaic:node:cffc53b5fa4a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bc0290de83be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "One potential solution, the outplanting of hatchery-reared H. kamtschatkana, has so far been limited by high mortality rates of hatchery abalone when released into the wild",
+      "source_spans": [
+        {
+          "text": "One potential solution, the outplanting of hatchery-reared H. kamtschatkana, has so far been limited by high mortality rates of hatchery abalone when released into the wild"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/are.12627",
+        "title": "Are hatchery-reared abalone naïve of predators? Comparing the behaviours of wild and hatchery-reared northern abalone, <i>Haliotis kamtschatkana</i> (Jonas, 1845)",
+        "year": 2016,
+        "authors": [
+          "Hansen, Sandra C",
+          "Gosselin, Louis A"
+        ],
+        "journal": "Aquac Res"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

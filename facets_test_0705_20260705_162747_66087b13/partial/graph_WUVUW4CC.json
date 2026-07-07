@@ -1,0 +1,331 @@
+{
+  "graph_id": "causal_mosaic:graph:7a3cc685fae9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T20:31:19.470671+00:00",
+    "source_corpus": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3119ea6a7f30",
+      "name": "Norway rats",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_5b3a167de2",
+      "state_or_change_qualifier": "introduced",
+      "source_spans": [
+        {
+          "text": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2676a3f7c4a4",
+      "name": "Ancient Murrelet population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_290872cef9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:74515ff48502",
+      "name": "Rat Eradication",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7db48797da",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The eradication succeeded.",
+          "start_char": 1134,
+          "end_char": 1160,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fef61164933c",
+      "name": "Rat Absence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_25afc2ff59",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "No signs of rats have been detected on Langara Island and its associated islands since January 1996."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a1b4d16e1d58",
+      "name": "Common Raven Population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e9872995ab",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Corvus corax (common ravens) likely suffered greater than 50% mortality from the eradication after apparently gaining access to the poison directly from bait stations and from scavenging rat carcasses."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:104cdc3de160",
+      "name": "Shrew Population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b73f0dff3a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The campaign undoubtedly led to the death of many shrews but the population effects were apparently short lived."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dc79e673332e",
+      "name": "Bald Eagle Population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_684b80de9f",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Brodifacoum residues were detected in northwestern crows, song sparrows, and blood samples of bald eagles (Howald 1997), but these species suffered no detectable population decline."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1ac6169215fc",
+      "name": "Ancient Murrelet Breeding",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a6344deaf7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ancient murrelets bred in the colony in May 1996 and 1997, with no signs of disturbance by rats."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e59925a30e89",
+      "subject": "causal_mosaic:node:3119ea6a7f30",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2676a3f7c4a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island",
+      "source_spans": [
+        {
+          "text": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d3fbe61ebc7a",
+      "subject": "causal_mosaic:node:74515ff48502",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fef61164933c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The eradication succeeded. No signs of rats have been detected on Langara Island and its associated islands since January 1996.",
+      "source_spans": [
+        {
+          "text": "The eradication succeeded. No signs of rats have been detected on Langara Island and its associated islands since January 1996."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ef0aec027c2",
+      "subject": "causal_mosaic:node:74515ff48502",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a1b4d16e1d58",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Corvus corax (common ravens) likely suffered greater than 50% mortality from the eradication after apparently gaining access to the poison directly from bait stations and from scavenging rat carcasses.",
+      "source_spans": [
+        {
+          "text": "Corvus corax (common ravens) likely suffered greater than 50% mortality from the eradication after apparently gaining access to the poison directly from bait stations and from scavenging rat carcasses."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e59eb3776e2",
+      "subject": "causal_mosaic:node:74515ff48502",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:104cdc3de160",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The campaign undoubtedly led to the death of many shrews but the population effects were apparently short lived.",
+      "source_spans": [
+        {
+          "text": "The campaign undoubtedly led to the death of many shrews but the population effects were apparently short lived."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3b7719ebd46f",
+      "subject": "causal_mosaic:node:74515ff48502",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dc79e673332e",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Brodifacoum residues were detected in northwestern crows, song sparrows, and blood samples of bald eagles (Howald 1997), but these species suffered no detectable population decline.",
+      "source_spans": [
+        {
+          "text": "Brodifacoum residues were detected in northwestern crows, song sparrows, and blood samples of bald eagles (Howald 1997), but these species suffered no detectable population decline."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f9333822f99a",
+      "subject": "causal_mosaic:node:74515ff48502",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1ac6169215fc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ancient murrelets bred in the colony in May 1996 and 1997, with no signs of disturbance by rats.",
+      "source_spans": [
+        {
+          "text": "Ancient murrelets bred in the colony in May 1996 and 1997, with no signs of disturbance by rats."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

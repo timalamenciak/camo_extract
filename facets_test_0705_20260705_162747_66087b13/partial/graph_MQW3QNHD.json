@@ -1,0 +1,428 @@
+{
+  "graph_id": "causal_mosaic:graph:0f2dea57af2b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T19:42:39.494387+00:00",
+    "source_corpus": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9cfe8c7f8216",
+      "name": "Peat mining",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_afa40c4f17",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The Cacouna peatland lost 34% of its initial peat volume between 1946 and 1998, mainly as a result of peat mining, peat subsidence, and agricultural activities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04964ba70884",
+      "name": "Peat volume",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b8aaaebd71",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The Cacouna peatland lost 34% of its initial peat volume between 1946 and 1998, mainly as a result of peat mining, peat subsidence, and agricultural activities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:72298d916e34",
+      "name": "Mining activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_049cba2327",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "More than 60% of the total area of the bog was mined between 1942 and 1975, and 98 km of ditches were dug to drain the site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d1759410e5d4",
+      "name": "Drainage ditches",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ebd85e4e6d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "More than 60% of the total area of the bog was mined between 1942 and 1975, and 98 km of ditches were dug to drain the site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5eb252a97112",
+      "name": "Water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c4717587a9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "During the mining period, drainage ditches probably drew off a large quantity of water from the peatland."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84ffc3ea1041",
+      "name": "Water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c4717587a9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high water table level... appears to be the most important abiotic factor facilitating the establishment and survival of Sphagnum colonies."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4547c249110c",
+      "name": "Sphagnum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15cecc3723",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high water table level... appears to be the most important abiotic factor facilitating the establishment and survival of Sphagnum colonies."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d458c09e6cc2",
+      "name": "Tree cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_71054c852d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Tree species are more abundant in drier sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dce35e6586d8",
+      "name": "Abiotic factors",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d6a0ad46ba",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors, which in turn affected the revegetation process."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:615959f91126",
+      "name": "Revegetation process",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ce39170edd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors, which in turn affected the revegetation process."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4c7447011636",
+      "name": "Carbon accumulation function",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_23a5f36e87",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The absence of a widespread Sphagnum cover, a keystone plant in a bog environment... suggests that the fundamental carbon accumulation function has not been restored"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b77f066f90e0",
+      "subject": "causal_mosaic:node:9cfe8c7f8216",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04964ba70884",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The Cacouna peatland lost 34% of its initial peat volume between 1946 and 1998, mainly as a result of peat mining, peat subsidence, and agricultural activities.",
+      "source_spans": [
+        {
+          "text": "The Cacouna peatland lost 34% of its initial peat volume between 1946 and 1998, mainly as a result of peat mining, peat subsidence, and agricultural activities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4305824c3913",
+      "subject": "causal_mosaic:node:72298d916e34",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d1759410e5d4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "More than 60% of the total area of the bog was mined between 1942 and 1975, and 98 km of ditches were dug to drain the site.",
+      "source_spans": [
+        {
+          "text": "More than 60% of the total area of the bog was mined between 1942 and 1975, and 98 km of ditches were dug to drain the site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b80a12f31ee0",
+      "subject": "causal_mosaic:node:d1759410e5d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5eb252a97112",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "During the mining period, drainage ditches probably drew off a large quantity of water from the peatland.",
+      "source_spans": [
+        {
+          "text": "During the mining period, drainage ditches probably drew off a large quantity of water from the peatland."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:85065a26edb5",
+      "subject": "causal_mosaic:node:84ffc3ea1041",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4547c249110c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "high water table level... appears to be the most important abiotic factor facilitating the establishment and survival of Sphagnum colonies.",
+      "source_spans": [
+        {
+          "text": "high water table level... appears to be the most important abiotic factor facilitating the establishment and survival of Sphagnum colonies."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ab786c8b2062",
+      "subject": "causal_mosaic:node:5eb252a97112",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d458c09e6cc2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree species are more abundant in drier sites.",
+      "source_spans": [
+        {
+          "text": "Tree species are more abundant in drier sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1c9b9c96b423",
+      "subject": "causal_mosaic:node:72298d916e34",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dce35e6586d8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors, which in turn affected the revegetation process.",
+      "source_spans": [
+        {
+          "text": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors, which in turn affected the revegetation process."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:eb4cca82cc94",
+      "subject": "causal_mosaic:node:dce35e6586d8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:615959f91126",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors, which in turn affected the revegetation process.",
+      "source_spans": [
+        {
+          "text": "The intensity of mining activities and the pattern of abandonment of mined sectors strongly influenced abiotic factors, which in turn affected the revegetation process."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:710834ed95dd",
+      "subject": "causal_mosaic:node:4547c249110c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4c7447011636",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The absence of a widespread Sphagnum cover, a keystone plant in a bog environment... suggests that the fundamental carbon accumulation function has not been restored",
+      "source_spans": [
+        {
+          "text": "The absence of a widespread Sphagnum cover, a keystone plant in a bog environment... suggests that the fundamental carbon accumulation function has not been restored"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10021-001-0071-7",
+        "title": "The Regeneration of a Highly Disturbed Ecosystem: A Mined Peatland in Southern Québec",
+        "year": 2002,
+        "authors": [
+          "Girard, Marc",
+          "Lavoie, Claude",
+          "Thériault, Marius"
+        ],
+        "journal": "Ecosystems"
+      }
+    }
+  ]
+}

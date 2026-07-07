@@ -1,0 +1,535 @@
+{
+  "graph_id": "causal_mosaic:graph:b18c9c3eee9c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:29:24.262417+00:00",
+    "source_corpus": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9277d72e782a",
+      "name": "tall seedlings with lower root-to-shoot ratios",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_62cae1ff95",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had less height growth aboveground and reduced root egress (relative to total root mass) belowground"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4727a29ac863",
+      "name": "height growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9c87a98c0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had less height growth aboveground"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ae3b0360eccc",
+      "name": "root egress",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5783202e61",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had... reduced root egress (relative to total root mass) belowground"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5cc89c3283b",
+      "name": "Reducing competing vegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c77698bcdb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Reducing competing vegetation before outplanting improved height growth",
+          "start_char": 1561,
+          "end_char": 1632,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:77ea202e96df",
+      "name": "Competition removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ad0a47d17a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Competition removal prior to planting appeared to benefit the short and medium-size classes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0da787f144fa",
+      "name": "first-year height increment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d068ba2151",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Competition removal prior to planting appeared to benefit the short and medium-size classes, which showed greater first-year height increment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:26de3b93f7ac",
+      "name": "Lack of competition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_190d703c3a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The lack of competition was likely the main driver of aspen growth response on the Mulch site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:924aaa767098",
+      "name": "aspen growth response",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93c51cf22d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The lack of competition was likely the main driver of aspen growth response on the Mulch site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7086f3a4fdb7",
+      "name": "Moisture stress",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_94a7055220",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "moisture stress can have as much of an impact on seedling development as competing vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c4d015263a92",
+      "name": "seedling development",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b524546c40",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "moisture stress can have as much of an impact on seedling development as competing vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:71f8a364e8c0",
+      "name": "root competition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2ed6bb9e90",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The abundance of root competition in the Grass site... diminished the benefit of a high root-to-shoot ratio"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:300cd4370b93",
+      "name": "benefit of a high root-to-shoot ratio",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5baf5bf500",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The abundance of root competition in the Grass site... diminished the benefit of a high root-to-shoot ratio"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:144b49d4e8c5",
+      "name": "dry conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_68513b50b4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "or the very dry conditions at the Gravel-pit diminished the benefit of a high root-to-shoot ratio"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:655b8da88b46",
+      "name": "Increased root egress",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_92cbe11855",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Increased root egress should also lead to better soil plant contact"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b349ce3532dc",
+      "name": "soil plant contact",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_805be4644d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Increased root egress should also lead to better soil plant contact"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:d060ba417948",
+      "subject": "causal_mosaic:node:9277d72e782a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4727a29ac863",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had less height growth aboveground and reduced root egress (relative to total root mass) belowground",
+      "source_spans": [
+        {
+          "text": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had less height growth aboveground and reduced root egress (relative to total root mass) belowground"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6eef9d645e76",
+      "subject": "causal_mosaic:node:9277d72e782a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ae3b0360eccc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had less height growth aboveground and reduced root egress (relative to total root mass) belowground",
+      "source_spans": [
+        {
+          "text": "With competing vegetation present, tall seedlings with lower root-to-shoot ratios had less height growth aboveground and reduced root egress (relative to total root mass) belowground"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:04873bd893d9",
+      "subject": "causal_mosaic:node:b5cc89c3283b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4727a29ac863",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reducing competing vegetation before outplanting improved height growth",
+      "source_spans": [
+        {
+          "text": "Reducing competing vegetation before outplanting improved height growth",
+          "start_char": 1561,
+          "end_char": 1632,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b0a9610e6a1",
+      "subject": "causal_mosaic:node:77ea202e96df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0da787f144fa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Competition removal prior to planting appeared to benefit the short and medium-size classes, which showed greater first-year height increment",
+      "source_spans": [
+        {
+          "text": "Competition removal prior to planting appeared to benefit the short and medium-size classes, which showed greater first-year height increment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2331b2cfce4",
+      "subject": "causal_mosaic:node:26de3b93f7ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:924aaa767098",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The lack of competition was likely the main driver of aspen growth response on the Mulch site",
+      "source_spans": [
+        {
+          "text": "The lack of competition was likely the main driver of aspen growth response on the Mulch site"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:82a5cdac3c10",
+      "subject": "causal_mosaic:node:7086f3a4fdb7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c4d015263a92",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "moisture stress can have as much of an impact on seedling development as competing vegetation",
+      "source_spans": [
+        {
+          "text": "moisture stress can have as much of an impact on seedling development as competing vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:405c2f910f40",
+      "subject": "causal_mosaic:node:71f8a364e8c0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:300cd4370b93",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The abundance of root competition in the Grass site... diminished the benefit of a high root-to-shoot ratio",
+      "source_spans": [
+        {
+          "text": "The abundance of root competition in the Grass site... diminished the benefit of a high root-to-shoot ratio"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79168dfffd6e",
+      "subject": "causal_mosaic:node:144b49d4e8c5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:300cd4370b93",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "or the very dry conditions at the Gravel-pit diminished the benefit of a high root-to-shoot ratio",
+      "source_spans": [
+        {
+          "text": "or the very dry conditions at the Gravel-pit diminished the benefit of a high root-to-shoot ratio"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bb94aed18825",
+      "subject": "causal_mosaic:node:655b8da88b46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b349ce3532dc",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Increased root egress should also lead to better soil plant contact",
+      "source_spans": [
+        {
+          "text": "Increased root egress should also lead to better soil plant contact"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1080/02827581.2019.1707274",
+        "title": "Manipulating aspen ( <i>Populus tremuloides</i> ) seedling size characteristics to improve initial establishment and growth on competitive sites",
+        "year": 2020,
+        "authors": [
+          "Le, Kyle D.",
+          "Schreiber, Stefan G.",
+          "Landhäusser, Simon M.",
+          "Schoonmaker, Amanda L."
+        ],
+        "journal": "Scandinavian Journal of Forest Research"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "graph_id": "causal_mosaic:graph:b263bdc6869b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T07:09:52.565282+00:00",
+    "source_corpus": "Restoring a wetland complex for amphibian populations, south Okanagan Valley, British Columbia, Canada (2003 to 2014)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ec42b661fa20",
+      "name": "Wetland construction and enhancement",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bc1a53c259",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "wetland construction and enhancement can mitigate anthropogenic stressors in degraded landscapes for pond species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66e8b3c2aa49",
+      "name": "Great Basin spadefoot colonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_208ca19928",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Great Basin spadefoot colonization at 86% of ponds (18 of 21 ponds)",
+          "start_char": 279185,
+          "end_char": 279252,
+          "paragraph_id": "page:110"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:50e722699c42",
+      "name": "Non-native invasive fish species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_b1a9376765",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "sites with non-native invasive fish species",
+          "start_char": 38256,
+          "end_char": 38299,
+          "paragraph_id": "page:13"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3813acf5676",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Species richness was significantly higher in wetland sites with no fish compared to sites with non-native invasive fish species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1e6e182e0cd2",
+      "name": "Highway expansion",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bab2f89060",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Highway expansion in the south Okanagan continues to bisect breeding sites",
+          "start_char": 230368,
+          "end_char": 230442,
+          "paragraph_id": "page:87"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70c62231915e",
+      "name": "Amphibian road mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ed44f7b2fc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "resulting in significant amphibian road mortality",
+          "start_char": 230499,
+          "end_char": 230548,
+          "paragraph_id": "page:87"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48101d5f4443",
+      "name": "Soil compaction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_433b8124b6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The soil compaction around conventional orchard wetlands was often greater than 287.3 kN/M2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c6ce1ae93e0",
+      "name": "Fossorial species movement",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_710ea257c6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "which likely impedes fossorial species movement through agricultural lands and urban developed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9df6c05a97d0",
+      "name": "Water augmentation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c5a121194b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "regularly augmented with water to ensure metamorphic success",
+          "start_char": 291540,
+          "end_char": 291600,
+          "paragraph_id": "page:114"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07c33518eceb",
+      "name": "Metamorphic success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_87957827cd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "ensure metamorphic success",
+          "start_char": 291574,
+          "end_char": 291600,
+          "paragraph_id": "page:114"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:bc3764d5b34d",
+      "subject": "causal_mosaic:node:ec42b661fa20",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:66e8b3c2aa49",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our 'small pond' project supports our hypothesis that strategically constructed and enhanced ponds can provide breeding habitat aiding in the Species at Risk (SAR) recovery of Great Basin spadefoots, in the lower south Okanagan Valley.",
+      "source_spans": [
+        {
+          "text": "Our 'small pond' project supports our hypothesis that strategically constructed and enhanced ponds can provide breeding habitat aiding in the Species at Risk (SAR) recovery of Great Basin spadefoots, in the lower south Okanagan Valley."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Restoring a wetland complex for amphibian populations, south Okanagan Valley, British Columbia, Canada (2003 to 2014)",
+        "authors": [
+          "Ashpole, Sara"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5caf7a035bfe",
+      "subject": "causal_mosaic:node:50e722699c42",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3813acf5676",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness was significantly higher in wetland sites with no fish compared to sites with non-native invasive fish species",
+      "source_spans": [
+        {
+          "text": "Species richness was significantly higher in wetland sites with no fish compared to sites with non-native invasive fish species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Restoring a wetland complex for amphibian populations, south Okanagan Valley, British Columbia, Canada (2003 to 2014)",
+        "authors": [
+          "Ashpole, Sara"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e614885b75b3",
+      "subject": "causal_mosaic:node:1e6e182e0cd2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:70c62231915e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Highway expansion in the south Okanagan continues to bisect breeding sites in the lower floodplain from upland terrestrial habitat resulting in significant amphibian road mortality",
+      "source_spans": [
+        {
+          "text": "Highway expansion in the south Okanagan continues to bisect breeding sites in the lower floodplain from upland terrestrial habitat resulting in significant amphibian road mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Restoring a wetland complex for amphibian populations, south Okanagan Valley, British Columbia, Canada (2003 to 2014)",
+        "authors": [
+          "Ashpole, Sara"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:833f05cf369b",
+      "subject": "causal_mosaic:node:48101d5f4443",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c6ce1ae93e0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The soil compaction around conventional orchard wetlands was often greater than 287.3 kN/M2 (3 tons per sq ft.), which likely impedes fossorial species movement through agricultural lands and urban developed.",
+      "source_spans": [
+        {
+          "text": "The soil compaction around conventional orchard wetlands was often greater than 287.3 kN/M2 (3 tons per sq ft.), which likely impedes fossorial species movement through agricultural lands and urban developed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Restoring a wetland complex for amphibian populations, south Okanagan Valley, British Columbia, Canada (2003 to 2014)",
+        "authors": [
+          "Ashpole, Sara"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:42663062c8b9",
+      "subject": "causal_mosaic:node:9df6c05a97d0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07c33518eceb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Two of our liner ponds located on the upper benches in natural habitat have accessible water sources and are regularly augmented with water to ensure metamorphic success.",
+      "source_spans": [
+        {
+          "text": "Two of our liner ponds located on the upper benches in natural habitat have accessible water sources and are regularly augmented with water to ensure metamorphic success."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Restoring a wetland complex for amphibian populations, south Okanagan Valley, British Columbia, Canada (2003 to 2014)",
+        "authors": [
+          "Ashpole, Sara"
+        ]
+      }
+    }
+  ]
+}

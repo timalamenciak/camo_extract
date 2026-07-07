@@ -1,0 +1,227 @@
+{
+  "graph_id": "causal_mosaic:graph:eb2544823fae",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T15:24:16.145002+00:00",
+    "source_corpus": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a7e00142e14a",
+      "name": "restoration activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_38b8d9b144",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cee06f874b8",
+      "name": "abundance of W. Yellow-breasted Chats",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a2c0313dde",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48250db538a6",
+      "name": "breeding performance of W. Yellow-breasted Chats",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77f3224097",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "breeding performance",
+      "source_spans": [
+        {
+          "text": "Cattle exclusion did not lead to an improvement in the breeding performance of W. Yellow-breasted Chats at restoration sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c2a68b4962d",
+      "name": "abundance of other riparian birds",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e5dc062d7f",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Restoration did not have significant effects on the abundance, richness, or breeding performance of other riparian birds at the restoration sites independent of temporal changes that occurred at reference sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:593aab3817ea",
+      "name": "livestock exclusion",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a645dc2ecd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A combination of permanent and seasonal exclusion of livestock can lead to increased abundance of riparian birds that depend on early successional habitat for nesting such as Western Yellow-breasted Chats."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:92658b397d92",
+      "subject": "causal_mosaic:node:a7e00142e14a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6cee06f874b8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred.",
+      "source_spans": [
+        {
+          "text": "The abundance of W. Yellow-breasted Chats significantly increased between 2002 and 2013 in areas where restoration activities occurred."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12495",
+        "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Forrester, Timothy R.",
+          "Green, David J.",
+          "McKibbin, René",
+          "Bishop, Christine A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:90b54e0e82b5",
+      "subject": "causal_mosaic:node:593aab3817ea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6cee06f874b8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A combination of permanent and seasonal exclusion of livestock can lead to increased abundance of riparian birds that depend on early successional habitat for nesting such as Western Yellow-breasted Chats.",
+      "source_spans": [
+        {
+          "text": "A combination of permanent and seasonal exclusion of livestock can lead to increased abundance of riparian birds that depend on early successional habitat for nesting such as Western Yellow-breasted Chats."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12495",
+        "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Forrester, Timothy R.",
+          "Green, David J.",
+          "McKibbin, René",
+          "Bishop, Christine A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8102171cebd",
+      "subject": "causal_mosaic:node:593aab3817ea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:48250db538a6",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cattle exclusion did not lead to an improvement in the breeding performance of W. Yellow-breasted Chats at restoration sites.",
+      "source_spans": [
+        {
+          "text": "Cattle exclusion did not lead to an improvement in the breeding performance of W. Yellow-breasted Chats at restoration sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12495",
+        "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Forrester, Timothy R.",
+          "Green, David J.",
+          "McKibbin, René",
+          "Bishop, Christine A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4ca9edb63ad5",
+      "subject": "causal_mosaic:node:a7e00142e14a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c2a68b4962d",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration did not have significant effects on the abundance, richness, or breeding performance of other riparian birds at the restoration sites independent of temporal changes that occurred at reference sites.",
+      "source_spans": [
+        {
+          "text": "Restoration did not have significant effects on the abundance, richness, or breeding performance of other riparian birds at the restoration sites independent of temporal changes that occurred at reference sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12495",
+        "title": "Evaluating the efficacy of seasonal grazing and livestock exclusion as restoration tools for birds in riparian habitat of the Okanagan Valley, British Columbia, Canada",
+        "year": 2017,
+        "authors": [
+          "Forrester, Timothy R.",
+          "Green, David J.",
+          "McKibbin, René",
+          "Bishop, Christine A."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

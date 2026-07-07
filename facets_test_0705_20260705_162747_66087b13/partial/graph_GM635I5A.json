@@ -1,0 +1,314 @@
+{
+  "graph_id": "causal_mosaic:graph:0680a59e82ce",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T13:53:39.829319+00:00",
+    "source_corpus": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9e401f84bed1",
+      "name": "excavation and removal of the PCB-contaminated soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c3f68c4d02",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "From 1997 to 1999, in conjunction with the excavation and removal of the PCB-contaminated soil from the terrestrial environment at Saglek Bay ( 13), an extended study was undertaken to assess the contamination in both the marine sediments and biota."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:98fb25115cf6",
+      "name": "PCB concentrations in surface sediments",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d3c3947fb9",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Surface sediment measurements indicate decreases in both the extent and average concentrations of PCBs throughout Saglek Bay."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:32bb6a21b4fe",
+      "name": "PCB concentrations in shorthorn sculpin",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_812e534756",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Sculpin collected near the former contaminated beach in 2006 had significantly lower PCB burdens than those collected in 1998/99."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cb9c2bfb320d",
+      "name": "PCB concentrations in black guillemot nestlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0dc6ad20d7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "PCB levels have also decreased significantly in black guillemot nestlings collected from the former contaminated beach area, as well as Island (6-8 km from the source) and Reference (greater than 18 km from the source) locations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:17c4f6926a47",
+      "name": "PCB concentrations in black guillemot eggs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4ce57dc39d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "ΣPCB concentrations in black guillemot eggs from the Beach group decreased (p < 0.05) 7-fold from 1999 to 2007 (Table 1)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:572d649df488",
+      "name": "natural ecosystem recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1c864f8a45",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The rapid decreases in the physical and biotic PCB concentrations from the local ecosystem at Saglek Bay demonstrate the efficiency with which natural ecosystem recovery can take place in a highly energetic coastal marine environment once a chronic contaminant source is removed."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:90be07b9bde8",
+      "subject": "causal_mosaic:node:9e401f84bed1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:98fb25115cf6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The rapid decreases in the physical and biotic PCB concentrations from the local ecosystem at Saglek Bay demonstrate the efficiency with which natural ecosystem recovery can take place in a highly energetic coastal marine environment once a chronic contaminant source is removed.",
+      "source_spans": [
+        {
+          "text": "The rapid decreases in the physical and biotic PCB concentrations from the local ecosystem at Saglek Bay demonstrate the efficiency with which natural ecosystem recovery can take place in a highly energetic coastal marine environment once a chronic contaminant source is removed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1021/es900941w",
+        "title": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+        "year": 2009,
+        "authors": [
+          "Brown, Tanya M.",
+          "Sheldon, Tom A.",
+          "Burgess, Neil M.",
+          "Reimer, Ken J."
+        ],
+        "journal": "Environ. Sci. Technol."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4d9cb9132a2",
+      "subject": "causal_mosaic:node:9e401f84bed1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:32bb6a21b4fe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sculpin collected near the former contaminated beach in 2006 had significantly lower PCB burdens than those collected in 1998/99.",
+      "source_spans": [
+        {
+          "text": "Sculpin collected near the former contaminated beach in 2006 had significantly lower PCB burdens than those collected in 1998/99."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1021/es900941w",
+        "title": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+        "year": 2009,
+        "authors": [
+          "Brown, Tanya M.",
+          "Sheldon, Tom A.",
+          "Burgess, Neil M.",
+          "Reimer, Ken J."
+        ],
+        "journal": "Environ. Sci. Technol."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e3fa72073238",
+      "subject": "causal_mosaic:node:9e401f84bed1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cb9c2bfb320d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "PCB levels have also decreased significantly in black guillemot nestlings collected from the former contaminated beach area, as well as Island (6-8 km from the source) and Reference (greater than 18 km from the source) locations.",
+      "source_spans": [
+        {
+          "text": "PCB levels have also decreased significantly in black guillemot nestlings collected from the former contaminated beach area, as well as Island (6-8 km from the source) and Reference (greater than 18 km from the source) locations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1021/es900941w",
+        "title": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+        "year": 2009,
+        "authors": [
+          "Brown, Tanya M.",
+          "Sheldon, Tom A.",
+          "Burgess, Neil M.",
+          "Reimer, Ken J."
+        ],
+        "journal": "Environ. Sci. Technol."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:575d70d881e4",
+      "subject": "causal_mosaic:node:9e401f84bed1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:17c4f6926a47",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "ΣPCB concentrations in black guillemot eggs from the Beach group decreased (p < 0.05) 7-fold from 1999 to 2007 (Table 1).",
+      "source_spans": [
+        {
+          "text": "ΣPCB concentrations in black guillemot eggs from the Beach group decreased (p < 0.05) 7-fold from 1999 to 2007 (Table 1)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1021/es900941w",
+        "title": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+        "year": 2009,
+        "authors": [
+          "Brown, Tanya M.",
+          "Sheldon, Tom A.",
+          "Burgess, Neil M.",
+          "Reimer, Ken J."
+        ],
+        "journal": "Environ. Sci. Technol."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:85b3b90f4368",
+      "subject": "causal_mosaic:node:9e401f84bed1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:572d649df488",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The rapid decreases in the physical and biotic PCB concentrations from the local ecosystem at Saglek Bay demonstrate the efficiency with which natural ecosystem recovery can take place in a highly energetic coastal marine environment once a chronic contaminant source is removed.",
+      "source_spans": [
+        {
+          "text": "The rapid decreases in the physical and biotic PCB concentrations from the local ecosystem at Saglek Bay demonstrate the efficiency with which natural ecosystem recovery can take place in a highly energetic coastal marine environment once a chronic contaminant source is removed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1021/es900941w",
+        "title": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+        "year": 2009,
+        "authors": [
+          "Brown, Tanya M.",
+          "Sheldon, Tom A.",
+          "Burgess, Neil M.",
+          "Reimer, Ken J."
+        ],
+        "journal": "Environ. Sci. Technol."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e4bb014536fc",
+      "subject": "causal_mosaic:node:98fb25115cf6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cb9c2bfb320d",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The PCB concentrations in the guillemot livers and eggs correspond closely ( r 2 of 0.82 and 0.55 respectively) to the sediment concentrations collected within a 500 m radius of the nests (Figure 3).",
+      "source_spans": [
+        {
+          "text": "The PCB concentrations in the guillemot livers and eggs correspond closely ( r 2 of 0.82 and 0.55 respectively) to the sediment concentrations collected within a 500 m radius of the nests (Figure 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1021/es900941w",
+        "title": "Reduction of PCB Contamination in an Arctic Coastal Environment: A First Step in Assessing Ecosystem Recovery after the Removal of a Point Source",
+        "year": 2009,
+        "authors": [
+          "Brown, Tanya M.",
+          "Sheldon, Tom A.",
+          "Burgess, Neil M.",
+          "Reimer, Ken J."
+        ],
+        "journal": "Environ. Sci. Technol."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

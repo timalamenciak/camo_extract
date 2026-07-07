@@ -1,0 +1,1177 @@
+{
+  "graph_id": "causal_mosaic:graph:310ec4d984cc",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T12:02:11.492220+00:00",
+    "source_corpus": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ed19ea790435",
+      "name": "LFH treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_74f7c31631",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "LFH treatments had signiﬁcantly higher species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1bc644faac64",
+      "name": "Peat treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2509af1639",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "than peat treatments",
+          "start_char": 1121,
+          "end_char": 1141,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60dbca3dbde8",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "LFH treatments had signiﬁcantly higher species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49eeb2289b04",
+      "name": "Plant abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8260214d3d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "plant abundance, and soil nutrients than peat treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2fd6e5fb67ad",
+      "name": "Soil nutrients",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_23800901c6",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "plant abundance, and soil nutrients than peat treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d51ceb4641a",
+      "name": "Plant species emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_30588d5207",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "LFH donor material had signiﬁcantly more plant species emerge"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a984e5a562a4",
+      "name": "C:N ratios",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4fd8352d36",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:26b62ae36177",
+      "name": "Available phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_268c308134",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "LFH treatments had higher concentrations of available phosphorus"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:085b5da13a18",
+      "name": "Soluble potassium",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4818dfbb52",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher soluble potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher pH",
+          "start_char": 26439,
+          "end_char": 26448,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:56927135e88f",
+      "name": "Surface mineral soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f58ab4c114",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "more surface mineral soil",
+          "start_char": 26481,
+          "end_char": 26506,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0de172943602",
+      "name": "Similarity to donor site vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_153d1c91c4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "LFH treatments had a greater Sorenson similarity index"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61d246e7ef21",
+      "name": "Diversity indices",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d56ef63341",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "most diversity indices were higher in the LFH treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a7b7fdad37e9",
+      "name": "Evenness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2ed2341ce",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Peat treatments had greater evenness",
+          "start_char": 23716,
+          "end_char": 23752,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4544d9bad71b",
+      "name": "Organic carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4e5550a891",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Peat treatments had more organic carbon",
+          "start_char": 25981,
+          "end_char": 26020,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44560e52751a",
+      "name": "Organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e656228b8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "organic matter than LFH treatments",
+          "start_char": 26036,
+          "end_char": 26070,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b180c9183f2",
+      "name": "Pteridopyte cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_434e73aacd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The peat treatment had a higher pteridopyte cover",
+          "start_char": 19895,
+          "end_char": 19944,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f39a954f9eb3",
+      "name": "Plant community establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1327fea43d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "20 cm of LFH was more beneﬁcial for plant community establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8a2b4ebf3749",
+      "name": "Grass density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2a53ed38f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Grass density was higher in 20 cm",
+          "start_char": 19665,
+          "end_char": 19698,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9054a2a56999",
+      "name": "Sedge density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9fe45642d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sedge density was highest in LFH",
+          "start_char": 19551,
+          "end_char": 19583,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8be36af1904d",
+      "name": "Admixing of subsoil",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ab082264a0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3e403ca5b9e",
+      "name": "Nitrogen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67f8295f6c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reducing organic carbon, nitrogen, and potassium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75031a2e360b",
+      "name": "20 cm of LFH",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_81d7868679",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "20 cm of LFH was more beneﬁcial",
+          "start_char": 1196,
+          "end_char": 1227,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b28f0774d0a8",
+      "name": "10 cm of LFH",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_73b9706946",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "10 cm of LFH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7efc3caa4a9a",
+      "name": "Percent mineral soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_756c493163",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "An increase in percent mineral soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5559b326484b",
+      "name": "Plant densities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0714f59a4b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "resulted in reduced plant densities",
+          "start_char": 27032,
+          "end_char": 27067,
+          "paragraph_id": "page:6"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:cd56e349b0ea",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60dbca3dbde8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the ﬁeld, LFH treatments had signiﬁcantly higher species richness than peat treatments.",
+      "source_spans": [
+        {
+          "text": "In the ﬁeld, LFH treatments had signiﬁcantly higher species richness than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4175b42fd260",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49eeb2289b04",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the ﬁeld, LFH treatments had signiﬁcantly higher species richness, plant abundance, and soil nutrients than peat treatments.",
+      "source_spans": [
+        {
+          "text": "In the ﬁeld, LFH treatments had signiﬁcantly higher species richness, plant abundance, and soil nutrients than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:40376e2e639f",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2fd6e5fb67ad",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the ﬁeld, LFH treatments had signiﬁcantly higher species richness, plant abundance, and soil nutrients than peat treatments.",
+      "source_spans": [
+        {
+          "text": "In the ﬁeld, LFH treatments had signiﬁcantly higher species richness, plant abundance, and soil nutrients than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:727b1aeb3eaa",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d51ceb4641a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the growth chamber, LFH donor material had signiﬁcantly more plant species emerge from the propagule bank than did peat donor material.",
+      "source_spans": [
+        {
+          "text": "In the growth chamber, LFH donor material had signiﬁcantly more plant species emerge from the propagule bank than did peat donor material."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b97c49d1121f",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a984e5a562a4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had narrower C:N ratios than peat.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had narrower C:N ratios than peat."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:34ed5c41f603",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:26b62ae36177",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had higher concentrations of available phosphorus than peat treatments.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had higher concentrations of available phosphorus than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:81609d2bc5ff",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:085b5da13a18",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had higher soluble potassium than peat.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had higher soluble potassium than peat."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a05e7f93f27a",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c830811facfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had higher pH than peat treatments.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had higher pH than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e062abf0de93",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:56927135e88f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had more surface mineral soil than peat treatments.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had more surface mineral soil than peat treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ad674c23ed72",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0de172943602",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH treatments had a greater Sorenson similarity index when comparing species established at the research site to species in the respective donor site propagule bank.",
+      "source_spans": [
+        {
+          "text": "LFH treatments had a greater Sorenson similarity index when comparing species established at the research site to species in the respective donor site propagule bank."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a386c90e076",
+      "subject": "causal_mosaic:node:ed19ea790435",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:61d246e7ef21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "More species established and most diversity indices were higher in the LFH treatment.",
+      "source_spans": [
+        {
+          "text": "More species established and most diversity indices were higher in the LFH treatment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7618e27a0194",
+      "subject": "causal_mosaic:node:1bc644faac64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a7b7fdad37e9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Peat treatments had greater evenness than LFH treatments.",
+      "source_spans": [
+        {
+          "text": "Peat treatments had greater evenness than LFH treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d5b9bd8a9866",
+      "subject": "causal_mosaic:node:1bc644faac64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4544d9bad71b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Peat treatments had more organic carbon than LFH treatments.",
+      "source_spans": [
+        {
+          "text": "Peat treatments had more organic carbon than LFH treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:80168377e4df",
+      "subject": "causal_mosaic:node:1bc644faac64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:44560e52751a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Peat treatments had more organic matter than LFH treatments.",
+      "source_spans": [
+        {
+          "text": "Peat treatments had more organic matter than LFH treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:433c527c6a14",
+      "subject": "causal_mosaic:node:1bc644faac64",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b180c9183f2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The peat treatment had a higher pteridopyte cover than the LFH treatment.",
+      "source_spans": [
+        {
+          "text": "The peat treatment had a higher pteridopyte cover than the LFH treatment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0d37dd293822",
+      "subject": "causal_mosaic:node:75031a2e360b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f39a954f9eb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "20 cm of LFH was more beneﬁcial for plant community establishment than 10 cm.",
+      "source_spans": [
+        {
+          "text": "20 cm of LFH was more beneﬁcial for plant community establishment than 10 cm."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8fe219072702",
+      "subject": "causal_mosaic:node:75031a2e360b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8a2b4ebf3749",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Grass density was higher in 20 cm than in 10 cm treatments.",
+      "source_spans": [
+        {
+          "text": "Grass density was higher in 20 cm than in 10 cm treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:54e8a4186df8",
+      "subject": "causal_mosaic:node:b28f0774d0a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9054a2a56999",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sedge density was highest in LFH and 10 cm treatments.",
+      "source_spans": [
+        {
+          "text": "Sedge density was highest in LFH and 10 cm treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2e5cb6bfdd3",
+      "subject": "causal_mosaic:node:b28f0774d0a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c830811facfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 10 cm treatments had higher pH than 20 cm treatments.",
+      "source_spans": [
+        {
+          "text": "The 10 cm treatments had higher pH than 20 cm treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:59c41dd77eed",
+      "subject": "causal_mosaic:node:b28f0774d0a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:085b5da13a18",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 10 cm treatments had less available potassium than 20 cm treatments.",
+      "source_spans": [
+        {
+          "text": "The 10 cm treatments had less available potassium than 20 cm treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:63022dfee614",
+      "subject": "causal_mosaic:node:b28f0774d0a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8be36af1904d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil.",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4750d9aead55",
+      "subject": "causal_mosaic:node:b28f0774d0a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4544d9bad71b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil, reducing organic carbon.",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil, reducing organic carbon."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9cac9b278657",
+      "subject": "causal_mosaic:node:b28f0774d0a8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b3e403ca5b9e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil, reducing organic carbon, nitrogen, and potassium.",
+      "source_spans": [
+        {
+          "text": "Applying 10 versus 20 cm of donor material increased admixing of ﬁne- textured subsoil, reducing organic carbon, nitrogen, and potassium."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b94ee1790184",
+      "subject": "causal_mosaic:node:7efc3caa4a9a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5559b326484b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "An increase in percent mineral soil resulted in reduced plant densities for most plant groups.",
+      "source_spans": [
+        {
+          "text": "An increase in percent mineral soil resulted in reduced plant densities for most plant groups."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00500.x",
+        "title": "The Role of the Forest Soil Propagule Bank in Assisted Natural Recovery after Oil Sands Mining",
+        "year": 2009,
+        "authors": [
+          "Mackenzie, Dean D.",
+          "Naeth, M. Anne"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "graph_id": "causal_mosaic:graph:407ace4c17ca",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T23:34:05.921476+00:00",
+    "source_corpus": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d006946dabe6",
+      "name": "planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e77054055b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In 1887, under the direction of William Brown, it was planted with 14 species of coniferous and deciduous trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bd166b2ba4b3",
+      "name": "Canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ddf7325e53",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Canopy cover has increased from 85% to over 95% since 1930"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c60a1e53118",
+      "name": "coniferous canopy",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d20ad71531",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "In 1930, 31% of the forest canopy was coniferous; this figure has declined to only 5% today"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8eda4463f90c",
+      "name": "Juglans nigra",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q852572",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The largest individual trees in the forest are Juglans nigra and Acer platanoides"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b662bb61bb32",
+      "name": "Acer platanoides",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q26745",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The largest individual trees in the forest are Juglans nigra and Acer platanoides"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5da2da24d64a",
+      "name": "seed predation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_64613a476c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "seed predation may therefore be responsible for the regeneration failure of many of the woody taxa"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0d21c94c1652",
+      "name": "regeneration failure",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b6ab60c03e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "seed predation may therefore be responsible for the regeneration failure of many of the woody taxa"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a73f03d42163",
+      "name": "intensive maintenance",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9a8b8481aa",
+      "state_or_change_qualifier": "terminated",
+      "source_spans": [
+        {
+          "text": "in 1892 intensive maintenance ceased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:42444d01c428",
+      "name": "decision not to intervene",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_77a07c5533",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the College of Agriculture made the important management decision not to intervene in the future development of the forest"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0711ed373920",
+      "name": "scientific value",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_41b1a13cc2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "this decision has added to its present scientific value"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e39ffb2ac2b7",
+      "name": "coniferous trees",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_eaf6ad2ff4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Coniferous trees still line the northeast, southeast, and southwest sides of the site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e06667b3f46",
+      "name": "deciduous litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4b552978bb",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "where deciduous litter cover is thick"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f0e0ced8bd34",
+      "name": "needle litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d59de42e17",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "substrate is covered with needle litter"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d90af0203e1c",
+      "name": "understory vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3010f269f0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "herbaceous or woody understory vegetation is extremely sparse"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b6da259fb03e",
+      "name": "organic layer",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_28955a316b",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "an organic layer similar to the surrounding deciduous forests... has not yet developed"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9481c4da62bc",
+      "subject": "causal_mosaic:node:d006946dabe6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bd166b2ba4b3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the 107 years since planting, the site has acquired some structural characteristics similar to the surrounding native deciduous forest, but it retains characteristics of an artificial community. Canopy cover has increased from 85% to over 95% since 1930",
+      "source_spans": [
+        {
+          "text": "In the 107 years since planting, the site has acquired some structural characteristics similar to the surrounding native deciduous forest, but it retains characteristics of an artificial community. Canopy cover has increased from 85% to over 95% since 1930"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.1996.tb00102.x",
+        "title": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+        "year": 1996,
+        "authors": [
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a90c41365b5",
+      "subject": "causal_mosaic:node:e39ffb2ac2b7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0d21c94c1652",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "All regeneration was restricted to areas of the woods where conifers were absent and where deciduous litter was abundant",
+      "source_spans": [
+        {
+          "text": "All regeneration was restricted to areas of the woods where conifers were absent and where deciduous litter was abundant"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.1996.tb00102.x",
+        "title": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+        "year": 1996,
+        "authors": [
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fb90ff58fb2a",
+      "subject": "causal_mosaic:node:5da2da24d64a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0d21c94c1652",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Seed-eating rodents and birds are common in the stand, and seed predation may therefore be responsible for the regeneration failure of many of the woody taxa in Brown's Woods",
+      "source_spans": [
+        {
+          "text": "Seed-eating rodents and birds are common in the stand, and seed predation may therefore be responsible for the regeneration failure of many of the woody taxa in Brown's Woods"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.1996.tb00102.x",
+        "title": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+        "year": 1996,
+        "authors": [
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:179764963ed0",
+      "subject": "causal_mosaic:node:42444d01c428",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0711ed373920",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following Brown's departure, the College of Agriculture made the important management decision not to intervene in the future development of the forest; this decision has added to its present scientific value",
+      "source_spans": [
+        {
+          "text": "Following Brown's departure, the College of Agriculture made the important management decision not to intervene in the future development of the forest; this decision has added to its present scientific value"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.1996.tb00102.x",
+        "title": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+        "year": 1996,
+        "authors": [
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3453945354c0",
+      "subject": "causal_mosaic:node:f0e0ced8bd34",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d90af0203e1c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "in the upland portions of the site where Pinus nigra, A. platanoides, and Larix decidua occur, the substrate is covered with needle litter, and herbaceous or woody understory vegetation is extremely sparse",
+      "source_spans": [
+        {
+          "text": "in the upland portions of the site where Pinus nigra, A. platanoides, and Larix decidua occur, the substrate is covered with needle litter, and herbaceous or woody understory vegetation is extremely sparse"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.1996.tb00102.x",
+        "title": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+        "year": 1996,
+        "authors": [
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aac1f9fbc470",
+      "subject": "causal_mosaic:node:6e06667b3f46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8eda4463f90c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "the well-developed deciduous canopy imposes deep shade on the wide array of herbaceous plants. In the central part of the site subcanopy shrubs such as C. alternifolia and Prunus virginiana impose an additional layer of shade that appears to favor the development of the native as opposed to the alien flora",
+      "source_spans": [
+        {
+          "text": "the well-developed deciduous canopy imposes deep shade on the wide array of herbaceous plants. In the central part of the site subcanopy shrubs such as C. alternifolia and Prunus virginiana impose an additional layer of shade that appears to favor the development of the native as opposed to the alien flora"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.1996.tb00102.x",
+        "title": "Brown's Woods: An Early Gravel Pit Forest Restoration Project, Ontario, Canada",
+        "year": 1996,
+        "authors": [
+          "Larson, D. W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

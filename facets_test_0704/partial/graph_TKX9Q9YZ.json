@@ -1,0 +1,636 @@
+{
+  "graph_id": "causal_mosaic:graph:9409057c226a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T08:22:57.721916+00:00",
+    "source_corpus": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ca2af73e6f19",
+      "name": "afforestation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2ab2c816b8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "afforestation is an appropriate approach to start an ecological recovery."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:73e7d92f6fa2",
+      "name": "soil enriched in nutrients",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_793bd39e7e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nutrient concentration",
+      "source_spans": [
+        {
+          "text": "afforested peat fields are characterized by (1) a soil enriched in nutrients, notably in N, P, and K"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba5894f890a0",
+      "name": "microclimate temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2b2186dcec",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0000146",
+      "source_spans": [
+        {
+          "text": "Maximal temperatures and average temperatures were strongly reduced inside plantations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3b72dbf2dcae",
+      "name": "microclimate humidity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2b2186dcec",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0015009",
+      "source_spans": [
+        {
+          "text": "average substrate humidity was higher",
+          "start_char": 22635,
+          "end_char": 22672,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c5e10922aea",
+      "name": "microclimate fluctuations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8de0879c53",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "fluctuations",
+      "source_spans": [
+        {
+          "text": "with less daily humidity and temperature fluctuations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e42a6bc87fb6",
+      "name": "water table level",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105201",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "level",
+      "source_spans": [
+        {
+          "text": "Water table usually stayed below 70 cm inside plantations... but it ﬂuctuated in the 20–70 cm below surface in adjacent unrestored ﬁelds"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d34a66697cf3",
+      "name": "plant recolonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_389a345166",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "amelioration in soil physicochemistry and soil microclimate did not result in an improved plant recolonization."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:77fb2e48574d",
+      "name": "dense shade",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6eee3a577f",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "shade",
+      "source_spans": [
+        {
+          "text": "dense shade created by overstory",
+          "start_char": 32450,
+          "end_char": 32482,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c67fa788138",
+      "name": "helophyte species presence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_917d1d7e12",
+      "state_or_change_qualifier": "absent",
+      "measured_attribute": "PATO:0000070",
+      "source_spans": [
+        {
+          "text": "Absence of helophyte species",
+          "start_char": 32345,
+          "end_char": 32373,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:32e19def350d",
+      "name": "active drainage ditches",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d30803682b",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "PATO:0000070",
+      "source_spans": [
+        {
+          "text": "presence of active drainage ditches limits to some extent the natural recovery of these sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d17fee9a47d8",
+      "name": "natural recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e3860cd7c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "recovery",
+      "source_spans": [
+        {
+          "text": "limits to some extent the natural recovery of these sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9094777f4c8a",
+      "name": "flooding",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500002",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "PATO:0001309",
+      "source_spans": [
+        {
+          "text": "if ﬂooding last for a long period annually",
+          "start_char": 35124,
+          "end_char": 35166,
+          "paragraph_id": "page:12"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9794c428d4a6",
+      "name": "planted trees survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d4cf2a29c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "death of planted trees is a possible outcome from rewetting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8e8f84307cc",
+      "name": "establishing shrubs",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c8e533a809",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "PATO:0000070",
+      "source_spans": [
+        {
+          "text": "establishing shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:05debace5d8a",
+      "name": "invasion by opportunistic species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4cea47862f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "colonization",
+      "source_spans": [
+        {
+          "text": "control invasion by opportunistic species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb05d83b1723",
+      "name": "restoring a carpet of bryophytes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bf39616cbc",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "PATO:0000070",
+      "source_spans": [
+        {
+          "text": "restoring a carpet of bryophytes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5aca729d012d",
+      "name": "invasion risk",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f9bc55df4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "risk",
+      "source_spans": [
+        {
+          "text": "contribute to lower risks of invasion"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e71f889e0b36",
+      "subject": "causal_mosaic:node:ca2af73e6f19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:73e7d92f6fa2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "afforested peat fields are characterized by (1) a soil enriched in nutrients, notably in N, P, and K",
+      "source_spans": [
+        {
+          "text": "afforested peat fields are characterized by (1) a soil enriched in nutrients, notably in N, P, and K"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7f83d11b65e8",
+      "subject": "causal_mosaic:node:ca2af73e6f19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ba5894f890a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Maximal temperatures and average temperatures were strongly reduced inside plantations",
+      "source_spans": [
+        {
+          "text": "Maximal temperatures and average temperatures were strongly reduced inside plantations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0f96655e50bc",
+      "subject": "causal_mosaic:node:ca2af73e6f19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3b72dbf2dcae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "average substrate humidity was higher",
+      "source_spans": [
+        {
+          "text": "average substrate humidity was higher",
+          "start_char": 22635,
+          "end_char": 22672,
+          "paragraph_id": "page:9"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:898990ca5b88",
+      "subject": "causal_mosaic:node:ca2af73e6f19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c5e10922aea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "with less daily humidity and temperature fluctuations",
+      "source_spans": [
+        {
+          "text": "with less daily humidity and temperature fluctuations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:493e70e6894a",
+      "subject": "causal_mosaic:node:ca2af73e6f19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e42a6bc87fb6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Water table usually stayed below 70 cm inside plantations... but it ﬂuctuated in the 20–70 cm below surface in adjacent unrestored ﬁelds",
+      "source_spans": [
+        {
+          "text": "Water table usually stayed below 70 cm inside plantations... but it ﬂuctuated in the 20–70 cm below surface in adjacent unrestored ﬁelds"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e531d5f14dfd",
+      "subject": "causal_mosaic:node:ca2af73e6f19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d34a66697cf3",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "amelioration in soil physicochemistry and soil microclimate did not result in an improved plant recolonization.",
+      "source_spans": [
+        {
+          "text": "amelioration in soil physicochemistry and soil microclimate did not result in an improved plant recolonization."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8841fad3094f",
+      "subject": "causal_mosaic:node:77fb2e48574d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c67fa788138",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Absence of helophyte species... is probably attributed to the dense shade created by overstory.",
+      "source_spans": [
+        {
+          "text": "Absence of helophyte species... is probably attributed to the dense shade created by overstory."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3dff74aa1f35",
+      "subject": "causal_mosaic:node:32e19def350d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d17fee9a47d8",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "presence of active drainage ditches limits to some extent the natural recovery of these sites",
+      "source_spans": [
+        {
+          "text": "presence of active drainage ditches limits to some extent the natural recovery of these sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a96fe8f6af35",
+      "subject": "causal_mosaic:node:9094777f4c8a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9794c428d4a6",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "death of planted trees is a possible outcome from rewetting if ﬂooding last for a long period annually.",
+      "source_spans": [
+        {
+          "text": "death of planted trees is a possible outcome from rewetting if ﬂooding last for a long period annually."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:527cecb68d66",
+      "subject": "causal_mosaic:node:a8e8f84307cc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:05debace5d8a",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "establishing shrubs... could... create a denser canopy and control invasion by opportunistic species.",
+      "source_spans": [
+        {
+          "text": "establishing shrubs... could... create a denser canopy and control invasion by opportunistic species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a4f04219ae17",
+      "subject": "causal_mosaic:node:eb05d83b1723",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5aca729d012d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoring a carpet of bryophytes could also contribute to lower risks of invasion",
+      "source_spans": [
+        {
+          "text": "restoring a carpet of bryophytes could also contribute to lower risks of invasion"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-016-9508-9",
+        "title": "Management of the margins in cutover bogs: ecological conditions and effects of afforestation",
+        "year": 2017,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

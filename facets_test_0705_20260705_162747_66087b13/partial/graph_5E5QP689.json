@@ -1,0 +1,604 @@
+{
+  "graph_id": "causal_mosaic:graph:19ab72f8718f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:35:03.635371+00:00",
+    "source_corpus": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:2362e320e2c3",
+      "name": "Tree planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a753bec195",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Tree planting efficiently restored herbaceous forest communities in riparian zones by inducing a species turnover mediated by light availability corresponding to the threshold dynamics model in plant succession."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f7ee8075f192",
+      "name": "Canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_163f8f094d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "This two-step pattern in species turnover followed the increase in canopy cover after tree planting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87e39691a520",
+      "name": "Light availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcecb2ea2a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The decrease in light availability after tree planting, which is a major driver for the recolonization of herbaceous species, may act as a key environmental threshold for species turnover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec0f5b299e0d",
+      "name": "Species turnover",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bfa8eef546",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Once canopy cover passed a threshold of ca 40%, plant succession started and led to the re-establishment of forest communities 17 years after planting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba169a0bfe03",
+      "name": "Tree cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b2acd502ed",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b703e65f135",
+      "name": "Shrub cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_329a66141a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66d009e9524a",
+      "name": "Monocot cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_048e650a3e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8086479da2fb",
+      "name": "Shade-tolerant species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3b48ec6df",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4c7361ea419e",
+      "name": "Light-demanding species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7c5d71f0a1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:63536f946246",
+      "name": "Non-native species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_db9e9714c4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:17b66c66d31d",
+      "name": "Native species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2ca4db4e2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c151856a829b",
+      "name": "Forest communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cdc38810e1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Tree planting efficiently restored herbaceous forest communities in riparian zones by inducing a species turnover mediated by light availability corresponding to the threshold dynamics model in plant succession."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a09c2f1de4a0",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f7ee8075f192",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This two-step pattern in species turnover followed the increase in canopy cover after tree planting.",
+      "source_spans": [
+        {
+          "text": "This two-step pattern in species turnover followed the increase in canopy cover after tree planting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:662b8a23e8fb",
+      "subject": "causal_mosaic:node:f7ee8075f192",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:87e39691a520",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The decrease in light availability after tree planting, which is a major driver for the recolonization of herbaceous species, may act as a key environmental threshold for species turnover.",
+      "source_spans": [
+        {
+          "text": "The decrease in light availability after tree planting, which is a major driver for the recolonization of herbaceous species, may act as a key environmental threshold for species turnover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5ce11aaaa5c5",
+      "subject": "causal_mosaic:node:f7ee8075f192",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec0f5b299e0d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Once canopy cover passed a threshold of ca 40%, plant succession started and led to the re-establishment of forest communities 17 years after planting.",
+      "source_spans": [
+        {
+          "text": "Once canopy cover passed a threshold of ca 40%, plant succession started and led to the re-establishment of forest communities 17 years after planting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:29a433469975",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec0f5b299e0d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree planting efficiently restored herbaceous forest communities in riparian zones by inducing a species turnover mediated by light availability corresponding to the threshold dynamics model in plant succession.",
+      "source_spans": [
+        {
+          "text": "Tree planting efficiently restored herbaceous forest communities in riparian zones by inducing a species turnover mediated by light availability corresponding to the threshold dynamics model in plant succession."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7f3ab6e2b035",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ba169a0bfe03",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased.",
+      "source_spans": [
+        {
+          "text": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:56057bae7c83",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0b703e65f135",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased.",
+      "source_spans": [
+        {
+          "text": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2fb20b5c2aaf",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:66d009e9524a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased.",
+      "source_spans": [
+        {
+          "text": "Vegetation structure was also significantly affected by tree planting: tree and shrub cover increased, while monocot cover decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2a6af8642c2e",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8086479da2fb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased.",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b5271a06ccad",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4c7361ea419e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased.",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2fcdf9d8bcb4",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:63536f946246",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased.",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f1c10a714079",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:17b66c66d31d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased.",
+      "source_spans": [
+        {
+          "text": "Following herbaceous species turnover, the cover of ecological groups changed significantly towards covers of natural riparian forests: shade-tolerant species generally increased, while light-demanding and non-native species decreased."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b5aa12cd11f5",
+      "subject": "causal_mosaic:node:2362e320e2c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c151856a829b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree planting efficiently restored herbaceous forest communities in riparian zones by inducing a species turnover mediated by light availability corresponding to the threshold dynamics model in plant succession.",
+      "source_spans": [
+        {
+          "text": "Tree planting efficiently restored herbaceous forest communities in riparian zones by inducing a species turnover mediated by light availability corresponding to the threshold dynamics model in plant succession."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12675",
+        "title": "Threshold dynamics in plant succession after tree planting in agricultural riparian zones",
+        "year": 2016,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Vanasse, Anne",
+          "González, Eduardo",
+          "Andersen, Roxane",
+          "Poulin, Monique"
+        ],
+        "journal": "Journal of Applied Ecology"
+      }
+    }
+  ]
+}

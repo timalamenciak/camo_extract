@@ -1,0 +1,175 @@
+{
+  "graph_id": "causal_mosaic:graph:1ded2bbab826",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T04:56:39.480619+00:00",
+    "source_corpus": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b45d3b405dcf",
+      "name": "Restored prairie",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ea947b2134",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75d294384298",
+      "name": "Native bee richness and abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_56350d935e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness, abundance",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1ed53680d270",
+      "name": "Floral resources",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0554f81fd0",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "availability",
+      "source_spans": [
+        {
+          "text": "All richness and abundance differences among habitat types were associated with higher floral resources in restored prairie."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2bbf7a2e7e62",
+      "name": "Nesting resources",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d601b562a",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "availability",
+      "source_spans": [
+        {
+          "text": "In contrast, the availability of nesting resources did not strongly predict the richness and abundance of bees."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:70d061c989a1",
+      "subject": "causal_mosaic:node:b45d3b405dcf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75d294384298",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types.",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3ba68aa3f9ef",
+      "subject": "causal_mosaic:node:1ed53680d270",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75d294384298",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The key factor for most native bee occurrences was floral resources.",
+      "source_spans": [
+        {
+          "text": "The key factor for most native bee occurrences was floral resources."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a1014dd620d",
+      "subject": "causal_mosaic:node:2bbf7a2e7e62",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75d294384298",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, the availability of nesting resources did not strongly predict the richness and abundance of bees.",
+      "source_spans": [
+        {
+          "text": "In contrast, the availability of nesting resources did not strongly predict the richness and abundance of bees."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

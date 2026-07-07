@@ -1,0 +1,448 @@
+{
+  "graph_id": "causal_mosaic:graph:03ab7f7c0f31",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T01:46:21.658827+00:00",
+    "source_corpus": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fa41a1efc38b",
+      "name": "remediation of an industrial acidified lake area",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_29dcea3e54",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a44d8ce61e18",
+      "name": "reduced phosphorus retention by anoxic bottom sediments",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d1cfd189d4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70ad4fe9b8f6",
+      "name": "recovery from acidity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2dc3c84742",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Formerly acidiﬁed lakes and watersheds can become more productive when recovering from acidity",
+          "start_char": 1186,
+          "end_char": 1280,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7bb5a70f6484",
+      "name": "productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5021a9a49c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Formerly acidiﬁed lakes and watersheds can become more productive when recovering from acidity",
+          "start_char": 1186,
+          "end_char": 1280,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fc60e0aced50",
+      "name": "internal P loading",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_405ddace6a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "internal P loading contributing to increased cyanobacteria biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0bad84cefa2c",
+      "name": "cyanobacteria biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f83b0dfccf",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "internal P loading contributing to increased cyanobacteria biomass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a73a6b5ca78f",
+      "name": "sediment adsorption capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a4a4a38c02",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "fraction ratios indicating decreased sediment adsorption capacity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81b251661b0b",
+      "name": "release of phosphate",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9a993bd397",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "decreased sediment P adsorption capacity and resulting release of phosphate"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2f0edeec9b97",
+      "name": "cyanobacteria blooms",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e26d3fd025",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increases in cyanobacteria... are directly related to the decreased sediment P adsorption capacity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:862d75c0cda8",
+      "name": "temperature increases",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a7727296a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Dolichospermum in Long Lake may also be reinforced by temperature increases from climate change"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4904dfb21040",
+      "name": "stratification period",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8e7571d60e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "lengthening of the strati ﬁcation period",
+          "start_char": 50723,
+          "end_char": 50763,
+          "paragraph_id": "page:9"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:da3a9877b390",
+      "subject": "causal_mosaic:node:fa41a1efc38b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a44d8ce61e18",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area",
+      "source_spans": [
+        {
+          "text": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ee092d839b7",
+      "subject": "causal_mosaic:node:70ad4fe9b8f6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7bb5a70f6484",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Formerly acidiﬁed lakes and watersheds can become more productive when recovering from acidity",
+      "source_spans": [
+        {
+          "text": "Formerly acidiﬁed lakes and watersheds can become more productive when recovering from acidity",
+          "start_char": 1186,
+          "end_char": 1280,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:77baf33eefc1",
+      "subject": "causal_mosaic:node:fc60e0aced50",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0bad84cefa2c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "internal P loading contributing to increased cyanobacteria biomass",
+      "source_spans": [
+        {
+          "text": "internal P loading contributing to increased cyanobacteria biomass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5385f063a06f",
+      "subject": "causal_mosaic:node:70ad4fe9b8f6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a73a6b5ca78f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "fraction ratios indicating decreased sediment adsorption capacity",
+      "source_spans": [
+        {
+          "text": "fraction ratios indicating decreased sediment adsorption capacity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:87d035d25b5e",
+      "subject": "causal_mosaic:node:a73a6b5ca78f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81b251661b0b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "decreased sediment P adsorption capacity and resulting release of phosphate",
+      "source_spans": [
+        {
+          "text": "decreased sediment P adsorption capacity and resulting release of phosphate"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bcec8dceaa0e",
+      "subject": "causal_mosaic:node:a73a6b5ca78f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2f0edeec9b97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "increases in cyanobacteria... are directly related to the decreased sediment P adsorption capacity",
+      "source_spans": [
+        {
+          "text": "increases in cyanobacteria... are directly related to the decreased sediment P adsorption capacity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:193c4b386d67",
+      "subject": "causal_mosaic:node:862d75c0cda8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2f0edeec9b97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Dolichospermum in Long Lake may also be reinforced by temperature increases from climate change",
+      "source_spans": [
+        {
+          "text": "Dolichospermum in Long Lake may also be reinforced by temperature increases from climate change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4884e7e94d0",
+      "subject": "causal_mosaic:node:4904dfb21040",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fc60e0aced50",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "lengthening of the strati ﬁcation period... which would support internal P loading",
+      "source_spans": [
+        {
+          "text": "lengthening of the strati ﬁcation period... which would support internal P loading"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.scitotenv.2018.01.103",
+        "title": "Reduced phosphorus retention by anoxic bottom sediments after the remediation of an industrial acidified lake area: Indications from P, Al, and Fe sediment fractions",
+        "year": 2018,
+        "authors": [
+          "Nürnberg, Gertrud K.",
+          "Fischer, Rachele",
+          "Paterson, Andrew M."
+        ],
+        "journal": "Science of The Total Environment"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

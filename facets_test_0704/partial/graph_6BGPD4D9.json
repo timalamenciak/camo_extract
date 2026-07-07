@@ -1,0 +1,371 @@
+{
+  "graph_id": "causal_mosaic:graph:1185c341fc4a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T11:45:26.877268+00:00",
+    "source_corpus": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0c9328fe5099",
+      "name": "use of a bulldozer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5149e3b242",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The use of a bulldozer to drive a road through the west section thoroughly mixed contaminated and uncontaminated sediments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b88d1603b149",
+      "name": "mixed contaminated and uncontaminated sediments",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf1c789683",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "mixing",
+      "source_spans": [
+        {
+          "text": "The use of a bulldozer to drive a road through the west section thoroughly mixed contaminated and uncontaminated sediments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9d5e129c3c21",
+      "name": "removal of large volumes of sediment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4760f59e4b",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "The removal of large volumes of sediment was considered very damaging to the stability of the foreshore."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:742b9f8af285",
+      "name": "stability of the foreshore",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a408c0f9b3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0015026",
+      "source_spans": [
+        {
+          "text": "The removal of large volumes of sediment was considered very damaging to the stability of the foreshore."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:02d19fabc993",
+      "name": "movement of oil alongshore and offshore",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_01ac10cd07",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the movement of oil alongshore and offshore led to the recontamination of several of the restored beaches."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d744bbddbd21",
+      "name": "recontamination of several of the restored beaches",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ba90f005bf",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the movement of oil alongshore and offshore led to the recontamination of several of the restored beaches."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a46be45f49d0",
+      "name": "disturbance of the beach material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_feafdb8c1c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The disturbance of the beach material led to the washing out of fines and the release of oil into the littoral zone."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:efc66c5ba865",
+      "name": "release of oil into the littoral zone",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c0ebfe2384",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "release",
+      "source_spans": [
+        {
+          "text": "The disturbance of the beach material led to the washing out of fines and the release of oil into the littoral zone."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:361c47f2763f",
+      "name": "Bulldozers",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ebca740d9b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Bulldozers were not satisfactory for restoration work",
+          "start_char": 79772,
+          "end_char": 79825,
+          "paragraph_id": "page:91"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b59dd3144eb4",
+      "name": "restoration work",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1543bfc0b9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Bulldozers were not satisfactory for restoration work",
+          "start_char": 79772,
+          "end_char": 79825,
+          "paragraph_id": "page:91"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1baa1ceb3b6e",
+      "name": "Natural processes",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4debd805e5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Natural processes are effective in cleaning this type of beach"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6ffe212a7421",
+      "name": "cleaning this type of beach",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07cdfded0c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cleaning",
+      "source_spans": [
+        {
+          "text": "Natural processes are effective in cleaning this type of beach"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5359546bf7d0",
+      "subject": "causal_mosaic:node:0c9328fe5099",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b88d1603b149",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of a bulldozer to drive a road through the west section thoroughly mixed contaminated and uncontaminated sediments.",
+      "source_spans": [
+        {
+          "text": "The use of a bulldozer to drive a road through the west section thoroughly mixed contaminated and uncontaminated sediments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4095/297407",
+        "title": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+        "year": 1970,
+        "authors": [
+          "Owens, E H"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b2fdb1baac12",
+      "subject": "causal_mosaic:node:9d5e129c3c21",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:742b9f8af285",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The removal of large volumes of sediment was considered very damaging to the stability of the foreshore.",
+      "source_spans": [
+        {
+          "text": "The removal of large volumes of sediment was considered very damaging to the stability of the foreshore."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4095/297407",
+        "title": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+        "year": 1970,
+        "authors": [
+          "Owens, E H"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:27968bd30541",
+      "subject": "causal_mosaic:node:02d19fabc993",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d744bbddbd21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the movement of oil alongshore and offshore led to the recontamination of several of the restored beaches.",
+      "source_spans": [
+        {
+          "text": "the movement of oil alongshore and offshore led to the recontamination of several of the restored beaches."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4095/297407",
+        "title": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+        "year": 1970,
+        "authors": [
+          "Owens, E H"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ba3627e19841",
+      "subject": "causal_mosaic:node:a46be45f49d0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:efc66c5ba865",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The disturbance of the beach material led to the washing out of fines and the release of oil into the littoral zone.",
+      "source_spans": [
+        {
+          "text": "The disturbance of the beach material led to the washing out of fines and the release of oil into the littoral zone."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4095/297407",
+        "title": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+        "year": 1970,
+        "authors": [
+          "Owens, E H"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2587ed23b243",
+      "subject": "causal_mosaic:node:361c47f2763f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b59dd3144eb4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bulldozers were not satisfactory for restoration work",
+      "source_spans": [
+        {
+          "text": "Bulldozers were not satisfactory for restoration work",
+          "start_char": 79772,
+          "end_char": 79825,
+          "paragraph_id": "page:91"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4095/297407",
+        "title": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+        "year": 1970,
+        "authors": [
+          "Owens, E H"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:666db546d8f4",
+      "subject": "causal_mosaic:node:1baa1ceb3b6e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6ffe212a7421",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Natural processes are effective in cleaning this type of beach",
+      "source_spans": [
+        {
+          "text": "Natural processes are effective in cleaning this type of beach"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.4095/297407",
+        "title": "Geological aspects of the beach restoration programme in Chedabucto Bay, Nova Scotia, 1970",
+        "year": 1970,
+        "authors": [
+          "Owens, E H"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

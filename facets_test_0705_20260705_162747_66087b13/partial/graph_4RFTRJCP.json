@@ -1,0 +1,750 @@
+{
+  "graph_id": "causal_mosaic:graph:d11d571df1ca",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T13:25:54.941863+00:00",
+    "source_corpus": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6bccb32f2ace",
+      "name": "scarification",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_54073252f0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "scarification",
+          "start_char": 1913,
+          "end_char": 1926,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d41dcd64683b",
+      "name": "herbicide application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ff18787a28",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "herbicide application",
+          "start_char": 1928,
+          "end_char": 1949,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48083cdd7f26",
+      "name": "fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_20f5fdd40b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fertilization",
+          "start_char": 1951,
+          "end_char": 1964,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:40116fac11bd",
+      "name": "height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ce6421f39b",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "height",
+          "start_char": 2092,
+          "end_char": 2098,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:53178a76e3aa",
+      "name": "foliar biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d812e09e17",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "foliar biomass",
+      "source_spans": [
+        {
+          "text": "foliar biomass",
+          "start_char": 2352,
+          "end_char": 2366,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e2d5a5fe10a2",
+      "name": "ground-level diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93ffb1a081",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "ground-level diameter",
+      "source_spans": [
+        {
+          "text": "ground-level diameter",
+          "start_char": 18629,
+          "end_char": 18650,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5ab32792ee6",
+      "name": "volume index",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7cd20d00ef",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "volume index",
+      "source_spans": [
+        {
+          "text": "volume index",
+          "start_char": 2749,
+          "end_char": 2761,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c244a6a74ba8",
+      "name": "Kalmia cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d6441ffe49",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "Kalmia cover",
+      "source_spans": [
+        {
+          "text": "Kalmia cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c539be56749f",
+      "name": "Kalmia angustifolia",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3192236",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Kalmia angustifolia"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:43f0e928305e",
+      "name": "succession",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_62288c9e7a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "succession",
+          "start_char": 1676,
+          "end_char": 1686,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6320335bc5f",
+      "name": "ecosystem retrogression",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d5a195d6d0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "ecosystem retrogression",
+          "start_char": 1722,
+          "end_char": 1745,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:755402466891",
+      "name": "competitive pressure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e9bbf02e55",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "competitive pressure",
+          "start_char": 11123,
+          "end_char": 11143,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49afba83765e",
+      "name": "soil temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200012",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "soil temperature",
+      "source_spans": [
+        {
+          "text": "soil temperature",
+          "start_char": 34003,
+          "end_char": 34019,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea933640b392",
+      "name": "soil water availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf57ede01c",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "soil water availability",
+      "source_spans": [
+        {
+          "text": "soil water availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:14246fd8d477",
+      "name": "mineralization rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e2e346d357",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "mineralization rates",
+      "source_spans": [
+        {
+          "text": "mineralization rates",
+          "start_char": 34070,
+          "end_char": 34090,
+          "paragraph_id": "page:8"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:023d1fc9967b",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40116fac11bd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification.",
+      "source_spans": [
+        {
+          "text": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:96fb41c8c395",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:53178a76e3aa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification.",
+      "source_spans": [
+        {
+          "text": "Globally, height and estimates of foliar biomass of all conifer species responded positively to scarification."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e47a2e2e1c0f",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40116fac11bd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Black spruce and jack pine height increased when Kalmia was controlled with herbicide",
+      "source_spans": [
+        {
+          "text": "Black spruce and jack pine height increased when Kalmia was controlled with herbicide"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:94c5ef4fa0f2",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e2d5a5fe10a2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+      "source_spans": [
+        {
+          "text": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+          "start_char": 2688,
+          "end_char": 2790,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6d7b4deb8fa",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5ab32792ee6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+      "source_spans": [
+        {
+          "text": "The use of herbicide significantly increased 15-year GLD and volume index of all three conifer species",
+          "start_char": 2688,
+          "end_char": 2790,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:de214de4a7e2",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c244a6a74ba8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "probability of trees in herbicided treatments being associated with lower Kalmia cover classes was 285 times the probability of trees from unherbicided treatments",
+      "source_spans": [
+        {
+          "text": "probability of trees in herbicided treatments being associated with lower Kalmia cover classes was 285 times the probability of trees from unherbicided treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:df44d548c436",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:40116fac11bd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "only black spruce responded positively to fertilization at planting",
+      "source_spans": [
+        {
+          "text": "only black spruce responded positively to fertilization at planting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:784ab585722d",
+      "subject": "causal_mosaic:node:c539be56749f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:43f0e928305e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the presence of some ericaceous species that proliferate after forest disturbance, such as Kalmia angustifolia, can slow succession of boreal stands",
+      "source_spans": [
+        {
+          "text": "the presence of some ericaceous species that proliferate after forest disturbance, such as Kalmia angustifolia, can slow succession of boreal stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47b2e83cfb1d",
+      "subject": "causal_mosaic:node:c539be56749f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6320335bc5f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the presence of some ericaceous species that proliferate after forest disturbance, such as Kalmia angustifolia, can slow succession of boreal stands to the point that ecosystem retrogression is induced",
+      "source_spans": [
+        {
+          "text": "the presence of some ericaceous species that proliferate after forest disturbance, such as Kalmia angustifolia, can slow succession of boreal stands to the point that ecosystem retrogression is induced"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4311bb84924e",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:755402466891",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "our results suggest that the main benefit of both scarification and herbicide treatments on tree growth at Botwood was to reduce the direct and indirect competitive pressure from Kalmia",
+      "source_spans": [
+        {
+          "text": "our results suggest that the main benefit of both scarification and herbicide treatments on tree growth at Botwood was to reduce the direct and indirect competitive pressure from Kalmia"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:084d38fbfdcb",
+      "subject": "causal_mosaic:node:d41dcd64683b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:755402466891",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "our results suggest that the main benefit of both scarification and herbicide treatments on tree growth at Botwood was to reduce the direct and indirect competitive pressure from Kalmia",
+      "source_spans": [
+        {
+          "text": "our results suggest that the main benefit of both scarification and herbicide treatments on tree growth at Botwood was to reduce the direct and indirect competitive pressure from Kalmia"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0d1f3a4030be",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49afba83765e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical site preparation and vegetation control can indeed significantly increase soil temperature in the rooting zone",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation and vegetation control can indeed significantly increase soil temperature in the rooting zone"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b7e89700b601",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ea933640b392",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical site preparation and vegetation control can indeed significantly increase soil temperature in the rooting zone, soil water availability, and mineralization rates",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation and vegetation control can indeed significantly increase soil temperature in the rooting zone, soil water availability, and mineralization rates"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:503802b6a0a8",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:14246fd8d477",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical site preparation and vegetation control can indeed significantly increase soil temperature in the rooting zone, soil water availability, and mineralization rates",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation and vegetation control can indeed significantly increase soil temperature in the rooting zone, soil water availability, and mineralization rates"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.5558/tfc86234-2",
+        "title": "Silviculture and planted species interact to influence reforestation success on a <i>Kalmia</i> -dominated site – a 15-year study",
+        "year": 2010,
+        "authors": [
+          "Thiffaul, Nelson",
+          "Titus, Brian D",
+          "Moroni, Martin T"
+        ],
+        "journal": "The Forestry Chronicle"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

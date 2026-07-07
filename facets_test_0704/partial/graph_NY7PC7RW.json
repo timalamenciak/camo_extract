@@ -1,0 +1,313 @@
+{
+  "graph_id": "causal_mosaic:graph:a03f10808f46",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T07:15:43.536627+00:00",
+    "source_corpus": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:36a73fd411b4",
+      "name": "placements of boulder clusters",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c7bd1fa8a8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "placements of boulder clusters",
+          "start_char": 34398,
+          "end_char": 34428,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f8e614d8a4ff",
+      "name": "habitat heterogeneity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_749400f486",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "habitat heterogeneity",
+          "start_char": 269,
+          "end_char": 290,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f1c4b60930fd",
+      "name": "particulate organic matter storage",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_797c175ede",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "particulate organic matter storage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:04a7a9cac443",
+      "name": "total macroinvertebrate abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7bfe66f204",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "total macroinvertebrate abundance",
+          "start_char": 1066,
+          "end_char": 1099,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:96c3fdad807f",
+      "name": "taxonomic richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_58503d56b4",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "taxonomic richness",
+          "start_char": 1452,
+          "end_char": 1470,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:352643cb372b",
+      "name": "fine fraction of organic matter biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4be664f949",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "fine fraction of organic matter biomass"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b4835c68cb16",
+      "subject": "causal_mosaic:node:36a73fd411b4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f8e614d8a4ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Boulder clusters increased habitat heterogeneity, at least in terms of velocity and substrate coarseness, resulting in increased benthic detritus storage and macroinvertebrate abundance and supporting the original predictions.",
+      "source_spans": [
+        {
+          "text": "Boulder clusters increased habitat heterogeneity, at least in terms of velocity and substrate coarseness, resulting in increased benthic detritus storage and macroinvertebrate abundance and supporting the original predictions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f03-013",
+        "title": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+        "year": 2003,
+        "authors": [
+          "Negishi, Junjiro N",
+          "Richardson, John S"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cfe8a8652844",
+      "subject": "causal_mosaic:node:36a73fd411b4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f1c4b60930fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Enhanced particulate organic matter storage (550%) was accompanied by increased total macroinvertebrate abundance (280%) in the treatment reach",
+      "source_spans": [
+        {
+          "text": "Enhanced particulate organic matter storage (550%) was accompanied by increased total macroinvertebrate abundance (280%) in the treatment reach"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f03-013",
+        "title": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+        "year": 2003,
+        "authors": [
+          "Negishi, Junjiro N",
+          "Richardson, John S"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1238ab64fff2",
+      "subject": "causal_mosaic:node:f1c4b60930fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04a7a9cac443",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The increased detritus storage in the treatment reach resulted in increases of the numerically dominant detritivores and thus the total macroinvertebrate abundance",
+      "source_spans": [
+        {
+          "text": "The increased detritus storage in the treatment reach resulted in increases of the numerically dominant detritivores and thus the total macroinvertebrate abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f03-013",
+        "title": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+        "year": 2003,
+        "authors": [
+          "Negishi, Junjiro N",
+          "Richardson, John S"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bc692aabe11b",
+      "subject": "causal_mosaic:node:36a73fd411b4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04a7a9cac443",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Boulder clusters increased habitat heterogeneity, at least in terms of velocity and substrate coarseness, resulting in increased benthic detritus storage and macroinvertebrate abundance and supporting the original predictions.",
+      "source_spans": [
+        {
+          "text": "Boulder clusters increased habitat heterogeneity, at least in terms of velocity and substrate coarseness, resulting in increased benthic detritus storage and macroinvertebrate abundance and supporting the original predictions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f03-013",
+        "title": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+        "year": 2003,
+        "authors": [
+          "Negishi, Junjiro N",
+          "Richardson, John S"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:11de9549554c",
+      "subject": "causal_mosaic:node:36a73fd411b4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:96c3fdad807f",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, the effect of boulder clusters on taxonomic richness was negligible.",
+      "source_spans": [
+        {
+          "text": "However, the effect of boulder clusters on taxonomic richness was negligible.",
+          "start_char": 1409,
+          "end_char": 1486,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f03-013",
+        "title": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+        "year": 2003,
+        "authors": [
+          "Negishi, Junjiro N",
+          "Richardson, John S"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7acdc2577001",
+      "subject": "causal_mosaic:node:352643cb372b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:04a7a9cac443",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "total densities of which were best predicted by the fine fraction of organic matter biomass at microhabitat scale.",
+      "source_spans": [
+        {
+          "text": "total densities of which were best predicted by the fine fraction of organic matter biomass at microhabitat scale."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f03-013",
+        "title": "Responses of organic matter and macroinvertebrates to placements of boulder clusters in a small stream of southwestern British Columbia, Canada",
+        "year": 2003,
+        "authors": [
+          "Negishi, Junjiro N",
+          "Richardson, John S"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

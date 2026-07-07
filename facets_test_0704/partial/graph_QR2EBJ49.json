@@ -1,0 +1,814 @@
+{
+  "graph_id": "causal_mosaic:graph:9bf655d66f2e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T05:17:25.442403+00:00",
+    "source_corpus": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:39374a0f2b36",
+      "name": "surface mining",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6f7b681abe",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "surface mining for bitumen results in the complete removal of all soil and vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9becb815e198",
+      "name": "removal of all soil and vegetation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b33c33dadc",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "surface mining for bitumen results in the complete removal of all soil and vegetation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87b0ea34d403",
+      "name": "FFM",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f4a882ba30",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "FFM treatments had significantly taller aspen"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d5d9bbfbef5",
+      "name": "PM treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_edce9e0a49",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "PM treatments had a greater concentration than the reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2667a9a60cb3",
+      "name": "Aspen height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_22fc98af82",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "FFM treatments had significantly taller aspen"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64c7ad26ed56",
+      "name": "Pine height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_517ca9e783",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "FFM facilitated the growth of taller trees",
+          "start_char": 34891,
+          "end_char": 34933,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f10ef7c3c1a",
+      "name": "Tree height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65563d5509",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "FFM facilitated the growth of taller trees",
+          "start_char": 34891,
+          "end_char": 34933,
+          "paragraph_id": "page:11"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8660c8d67284",
+      "name": "Bioavailable K",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b68435489e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "FFM treatment and reference sites both had significantly higher levels of bioavailable K"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ca13a55508f",
+      "name": "Total N, S, Ca, Mg in topsoil",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e11f49e85b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "reference sites and FFM reclamation treatment having lower N, S, Ca, and Mg than the three PM reclamation treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a681750806d0",
+      "name": "Soil organic C",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f20a08e02",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "PM treatment has an order of magnitude greater C than the FFM or reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:89a51b29ecaf",
+      "name": "Similarity to reference sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b044c81d0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "FFM is most similar to the reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f46de553822f",
+      "name": "Aspen foliar N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8485a552c1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "PM-Deep and PM-Medium treatments had a greater concentration than the reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b1cbaff07f0",
+      "name": "Aspen foliar P",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8b68f9f91",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "FFM treatment and reference site had greater concentrations than all PM treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d0e1418fbc3",
+      "name": "Aspen foliar Mg",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0c95c729f9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "FFM treatment had a greater concentration than all PM treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7c2bb80928bc",
+      "name": "Pine foliar Ca",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0c7313207",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "all PM treatments had greater concentrations than the FFM treatment and reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5316dce5e2b0",
+      "name": "Pine foliar S",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_defb5b930e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "all reclamation treatments had greater concentrations than the natural reference sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fc8de933cde9",
+      "name": "Subsoil depth",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_24c1c9d7a1",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "no significant difference between different subsoil depths on PM treatments for either tree species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b94eed9c9ba7",
+      "name": "AWHC",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4964c519d1",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "difference in AWHC was never a significant determinant in overall site similarity"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:99d3db1577a4",
+      "subject": "causal_mosaic:node:39374a0f2b36",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9becb815e198",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "surface mining for bitumen results in the complete removal of all soil and vegetation to a depth of 80 m",
+      "source_spans": [
+        {
+          "text": "surface mining for bitumen results in the complete removal of all soil and vegetation to a depth of 80 m"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8ace30ba972e",
+      "subject": "causal_mosaic:node:87b0ea34d403",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2667a9a60cb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The reference sites and FFM treatments had significantly taller aspen than the PM-Medium and PM-Deep treatments",
+      "source_spans": [
+        {
+          "text": "The reference sites and FFM treatments had significantly taller aspen than the PM-Medium and PM-Deep treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e1e1ffab6cb8",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2667a9a60cb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The reference sites and FFM treatments had significantly taller aspen than the PM-Medium and PM-Deep treatments",
+      "source_spans": [
+        {
+          "text": "The reference sites and FFM treatments had significantly taller aspen than the PM-Medium and PM-Deep treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:91a05cc13c40",
+      "subject": "causal_mosaic:node:87b0ea34d403",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8660c8d67284",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The FFM treatment and reference sites both had significantly higher levels of bioavailable K compared with the PM treatments",
+      "source_spans": [
+        {
+          "text": "The FFM treatment and reference sites both had significantly higher levels of bioavailable K compared with the PM treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:50f0af78a4bf",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8660c8d67284",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The FFM treatment and reference sites both had significantly higher levels of bioavailable K compared with the PM treatments",
+      "source_spans": [
+        {
+          "text": "The FFM treatment and reference sites both had significantly higher levels of bioavailable K compared with the PM treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8884e1fba2a4",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ca13a55508f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reference sites and FFM reclamation treatment having lower N, S, Ca, and Mg than the three PM reclamation treatments",
+      "source_spans": [
+        {
+          "text": "reference sites and FFM reclamation treatment having lower N, S, Ca, and Mg than the three PM reclamation treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47da550bbb56",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a681750806d0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the PM treatment has an order of magnitude greater C than the FFM or reference sites",
+      "source_spans": [
+        {
+          "text": "the PM treatment has an order of magnitude greater C than the FFM or reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5aed75f9cf32",
+      "subject": "causal_mosaic:node:87b0ea34d403",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:89a51b29ecaf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "FFM is most similar to the reference sites",
+      "source_spans": [
+        {
+          "text": "FFM is most similar to the reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c205280e67fc",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:89a51b29ecaf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "FFM is most similar to the reference sites, followed by PM-Medium, PM-Deep, and PM-Shallow is the least similar overall",
+      "source_spans": [
+        {
+          "text": "FFM is most similar to the reference sites, followed by PM-Medium, PM-Deep, and PM-Shallow is the least similar overall"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:66d20a6cf644",
+      "subject": "causal_mosaic:node:fc8de933cde9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f10ef7c3c1a",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was no significant difference between different subsoil depths on PM treatments for either tree species",
+      "source_spans": [
+        {
+          "text": "There was no significant difference between different subsoil depths on PM treatments for either tree species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:85d727626de3",
+      "subject": "causal_mosaic:node:b94eed9c9ba7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:89a51b29ecaf",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the results of the PCA indicate that this difference in AWHC was never a significant determinant in overall site similarity",
+      "source_spans": [
+        {
+          "text": "the results of the PCA indicate that this difference in AWHC was never a significant determinant in overall site similarity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47278882faad",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f46de553822f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "PM-Deep and PM-Medium treatments had a greater concentration than the reference sites",
+      "source_spans": [
+        {
+          "text": "PM-Deep and PM-Medium treatments had a greater concentration than the reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1d4b48f35ca6",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7b1cbaff07f0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "FFM treatment and reference site had greater concentrations than all PM treatments",
+      "source_spans": [
+        {
+          "text": "FFM treatment and reference site had greater concentrations than all PM treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:98f2efe0ee01",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3d0e1418fbc3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "FFM treatment had a greater concentration than all PM treatments",
+      "source_spans": [
+        {
+          "text": "FFM treatment had a greater concentration than all PM treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b3d901b05d5f",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7c2bb80928bc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "all PM treatments had greater concentrations than the FFM treatment and reference sites",
+      "source_spans": [
+        {
+          "text": "all PM treatments had greater concentrations than the FFM treatment and reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:375cc06a9ae6",
+      "subject": "causal_mosaic:node:3d5d9bbfbef5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5316dce5e2b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "all reclamation treatments had greater concentrations than the natural reference sites",
+      "source_spans": [
+        {
+          "text": "all reclamation treatments had greater concentrations than the natural reference sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/jeq2.20026",
+        "title": "Using a nutrient profile index to assess reclamation strategies in the Athabasca oil sands region of northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Hogberg, Jeffrey I.",
+          "MacKenzie, M. Derek",
+          "Pinno, Bradley D."
+        ],
+        "journal": "J of Env Quality"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

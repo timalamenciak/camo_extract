@@ -1,0 +1,462 @@
+{
+  "graph_id": "causal_mosaic:graph:3645efda15aa",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T08:29:13.031152+00:00",
+    "source_corpus": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:df8a57060118",
+      "name": "Harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5fe825c8ab",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Effects of harvesting and drought on CO2 and H2O fluxes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b6df138c3143",
+      "name": "Drought",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:1000745",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Effects of harvesting and drought on CO2 and H2O fluxes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec51493e4511",
+      "name": "Forest productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fe881810a4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "leading to significant (lagged) declines in forest productivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e40beb635e0",
+      "name": "Net ecosystem production (NEP)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_095db4f9cc",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "NEP became negative again, through years 4 and 5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dd8967edc0be",
+      "name": "Evapotranspiration",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500033",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The drought through 2010 and 2011 resulted in much lower ET levels"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51b352a247bb",
+      "name": "Water-use efficiency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8716e3f667",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Water-use efficiency also declined in 2010 and 2011"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b127fda2e43e",
+      "name": "Light-use efficiency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_400a096c5a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "LUE... declined... in 2010 and 2011"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c60a7ae57e6",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decreased soil moisture content",
+          "start_char": 38415,
+          "end_char": 38446,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37c0e419c1c8",
+      "name": "Precipitation",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001363",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "significant declines in P"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1cef2a114fd9",
+      "name": "Regenerating aspen stands",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_6a949a545a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "regenerating aspen stands are sensitive to drought",
+          "start_char": 2610,
+          "end_char": 2660,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2749caf924cf",
+      "subject": "causal_mosaic:node:df8a57060118",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec51493e4511",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a period of dry years had a significant influence on rates of postharvest growth, carbon dioxide (CO2), and water fluxes at these sites. However, cumulative annual precipitation also declined... leading to significant (lagged) declines in forest productivity",
+      "source_spans": [
+        {
+          "text": "a period of dry years had a significant influence on rates of postharvest growth, carbon dioxide (CO2), and water fluxes at these sites. However, cumulative annual precipitation also declined... leading to significant (lagged) declines in forest productivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a0d40f5a09f9",
+      "subject": "causal_mosaic:node:b6df138c3143",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec51493e4511",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "a period of dry years had a significant influence on rates of postharvest growth, carbon dioxide (CO2), and water fluxes at these sites. However, cumulative annual precipitation also declined... leading to significant (lagged) declines in forest productivity",
+      "source_spans": [
+        {
+          "text": "a period of dry years had a significant influence on rates of postharvest growth, carbon dioxide (CO2), and water fluxes at these sites. However, cumulative annual precipitation also declined... leading to significant (lagged) declines in forest productivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f3ad86a355b6",
+      "subject": "causal_mosaic:node:b6df138c3143",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7e40beb635e0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Low P and low VMC during the latter half of 2009–2011 resulted in a net loss of CO2 to the atmosphere by 2010 (201 g C·m−2) through 2011 (180 g C·m−2)",
+      "source_spans": [
+        {
+          "text": "Low P and low VMC during the latter half of 2009–2011 resulted in a net loss of CO2 to the atmosphere by 2010 (201 g C·m−2) through 2011 (180 g C·m−2)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47d5178e60bf",
+      "subject": "causal_mosaic:node:b6df138c3143",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dd8967edc0be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The drought through 2010 and 2011 resulted in much lower ET levels similar to those found in 2007 by 2011",
+      "source_spans": [
+        {
+          "text": "The drought through 2010 and 2011 resulted in much lower ET levels similar to those found in 2007 by 2011"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:30e851d89a3a",
+      "subject": "causal_mosaic:node:b6df138c3143",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:51b352a247bb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Water-use efficiency also declined in 2010 and 2011, whereas differences in light-use efficiency did not vary significantly because foliage was maintained",
+      "source_spans": [
+        {
+          "text": "Water-use efficiency also declined in 2010 and 2011, whereas differences in light-use efficiency did not vary significantly because foliage was maintained"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d934ca2d5923",
+      "subject": "causal_mosaic:node:b6df138c3143",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b127fda2e43e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "LUE... declined to 1.42 g C·MJ−1 and 1.23 g C·MJ−1, on average, in 2010 and 2011, respectively... affected by stomatal sensitivity to drought",
+      "source_spans": [
+        {
+          "text": "LUE... declined to 1.42 g C·MJ−1 and 1.23 g C·MJ−1, on average, in 2010 and 2011, respectively... affected by stomatal sensitivity to drought"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fde8e00c56ed",
+      "subject": "causal_mosaic:node:37c0e419c1c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c60a7ae57e6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Higher-than-normal rates of P continued with above-average snow accumulation in 2007 and 2008 maintained high soil VMC into June 2009... significant declines in P... VMC declined",
+      "source_spans": [
+        {
+          "text": "Higher-than-normal rates of P continued with above-average snow accumulation in 2007 and 2008 maintained high soil VMC into June 2009... significant declines in P... VMC declined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dd49f60cf8e3",
+      "subject": "causal_mosaic:node:1cef2a114fd9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dd8967edc0be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Rapid redevelopment of leaf area as a result of high-density regeneration of aspen through rapid root suckering returns the stand ET to near (60% of) preharvest conditions",
+      "source_spans": [
+        {
+          "text": "Rapid redevelopment of leaf area as a result of high-density regeneration of aspen through rapid root suckering returns the stand ET to near (60% of) preharvest conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0253",
+        "title": "Effects of harvesting and drought on CO<sub>2</sub> and H<sub>2</sub> O fluxes in an aspen-dominated western boreal plain forest: early chronosequence recovery",
+        "year": 2015,
+        "authors": [
+          "Petrone, R.M.",
+          "Chasmer, L.",
+          "Hopkinson, C.",
+          "Silins, U.",
+          "Landhäusser, S.M.",
+          "Kljun, N.",
+          "Devito, K.J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

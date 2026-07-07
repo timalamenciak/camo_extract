@@ -1,0 +1,762 @@
+{
+  "graph_id": "causal_mosaic:graph:b09afcbc29f3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T22:30:58.617076+00:00",
+    "source_corpus": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0eb14a094705",
+      "name": "Soil moisture levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_850d7fdbd6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Response of thicket swamp species to soil moisture levels",
+          "start_char": 126,
+          "end_char": 183,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2258f9810cfc",
+      "name": "Plant growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3e370ceb84",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "These soil moisture differences produced a measurable effect on plant growth for six of the nine species tested"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bfb217eea4b4",
+      "name": "Water use efficiency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e54b349f0e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "determine an estimated water use efficiency (WUEe)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c766c9e757b4",
+      "name": "Root-to-shoot ratio",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cdf9ef6ee0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A significant difference in root-to-shoot ratio (R:S) was found for eight of the species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a07727ae5318",
+      "name": "Spiraea alba",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q7577709",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Spiraea alba",
+          "start_char": 979,
+          "end_char": 991,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea186e4f8e11",
+      "name": "Rosa palustris",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_7bdcb02faa",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rosa palustris",
+          "start_char": 12440,
+          "end_char": 12454,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87e4afc8c104",
+      "name": "Salix interior",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q6117348",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Salix interior",
+          "start_char": 1040,
+          "end_char": 1054,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d0b0b268cb3",
+      "name": "Sambucus nigra",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q22701",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sambucus nigra",
+          "start_char": 1057,
+          "end_char": 1071,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ab4a13eeda0",
+      "name": "Solidago uliginosa",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q15566691",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Solidago uliginosa",
+          "start_char": 1078,
+          "end_char": 1096,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1eb53ad59a16",
+      "name": "Solidago altissima",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q7557949",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Solidago altissima",
+          "start_char": 1717,
+          "end_char": 1735,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c913df5a2ec9",
+      "name": "Cornus sericea",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q164130",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Cornus sericea",
+          "start_char": 1173,
+          "end_char": 1187,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:89c6fa41fc9f",
+      "name": "Salix discolor",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3124760",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Salix discolor",
+          "start_char": 1190,
+          "end_char": 1204,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:330ba04afa1c",
+      "name": "Viburnum lentago",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3321544",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Viburnum lentago",
+          "start_char": 1211,
+          "end_char": 1227,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:74e7afcfe639",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These soil moisture differences produced a measurable effect on plant growth for six of the nine species tested.",
+      "source_spans": [
+        {
+          "text": "These soil moisture differences produced a measurable effect on plant growth for six of the nine species tested."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ec9367819c0",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bfb217eea4b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "New growth was compared to mean stomatal conductivity to determine an estimated water use efficiency (WUEe), which demonstrated a montonal relationship for six of the species across the measured soil moisture regime.",
+      "source_spans": [
+        {
+          "text": "New growth was compared to mean stomatal conductivity to determine an estimated water use efficiency (WUEe), which demonstrated a montonal relationship for six of the species across the measured soil moisture regime."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:544dc4455fe4",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c766c9e757b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A significant difference in root-to-shoot ratio (R:S) was found for eight of the species, with contrasting directions of change between the soil moisture treatments.",
+      "source_spans": [
+        {
+          "text": "A significant difference in root-to-shoot ratio (R:S) was found for eight of the species, with contrasting directions of change between the soil moisture treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1ef2268e415c",
+      "subject": "causal_mosaic:node:a07727ae5318",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was a ladder-like response in stem growth to soil moisture for Spiraea alba, with the Wet treatment resulting in nearly twice as much stem growth as the Control",
+      "source_spans": [
+        {
+          "text": "There was a ladder-like response in stem growth to soil moisture for Spiraea alba, with the Wet treatment resulting in nearly twice as much stem growth as the Control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ced2eeef138e",
+      "subject": "causal_mosaic:node:ea186e4f8e11",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Aboveground biomass of Rosa palustris exhibited the ladder-like increase in response to increased soil moisture, with Wet treatment mean biomass nearly twice the aboveground biomass of the Control treatment",
+      "source_spans": [
+        {
+          "text": "Aboveground biomass of Rosa palustris exhibited the ladder-like increase in response to increased soil moisture, with Wet treatment mean biomass nearly twice the aboveground biomass of the Control treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:117b6ce9b776",
+      "subject": "causal_mosaic:node:87e4afc8c104",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salix interior and Spiraea alba aboveground biomass was strongly restricted in the drier soils, with highly significant differences and effect sizes close to or greater than 2.0 between the two wetter treatments and the Control.",
+      "source_spans": [
+        {
+          "text": "Salix interior and Spiraea alba aboveground biomass was strongly restricted in the drier soils, with highly significant differences and effect sizes close to or greater than 2.0 between the two wetter treatments and the Control."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:42c68776e9c7",
+      "subject": "causal_mosaic:node:8d0b0b268cb3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sambucus nigra stem growth peaked in the Moist treatment, with average new growth 50 and 100% greater than the drier and wetter treatments, respectively.",
+      "source_spans": [
+        {
+          "text": "Sambucus nigra stem growth peaked in the Moist treatment, with average new growth 50 and 100% greater than the drier and wetter treatments, respectively."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e873a2a25f41",
+      "subject": "causal_mosaic:node:2ab4a13eeda0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Solidago uliginosa grew more in the Moist treatment",
+      "source_spans": [
+        {
+          "text": "Solidago uliginosa grew more in the Moist treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d434c4bf8cb1",
+      "subject": "causal_mosaic:node:1eb53ad59a16",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Solidago altissima under the Control treatment outperforming the wetter treatments by 30%",
+      "source_spans": [
+        {
+          "text": "Solidago altissima under the Control treatment outperforming the wetter treatments by 30%"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:52415ec8ef3d",
+      "subject": "causal_mosaic:node:c913df5a2ec9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changing soil moisture did not have an effect on aboveground biomass for either Cornus sericea or Viburnum lentago.",
+      "source_spans": [
+        {
+          "text": "Changing soil moisture did not have an effect on aboveground biomass for either Cornus sericea or Viburnum lentago."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08fe6730c968",
+      "subject": "causal_mosaic:node:89c6fa41fc9f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changing soil moisture did not have an effect on aboveground biomass for either Cornus sericea or Viburnum lentago.",
+      "source_spans": [
+        {
+          "text": "Changing soil moisture did not have an effect on aboveground biomass for either Cornus sericea or Viburnum lentago."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79f35e0ebe13",
+      "subject": "causal_mosaic:node:330ba04afa1c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2258f9810cfc",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changing soil moisture did not have an effect on aboveground biomass for either Cornus sericea or Viburnum lentago.",
+      "source_spans": [
+        {
+          "text": "Changing soil moisture did not have an effect on aboveground biomass for either Cornus sericea or Viburnum lentago."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a0d09b7fa0aa",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bfb217eea4b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Only the upland goldenrod, Solidago altissima, demonstrated the expected increase in WUEe with decreasing soil moisture",
+      "source_spans": [
+        {
+          "text": "Only the upland goldenrod, Solidago altissima, demonstrated the expected increase in WUEe with decreasing soil moisture"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6cfb18700f95",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bfb217eea4b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rosa palustris replicates continued to increase WUEe with increasing soil moisture",
+      "source_spans": [
+        {
+          "text": "Rosa palustris replicates continued to increase WUEe with increasing soil moisture"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ac9852f78ca",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c766c9e757b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increasing soil moisture led to a significant decrease in root-to-shoot ratio for Rosa palustris.",
+      "source_spans": [
+        {
+          "text": "Increasing soil moisture led to a significant decrease in root-to-shoot ratio for Rosa palustris."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2211bd1fa62c",
+      "subject": "causal_mosaic:node:0eb14a094705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c766c9e757b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The opposite trend, increasing ratio with increasing soil moisture, occurred in Salix interior, Solidago altissima, and Viburnum lentago",
+      "source_spans": [
+        {
+          "text": "The opposite trend, increasing ratio with increasing soil moisture, occurred in Salix interior, Solidago altissima, and Viburnum lentago"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2020.105911",
+        "title": "Response of thicket swamp species to soil moisture levels: Implications for restoration",
+        "year": 2020,
+        "authors": [
+          "Ormshaw, Hannah E.",
+          "Duval, Tim P."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

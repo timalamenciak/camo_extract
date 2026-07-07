@@ -1,0 +1,376 @@
+{
+  "graph_id": "causal_mosaic:graph:94648129201a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T08:34:04.022676+00:00",
+    "source_corpus": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:097a5f93b6b1",
+      "name": "clear-cutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6c86538b21",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c2dc8f5b61be",
+      "name": "thinning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_529d0abdf3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:090b7dfd71e2",
+      "name": "slower decomposition of red alder leaves",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ea75d91851",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dcfe137ec0d6",
+      "name": "lower density of shredder invertebrates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_86f0c4374c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "attributed to lower density of shredder invertebrates"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c62da7d67ede",
+      "name": "forest regrowth",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_651757d7c0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "After a further 7 years of forest regrowth (time elapsed between the previous and present study), we found that litter decomposition rate and shredder density in logging-affected reaches converged with values in reference reaches"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:383b05d498ae",
+      "name": "litter decomposition rate",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9bf9185a63",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "litter decomposition rate and shredder density in logging-affected reaches converged with values in reference reaches"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:028eba13fea5",
+      "name": "stream functional integrity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_53c1aceb9a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Stream functional integrity, as reﬂected by litter decomposition, increased across all forest treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60062d4e5f2a",
+      "name": "canopy openness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_84669cf818",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "After a 7-year period of forest regrowth subsequent to the study by Lecerf and Richardson (2010), canopy openness declined overall"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a67f54217b5b",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "pH in clear-cut sites (mean: 5.7) was lower than that in 30-m reserves (mean: 6.4; Tukey’s HSD: p = 0.04)"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c88241ce9f51",
+      "subject": "causal_mosaic:node:097a5f93b6b1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:090b7dfd71e2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting, which was attributed to lower density of shredder invertebrates.",
+      "source_spans": [
+        {
+          "text": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting, which was attributed to lower density of shredder invertebrates."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fcb0bdfd22ca",
+      "subject": "causal_mosaic:node:c2dc8f5b61be",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:090b7dfd71e2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting, which was attributed to lower density of shredder invertebrates.",
+      "source_spans": [
+        {
+          "text": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting, which was attributed to lower density of shredder invertebrates."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0cc911b82581",
+      "subject": "causal_mosaic:node:dcfe137ec0d6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:090b7dfd71e2",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting, which was attributed to lower density of shredder invertebrates.",
+      "source_spans": [
+        {
+          "text": "About 15 years after clear-cutting and 9 years after thinning, slower decomposition of red alder leaves ( Alnus rubra) was reported in streams affected by forest harvesting, which was attributed to lower density of shredder invertebrates."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38de45801328",
+      "subject": "causal_mosaic:node:c62da7d67ede",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:383b05d498ae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After a further 7 years of forest regrowth (time elapsed between the previous and present study), we found that litter decomposition rate and shredder density in logging-affected reaches converged with values in reference reaches.",
+      "source_spans": [
+        {
+          "text": "After a further 7 years of forest regrowth (time elapsed between the previous and present study), we found that litter decomposition rate and shredder density in logging-affected reaches converged with values in reference reaches."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:469459737c7d",
+      "subject": "causal_mosaic:node:c62da7d67ede",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:028eba13fea5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stream functional integrity, as reﬂected by litter decomposition, increased across all forest treatments.",
+      "source_spans": [
+        {
+          "text": "Stream functional integrity, as reﬂected by litter decomposition, increased across all forest treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38e04cbd50c7",
+      "subject": "causal_mosaic:node:c62da7d67ede",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60062d4e5f2a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After a 7-year period of forest regrowth subsequent to the study by Lecerf and Richardson (2010), canopy openness declined overall",
+      "source_spans": [
+        {
+          "text": "After a 7-year period of forest regrowth subsequent to the study by Lecerf and Richardson (2010), canopy openness declined overall"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1aac2ad31e64",
+      "subject": "causal_mosaic:node:097a5f93b6b1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a67f54217b5b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "pH in clear-cut sites (mean: 5.7) was lower than that in 30-m reserves (mean: 6.4; Tukey’s HSD: p = 0.04)",
+      "source_spans": [
+        {
+          "text": "pH in clear-cut sites (mean: 5.7) was lower than that in 30-m reserves (mean: 6.4; Tukey’s HSD: p = 0.04)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2016.10.044",
+        "title": "Assessing the long-term ecological effects of riparian management practices on headwater streams in a coastal temperate rainforest",
+        "year": 2017,
+        "authors": [
+          "Yeung, Alex C.Y.",
+          "Lecerf, Antoine",
+          "Richardson, John S."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

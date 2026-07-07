@@ -1,0 +1,334 @@
+{
+  "graph_id": "causal_mosaic:graph:23e9ab294c62",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T12:20:12.661701+00:00",
+    "source_corpus": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:767319248399",
+      "name": "Cumulative effects of chronic deer browsing and clear-cutting",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_861ceeba96",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:205da2080fb3",
+      "name": "Regeneration processes",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ffebf0b41e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a3e2ca55436",
+      "name": "Alternative successional pathway toward parklands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0987c240fc",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0d21c94c1652",
+      "name": "Regeneration failure",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b6ab60c03e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our results indicate regeneration failure in both ecosystems, which can be explained by a lack of suitable rotten logs for sufﬁcient establishment of white spruce seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa6d32adbf77",
+      "name": "Lack of suitable rotten logs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ba5d23a306",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Our results indicate regeneration failure in both ecosystems, which can be explained by a lack of suitable rotten logs for sufﬁcient establishment of white spruce seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e18aed8dd6c1",
+      "name": "Recalcitrant understory layer species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_6dee750a58",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Recalcitrant understory layer species are dense and persistent monodominant strata that can impede regeneration, by altering the rate and shifting the direction of forest succession"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7393cbd9c71",
+      "name": "White spruce seedlings",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_960fabed84",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "White spruce seedlings are vulnerable to overtopping by competing vegetation which subsequently impedes their establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cfce84c4f261",
+      "name": "Moss on rotten logs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a4c3af5b77",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Moss on rotten logs is largely recognized as one of the most suitable substrates for white spruce seedling establishment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9a751f9204fe",
+      "subject": "causal_mosaic:node:767319248399",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:205da2080fb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands",
+      "source_spans": [
+        {
+          "text": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2014.06.020",
+        "title": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+        "year": 2014,
+        "authors": [
+          "Barrette, Martin",
+          "Bélanger, Louis",
+          "De Grandpré, Louis",
+          "Ruel, Jean-Claude"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:da8da5aa91b7",
+      "subject": "causal_mosaic:node:767319248399",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a3e2ca55436",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands",
+      "source_spans": [
+        {
+          "text": "Hence, the cumulative effects of chronic deer browsing and clear-cutting of mature second-growth white spruce stands have altered regeneration processes and triggered an alternative successional pathway toward parklands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2014.06.020",
+        "title": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+        "year": 2014,
+        "authors": [
+          "Barrette, Martin",
+          "Bélanger, Louis",
+          "De Grandpré, Louis",
+          "Ruel, Jean-Claude"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:78f4bc9741cd",
+      "subject": "causal_mosaic:node:aa6d32adbf77",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0d21c94c1652",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results indicate regeneration failure in both ecosystems, which can be explained by a lack of suitable rotten logs for sufﬁcient establishment of white spruce seedlings.",
+      "source_spans": [
+        {
+          "text": "Our results indicate regeneration failure in both ecosystems, which can be explained by a lack of suitable rotten logs for sufﬁcient establishment of white spruce seedlings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2014.06.020",
+        "title": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+        "year": 2014,
+        "authors": [
+          "Barrette, Martin",
+          "Bélanger, Louis",
+          "De Grandpré, Louis",
+          "Ruel, Jean-Claude"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:25cd2d90d394",
+      "subject": "causal_mosaic:node:e18aed8dd6c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:205da2080fb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Recalcitrant understory layer species are dense and persistent monodominant strata that can impede regeneration, by altering the rate and shifting the direction of forest succession",
+      "source_spans": [
+        {
+          "text": "Recalcitrant understory layer species are dense and persistent monodominant strata that can impede regeneration, by altering the rate and shifting the direction of forest succession"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2014.06.020",
+        "title": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+        "year": 2014,
+        "authors": [
+          "Barrette, Martin",
+          "Bélanger, Louis",
+          "De Grandpré, Louis",
+          "Ruel, Jean-Claude"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1d9133c8f80e",
+      "subject": "causal_mosaic:node:e18aed8dd6c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d7393cbd9c71",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "White spruce seedlings are vulnerable to overtopping by competing vegetation which subsequently impedes their establishment",
+      "source_spans": [
+        {
+          "text": "White spruce seedlings are vulnerable to overtopping by competing vegetation which subsequently impedes their establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2014.06.020",
+        "title": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+        "year": 2014,
+        "authors": [
+          "Barrette, Martin",
+          "Bélanger, Louis",
+          "De Grandpré, Louis",
+          "Ruel, Jean-Claude"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:477574c0e7cd",
+      "subject": "causal_mosaic:node:cfce84c4f261",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d7393cbd9c71",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Moss on rotten logs is largely recognized as one of the most suitable substrates for white spruce seedling establishment",
+      "source_spans": [
+        {
+          "text": "Moss on rotten logs is largely recognized as one of the most suitable substrates for white spruce seedling establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2014.06.020",
+        "title": "Cumulative effects of chronic deer browsing and clear-cutting on regeneration processes in second-growth white spruce stands",
+        "year": 2014,
+        "authors": [
+          "Barrette, Martin",
+          "Bélanger, Louis",
+          "De Grandpré, Louis",
+          "Ruel, Jean-Claude"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

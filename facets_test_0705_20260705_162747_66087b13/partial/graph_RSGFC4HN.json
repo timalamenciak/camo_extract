@@ -1,0 +1,456 @@
+{
+  "graph_id": "causal_mosaic:graph:51cde2ae06dd",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T18:49:31.047940+00:00",
+    "source_corpus": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:2005010d99ce",
+      "name": "Mulch decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7c0dec53aa",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:166046c83cfc",
+      "name": "recovery of net carbon sink function",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f954f7e9d6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d0a4be747a7c",
+      "name": "application of a surface straw mulch layer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5ea7f78d2c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the application of a surface straw mulch layer can have significant effects on the carbon balance of a restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:68e513bafdfe",
+      "name": "carbon balance of a restored peatland",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa49726556",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "the application of a surface straw mulch layer can have significant effects on the carbon balance of a restored peatland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76e079498c02",
+      "name": "peatland became a larger source of CO2",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dfe2ba16e7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the peatland became a larger source of CO2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f386068497de",
+      "name": "moist conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3fe49ffcd8",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "under moist conditions the CO2 release increased for all mulches"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f1c8c9fd9db",
+      "name": "CO2 release",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_04a55d7ce1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "under moist conditions the CO2 release increased for all mulches"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8888f9666d9b",
+      "name": "new straw mulch",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b733591ec",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "new straw mulch had greater CO2 production and thus straw mulch decomposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:626f71ae13a9",
+      "name": "straw mulch decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_41ad4e2a09",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "new straw mulch had greater CO2 production and thus straw mulch decomposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f24f82e769e3",
+      "name": "temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f4b64ae0f0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "temperature proved to be the strongest variable in determining the rate of straw mulch decomposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ef46e010687",
+      "name": "organic matter decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_505f11f5bf",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased organic matter decomposition resulting in increased CO2 fluxes to the atmosphere"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:15643ef95ec9",
+      "name": "CO2 fluxes to the atmosphere",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ab4d3b738f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased organic matter decomposition resulting in increased CO2 fluxes to the atmosphere"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:856bc6cf8ad0",
+      "subject": "causal_mosaic:node:2005010d99ce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:166046c83cfc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+      "source_spans": [
+        {
+          "text": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c985ebb87afb",
+      "subject": "causal_mosaic:node:d0a4be747a7c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:68e513bafdfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the application of a surface straw mulch layer can have significant effects on the carbon balance of a restored peatland",
+      "source_spans": [
+        {
+          "text": "the application of a surface straw mulch layer can have significant effects on the carbon balance of a restored peatland"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8f73444df919",
+      "subject": "causal_mosaic:node:2005010d99ce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:76e079498c02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Due to the decomposition of this mulch layer over the first several seasons of restoration, the peatland became a larger source of CO2",
+      "source_spans": [
+        {
+          "text": "Due to the decomposition of this mulch layer over the first several seasons of restoration, the peatland became a larger source of CO2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4c3b8fcd4fe4",
+      "subject": "causal_mosaic:node:f386068497de",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1f1c8c9fd9db",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "under moist conditions the CO2 release increased for all mulches",
+      "source_spans": [
+        {
+          "text": "under moist conditions the CO2 release increased for all mulches"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3578b7fcd7c",
+      "subject": "causal_mosaic:node:8888f9666d9b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:626f71ae13a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "new straw mulch had greater CO2 production and thus straw mulch decomposition",
+      "source_spans": [
+        {
+          "text": "new straw mulch had greater CO2 production and thus straw mulch decomposition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c677f778d7e7",
+      "subject": "causal_mosaic:node:f24f82e769e3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:626f71ae13a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "temperature proved to be the strongest variable in determining the rate of straw mulch decomposition",
+      "source_spans": [
+        {
+          "text": "temperature proved to be the strongest variable in determining the rate of straw mulch decomposition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:51a1d19ba29d",
+      "subject": "causal_mosaic:node:d0a4be747a7c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ef46e010687",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the application of straw mulch provides the potential for increased organic matter decomposition resulting in increased CO2 fluxes to the atmosphere",
+      "source_spans": [
+        {
+          "text": "the application of straw mulch provides the potential for increased organic matter decomposition resulting in increased CO2 fluxes to the atmosphere"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9a91cb3718f2",
+      "subject": "causal_mosaic:node:0ef46e010687",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:15643ef95ec9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "increased organic matter decomposition resulting in increased CO2 fluxes to the atmosphere",
+      "source_spans": [
+        {
+          "text": "increased organic matter decomposition resulting in increased CO2 fluxes to the atmosphere"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/S0925-8574(03)00025-9",
+        "title": "Mulch decomposition impedes recovery of net carbon sink function in a restored peatland",
+        "year": 2003,
+        "authors": [
+          "Waddington, J.M.",
+          "Greenwood, M.J.",
+          "Petrone, R.M.",
+          "Price, J.S."
+        ],
+        "journal": "Ecological Engineering"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

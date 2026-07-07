@@ -10,6 +10,8 @@ import re
 import sys
 import tempfile
 import traceback
+import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -28,6 +30,22 @@ from .schema_validation import normalize_graph, validate_graph
 LOGGER = logging.getLogger("camo_extract")
 
 
+def _make_unique_output_path(output_dir: str) -> Path:
+    """Create output path with timestamp suffix if directory exists and has content."""
+    output_path = Path(output_dir)
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+    unique_suffix = f"_{timestamp}_{uuid.uuid4().hex[:8]}"
+
+    if output_path.exists() and any(output_path.iterdir()):
+        new_path = output_path.parent / f"{output_path.name}{unique_suffix}"
+        new_path.mkdir(parents=True, exist_ok=True)
+        LOGGER.info(f"Output folder exists; created unique: {new_path}")
+        return new_path
+
+    output_path.mkdir(parents=True, exist_ok=True)
+    return output_path
+
+
 def process_folder(
     input_dir: str,
     output_dir: str,
@@ -39,11 +57,18 @@ def process_folder(
     extractor: Optional[GraphExtractor] = None,
     grounder: Optional[OntologyGrounder] = None,
     pdf_processor: Optional[PDFProcessor] = None,
+    make_unique: bool = True,
 ) -> dict:
-    """Process an RIS-described PDF corpus and return a processing manifest."""
+    """Process an RIS-described PDF corpus and return a processing manifest.
+
+    If make_unique is True and output_dir exists with content, creates a timestamped
+    unique folder (e.g., output_20260705_142345_a1b2c3d4). Otherwise, uses output_dir
+    directly. Set resume=True to continue from existing partial results.
+    """
     input_path = Path(input_dir)
-    output_path = Path(output_dir)
-    output_path.mkdir(parents=True, exist_ok=True)
+    output_path = (
+        _make_unique_output_path(output_dir) if make_unique else Path(output_dir)
+    )
     config = config or load_config(config_path)
 
     ris_files = sorted(input_path.glob("*.ris"))
@@ -297,6 +322,7 @@ def extract_graph_from_pdf(
     pdf_path: str,
     article_metadata: Optional[ArticleMetadata] = None,
     config: Optional[Config] = None,
+    make_unique: bool = True,
 ) -> Optional[dict]:
     """Compatibility helper for extracting one PDF."""
     config = config or load_config()
@@ -583,13 +609,23 @@ def main() -> None:
     parser.add_argument("--max-articles", type=int, default=5)
     parser.add_argument("--resume", action="store_true")
     parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing output folder instead of creating unique",
+    )
+    parser.add_argument(
         "--log-level",
         choices=("DEBUG", "INFO", "WARNING", "ERROR"),
         default="INFO",
         help="Console logging detail (default: INFO)",
     )
     args = parser.parse_args()
-    log_path = _configure_logging(Path(args.output_dir), args.log_level)
+    output_path = (
+        _make_unique_output_path(args.output_dir)
+        if not args.force
+        else Path(args.output_dir)
+    )
+    log_path = _configure_logging(output_path, args.log_level)
     LOGGER.info("CAMO extraction run started; persistent log: %s", log_path)
     manifest = process_folder(
         args.input_dir,
@@ -598,6 +634,7 @@ def main() -> None:
         test_mode=args.test_mode,
         max_articles=args.max_articles,
         resume=args.resume,
+        make_unique=not args.force,
     )
     if manifest["failed"]:
         raise SystemExit(1)

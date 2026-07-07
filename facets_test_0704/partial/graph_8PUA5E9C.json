@@ -1,0 +1,311 @@
+{
+  "graph_id": "causal_mosaic:graph:25d9b4018c0c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T22:10:04.736686+00:00",
+    "source_corpus": "Cut‐over peatland regeneration assessment using organic matter and microbial indicators (bacteria and testate amoebae)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:150712254bbe",
+      "name": "secondary succession",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_917399148c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Although secondary succession in the cut-over bog led to an ecosystem similar to that of the reference site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6283c6a2812",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "species richness and diversity increased but density declined"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7a5cf5a3eb7f",
+      "name": "carbohydrate preservation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_89960032c6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "carbohydrate preservation",
+      "source_spans": [
+        {
+          "text": "better carbohydrate preservation",
+          "start_char": 3105,
+          "end_char": 3137,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ac24c79045d2",
+      "name": "peat harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_08124f556d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "drainage from peat cutting is most likely to be responsible for changes recorded in the upper peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3ac44c3204e0",
+      "name": "OM degradation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3de675dde7",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "OM degradation",
+      "source_spans": [
+        {
+          "text": "suggest an increasing degradation of OM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a389500da919",
+      "name": "Sphagnum remains",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_35af14f80a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "Sphagnum remains",
+      "source_spans": [
+        {
+          "text": "relative percentage of Sphagnum remains in the peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d4a685bc25e",
+      "name": "bacterial biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_66e6ae3fc5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "bacterial biomass",
+      "source_spans": [
+        {
+          "text": "higher bacterial biomass than the advanced regeneration stage",
+          "start_char": 2146,
+          "end_char": 2207,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:42bd9fc70cba",
+      "subject": "causal_mosaic:node:150712254bbe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6283c6a2812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "species richness and diversity increased but density declined",
+      "source_spans": [
+        {
+          "text": "species richness and diversity increased but density declined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2007.01436.x",
+        "title": "Cut‐over peatland regeneration assessment using organic matter and microbial indicators (bacteria and testate amoebae)",
+        "year": 2008,
+        "authors": [
+          "Laggoun‐Défarge, Fatima",
+          "Mitchell, Edward",
+          "Gilbert, Daniel",
+          "Disnar, Jean‐Robert",
+          "Comont, Laure",
+          "Warner, Barry G.",
+          "Buttler, Alexandre"
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1aabef4dc6c",
+      "subject": "causal_mosaic:node:150712254bbe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7a5cf5a3eb7f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "higher testate amoeba diversity was associated with better carbohydrate preservation",
+      "source_spans": [
+        {
+          "text": "higher testate amoeba diversity was associated with better carbohydrate preservation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2007.01436.x",
+        "title": "Cut‐over peatland regeneration assessment using organic matter and microbial indicators (bacteria and testate amoebae)",
+        "year": 2008,
+        "authors": [
+          "Laggoun‐Défarge, Fatima",
+          "Mitchell, Edward",
+          "Gilbert, Daniel",
+          "Disnar, Jean‐Robert",
+          "Comont, Laure",
+          "Warner, Barry G.",
+          "Buttler, Alexandre"
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a0aa94671086",
+      "subject": "causal_mosaic:node:ac24c79045d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3ac44c3204e0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "drainage from peat cutting is most likely to be responsible for changes recorded in the upper peat",
+      "source_spans": [
+        {
+          "text": "drainage from peat cutting is most likely to be responsible for changes recorded in the upper peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2007.01436.x",
+        "title": "Cut‐over peatland regeneration assessment using organic matter and microbial indicators (bacteria and testate amoebae)",
+        "year": 2008,
+        "authors": [
+          "Laggoun‐Défarge, Fatima",
+          "Mitchell, Edward",
+          "Gilbert, Daniel",
+          "Disnar, Jean‐Robert",
+          "Comont, Laure",
+          "Warner, Barry G.",
+          "Buttler, Alexandre"
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bc4f08feba60",
+      "subject": "causal_mosaic:node:a389500da919",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d4a685bc25e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "bacterial biomass was positively correlated with the C/N ratio and the relative percentage of Sphagnum remains in the peat",
+      "source_spans": [
+        {
+          "text": "bacterial biomass was positively correlated with the C/N ratio and the relative percentage of Sphagnum remains in the peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2007.01436.x",
+        "title": "Cut‐over peatland regeneration assessment using organic matter and microbial indicators (bacteria and testate amoebae)",
+        "year": 2008,
+        "authors": [
+          "Laggoun‐Défarge, Fatima",
+          "Mitchell, Edward",
+          "Gilbert, Daniel",
+          "Disnar, Jean‐Robert",
+          "Comont, Laure",
+          "Warner, Barry G.",
+          "Buttler, Alexandre"
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:462b5f7eb8b4",
+      "subject": "causal_mosaic:node:150712254bbe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7d4a685bc25e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Peat from the more recent stage was dominated by Sphagnum-derived tissues and characterized by lower carbohydrate preservation and higher bacterial biomass than the advanced regeneration stage",
+      "source_spans": [
+        {
+          "text": "Peat from the more recent stage was dominated by Sphagnum-derived tissues and characterized by lower carbohydrate preservation and higher bacterial biomass than the advanced regeneration stage"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1365-2664.2007.01436.x",
+        "title": "Cut‐over peatland regeneration assessment using organic matter and microbial indicators (bacteria and testate amoebae)",
+        "year": 2008,
+        "authors": [
+          "Laggoun‐Défarge, Fatima",
+          "Mitchell, Edward",
+          "Gilbert, Daniel",
+          "Disnar, Jean‐Robert",
+          "Comont, Laure",
+          "Warner, Barry G.",
+          "Buttler, Alexandre"
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

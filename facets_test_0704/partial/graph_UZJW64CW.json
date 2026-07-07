@@ -1,0 +1,612 @@
+{
+  "graph_id": "causal_mosaic:graph:035bc771d6e8",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T02:10:22.478962+00:00",
+    "source_corpus": "Does restoration work? It depends on how we measure success",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ba24defb1044",
+      "name": "restoration actions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8a23a5fdfb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "restoration actions changed hydrological conditions",
+          "start_char": 883,
+          "end_char": 934,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:03c1801c6acb",
+      "name": "inclusion of baffles",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d3a25f248a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "inclusion of baffles on three of the sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c340addcbbbe",
+      "name": "hydrological conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0816c3551b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "restoration actions changed hydrological conditions",
+          "start_char": 883,
+          "end_char": 934,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95d5ab8c725b",
+      "name": "passage success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b015b6dedd",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "passage success",
+          "start_char": 9431,
+          "end_char": 9446,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:222ab27b1586",
+      "name": "range of passable flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aaa2ba0028",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "range of passable flows",
+          "start_char": 27504,
+          "end_char": 27527,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fe9835c84cfe",
+      "name": "availability of passable flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_13fff74a15",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "availability of passable flows",
+          "start_char": 18668,
+          "end_char": 18698,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a247853abbc2",
+      "name": "biological improvements",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_acb4cc6350",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "biological improvements",
+          "start_char": 1990,
+          "end_char": 2013,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:dbfb9d6c14ab",
+      "subject": "causal_mosaic:node:ba24defb1044",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c340addcbbbe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "While the restoration actions changed hydrological conditions in a way that should facilitate fish passage, our biological measures indicated that success was variable across culverts and within culverts depending on the measure evaluated.",
+      "source_spans": [
+        {
+          "text": "While the restoration actions changed hydrological conditions in a way that should facilitate fish passage, our biological measures indicated that success was variable across culverts and within culverts depending on the measure evaluated."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5450e301e023",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95d5ab8c725b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Arnolds having two significantly positive responses to restoration.",
+      "source_spans": [
+        {
+          "text": "Arnolds having two significantly positive responses to restoration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:86f8bead2cf4",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:222ab27b1586",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Arnolds having two significantly positive responses to restoration.",
+      "source_spans": [
+        {
+          "text": "Arnolds having two significantly positive responses to restoration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:470e2d5a6111",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95d5ab8c725b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spracklins indicating negative trends for all three response variables",
+      "source_spans": [
+        {
+          "text": "Spracklins indicating negative trends for all three response variables"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e8cb0f31c11d",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:222ab27b1586",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spracklins indicating negative trends for all three response variables",
+      "source_spans": [
+        {
+          "text": "Spracklins indicating negative trends for all three response variables"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2e325eb2cef0",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fe9835c84cfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spracklins indicating negative trends for all three response variables",
+      "source_spans": [
+        {
+          "text": "Spracklins indicating negative trends for all three response variables"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:373a534a7528",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95d5ab8c725b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Terra Nova (APF) had at least one significantly negative response to restoration",
+      "source_spans": [
+        {
+          "text": "Terra Nova (APF) had at least one significantly negative response to restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e7cf8f45bdc",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:222ab27b1586",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The RPF in Terra Nova improved after restoration",
+      "source_spans": [
+        {
+          "text": "The RPF in Terra Nova improved after restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:830eb25e3aa3",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fe9835c84cfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Terra Nova (APF) had at least one significantly negative response to restoration",
+      "source_spans": [
+        {
+          "text": "Terra Nova (APF) had at least one significantly negative response to restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:40f87d0b8189",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95d5ab8c725b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cobblers (RPF, APF), Spracklins (PS), and Terra Nova (APF) had at least one significantly negative response to restoration",
+      "source_spans": [
+        {
+          "text": "Cobblers (RPF, APF), Spracklins (PS), and Terra Nova (APF) had at least one significantly negative response to restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f4a3cf2c97be",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:222ab27b1586",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cobblers (RPF, APF), Spracklins (PS), and Terra Nova (APF) had at least one significantly negative response to restoration",
+      "source_spans": [
+        {
+          "text": "Cobblers (RPF, APF), Spracklins (PS), and Terra Nova (APF) had at least one significantly negative response to restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a219baa4f171",
+      "subject": "causal_mosaic:node:03c1801c6acb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fe9835c84cfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cobblers (RPF, APF), Spracklins (PS), and Terra Nova (APF) had at least one significantly negative response to restoration",
+      "source_spans": [
+        {
+          "text": "Cobblers (RPF, APF), Spracklins (PS), and Terra Nova (APF) had at least one significantly negative response to restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:01b471a8529b",
+      "subject": "causal_mosaic:node:ba24defb1044",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a247853abbc2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoring partial barriers to movement appear to yield limited biological improvements",
+      "source_spans": [
+        {
+          "text": "Restoring partial barriers to movement appear to yield limited biological improvements"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12649",
+        "title": "Does restoration work? It depends on how we measure success",
+        "year": 2018,
+        "authors": [
+          "Mahlum, Shad",
+          "Cote, David",
+          "Wiersma, Yolanda F.",
+          "Pennell, Curtis",
+          "Adams, Blair"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

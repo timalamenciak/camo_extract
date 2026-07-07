@@ -1,0 +1,974 @@
+{
+  "graph_id": "causal_mosaic:graph:00b0a3e8248b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T05:40:44.759333+00:00",
+    "source_corpus": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:14b1c3e8e9ee",
+      "name": "Raking the donor fescue grassland",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dc53f17ed3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:243598d8f0b1",
+      "name": "Thatch",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000473",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:725c0f032358",
+      "name": "Thicker cuts of sod",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a443e8ab5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d5e275229a30",
+      "name": "Greater root mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_22a8dd1213",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fbed198fb43",
+      "name": "Raking dead grass with garden rakes before cutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_139d903f1d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "we resolved the problem by raking the dead grass with garden rakes before cutting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:62a92419f590",
+      "name": "Cutting deeper into the soil",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0b768e4582",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9af483b9fea6",
+      "name": "Sod thickness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9f0488da1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0915dd27aa4b",
+      "name": "Root mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3a9611156c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ce925291b9f6",
+      "name": "Raking on the reconstructed sites",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9a3f13fbd9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This can be attributed to a greatly diminished thatch cover due to raking on the reconstructed sites, which allows more rapid warming of the soils."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b948922957df",
+      "name": "Rapid warming of the soils",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6eb0e60e29",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "This can be attributed to a greatly diminished thatch cover due to raking on the reconstructed sites, which allows more rapid warming of the soils."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e44f27c69b89",
+      "name": "Resodded site",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_336a0133ae",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Spring green-up occurred approximately two weeks earlier on the resodded site than on comparable sites in the undisturbed control site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:06635686e3bb",
+      "name": "Spring green-up",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_70e2ba40c3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Spring green-up occurred approximately two weeks earlier on the resodded site than on comparable sites in the undisturbed control site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:77966a2ef9c3",
+      "name": "Burning in the early spring",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6c3f6a80d9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the plot on the restored site that I burned in the early spring greened-up even earlier"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:19032ef7a65e",
+      "name": "Mowing in the spring covered with a layer of clippings",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4ad7a538f4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "sites mowed in the spring and covered with a layer of clippings greened-up slowly."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8f7c4bd7ff5",
+      "name": "Spring mowing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5764dee711",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bd112ed4de3c",
+      "name": "Wheatgrass and bluegrass species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_a4cff61b9a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d48508163a6e",
+      "name": "Rough fescue",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3092726",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1395f1b7a16f",
+      "name": "Herbs",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q207123",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Some herbs, such as goldenrod (Solidago spp.), bluebell (Campanula spp.), and vetch (Lathyrus spp.), also benefitted from mowing."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6f9f833f6b25",
+      "name": "Transplanting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_16ac64d111",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "transplanting clearly favored shallow-rooted species over deep-rooted species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9d7b88b7d6e",
+      "name": "Shallow-rooted species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_be7ffa8ff5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "transplanting clearly favored shallow-rooted species over deep-rooted species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fa3eaca982f",
+      "name": "Deep-rooted species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_9d151351a6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "transplanting clearly favored shallow-rooted species over deep-rooted species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8235bc5b518b",
+      "name": "Grasses",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q43238",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In general, herbs are favored over grasses, probably in part for the same reason as suggested for the grasses."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76c30efea6ce",
+      "name": "Annual weeds",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_b47ec31be4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The annuals have become less abundant in subsequent years as gaps between the sod have filled with leaf litter and the native species have infilled by lateral growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c524538a180e",
+      "name": "Bobcat use",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c5993698a8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The use of the Bobcat for this purpose made the whole sodding process proceed much more quickly with much less effort"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37bb5bbce449",
+      "name": "Sodding process speed",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4616c31f54",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The use of the Bobcat for this purpose made the whole sodding process proceed much more quickly with much less effort"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09829ead09ef",
+      "name": "Cutting difficulty",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4578b29442",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "We experienced cutting difficulty because the cutter drive wheel slipped on the thick thatch from previous years of growth and non-use, but we resolved the problem by raking the dead grass with garden rakes before cutting."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5a48f521fd59",
+      "subject": "causal_mosaic:node:14b1c3e8e9ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:243598d8f0b1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass.",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:72200aeb513f",
+      "subject": "causal_mosaic:node:14b1c3e8e9ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:725c0f032358",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass.",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dbccdcbe0650",
+      "subject": "causal_mosaic:node:14b1c3e8e9ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d5e275229a30",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass.",
+      "source_spans": [
+        {
+          "text": "Raking the donor fescue grassland helps reduce thatch and allows for thicker cuts of sod with greater root mass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:22ab69e75430",
+      "subject": "causal_mosaic:node:8fbed198fb43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:62a92419f590",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass.",
+      "source_spans": [
+        {
+          "text": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e27b4dd66445",
+      "subject": "causal_mosaic:node:8fbed198fb43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9af483b9fea6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass.",
+      "source_spans": [
+        {
+          "text": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7940cb258b3a",
+      "subject": "causal_mosaic:node:8fbed198fb43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0915dd27aa4b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass.",
+      "source_spans": [
+        {
+          "text": "The raking also allowed us to cut deeper into the soil and gain a greater sod thickness and root mass."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8b9efe90c53c",
+      "subject": "causal_mosaic:node:ce925291b9f6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b948922957df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This can be attributed to a greatly diminished thatch cover due to raking on the reconstructed sites, which allows more rapid warming of the soils.",
+      "source_spans": [
+        {
+          "text": "This can be attributed to a greatly diminished thatch cover due to raking on the reconstructed sites, which allows more rapid warming of the soils."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cfbc00d138f0",
+      "subject": "causal_mosaic:node:e44f27c69b89",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06635686e3bb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spring green-up occurred approximately two weeks earlier on the resodded site than on comparable sites in the undisturbed control site and other fescue grasslands on similar ecological sites in Edgemont.",
+      "source_spans": [
+        {
+          "text": "Spring green-up occurred approximately two weeks earlier on the resodded site than on comparable sites in the undisturbed control site and other fescue grasslands on similar ecological sites in Edgemont."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:826c8c6930b1",
+      "subject": "causal_mosaic:node:77966a2ef9c3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06635686e3bb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In support of this conclusion, I found that the plot on the restored site that I burned in the early spring greened-up even earlier",
+      "source_spans": [
+        {
+          "text": "In support of this conclusion, I found that the plot on the restored site that I burned in the early spring greened-up even earlier"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dec6f47e230a",
+      "subject": "causal_mosaic:node:19032ef7a65e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:06635686e3bb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "while sites mowed in the spring and covered with a layer of clippings greened-up slowly.",
+      "source_spans": [
+        {
+          "text": "while sites mowed in the spring and covered with a layer of clippings greened-up slowly."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:98c9314edc4d",
+      "subject": "causal_mosaic:node:b8f7c4bd7ff5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bd112ed4de3c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue.",
+      "source_spans": [
+        {
+          "text": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f46da808878e",
+      "subject": "causal_mosaic:node:b8f7c4bd7ff5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d48508163a6e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue.",
+      "source_spans": [
+        {
+          "text": "mowing in the spring strongly favored wheatgrass and bluegrass species and disfavored rough fescue."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1ba58fed9792",
+      "subject": "causal_mosaic:node:b8f7c4bd7ff5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1395f1b7a16f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Some herbs, such as goldenrod (Solidago spp.), bluebell (Campanula spp.), and vetch (Lathyrus spp.), also benefitted from mowing.",
+      "source_spans": [
+        {
+          "text": "Some herbs, such as goldenrod (Solidago spp.), bluebell (Campanula spp.), and vetch (Lathyrus spp.), also benefitted from mowing."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:72dbdb5d35a1",
+      "subject": "causal_mosaic:node:6f9f833f6b25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b9d7b88b7d6e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "transplanting clearly favored shallow-rooted species over deep-rooted species.",
+      "source_spans": [
+        {
+          "text": "transplanting clearly favored shallow-rooted species over deep-rooted species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f8f9cde61032",
+      "subject": "causal_mosaic:node:6f9f833f6b25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fa3eaca982f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "transplanting clearly favored shallow-rooted species over deep-rooted species.",
+      "source_spans": [
+        {
+          "text": "transplanting clearly favored shallow-rooted species over deep-rooted species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:019330631044",
+      "subject": "causal_mosaic:node:6f9f833f6b25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8235bc5b518b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In general, herbs are favored over grasses, probably in part for the same reason as suggested for the grasses.",
+      "source_spans": [
+        {
+          "text": "In general, herbs are favored over grasses, probably in part for the same reason as suggested for the grasses."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f3c070c850f9",
+      "subject": "causal_mosaic:node:76c30efea6ce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:76c30efea6ce",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The annuals have become less abundant in subsequent years as gaps between the sod have filled with leaf litter and the native species have infilled by lateral growth.",
+      "source_spans": [
+        {
+          "text": "The annuals have become less abundant in subsequent years as gaps between the sod have filled with leaf litter and the native species have infilled by lateral growth."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a974ee850f4d",
+      "subject": "causal_mosaic:node:c524538a180e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37bb5bbce449",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The use of the Bobcat for this purpose made the whole sodding process proceed much more quickly with much less effort",
+      "source_spans": [
+        {
+          "text": "The use of the Bobcat for this purpose made the whole sodding process proceed much more quickly with much less effort"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cc7b1da120d5",
+      "subject": "causal_mosaic:node:8fbed198fb43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:09829ead09ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We experienced cutting difficulty because the cutter drive wheel slipped on the thick thatch from previous years of growth and non-use, but we resolved the problem by raking the dead grass with garden rakes before cutting.",
+      "source_spans": [
+        {
+          "text": "We experienced cutting difficulty because the cutter drive wheel slipped on the thick thatch from previous years of growth and non-use, but we resolved the problem by raking the dead grass with garden rakes before cutting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "practitioner_experience"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.11.2.117",
+        "title": "Canada's Rough Fescue Grasslands: A Trial Restoration Project in Alberta is Yielding Encouraging Results",
+        "year": 1993,
+        "authors": [
+          "Revel, Richard D."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

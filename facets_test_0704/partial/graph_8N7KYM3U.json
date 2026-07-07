@@ -1,0 +1,229 @@
+{
+  "graph_id": "causal_mosaic:graph:cb0cfeec910e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T22:07:10.606239+00:00",
+    "source_corpus": "Large Woody Debris Structures and Their Influence on Atlantic Salmon Spawning in a Stream in Nova Scotia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:92a88d6b2949",
+      "name": "restoration work",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_57ed0b7c5b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Spawning rates (redd counts) in the whole brook increased exponentially for the first 4 years after restoration work began, from 43 in 1992 to 592 in 1996."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:93630fe15e07",
+      "name": "artificial structures",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e417cfed56",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Artificial structures mimicking naturally fallen wood are effective in the restoration of spawning habitat."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8ce636b8846",
+      "name": "redd counts",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7f49588182",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "spawning rates",
+      "source_spans": [
+        {
+          "text": "Spawning rates (redd counts) in the whole brook increased exponentially for the first 4 years after restoration work began, from 43 in 1992 to 592 in 1996."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd8f6561286b",
+      "name": "spawning habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf55b8513c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Artificial structures mimicking naturally fallen wood are effective in the restoration of spawning habitat."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c92f65441d7",
+      "name": "upstream migration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3e76988bcc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "suggesting that restoration near the mouth of the brook removed an impediment to upstream migration."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd0f7f4b2d19",
+      "name": "large woody debris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bbda5da2f9",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Large woody debris, whether natural or artificial, appears to be an important source of spawning habitat for Atlantic salmon."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1c4efa059b42",
+      "subject": "causal_mosaic:node:92a88d6b2949",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a8ce636b8846",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spawning rates (redd counts) in the whole brook increased exponentially for the first 4 years after restoration work began, from 43 in 1992 to 592 in 1996.",
+      "source_spans": [
+        {
+          "text": "Spawning rates (redd counts) in the whole brook increased exponentially for the first 4 years after restoration work began, from 43 in 1992 to 592 in 1996."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1577/M07-077.1",
+        "title": "Large Woody Debris Structures and Their Influence on Atlantic Salmon Spawning in a Stream in Nova Scotia, Canada",
+        "year": 2008,
+        "authors": [
+          "MacInnis, Charles",
+          "Floyd, Trevor A.",
+          "Taylor, Barry R."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1991534c4b0a",
+      "subject": "causal_mosaic:node:93630fe15e07",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd8f6561286b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Artificial structures mimicking naturally fallen wood are effective in the restoration of spawning habitat.",
+      "source_spans": [
+        {
+          "text": "Artificial structures mimicking naturally fallen wood are effective in the restoration of spawning habitat."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1577/M07-077.1",
+        "title": "Large Woody Debris Structures and Their Influence on Atlantic Salmon Spawning in a Stream in Nova Scotia, Canada",
+        "year": 2008,
+        "authors": [
+          "MacInnis, Charles",
+          "Floyd, Trevor A.",
+          "Taylor, Barry R."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:55823331aea0",
+      "subject": "causal_mosaic:node:92a88d6b2949",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c92f65441d7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "suggesting that restoration near the mouth of the brook removed an impediment to upstream migration.",
+      "source_spans": [
+        {
+          "text": "suggesting that restoration near the mouth of the brook removed an impediment to upstream migration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1577/M07-077.1",
+        "title": "Large Woody Debris Structures and Their Influence on Atlantic Salmon Spawning in a Stream in Nova Scotia, Canada",
+        "year": 2008,
+        "authors": [
+          "MacInnis, Charles",
+          "Floyd, Trevor A.",
+          "Taylor, Barry R."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1806ba011713",
+      "subject": "causal_mosaic:node:cd0f7f4b2d19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd8f6561286b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Large woody debris, whether natural or artificial, appears to be an important source of spawning habitat for Atlantic salmon.",
+      "source_spans": [
+        {
+          "text": "Large woody debris, whether natural or artificial, appears to be an important source of spawning habitat for Atlantic salmon."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1577/M07-077.1",
+        "title": "Large Woody Debris Structures and Their Influence on Atlantic Salmon Spawning in a Stream in Nova Scotia, Canada",
+        "year": 2008,
+        "authors": [
+          "MacInnis, Charles",
+          "Floyd, Trevor A.",
+          "Taylor, Barry R."
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

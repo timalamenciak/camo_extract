@@ -1,0 +1,268 @@
+{
+  "graph_id": "causal_mosaic:graph:7166cf80315e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T06:48:10.828929+00:00",
+    "source_corpus": "Range-wide monitoring of population trends for Rocky Mountain bighorn sheep",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6e7eae920d37",
+      "name": "Translocation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d91cf86340",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Translocation status was a significant predictor of intrinsic rate of increase ( Table 3). Reintroduced populations had significantly higher estimated intrinsic rates of increase than augmented and native populations ( Table 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88e165784413",
+      "name": "Intrinsic rate of increase",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2b3a95ec9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Translocation status was a significant predictor of intrinsic rate of increase ( Table 3). Reintroduced populations had significantly higher estimated intrinsic rates of increase than augmented and native populations ( Table 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:049e946aed72",
+      "name": "extensive protections and translocation efforts",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e009893620",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep populations have recovered in a number of areas in western North America due to extensive protections and translocation efforts (Boyce and Krausman, 2018)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6eb9df22c33d",
+      "name": "Population recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0ac37e6380",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep populations have recovered in a number of areas in western North America due to extensive protections and translocation efforts (Boyce and Krausman, 2018)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d8aa7910b47e",
+      "name": "Pneumonia die-offs",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7b63855b33",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "While this is nearly double the median decline in population size we observed in the last 5 years of records, it is still likely that a number of population declines were tied to pneumonia die-offs."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9a4a256f358d",
+      "name": "Population declines",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f1362148dc",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "While this is nearly double the median decline in population size we observed in the last 5 years of records, it is still likely that a number of population declines were tied to pneumonia die-offs."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b07bab910b19",
+      "name": "Reintroduction",
+      "entity_type": "management_intervention",
+      "entity_term": "ELMO:3.3.1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Highly positive intrinsic rates of increase across reintroduced populations suggest population numbers tend to increase following reintroduction."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6861d4cf9434",
+      "name": "Population numbers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf82a0d805",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Highly positive intrinsic rates of increase across reintroduced populations suggest population numbers tend to increase following reintroduction."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:23cbc252226c",
+      "subject": "causal_mosaic:node:6e7eae920d37",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:88e165784413",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Translocation status was a significant predictor of intrinsic rate of increase ( Table 3). Reintroduced populations had significantly higher estimated intrinsic rates of increase than augmented and native populations ( Table 3).",
+      "source_spans": [
+        {
+          "text": "Translocation status was a significant predictor of intrinsic rate of increase ( Table 3). Reintroduced populations had significantly higher estimated intrinsic rates of increase than augmented and native populations ( Table 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2020.108639",
+        "title": "Range-wide monitoring of population trends for Rocky Mountain bighorn sheep",
+        "year": 2020,
+        "authors": [
+          "Donovan, Victoria M.",
+          "Roberts, Caleb P.",
+          "Wonkka, Carissa L.",
+          "Beck, Jeffrey L.",
+          "Popp, Jesse N.",
+          "Allen, Craig R.",
+          "Twidwell, Dirac"
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5875a28348c5",
+      "subject": "causal_mosaic:node:049e946aed72",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6eb9df22c33d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bighorn sheep populations have recovered in a number of areas in western North America due to extensive protections and translocation efforts (Boyce and Krausman, 2018).",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep populations have recovered in a number of areas in western North America due to extensive protections and translocation efforts (Boyce and Krausman, 2018)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2020.108639",
+        "title": "Range-wide monitoring of population trends for Rocky Mountain bighorn sheep",
+        "year": 2020,
+        "authors": [
+          "Donovan, Victoria M.",
+          "Roberts, Caleb P.",
+          "Wonkka, Carissa L.",
+          "Beck, Jeffrey L.",
+          "Popp, Jesse N.",
+          "Allen, Craig R.",
+          "Twidwell, Dirac"
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2e8eab824015",
+      "subject": "causal_mosaic:node:d8aa7910b47e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9a4a256f358d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "While this is nearly double the median decline in population size we observed in the last 5 years of records, it is still likely that a number of population declines were tied to pneumonia die-offs.",
+      "source_spans": [
+        {
+          "text": "While this is nearly double the median decline in population size we observed in the last 5 years of records, it is still likely that a number of population declines were tied to pneumonia die-offs."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2020.108639",
+        "title": "Range-wide monitoring of population trends for Rocky Mountain bighorn sheep",
+        "year": 2020,
+        "authors": [
+          "Donovan, Victoria M.",
+          "Roberts, Caleb P.",
+          "Wonkka, Carissa L.",
+          "Beck, Jeffrey L.",
+          "Popp, Jesse N.",
+          "Allen, Craig R.",
+          "Twidwell, Dirac"
+        ],
+        "journal": "Biological Conservation"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:db0347dd863a",
+      "subject": "causal_mosaic:node:b07bab910b19",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6861d4cf9434",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Highly positive intrinsic rates of increase across reintroduced populations suggest population numbers tend to increase following reintroduction.",
+      "source_spans": [
+        {
+          "text": "Highly positive intrinsic rates of increase across reintroduced populations suggest population numbers tend to increase following reintroduction."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2020.108639",
+        "title": "Range-wide monitoring of population trends for Rocky Mountain bighorn sheep",
+        "year": 2020,
+        "authors": [
+          "Donovan, Victoria M.",
+          "Roberts, Caleb P.",
+          "Wonkka, Carissa L.",
+          "Beck, Jeffrey L.",
+          "Popp, Jesse N.",
+          "Allen, Craig R.",
+          "Twidwell, Dirac"
+        ],
+        "journal": "Biological Conservation"
+      }
+    }
+  ]
+}

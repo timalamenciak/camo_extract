@@ -1,0 +1,402 @@
+{
+  "graph_id": "causal_mosaic:graph:d77ee8ae7728",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T19:59:18.906425+00:00",
+    "source_corpus": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f38f5e5ba01c",
+      "name": "1-yr herb and woody suppression",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7930979f6b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "1-yr herb and woody suppression"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f79689806a1",
+      "name": "white pine growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8343bd4a91",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "favoured rapid white pine growth",
+          "start_char": 2225,
+          "end_char": 2257,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c45f955993aa",
+      "name": "understory community recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65538b0943",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "allowed the understory community to recover",
+          "start_char": 2292,
+          "end_char": 2335,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1d93b276099a",
+      "name": "4-yr herb-only suppression",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_34ff8b9cd0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "4-yr herb-only suppression"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be9f8a3bd0fa",
+      "name": "Populus tremuloides",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q469576",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Populus tremuloides became more prevalent"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4758f022d62c",
+      "name": "10-yr woody-only suppression",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a667cb79c5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "10-yr woody-only suppression",
+          "start_char": 54319,
+          "end_char": 54347,
+          "paragraph_id": "page:10"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1f72286795e",
+      "name": "Pteridium aquilinum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q213548",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Pteridium aquilinum tended to dominate"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8405ba413007",
+      "name": "taxonomic diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9489f2496",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lowest taxonomic",
+          "start_char": 38020,
+          "end_char": 38036,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b692d07fb33c",
+      "name": "functional diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d1ddabd618",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lowest functional diversity"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:0bfd2ab14532",
+      "subject": "causal_mosaic:node:f38f5e5ba01c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1f79689806a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results show that after 10 years, plots treated with a single, second-season application of herbicide that temporarily suppressed both woody and herbaceous vegetation favoured rapid white pine growth, increased pine canopy cover, and allowed the understory community to recover towards a mature functional and taxonomic composition.",
+      "source_spans": [
+        {
+          "text": "Our results show that after 10 years, plots treated with a single, second-season application of herbicide that temporarily suppressed both woody and herbaceous vegetation favoured rapid white pine growth, increased pine canopy cover, and allowed the understory community to recover towards a mature functional and taxonomic composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1f8fbb501eea",
+      "subject": "causal_mosaic:node:f38f5e5ba01c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c45f955993aa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results show that after 10 years, plots treated with a single, second-season application of herbicide that temporarily suppressed both woody and herbaceous vegetation favoured rapid white pine growth, increased pine canopy cover, and allowed the understory community to recover towards a mature functional and taxonomic composition.",
+      "source_spans": [
+        {
+          "text": "Our results show that after 10 years, plots treated with a single, second-season application of herbicide that temporarily suppressed both woody and herbaceous vegetation favoured rapid white pine growth, increased pine canopy cover, and allowed the understory community to recover towards a mature functional and taxonomic composition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dffd8050aed9",
+      "subject": "causal_mosaic:node:1d93b276099a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be9f8a3bd0fa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Populus tremuloides and Betula papyrifera became more frequent throughout the experiment when compared to the no suppression treatment and were more prevalent in the 4-yr herb-only treatment",
+      "source_spans": [
+        {
+          "text": "Populus tremuloides and Betula papyrifera became more frequent throughout the experiment when compared to the no suppression treatment and were more prevalent in the 4-yr herb-only treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:964840cce47d",
+      "subject": "causal_mosaic:node:4758f022d62c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1f72286795e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We found that Pteridium aquilinum tended to dominate treatments with 10-yr woody-only suppression at all three sites",
+      "source_spans": [
+        {
+          "text": "We found that Pteridium aquilinum tended to dominate treatments with 10-yr woody-only suppression at all three sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bebc44309c10",
+      "subject": "causal_mosaic:node:1d93b276099a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8405ba413007",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 4-yr herb-only treatment had the lowest taxonomic (S: 8) and functional diversity (FD: 0.15).",
+      "source_spans": [
+        {
+          "text": "The 4-yr herb-only treatment had the lowest taxonomic (S: 8) and functional diversity (FD: 0.15)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c559295d83cc",
+      "subject": "causal_mosaic:node:1d93b276099a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b692d07fb33c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 4-yr herb-only treatment had the lowest taxonomic (S: 8) and functional diversity (FD: 0.15).",
+      "source_spans": [
+        {
+          "text": "The 4-yr herb-only treatment had the lowest taxonomic (S: 8) and functional diversity (FD: 0.15)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:92f8622614d3",
+      "subject": "causal_mosaic:node:4758f022d62c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b692d07fb33c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the present study we also found high taxonomic diversity but low functional diversity following 10-yr woody-only suppression in the shelterwood sites",
+      "source_spans": [
+        {
+          "text": "In the present study we also found high taxonomic diversity but low functional diversity following 10-yr woody-only suppression in the shelterwood sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.09.038",
+        "title": "Managing conservation values and tree performance: Lessons learned from 10 year experiments in regenerating eastern white pine (Pinus strobus L.)",
+        "year": 2019,
+        "authors": [
+          "Santala, Kierann",
+          "Aubin, Isabelle",
+          "Hoepting, Michael",
+          "Bachand, Marianne",
+          "Pitt, Doug"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

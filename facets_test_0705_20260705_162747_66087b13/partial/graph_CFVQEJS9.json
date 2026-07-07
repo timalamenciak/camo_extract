@@ -1,0 +1,321 @@
+{
+  "graph_id": "causal_mosaic:graph:5aeee857228e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T10:39:56.832884+00:00",
+    "source_corpus": "Restoration of pool margin communities in cutover peatlands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:524c06ff71b3",
+      "name": "Straw mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_571295d946",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:68ab972ab4d9",
+      "name": "Cladopodiella ﬂuitans cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0956a57b76",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7f8bc6f4e7ad",
+      "name": "Moss layer transfer approach",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f1d25361bf",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum mosses did colonize pool margins, and showed even more than 60% cover for some treatments after three growing seasons"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e29912e35199",
+      "name": "Sphagnum mosses cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_24778a7f3f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Sphagnum mosses did colonize pool margins, and showed even more than 60% cover for some treatments after three growing seasons"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a166c1a92dfb",
+      "name": "Density ratio 1:5",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b5c773ffd0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9431eb34999e",
+      "name": "Bryophyte cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8d86e9a00",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:915a6235fa17",
+      "name": "Control without introduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f20b94b2a6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "C. ﬂuitans did not colonize bare peat when no fragment was added to the experimental ﬂoating peat surfaces"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ea31c440183",
+      "name": "Cladopodiella ﬂuitans colonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0be890341b",
+      "state_or_change_qualifier": "absent",
+      "measured_attribute": "colonization",
+      "source_spans": [
+        {
+          "text": "C. ﬂuitans did not colonize bare peat when no fragment was added to the experimental ﬂoating peat surfaces"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9af275aff67",
+      "name": "Mixed community introduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7379c16f53",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d8080b139a8e",
+      "name": "Sphagnum cuspidatum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fbc75c9902",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:be7dcca4d07f",
+      "subject": "causal_mosaic:node:524c06ff71b3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:68ab972ab4d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection.",
+      "source_spans": [
+        {
+          "text": "percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6012fefe8b11",
+      "subject": "causal_mosaic:node:7f8bc6f4e7ad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e29912e35199",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sphagnum mosses did colonize pool margins, and showed even more than 60% cover for some treatments after three growing seasons",
+      "source_spans": [
+        {
+          "text": "Sphagnum mosses did colonize pool margins, and showed even more than 60% cover for some treatments after three growing seasons"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:efb55374274c",
+      "subject": "causal_mosaic:node:a166c1a92dfb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9431eb34999e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A).",
+      "source_spans": [
+        {
+          "text": "with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f43ef952c499",
+      "subject": "causal_mosaic:node:915a6235fa17",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ea31c440183",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "C. ﬂuitans did not colonize bare peat when no fragment was added to the experimental ﬂoating peat surfaces",
+      "source_spans": [
+        {
+          "text": "C. ﬂuitans did not colonize bare peat when no fragment was added to the experimental ﬂoating peat surfaces"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f76a1b3bcd63",
+      "subject": "causal_mosaic:node:b9af275aff67",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d8080b139a8e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community",
+      "source_spans": [
+        {
+          "text": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

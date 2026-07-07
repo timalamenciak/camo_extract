@@ -1,0 +1,127 @@
+{
+  "graph_id": "causal_mosaic:graph:c874c4dcf6c0",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T22:32:31.532356+00:00",
+    "source_corpus": "Effects of prescribed fire on habitat of beaver (Castor canadensis) in Elk Island National Park, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:664d6745e094",
+      "name": "Prescribed fire",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_80305770a0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Especially when combined with drought and herbivory, prescribed fire does not improve beaver habitat."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7cbb328a55e4",
+      "name": "Beaver lodge occupancy",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0f9e57bfb0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Our results show that repeated burning dramatically decreases beaver lodge occupancy",
+          "start_char": 1803,
+          "end_char": 1887,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:14b1e6237470",
+      "name": "Beaver habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d24501046d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The combination of drought and fire had a devastating effect on beaver in EINP in 2000."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:054840699d1e",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7cbb328a55e4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results show that repeated burning dramatically decreases beaver lodge occupancy, and that even after one burn the number of active colonies declines and does not recover to pre-fire populations.",
+      "source_spans": [
+        {
+          "text": "Our results show that repeated burning dramatically decreases beaver lodge occupancy, and that even after one burn the number of active colonies declines and does not recover to pre-fire populations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2006.12.005",
+        "title": "Effects of prescribed fire on habitat of beaver (Castor canadensis) in Elk Island National Park, Canada",
+        "year": 2007,
+        "authors": [
+          "Hood, Glynnis A.",
+          "Bayley, Suzanne E.",
+          "Olson, Wes"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7a1aadd75bd7",
+      "subject": "causal_mosaic:node:664d6745e094",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:14b1e6237470",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The combination of drought and fire had a devastating effect on beaver in EINP in 2000.",
+      "source_spans": [
+        {
+          "text": "The combination of drought and fire had a devastating effect on beaver in EINP in 2000."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2006.12.005",
+        "title": "Effects of prescribed fire on habitat of beaver (Castor canadensis) in Elk Island National Park, Canada",
+        "year": 2007,
+        "authors": [
+          "Hood, Glynnis A.",
+          "Bayley, Suzanne E.",
+          "Olson, Wes"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

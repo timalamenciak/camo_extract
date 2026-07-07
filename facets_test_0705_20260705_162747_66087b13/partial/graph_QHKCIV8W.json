@@ -1,0 +1,1609 @@
+{
+  "graph_id": "causal_mosaic:graph:3d202e9ac3dd",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T08:18:17.516070+00:00",
+    "source_corpus": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4549bb3122c4",
+      "name": "straw treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8272d3a22e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:14d046ac2b69",
+      "name": "F. hallii biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5d3b80507f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b16090d0d55",
+      "name": "F. hallii root biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5222324f90",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "root biomass",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        },
+        {
+          "text": "P. pratensis ... root biomass correlated positively to current-year NO3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be9eb97caffe",
+      "name": "F. hallii leaf length",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6ee36ae37c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "leaf length",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:112401aceb15",
+      "name": "F. hallii cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_db020b35aa",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        },
+        {
+          "text": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a39d2ce473c8",
+      "name": "previous year July soil water",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_78d654e2b4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and cover increased with previous year July soil water"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5f49b9a6fe7b",
+      "name": "F. hallii shoot biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd87c23272",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "shoot biomass",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and cover increased with previous year July soil water"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2a97fccf51b3",
+      "name": "current-year soil water",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b646ecd45e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased with current-year soil water"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de509c0b63fd",
+      "name": "P. pratensis leaf length",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a7cbeb7c9",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "leaf length",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased with current-year soil water"
+        },
+        {
+          "text": "P. pratensis leaf length increased as NH4+ concentrations rose"
+        },
+        {
+          "text": "P. pratensis leaf length increased as K decreased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a4a8c3fd3f5",
+      "name": "prior- and current-year NH4+",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_196d26ca7e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6eba6fa33479",
+      "name": "F. hallii 2009 shoot biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_82d4b75b19",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "shoot biomass",
+      "source_spans": [
+        {
+          "text": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:17e7c5521bdc",
+      "name": "current-year increased K",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1d7ba70c01",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and leaf length decreased with current-year increased K"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a10dd543bd92",
+      "name": "F. hallii shoot biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd87c23272",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "shoot biomass",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and leaf length decreased with current-year increased K"
+        },
+        {
+          "text": "F. hallii shoot biomass among sites was negatively correlated with prior- and current-year pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70d7218e2ed9",
+      "name": "F. hallii leaf length",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6ee36ae37c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "leaf length",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and leaf length decreased with current-year increased K"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c80067a72d8",
+      "name": "prior- and current-year pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_049d124eef",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass among sites was negatively correlated with prior- and current-year pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:343e623401e7",
+      "name": "current-year pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_68473d3a07",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass correlated positively to current-year pH",
+          "start_char": 25332,
+          "end_char": 25399,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5b0204d7c33f",
+      "name": "P. pratensis shoot biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62c1cc27d0",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "shoot biomass",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass correlated positively to current-year pH",
+          "start_char": 25332,
+          "end_char": 25399,
+          "paragraph_id": "page:5"
+        },
+        {
+          "text": "P. pratensis shoot biomass correlated positively to ... EC"
+        },
+        {
+          "text": "P. pratensis shoot biomass ... correlated positively to current-year NO3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1658893cb031",
+      "name": "current-year EC",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3b30b87112",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass correlated positively to ... EC"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f8219a86999c",
+      "name": "current-year NO3",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4f37a15f59",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass ... correlated positively to current-year NO3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:209186d05cd6",
+      "name": "NH4+ concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ecd84547ac",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased as NH4+ concentrations rose"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a290b30b014b",
+      "name": "K",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3026afe83d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased as K decreased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4083318be1f8",
+      "name": "high-straw",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_27e8048850",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In F. hallii treatments, NH4+ concentrations were greatest in high-straw"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:683aaf75e7c5",
+      "name": "NH4+ concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ecd84547ac",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In F. hallii treatments, NH4+ concentrations were greatest in high-straw"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c44596d69dd8",
+      "name": "Nitrate concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2c393d1ba7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Nitrate and PO4 concentrations were greatest in no-straw, increasing significantly in all straw treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5d2529062858",
+      "name": "Potassium concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c56e4407aa",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Potassium concentrations were initially greatest in high-straw"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5d1ee8b4bf8",
+      "name": "Disturbance to soil caused by well site construction",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ed4bc1ae1b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fd9d73a01fe7",
+      "name": "organic carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4e5550a891",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f8c48b8dc602",
+      "name": "potassium",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_799799e720",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fbf601d6c8a",
+      "name": "nitrogen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67f8295f6c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:207b1e2d5391",
+      "name": "phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_459022a961",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d05f77dbb64d",
+      "name": "electrical conductivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_55911bd6dc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9185966fc9df",
+      "name": "availability of nitrogen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_49efbeb3d5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In grasslands, increased availability of nitrogen is known to promote invasion of non-native plants"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9cdcec28d869",
+      "name": "invasion of non-native plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1aadbc7701",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In grasslands, increased availability of nitrogen is known to promote invasion of non-native plants"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:03311fd62a43",
+      "name": "carbon addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3034f0dd51",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5d7e3d1f669e",
+      "name": "soil nitrogen",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_92e9a86fa2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49045a57806b",
+      "name": "establishment of non-native plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ffd136666d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5935f5d7a677",
+      "name": "addition of straw",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8241a7edbc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "addition of straw as a soil amendment is a possible solution to poor establishment of F. hallii"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4a3574936dc4",
+      "name": "establishment of F. hallii",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ea9994ad6f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "addition of straw as a soil amendment is a possible solution to poor establishment of F. hallii"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a70f7624961d",
+      "subject": "causal_mosaic:node:4549bb3122c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:14d046ac2b69",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e290d4cf885",
+      "subject": "causal_mosaic:node:4549bb3122c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7b16090d0d55",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6e0d13dc2d10",
+      "subject": "causal_mosaic:node:4549bb3122c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be9eb97caffe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:700290899ccc",
+      "subject": "causal_mosaic:node:4549bb3122c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:112401aceb15",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments",
+      "source_spans": [
+        {
+          "text": "F. hallii biomass, root biomass, leaf length and cover increased in response to straw treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a9601d71a03c",
+      "subject": "causal_mosaic:node:a39d2ce473c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5f49b9a6fe7b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii shoot biomass and cover increased with previous year July soil water",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and cover increased with previous year July soil water"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c20c047a226d",
+      "subject": "causal_mosaic:node:a39d2ce473c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:112401aceb15",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii shoot biomass and cover increased with previous year July soil water",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and cover increased with previous year July soil water"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b0d50ec3154c",
+      "subject": "causal_mosaic:node:2a97fccf51b3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de509c0b63fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis leaf length increased with current-year soil water",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased with current-year soil water"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b9aac3c2c3b",
+      "subject": "causal_mosaic:node:6a4a8c3fd3f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6eba6fa33479",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+",
+      "source_spans": [
+        {
+          "text": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7bae3a9c306f",
+      "subject": "causal_mosaic:node:6a4a8c3fd3f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:112401aceb15",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+",
+      "source_spans": [
+        {
+          "text": "F. hallii 2009 shoot biomass and cover increased with higher concentrations of prior- and current-year NH4+"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:deeb0f2e68cd",
+      "subject": "causal_mosaic:node:17e7c5521bdc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a10dd543bd92",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii shoot biomass and leaf length decreased with current-year increased K",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and leaf length decreased with current-year increased K"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9bd6af6b32e3",
+      "subject": "causal_mosaic:node:17e7c5521bdc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:70d7218e2ed9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii shoot biomass and leaf length decreased with current-year increased K",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass and leaf length decreased with current-year increased K"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2217fc7726d3",
+      "subject": "causal_mosaic:node:1c80067a72d8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a10dd543bd92",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "F. hallii shoot biomass among sites was negatively correlated with prior- and current-year pH",
+      "source_spans": [
+        {
+          "text": "F. hallii shoot biomass among sites was negatively correlated with prior- and current-year pH"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:86facc59e1b1",
+      "subject": "causal_mosaic:node:343e623401e7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5b0204d7c33f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis shoot biomass correlated positively to current-year pH",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass correlated positively to current-year pH",
+          "start_char": 25332,
+          "end_char": 25399,
+          "paragraph_id": "page:5"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:44f50e9624df",
+      "subject": "causal_mosaic:node:1658893cb031",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5b0204d7c33f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis shoot biomass correlated positively to ... EC",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass correlated positively to ... EC"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:32942d458dea",
+      "subject": "causal_mosaic:node:f8219a86999c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5b0204d7c33f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis shoot biomass ... correlated positively to current-year NO3",
+      "source_spans": [
+        {
+          "text": "P. pratensis shoot biomass ... correlated positively to current-year NO3"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c438a7cd9f9",
+      "subject": "causal_mosaic:node:f8219a86999c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7b16090d0d55",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis ... root biomass correlated positively to current-year NO3",
+      "source_spans": [
+        {
+          "text": "P. pratensis ... root biomass correlated positively to current-year NO3"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a262c57e0865",
+      "subject": "causal_mosaic:node:209186d05cd6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de509c0b63fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis leaf length increased as NH4+ concentrations rose",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased as NH4+ concentrations rose"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:51e0ee8ec99f",
+      "subject": "causal_mosaic:node:a290b30b014b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de509c0b63fd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. pratensis leaf length increased as K decreased",
+      "source_spans": [
+        {
+          "text": "P. pratensis leaf length increased as K decreased"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d193e17b4f42",
+      "subject": "causal_mosaic:node:4083318be1f8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:683aaf75e7c5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In F. hallii treatments, NH4+ concentrations were greatest in high-straw",
+      "source_spans": [
+        {
+          "text": "In F. hallii treatments, NH4+ concentrations were greatest in high-straw"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:da8476c1095b",
+      "subject": "causal_mosaic:node:4549bb3122c4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c44596d69dd8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Nitrate and PO4 concentrations were greatest in no-straw, increasing significantly in all straw treatments",
+      "source_spans": [
+        {
+          "text": "Nitrate and PO4 concentrations were greatest in no-straw, increasing significantly in all straw treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47261afd11bb",
+      "subject": "causal_mosaic:node:4083318be1f8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5d2529062858",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Potassium concentrations were initially greatest in high-straw",
+      "source_spans": [
+        {
+          "text": "Potassium concentrations were initially greatest in high-straw"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8d9f10813494",
+      "subject": "causal_mosaic:node:e5d1ee8b4bf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fd9d73a01fe7",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9cccb62615e0",
+      "subject": "causal_mosaic:node:e5d1ee8b4bf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f8c48b8dc602",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f98cef22220e",
+      "subject": "causal_mosaic:node:e5d1ee8b4bf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8fbf601d6c8a",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3397e43f360",
+      "subject": "causal_mosaic:node:e5d1ee8b4bf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:207b1e2d5391",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ecf3581b5d49",
+      "subject": "causal_mosaic:node:e5d1ee8b4bf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c830811facfe",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7cc7c2798e81",
+      "subject": "causal_mosaic:node:e5d1ee8b4bf8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d05f77dbb64d",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity",
+      "source_spans": [
+        {
+          "text": "Disturbance to soil caused by well site construction may decrease organic carbon and potassium, and increase nitrogen, phosphorus, pH and electrical conductivity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ed2bc660a870",
+      "subject": "causal_mosaic:node:9185966fc9df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9cdcec28d869",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In grasslands, increased availability of nitrogen is known to promote invasion of non-native plants",
+      "source_spans": [
+        {
+          "text": "In grasslands, increased availability of nitrogen is known to promote invasion of non-native plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f869f790dc8f",
+      "subject": "causal_mosaic:node:03311fd62a43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5d7e3d1f669e",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment",
+      "source_spans": [
+        {
+          "text": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b5f0e420aa63",
+      "subject": "causal_mosaic:node:03311fd62a43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49045a57806b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment",
+      "source_spans": [
+        {
+          "text": "reducing soil nitrogen, such as through carbon addition ... may inhibit their establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dc4134ecf313",
+      "subject": "causal_mosaic:node:5935f5d7a677",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4a3574936dc4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "addition of straw as a soil amendment is a possible solution to poor establishment of F. hallii",
+      "source_spans": [
+        {
+          "text": "addition of straw as a soil amendment is a possible solution to poor establishment of F. hallii"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2012.11.001",
+        "title": "Establishment of a native bunch grass and an invasive perennial on disturbed land using straw-amended soil",
+        "year": 2013,
+        "authors": [
+          "Desserud, Peggy",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

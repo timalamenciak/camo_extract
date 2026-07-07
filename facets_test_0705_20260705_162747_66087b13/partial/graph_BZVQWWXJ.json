@@ -1,0 +1,347 @@
+{
+  "graph_id": "causal_mosaic:graph:85b4153b0d90",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:10:53.514117+00:00",
+    "source_corpus": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fac2e2cf200e",
+      "name": "Forest clear-cutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_919871b5ad",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This study quantified the impacts of forest clear-cutting on summertime low flows"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86eef5e3e6ff",
+      "name": "Summertime low flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f10e7c3881",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reductions in daily summertime low flows became more significant",
+          "start_char": 58606,
+          "end_char": 58670,
+          "paragraph_id": "page:15"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:13e93522e758",
+      "name": "Fish habitat availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_27662910a1",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "persistent decreases in modelled fish habitat availability",
+          "start_char": 2724,
+          "end_char": 2782,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9f1343ea1dd2",
+      "name": "Snowmelt timing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d13c550408",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "persistent advance in snowmelt timing",
+          "start_char": 2317,
+          "end_char": 2354,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9209d50b5ea6",
+      "name": "Transpiration rates",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5424e66945",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increasing transpiration rates",
+          "start_char": 43097,
+          "end_char": 43127,
+          "paragraph_id": "page:12"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c614787a50ae",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86eef5e3e6ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reductions in daily summertime low flows became more significant for the July–September yield",
+      "source_spans": [
+        {
+          "text": "reductions in daily summertime low flows became more significant for the July–September yield"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2b30dd918a66",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:13e93522e758",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "forest harvest may have substantial delayed effects on rearing salmonids",
+      "source_spans": [
+        {
+          "text": "forest harvest may have substantial delayed effects on rearing salmonids"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f240e43eee2a",
+      "subject": "causal_mosaic:node:86eef5e3e6ff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:13e93522e758",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reductions in streamflow corresponded to persistent decreases in modelled fish habitat availability",
+      "source_spans": [
+        {
+          "text": "reductions in streamflow corresponded to persistent decreases in modelled fish habitat availability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5051e6c3e3e6",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9f1343ea1dd2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "clear-cutting... resulting in an earlier disappearance of snow",
+      "source_spans": [
+        {
+          "text": "clear-cutting... resulting in an earlier disappearance of snow"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:09b0f7cc880c",
+      "subject": "causal_mosaic:node:9f1343ea1dd2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86eef5e3e6ff",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "delayed reductions in late-summer flow represent the combined effects of a persistent advance in snowmelt timing",
+      "source_spans": [
+        {
+          "text": "delayed reductions in late-summer flow represent the combined effects of a persistent advance in snowmelt timing"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:9dc78f6029b8",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9209d50b5ea6",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "recovery of transpiration and interception loss from the regenerating forests",
+      "source_spans": [
+        {
+          "text": "recovery of transpiration and interception loss from the regenerating forests"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f8fee6b4f177",
+      "subject": "causal_mosaic:node:9209d50b5ea6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86eef5e3e6ff",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "increasing transpiration rates... could produce streamflow deficits",
+      "source_spans": [
+        {
+          "text": "increasing transpiration rates... could produce streamflow deficits"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      }
+    }
+  ]
+}

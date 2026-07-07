@@ -1,0 +1,140 @@
+{
+  "graph_id": "causal_mosaic:graph:5de5e767616a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T13:41:17.187060+00:00",
+    "source_corpus": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ed7da5ac3b0d",
+      "name": "eelgrass cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ae36f583d1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Eelgrass cover had noticeably increased in the 1999–2000 ‘removal–recovery’ sites and at the ‘expansion’ sites following 2000."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d3bc4e8583d2",
+      "name": "increased juvenile cod density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43a3a188d5",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "Increasing density of juvenile Atlantic ( Gadus morhua ) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass ( Zostera marina )i na coastal nursery habitat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cdb3063ad261",
+      "name": "eelgrass removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cac7d9b333",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "The study included two “recovery” sites from which an area of ~ 500 m2 eelgrass was completely removed in 1999 and 2000"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9bf1663fe96c",
+      "name": "decreased juvenile cod density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f6de0ab8bb",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "As expected, we observed a substantive decline in fish density at these two sites – CC and MS – in 2001"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:81e6f9df1666",
+      "subject": "causal_mosaic:node:ed7da5ac3b0d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d3bc4e8583d2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Using randomized intervention analysis (RIA) we detected positive relationships between eelgrass cover and relative fish density during 2001 –2006.",
+      "source_spans": [
+        {
+          "text": "Using randomized intervention analysis (RIA) we detected positive relationships between eelgrass cover and relative fish density during 2001 –2006."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jembe.2010.08.011",
+        "title": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+        "year": 2010,
+        "authors": [
+          "Warren, M.A.",
+          "Gregory, R.S.",
+          "Laurel, B.J.",
+          "Snelgrove, P.V.R."
+        ],
+        "journal": "Journal of Experimental Marine Biology and Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac34e922d808",
+      "subject": "causal_mosaic:node:cdb3063ad261",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9bf1663fe96c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As expected, we observed a substantive decline in fish density at these two sites – CC and MS – in 2001 (the following year) consistent with the pre-manipulation condition",
+      "source_spans": [
+        {
+          "text": "As expected, we observed a substantive decline in fish density at these two sites – CC and MS – in 2001 (the following year) consistent with the pre-manipulation condition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jembe.2010.08.011",
+        "title": "Increasing density of juvenile Atlantic (Gadus morhua) and Greenland cod (G. ogac) in association with spatial expansion and recovery of eelgrass (Zostera marina) in a coastal nursery habitat",
+        "year": 2010,
+        "authors": [
+          "Warren, M.A.",
+          "Gregory, R.S.",
+          "Laurel, B.J.",
+          "Snelgrove, P.V.R."
+        ],
+        "journal": "Journal of Experimental Marine Biology and Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

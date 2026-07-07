@@ -1,0 +1,481 @@
+{
+  "graph_id": "causal_mosaic:graph:7ad8814bd6ee",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T18:46:41.448144+00:00",
+    "source_corpus": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3ab70772eb6e",
+      "name": "managed realignment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1eda4f2f2f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+          "start_char": 8227,
+          "end_char": 8302,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1ce05aa062c6",
+      "name": "carbon accumulation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f44d3e2fd1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+          "start_char": 8227,
+          "end_char": 8302,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4266d6fafc5a",
+      "name": "sediment deposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b2be3551c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "C accumulation in the six years following MR was driven primarily by sediment deposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d0168fc89070",
+      "name": "marsh vegetation",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_bef40b5f18",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:167d7cd46fb6",
+      "name": "sediment trapping",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_65eba9fd86",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dfd344023ff8",
+      "name": "C storage",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_59426f8efb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eac912d33fe9",
+      "name": "anaerobic conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eeb715d0d7",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The persistence of anaerobic conditions results in low rates of decomposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5732c8f8d79d",
+      "name": "decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b84f7f7cb0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The persistence of anaerobic conditions results in low rates of decomposition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:34c0ad1c6af5",
+      "name": "marsh reclamation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d5df3335f2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Marsh reclamation, however, has resulted in the extensive loss of this important C sink"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a3b50eb8c4a0",
+      "name": "loss of this important C sink",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0e53ab6359",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Marsh reclamation, however, has resulted in the extensive loss of this important C sink"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4e77b1cb763",
+      "name": "tidal flow return",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_15a3a66419",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "when tidal flow can return to a drained, low-lying agricultural field, new salt marsh can become established"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ccab96bfb515",
+      "name": "new salt marsh",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e3f6caf37f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "when tidal flow can return to a drained, low-lying agricultural field, new salt marsh can become established"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54dcaa1562a5",
+      "name": "restoring marshes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1aebe0db70",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoring marshes in the Bay of Fundy can regenerate their capacity for C burial"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aaef13dbc716",
+      "name": "C burial",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5e10ac9195",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Restoring marshes in the Bay of Fundy can regenerate their capacity for C burial"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:790208679758",
+      "subject": "causal_mosaic:node:3ab70772eb6e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1ce05aa062c6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+      "source_spans": [
+        {
+          "text": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+          "start_char": 8227,
+          "end_char": 8302,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:920b81b536eb",
+      "subject": "causal_mosaic:node:4266d6fafc5a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1ce05aa062c6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "C accumulation in the six years following MR was driven primarily by sediment deposition",
+      "source_spans": [
+        {
+          "text": "C accumulation in the six years following MR was driven primarily by sediment deposition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:53cba175c684",
+      "subject": "causal_mosaic:node:d0168fc89070",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:167d7cd46fb6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment",
+      "source_spans": [
+        {
+          "text": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8344affdb4c2",
+      "subject": "causal_mosaic:node:167d7cd46fb6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfd344023ff8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment",
+      "source_spans": [
+        {
+          "text": "Marsh vegetation contributes indirectly to storage of allochthonous C by trapping suspended sediment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9344928c62b6",
+      "subject": "causal_mosaic:node:eac912d33fe9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5732c8f8d79d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The persistence of anaerobic conditions results in low rates of decomposition",
+      "source_spans": [
+        {
+          "text": "The persistence of anaerobic conditions results in low rates of decomposition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9fa7537c275a",
+      "subject": "causal_mosaic:node:34c0ad1c6af5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a3b50eb8c4a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Marsh reclamation, however, has resulted in the extensive loss of this important C sink",
+      "source_spans": [
+        {
+          "text": "Marsh reclamation, however, has resulted in the extensive loss of this important C sink"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:991e103f7c5d",
+      "subject": "causal_mosaic:node:b4e77b1cb763",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ccab96bfb515",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "when tidal flow can return to a drained, low-lying agricultural field, new salt marsh can become established",
+      "source_spans": [
+        {
+          "text": "when tidal flow can return to a drained, low-lying agricultural field, new salt marsh can become established"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:372bda963f1f",
+      "subject": "causal_mosaic:node:54dcaa1562a5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aaef13dbc716",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoring marshes in the Bay of Fundy can regenerate their capacity for C burial",
+      "source_spans": [
+        {
+          "text": "Restoring marshes in the Bay of Fundy can regenerate their capacity for C burial"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1371/journal.pone.0193930",
+        "title": "Rapid carbon accumulation following managed realignment on the Bay of Fundy",
+        "year": 2018,
+        "authors": [
+          "Wollenberg, Jan T.",
+          "Ollerhead, Jeff",
+          "Chmura, Gail L."
+        ],
+        "journal": "PLoS ONE"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

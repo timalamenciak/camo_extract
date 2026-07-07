@@ -1,0 +1,505 @@
+{
+  "graph_id": "causal_mosaic:graph:71f0d3f74a7b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T06:32:02.262603+00:00",
+    "source_corpus": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6fdfea343a28",
+      "name": "Harvest reduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_543fb5c8bd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "harvest reduction",
+          "start_char": 821,
+          "end_char": 838,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d11ef52b99dc",
+      "name": "Hatchery augmentation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_59298a4941",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hatchery augmentation",
+          "start_char": 8254,
+          "end_char": 8275,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4743a34a7ba1",
+      "name": "Flow control",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6d6622042e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "flow control",
+          "start_char": 864,
+          "end_char": 876,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1c7b5d94c10",
+      "name": "Habitat improvement",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a09696c784",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "habitat improvement",
+          "start_char": 8389,
+          "end_char": 8408,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa650b6fa003",
+      "name": "Stave chum returns",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0a74e56c3a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "returns",
+      "source_spans": [
+        {
+          "text": "5-fold increase in the average Stave chum returns",
+          "start_char": 8502,
+          "end_char": 8551,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7298e09b884a",
+      "name": "Stave chum escapements",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_042b8530b2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "escapements",
+      "source_spans": [
+        {
+          "text": "7-fold increase in the average Stave chum escapements",
+          "start_char": 8558,
+          "end_char": 8611,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e17a769babbc",
+      "name": "Stave River spawning area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6490eafd0b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "spawning area",
+      "source_spans": [
+        {
+          "text": "more than doubling of the Stave River spawning area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0279e9300e3e",
+      "name": "Stave River spawning capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_879b3f6064",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "spawning capacity",
+      "source_spans": [
+        {
+          "text": "increase in the chum adult spawning capacity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2caf1ca2d0c8",
+      "name": "Exploitation rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_31a5085641",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "exploitation rates",
+      "source_spans": [
+        {
+          "text": "exploitation rates fell"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5b655226ed25",
+      "name": "Salmon populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bf65857e7b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "populations",
+      "source_spans": [
+        {
+          "text": "Salmon populations in Stave River were severely impacted"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66e9c3d54aea",
+      "name": "Hydroelectric developments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_83f41353d7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hydroelectric developments",
+          "start_char": 11967,
+          "end_char": 11993,
+          "paragraph_id": "page:8"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2b857922a9a7",
+      "subject": "causal_mosaic:node:6fdfea343a28",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fa650b6fa003",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The Stave chum stock also showed an increasing trend, with strong returns starting in the late 1980s attributed in part to harvest reduction and hatchery augmentation.",
+      "source_spans": [
+        {
+          "text": "The Stave chum stock also showed an increasing trend, with strong returns starting in the late 1980s attributed in part to harvest reduction and hatchery augmentation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:193675bae986",
+      "subject": "causal_mosaic:node:d11ef52b99dc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fa650b6fa003",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The Stave chum stock also showed an increasing trend, with strong returns starting in the late 1980s attributed in part to harvest reduction and hatchery augmentation.",
+      "source_spans": [
+        {
+          "text": "The Stave chum stock also showed an increasing trend, with strong returns starting in the late 1980s attributed in part to harvest reduction and hatchery augmentation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7ff850146710",
+      "subject": "causal_mosaic:node:6fdfea343a28",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2caf1ca2d0c8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In response, fishery managers imposed progressively greater fishing restrictions... The average exploitation rates fell to approximately 30% during the late 1960s",
+      "source_spans": [
+        {
+          "text": "In response, fishery managers imposed progressively greater fishing restrictions... The average exploitation rates fell to approximately 30% during the late 1960s"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1b383aace65",
+      "subject": "causal_mosaic:node:4743a34a7ba1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e17a769babbc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 1990 flow agreement and the 1990-94 habitat improvements together resulted in more than doubling of the Stave River spawning area downstream of the Ruskin Dam",
+      "source_spans": [
+        {
+          "text": "The 1990 flow agreement and the 1990-94 habitat improvements together resulted in more than doubling of the Stave River spawning area downstream of the Ruskin Dam"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:61db16214be4",
+      "subject": "causal_mosaic:node:c1c7b5d94c10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e17a769babbc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 1990 flow agreement and the 1990-94 habitat improvements together resulted in more than doubling of the Stave River spawning area downstream of the Ruskin Dam",
+      "source_spans": [
+        {
+          "text": "The 1990 flow agreement and the 1990-94 habitat improvements together resulted in more than doubling of the Stave River spawning area downstream of the Ruskin Dam"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0450c7cbd843",
+      "subject": "causal_mosaic:node:4743a34a7ba1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0279e9300e3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This resulted in an increase in the chum adult spawning capacity from approximately 92,000 adults to 220,000 adults.",
+      "source_spans": [
+        {
+          "text": "This resulted in an increase in the chum adult spawning capacity from approximately 92,000 adults to 220,000 adults."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:747c0a9b323c",
+      "subject": "causal_mosaic:node:c1c7b5d94c10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0279e9300e3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This resulted in an increase in the chum adult spawning capacity from approximately 92,000 adults to 220,000 adults.",
+      "source_spans": [
+        {
+          "text": "This resulted in an increase in the chum adult spawning capacity from approximately 92,000 adults to 220,000 adults."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6355a0010975",
+      "subject": "causal_mosaic:node:4743a34a7ba1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7298e09b884a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The regulated flows were first introduced at the Ruskin Dam... This likely helped protect salmon eggs from desiccation and may have resulted in increased chum escapements beginning in 1992",
+      "source_spans": [
+        {
+          "text": "The regulated flows were first introduced at the Ruskin Dam... This likely helped protect salmon eggs from desiccation and may have resulted in increased chum escapements beginning in 1992"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fe28299e7350",
+      "subject": "causal_mosaic:node:c1c7b5d94c10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7298e09b884a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Without the significant increase in the Stave River chum spawning area, the large Stave chum escapements could not have been supported.",
+      "source_spans": [
+        {
+          "text": "Without the significant increase in the Stave River chum spawning area, the large Stave chum escapements could not have been supported."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a3f12fde3198",
+      "subject": "causal_mosaic:node:66e9c3d54aea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5b655226ed25",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salmon populations in Stave River were severely impacted following hydroelectric developments between 1910 and 1930.",
+      "source_spans": [
+        {
+          "text": "Salmon populations in Stave River were severely impacted following hydroelectric developments between 1910 and 1930."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "AN INTEGRATED APPROACH TO REBUILDING STAVE RIVER CHUM USING HARVEST REDUCTION, HATCHERY AUGMENTATION, FLOW CONTROL AND HABITAT IMPROVEMENT",
+        "authors": [
+          "Bailey, D D",
+          "Fedorenko, A Y",
+          "Cook, R J"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

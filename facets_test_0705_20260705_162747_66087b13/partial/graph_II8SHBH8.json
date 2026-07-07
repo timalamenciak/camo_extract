@@ -1,0 +1,572 @@
+{
+  "graph_id": "causal_mosaic:graph:d3e8f57c5448",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T19:35:00.527893+00:00",
+    "source_corpus": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:5e28aa532618",
+      "name": "Hybrid poplar density",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_18cd62c9f8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Density eﬀ ects of young hybrid poplars were assessed on the emergence and survival of early, mid and late successional species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e6dc71033d9",
+      "name": "Herbaceous biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_127cc59ec5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "Mean dry herbaceous biomass was > 3 times lower under the 1 × 1-m spacing treatment compared to the control plots without nurse trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9e10a0d753d9",
+      "name": "Available light",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_848426275c",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "light",
+      "source_spans": [
+        {
+          "text": "The 1 × 1-m poplar cover intercepted on average ~70% of full sunlight"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95b9864653b7",
+      "name": "Salicaceae mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0ae32705c6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "mortality",
+      "source_spans": [
+        {
+          "text": "Summer mortality rates, on the other hand, increased linearly with hybrid poplar density in 2015"
+        },
+        {
+          "text": "Diminution of light availability thus corresponded to increased seedling mortality rates for these species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9f13ca639040",
+      "name": "Hydroseeded cover",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1a9b488649",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Results were also compared in 2 × 2-m plantations with and without a hydroseeded herbaceous cover",
+          "start_char": 1635,
+          "end_char": 1732,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c28c556718c4",
+      "name": "Salicaceae emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62679445e0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Mean emergences in 2014 were also significantly inﬂuenced by the hydroseeded treatment: nearly 3.5 times less seedlings emerged in hydroseeded plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d8c9c0a6f89a",
+      "name": "Picea glauca emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c84539d108",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "The hybrid poplar spacing treatment signiﬁcantly inﬂuenced the summer emergence of P. glauca... rates increased linearly with poplar density"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0222b4191409",
+      "name": "Abies balsamea emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6173fb64b1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "The hybrid poplar spacing treatment signiﬁcantly inﬂuenced the summer emergence of... A. balsamea, while rates increased linearly with poplar density"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bf25d5e37488",
+      "name": "Abies balsamea recruitment success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e27d01721e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "recruitment success",
+      "source_spans": [
+        {
+          "text": "The positive eﬀ ect of density on recruitment success after one growing season was signiﬁcant only for A. balsamea"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0d92846cb86a",
+      "name": "Abies balsamea mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_430b8756a6",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "mortality",
+      "source_spans": [
+        {
+          "text": "A. balsamea mortality also remained unchanged by the hybrid poplar spacing treatment, but signiﬁcant diﬀerences were observed under the hydroseeded treatment... with higher rates registered in hydroeseeded plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec2117ec2b4b",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "moisture",
+      "source_spans": [
+        {
+          "text": "linear regression coeﬃcients indicated a signiﬁcant positive eﬀ ect of poplar density on soil moisture conditions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b59c291d812",
+      "name": "Salicaceae abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_facb55f823",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Salicaceae seedling abundance was greater... in plots without a hydroseeded cover... with mean value as low as < 0.3·m−2 in hydroseeded plots"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a468baa655df",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7e6dc71033d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean dry herbaceous biomass was > 3 times lower under the 1 × 1-m spacing treatment compared to the control plots without nurse trees",
+      "source_spans": [
+        {
+          "text": "Mean dry herbaceous biomass was > 3 times lower under the 1 × 1-m spacing treatment compared to the control plots without nurse trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7311ff5f27c8",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9e10a0d753d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The 1 × 1-m poplar cover intercepted on average ~70% of full sunlight",
+      "source_spans": [
+        {
+          "text": "The 1 × 1-m poplar cover intercepted on average ~70% of full sunlight"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b9b14e40ccd0",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95b9864653b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Summer mortality rates, on the other hand, increased linearly with hybrid poplar density in 2015",
+      "source_spans": [
+        {
+          "text": "Summer mortality rates, on the other hand, increased linearly with hybrid poplar density in 2015"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:17be91bff293",
+      "subject": "causal_mosaic:node:9f13ca639040",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c28c556718c4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean emergences in 2014 were also significantly inﬂuenced by the hydroseeded treatment: nearly 3.5 times less seedlings emerged in hydroseeded plots",
+      "source_spans": [
+        {
+          "text": "Mean emergences in 2014 were also significantly inﬂuenced by the hydroseeded treatment: nearly 3.5 times less seedlings emerged in hydroseeded plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:287de9fcd47f",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d8c9c0a6f89a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The hybrid poplar spacing treatment signiﬁcantly inﬂuenced the summer emergence of P. glauca... rates increased linearly with poplar density",
+      "source_spans": [
+        {
+          "text": "The hybrid poplar spacing treatment signiﬁcantly inﬂuenced the summer emergence of P. glauca... rates increased linearly with poplar density"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b0dc6a50b884",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0222b4191409",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The hybrid poplar spacing treatment signiﬁcantly inﬂuenced the summer emergence of... A. balsamea, while rates increased linearly with poplar density",
+      "source_spans": [
+        {
+          "text": "The hybrid poplar spacing treatment signiﬁcantly inﬂuenced the summer emergence of... A. balsamea, while rates increased linearly with poplar density"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c385742e37ef",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bf25d5e37488",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The positive eﬀ ect of density on recruitment success after one growing season was signiﬁcant only for A. balsamea",
+      "source_spans": [
+        {
+          "text": "The positive eﬀ ect of density on recruitment success after one growing season was signiﬁcant only for A. balsamea"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5c404d5c7c2c",
+      "subject": "causal_mosaic:node:9e10a0d753d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95b9864653b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Diminution of light availability thus corresponded to increased seedling mortality rates for these species",
+      "source_spans": [
+        {
+          "text": "Diminution of light availability thus corresponded to increased seedling mortality rates for these species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fe812dc24b6b",
+      "subject": "causal_mosaic:node:9f13ca639040",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0d92846cb86a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A. balsamea mortality also remained unchanged by the hybrid poplar spacing treatment, but signiﬁcant diﬀerences were observed under the hydroseeded treatment... with higher rates registered in hydroeseeded plots",
+      "source_spans": [
+        {
+          "text": "A. balsamea mortality also remained unchanged by the hybrid poplar spacing treatment, but signiﬁcant diﬀerences were observed under the hydroseeded treatment... with higher rates registered in hydroeseeded plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:80efc6893335",
+      "subject": "causal_mosaic:node:5e28aa532618",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec2117ec2b4b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "linear regression coeﬃcients indicated a signiﬁcant positive eﬀ ect of poplar density on soil moisture conditions",
+      "source_spans": [
+        {
+          "text": "linear regression coeﬃcients indicated a signiﬁcant positive eﬀ ect of poplar density on soil moisture conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c398dbfcef6f",
+      "subject": "causal_mosaic:node:9f13ca639040",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b59c291d812",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Salicaceae seedling abundance was greater... in plots without a hydroseeded cover... with mean value as low as < 0.3·m−2 in hydroseeded plots",
+      "source_spans": [
+        {
+          "text": "Salicaceae seedling abundance was greater... in plots without a hydroseeded cover... with mean value as low as < 0.3·m−2 in hydroseeded plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.07.003",
+        "title": "Early recruitment of boreal forest trees in hybrid poplar plantations of different densities on mine waste rock slopes",
+        "year": 2018,
+        "authors": [
+          "Bouchard, Hugo",
+          "Guittonny, Marie",
+          "Brais, Suzanne"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

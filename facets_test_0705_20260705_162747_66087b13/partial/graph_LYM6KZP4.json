@@ -1,0 +1,339 @@
+{
+  "graph_id": "causal_mosaic:graph:a7fc14fbdf93",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T05:26:49.684163+00:00",
+    "source_corpus": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3dc3290a45c6",
+      "name": "Sphagnum transfer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_22d2354401",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum transfer, a reintroduction technique commonly used for bog restoration in North America, was effective for establishing Sphagnum and Carex species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:095f43959130",
+      "name": "covers of Sphagnum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bb2467776d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:03b3337ae196",
+      "name": "Carex cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9d1fea733b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The treatments which included light phosphorus fertilization, had a higher Carex cover after three growing seasons."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3ce01df94066",
+      "name": "total vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c1804842da",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a9cb3d7a532e",
+      "name": "phosphate fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6f7a29bcb6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The treatments which included light phosphorus fertilization, had a higher Carex cover after three growing seasons."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58efa33b3268",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Moreover, species richness was significantly higher where vegetation had been reintroduced (24 ± 3 species per unit) than where vegetation had not been reintroduced (22 ± 2 species per unit)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3a5070271fe",
+      "name": "vegetation reintroduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dca5a039c7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Moreover, species richness was significantly higher where vegetation had been reintroduced (24 ± 3 species per unit) than where vegetation had not been reintroduced (22 ± 2 species per unit)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d93b1a1e7c7",
+      "name": "reintroduction timing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8667d2a99a",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "The timing of the reintroductions had no impact on the success of vegetation establishment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fdd030c1da4",
+      "name": "success of vegetation establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4bc6c5c9f7",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "success",
+      "source_spans": [
+        {
+          "text": "The timing of the reintroductions had no impact on the success of vegetation establishment."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4f81ad108a15",
+      "subject": "causal_mosaic:node:3dc3290a45c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:095f43959130",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units",
+      "source_spans": [
+        {
+          "text": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18565",
+        "title": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+        "year": 2008,
+        "authors": [
+          "Graf, M.D.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:805c638d8824",
+      "subject": "causal_mosaic:node:3dc3290a45c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:03b3337ae196",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units",
+      "source_spans": [
+        {
+          "text": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18565",
+        "title": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+        "year": 2008,
+        "authors": [
+          "Graf, M.D.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bc352a23f000",
+      "subject": "causal_mosaic:node:3dc3290a45c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3ce01df94066",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units",
+      "source_spans": [
+        {
+          "text": "The Sphagnum transfer was a superior method for reintroducing fen vegetation, as the covers of Sphagnum, Carex and total vegetation were higher on these experimental units"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18565",
+        "title": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+        "year": 2008,
+        "authors": [
+          "Graf, M.D.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1fbafe861032",
+      "subject": "causal_mosaic:node:a9cb3d7a532e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:03b3337ae196",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The treatments which included light phosphorus fertilization, had a higher Carex cover after three growing seasons.",
+      "source_spans": [
+        {
+          "text": "The treatments which included light phosphorus fertilization, had a higher Carex cover after three growing seasons."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18565",
+        "title": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+        "year": 2008,
+        "authors": [
+          "Graf, M.D.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4e768a464e7b",
+      "subject": "causal_mosaic:node:f3a5070271fe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Moreover, species richness was significantly higher where vegetation had been reintroduced (24 ± 3 species per unit) than where vegetation had not been reintroduced (22 ± 2 species per unit)",
+      "source_spans": [
+        {
+          "text": "Moreover, species richness was significantly higher where vegetation had been reintroduced (24 ± 3 species per unit) than where vegetation had not been reintroduced (22 ± 2 species per unit)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18565",
+        "title": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+        "year": 2008,
+        "authors": [
+          "Graf, M.D.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:25e15446b96d",
+      "subject": "causal_mosaic:node:8d93b1a1e7c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8fdd030c1da4",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The timing of the reintroductions had no impact on the success of vegetation establishment.",
+      "source_spans": [
+        {
+          "text": "The timing of the reintroductions had no impact on the success of vegetation establishment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3170/2008-7-18565",
+        "title": "Techniques for restoring fen vegetation on cut‐away peatlands in North America",
+        "year": 2008,
+        "authors": [
+          "Graf, M.D.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

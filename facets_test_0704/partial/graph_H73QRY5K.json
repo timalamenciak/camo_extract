@@ -1,0 +1,360 @@
+{
+  "graph_id": "causal_mosaic:graph:154c7ec5d122",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T02:02:04.270685+00:00",
+    "source_corpus": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b49e2a23195e",
+      "name": "Wildfires",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3073a4ab3d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Wildfires within jack pine forests promoted tree regeneration on seismic lines"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5a8aa11a77a",
+      "name": "Jack pine regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_227615d1ff",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Wildfires within jack pine forests promoted tree regeneration on seismic lines"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2a6821382be8",
+      "name": "Fire severity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4426cb438a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "regeneration densities were positively related to fire severity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60edd1279b85",
+      "name": "Seismic line",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_64a4a0a62a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "densities were consistently 2-fold higher in seismic lines compared with adjacent forest stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a6916eb5710b",
+      "name": "Line orientation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7c78fcff2",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "jack pine regeneration decreased on north-south orientated lines"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0363fe9bccd1",
+      "name": "Line width",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9684de8dc0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "jack pine regeneration increased in wider lines",
+          "start_char": 27732,
+          "end_char": 27779,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa107f142ff6",
+      "name": "Stand height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0c48c0da8f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "jack pine regeneration increased in wider lines when adjacent stand heights were higher"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6166a7bcb2d",
+      "name": "Non-jack pine regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2a3cc0d6bf",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "regeneration of other trees and tall shrubs... declined in wider, north-south lines"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:580433e5dac6",
+      "subject": "causal_mosaic:node:b49e2a23195e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5a8aa11a77a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wildfires within jack pine forests promoted tree regeneration on seismic lines",
+      "source_spans": [
+        {
+          "text": "Wildfires within jack pine forests promoted tree regeneration on seismic lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1b6f06e2d163",
+      "subject": "causal_mosaic:node:2a6821382be8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5a8aa11a77a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "regeneration densities were positively related to fire severity",
+      "source_spans": [
+        {
+          "text": "regeneration densities were positively related to fire severity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bea2d398d9a0",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5a8aa11a77a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "densities were consistently 2-fold higher in seismic lines compared with adjacent forest stands",
+      "source_spans": [
+        {
+          "text": "densities were consistently 2-fold higher in seismic lines compared with adjacent forest stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5cd201ea6945",
+      "subject": "causal_mosaic:node:a6916eb5710b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5a8aa11a77a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "jack pine regeneration decreased on north-south orientated lines",
+      "source_spans": [
+        {
+          "text": "jack pine regeneration decreased on north-south orientated lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:37820555f945",
+      "subject": "causal_mosaic:node:0363fe9bccd1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5a8aa11a77a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "jack pine regeneration increased in wider lines when adjacent stand heights were higher",
+      "source_spans": [
+        {
+          "text": "jack pine regeneration increased in wider lines when adjacent stand heights were higher"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:99611d88c9a3",
+      "subject": "causal_mosaic:node:0363fe9bccd1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6166a7bcb2d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "regeneration of other trees and tall shrubs... declined in wider, north-south lines",
+      "source_spans": [
+        {
+          "text": "regeneration of other trees and tall shrubs... declined in wider, north-south lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:251981fb4eef",
+      "subject": "causal_mosaic:node:a6916eb5710b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6166a7bcb2d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "regeneration of other trees and tall shrubs... declined in wider, north-south lines",
+      "source_spans": [
+        {
+          "text": "regeneration of other trees and tall shrubs... declined in wider, north-south lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2018.01.027",
+        "title": "Fire and forest recovery on seismic lines in sandy upland jack pine (Pinus banksiana) forests",
+        "year": 2018,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

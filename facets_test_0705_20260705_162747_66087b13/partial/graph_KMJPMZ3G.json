@@ -1,0 +1,302 @@
+{
+  "graph_id": "causal_mosaic:graph:6b958fc2787e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T21:31:18.395556+00:00",
+    "source_corpus": "Response of plant diversity to moss, Carex or Scirpus revegetation strategies of wet depressions in restored fens",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6f82e45b385f",
+      "name": "moss transfer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b9e34319b1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "moss transfer led to an increase of fen-specialist moss and vascular species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ff5fcc70a92",
+      "name": "fen-specialist species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8972b6949e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species richness",
+      "source_spans": [
+        {
+          "text": "moss transfer led to an increase of fen-specialist moss and vascular species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2372e81a35d5",
+      "name": "vascular cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_91fb883b7c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Carex treatment increased only vascular cover compared to control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29e52a3795ac",
+      "name": "plant community composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fac04ad1b7",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Restoration strategies had a strong influence on the composition of plant communities within wet depressions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2cff666dad2d",
+      "name": "Carex transplantations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_42ce9f3fb4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Carex transplantations",
+          "start_char": 11087,
+          "end_char": 11109,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1e47ace4e0b",
+      "name": "Scirpus validus transplantations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a3dcf9b5fb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Scirpus validus transplantations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:50673b1cae72",
+      "name": "plant community structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cc401a8c3e",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Scirpus validus failed to establish after four growing seasons, and hence did not impact vegetation structure within wet depressions compared to control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c6bd915f284",
+      "name": "recolonization of plant assemblages",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c48da753e7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "transferring moss in created wet depressions is an effective strategy to foster the recolonization of diverse and distinct plant assemblages"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:355dce83d7c9",
+      "subject": "causal_mosaic:node:6f82e45b385f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ff5fcc70a92",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "moss transfer led to an increase of fen-specialist moss and vascular species richness",
+      "source_spans": [
+        {
+          "text": "moss transfer led to an increase of fen-specialist moss and vascular species richness"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2018.07.006",
+        "title": "Response of plant diversity to moss, Carex or Scirpus revegetation strategies of wet depressions in restored fens",
+        "year": 2018,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Rochefort, Line",
+          "Bérubé, Vicky",
+          "Poulin, Monique"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a640bf6c0da3",
+      "subject": "causal_mosaic:node:6f82e45b385f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:29e52a3795ac",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration strategies had a strong influence on the composition of plant communities within wet depressions",
+      "source_spans": [
+        {
+          "text": "Restoration strategies had a strong influence on the composition of plant communities within wet depressions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2018.07.006",
+        "title": "Response of plant diversity to moss, Carex or Scirpus revegetation strategies of wet depressions in restored fens",
+        "year": 2018,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Rochefort, Line",
+          "Bérubé, Vicky",
+          "Poulin, Monique"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4357a5053e10",
+      "subject": "causal_mosaic:node:2cff666dad2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2372e81a35d5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Carex treatment increased only vascular cover compared to control",
+      "source_spans": [
+        {
+          "text": "Carex treatment increased only vascular cover compared to control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2018.07.006",
+        "title": "Response of plant diversity to moss, Carex or Scirpus revegetation strategies of wet depressions in restored fens",
+        "year": 2018,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Rochefort, Line",
+          "Bérubé, Vicky",
+          "Poulin, Monique"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:787834c6759c",
+      "subject": "causal_mosaic:node:e1e47ace4e0b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:50673b1cae72",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Scirpus validus failed to establish after four growing seasons, and hence did not impact vegetation structure within wet depressions compared to control",
+      "source_spans": [
+        {
+          "text": "Scirpus validus failed to establish after four growing seasons, and hence did not impact vegetation structure within wet depressions compared to control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2018.07.006",
+        "title": "Response of plant diversity to moss, Carex or Scirpus revegetation strategies of wet depressions in restored fens",
+        "year": 2018,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Rochefort, Line",
+          "Bérubé, Vicky",
+          "Poulin, Monique"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:58308a220960",
+      "subject": "causal_mosaic:node:6f82e45b385f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c6bd915f284",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "transferring moss in created wet depressions is an effective strategy to foster the recolonization of diverse and distinct plant assemblages",
+      "source_spans": [
+        {
+          "text": "transferring moss in created wet depressions is an effective strategy to foster the recolonization of diverse and distinct plant assemblages"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2018.07.006",
+        "title": "Response of plant diversity to moss, Carex or Scirpus revegetation strategies of wet depressions in restored fens",
+        "year": 2018,
+        "authors": [
+          "Bourgeois, Bérenger",
+          "Rochefort, Line",
+          "Bérubé, Vicky",
+          "Poulin, Monique"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

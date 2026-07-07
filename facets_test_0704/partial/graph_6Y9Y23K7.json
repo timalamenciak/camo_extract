@@ -1,0 +1,433 @@
+{
+  "graph_id": "causal_mosaic:graph:b03afab2eb9e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T18:02:26.168968+00:00",
+    "source_corpus": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:37a1f76b1bfd",
+      "name": "grass-speciﬁc herbicides",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3f0487fbfa",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Grass-speciﬁc herbicides, such as sethoxydim (Poast) or ﬂuazifop (Fusilade), can target non-native grasses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3d7878988171",
+      "name": "cover of non-native grasses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_84553956c5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Three of our treatment combinations, SBG, SM, and MBG, proved highly effective at reducing cover of both perennial and annual non-native grasses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc5252a869aa",
+      "name": "native seed addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1ef19bf5d0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "At all sites, we recommend seed addition to enhance native diversity and abundance",
+          "start_char": 2882,
+          "end_char": 2964,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7013b624bbf1",
+      "name": "native richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7fbacc9abb",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Only seeding substantially increased native richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d39a8e30a265",
+      "name": "burning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0ab842b5ca",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "burning leads to large reductions in litter and moss and an increase in bare soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a6d17af6ee7",
+      "name": "bare soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001616",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "bare soil",
+      "source_spans": [
+        {
+          "text": "burning leads to large reductions in litter and moss and an increase in bare soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a9b0bcac3752",
+      "name": "mowing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d68b3e90be",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mowing did not increase bare soil",
+          "start_char": 3127,
+          "end_char": 3160,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4dc6dcbcafdd",
+      "name": "herbaceous weed abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_79970b544f",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Repeat mowing is ineffective at reducing herbaceous weed abundance",
+          "start_char": 3045,
+          "end_char": 3111,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b562d9f6856",
+      "name": "invasive plants",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3391537",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "These invasive plants reduce native diversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:849b06870ae2",
+      "name": "native diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77d7809dd0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "These invasive plants reduce native diversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9ec591009831",
+      "name": "burning + glyphosate",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_87ba6f6ff5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "burning + glyphosate application"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:647ba3a5305c",
+      "name": "seeding success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_03feea289d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "success",
+      "source_spans": [
+        {
+          "text": "Seeding success was highest in these two treatment combinations"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7186408762a7",
+      "subject": "causal_mosaic:node:37a1f76b1bfd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3d7878988171",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Three of our treatment combinations, SBG, SM, and MBG, proved highly effective at reducing cover of both perennial and annual non-native grasses",
+      "source_spans": [
+        {
+          "text": "Three of our treatment combinations, SBG, SM, and MBG, proved highly effective at reducing cover of both perennial and annual non-native grasses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:32d440da539f",
+      "subject": "causal_mosaic:node:cc5252a869aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7013b624bbf1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Only seeding substantially increased native richness",
+      "source_spans": [
+        {
+          "text": "Only seeding substantially increased native richness"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:522bb1ef84be",
+      "subject": "causal_mosaic:node:d39a8e30a265",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a6d17af6ee7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "burning leads to large reductions in litter and moss and an increase in bare soil",
+      "source_spans": [
+        {
+          "text": "burning leads to large reductions in litter and moss and an increase in bare soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a9a46377e8ad",
+      "subject": "causal_mosaic:node:a9b0bcac3752",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a6d17af6ee7",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mowing did not increase bare soil",
+      "source_spans": [
+        {
+          "text": "mowing did not increase bare soil",
+          "start_char": 3127,
+          "end_char": 3160,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:62a51645d1a2",
+      "subject": "causal_mosaic:node:a9b0bcac3752",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4dc6dcbcafdd",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Repeat mowing is ineffective at reducing herbaceous weed abundance",
+      "source_spans": [
+        {
+          "text": "Repeat mowing is ineffective at reducing herbaceous weed abundance",
+          "start_char": 3045,
+          "end_char": 3111,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:184474e78104",
+      "subject": "causal_mosaic:node:0b562d9f6856",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:849b06870ae2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These invasive plants reduce native diversity",
+      "source_spans": [
+        {
+          "text": "These invasive plants reduce native diversity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:50094eb42e7e",
+      "subject": "causal_mosaic:node:9ec591009831",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:647ba3a5305c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seeding success was highest in these two treatment combinations",
+      "source_spans": [
+        {
+          "text": "Seeding success was highest in these two treatment combinations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3955/046.085.0212",
+        "title": "Restoring Invaded Pacific Northwest Prairies: Management Recommendations from a Region-Wide Experiment",
+        "year": 2011,
+        "authors": [
+          "Stanley, Amanda G.",
+          "Dunwiddie, Peter W.",
+          "Kaye, Thomas N."
+        ],
+        "journal": "Northwest Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

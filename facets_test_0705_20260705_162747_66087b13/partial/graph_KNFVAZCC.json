@@ -1,0 +1,416 @@
+{
+  "graph_id": "causal_mosaic:graph:b19a022c4501",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T21:22:32.837908+00:00",
+    "source_corpus": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d3be126c6d1e",
+      "name": "Spawning substrate enhancement",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_11cb9d495c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a5aa8593c2d9",
+      "name": "Larval retention",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3c8b460b76",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Results from this work indicated that the modified section of riverbed retained significantly higher numbers of larvae after release compared with the control site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ca1d1e4a21d",
+      "name": "Larval hiding",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b9b73f044c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Results from this study demonstrate that modiﬁcations to embedded substrates at known white sturgeon spawning locations can result in enhanced conditions required for hiding at the yolk sac larvae stage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f396b4c7f77",
+      "name": "Larval dispersal",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_201d0e8439",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Larvae at the modiﬁed site were able to hide and remain within the substrate and initiated downstream drift 15 days after release."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7d2a3a4fcb7",
+      "name": "Physical size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_148b7f95e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Larvae collected from the modiﬁed site were signiﬁcantly larger... compared with those collected at the control site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c44127ba8d2",
+      "name": "River regulation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_631c37c1e9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The regulation of rivers has altered the ecosystem processes important for the persistence of many aquatic species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44555c67fff2",
+      "name": "Substrate armouring",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b640e88930",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The regulation of rivers typically results in an increase in substrate armouring and embeddedness."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f0091b364001",
+      "name": "Interstitial space",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f6e252e520",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "As substrates become more armoured and embedded, the interstitial space between substrate particles is reduced"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c65829cb9c0",
+      "name": "Embryo survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_27ea5e470d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Decreasing interstitial space limits the available area and cover for fish eggs and larvae of multiple species, affecting embryo survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:276559de958e",
+      "name": "Physical size (background)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_148b7f95e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Decreasing interstitial space limits the available area and cover for fish eggs and larvae of multiple species, affecting embryo survival, larval emergence and physical size"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:def98fec162b",
+      "subject": "causal_mosaic:node:d3be126c6d1e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a5aa8593c2d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results from this work indicated that the modified section of riverbed retained significantly higher numbers of larvae after release compared with the control site.",
+      "source_spans": [
+        {
+          "text": "Results from this work indicated that the modified section of riverbed retained significantly higher numbers of larvae after release compared with the control site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:466818508e0d",
+      "subject": "causal_mosaic:node:d3be126c6d1e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2ca1d1e4a21d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results from this study demonstrate that modiﬁcations to embedded substrates at known white sturgeon spawning locations can result in enhanced conditions required for hiding at the yolk sac larvae stage.",
+      "source_spans": [
+        {
+          "text": "Results from this study demonstrate that modiﬁcations to embedded substrates at known white sturgeon spawning locations can result in enhanced conditions required for hiding at the yolk sac larvae stage."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3222688d18f8",
+      "subject": "causal_mosaic:node:d3be126c6d1e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f396b4c7f77",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Larvae at the modiﬁed site were able to hide and remain within the substrate and initiated downstream drift 15 days after release.",
+      "source_spans": [
+        {
+          "text": "Larvae at the modiﬁed site were able to hide and remain within the substrate and initiated downstream drift 15 days after release."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:89cad69cd9a0",
+      "subject": "causal_mosaic:node:d3be126c6d1e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d7d2a3a4fcb7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Larvae collected from the modiﬁed site were signiﬁcantly larger... compared with those collected at the control site",
+      "source_spans": [
+        {
+          "text": "Larvae collected from the modiﬁed site were signiﬁcantly larger... compared with those collected at the control site"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3382eba67f99",
+      "subject": "causal_mosaic:node:9c44127ba8d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:44555c67fff2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The regulation of rivers typically results in an increase in substrate armouring and embeddedness.",
+      "source_spans": [
+        {
+          "text": "The regulation of rivers typically results in an increase in substrate armouring and embeddedness."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e9b65a848814",
+      "subject": "causal_mosaic:node:44555c67fff2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f0091b364001",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As substrates become more armoured and embedded, the interstitial space between substrate particles is reduced",
+      "source_spans": [
+        {
+          "text": "As substrates become more armoured and embedded, the interstitial space between substrate particles is reduced"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c6701d1cdc14",
+      "subject": "causal_mosaic:node:f0091b364001",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c65829cb9c0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Decreasing interstitial space limits the available area and cover for fish eggs and larvae of multiple species, affecting embryo survival",
+      "source_spans": [
+        {
+          "text": "Decreasing interstitial space limits the available area and cover for fish eggs and larvae of multiple species, affecting embryo survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38d4c52562ef",
+      "subject": "causal_mosaic:node:f0091b364001",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:276559de958e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Decreasing interstitial space limits the available area and cover for fish eggs and larvae of multiple species, affecting embryo survival, larval emergence and physical size",
+      "source_spans": [
+        {
+          "text": "Decreasing interstitial space limits the available area and cover for fish eggs and larvae of multiple species, affecting embryo survival, larval emergence and physical size"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2620",
+        "title": "EVALUATION OF SPAWNING SUBSTRATE ENHANCEMENT FOR WHITE STURGEON IN A REGULATED RIVER: EFFECTS ON LARVAL RETENTION AND DISPERSAL",
+        "year": 2014,
+        "authors": [
+          "Crossman, J. A.",
+          "Hildebrand, L. R."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

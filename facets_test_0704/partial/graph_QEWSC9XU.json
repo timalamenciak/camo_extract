@@ -1,0 +1,231 @@
+{
+  "graph_id": "causal_mosaic:graph:6d93e4ab897b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T06:14:50.799533+00:00",
+    "source_corpus": "Vegetation Control Treatments to Favor Naturally Regenerated <i>Betula alleghaniensis</i> Saplings Following Seed‐Tree Cut: Sapling Monitoring Two Years after Treatment",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:aa0681a8ae57",
+      "name": "vegetation control treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_96464041cb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Four contrasting vegetation control treatments were tested"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3848959393f5",
+      "name": "diameter growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d82684edc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001334",
+      "source_spans": [
+        {
+          "text": "Mean diameter increment significantly increased with increasing vegetation control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09fd31b8b844",
+      "name": "etiolation index",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_56efe99a88",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "etiolation",
+      "source_spans": [
+        {
+          "text": "Mean etiolation index decreased significantly with increasing vegetation control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3fd9fc8710f5",
+      "name": "browsing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e2e55c75b1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increasing the severity of vegetation removal also made saplings more conspicuous to herbivores, which increased browsing"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3c184d452be",
+      "name": "sapling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b2a56662b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "significantly lower sapling survival in the TS compared to the TC treatment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b108910fed01",
+      "subject": "causal_mosaic:node:aa0681a8ae57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3848959393f5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean diameter increment significantly increased with increasing vegetation control",
+      "source_spans": [
+        {
+          "text": "Mean diameter increment significantly increased with increasing vegetation control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2007.00280.x",
+        "title": "Vegetation Control Treatments to Favor Naturally Regenerated <i>Betula alleghaniensis</i> Saplings Following Seed‐Tree Cut: Sapling Monitoring Two Years after Treatment",
+        "year": 2007,
+        "authors": [
+          "Bouffard, Daniel",
+          "Nolet, Philippe",
+          "Delagrange, Sylvain",
+          "Lorenzetti, François",
+          "Yamasaki, Stephen"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6c744c98f4cd",
+      "subject": "causal_mosaic:node:aa0681a8ae57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:09fd31b8b844",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mean etiolation index decreased significantly with increasing vegetation control",
+      "source_spans": [
+        {
+          "text": "Mean etiolation index decreased significantly with increasing vegetation control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2007.00280.x",
+        "title": "Vegetation Control Treatments to Favor Naturally Regenerated <i>Betula alleghaniensis</i> Saplings Following Seed‐Tree Cut: Sapling Monitoring Two Years after Treatment",
+        "year": 2007,
+        "authors": [
+          "Bouffard, Daniel",
+          "Nolet, Philippe",
+          "Delagrange, Sylvain",
+          "Lorenzetti, François",
+          "Yamasaki, Stephen"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0daaae2901d5",
+      "subject": "causal_mosaic:node:aa0681a8ae57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3fd9fc8710f5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "increasing the severity of vegetation removal also made saplings more conspicuous to herbivores, which increased browsing",
+      "source_spans": [
+        {
+          "text": "increasing the severity of vegetation removal also made saplings more conspicuous to herbivores, which increased browsing"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2007.00280.x",
+        "title": "Vegetation Control Treatments to Favor Naturally Regenerated <i>Betula alleghaniensis</i> Saplings Following Seed‐Tree Cut: Sapling Monitoring Two Years after Treatment",
+        "year": 2007,
+        "authors": [
+          "Bouffard, Daniel",
+          "Nolet, Philippe",
+          "Delagrange, Sylvain",
+          "Lorenzetti, François",
+          "Yamasaki, Stephen"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d7476a858069",
+      "subject": "causal_mosaic:node:3fd9fc8710f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3848959393f5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Diameter growth was negatively correlated to per-plot browsing proportion in the most severe vegetation control treatments TC and PC",
+      "source_spans": [
+        {
+          "text": "Diameter growth was negatively correlated to per-plot browsing proportion in the most severe vegetation control treatments TC and PC"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2007.00280.x",
+        "title": "Vegetation Control Treatments to Favor Naturally Regenerated <i>Betula alleghaniensis</i> Saplings Following Seed‐Tree Cut: Sapling Monitoring Two Years after Treatment",
+        "year": 2007,
+        "authors": [
+          "Bouffard, Daniel",
+          "Nolet, Philippe",
+          "Delagrange, Sylvain",
+          "Lorenzetti, François",
+          "Yamasaki, Stephen"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

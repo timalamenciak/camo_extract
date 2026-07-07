@@ -1,0 +1,547 @@
+{
+  "graph_id": "causal_mosaic:graph:b93acca800f1",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T01:41:59.215441+00:00",
+    "source_corpus": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:87e478555772",
+      "name": "shade",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d41b4bc055",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Effect of shade on mosses",
+          "start_char": 5278,
+          "end_char": 5303,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48083cdd7f26",
+      "name": "fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_20f5fdd40b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Effects of shade, presence of a moss carpet and fertilization on transplanted shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4ade55179839",
+      "name": "presence of a moss carpet",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_799fdc160b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Effects of shade and presence of a moss carpet on seed germination",
+          "start_char": 6085,
+          "end_char": 6151,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d1ad8f50c508",
+      "name": "regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93d2ec1d5c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "conditions under shade cloth were more favorable than the conditions in full-light for the regeneration of Dicranum polysetum and Sphagnum fallax in cutover peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a3fa8273bda6",
+      "name": "ground cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000337",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "cover increased under shade"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4bec30dac6c",
+      "name": "ground cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3c5b1f1563",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "S. fallax cover decreased over time",
+          "start_char": 9441,
+          "end_char": 9476,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e988119a6091",
+      "name": "germination rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_19ff8d5130",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Presence of shade significantly improved germination rates of both species",
+          "start_char": 10124,
+          "end_char": 10198,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1431f0f8bcb9",
+      "name": "germination rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_967ee6178b",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Absence or presence of a moss carpet did not significantly influence the germination of Carex trisperma and Nemopanthus mucronatus"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38f4f2c2be85",
+      "name": "seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Shade significantly increased seedling survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6ea1307d32b6",
+      "name": "shrub survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a13d6b7063",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "In general, mosses did not influence seed germination, shrub growth and shrub survival",
+          "start_char": 12539,
+          "end_char": 12625,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bbe189a46ed5",
+      "name": "fitness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_229ff6c7ec",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Fertilization increased fitness of the seedlings that survived"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bdb8dd4c1d88",
+      "name": "seedling biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1924256767",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "seedling biomass was increased by 68 %",
+          "start_char": 10536,
+          "end_char": 10574,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:231e9fecb55a",
+      "name": "seedling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0a6cd1d6a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "seedling height was increased by 54 %",
+          "start_char": 10579,
+          "end_char": 10616,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91138bfe05eb",
+      "name": "restoration success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1afb6656ff",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "shade generally increases restoration success"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:479d2c3e096e",
+      "subject": "causal_mosaic:node:87e478555772",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d1ad8f50c508",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results showed that 1) the conditions under shade cloth were more favorable than the conditions in full-light for the regeneration of Dicranum polysetum and Sphagnum fallax in cutover peatlands",
+      "source_spans": [
+        {
+          "text": "Our results showed that 1) the conditions under shade cloth were more favorable than the conditions in full-light for the regeneration of Dicranum polysetum and Sphagnum fallax in cutover peatlands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8fc270550f4d",
+      "subject": "causal_mosaic:node:87e478555772",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a3fa8273bda6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "D. polysetum showed a different response: cover decreased in full light, but cover increased under shade",
+      "source_spans": [
+        {
+          "text": "D. polysetum showed a different response: cover decreased in full light, but cover increased under shade"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:24dcaf02cfba",
+      "subject": "causal_mosaic:node:87e478555772",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e988119a6091",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Presence of shade significantly improved germination rates of both species",
+      "source_spans": [
+        {
+          "text": "Presence of shade significantly improved germination rates of both species",
+          "start_char": 10124,
+          "end_char": 10198,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:162aa8042862",
+      "subject": "causal_mosaic:node:4ade55179839",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1431f0f8bcb9",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Absence or presence of a moss carpet did not significantly influence the germination of Carex trisperma and Nemopanthus mucronatus",
+      "source_spans": [
+        {
+          "text": "Absence or presence of a moss carpet did not significantly influence the germination of Carex trisperma and Nemopanthus mucronatus"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4effc4dd1532",
+      "subject": "causal_mosaic:node:87e478555772",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38f4f2c2be85",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shade significantly increased seedling survival",
+      "source_spans": [
+        {
+          "text": "Shade significantly increased seedling survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:abafe78f155a",
+      "subject": "causal_mosaic:node:4ade55179839",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6ea1307d32b6",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In general, mosses did not influence seed germination, shrub growth and shrub survival",
+      "source_spans": [
+        {
+          "text": "In general, mosses did not influence seed germination, shrub growth and shrub survival",
+          "start_char": 12539,
+          "end_char": 12625,
+          "paragraph_id": "page:5"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1a6701c3a47a",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bbe189a46ed5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization increased fitness of the seedlings that survived",
+      "source_spans": [
+        {
+          "text": "Fertilization increased fitness of the seedlings that survived"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4c3a24ec796b",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bdb8dd4c1d88",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedling biomass was increased by 68 %",
+      "source_spans": [
+        {
+          "text": "seedling biomass was increased by 68 %",
+          "start_char": 10536,
+          "end_char": 10574,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:17572ae1e0c9",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:231e9fecb55a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedling height was increased by 54 %",
+      "source_spans": [
+        {
+          "text": "seedling height was increased by 54 %",
+          "start_char": 10579,
+          "end_char": 10616,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d1f0e2f35ee0",
+      "subject": "causal_mosaic:node:87e478555772",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91138bfe05eb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "shade generally increases restoration success",
+      "source_spans": [
+        {
+          "text": "shade generally increases restoration success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "ECOLOGICAL RESTORATION OF LAGG-SWAMP SPECIES ON CUTOVER PEATLANDS",
+        "year": 2012,
+        "authors": [
+          "Paradis, Étienne",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

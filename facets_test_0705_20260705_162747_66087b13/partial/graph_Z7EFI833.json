@@ -1,0 +1,838 @@
+{
+  "graph_id": "causal_mosaic:graph:7aa26281cfbc",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T17:50:39.152495+00:00",
+    "source_corpus": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0b33985812f5",
+      "name": "Feather moss",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_797e23a2e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f153ede627b9",
+      "name": "Establishment of white spruce",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a458db069",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:187d3841e9ae",
+      "name": "Thick soil surface organic layers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20d7a6700e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c6f3cb54967",
+      "name": "Litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:03501259",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0642dc01e7b5",
+      "name": "Solid wood",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e273ee16bf",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:806b4c2f0b3f",
+      "name": "Early successional mosses establishing on mineral soil, thin organics, and rotten wood",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7892e86821",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Early successional mosses establishing on mineral soil, thin organics, and rotten wood were generally favourable microsites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2cdd501afde4",
+      "name": "Surrounding vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dab4324b1b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+          "start_char": 1100,
+          "end_char": 1219,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:892672ced460",
+      "name": "Seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+          "start_char": 1100,
+          "end_char": 1219,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37f5c916d26e",
+      "name": "Seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+          "start_char": 1100,
+          "end_char": 1219,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a52247f3ec4",
+      "name": "Heavy competing vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d5d712066",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "but heavy competing vegetation had a negative impact on older seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29b27020c908",
+      "name": "Burial by aspen litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3daab9a842",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Burial by aspen litter greatly increased seedling mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a83ba2fa7469",
+      "name": "Brief period of submergence",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4cf54b8fdd",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "especially when combined with a brief period of submergence due to heavy spring snowmelt.",
+          "start_char": 1338,
+          "end_char": 1427,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8975cafe1108",
+      "name": "Live graminoid cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93d71e7b4a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "live graminoid cover was negatively associated with seedling survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5d44f8c0f40",
+      "name": "Sapling abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d18f39f2e0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "All three of these vegetation variables were positively related to seedling growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1b690c420968",
+      "name": "Cover of tall saplings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a66736c93d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "cover of tall saplings was negatively related to growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:94be4031dba7",
+      "name": "Logging operations",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_eed0a760b7",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "its suitability is likely negatively impacted by logging operations that breakup deadwood"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:987e77c10d1c",
+      "name": "Suitability of rotten wood",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_de5864ba3e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "its suitability is likely negatively impacted by logging operations that breakup deadwood"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:76bf3940cb9b",
+      "subject": "causal_mosaic:node:0b33985812f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:16a6a9e99380",
+      "subject": "causal_mosaic:node:187d3841e9ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:091904df9e44",
+      "subject": "causal_mosaic:node:1c6f3cb54967",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0b7411678f92",
+      "subject": "causal_mosaic:node:0642dc01e7b5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+      "source_spans": [
+        {
+          "text": "Feather moss, thick soil surface organic layers, litter, and solid wood were poor substrates for establishment.",
+          "start_char": 620,
+          "end_char": 731,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5f19a7af7326",
+      "subject": "causal_mosaic:node:806b4c2f0b3f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f153ede627b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Early successional mosses establishing on mineral soil, thin organics, and rotten wood were generally favourable microsites",
+      "source_spans": [
+        {
+          "text": "Early successional mosses establishing on mineral soil, thin organics, and rotten wood were generally favourable microsites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c273a600896",
+      "subject": "causal_mosaic:node:2cdd501afde4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+      "source_spans": [
+        {
+          "text": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+          "start_char": 1100,
+          "end_char": 1219,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7fd4525f85e2",
+      "subject": "causal_mosaic:node:2cdd501afde4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+      "source_spans": [
+        {
+          "text": "There was some evidence that survival and growth of seedlings were improved by surrounding vegetation in the ﬁrst years",
+          "start_char": 1100,
+          "end_char": 1219,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8900410583be",
+      "subject": "causal_mosaic:node:5a52247f3ec4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "but heavy competing vegetation had a negative impact on older seedlings.",
+      "source_spans": [
+        {
+          "text": "but heavy competing vegetation had a negative impact on older seedlings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a13837d1ea82",
+      "subject": "causal_mosaic:node:5a52247f3ec4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "but heavy competing vegetation had a negative impact on older seedlings.",
+      "source_spans": [
+        {
+          "text": "but heavy competing vegetation had a negative impact on older seedlings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b8e3a2a8e271",
+      "subject": "causal_mosaic:node:29b27020c908",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Burial by aspen litter greatly increased seedling mortality",
+      "source_spans": [
+        {
+          "text": "Burial by aspen litter greatly increased seedling mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b5b2e3d27de",
+      "subject": "causal_mosaic:node:a83ba2fa7469",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "especially when combined with a brief period of submergence due to heavy spring snowmelt.",
+      "source_spans": [
+        {
+          "text": "especially when combined with a brief period of submergence due to heavy spring snowmelt.",
+          "start_char": 1338,
+          "end_char": 1427,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b9d759739e08",
+      "subject": "causal_mosaic:node:8975cafe1108",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:892672ced460",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "live graminoid cover was negatively associated with seedling survival",
+      "source_spans": [
+        {
+          "text": "live graminoid cover was negatively associated with seedling survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3d639abca7e4",
+      "subject": "causal_mosaic:node:f5d44f8c0f40",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All three of these vegetation variables were positively related to seedling growth.",
+      "source_spans": [
+        {
+          "text": "All three of these vegetation variables were positively related to seedling growth."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c48c58e399b7",
+      "subject": "causal_mosaic:node:1b690c420968",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cover of tall saplings was negatively related to growth",
+      "source_spans": [
+        {
+          "text": "cover of tall saplings was negatively related to growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a44e179ce4b2",
+      "subject": "causal_mosaic:node:94be4031dba7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:987e77c10d1c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "its suitability is likely negatively impacted by logging operations that breakup deadwood",
+      "source_spans": [
+        {
+          "text": "its suitability is likely negatively impacted by logging operations that breakup deadwood"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2017-0307",
+        "title": "Effects of substrate availability and competing vegetation on natural regeneration of white spruce on logged boreal mixedwood sites",
+        "year": 2018,
+        "authors": [
+          "Kokkonen, Nicola A.",
+          "Macdonald, S. Ellen",
+          "Curran, Ian",
+          "Landhäusser, Simon M.",
+          "Lieffers, Victor J."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

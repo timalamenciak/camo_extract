@@ -1,0 +1,252 @@
+{
+  "graph_id": "causal_mosaic:graph:10d07b6cf295",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T04:10:22.116055+00:00",
+    "source_corpus": "Effects of reforestation on near‐surface saturated hydraulic conductivity in a managed forest landscape, southern Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fdb52807d68b",
+      "name": "Reforestation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7c10b81cd5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Reforestation of previously deforested landscapes often increases soil organic matter content and porosity as the plantation forest ages, leading to increased soil saturated hydraulic conductivity (KH)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d0f55b395579",
+      "name": "soil saturated hydraulic conductivity (KH)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f89135ce22",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "saturated hydraulic conductivity",
+      "source_spans": [
+        {
+          "text": "Reforestation of previously deforested landscapes often increases soil organic matter content and porosity as the plantation forest ages, leading to increased soil saturated hydraulic conductivity (KH)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5b0dc59e3b5",
+      "name": "understory development",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_33082dd10c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "This recovery may be assisted by management activities such as thinning of red pine stands, which promotes understory development."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c2dc8f5b61be",
+      "name": "thinning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_529d0abdf3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This recovery may be assisted by management activities such as thinning of red pine stands, which promotes understory development."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de1eb8dd35b9",
+      "name": "forest age",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e247284e8a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "There was a statistically significant increase in mean KH (rs =0 /C1 50)... with forest age"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b8a2a2f1338a",
+      "subject": "causal_mosaic:node:fdb52807d68b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d0f55b395579",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reforestation of previously deforested landscapes often increases soil organic matter content and porosity as the plantation forest ages, leading to increased soil saturated hydraulic conductivity (KH).",
+      "source_spans": [
+        {
+          "text": "Reforestation of previously deforested landscapes often increases soil organic matter content and porosity as the plantation forest ages, leading to increased soil saturated hydraulic conductivity (KH)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1320",
+        "title": "Effects of reforestation on near‐surface saturated hydraulic conductivity in a managed forest landscape, southern Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "Greenwood, W. J.",
+          "Buttle, J. M."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:03b1eefdac65",
+      "subject": "causal_mosaic:node:e5b0dc59e3b5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d0f55b395579",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Temporal trends in KH were associated with increased understory density with forest age, suggesting that increases inKH were driven by understory root development and greater macroporosity.",
+      "source_spans": [
+        {
+          "text": "Temporal trends in KH were associated with increased understory density with forest age, suggesting that increases inKH were driven by understory root development and greater macroporosity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1320",
+        "title": "Effects of reforestation on near‐surface saturated hydraulic conductivity in a managed forest landscape, southern Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "Greenwood, W. J.",
+          "Buttle, J. M."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8d7c6b5b1e1a",
+      "subject": "causal_mosaic:node:c2dc8f5b61be",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5b0dc59e3b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This recovery may be assisted by management activities such as thinning of red pine stands, which promotes understory development.",
+      "source_spans": [
+        {
+          "text": "This recovery may be assisted by management activities such as thinning of red pine stands, which promotes understory development."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1320",
+        "title": "Effects of reforestation on near‐surface saturated hydraulic conductivity in a managed forest landscape, southern Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "Greenwood, W. J.",
+          "Buttle, J. M."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d3b89e51246a",
+      "subject": "causal_mosaic:node:c2dc8f5b61be",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d0f55b395579",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "thinning of red plantations in the GF may also contribute to an increase in soil KH.",
+      "source_spans": [
+        {
+          "text": "thinning of red plantations in the GF may also contribute to an increase in soil KH."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1320",
+        "title": "Effects of reforestation on near‐surface saturated hydraulic conductivity in a managed forest landscape, southern Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "Greenwood, W. J.",
+          "Buttle, J. M."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:01d8ef5a0c44",
+      "subject": "causal_mosaic:node:de1eb8dd35b9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d0f55b395579",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "There was a statistically significant increase in mean KH (rs =0 /C1 50)... with forest age",
+      "source_spans": [
+        {
+          "text": "There was a statistically significant increase in mean KH (rs =0 /C1 50)... with forest age"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1320",
+        "title": "Effects of reforestation on near‐surface saturated hydraulic conductivity in a managed forest landscape, southern Ontario, Canada",
+        "year": 2014,
+        "authors": [
+          "Greenwood, W. J.",
+          "Buttle, J. M."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

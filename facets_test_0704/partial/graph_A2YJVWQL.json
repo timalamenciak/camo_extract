@@ -1,0 +1,317 @@
+{
+  "graph_id": "causal_mosaic:graph:0fdcddce79a9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T12:44:05.989384+00:00",
+    "source_corpus": "Decadal soil and stand response to fire, harvest, and salvage-logging disturbances in the western boreal mixedwood forest of Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9fcac2aa99c7",
+      "name": "postfire salvage logging",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_63ef12f0bc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "postfire salvage logging"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ded4b7708123",
+      "name": "forest floor cation exchange capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_89c9f191a2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cation exchange capacity",
+      "source_spans": [
+        {
+          "text": "Forest floor CEC decreased under salvage logging over the 10-year period considered here"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1bfa7303fce",
+      "name": "clearcut harvesting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d03bad514c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "clearcut harvesting",
+          "start_char": 543,
+          "end_char": 562,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4672fb88586",
+      "name": "extractable NO3-N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7b79f661b1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "NO3-N",
+      "source_spans": [
+        {
+          "text": "concentration under harvesting increasing significantly more than for the other treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:432487c3da08",
+      "name": "wildfire",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000787",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "wildfire"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a88bd50e89d4",
+      "name": "forest floor",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001582",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "The forest floor was almost completely removed by fire"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f6b5a806567a",
+      "name": "forest floor properties",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6b0094a5ca",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Changes in forest floor properties such as carbon and nitrogen pools and cation exchange capacity under salvage logging have persisted for 10 years"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55522115607b",
+      "name": "available soil N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7cff5dcc5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "harvesting increased potentially mineralizable N"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9b937d782d68",
+      "subject": "causal_mosaic:node:9fcac2aa99c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ded4b7708123",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floor CEC decreased under salvage logging over the 10-year period considered here.",
+      "source_spans": [
+        {
+          "text": "Forest floor CEC decreased under salvage logging over the 10-year period considered here."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0148",
+        "title": "Decadal soil and stand response to fire, harvest, and salvage-logging disturbances in the western boreal mixedwood forest of Alberta, Canada",
+        "year": 2015,
+        "authors": [
+          "Kishchuk, B.E.",
+          "Thiffault, E.",
+          "Lorente, M.",
+          "Quideau, S.",
+          "Keddy, T.",
+          "Sidders, D."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "not_addressed",
+      "annotation_notes": "Normalization: edges[0].temporal_ordering: unknown 'explicitly_stated' -> 'not_addressed'"
+    },
+    {
+      "id": "causal_mosaic:edge:af64dcf3f20d",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4672fb88586",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "concentration under harvesting increasing significantly more than for the other treatments",
+      "source_spans": [
+        {
+          "text": "concentration under harvesting increasing significantly more than for the other treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0148",
+        "title": "Decadal soil and stand response to fire, harvest, and salvage-logging disturbances in the western boreal mixedwood forest of Alberta, Canada",
+        "year": 2015,
+        "authors": [
+          "Kishchuk, B.E.",
+          "Thiffault, E.",
+          "Lorente, M.",
+          "Quideau, S.",
+          "Keddy, T.",
+          "Sidders, D."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "not_addressed",
+      "annotation_notes": "Normalization: edges[1].temporal_ordering: unknown 'explicitly_stated' -> 'not_addressed'"
+    },
+    {
+      "id": "causal_mosaic:edge:73b25783ee81",
+      "subject": "causal_mosaic:node:432487c3da08",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a88bd50e89d4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The forest floor was almost completely removed by fire",
+      "source_spans": [
+        {
+          "text": "The forest floor was almost completely removed by fire"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0148",
+        "title": "Decadal soil and stand response to fire, harvest, and salvage-logging disturbances in the western boreal mixedwood forest of Alberta, Canada",
+        "year": 2015,
+        "authors": [
+          "Kishchuk, B.E.",
+          "Thiffault, E.",
+          "Lorente, M.",
+          "Quideau, S.",
+          "Keddy, T.",
+          "Sidders, D."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "not_addressed",
+      "annotation_notes": "Normalization: edges[2].temporal_ordering: unknown 'explicitly_stated' -> 'not_addressed'"
+    },
+    {
+      "id": "causal_mosaic:edge:14a7ca6642f2",
+      "subject": "causal_mosaic:node:9fcac2aa99c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f6b5a806567a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changes in forest floor properties such as carbon and nitrogen pools and cation exchange capacity under salvage logging have persisted for 10 years",
+      "source_spans": [
+        {
+          "text": "Changes in forest floor properties such as carbon and nitrogen pools and cation exchange capacity under salvage logging have persisted for 10 years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0148",
+        "title": "Decadal soil and stand response to fire, harvest, and salvage-logging disturbances in the western boreal mixedwood forest of Alberta, Canada",
+        "year": 2015,
+        "authors": [
+          "Kishchuk, B.E.",
+          "Thiffault, E.",
+          "Lorente, M.",
+          "Quideau, S.",
+          "Keddy, T.",
+          "Sidders, D."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "not_addressed",
+      "annotation_notes": "Normalization: edges[3].temporal_ordering: unknown 'explicitly_stated' -> 'not_addressed'"
+    },
+    {
+      "id": "causal_mosaic:edge:fa7f2b76ad3c",
+      "subject": "causal_mosaic:node:c1bfa7303fce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55522115607b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "harvesting increased potentially mineralizable N",
+      "source_spans": [
+        {
+          "text": "harvesting increased potentially mineralizable N"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfr-2014-0148",
+        "title": "Decadal soil and stand response to fire, harvest, and salvage-logging disturbances in the western boreal mixedwood forest of Alberta, Canada",
+        "year": 2015,
+        "authors": [
+          "Kishchuk, B.E.",
+          "Thiffault, E.",
+          "Lorente, M.",
+          "Quideau, S.",
+          "Keddy, T.",
+          "Sidders, D."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "not_addressed",
+      "annotation_notes": "Normalization: edges[4].temporal_ordering: unknown 'explicitly_stated' -> 'not_addressed'"
+    }
+  ]
+}

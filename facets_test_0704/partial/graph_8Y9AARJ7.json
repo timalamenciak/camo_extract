@@ -1,0 +1,1233 @@
+{
+  "graph_id": "causal_mosaic:graph:b83bbd3f0206",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T05:22:11.355309+00:00",
+    "source_corpus": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9e3cf0d8b91f",
+      "name": "active restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_98faa2a7ea",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "active restoration",
+          "start_char": 13514,
+          "end_char": 13532,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:449dc7e5b5f1",
+      "name": "passive restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a415adbc21",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "passive restoration",
+          "start_char": 14218,
+          "end_char": 14237,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51d4bd3b0277",
+      "name": "human-use lines",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_28d33abbfe",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "human-use lines",
+          "start_char": 2094,
+          "end_char": 2109,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61b3d2d28154",
+      "name": "control lines",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_93025c0582",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "control lines",
+          "start_char": 10074,
+          "end_char": 10087,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60edd1279b85",
+      "name": "seismic lines",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_64a4a0a62a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "seismic lines",
+          "start_char": 1094,
+          "end_char": 1107,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54a94c998593",
+      "name": "white-tailed deer use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bb27711826",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "white-tailed deer use"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:65574f14cd2d",
+      "name": "wolf use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6513a1dafc",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "wolf use"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dfd3559ac8a0",
+      "name": "caribou use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6f325b3349",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "caribou use",
+          "start_char": 21083,
+          "end_char": 21094,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5856b9004d8",
+      "name": "black bear use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cdfeae8051",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "black bear use"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:997832fbd7b5",
+      "name": "moose use",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d21be7d869",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "use",
+      "source_spans": [
+        {
+          "text": "moose use"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca221e70bc92",
+      "name": "snow presence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77f981ff44",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "snow presence",
+          "start_char": 22392,
+          "end_char": 22405,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d6977e6bfe46",
+      "name": "lowland habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9d64137585",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "lowland habitat",
+          "start_char": 2171,
+          "end_char": 2186,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eef818b1935f",
+      "name": "seismic line density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2235d339e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "seismic line density"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3125ed7cdead",
+      "name": "vegetation height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_99932ef0d0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "vegetation height",
+          "start_char": 22492,
+          "end_char": 22509,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1d06ea2c78b8",
+      "name": "forest succession",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c32824aeb3",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "forest succession",
+          "start_char": 5925,
+          "end_char": 5942,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:42f61469ffb9",
+      "name": "forest edge",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9549a3d287",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "forest edge",
+          "start_char": 5873,
+          "end_char": 5884,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea1f1f2caf59",
+      "name": "wolf travel distance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e8fdb1c1d9",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "travel distance",
+      "source_spans": [
+        {
+          "text": "wolf travel distance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5db11fdbcad4",
+      "name": "wolf travel speed",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c091f33945",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "AFO:_0000008",
+      "source_spans": [
+        {
+          "text": "wolf travel speed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1fec603b2a13",
+      "name": "wolf encounters with caribou",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f6298a4111",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "encounters",
+      "source_spans": [
+        {
+          "text": "wolf encounters with caribou",
+          "start_char": 7619,
+          "end_char": 7647,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7a2834795f7a",
+      "name": "wolf predation on caribou",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_017e0579d0",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "predation",
+      "source_spans": [
+        {
+          "text": "wolf predation on caribou",
+          "start_char": 8072,
+          "end_char": 8097,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e071156d8ed4",
+      "name": "caribou calf mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_df8f90573d",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "mortality",
+      "source_spans": [
+        {
+          "text": "caribou calf mortality",
+          "start_char": 8206,
+          "end_char": 8228,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f856914ea9bc",
+      "name": "habitat fragmentation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4311c2f9ee",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "habitat fragmentation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3c173b3fdee",
+      "name": "woodland caribou",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q2938777",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "woodland caribou",
+          "start_char": 1191,
+          "end_char": 1207,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3afd3e70997",
+      "name": "wolves",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_cc010dfa32",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "wolves",
+          "start_char": 1368,
+          "end_char": 1374,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ab2ca36423fa",
+      "name": "black bears",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_74ae347149",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "black bears",
+          "start_char": 1390,
+          "end_char": 1401,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b773ef961ee",
+      "name": "white-tailed deer",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q215887",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "white-tailed deer",
+          "start_char": 1988,
+          "end_char": 2005,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9f45a9af03d",
+      "name": "moose",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q35517",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "moose",
+          "start_char": 1518,
+          "end_char": 1523,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f724a622b2b1",
+      "subject": "causal_mosaic:node:9e3cf0d8b91f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54a94c998593",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deer use of actively restored lines was lower than their use of control lines",
+      "source_spans": [
+        {
+          "text": "Deer use of actively restored lines was lower than their use of control lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:13b8955439c7",
+      "subject": "causal_mosaic:node:9e3cf0d8b91f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:65574f14cd2d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "wolves and black bears did not use seismic lines less often following restoration",
+      "source_spans": [
+        {
+          "text": "wolves and black bears did not use seismic lines less often following restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b20913f50400",
+      "subject": "causal_mosaic:node:9e3cf0d8b91f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfd3559ac8a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "caribou did not use actively restored lines significantly more than controls",
+      "source_spans": [
+        {
+          "text": "caribou did not use actively restored lines significantly more than controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:04b6e4e8a0e2",
+      "subject": "causal_mosaic:node:51d4bd3b0277",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:65574f14cd2d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wolf use of human-use lines was higher than of control lines",
+      "source_spans": [
+        {
+          "text": "Wolf use of human-use lines was higher than of control lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f2def52d9c47",
+      "subject": "causal_mosaic:node:ca221e70bc92",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfd3559ac8a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The presence of snow on lines resulted in less frequent line use for caribou",
+      "source_spans": [
+        {
+          "text": "The presence of snow on lines resulted in less frequent line use for caribou"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:662141fa4188",
+      "subject": "causal_mosaic:node:ca221e70bc92",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:65574f14cd2d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The presence of snow on lines resulted in less frequent line use for caribou and wolves",
+      "source_spans": [
+        {
+          "text": "The presence of snow on lines resulted in less frequent line use for caribou and wolves"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7700548a3404",
+      "subject": "causal_mosaic:node:d6977e6bfe46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfd3559ac8a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lowland habitat had the strongest effect for caribou... with more frequent caribou use",
+      "source_spans": [
+        {
+          "text": "Lowland habitat had the strongest effect for caribou... with more frequent caribou use"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5788dfbdac90",
+      "subject": "causal_mosaic:node:d6977e6bfe46",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54a94c998593",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "and less frequent deer use of lowland sites",
+      "source_spans": [
+        {
+          "text": "and less frequent deer use of lowland sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:06164e3ed363",
+      "subject": "causal_mosaic:node:eef818b1935f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfd3559ac8a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher seismic line density resulted in less frequent line use for caribou",
+      "source_spans": [
+        {
+          "text": "Higher seismic line density resulted in less frequent line use for caribou"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a1fb8113af9",
+      "subject": "causal_mosaic:node:eef818b1935f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54a94c998593",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "but more frequent line use for deer",
+      "source_spans": [
+        {
+          "text": "but more frequent line use for deer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b60b9baa7222",
+      "subject": "causal_mosaic:node:3125ed7cdead",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c5856b9004d8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Black bears... line use was higher on lines with taller vegetation",
+      "source_spans": [
+        {
+          "text": "Black bears... line use was higher on lines with taller vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a223d2be7d87",
+      "subject": "causal_mosaic:node:3125ed7cdead",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:54a94c998593",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "deer... line use was higher on lines with taller vegetation",
+      "source_spans": [
+        {
+          "text": "deer... line use was higher on lines with taller vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b4eb45e336f5",
+      "subject": "causal_mosaic:node:3125ed7cdead",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:997832fbd7b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "and moose line use was higher on lines with taller vegetation",
+      "source_spans": [
+        {
+          "text": "and moose line use was higher on lines with taller vegetation",
+          "start_char": 21530,
+          "end_char": 21591,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2712a371e04f",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f856914ea9bc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seismic lines fragment caribou habitat",
+      "source_spans": [
+        {
+          "text": "Seismic lines fragment caribou habitat",
+          "start_char": 1307,
+          "end_char": 1345,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1b2f6e06f4bb",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:42f61469ffb9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "while increasing the amount of forest edge",
+      "source_spans": [
+        {
+          "text": "while increasing the amount of forest edge"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a434aefb25c5",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1d06ea2c78b8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "They also slow forest succession in this primarily lowland landscape",
+      "source_spans": [
+        {
+          "text": "They also slow forest succession in this primarily lowland landscape"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cdddac6b8de4",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ea1f1f2caf59",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Linear corridors also influence wolf movement by increasing their travel distance",
+      "source_spans": [
+        {
+          "text": "Linear corridors also influence wolf movement by increasing their travel distance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d7483c1bb704",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5db11fdbcad4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "and speed across challenging lowland terrain",
+      "source_spans": [
+        {
+          "text": "and speed across challenging lowland terrain",
+          "start_char": 7514,
+          "end_char": 7558,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:df375cc4bd64",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1fec603b2a13",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "and increasing wolf encounters with caribou",
+      "source_spans": [
+        {
+          "text": "and increasing wolf encounters with caribou",
+          "start_char": 7604,
+          "end_char": 7647,
+          "paragraph_id": "page:2"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:28928dc13819",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7a2834795f7a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Facilitation of wolf movement by seismic lines thus likely increases wolf predation on caribou",
+      "source_spans": [
+        {
+          "text": "Facilitation of wolf movement by seismic lines thus likely increases wolf predation on caribou"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f04671cd2f81",
+      "subject": "causal_mosaic:node:ab2ca36423fa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e071156d8ed4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "black bear use of seismic lines could contribute to caribou calf mortality",
+      "source_spans": [
+        {
+          "text": "black bear use of seismic lines could contribute to caribou calf mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c843922ee4c8",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3c173b3fdee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "ongoing and precipitous declines of populations of the woodland caribou... due to changes in predator-prey encounter rates caused by seismic lines",
+      "source_spans": [
+        {
+          "text": "ongoing and precipitous declines of populations of the woodland caribou... due to changes in predator-prey encounter rates caused by seismic lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2019.108295",
+        "title": "Mammal seismic line use varies with restoration: Applying habitat restoration to species at risk conservation in a working landscape",
+        "year": 2020,
+        "authors": [
+          "Tattersall, Erin R.",
+          "Burgar, Joanna M.",
+          "Fisher, Jason T.",
+          "Burton, A. Cole"
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

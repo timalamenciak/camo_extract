@@ -1,0 +1,586 @@
+{
+  "graph_id": "causal_mosaic:graph:2566a1c0ec4f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T04:50:11.297409+00:00",
+    "source_corpus": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:20b162bd1f2f",
+      "name": "Seed addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2ca7a9837f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Seed addition caused a small but significant increase in total cover of natives"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4033886cbfe",
+      "name": "Total cover of native plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5be64c004c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Seed addition caused a small but significant increase in total cover of natives"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca8672446756",
+      "name": "Native species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a0f94fd62",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Seed addition increased total native richness across all treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c2984fc8f016",
+      "name": "Sethoxydim combined with fall mowing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_394bc8e631",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sethoxydim combined with fall mowing reduced non-native grasses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64f86125a9ee",
+      "name": "Non-native grasses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9d3bd61388",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Sethoxydim combined with fall mowing reduced non-native grasses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be90a5b914a6",
+      "name": "Non-native forbs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b685a0fa6a",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "caused no change in non-native forbs",
+          "start_char": 2268,
+          "end_char": 2304,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bfada30ab3a1",
+      "name": "Joint application of sethoxydim, burning, and postfire glyphosate",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5c5e99d50f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "joint application of sethoxydim, burning, and postfire glyphosate",
+          "start_char": 2034,
+          "end_char": 2099,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b851e34acf30",
+      "name": "Native species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f2ca4db4e2",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "without causing a decline in native species",
+          "start_char": 2158,
+          "end_char": 2201,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9b78df93f53",
+      "name": "Mowing combined with burning and glyphosate application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1d41f6d12e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mowing was combined with burning and glyphosate application"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5af8f1644f5",
+      "name": "Disturbance treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6b4d247489",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Disturbance treatments reduced non-native cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c53860bb8fe",
+      "name": "Non-native cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_256be23cd0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Disturbance treatments reduced non-native cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c12410654c8d",
+      "name": "Moss cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd19ca2bfa",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "treatments that included burning and glyphosate (SBG and MBG) resulted in a significant decrease in moss cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c0be5b8cdc0",
+      "name": "Bare soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001616",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Bare soil increased only in the SBG and MBG treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07ee2662d0aa",
+      "name": "Repeated mowing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3e214d3c29",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Repeated mowing (MM) had no effect on these grasses"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:33c39f1055a4",
+      "subject": "causal_mosaic:node:20b162bd1f2f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4033886cbfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seed addition caused a small but significant increase in total cover of natives; unseeded plots averaged 22.4%, while seeded plots averaged 24%",
+      "source_spans": [
+        {
+          "text": "Seed addition caused a small but significant increase in total cover of natives; unseeded plots averaged 22.4%, while seeded plots averaged 24%"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e524a069d0a9",
+      "subject": "causal_mosaic:node:20b162bd1f2f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca8672446756",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seed addition increased total native richness across all treatments, with a mean plot richness of 12.9 species in seeded plots and 9.5 species in unseeded plots",
+      "source_spans": [
+        {
+          "text": "Seed addition increased total native richness across all treatments, with a mean plot richness of 12.9 species in seeded plots and 9.5 species in unseeded plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3ecac69b4b82",
+      "subject": "causal_mosaic:node:c2984fc8f016",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64f86125a9ee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sethoxydim combined with fall mowing reduced non-native grasses, caused no change in non-native forbs, and increased total cover of native plants.",
+      "source_spans": [
+        {
+          "text": "Sethoxydim combined with fall mowing reduced non-native grasses, caused no change in non-native forbs, and increased total cover of native plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3869c8b1bf8b",
+      "subject": "causal_mosaic:node:c2984fc8f016",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be90a5b914a6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sethoxydim combined with fall mowing reduced non-native grasses, caused no change in non-native forbs, and increased total cover of native plants.",
+      "source_spans": [
+        {
+          "text": "Sethoxydim combined with fall mowing reduced non-native grasses, caused no change in non-native forbs, and increased total cover of native plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0d2e0f81de1f",
+      "subject": "causal_mosaic:node:bfada30ab3a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b851e34acf30",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The most disturbance-intensive treatment combination (joint application of sethoxydim, burning, and postfire glyphosate) led to reduced abundance of non-native grasses and forbs without causing a decline in native species.",
+      "source_spans": [
+        {
+          "text": "The most disturbance-intensive treatment combination (joint application of sethoxydim, burning, and postfire glyphosate) led to reduced abundance of non-native grasses and forbs without causing a decline in native species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:82c3a7c02f98",
+      "subject": "causal_mosaic:node:b9b78df93f53",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64f86125a9ee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A significant reduction in non-native grasses did result when mowing was combined with burning and glyphosate application (MBG).",
+      "source_spans": [
+        {
+          "text": "A significant reduction in non-native grasses did result when mowing was combined with burning and glyphosate application (MBG)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7efd037c024e",
+      "subject": "causal_mosaic:node:f5af8f1644f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c53860bb8fe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In all cases, disturbance treatments reduced non-native cover to varying degrees but had no positive impact on native diversity except when seeds were added.",
+      "source_spans": [
+        {
+          "text": "In all cases, disturbance treatments reduced non-native cover to varying degrees but had no positive impact on native diversity except when seeds were added."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ff9fb4da8fcc",
+      "subject": "causal_mosaic:node:f5af8f1644f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca8672446756",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Disturbance treatments had no effect on native or non-native species richness (Appendix 1).",
+      "source_spans": [
+        {
+          "text": "Disturbance treatments had no effect on native or non-native species richness (Appendix 1)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a1bf7a5a1165",
+      "subject": "causal_mosaic:node:bfada30ab3a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c12410654c8d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "While all disturbance treatments reduced the cover of litter, only treatments that included burning and glyphosate (SBG and MBG) resulted in a significant decrease in moss cover (Figure 3).",
+      "source_spans": [
+        {
+          "text": "While all disturbance treatments reduced the cover of litter, only treatments that included burning and glyphosate (SBG and MBG) resulted in a significant decrease in moss cover (Figure 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:cec3ec2a1da9",
+      "subject": "causal_mosaic:node:bfada30ab3a1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1c0be5b8cdc0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bare soil increased only in the SBG and MBG treatments (Figure 3).",
+      "source_spans": [
+        {
+          "text": "Bare soil increased only in the SBG and MBG treatments (Figure 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d43ed9fd8d81",
+      "subject": "causal_mosaic:node:07ee2662d0aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64f86125a9ee",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Repeated mowing (MM) had no effect on these grasses",
+      "source_spans": [
+        {
+          "text": "Repeated mowing (MM) had no effect on these grasses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.29.1-2.35",
+        "title": "Multiple Treatment Combinations and Seed Addition Increase Abundance and Diversity of Native Plants in Pacific Northwest Prairies",
+        "year": 2011,
+        "authors": [
+          "Stanley, A. G.",
+          "Kaye, T. N.",
+          "Dunwiddie, P. W."
+        ],
+        "journal": "Ecological Restoration"
+      }
+    }
+  ]
+}

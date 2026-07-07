@@ -1,0 +1,666 @@
+{
+  "graph_id": "causal_mosaic:graph:34491f941e01",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T01:04:14.239924+00:00",
+    "source_corpus": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:253df8cf503e",
+      "name": "Acid mine drainage",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:00001997",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Acid mine drainage (AMD) results when water, oxygen and microorganisms oxidize pyrite ore",
+          "start_char": 2243,
+          "end_char": 2332,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8776f3b16b4",
+      "name": "Aquatic communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_91962edb6c",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "that can alter aquatic communities downstream"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c92a48a60e5",
+      "name": "Remediation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_881ff104a2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration of the site was undertaken in 2008 and completed in 2010"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6b5e4f609e25",
+      "name": "Trace metal concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3ee50984c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "concentrations of many trace metals declined substantially",
+          "start_char": 1355,
+          "end_char": 1413,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fffb662b6954",
+      "name": "Acidity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_61b043fa86",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "acidity of the water entering Lake Arnoux",
+          "start_char": 24965,
+          "end_char": 25006,
+          "paragraph_id": "page:19"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "lakewater pH increased by about one unit",
+          "start_char": 1306,
+          "end_char": 1346,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fbbbf6b790d1",
+      "name": "Metal mobility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_970171353e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "lower pH that likely increased metal mobility"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b2877df43233",
+      "name": "Sedimentary metals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a4cc0656e7",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "toxicity due to sedimentary metals can continue",
+          "start_char": 28016,
+          "end_char": 28063,
+          "paragraph_id": "page:21"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07743cce4ceb",
+      "name": "Toxicity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_113b33c707",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "toxicity due to sedimentary metals can continue",
+          "start_char": 28016,
+          "end_char": 28063,
+          "paragraph_id": "page:21"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:826676d05e3c",
+      "name": "Disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_518d83382f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Disturbances such as this would likely delay the recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:74807eafe9d5",
+      "name": "Recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e3ab370d05",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "delay the recovery of fish and planktonic communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c48bec0f2ca9",
+      "name": "Taxonomic richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_58503d56b4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "taxonomic richness of both Trichoptera and Ephemeroptera being reported to decrease"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d731721a51f3",
+      "name": "Large individuals",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_13addd00ba",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "significant impact of pH and several metals on only large individuals"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd3534e4a39c",
+      "name": "Predators",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_5de227acc1",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "absence of predators",
+          "start_char": 33232,
+          "end_char": 33252,
+          "paragraph_id": "page:23"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5edbae32fd06",
+      "name": "Biotic indexes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b074b8a937",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "biotic indexes exhibited significant improvement"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c0869ae978e",
+      "name": "Metal concentrations in invertebrates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_51b2addf7f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "metal concentrations in invertebrates initially increase"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:753e3bdc84f6",
+      "name": "Food resources",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e52f182777",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "shortage of food resources",
+          "start_char": 33189,
+          "end_char": 33215,
+          "paragraph_id": "page:23"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:aa0d618a9af6",
+      "subject": "causal_mosaic:node:253df8cf503e",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:a8776f3b16b4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Acid mine drainage (AMD) results when water, oxygen and microorganisms oxidize pyrite ore (Massmann et al. 2003) and in mine tailings (D. B. Johnson et al. 2005) , thereby releasing dissolved metals in highly acidic solution (Chen et al. 2015; Massmann et al. 2003) that can alter aquatic communities downstream (DeNicola et al. 2002; Hogsden et al. 2012), in streams (Battaglia et al. 2005; Malmqvist et al. 1999) as well as in lakes (Azcue et al. 1995; A. Johnson et al. 1997) .",
+      "source_spans": [
+        {
+          "text": "Acid mine drainage (AMD) results when water, oxygen and microorganisms oxidize pyrite ore (Massmann et al. 2003) and in mine tailings (D. B. Johnson et al. 2005) , thereby releasing dissolved metals in highly acidic solution (Chen et al. 2015; Massmann et al. 2003) that can alter aquatic communities downstream (DeNicola et al. 2002; Hogsden et al. 2012), in streams (Battaglia et al. 2005; Malmqvist et al. 1999) as well as in lakes (Azcue et al. 1995; A. Johnson et al. 1997) ."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[0].predicate: unknown 'alters' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:9eefd929234c",
+      "subject": "causal_mosaic:node:6c92a48a60e5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6b5e4f609e25",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following remediation, in 2011, there was a strong decrease in the concentrations of most major ions and trace metals (e.g., Fe: -90%) and pH values had increased by 0.75 to 1.79 units at stations in Lake Arnoux .",
+      "source_spans": [
+        {
+          "text": "Following remediation, in 2011, there was a strong decrease in the concentrations of most major ions and trace metals (e.g., Fe: -90%) and pH values had increased by 0.75 to 1.79 units at stations in Lake Arnoux ."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:796b3b23e3f2",
+      "subject": "causal_mosaic:node:6c92a48a60e5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fffb662b6954",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following remediation, in 2011, there was a strong decrease in the concentrations of most major ions and trace metals (e.g., Fe: -90%) and pH values had increased by 0.75 to 1.79 units at stations in Lake Arnoux .",
+      "source_spans": [
+        {
+          "text": "Following remediation, in 2011, there was a strong decrease in the concentrations of most major ions and trace metals (e.g., Fe: -90%) and pH values had increased by 0.75 to 1.79 units at stations in Lake Arnoux ."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d6b01ceb1194",
+      "subject": "causal_mosaic:node:6c92a48a60e5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c830811facfe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Following remediation, in 2011, there was a strong decrease in the concentrations of most major ions and trace metals (e.g., Fe: -90%) and pH values had increased by 0.75 to 1.79 units at stations in Lake Arnoux .",
+      "source_spans": [
+        {
+          "text": "Following remediation, in 2011, there was a strong decrease in the concentrations of most major ions and trace metals (e.g., Fe: -90%) and pH values had increased by 0.75 to 1.79 units at stations in Lake Arnoux ."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:454b39adaf33",
+      "subject": "causal_mosaic:node:c830811facfe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fbbbf6b790d1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The increasing concentrations of some metals ( Fe, Cu and Ni ) at the DAS station , linked with a lower pH that likely increased metal mobility, suggests that the positive effects of a reduction in AMD has not yet been manifested at this distant station (12 km from the source of the AMD).",
+      "source_spans": [
+        {
+          "text": "The increasing concentrations of some metals ( Fe, Cu and Ni ) at the DAS station , linked with a lower pH that likely increased metal mobility, suggests that the positive effects of a reduction in AMD has not yet been manifested at this distant station (12 km from the source of the AMD)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:464a7c71a469",
+      "subject": "causal_mosaic:node:b2877df43233",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07743cce4ceb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Thus toxicity due to sedimentary metals can continue long after metal concentrations in the overlying water have returned to background levels (Besser et al. 2007).",
+      "source_spans": [
+        {
+          "text": "Thus toxicity due to sedimentary metals can continue long after metal concentrations in the overlying water have returned to background levels (Besser et al. 2007)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:614f83802c15",
+      "subject": "causal_mosaic:node:826676d05e3c",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:74807eafe9d5",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Disturbances such as this would likely delay the recovery of fish and planktonic communities (García-García et al. 2012).",
+      "source_spans": [
+        {
+          "text": "Disturbances such as this would likely delay the recovery of fish and planktonic communities (García-García et al. 2012)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[6].predicate: unknown 'delays' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:8f1707143a25",
+      "subject": "causal_mosaic:node:6b5e4f609e25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c48bec0f2ca9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 2010, the near-absence of Ephemeroptera (only 1 individual at the reference station DAS) and the absence of Odonata and Trichoptera were likely signs of deleterious conditions, the taxonomic richness of both Trichoptera and Ephemeroptera being reported to decrease with increasing metal concentrations (Malmqvist et al. 1999) .",
+      "source_spans": [
+        {
+          "text": "In 2010, the near-absence of Ephemeroptera (only 1 individual at the reference station DAS) and the absence of Odonata and Trichoptera were likely signs of deleterious conditions, the taxonomic richness of both Trichoptera and Ephemeroptera being reported to decrease with increasing metal concentrations (Malmqvist et al. 1999) ."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:801d3397c9cc",
+      "subject": "causal_mosaic:node:c830811facfe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d731721a51f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results showed a significant impact of pH and several metals on only large individuals, which are apparently more sensitive to low pH and metals than smaller individuals.",
+      "source_spans": [
+        {
+          "text": "Our results showed a significant impact of pH and several metals on only large individuals, which are apparently more sensitive to low pH and metals than smaller individuals."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f92724e16ff0",
+      "subject": "causal_mosaic:node:753e3bdc84f6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd3534e4a39c",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The shortage of food resources may explain the absence of predators, and the presence of gatherer and filterers may be more related to the tolerance of the species than their feeding habits.",
+      "source_spans": [
+        {
+          "text": "The shortage of food resources may explain the absence of predators, and the presence of gatherer and filterers may be more related to the tolerance of the species than their feeding habits."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3272a220e5f2",
+      "subject": "causal_mosaic:node:6c92a48a60e5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5edbae32fd06",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The biotic indexes exhibited significant improvement after the restoration, with a greater impact for the stations closest to the source of contamination.",
+      "source_spans": [
+        {
+          "text": "The biotic indexes exhibited significant improvement after the restoration, with a greater impact for the stations closest to the source of contamination."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6e125733f3c",
+      "subject": "causal_mosaic:node:c830811facfe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c0869ae978e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, the recovery process can be hampered if metal concentrations in invertebrates initially increase with increasing lakewater pH (Croteau et al. 2002).",
+      "source_spans": [
+        {
+          "text": "However, the recovery process can be hampered if metal concentrations in invertebrates initially increase with increasing lakewater pH (Croteau et al. 2002)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-017-3671-3",
+        "title": "Influence of Acid Mine Drainage, and Its Remediation, on Lakewater Quality and Benthic Invertebrate Communities",
+        "year": 2018,
+        "authors": [
+          "Mocq, Julien",
+          "Hare, Landis"
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "graph_id": "causal_mosaic:graph:87595da4cbca",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T13:18:30.979572+00:00",
+    "source_corpus": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6bccb32f2ace",
+      "name": "Scarification",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_54073252f0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We evaluated scarification, spot fertilization, and increased seedling foliar N concentration as treatments to promote planted black spruce ( Picea mariana (Mill.) BSP) seedling survival and growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18d57012d257",
+      "name": "Seedling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0a6cd1d6a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "Seedling heights were greater in the scarified plots (S1 and S2) than in the unscarified ones (S0); this difference increased with time"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bc5ee6196b02",
+      "name": "Aboveground biomass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_39242f5e25",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "biomass",
+      "source_spans": [
+        {
+          "text": "The positive effect of scarification on GLD and biomass was enhanced when seedlings were fertilized"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6788b6f053f3",
+      "name": "Soil temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200012",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000146",
+      "source_spans": [
+        {
+          "text": "From early June to early September of each year, the soil temperature was systematically higher in the S1 and S2 plots than in the S0 plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c35874c52803",
+      "name": "Abundance of ericaceous shrubs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d38ab4c70",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Scarification was associated with the emergence of species that were not observed in control plots; the treatments favoured the emergence of intolerant, early-successional species and significantly reduced the abundance of ericaceous shrubs."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1755b3ccdcea",
+      "name": "Seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "After three growing seasons (October 2002) fertilization had a significant adverse effect on seedling survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:30ed6482d640",
+      "name": "Foliar N concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e1a1264ed7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Fertilization at time of planting decreased fifth-year foliar N concentration by 5% compared with F0"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a86354c0f6de",
+      "name": "Foliar P concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3b65fc8771",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Fertilization, either F1 or F2, significantly reduced the foliar P concentration in N1 seedlings compared with F0"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ee1def4707a5",
+      "name": "Soil extractable P",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4549464b84",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "In 2001, P concentrations were 30% lower in scarified plots than in control plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c92ea392ecf8",
+      "name": "Soil extractable Ca",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_98040b9d71",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Scarification, either single- or double-pass, significantly enhanced soil extractable Ca concentrations in 2003"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48083cdd7f26",
+      "name": "Fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_20f5fdd40b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We evaluated scarification, spot fertilization, and increased seedling foliar N concentration as treatments to promote planted black spruce ( Picea mariana (Mill.) BSP) seedling survival and growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3639e2facec6",
+      "name": "Initial foliar N concentration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a4fdcf5bbf",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We evaluated scarification, spot fertilization, and increased seedling foliar N concentration as treatments to promote planted black spruce ( Picea mariana (Mill.) BSP) seedling survival and growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f66ad1789d5",
+      "name": "Double-pass scarification",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_543668036f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "double-pass scarification proved slightly more effective than a single-pass treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c192e898b13",
+      "name": "Single-pass scarification",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1886cc6227",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "double-pass scarification proved slightly more effective than a single-pass treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:abc69339a777",
+      "name": "Forest Paks fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b72b4fabe8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Forest Pak fertilization (F1) was associated with 3% mortality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dbd6565fe028",
+      "name": "Silva Paks fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f8c1bac932",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "seedlings fertilized with Silva Pak (F2) exhibited 13%"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c539be56749f",
+      "name": "Kalmia angustifolia",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3192236",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Kalmia angustifolia L. – Rhododendron groenlandicum (Oeder) K.A. Kron & Judd cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a560fa73b0ef",
+      "name": "Rhododendron groenlandicum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q247753",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Kalmia angustifolia L. – Rhododendron groenlandicum (Oeder) K.A. Kron & Judd cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07964eb75f25",
+      "name": "Picea mariana",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q218425",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "promote planted black spruce ( Picea mariana (Mill.) BSP) seedling survival and growth",
+          "start_char": 762,
+          "end_char": 848,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8e60ede871a7",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18d57012d257",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedling heights were greater in the scarified plots (S1 and S2) than in the unscarified ones (S0); this difference increased with time",
+      "source_spans": [
+        {
+          "text": "Seedling heights were greater in the scarified plots (S1 and S2) than in the unscarified ones (S0); this difference increased with time"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:48b0ecdcdc80",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bc5ee6196b02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The positive effect of scarification on GLD and biomass was enhanced when seedlings were fertilized",
+      "source_spans": [
+        {
+          "text": "The positive effect of scarification on GLD and biomass was enhanced when seedlings were fertilized"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:75b1975125c7",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6788b6f053f3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "From early June to early September of each year, the soil temperature was systematically higher in the S1 and S2 plots than in the S0 plots",
+      "source_spans": [
+        {
+          "text": "From early June to early September of each year, the soil temperature was systematically higher in the S1 and S2 plots than in the S0 plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:18f069cf2106",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c35874c52803",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Scarification was associated with the emergence of species that were not observed in control plots; the treatments favoured the emergence of intolerant, early-successional species and significantly reduced the abundance of ericaceous shrubs.",
+      "source_spans": [
+        {
+          "text": "Scarification was associated with the emergence of species that were not observed in control plots; the treatments favoured the emergence of intolerant, early-successional species and significantly reduced the abundance of ericaceous shrubs."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f8acdf3ca95b",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1755b3ccdcea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization at time of planting decreased fifth-year foliar N concentration by 5% compared with F0",
+      "source_spans": [
+        {
+          "text": "Fertilization at time of planting decreased fifth-year foliar N concentration by 5% compared with F0"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0efebc11ca34",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:30ed6482d640",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization, either F1 or F2, significantly reduced the foliar P concentration in N1 seedlings compared with F0",
+      "source_spans": [
+        {
+          "text": "Fertilization, either F1 or F2, significantly reduced the foliar P concentration in N1 seedlings compared with F0"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d0e1e53bbef2",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a86354c0f6de",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 2001, P concentrations were 30% lower in scarified plots than in control plots",
+      "source_spans": [
+        {
+          "text": "In 2001, P concentrations were 30% lower in scarified plots than in control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b59d9b43252",
+      "subject": "causal_mosaic:node:6bccb32f2ace",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee1def4707a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Scarification, either single- or double-pass, significantly enhanced soil extractable Ca concentrations in 2003",
+      "source_spans": [
+        {
+          "text": "Scarification, either single- or double-pass, significantly enhanced soil extractable Ca concentrations in 2003"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c73e842dbcd1",
+      "subject": "causal_mosaic:node:3639e2facec6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18d57012d257",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedling heights were greater in the scarified plots (S1 and S2) than in the unscarified ones (S0); this difference increased with time",
+      "source_spans": [
+        {
+          "text": "Seedling heights were greater in the scarified plots (S1 and S2) than in the unscarified ones (S0); this difference increased with time"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f0de7a1cf5f2",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1755b3ccdcea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Gains due to increased N concentrations based on nursery practices were significant but short-lived.",
+      "source_spans": [
+        {
+          "text": "Gains due to increased N concentrations based on nursery practices were significant but short-lived."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ed1fef41092f",
+      "subject": "causal_mosaic:node:abc69339a777",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1755b3ccdcea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest Pak fertilization (F1) was associated with 3% mortality",
+      "source_spans": [
+        {
+          "text": "Forest Pak fertilization (F1) was associated with 3% mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d9d4564b2528",
+      "subject": "causal_mosaic:node:dbd6565fe028",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1755b3ccdcea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest Pak fertilization (F1) was associated with 3% mortality",
+      "source_spans": [
+        {
+          "text": "Forest Pak fertilization (F1) was associated with 3% mortality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/x06-090",
+        "title": "How to shift unproductive <i>Kalmia angustifolia – Rhododendron</i> <i>groenlandicum</i> heath to productive conifer plantation",
+        "year": 2006,
+        "authors": [
+          "Thiffault, Nelson",
+          "Jobidon, Robert"
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

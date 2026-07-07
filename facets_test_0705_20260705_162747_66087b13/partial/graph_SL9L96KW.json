@@ -1,0 +1,506 @@
+{
+  "graph_id": "causal_mosaic:graph:54f4f45775c2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T19:52:12.783808+00:00",
+    "source_corpus": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c32a4e95c8ec",
+      "name": "Mechanical site preparation (mounding and ripping)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4f54a8bd42",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:708912e7db81",
+      "name": "tree density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a0c5c06cc3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f9ed39415220",
+      "name": "Untreated seismic lines",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62ec43d1a3",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Untreated seismic lines consistently had lower tree stem density for bog, rich fen, and poor mesic ecosites when compared to adjacent reference forests"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d394a1443d83",
+      "name": "tree stem density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c0468ac6de",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "Untreated seismic lines consistently had lower tree stem density for bog, rich fen, and poor mesic ecosites when compared to adjacent reference forests"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b2ba4b277a16",
+      "name": "restoration treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_24282326f0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the application of restoration treatments increases the tree regeneration rates across all ecosites",
+          "start_char": 37165,
+          "end_char": 37264,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c72dcab8e534",
+      "name": "tree regeneration rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_257ced0507",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "rates",
+      "source_spans": [
+        {
+          "text": "the application of restoration treatments increases the tree regeneration rates across all ecosites",
+          "start_char": 37165,
+          "end_char": 37264,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60edd1279b85",
+      "name": "seismic lines",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_64a4a0a62a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "the presence of a seismic line lowers the tree regeneration rates",
+          "start_char": 37090,
+          "end_char": 37155,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91d1546eab91",
+      "name": "Mounding and planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0204c83ff2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restoration treatments consistently increased the numbers of tree stems in bogs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6b6ef209cdb7",
+      "name": "tree stem density in bogs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6ac62d1e4a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "Restoration treatments consistently increased the numbers of tree stems in bogs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a212ce352918",
+      "name": "Ripping and planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_33d9f2c014",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Poor mesic sites benefitted the most of all of the ecosites from their restoration treatment, here being ripping and planting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:93487c80d7de",
+      "name": "tree regeneration in poor mesic sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fe1b0d597e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "regeneration",
+      "source_spans": [
+        {
+          "text": "Poor mesic sites benefitted the most of all of the ecosites from their restoration treatment, here being ripping and planting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80bc270c0285",
+      "name": "lichen and graminoid ground cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_929f686289",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "abundance of lichen and graminoids, which were detrimental to regeneration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f40f6de7cb6",
+      "name": "regeneration in poor fens",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_981bc5fb43",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "regeneration",
+      "source_spans": [
+        {
+          "text": "abundance of lichen and graminoids, which were detrimental to regeneration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa107f142ff6",
+      "name": "stand height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0c48c0da8f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Tree regeneration in rich fens was positively affected by the restoration treatment and stand height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f866c3befde8",
+      "name": "tree regeneration in rich fens",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_18339d6e54",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "regeneration",
+      "source_spans": [
+        {
+          "text": "Tree regeneration in rich fens was positively affected by the restoration treatment and stand height"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b870a600941e",
+      "subject": "causal_mosaic:node:c32a4e95c8ec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:708912e7db81",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9f9a555f768e",
+      "subject": "causal_mosaic:node:f9ed39415220",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d394a1443d83",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Untreated seismic lines consistently had lower tree stem density for bog, rich fen, and poor mesic ecosites when compared to adjacent reference forests",
+      "source_spans": [
+        {
+          "text": "Untreated seismic lines consistently had lower tree stem density for bog, rich fen, and poor mesic ecosites when compared to adjacent reference forests"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f03dc7c8401f",
+      "subject": "causal_mosaic:node:b2ba4b277a16",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c72dcab8e534",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the application of restoration treatments increases the tree regeneration rates across all ecosites",
+      "source_spans": [
+        {
+          "text": "the application of restoration treatments increases the tree regeneration rates across all ecosites",
+          "start_char": 37165,
+          "end_char": 37264,
+          "paragraph_id": "page:9"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6ba8d2ea321c",
+      "subject": "causal_mosaic:node:60edd1279b85",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c72dcab8e534",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "the presence of a seismic line lowers the tree regeneration rates",
+      "source_spans": [
+        {
+          "text": "the presence of a seismic line lowers the tree regeneration rates",
+          "start_char": 37090,
+          "end_char": 37155,
+          "paragraph_id": "page:9"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6c5f1b84db2b",
+      "subject": "causal_mosaic:node:91d1546eab91",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6b6ef209cdb7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restoration treatments consistently increased the numbers of tree stems in bogs",
+      "source_spans": [
+        {
+          "text": "Restoration treatments consistently increased the numbers of tree stems in bogs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2b3cf090e487",
+      "subject": "causal_mosaic:node:a212ce352918",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:93487c80d7de",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Poor mesic sites benefitted the most of all of the ecosites from their restoration treatment, here being ripping and planting",
+      "source_spans": [
+        {
+          "text": "Poor mesic sites benefitted the most of all of the ecosites from their restoration treatment, here being ripping and planting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:71b31d39bf99",
+      "subject": "causal_mosaic:node:80bc270c0285",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f40f6de7cb6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "abundance of lichen and graminoids, which were detrimental to regeneration",
+      "source_spans": [
+        {
+          "text": "abundance of lichen and graminoids, which were detrimental to regeneration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8840df4ae6b5",
+      "subject": "causal_mosaic:node:fa107f142ff6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f866c3befde8",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Tree regeneration in rich fens was positively affected by the restoration treatment and stand height",
+      "source_spans": [
+        {
+          "text": "Tree regeneration in rich fens was positively affected by the restoration treatment and stand height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "graph_id": "causal_mosaic:graph:9e9b791cd8de",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T22:35:07.598535+00:00",
+    "source_corpus": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e804d31110f2",
+      "name": "Mine reclamation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c0b52acee2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91c57c13d2f9",
+      "name": "Habitats for wild ungulates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_61208d10ec",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:94c418f6a1b3",
+      "name": "Reclamation prescription",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d2a6710101",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "reclamation prescription applied in our study area was highly effective at providing habitat features for ungulates"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b27fceda6336",
+      "name": "Habitat features",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ae5f4aae84",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "reclamation prescription applied in our study area was highly effective at providing habitat features for ungulates"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:06725f9df639",
+      "name": "Reclaimed grasslands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_86a787445f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Both elk and mule deer selected reclaimed grasslands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:920d4899e754",
+      "name": "High walls",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5f555d9979",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep, however, strongly selected the high walls",
+          "start_char": 32023,
+          "end_char": 32079,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b3823bf225a0",
+      "name": "Disturbed areas",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eaac425201",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8e6578ae8e28",
+      "name": "Haul roads",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c69c1d2124",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b099aa31f641",
+      "name": "Main roads",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_75f4705139",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7317674337bc",
+      "name": "High RTPs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3168afdf35",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "All study species selected high RTPs",
+          "start_char": 34553,
+          "end_char": 34589,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:da93f78f299c",
+      "name": "Rugged terrain",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20d1f5ac05",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Elk avoided rugged terrain and forests",
+          "start_char": 34817,
+          "end_char": 34855,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5ad22b2a32d3",
+      "name": "Forests",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_76b8120feb",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Elk avoided rugged terrain and forests",
+          "start_char": 34817,
+          "end_char": 34855,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b44eee96a372",
+      "name": "Riparian areas",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_04a0708e50",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Both elk and mule deer avoided riparian areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a37f93dd6c87",
+      "name": "Edge habitats",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a058703fb9",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Only bighorn sheep avoided edge habitats."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84a828d2100c",
+      "name": "Bighorn sheep habitat selection",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f7ec20ea8e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        },
+        {
+          "text": "Both elk and mule deer selected reclaimed grasslands"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:762b11f3548a",
+      "subject": "causal_mosaic:node:e804d31110f2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91c57c13d2f9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+      "source_spans": [
+        {
+          "text": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4ec690db735",
+      "subject": "causal_mosaic:node:94c418f6a1b3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b27fceda6336",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "reclamation prescription applied in our study area was highly effective at providing habitat features for ungulates",
+      "source_spans": [
+        {
+          "text": "reclamation prescription applied in our study area was highly effective at providing habitat features for ungulates"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0cc9aad516b6",
+      "subject": "causal_mosaic:node:06725f9df639",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both elk and mule deer selected reclaimed grasslands",
+      "source_spans": [
+        {
+          "text": "Both elk and mule deer selected reclaimed grasslands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:54ecf44d04fd",
+      "subject": "causal_mosaic:node:920d4899e754",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bighorn sheep, however, strongly selected the high walls",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep, however, strongly selected the high walls",
+          "start_char": 32023,
+          "end_char": 32079,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:080a19def32d",
+      "subject": "causal_mosaic:node:b3823bf225a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bighorn sheep selected disturbed areas, haul roads, and main roads.",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1fde78879d32",
+      "subject": "causal_mosaic:node:8e6578ae8e28",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bighorn sheep selected disturbed areas, haul roads, and main roads.",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:18e5cd5c3b03",
+      "subject": "causal_mosaic:node:b099aa31f641",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bighorn sheep selected disturbed areas, haul roads, and main roads.",
+      "source_spans": [
+        {
+          "text": "Bighorn sheep selected disturbed areas, haul roads, and main roads."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3b11d2a1e082",
+      "subject": "causal_mosaic:node:8e6578ae8e28",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Elk, however, selected haul roads but avoided disturbed areas.",
+      "source_spans": [
+        {
+          "text": "Elk, however, selected haul roads but avoided disturbed areas."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b9306c185ca8",
+      "subject": "causal_mosaic:node:b3823bf225a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Elk, however, selected haul roads but avoided disturbed areas.",
+      "source_spans": [
+        {
+          "text": "Elk, however, selected haul roads but avoided disturbed areas."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:269ce8e0d68c",
+      "subject": "causal_mosaic:node:b3823bf225a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mule deer selected disturbed areas and avoided haul roads",
+      "source_spans": [
+        {
+          "text": "Mule deer selected disturbed areas and avoided haul roads",
+          "start_char": 33907,
+          "end_char": 33964,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2c13df8bb24a",
+      "subject": "causal_mosaic:node:8e6578ae8e28",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mule deer selected disturbed areas and avoided haul roads",
+      "source_spans": [
+        {
+          "text": "Mule deer selected disturbed areas and avoided haul roads",
+          "start_char": 33907,
+          "end_char": 33964,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4035c47f5d3e",
+      "subject": "causal_mosaic:node:7317674337bc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All study species selected high RTPs",
+      "source_spans": [
+        {
+          "text": "All study species selected high RTPs",
+          "start_char": 34553,
+          "end_char": 34589,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1517b0a63f21",
+      "subject": "causal_mosaic:node:da93f78f299c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Elk avoided rugged terrain and forests",
+      "source_spans": [
+        {
+          "text": "Elk avoided rugged terrain and forests",
+          "start_char": 34817,
+          "end_char": 34855,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e53c63fff8f1",
+      "subject": "causal_mosaic:node:5ad22b2a32d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Elk avoided rugged terrain and forests",
+      "source_spans": [
+        {
+          "text": "Elk avoided rugged terrain and forests",
+          "start_char": 34817,
+          "end_char": 34855,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0d90823627fe",
+      "subject": "causal_mosaic:node:b44eee96a372",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both elk and mule deer avoided riparian areas",
+      "source_spans": [
+        {
+          "text": "Both elk and mule deer avoided riparian areas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5d245447dc08",
+      "subject": "causal_mosaic:node:a37f93dd6c87",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84a828d2100c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Only bighorn sheep avoided edge habitats.",
+      "source_spans": [
+        {
+          "text": "Only bighorn sheep avoided edge habitats."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13137",
+        "title": "Mine reclamation enhances habitats for wild ungulates in west‐central Alberta",
+        "year": 2020,
+        "authors": [
+          "Beale, Meghan M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

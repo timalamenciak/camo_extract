@@ -1,0 +1,767 @@
+{
+  "graph_id": "causal_mosaic:graph:8fd4dff4434f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T21:42:13.083617+00:00",
+    "source_corpus": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c4a8e7224222",
+      "name": "wolf predation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e978f9d5f6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The primary causes of elk mortality included wolf predation (25% of mortalities)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c83df1684ed",
+      "name": "elk mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77454653d4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mortality of the released elk averaged 41% (190/460) during 1998–2004"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:23e12368e27b",
+      "name": "illegal shooting",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9fb847a844",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "illegal shooting (13%)",
+          "start_char": 1304,
+          "end_char": 1326,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99ca88e5dcd3",
+      "name": "stress-related emaciation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3529a31b0d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "stress-related emaciation (13%) (partially due to the stress of relocation)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:592a6d748212",
+      "name": "bacterial infections",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4b49211f77",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "bacterial infections (7%)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:179c11029350",
+      "name": "collisions with vehicles",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4d86efe09e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "collisions with vehicles (6%)",
+          "start_char": 1440,
+          "end_char": 1469,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d4c860436040",
+      "name": "productivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6587ed4437",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "productivity has been low in two of the northern release areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d35651c7e5c1",
+      "name": "elk populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dbf05c6cc4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Wolf predation and illegal shooting are limiting elk populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:698ad6c24d71",
+      "name": "length of time animals were kept in pens prior to release",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cdc6480f60",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "dispersion of elk appeared to be related to the length of time animals were kept in pens prior to release"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7cdb27ac0017",
+      "name": "dispersion of elk",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cc63ad6078",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "dispersion of elk appeared to be related to the length of time animals were kept in pens prior to release"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba8b7f19bf6d",
+      "name": "high snow depths",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7add1910c9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "calf mortality in some areas of Ontario may be high due to a variety of mortality factors (i.e., wolf predation, high snow depths, poor ice conditions, etc.)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d2e9e5ee831",
+      "name": "calf mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ffbee218b0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "calf mortality in some areas of Ontario may be high",
+          "start_char": 28774,
+          "end_char": 28825,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b6b0a65e2815",
+      "name": "low bull:cow ratio",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38b73be91d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Poor calf recruitment in the LOW area may also have been due to a low bull:cow ratio"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9d3c5119a59c",
+      "name": "calf recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cd888d67f9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Poor calf recruitment in the LOW area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b18274f8c174",
+      "name": "meningeal worm infection",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a0835ace8c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Meningeal worm infection may play some role in limiting elk populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f24d77862dd4",
+      "name": "comprehensive disease management plan",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_60eda08e39",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "A comprehensive disease management plan is a prerequisite for any mammalian restoration plan"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2a85fc96b946",
+      "name": "impact of infectious diseases",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_321c3abfe2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "This should minimize the impact of infectious diseases and parasites in the release area"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e576d959be2f",
+      "subject": "causal_mosaic:node:c4a8e7224222",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c83df1684ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The primary causes of elk mortality included wolf predation (25% of mortalities)",
+      "source_spans": [
+        {
+          "text": "The primary causes of elk mortality included wolf predation (25% of mortalities)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:86bb223d0e48",
+      "subject": "causal_mosaic:node:23e12368e27b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c83df1684ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "illegal shooting (13%)",
+      "source_spans": [
+        {
+          "text": "illegal shooting (13%)",
+          "start_char": 1304,
+          "end_char": 1326,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e34ea6244dcf",
+      "subject": "causal_mosaic:node:99ca88e5dcd3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c83df1684ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "stress-related emaciation (13%) (partially due to the stress of relocation)",
+      "source_spans": [
+        {
+          "text": "stress-related emaciation (13%) (partially due to the stress of relocation)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2a0a62617aec",
+      "subject": "causal_mosaic:node:592a6d748212",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c83df1684ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "bacterial infections (7%)",
+      "source_spans": [
+        {
+          "text": "bacterial infections (7%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:280ecd822e64",
+      "subject": "causal_mosaic:node:179c11029350",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c83df1684ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "collisions with vehicles (6%)",
+      "source_spans": [
+        {
+          "text": "collisions with vehicles (6%)",
+          "start_char": 1440,
+          "end_char": 1469,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aa47b650f1f0",
+      "subject": "causal_mosaic:node:c4a8e7224222",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d4c860436040",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "productivity has been low in two of the northern release areas due to a variety of factors including wolf predation",
+      "source_spans": [
+        {
+          "text": "productivity has been low in two of the northern release areas due to a variety of factors including wolf predation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:999f09ccbf1d",
+      "subject": "causal_mosaic:node:c4a8e7224222",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d35651c7e5c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wolf predation and illegal shooting are limiting elk populations",
+      "source_spans": [
+        {
+          "text": "Wolf predation and illegal shooting are limiting elk populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9acb822ddb89",
+      "subject": "causal_mosaic:node:23e12368e27b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d35651c7e5c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wolf predation and illegal shooting are limiting elk populations",
+      "source_spans": [
+        {
+          "text": "Wolf predation and illegal shooting are limiting elk populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7e80cc29e343",
+      "subject": "causal_mosaic:node:698ad6c24d71",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7cdb27ac0017",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "dispersion of elk appeared to be related to the length of time animals were kept in pens prior to release",
+      "source_spans": [
+        {
+          "text": "dispersion of elk appeared to be related to the length of time animals were kept in pens prior to release"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cff95ba0c6ef",
+      "subject": "causal_mosaic:node:698ad6c24d71",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c83df1684ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Those elk [held for considerable periods]... mortality has been lower than during years when elk were hard released or only held for a short period of time",
+      "source_spans": [
+        {
+          "text": "Those elk [held for considerable periods]... mortality has been lower than during years when elk were hard released or only held for a short period of time"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3130a57831bd",
+      "subject": "causal_mosaic:node:ba8b7f19bf6d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8d2e9e5ee831",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "calf mortality in some areas of Ontario may be high due to a variety of mortality factors (i.e., wolf predation, high snow depths, poor ice conditions, etc.)",
+      "source_spans": [
+        {
+          "text": "calf mortality in some areas of Ontario may be high due to a variety of mortality factors (i.e., wolf predation, high snow depths, poor ice conditions, etc.)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cb56c6c59dc5",
+      "subject": "causal_mosaic:node:b6b0a65e2815",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9d3c5119a59c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Poor calf recruitment in the LOW area may also have been due to a low bull:cow ratio",
+      "source_spans": [
+        {
+          "text": "Poor calf recruitment in the LOW area may also have been due to a low bull:cow ratio"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee067d6e7698",
+      "subject": "causal_mosaic:node:b18274f8c174",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d35651c7e5c1",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Meningeal worm infection may play some role in limiting elk populations",
+      "source_spans": [
+        {
+          "text": "Meningeal worm infection may play some role in limiting elk populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a64983118079",
+      "subject": "causal_mosaic:node:f24d77862dd4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2a85fc96b946",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A comprehensive disease management plan is a prerequisite for any mammalian restoration plan... This should minimize the impact of infectious diseases and parasites in the release area",
+      "source_spans": [
+        {
+          "text": "A comprehensive disease management plan is a prerequisite for any mammalian restoration plan... This should minimize the impact of infectious diseases and parasites in the release area"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2006.00187.x",
+        "title": "The Restoration of Elk ( <i>Cervus elaphus</i> ) in Ontario, Canada: 1998–2005",
+        "year": 2007,
+        "authors": [
+          "Rosatte, Rick",
+          "Hamr, Joe",
+          "Young, Jim",
+          "Filion, Ivan",
+          "Smith, Howard"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

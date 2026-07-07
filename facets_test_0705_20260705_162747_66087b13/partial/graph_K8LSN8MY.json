@@ -1,0 +1,268 @@
+{
+  "graph_id": "causal_mosaic:graph:682d64913b7f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T06:37:10.158662+00:00",
+    "source_corpus": "Not just any old pile of dirt: evaluating the use of artificial nesting mounds as conservation tools for freshwater turtles",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:68d213b79379",
+      "name": "Artificial nesting mounds",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f91a0f55dd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Four artificial nesting mounds were installed on 30 April 2009."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2e3aa172beaf",
+      "name": "Increased hatching success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d493faf256",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Hatching success was higher in nests transplanted to artificial mounds (93%) than in natural nests (56%)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0caacd945d82",
+      "name": "Increased recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1e9065c9af",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "indicates that the creation of additional nesting habitat for turtles may increase recruitment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b11c7967a4f7",
+      "name": "Heat units",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43fee534d5",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "hatching success... increased linearly with heat units in C. serpentina nests"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f51ce96aff6d",
+      "name": "Body condition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_967d20a68a",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "There was no difference in body condition between the two treatments for either species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3203df02a70d",
+      "name": "Deformity rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_688bb08977",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "deformity rates did not differ between treatments"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:3966c4322e1a",
+      "subject": "causal_mosaic:node:68d213b79379",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2e3aa172beaf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Hatching success was higher in nests transplanted to artificial mounds (93%) than in natural nests (56%)",
+      "source_spans": [
+        {
+          "text": "Hatching success was higher in nests transplanted to artificial mounds (93%) than in natural nests (56%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0030605312000877",
+        "title": "Not just any old pile of dirt: evaluating the use of artificial nesting mounds as conservation tools for freshwater turtles",
+        "year": 2013,
+        "authors": [
+          "Paterson, James E.",
+          "Steinberg, Brad D.",
+          "Litzgus, Jacqueline D."
+        ],
+        "journal": "Oryx"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4392f5feb5b8",
+      "subject": "causal_mosaic:node:68d213b79379",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0caacd945d82",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "indicates that the creation of additional nesting habitat for turtles may increase recruitment",
+      "source_spans": [
+        {
+          "text": "indicates that the creation of additional nesting habitat for turtles may increase recruitment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0030605312000877",
+        "title": "Not just any old pile of dirt: evaluating the use of artificial nesting mounds as conservation tools for freshwater turtles",
+        "year": 2013,
+        "authors": [
+          "Paterson, James E.",
+          "Steinberg, Brad D.",
+          "Litzgus, Jacqueline D."
+        ],
+        "journal": "Oryx"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1842d5999469",
+      "subject": "causal_mosaic:node:b11c7967a4f7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2e3aa172beaf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "hatching success... increased linearly with heat units in C. serpentina nests",
+      "source_spans": [
+        {
+          "text": "hatching success... increased linearly with heat units in C. serpentina nests"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0030605312000877",
+        "title": "Not just any old pile of dirt: evaluating the use of artificial nesting mounds as conservation tools for freshwater turtles",
+        "year": 2013,
+        "authors": [
+          "Paterson, James E.",
+          "Steinberg, Brad D.",
+          "Litzgus, Jacqueline D."
+        ],
+        "journal": "Oryx"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:602d6f8982fa",
+      "subject": "causal_mosaic:node:68d213b79379",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f51ce96aff6d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was no difference in body condition between the two treatments for either species",
+      "source_spans": [
+        {
+          "text": "There was no difference in body condition between the two treatments for either species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0030605312000877",
+        "title": "Not just any old pile of dirt: evaluating the use of artificial nesting mounds as conservation tools for freshwater turtles",
+        "year": 2013,
+        "authors": [
+          "Paterson, James E.",
+          "Steinberg, Brad D.",
+          "Litzgus, Jacqueline D."
+        ],
+        "journal": "Oryx"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5716f10c4464",
+      "subject": "causal_mosaic:node:68d213b79379",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3203df02a70d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "deformity rates did not differ between treatments",
+      "source_spans": [
+        {
+          "text": "deformity rates did not differ between treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1017/S0030605312000877",
+        "title": "Not just any old pile of dirt: evaluating the use of artificial nesting mounds as conservation tools for freshwater turtles",
+        "year": 2013,
+        "authors": [
+          "Paterson, James E.",
+          "Steinberg, Brad D.",
+          "Litzgus, Jacqueline D."
+        ],
+        "journal": "Oryx"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

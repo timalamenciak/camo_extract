@@ -1,0 +1,424 @@
+{
+  "graph_id": "causal_mosaic:graph:88ef4507ee73",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T19:39:45.178445+00:00",
+    "source_corpus": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:caef63747974",
+      "name": "marine protected areas (MPAs)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_eaafeaac6d",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Successful marine protected areas (MPAs), including no-take reserves, can help restore degraded coral reefs and improve the livelihoods of coastal communities by increasing fish size and abundance in adjacent areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0820f6fc7796",
+      "name": "degraded coral reefs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b91042427f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Successful marine protected areas (MPAs), including no-take reserves, can help restore degraded coral reefs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6af7819d48ff",
+      "name": "fish populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dbbd01c279",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Well-enforced partial or total no-fishing zones (collectively known as marine protected areas, or MPAs) can help restore degraded coral reefs and enhance fish populations."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0e5d50b2f095",
+      "name": "fish size and abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e9485f192a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increasing fish size and abundance in adjacent areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:93bb2a0837ae",
+      "name": "Handumon MPA",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7e297ea354",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Handumon MPA was recognized by the MPA Support Network"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e4e091179452",
+      "name": "total fish abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e21c8b2b56",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Results demonstrated that year had a significant positive effect on total fish abundance... inside the reserve"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66a3449c6a17",
+      "name": "mid-trophic level fish abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d37347ebed",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Results demonstrated that year had a significant positive effect on... mid-trophic level fish abundance... inside the reserve"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d29c824799b3",
+      "name": "total number of families",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4bb52ba935",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Results demonstrated that year had a significant positive effect on... the total number of families observed inside the reserve"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:52b35ae509f3",
+      "name": "top-trophic fish abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_66be9f575b",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Year had no significant effect on top-trophic fish abundance inside, outside and at reference sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:699b430fa606",
+      "name": "fish sizes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d5ca164b83",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "There was no significant temporal change in fish sizes for the most frequently observed common large fish families within the reserve"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5b68d6d51129",
+      "subject": "causal_mosaic:node:caef63747974",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0820f6fc7796",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Successful marine protected areas (MPAs), including no-take reserves, can help restore degraded coral reefs and improve the livelihoods of coastal communities by increasing fish size and abundance in adjacent areas (Halpern and Warner, 2002).",
+      "source_spans": [
+        {
+          "text": "Successful marine protected areas (MPAs), including no-take reserves, can help restore degraded coral reefs and improve the livelihoods of coastal communities by increasing fish size and abundance in adjacent areas (Halpern and Warner, 2002)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "meta_analysis"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bea8bcefed50",
+      "subject": "causal_mosaic:node:caef63747974",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6af7819d48ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Well-enforced partial or total no-fishing zones (collectively known as marine protected areas, or MPAs) can help restore degraded coral reefs and enhance fish populations.",
+      "source_spans": [
+        {
+          "text": "Well-enforced partial or total no-fishing zones (collectively known as marine protected areas, or MPAs) can help restore degraded coral reefs and enhance fish populations."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "meta_analysis"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:774429b555f5",
+      "subject": "causal_mosaic:node:caef63747974",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0e5d50b2f095",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Successful marine protected areas (MPAs), including no-take reserves, can help restore degraded coral reefs and improve the livelihoods of coastal communities by increasing fish size and abundance in adjacent areas (Halpern and Warner, 2002).",
+      "source_spans": [
+        {
+          "text": "Successful marine protected areas (MPAs), including no-take reserves, can help restore degraded coral reefs and improve the livelihoods of coastal communities by increasing fish size and abundance in adjacent areas (Halpern and Warner, 2002)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "meta_analysis"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79854e4f7b44",
+      "subject": "causal_mosaic:node:93bb2a0837ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e4e091179452",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results demonstrated that year had a significant positive effect on total fish abundance, mid-trophic level fish abundance and the total number of families observed inside the reserve, but not immediately outside the reserve (Figure 4, Table 4).",
+      "source_spans": [
+        {
+          "text": "Results demonstrated that year had a significant positive effect on total fish abundance, mid-trophic level fish abundance and the total number of families observed inside the reserve, but not immediately outside the reserve (Figure 4, Table 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a3cce5a0afe",
+      "subject": "causal_mosaic:node:93bb2a0837ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:66a3449c6a17",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results demonstrated that year had a significant positive effect on total fish abundance, mid-trophic level fish abundance and the total number of families observed inside the reserve, but not immediately outside the reserve (Figure 4, Table 4).",
+      "source_spans": [
+        {
+          "text": "Results demonstrated that year had a significant positive effect on total fish abundance, mid-trophic level fish abundance and the total number of families observed inside the reserve, but not immediately outside the reserve (Figure 4, Table 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5db4bdd32e4b",
+      "subject": "causal_mosaic:node:93bb2a0837ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d29c824799b3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results demonstrated that year had a significant positive effect on total fish abundance, mid-trophic level fish abundance and the total number of families observed inside the reserve, but not immediately outside the reserve (Figure 4, Table 4).",
+      "source_spans": [
+        {
+          "text": "Results demonstrated that year had a significant positive effect on total fish abundance, mid-trophic level fish abundance and the total number of families observed inside the reserve, but not immediately outside the reserve (Figure 4, Table 4)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e09a6ea5dbb",
+      "subject": "causal_mosaic:node:93bb2a0837ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:52b35ae509f3",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Year had no significant effect on top-trophic fish abundance inside, outside and at reference sites.",
+      "source_spans": [
+        {
+          "text": "Year had no significant effect on top-trophic fish abundance inside, outside and at reference sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:50c102006444",
+      "subject": "causal_mosaic:node:93bb2a0837ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:699b430fa606",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There was no significant temporal change in fish sizes for the most frequently observed common large fish families within the reserve, and immediately outside of the reserve (Table 5, Figure 5).",
+      "source_spans": [
+        {
+          "text": "There was no significant temporal change in fish sizes for the most frequently observed common large fish families within the reserve, and immediately outside of the reserve (Table 5, Figure 5)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/aqc.1090",
+        "title": "Assessing ecological changes in and around marine reserves using community perceptions and biological surveys",
+        "year": 2010,
+        "authors": [
+          "Yasué, M.",
+          "Kaufman, L.",
+          "Vincent, A. C. J."
+        ],
+        "journal": "Aquatic Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "graph_id": "causal_mosaic:graph:85b4153b0d90",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T05:09:39.580354+00:00",
+    "source_corpus": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:fac2e2cf200e",
+      "name": "forest clear-cutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_919871b5ad",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "impacts of forest clear-cutting on summertime low flows",
+          "start_char": 1004,
+          "end_char": 1059,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84add14922d4",
+      "name": "summertime low flows",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f10e7c3881",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "low flows",
+      "source_spans": [
+        {
+          "text": "reductions in daily summertime low flows became more significant",
+          "start_char": 58606,
+          "end_char": 58670,
+          "paragraph_id": "page:15"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f60d9050142c",
+      "name": "fish habitat availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_27662910a1",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "availability",
+      "source_spans": [
+        {
+          "text": "persistent decreases in modelled fish habitat availability",
+          "start_char": 2724,
+          "end_char": 2782,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fee987df16e2",
+      "name": "transpiration",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500035",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "transpiration... tended to increase as the forest regenerated"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f040ac7e1482",
+      "name": "interception loss",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b0958e3405",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "interception loss... tended to increase as the forest regenerated"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9f1343ea1dd2",
+      "name": "snowmelt timing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d13c550408",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "advance in snowmelt timing",
+          "start_char": 2328,
+          "end_char": 2354,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a610d806ae54",
+      "name": "rainbow trout",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q187986",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "physical habitat for resident rainbow trout"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b64f9bb75609",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84add14922d4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "About two decades after the onset of logging and as the extent of logging increased to approximately 50% of the catchments, reductions in daily summertime low flows became more significant for the July–September yield (43%) and for the analysis by calendar day (11 –68%).",
+      "source_spans": [
+        {
+          "text": "About two decades after the onset of logging and as the extent of logging increased to approximately 50% of the catchments, reductions in daily summertime low flows became more significant for the July–September yield (43%) and for the analysis by calendar day (11 –68%)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bad5a33ee152",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f60d9050142c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Additionally, these reductions in streamflow corresponded to persistent decreases in modelled fish habitat availability that typically ranged from 20% to 50% during the summer low-flow period in one of the catchments, suggesting that forest harvest may have substantial delayed effects on rearing salmonids in headwater streams.",
+      "source_spans": [
+        {
+          "text": "Additionally, these reductions in streamflow corresponded to persistent decreases in modelled fish habitat availability that typically ranged from 20% to 50% during the summer low-flow period in one of the catchments, suggesting that forest harvest may have substantial delayed effects on rearing salmonids in headwater streams."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cc8645409ee5",
+      "subject": "causal_mosaic:node:84add14922d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f60d9050142c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Additionally, these reductions in streamflow corresponded to persistent decreases in modelled fish habitat availability that typically ranged from 20% to 50% during the summer low-flow period in one of the catchments, suggesting that forest harvest may have substantial delayed effects on rearing salmonids in headwater streams.",
+      "source_spans": [
+        {
+          "text": "Additionally, these reductions in streamflow corresponded to persistent decreases in modelled fish habitat availability that typically ranged from 20% to 50% during the summer low-flow period in one of the catchments, suggesting that forest harvest may have substantial delayed effects on rearing salmonids in headwater streams."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3dd30909ebee",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fee987df16e2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "One study of Douglas-fir ( Pseudotsuga menziesii ) stands in coastal British Columbia found, using eddy covariance measurements, that both interception loss and transpiration were greatly reduced immediately following logging and tended to increase as the forest regenerated",
+      "source_spans": [
+        {
+          "text": "One study of Douglas-fir ( Pseudotsuga menziesii ) stands in coastal British Columbia found, using eddy covariance measurements, that both interception loss and transpiration were greatly reduced immediately following logging and tended to increase as the forest regenerated"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:117eee3571d6",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f040ac7e1482",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "One study of Douglas-fir ( Pseudotsuga menziesii ) stands in coastal British Columbia found, using eddy covariance measurements, that both interception loss and transpiration were greatly reduced immediately following logging and tended to increase as the forest regenerated",
+      "source_spans": [
+        {
+          "text": "One study of Douglas-fir ( Pseudotsuga menziesii ) stands in coastal British Columbia found, using eddy covariance measurements, that both interception loss and transpiration were greatly reduced immediately following logging and tended to increase as the forest regenerated"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0079f7b197db",
+      "subject": "causal_mosaic:node:fac2e2cf200e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9f1343ea1dd2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "On the basis of the temporal patterns of response, we hypothesize that the delayed reductions in late-summer flow represent the combined effects of a persistent advance in snowmelt timing in combination with at least a partial recovery of transpiration and interception loss from the regenerating forests.",
+      "source_spans": [
+        {
+          "text": "On the basis of the temporal patterns of response, we hypothesize that the delayed reductions in late-summer flow represent the combined effects of a persistent advance in snowmelt timing in combination with at least a partial recovery of transpiration and interception loss from the regenerating forests."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/hyp.13580",
+        "title": "Effects of forestry on summertime low flows and physical fish habitat in snowmelt‐dominant headwater catchments of the Pacific Northwest",
+        "year": 2019,
+        "authors": [
+          "Gronsdahl, Stefan",
+          "Moore, R. Dan",
+          "Rosenfeld, Jordan",
+          "McCleary, Rich",
+          "Winkler, Rita"
+        ],
+        "journal": "Hydrological Processes"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

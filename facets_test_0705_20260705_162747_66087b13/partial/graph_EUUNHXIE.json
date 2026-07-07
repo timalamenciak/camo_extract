@@ -1,0 +1,358 @@
+{
+  "graph_id": "causal_mosaic:graph:e2eb4438a393",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T20:46:53.358376+00:00",
+    "source_corpus": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6012624d98c0",
+      "name": "management actions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bef09cc679",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Management actions on the periphery of extracted surfaces, including clear-cutting the edges of remnant peatlands, complete infilling of drainage canals, and surface reprofiling, improve hydrological conditions for peatland species establishment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:05ea5ccfd76f",
+      "name": "clear-cutting trees",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2728fccd96",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Managers can clear-cut trees along the edges of remnant peatlands in an attempt to reduce evapotranspiration and thereby increase the water table."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4baf29d80dc4",
+      "name": "completely filling drainage canals",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2f6c0ae1c3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Managers can completely fill the peripheral drainage canals using peat from the adjacent remnant peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c818a42b396",
+      "name": "surface reprofiling",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_659f9e9dca",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Managers can reprofile the topography of peripheral remnant peatlands to make them more amenable to restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fbafd9469639",
+      "name": "water table",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105201",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "After these management actions, water tables increased to within approximately 5 cm of those along natural ecotones."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f20dfbb6c57",
+      "name": "hydrological conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0816c3551b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Management actions on the periphery of extracted surfaces, including clear-cutting the edges of remnant peatlands, complete infilling of drainage canals, and surface reprofiling, improve hydrological conditions for peatland species establishment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa9a357bb781",
+      "name": "water table depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105203",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "water tables drop steeply within 8 m of blocked perimeter canals"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c35964a2f87e",
+      "name": "tree growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d254b7119d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Tree growth increased since the canals were dug and peatland extraction began"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:529cbbed911c",
+      "name": "moss cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd19ca2bfa",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The drainage of peatlands reduces surface moisture conditions... which may directly reduce Sphagnum growth and presence"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6bd9b3da74eb",
+      "name": "drainage canals",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e0571ddd2f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Drainage canals can lower the water table in peatlands over variable distances"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:aa74ef1de04e",
+      "subject": "causal_mosaic:node:6012624d98c0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fbafd9469639",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After these management actions, water tables increased to within approximately 5 cm of those along natural ecotones.",
+      "source_spans": [
+        {
+          "text": "After these management actions, water tables increased to within approximately 5 cm of those along natural ecotones."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12914",
+        "title": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+        "year": 2019,
+        "authors": [
+          "Lefebvre‐Ruel, Stéphanie",
+          "Jutras, Sylvain",
+          "Campbell, Daniel",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:315679f509ad",
+      "subject": "causal_mosaic:node:6012624d98c0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1f20dfbb6c57",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Management actions on the periphery of extracted surfaces, including clear-cutting the edges of remnant peatlands, complete infilling of drainage canals, and surface reprofiling, improve hydrological conditions for peatland species establishment.",
+      "source_spans": [
+        {
+          "text": "Management actions on the periphery of extracted surfaces, including clear-cutting the edges of remnant peatlands, complete infilling of drainage canals, and surface reprofiling, improve hydrological conditions for peatland species establishment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12914",
+        "title": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+        "year": 2019,
+        "authors": [
+          "Lefebvre‐Ruel, Stéphanie",
+          "Jutras, Sylvain",
+          "Campbell, Daniel",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7eba75e5919e",
+      "subject": "causal_mosaic:node:05ea5ccfd76f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fbafd9469639",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Managers can clear-cut trees along the edges of remnant peatlands in an attempt to reduce evapotranspiration and thereby increase the water table.",
+      "source_spans": [
+        {
+          "text": "Managers can clear-cut trees along the edges of remnant peatlands in an attempt to reduce evapotranspiration and thereby increase the water table."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12914",
+        "title": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+        "year": 2019,
+        "authors": [
+          "Lefebvre‐Ruel, Stéphanie",
+          "Jutras, Sylvain",
+          "Campbell, Daniel",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d9043abece56",
+      "subject": "causal_mosaic:node:6bd9b3da74eb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fa9a357bb781",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Drainage canals can lower the water table in peatlands over variable distances",
+      "source_spans": [
+        {
+          "text": "Drainage canals can lower the water table in peatlands over variable distances"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12914",
+        "title": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+        "year": 2019,
+        "authors": [
+          "Lefebvre‐Ruel, Stéphanie",
+          "Jutras, Sylvain",
+          "Campbell, Daniel",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1244e412a65",
+      "subject": "causal_mosaic:node:6bd9b3da74eb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c35964a2f87e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree growth increased since the canals were dug and peatland extraction began",
+      "source_spans": [
+        {
+          "text": "Tree growth increased since the canals were dug and peatland extraction began"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12914",
+        "title": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+        "year": 2019,
+        "authors": [
+          "Lefebvre‐Ruel, Stéphanie",
+          "Jutras, Sylvain",
+          "Campbell, Daniel",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:23d4784a35fb",
+      "subject": "causal_mosaic:node:6bd9b3da74eb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:529cbbed911c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The drainage of peatlands reduces surface moisture conditions... which may directly reduce Sphagnum growth and presence",
+      "source_spans": [
+        {
+          "text": "The drainage of peatlands reduces surface moisture conditions... which may directly reduce Sphagnum growth and presence"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12914",
+        "title": "Ecohydrological gradients and their restoration on the periphery of extracted peatlands",
+        "year": 2019,
+        "authors": [
+          "Lefebvre‐Ruel, Stéphanie",
+          "Jutras, Sylvain",
+          "Campbell, Daniel",
+          "Rochefort, Line"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

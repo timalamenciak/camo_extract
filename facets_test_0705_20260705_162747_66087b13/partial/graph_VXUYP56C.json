@@ -1,0 +1,556 @@
+{
+  "graph_id": "causal_mosaic:graph:37539d22a2b1",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T01:54:05.283459+00:00",
+    "source_corpus": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f1cf6a96af32",
+      "name": "Scariﬁcation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_73f7a915b7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "scariﬁcation",
+          "start_char": 73,
+          "end_char": 85,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:90040b2e9762",
+      "name": "Microsite mulching",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b9677dfe2a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "microsite mulching (MSM)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ee29b024484b",
+      "name": "Black spruce growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f5ff936169",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "black spruce growth",
+          "start_char": 6452,
+          "end_char": 6471,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a871a59de06f",
+      "name": "Soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "soil moisture",
+          "start_char": 2216,
+          "end_char": 2229,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ee5dd671b8e3",
+      "name": "Soil temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200012",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "soil temperature",
+          "start_char": 1421,
+          "end_char": 1437,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9e9aa6e0cb02",
+      "name": "Organic matter depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9c8a0f3f0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "organic matter depth",
+          "start_char": 15165,
+          "end_char": 15185,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:932c9e4c66a4",
+      "name": "Soil respiration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f009df72d3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "soil respiration",
+          "start_char": 1439,
+          "end_char": 1455,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eaf886dda4a8",
+      "name": "Herbivore damage",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5f2cd4fbac",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "herbivore damage",
+          "start_char": 1903,
+          "end_char": 1919,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78e45b679345",
+      "name": "Frost heaving",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01001568",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "frost heaving",
+          "start_char": 1223,
+          "end_char": 1236,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:89b0d30a8d5b",
+      "subject": "causal_mosaic:node:f1cf6a96af32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Black spruce in scariﬁed and MSM plots were associated with signiﬁcantly higher growth than control, with differences ampliﬁed each consecutive year since planting.",
+      "source_spans": [
+        {
+          "text": "Black spruce in scariﬁed and MSM plots were associated with signiﬁcantly higher growth than control, with differences ampliﬁed each consecutive year since planting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:16f47d0c3008",
+      "subject": "causal_mosaic:node:90040b2e9762",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Black spruce in scariﬁed and MSM plots were associated with signiﬁcantly higher growth than control, with differences ampliﬁed each consecutive year since planting.",
+      "source_spans": [
+        {
+          "text": "Black spruce in scariﬁed and MSM plots were associated with signiﬁcantly higher growth than control, with differences ampliﬁed each consecutive year since planting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4d81001f9301",
+      "subject": "causal_mosaic:node:a871a59de06f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The analysis revealed a direct positive relationship of black spruce basal diameter increments with soil moisture and inverse relationship with soil temperature.",
+      "source_spans": [
+        {
+          "text": "The analysis revealed a direct positive relationship of black spruce basal diameter increments with soil moisture and inverse relationship with soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1ec53682f071",
+      "subject": "causal_mosaic:node:ee5dd671b8e3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The analysis revealed a direct positive relationship of black spruce basal diameter increments with soil moisture and inverse relationship with soil temperature.",
+      "source_spans": [
+        {
+          "text": "The analysis revealed a direct positive relationship of black spruce basal diameter increments with soil moisture and inverse relationship with soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:dbde6d2ae86c",
+      "subject": "causal_mosaic:node:9e9aa6e0cb02",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "OM depth played a greater role in black spruce growth with a significant negative effect.",
+      "source_spans": [
+        {
+          "text": "OM depth played a greater role in black spruce growth with a significant negative effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5684048d9328",
+      "subject": "causal_mosaic:node:932c9e4c66a4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "our data in year 3 revealed an inverse relationship between soil respiration and black spruce basal diameter increments",
+      "source_spans": [
+        {
+          "text": "our data in year 3 revealed an inverse relationship between soil respiration and black spruce basal diameter increments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:df108444ff84",
+      "subject": "causal_mosaic:node:90040b2e9762",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eaf886dda4a8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Planted black spruce seedlings in MSM microsites experienced a higher degree of herbi- vore damage compared to control",
+      "source_spans": [
+        {
+          "text": "Planted black spruce seedlings in MSM microsites experienced a higher degree of herbi- vore damage compared to control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3efb41d40c36",
+      "subject": "causal_mosaic:node:f1cf6a96af32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:78e45b679345",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Black spruce seedlings in scariﬁcation treatment were susceptible to frost heaving",
+      "source_spans": [
+        {
+          "text": "Black spruce seedlings in scariﬁcation treatment were susceptible to frost heaving"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:45d5adf185d0",
+      "subject": "causal_mosaic:node:f1cf6a96af32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9e9aa6e0cb02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature.",
+      "source_spans": [
+        {
+          "text": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0d47225807e7",
+      "subject": "causal_mosaic:node:90040b2e9762",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9e9aa6e0cb02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature.",
+      "source_spans": [
+        {
+          "text": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:077937538fb3",
+      "subject": "causal_mosaic:node:f1cf6a96af32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee5dd671b8e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature.",
+      "source_spans": [
+        {
+          "text": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:dcd807a38995",
+      "subject": "causal_mosaic:node:90040b2e9762",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee5dd671b8e3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature.",
+      "source_spans": [
+        {
+          "text": "Higher seedling growth in scariﬁed and MSM plots was associated with lower organic matter content, and lower soil temperature."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.020",
+        "title": "Black spruce ( Picea mariana ) restoration in Kalmia heath by scarification and microsite mulching",
+        "year": 2016,
+        "authors": [
+          "Mallik, Azim",
+          "Kravchenko, Dmitri"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    }
+  ]
+}

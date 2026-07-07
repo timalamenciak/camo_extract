@@ -1,0 +1,574 @@
+{
+  "graph_id": "causal_mosaic:graph:c7feec91fc86",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:06:55.294816+00:00",
+    "source_corpus": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:48abb13ae5c7",
+      "name": "forest soil inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_14e45c5e2a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The growth of EM tree species responded, positively or negatively, to forest soil inoculation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99addd3378f8",
+      "name": "EM tree species growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7cca966921",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The growth of EM tree species responded, positively or negatively, to forest soil inoculation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e67494c53c7",
+      "name": "EM sterilized soils",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_aae21bd29a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Seedlings inoculated with EM sterilized soils were smaller than control seedlings",
+          "start_char": 2180,
+          "end_char": 2261,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:955125e2871a",
+      "name": "Yellow birch seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cebe426ce0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Seedlings inoculated with EM sterilized soils were smaller than control seedlings",
+          "start_char": 2180,
+          "end_char": 2261,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f562212d37c9",
+      "name": "live soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c0413ae7f0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "yellow birch seedlings inoculated with live soil were taller and had a larger diameter during the first year"
+        },
+        {
+          "text": "red oak seedlings were taller when inoculated with live soil vs sterilized soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3f0b786ddf8",
+      "name": "Yellow birch seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cebe426ce0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "yellow birch seedlings inoculated with live soil were taller and had a larger diameter during the first year"
+        },
+        {
+          "text": "yellow birch seedlings that had received 1500 ml of non-sterilized red oak soil still benefited from soil inoculation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cbb82c285fab",
+      "name": "1500 ml non-sterilized red oak soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_36b299646e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "yellow birch seedlings that had received 1500 ml of non-sterilized red oak soil still benefited from soil inoculation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29996c2f05e6",
+      "name": "red oak soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_833822dacc",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "A negative feedback was detected on the growth of red oak seedlings inoculated with red oak soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87ea6dcd7cdb",
+      "name": "Red oak seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_12c2676bfe",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "A negative feedback was detected on the growth of red oak seedlings inoculated with red oak soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2e2cd5f7e5f8",
+      "name": "Red oak seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_12c2676bfe",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "red oak seedlings were taller when inoculated with live soil vs sterilized soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cfe85cfdf77b",
+      "name": "Forest soil inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_828f617837",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Forest soil inoculation did not increase arbuscular colonization... nor the EM fungal colonization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cf203cc7f023",
+      "name": "Mycorrhizal fungal colonization",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b2c6ef40cd",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Forest soil inoculation did not increase arbuscular colonization... nor the EM fungal colonization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d5f34dd2c244",
+      "name": "EM forest soils",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_05767f6f17",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lower nutrient availability of EM forest soils compared to agricultural field soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95701a86fc90",
+      "name": "Nutrient availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5168f0b7fc",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lower nutrient availability of EM forest soils compared to agricultural field soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:691c920296a3",
+      "name": "gamma irradiation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bb16173ee3",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "gamma irradiation treatment... to eliminate invertebrates, fungi and other microorganisms"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:052efde533ef",
+      "name": "microbes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2c58c4dc3e",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "gamma irradiation treatment... to eliminate invertebrates, fungi and other microorganisms"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f57bde47aa1d",
+      "subject": "causal_mosaic:node:48abb13ae5c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:99addd3378f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The growth of EM tree species responded, positively or negatively, to forest soil inoculation.",
+      "source_spans": [
+        {
+          "text": "The growth of EM tree species responded, positively or negatively, to forest soil inoculation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:19db0098a0de",
+      "subject": "causal_mosaic:node:4e67494c53c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:955125e2871a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings inoculated with EM sterilized soils were smaller than control seedlings",
+      "source_spans": [
+        {
+          "text": "Seedlings inoculated with EM sterilized soils were smaller than control seedlings",
+          "start_char": 2180,
+          "end_char": 2261,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c1f9a9866839",
+      "subject": "causal_mosaic:node:f562212d37c9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3f0b786ddf8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "yellow birch seedlings inoculated with live soil were taller and had a larger diameter during the first year",
+      "source_spans": [
+        {
+          "text": "yellow birch seedlings inoculated with live soil were taller and had a larger diameter during the first year"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2e096c0d9079",
+      "subject": "causal_mosaic:node:cbb82c285fab",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c3f0b786ddf8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "yellow birch seedlings that had received 1500 ml of non-sterilized red oak soil still benefited from soil inoculation.",
+      "source_spans": [
+        {
+          "text": "yellow birch seedlings that had received 1500 ml of non-sterilized red oak soil still benefited from soil inoculation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3ed73038c75b",
+      "subject": "causal_mosaic:node:29996c2f05e6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:87ea6dcd7cdb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A negative feedback was detected on the growth of red oak seedlings inoculated with red oak soil.",
+      "source_spans": [
+        {
+          "text": "A negative feedback was detected on the growth of red oak seedlings inoculated with red oak soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3b9c7f91dea3",
+      "subject": "causal_mosaic:node:f562212d37c9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2e2cd5f7e5f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "red oak seedlings were taller when inoculated with live soil vs sterilized soil",
+      "source_spans": [
+        {
+          "text": "red oak seedlings were taller when inoculated with live soil vs sterilized soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:123e19d9d957",
+      "subject": "causal_mosaic:node:cfe85cfdf77b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cf203cc7f023",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest soil inoculation did not increase arbuscular colonization... nor the EM fungal colonization",
+      "source_spans": [
+        {
+          "text": "Forest soil inoculation did not increase arbuscular colonization... nor the EM fungal colonization"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:61c386d2665a",
+      "subject": "causal_mosaic:node:d5f34dd2c244",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95701a86fc90",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "lower nutrient availability of EM forest soils compared to agricultural field soil",
+      "source_spans": [
+        {
+          "text": "lower nutrient availability of EM forest soils compared to agricultural field soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5d7f145d85bf",
+      "subject": "causal_mosaic:node:691c920296a3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:052efde533ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "gamma irradiation treatment... to eliminate invertebrates, fungi and other microorganisms",
+      "source_spans": [
+        {
+          "text": "gamma irradiation treatment... to eliminate invertebrates, fungi and other microorganisms"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2016.12.008",
+        "title": "Species-specific responses to forest soil inoculum in planted trees in an abandoned agricultural field",
+        "year": 2017,
+        "authors": [
+          "St-Denis, Annick",
+          "Kneeshaw, Daniel",
+          "Bélanger, Nicolas",
+          "Simard, Suzanne",
+          "Laforest-Lapointe, Isabelle",
+          "Messier, Christian"
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

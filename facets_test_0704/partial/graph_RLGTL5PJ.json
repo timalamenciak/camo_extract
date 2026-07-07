@@ -1,0 +1,316 @@
+{
+  "graph_id": "causal_mosaic:graph:a5f7e2831983",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T04:32:40.028481+00:00",
+    "source_corpus": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e44860433064",
+      "name": "Vegetation patterns",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6cab0bc9d5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e57f17b8d6f1",
+      "name": "Flow velocity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_80edf8567f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8544e7e3ba33",
+      "name": "Turbulent kinetic energy",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_529a35356b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5944fb589fbc",
+      "name": "Soil erosion",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000706",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "maximum TKE which may induce potential soil erosion",
+          "start_char": 914,
+          "end_char": 965,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5a215704c26",
+      "name": "Partly vegetated pattern",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_90e5392d2e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The location for the maximum TKE which may induce potential soil erosion for partly vegetated pattern moves forward 1 m in comparison with the vegetated pattern."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78cbb925c0c5",
+      "name": "Vegetated pattern",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f4a9be7f35",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The location for the maximum TKE which may induce potential soil erosion for partly vegetated pattern moves forward 1 m in comparison with the vegetated pattern."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:dd04fc9aa1a4",
+      "subject": "causal_mosaic:node:e44860433064",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e57f17b8d6f1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE.",
+      "source_spans": [
+        {
+          "text": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s40996-018-0200-6",
+        "title": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+        "year": 2019,
+        "authors": [
+          "Wang, Zhongyu",
+          "Zhang, Huayong",
+          "Xu, Weigang",
+          "Wang, Hualin",
+          "Huang, Hai"
+        ],
+        "journal": "Iran J Sci Technol Trans Civ Eng"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:aa7fcf4159aa",
+      "subject": "causal_mosaic:node:e44860433064",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8544e7e3ba33",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE.",
+      "source_spans": [
+        {
+          "text": "The results reveal that vegetation patterns can significantly alter the distributions of flow velocity and TKE."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s40996-018-0200-6",
+        "title": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+        "year": 2019,
+        "authors": [
+          "Wang, Zhongyu",
+          "Zhang, Huayong",
+          "Xu, Weigang",
+          "Wang, Hualin",
+          "Huang, Hai"
+        ],
+        "journal": "Iran J Sci Technol Trans Civ Eng"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:57f34d6627af",
+      "subject": "causal_mosaic:node:e57f17b8d6f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5944fb589fbc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "flow velocity should be extremely high at the exit of vegetation section... noticed for the bank soil erosion",
+      "source_spans": [
+        {
+          "text": "flow velocity should be extremely high at the exit of vegetation section... noticed for the bank soil erosion"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s40996-018-0200-6",
+        "title": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+        "year": 2019,
+        "authors": [
+          "Wang, Zhongyu",
+          "Zhang, Huayong",
+          "Xu, Weigang",
+          "Wang, Hualin",
+          "Huang, Hai"
+        ],
+        "journal": "Iran J Sci Technol Trans Civ Eng"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b678a7fa8994",
+      "subject": "causal_mosaic:node:8544e7e3ba33",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5944fb589fbc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "maximum TKE which may induce potential soil erosion",
+      "source_spans": [
+        {
+          "text": "maximum TKE which may induce potential soil erosion",
+          "start_char": 914,
+          "end_char": 965,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s40996-018-0200-6",
+        "title": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+        "year": 2019,
+        "authors": [
+          "Wang, Zhongyu",
+          "Zhang, Huayong",
+          "Xu, Weigang",
+          "Wang, Hualin",
+          "Huang, Hai"
+        ],
+        "journal": "Iran J Sci Technol Trans Civ Eng"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:dba0e2be1899",
+      "subject": "causal_mosaic:node:f5a215704c26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8544e7e3ba33",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The location for the maximum TKE which may induce potential soil erosion for partly vegetated pattern moves forward 1 m in comparison with the vegetated pattern.",
+      "source_spans": [
+        {
+          "text": "The location for the maximum TKE which may induce potential soil erosion for partly vegetated pattern moves forward 1 m in comparison with the vegetated pattern."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s40996-018-0200-6",
+        "title": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+        "year": 2019,
+        "authors": [
+          "Wang, Zhongyu",
+          "Zhang, Huayong",
+          "Xu, Weigang",
+          "Wang, Hualin",
+          "Huang, Hai"
+        ],
+        "journal": "Iran J Sci Technol Trans Civ Eng"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4643fd8f9509",
+      "subject": "causal_mosaic:node:f5a215704c26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e57f17b8d6f1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "partly vegetated pattern... gentler distributed flow velocity",
+      "source_spans": [
+        {
+          "text": "partly vegetated pattern... gentler distributed flow velocity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s40996-018-0200-6",
+        "title": "Effects of Emergent Vegetation Patterns on Flow Velocity, Turbulence, and Erosion Around River Banks",
+        "year": 2019,
+        "authors": [
+          "Wang, Zhongyu",
+          "Zhang, Huayong",
+          "Xu, Weigang",
+          "Wang, Hualin",
+          "Huang, Hai"
+        ],
+        "journal": "Iran J Sci Technol Trans Civ Eng"
+      }
+    }
+  ]
+}

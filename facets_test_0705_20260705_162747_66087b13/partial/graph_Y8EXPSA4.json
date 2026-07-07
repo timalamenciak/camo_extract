@@ -1,0 +1,240 @@
+{
+  "graph_id": "causal_mosaic:graph:c2bdd12c480d",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T06:47:51.941015+00:00",
+    "source_corpus": "A riverbank erosion control method with environmental value",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b819c4179d10",
+      "name": "rounded granular material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5fe4e2fcb3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Between 1992 and 1998, 55 km of riverbank on the Ottawa River was protected from erosion using rounded granular material of glacioﬂuvial origin from local gravel pits."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e06f0accf576",
+      "name": "erosion",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01001346",
+      "state_or_change_qualifier": "terminated",
+      "source_spans": [
+        {
+          "text": "After fifteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0b58d8811dd",
+      "name": "indigenous vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e769c5352e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The follow-up also shows that the banks and structures are 80–90% covered by indigenous vegetation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c63ef9a58e8f",
+      "name": "riparian ecotone",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43b224bd84",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "After fifteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f506d4fff0a2",
+      "name": "work done in winter",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_19c0e637f4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The work minimized damage to the riverbanks as it was done in winter so that shore ice could be used for access."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7bf8c7352533",
+      "name": "existing vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_02b31405a7",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "This approach helped avoid interventions on the banks themselves and protected the existing vegetation."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c9c84ea9e63d",
+      "subject": "causal_mosaic:node:b819c4179d10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e06f0accf576",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After fifteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone.",
+      "source_spans": [
+        {
+          "text": "After fifteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:87f67f823511",
+      "subject": "causal_mosaic:node:b819c4179d10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0b58d8811dd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The follow-up also shows that the banks and structures are 80–90% covered by indigenous vegetation.",
+      "source_spans": [
+        {
+          "text": "The follow-up also shows that the banks and structures are 80–90% covered by indigenous vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ee3f5d85b229",
+      "subject": "causal_mosaic:node:b819c4179d10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c63ef9a58e8f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After fifteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone.",
+      "source_spans": [
+        {
+          "text": "After fifteen years, the structures have halted erosion, blended into the local landscape and created a riparian ecotone."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d4e085ec2f69",
+      "subject": "causal_mosaic:node:f506d4fff0a2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7bf8c7352533",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This approach helped avoid interventions on the banks themselves and protected the existing vegetation.",
+      "source_spans": [
+        {
+          "text": "This approach helped avoid interventions on the banks themselves and protected the existing vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecoleng.2013.06.004",
+        "title": "A riverbank erosion control method with environmental value",
+        "year": 2013,
+        "authors": [
+          "Bariteau, Line",
+          "Bouchard, Denis",
+          "Gagnon, Guylaine",
+          "Levasseur, Mylène",
+          "Lapointe, Stéphane",
+          "Bérubé, Michel"
+        ],
+        "journal": "Ecological Engineering"
+      }
+    }
+  ]
+}

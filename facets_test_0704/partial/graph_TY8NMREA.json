@@ -1,0 +1,550 @@
+{
+  "graph_id": "causal_mosaic:graph:ead5fdf8a310",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T18:34:48.435247+00:00",
+    "source_corpus": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:00b2905898c7",
+      "name": "Pipeline construction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4fb700ee9b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Pipeline construction prior to 1997 typically required a right-of-way (ROW) of 15e30 m in width from which the topsoil was stripped"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b010f45bd2ab",
+      "name": "Proportion of introduced grasses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_85e79f2bfe",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0001470",
+      "source_spans": [
+        {
+          "text": "The ROW sites had a higher proportion of introduced grasses and forbs",
+          "start_char": 1118,
+          "end_char": 1187,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aeb60a8a7e7d",
+      "name": "Topsoil depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:02000059",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001595",
+      "source_spans": [
+        {
+          "text": "The ROW sites had... less topsoil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b5117e5258c2",
+      "name": "Rangeland health",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3619ecdb06",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The ROW sites had... poorer rangeland health than the adjacent undisturbed grassland"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0581f712f081",
+      "name": "Pipe diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_942d7ce023",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Within the ROW sites, less topsoil was present on those with larger diameter pipe"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7d2e3bdb3be9",
+      "name": "Topsoil stripping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ae6b18d29f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "which had topsoil fully stripped from the ROW during construction"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d68878382793",
+      "name": "Seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8d402dbcde",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Introduced grasses, Festuca ovina (sheep fescue) and Poa compressa (Canada bluegrass), succeeded in establishment following seeding"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:614e31156113",
+      "name": "Festuca ovina",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q157885",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Introduced grasses, Festuca ovina (sheep fescue) and Poa compressa (Canada bluegrass), succeeded in establishment following seeding"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4dfd718dedb9",
+      "name": "Pipeline construction season",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_963811f95c",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Contributing factors to moderate recovery of rough fescue grassland were related to post-growing season pipeline construction"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1aba0ae3a303",
+      "name": "Recovery of rough fescue grassland",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6ddc6db787",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Contributing factors to moderate recovery of rough fescue grassland were related to post-growing season pipeline construction"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:779b7392b03f",
+      "name": "Trench-only stripping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_914053bdc2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "minimum disturbance trench-only stripping",
+          "start_char": 1852,
+          "end_char": 1893,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58d36f0a12cb",
+      "name": "Organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e656228b8",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Soil stripping may reduce organic matter"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3f768b24e302",
+      "name": "Clay content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_29a57a20a5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increase clay content through admixing of topsoil with subsoil"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:68d1bc954f36",
+      "subject": "causal_mosaic:node:00b2905898c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b010f45bd2ab",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The ROW sites had a higher proportion of introduced grasses and forbs, less topsoil, and poorer rangeland health than the adjacent undisturbed grassland.",
+      "source_spans": [
+        {
+          "text": "The ROW sites had a higher proportion of introduced grasses and forbs, less topsoil, and poorer rangeland health than the adjacent undisturbed grassland."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1801b780febf",
+      "subject": "causal_mosaic:node:00b2905898c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aeb60a8a7e7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The ROW sites had a higher proportion of introduced grasses and forbs, less topsoil, and poorer rangeland health than the adjacent undisturbed grassland.",
+      "source_spans": [
+        {
+          "text": "The ROW sites had a higher proportion of introduced grasses and forbs, less topsoil, and poorer rangeland health than the adjacent undisturbed grassland."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:72e88fc953ae",
+      "subject": "causal_mosaic:node:00b2905898c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b5117e5258c2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The ROW sites had a higher proportion of introduced grasses and forbs, less topsoil, and poorer rangeland health than the adjacent undisturbed grassland.",
+      "source_spans": [
+        {
+          "text": "The ROW sites had a higher proportion of introduced grasses and forbs, less topsoil, and poorer rangeland health than the adjacent undisturbed grassland."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:93a7ad016a29",
+      "subject": "causal_mosaic:node:0581f712f081",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aeb60a8a7e7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Within the ROW sites, less topsoil was present on those with larger diameter pipe and which had topsoil fully stripped from the ROW during construction.",
+      "source_spans": [
+        {
+          "text": "Within the ROW sites, less topsoil was present on those with larger diameter pipe and which had topsoil fully stripped from the ROW during construction."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cf674c3c3b65",
+      "subject": "causal_mosaic:node:7d2e3bdb3be9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aeb60a8a7e7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Within the ROW sites, less topsoil was present on those with larger diameter pipe and which had topsoil fully stripped from the ROW during construction.",
+      "source_spans": [
+        {
+          "text": "Within the ROW sites, less topsoil was present on those with larger diameter pipe and which had topsoil fully stripped from the ROW during construction."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0685ea373c82",
+      "subject": "causal_mosaic:node:d68878382793",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:614e31156113",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Introduced grasses, Festuca ovina (sheep fescue) and Poa compressa (Canada bluegrass), succeeded in establishment following seeding and persisted for at least 40 years.",
+      "source_spans": [
+        {
+          "text": "Introduced grasses, Festuca ovina (sheep fescue) and Poa compressa (Canada bluegrass), succeeded in establishment following seeding and persisted for at least 40 years."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:48492cb6e49b",
+      "subject": "causal_mosaic:node:4dfd718dedb9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1aba0ae3a303",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Contributing factors to moderate recovery of rough fescue grassland were related to post-growing season pipeline construction, ideally, between August and March, summer or fall seeding, and minimum disturbance trench-only stripping.",
+      "source_spans": [
+        {
+          "text": "Contributing factors to moderate recovery of rough fescue grassland were related to post-growing season pipeline construction, ideally, between August and March, summer or fall seeding, and minimum disturbance trench-only stripping."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ded28bd3a48",
+      "subject": "causal_mosaic:node:779b7392b03f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1aba0ae3a303",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Contributing factors to moderate recovery of rough fescue grassland were related to post-growing season pipeline construction, ideally, between August and March, summer or fall seeding, and minimum disturbance trench-only stripping.",
+      "source_spans": [
+        {
+          "text": "Contributing factors to moderate recovery of rough fescue grassland were related to post-growing season pipeline construction, ideally, between August and March, summer or fall seeding, and minimum disturbance trench-only stripping."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9eb97e146125",
+      "subject": "causal_mosaic:node:7d2e3bdb3be9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58d36f0a12cb",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Soil stripping may reduce organic matter and increase clay content through admixing of topsoil with subsoil",
+      "source_spans": [
+        {
+          "text": "Soil stripping may reduce organic matter and increase clay content through admixing of topsoil with subsoil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b71c81f977f6",
+      "subject": "causal_mosaic:node:7d2e3bdb3be9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3f768b24e302",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Soil stripping may reduce organic matter and increase clay content through admixing of topsoil with subsoil",
+      "source_spans": [
+        {
+          "text": "Soil stripping may reduce organic matter and increase clay content through admixing of topsoil with subsoil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jenvman.2010.08.006",
+        "title": "Restoration of foothills rough fescue grassland following pipeline disturbance in southwestern Alberta",
+        "year": 2010,
+        "authors": [
+          "Desserud, Peggy",
+          "Gates, C. Cormack",
+          "Adams, Barry",
+          "Revel, Richard D."
+        ],
+        "journal": "Journal of Environmental Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

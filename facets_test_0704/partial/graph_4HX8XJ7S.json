@@ -1,0 +1,430 @@
+{
+  "graph_id": "causal_mosaic:graph:65549e1c86ce",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T02:41:25.589048+00:00",
+    "source_corpus": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6afec85f5cad",
+      "name": "Time since reclamation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9b8b5d4c1",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "time since reclamation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4241f8ce9ae0",
+      "name": "Tree, shrub, and nonvascular plant species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bf7491932d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Tree, shrub, and nonvascular plant species cover showed similar increases over time"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8ef1470b3385",
+      "name": "Forb and graminoid cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fb9b1d8296",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "forb and graminoid cover declined with time",
+          "start_char": 19704,
+          "end_char": 19747,
+          "paragraph_id": "page:4"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:da0204117326",
+      "name": "Nonnative species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cdab1d2b6f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Nonnative species cover declined over time"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bf76fdae7728",
+      "name": "Reclamation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f7d8f48808",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "reclamation",
+          "start_char": 66,
+          "end_char": 77,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29e52a3795ac",
+      "name": "Plant community composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fac04ad1b7",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "plant community composition",
+          "start_char": 24538,
+          "end_char": 24565,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fce50717d1d9",
+      "name": "Plant community assembly",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6f9f056eef",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "plant community assembly",
+          "start_char": 1460,
+          "end_char": 1484,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d349d9d206f2",
+      "name": "Native species cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bc5aa866e4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Overall native species cover in all reclamation treatments was significantly lower than in natural forest"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67c20e070b0f",
+      "name": "Populus tremuloides",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q469576",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Populus tremuloides",
+          "start_char": 9452,
+          "end_char": 9471,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8ace4557fa9",
+      "name": "Understory species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_4103534fe2",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "understory species",
+          "start_char": 6701,
+          "end_char": 6719,
+          "paragraph_id": "page:2"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:833594f85943",
+      "subject": "causal_mosaic:node:6afec85f5cad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4241f8ce9ae0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tree, shrub, and nonvascular plant species cover showed similar increases over time for all reclamation treatments",
+      "source_spans": [
+        {
+          "text": "Tree, shrub, and nonvascular plant species cover showed similar increases over time for all reclamation treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ff482adfb2a5",
+      "subject": "causal_mosaic:node:6afec85f5cad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ef1470b3385",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "forb and graminoid cover declined with time",
+      "source_spans": [
+        {
+          "text": "forb and graminoid cover declined with time",
+          "start_char": 19704,
+          "end_char": 19747,
+          "paragraph_id": "page:4"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1dc2afc5ad80",
+      "subject": "causal_mosaic:node:6afec85f5cad",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:da0204117326",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Nonnative species cover declined over time",
+      "source_spans": [
+        {
+          "text": "Nonnative species cover declined over time"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aabcadd9d7c3",
+      "subject": "causal_mosaic:node:bf76fdae7728",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:29e52a3795ac",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "species composition was not affected by reclamation treatment but clearly differed from natural forest",
+      "source_spans": [
+        {
+          "text": "species composition was not affected by reclamation treatment but clearly differed from natural forest"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0f305cf55e0c",
+      "subject": "causal_mosaic:node:bf76fdae7728",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fce50717d1d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Analysis of species co-occurrence indicated random plant community assembly following reclamation",
+      "source_spans": [
+        {
+          "text": "Analysis of species co-occurrence indicated random plant community assembly following reclamation",
+          "start_char": 1409,
+          "end_char": 1506,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:899f1986732e",
+      "subject": "causal_mosaic:node:bf76fdae7728",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d349d9d206f2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall native species cover in all reclamation treatments was significantly lower than in natural forest",
+      "source_spans": [
+        {
+          "text": "Overall native species cover in all reclamation treatments was significantly lower than in natural forest"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5634629b7686",
+      "subject": "causal_mosaic:node:67c20e070b0f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b8ace4557fa9",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Populus tremuloides and Picea glauca had only positive associations... with understory species",
+      "source_spans": [
+        {
+          "text": "Populus tremuloides and Picea glauca had only positive associations... with understory species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.13039",
+        "title": "Plant community development following reclamation of oil sands mines using four cover soil types in northern Alberta",
+        "year": 2020,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Naeth, M. Anne",
+          "Pinno, Bradley D.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

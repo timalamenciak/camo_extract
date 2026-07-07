@@ -1,0 +1,532 @@
+{
+  "graph_id": "causal_mosaic:graph:88aa2438fd6f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T17:07:13.782441+00:00",
+    "source_corpus": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:07ad7c1b4eab",
+      "name": "Repeat fires",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7594c9e17e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Repeat fires reduce seed availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:486993ad3d4e",
+      "name": "seed availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_094e804edb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Repeat fires reduce seed availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cdf0241c04c8",
+      "name": "Shortened fire return intervals",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2ee1e2046d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Shortened fire return intervals, through effects on seed availability, disrupt the normal sequence of post-fire recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b34abca0897f",
+      "name": "post-fire recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_de60896a3d",
+      "state_or_change_qualifier": "interrupted",
+      "source_spans": [
+        {
+          "text": "Shortened fire return intervals, through effects on seed availability, disrupt the normal sequence of post-fire recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9934eada0a7d",
+      "name": "black spruce recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dce39f604c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "black spruce recruitment was limited by seed availability"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3188d9f9072a",
+      "name": "seed bed quality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e6075ec305",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "recruitment in unburned, mature forest stands is limited by seed bed quality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5144cead83ea",
+      "name": "recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1e9065c9af",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "recruitment in unburned, mature forest stands is limited by seed bed quality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:942134d8720a",
+      "name": "Adding black spruce seed",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_af9a06236f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Adding black spruce seed resulted in significantly more seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2eb4f641ac11",
+      "name": "seedling recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f803da79c5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Adding black spruce seed resulted in significantly more seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6106a0c3e7c5",
+      "name": "Fire history",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4155be66df",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Fire history, microtopography, and seeding treatment had significant effects on patterns of seedling emergence"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:68a4f71ff554",
+      "name": "seedling emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_62679445e0",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Fire history, microtopography, and seeding treatment had significant effects on patterns of seedling emergence"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:058fd9d2b199",
+      "name": "forest recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_912e11e49b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "disturbance, although essential for stand renewal, may limit forest recovery or expansion",
+          "start_char": 2123,
+          "end_char": 2212,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c3a98601b972",
+      "name": "Disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bd37361488",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "disturbance, although essential for stand renewal, may limit forest recovery or expansion",
+          "start_char": 2123,
+          "end_char": 2212,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d050ebe3efe2",
+      "name": "black spruce recruitment failure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_73eb813725",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "black spruce recruitment failure at the northern margin of the boreal forest due to a shortened fire return interval"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:178e7a718641",
+      "name": "serotinous regeneration strategy",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_239860a764",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "serotinous regeneration strategy of black spruce is sensitive to repeat disturbances"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3cd7ae92d918",
+      "name": "repeat disturbances",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5d16c502c7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "serotinous regeneration strategy of black spruce is sensitive to repeat disturbances"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b5cff222e082",
+      "subject": "causal_mosaic:node:07ad7c1b4eab",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:486993ad3d4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Repeat fires reduce seed availability",
+      "source_spans": [
+        {
+          "text": "Repeat fires reduce seed availability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2cbbf39fc5d5",
+      "subject": "causal_mosaic:node:cdf0241c04c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b34abca0897f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shortened fire return intervals, through effects on seed availability, disrupt the normal sequence of post-fire recovery",
+      "source_spans": [
+        {
+          "text": "Shortened fire return intervals, through effects on seed availability, disrupt the normal sequence of post-fire recovery"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:680e0915103c",
+      "subject": "causal_mosaic:node:486993ad3d4e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9934eada0a7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "black spruce recruitment was limited by seed availability",
+      "source_spans": [
+        {
+          "text": "black spruce recruitment was limited by seed availability"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:da6fb94f1166",
+      "subject": "causal_mosaic:node:3188d9f9072a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5144cead83ea",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "recruitment in unburned, mature forest stands is limited by seed bed quality",
+      "source_spans": [
+        {
+          "text": "recruitment in unburned, mature forest stands is limited by seed bed quality"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:06e8ac84fc9d",
+      "subject": "causal_mosaic:node:942134d8720a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2eb4f641ac11",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Adding black spruce seed resulted in significantly more seedlings",
+      "source_spans": [
+        {
+          "text": "Adding black spruce seed resulted in significantly more seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d3d5cf90e5be",
+      "subject": "causal_mosaic:node:6106a0c3e7c5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:68a4f71ff554",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fire history, microtopography, and seeding treatment had significant effects on patterns of seedling emergence",
+      "source_spans": [
+        {
+          "text": "Fire history, microtopography, and seeding treatment had significant effects on patterns of seedling emergence"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:68c2a58fde5a",
+      "subject": "causal_mosaic:node:c3a98601b972",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:058fd9d2b199",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "disturbance, although essential for stand renewal, may limit forest recovery or expansion",
+      "source_spans": [
+        {
+          "text": "disturbance, although essential for stand renewal, may limit forest recovery or expansion",
+          "start_char": 2123,
+          "end_char": 2212,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:96e5fd61a020",
+      "subject": "causal_mosaic:node:cdf0241c04c8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d050ebe3efe2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "black spruce recruitment failure at the northern margin of the boreal forest due to a shortened fire return interval",
+      "source_spans": [
+        {
+          "text": "black spruce recruitment failure at the northern margin of the boreal forest due to a shortened fire return interval"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:21fe4eff8baa",
+      "subject": "causal_mosaic:node:3cd7ae92d918",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:178e7a718641",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "serotinous regeneration strategy of black spruce is sensitive to repeat disturbances",
+      "source_spans": [
+        {
+          "text": "serotinous regeneration strategy of black spruce is sensitive to repeat disturbances"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2011.11.006",
+        "title": "Once burned, twice shy: Repeat fires reduce seed availability and alter substrate constraints on Picea mariana regeneration",
+        "year": 2012,
+        "authors": [
+          "Brown, Carissa D.",
+          "Johnstone, Jill F."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,828 @@
+{
+  "graph_id": "causal_mosaic:graph:efa4063b7bc3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T19:13:43.960312+00:00",
+    "source_corpus": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:851c41e9b42c",
+      "name": "tree shelter",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_89a8064031",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Tree shelters offering protection from deer browsing and species-specific site selection are recommended for underplanting in the southern Québec region."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4eb4b37a0784",
+      "name": "deer browsing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c3b5ec429b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Tree shelters offering protection from deer browsing and species-specific site selection are recommended for underplanting in the southern Québec region."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1922e4a4d522",
+      "name": "red oak",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q147525",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:06952e0764e1",
+      "name": "white pine",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q157230",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "White pine was less affected by browsing (survival of 79.5 and 93.5%; height of 138.5 and 217.9 cm for unprotected vs. protected pine)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4f130772b8a",
+      "name": "bitternut hickory",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q114226699",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This study provides evidence that underplanting is suitable for black walnut assisted migration northward and for bitternut hickory restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:291aafd86c7a",
+      "name": "black walnut",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q852572",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This study provides evidence that underplanting is suitable for black walnut assisted migration northward and for bitternut hickory restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:775d2165b81c",
+      "name": "survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa71d2991e",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb3c7f454a68",
+      "name": "total height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8a3eb7de2d",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a5861c40703e",
+      "name": "White ash community type",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_66cbe374a2",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Height of all hardwoods was higher in the white ash stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:20a5d92808ee",
+      "name": "Grey birch-balsam poplar-elm community type",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e7f06b7703",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Height of white pine was higher in the grey birch stands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2992973443e2",
+      "name": "Rubus cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b648eec9f1",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Total height of all hardwoods was significantly (p < 0.05) correlated with Rubus cover and with soil fertility."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bbf71b6a1c3a",
+      "name": "soil fertility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_801d48b2f5",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Total height of all hardwoods was significantly (p < 0.05) correlated with Rubus cover and with soil fertility."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0bd9a0e59b74",
+      "name": "canopy openness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_84669cf818",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "For white pine, significant positive relationships were observed between canopy openness or the basal area of grey birch and total height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c64554db6384",
+      "name": "basal area of grey birch",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_829758f508",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "For white pine, significant positive relationships were observed between canopy openness or the basal area of grey birch and total height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55d896ace424",
+      "name": "soil CEC",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b010965959",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "while soil CEC was found to be a significant negative predictor of total height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:daea36c94258",
+      "name": "Gramineae cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a4e0780a71",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "while total tree basal area, the basal area of grey birch and the cover of Gramineae species in the understory were negative predictors of walnut total height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21b66f46c1d2",
+      "name": "total tree basal area",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_518852ea56",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "while total tree basal area, the basal area of grey birch and the cover of Gramineae species in the understory were negative predictors of walnut total height"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:5763ff8cf4f9",
+      "subject": "causal_mosaic:node:851c41e9b42c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:775d2165b81c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak.",
+      "source_spans": [
+        {
+          "text": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e3a3d1d098ab",
+      "subject": "causal_mosaic:node:851c41e9b42c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak.",
+      "source_spans": [
+        {
+          "text": "After 6 years, the survival and total height of unprotected oak was 29% and 44.3 cm vs. 80.5% and 138.5 cm for protected oak."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a94e12ca4834",
+      "subject": "causal_mosaic:node:851c41e9b42c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:775d2165b81c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "White pine was less affected by browsing (survival of 79.5 and 93.5%; height of 138.5 and 217.9 cm for unprotected vs. protected pine).",
+      "source_spans": [
+        {
+          "text": "White pine was less affected by browsing (survival of 79.5 and 93.5%; height of 138.5 and 217.9 cm for unprotected vs. protected pine)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ba53e0c16cf",
+      "subject": "causal_mosaic:node:851c41e9b42c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "White pine was less affected by browsing (survival of 79.5 and 93.5%; height of 138.5 and 217.9 cm for unprotected vs. protected pine).",
+      "source_spans": [
+        {
+          "text": "White pine was less affected by browsing (survival of 79.5 and 93.5%; height of 138.5 and 217.9 cm for unprotected vs. protected pine)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:afa8dfd4e4e3",
+      "subject": "causal_mosaic:node:a5861c40703e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Height of all hardwoods was higher in the white ash stands",
+      "source_spans": [
+        {
+          "text": "Height of all hardwoods was higher in the white ash stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:319686654a0f",
+      "subject": "causal_mosaic:node:20a5d92808ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Height of white pine was higher in the grey birch stands",
+      "source_spans": [
+        {
+          "text": "Height of white pine was higher in the grey birch stands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b35b817aa255",
+      "subject": "causal_mosaic:node:2992973443e2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Total height of all hardwoods was significantly (p < 0.05) correlated with Rubus cover and with soil fertility.",
+      "source_spans": [
+        {
+          "text": "Total height of all hardwoods was significantly (p < 0.05) correlated with Rubus cover and with soil fertility."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c6b4fb43b55",
+      "subject": "causal_mosaic:node:bbf71b6a1c3a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Total height of all hardwoods was significantly (p < 0.05) correlated with Rubus cover and with soil fertility.",
+      "source_spans": [
+        {
+          "text": "Total height of all hardwoods was significantly (p < 0.05) correlated with Rubus cover and with soil fertility."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e70aa100056e",
+      "subject": "causal_mosaic:node:0bd9a0e59b74",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "For white pine, significant positive relationships were observed between canopy openness or the basal area of grey birch and total height",
+      "source_spans": [
+        {
+          "text": "For white pine, significant positive relationships were observed between canopy openness or the basal area of grey birch and total height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dd1f52ae09e6",
+      "subject": "causal_mosaic:node:c64554db6384",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "For white pine, significant positive relationships were observed between canopy openness or the basal area of grey birch and total height",
+      "source_spans": [
+        {
+          "text": "For white pine, significant positive relationships were observed between canopy openness or the basal area of grey birch and total height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1bd7a377f282",
+      "subject": "causal_mosaic:node:55d896ace424",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "while soil CEC was found to be a significant negative predictor of total height",
+      "source_spans": [
+        {
+          "text": "while soil CEC was found to be a significant negative predictor of total height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a74f9f833e6",
+      "subject": "causal_mosaic:node:c64554db6384",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "while a significant negative relationship was observed between the basal area of grey birch and total height",
+      "source_spans": [
+        {
+          "text": "while a significant negative relationship was observed between the basal area of grey birch and total height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ba4c8475c2f3",
+      "subject": "causal_mosaic:node:daea36c94258",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "while total tree basal area, the basal area of grey birch and the cover of Gramineae species in the understory were negative predictors of walnut total height",
+      "source_spans": [
+        {
+          "text": "while total tree basal area, the basal area of grey birch and the cover of Gramineae species in the understory were negative predictors of walnut total height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1d28f1d7633",
+      "subject": "causal_mosaic:node:21b66f46c1d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "while total tree basal area, the basal area of grey birch and the cover of Gramineae species in the understory were negative predictors of walnut total height",
+      "source_spans": [
+        {
+          "text": "while total tree basal area, the basal area of grey birch and the cover of Gramineae species in the understory were negative predictors of walnut total height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:60754086dd2f",
+      "subject": "causal_mosaic:node:4eb4b37a0784",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:775d2165b81c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "As hypothesized, the survival and growth of red oak and white pine were significantly decreased when these species were underplanted without tree shelters",
+      "source_spans": [
+        {
+          "text": "As hypothesized, the survival and growth of red oak and white pine were significantly decreased when these species were underplanted without tree shelters"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:09c491beb717",
+      "subject": "causal_mosaic:node:4eb4b37a0784",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb3c7f454a68",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "As hypothesized, the survival and growth of red oak and white pine were significantly decreased when these species were underplanted without tree shelters",
+      "source_spans": [
+        {
+          "text": "As hypothesized, the survival and growth of red oak and white pine were significantly decreased when these species were underplanted without tree shelters"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f9080499",
+        "title": "Ecological Factors Affecting White Pine, Red Oak, Bitternut Hickory and Black Walnut Underplanting Success in a Northern Temperate Post-Agricultural Forest",
+        "year": 2018,
+        "authors": [
+          "Truax, Benoit",
+          "Gagnon, Daniel",
+          "Fortier, Julien",
+          "Lambert, France",
+          "Pétrin, Marc-Antoine"
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

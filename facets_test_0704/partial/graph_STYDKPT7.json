@@ -1,0 +1,415 @@
+{
+  "graph_id": "causal_mosaic:graph:989bf34335dc",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T23:02:23.598382+00:00",
+    "source_corpus": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:bc7cac87f9e0",
+      "name": "re-introduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_05a18eadd9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "re-introduction",
+          "start_char": 365,
+          "end_char": 380,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4aad1e89817",
+      "name": "climatic conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b7b7802219",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "climatic conditions",
+          "start_char": 744,
+          "end_char": 763,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:522014c38b9c",
+      "name": "establishment rate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d634a5232d",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "establishment rate",
+          "start_char": 891,
+          "end_char": 909,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:455aba150d4c",
+      "name": "moss carpet development",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_03633f57c9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "moss carpet development"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec77b06c33d3",
+      "name": "Sphagnum fuscum",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_63179db789",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "S. fuscum",
+          "start_char": 206,
+          "end_char": 215,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dea80c54d2f0",
+      "name": "number of species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_35085f9d22",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "number of species",
+          "start_char": 1394,
+          "end_char": 1411,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:632d0a056ba8",
+      "name": "successful establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_12b5328beb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "successful establishment",
+          "start_char": 1440,
+          "end_char": 1464,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3f53e9751a97",
+      "name": "soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "soil moisture",
+          "start_char": 12321,
+          "end_char": 12334,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa80042d36be",
+      "name": "Sphagnum cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15cecc3723",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sphagnum cover",
+          "start_char": 20540,
+          "end_char": 20554,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a093e6d51311",
+      "name": "Sphagnum rubellum",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_932c5ee583",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "S. rubellum",
+          "start_char": 217,
+          "end_char": 228,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:df7ed9ccc23f",
+      "subject": "causal_mosaic:node:bc7cac87f9e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:455aba150d4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The establishment rate of the moss carpet varied among years, in response to climatic variations between growing seasons.",
+      "source_spans": [
+        {
+          "text": "The establishment rate of the moss carpet varied among years, in response to climatic variations between growing seasons."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5846110c6ae9",
+      "subject": "causal_mosaic:node:a4aad1e89817",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:522014c38b9c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The establishment rate of the moss carpet varied among years, in response to climatic variations between growing seasons.",
+      "source_spans": [
+        {
+          "text": "The establishment rate of the moss carpet varied among years, in response to climatic variations between growing seasons."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f7ce659d396c",
+      "subject": "causal_mosaic:node:a4aad1e89817",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:455aba150d4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Initial climatic conditions thus seemed to have a long-term effect on carpet development but did not alone determine cover in subsequent years.",
+      "source_spans": [
+        {
+          "text": "Initial climatic conditions thus seemed to have a long-term effect on carpet development but did not alone determine cover in subsequent years."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f37dd2601bc8",
+      "subject": "causal_mosaic:node:ec77b06c33d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:455aba150d4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "S. fuscum, alone or in combination, was the species found to lead to the most extensive development of the moss carpet under the current test conditions.",
+      "source_spans": [
+        {
+          "text": "S. fuscum, alone or in combination, was the species found to lead to the most extensive development of the moss carpet under the current test conditions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0c6e68760850",
+      "subject": "causal_mosaic:node:dea80c54d2f0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:632d0a056ba8",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results showed no link between the number of species in the diaspore mixture and successful establishment of the moss carpet.",
+      "source_spans": [
+        {
+          "text": "Our results showed no link between the number of species in the diaspore mixture and successful establishment of the moss carpet."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9c69580b06f8",
+      "subject": "causal_mosaic:node:3f53e9751a97",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aa80042d36be",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Contrary to expectations, the effect of the covariable soil moisture on Sphagnum cover was not significant in our experiment",
+      "source_spans": [
+        {
+          "text": "Contrary to expectations, the effect of the covariable soil moisture on Sphagnum cover was not significant in our experiment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a883510db2a6",
+      "subject": "causal_mosaic:node:a093e6d51311",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:455aba150d4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Inclusion of species adapted to dry conditions (S. fuscum and S. rubellum) in the dissemination material favoured the development of the moss carpet on residual peat surfaces",
+      "source_spans": [
+        {
+          "text": "Inclusion of species adapted to dry conditions (S. fuscum and S. rubellum) in the dissemination material favoured the development of the moss carpet on residual peat surfaces"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2006.tb00678.x",
+        "title": "<i>Sphagnum</i> establishment on bare peat: The importance of climatic variability and <i>Sphagnum</i> species richness",
+        "year": 2006,
+        "authors": [
+          "Chirino, C.",
+          "Campeau, S.",
+          "Rochefort, L."
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

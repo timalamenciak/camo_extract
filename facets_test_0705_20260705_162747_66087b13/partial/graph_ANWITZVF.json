@@ -1,0 +1,487 @@
+{
+  "graph_id": "causal_mosaic:graph:574487fb7ce3",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T08:04:44.137216+00:00",
+    "source_corpus": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:74e62f151f02",
+      "name": "water quality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_56559a9f77",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "As water quality improved, zooplankton communities changed in the Sudbury lakes."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81ed52cf2b0a",
+      "name": "zooplankton communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_106d5f2024",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "As water quality improved, zooplankton communities changed in the Sudbury lakes."
+        },
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b43d75a41455",
+      "name": "crustacean species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c5478cb98e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c830811facfe",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:19bb2dfe5710",
+      "name": "copper",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2b2e47758d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b83a84069bc4",
+      "name": "nickel",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b485307c3b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:828e41b46f88",
+      "name": "climate",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001082",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5ab44a9edec1",
+      "name": "acid deposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0c2b10f429",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c2773c16723",
+      "name": "lakeshore development",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e886c70496",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c0230ec95940",
+      "name": "metal contamination",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0b00f6ef79",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Zooplankton recovery was also likely to be limited by continued metal contamination."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2bfb3ccccd3c",
+      "name": "Yellow Perch Perca flavescens",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_3bdbd0eb94",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "small, planktivorous Yellow Perch Perca flavescens have become very abundant in Sudbury lakes, perhaps contributing to poor daphniid recovery (Yan et al. 2004; Valois, Keller & Ramcharan 2010)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64838e548d48",
+      "name": "daphniid recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fa2f5988fd",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "small, planktivorous Yellow Perch Perca flavescens have become very abundant in Sudbury lakes, perhaps contributing to poor daphniid recovery (Yan et al. 2004; Valois, Keller & Ramcharan 2010)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4909c02d55b4",
+      "subject": "causal_mosaic:node:74e62f151f02",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81ed52cf2b0a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As water quality improved, zooplankton communities changed in the Sudbury lakes.",
+      "source_spans": [
+        {
+          "text": "As water quality improved, zooplankton communities changed in the Sudbury lakes."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2f10b25b6660",
+      "subject": "causal_mosaic:node:c830811facfe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b43d75a41455",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001).",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e353e5e56516",
+      "subject": "causal_mosaic:node:19bb2dfe5710",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b43d75a41455",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001).",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8924d2ffce7f",
+      "subject": "causal_mosaic:node:b83a84069bc4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b43d75a41455",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001).",
+      "source_spans": [
+        {
+          "text": "Increases in richness were significant (Mann – Kendall trend tests Z-values >4/C16, P-values <0/C1001) and were correlated with increases in pH and decreases in copper and nickel (Spearman rank order correlation coefﬁcients = 0/C160– 0/C192, P-values <0/C1001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5f5c16348ebf",
+      "subject": "causal_mosaic:node:828e41b46f88",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81ed52cf2b0a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008).",
+      "source_spans": [
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:17856d093d4f",
+      "subject": "causal_mosaic:node:5ab44a9edec1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81ed52cf2b0a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008).",
+      "source_spans": [
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9c9e76048aab",
+      "subject": "causal_mosaic:node:5c2773c16723",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81ed52cf2b0a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008).",
+      "source_spans": [
+        {
+          "text": "Changes in climate, acid deposition and lakeshore development have altered the thermal regime and water quality of the reference lakes over the last 25 years (Palmer et al. 2011; M.E. Palmer, N.D. Yan & K.M. Somers, unpublished data), and correlated shifts in their zooplankton communities have occurred (Yan et al. 2008)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b461a3a9f65d",
+      "subject": "causal_mosaic:node:c0230ec95940",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81ed52cf2b0a",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Zooplankton recovery was also likely to be limited by continued metal contamination.",
+      "source_spans": [
+        {
+          "text": "Zooplankton recovery was also likely to be limited by continued metal contamination."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f6fcac52170a",
+      "subject": "causal_mosaic:node:2bfb3ccccd3c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64838e548d48",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "small, planktivorous Yellow Perch Perca flavescens have become very abundant in Sudbury lakes, perhaps contributing to poor daphniid recovery (Yan et al. 2004; Valois, Keller & Ramcharan 2010).",
+      "source_spans": [
+        {
+          "text": "small, planktivorous Yellow Perch Perca flavescens have become very abundant in Sudbury lakes, perhaps contributing to poor daphniid recovery (Yan et al. 2004; Valois, Keller & Ramcharan 2010)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/1365-2664.12007",
+        "title": "Gauging recovery of zooplankton from historical acid and metal contamination: the influence of temporal changes in restoration targets",
+        "year": 2013,
+        "authors": [
+          "Palmer, Michelle E.",
+          "Keller, Wendel (Bill)",
+          "Yan, Norman D."
+        ],
+        "journal": "Journal of Applied Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "graph_id": "causal_mosaic:graph:eaadd9509f06",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T15:12:07.801419+00:00",
+    "source_corpus": "ADAPTIVE REVERSALS IN ACID TOLERANCE IN COPEPODS FROM LAKES RECOVERING FROM HISTORICAL STRESS",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a6ff9bc39803",
+      "name": "history of acidiﬁcation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_922d1e5805",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "L. minutus populations had higher acid tolerances in circum-neutral lakes with a history of acidiﬁcation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:da2694af8e3c",
+      "name": "higher acid tolerances",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_78ebf51951",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "L. minutus populations had higher acid tolerances in circum-neutral lakes with a history of acidiﬁcation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc7a7d56f5cd",
+      "name": "years since recovery to pH 6.0",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e0d147bcd6",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Acid-recovering lakes with longer times since recovery to pH 6.0 had lower L. minutus survival at pH 4.7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:28e6d5d1e744",
+      "name": "less acid-tolerant",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_500c2c2ddb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "copepods in circum-neutral acid-recovering lakes were less acid-tolerant than were copepods in lakes with longer recovery time"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e8644a7bb97f",
+      "name": "high acid tolerances",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34b9fca2e2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "indicated a ﬁtness trade-off in copepods with high acid tolerances at circum-neutral pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f20408d8ec19",
+      "name": "fitness trade-off",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0b163c50cc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "indicated a ﬁtness trade-off in copepods with high acid tolerances at circum-neutral pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:23bb6bf769f1",
+      "name": "lake recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c4f93dd263",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "adaptive reversal in acid tolerance of L. minutus populations following lake recovery"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8be2cc3e582d",
+      "name": "adaptive reversal in acid tolerance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a0cd6e3c0e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "adaptive reversal in acid tolerance of L. minutus populations following lake recovery"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a74a2fb5e12d",
+      "subject": "causal_mosaic:node:a6ff9bc39803",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:da2694af8e3c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "L. minutus populations had higher acid tolerances in circum-neutral lakes with a history of acidiﬁcation than in local and distant lakes that were never acidiﬁed.",
+      "source_spans": [
+        {
+          "text": "L. minutus populations had higher acid tolerances in circum-neutral lakes with a history of acidiﬁcation than in local and distant lakes that were never acidiﬁed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/06-1382",
+        "title": "ADAPTIVE REVERSALS IN ACID TOLERANCE IN COPEPODS FROM LAKES RECOVERING FROM HISTORICAL STRESS",
+        "year": 2007,
+        "authors": [
+          "Derry, Alison M.",
+          "Arnott, Shelley E."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6261704ecf41",
+      "subject": "causal_mosaic:node:cc7a7d56f5cd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:28e6d5d1e744",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Acid-recovering lakes with longer times since recovery to pH 6.0 had lower L. minutus survival at pH 4.7 than more recently recovered lakes",
+      "source_spans": [
+        {
+          "text": "Acid-recovering lakes with longer times since recovery to pH 6.0 had lower L. minutus survival at pH 4.7 than more recently recovered lakes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/06-1382",
+        "title": "ADAPTIVE REVERSALS IN ACID TOLERANCE IN COPEPODS FROM LAKES RECOVERING FROM HISTORICAL STRESS",
+        "year": 2007,
+        "authors": [
+          "Derry, Alison M.",
+          "Arnott, Shelley E."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39e01e2d044a",
+      "subject": "causal_mosaic:node:e8644a7bb97f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f20408d8ec19",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This adaptive reversal in acid tolerance of L. minutus populations following lake recovery was supported by the results of a laboratory experiment that indicated a ﬁtness trade-off in copepods with high acid tolerances at circum-neutral pH.",
+      "source_spans": [
+        {
+          "text": "This adaptive reversal in acid tolerance of L. minutus populations following lake recovery was supported by the results of a laboratory experiment that indicated a ﬁtness trade-off in copepods with high acid tolerances at circum-neutral pH."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/06-1382",
+        "title": "ADAPTIVE REVERSALS IN ACID TOLERANCE IN COPEPODS FROM LAKES RECOVERING FROM HISTORICAL STRESS",
+        "year": 2007,
+        "authors": [
+          "Derry, Alison M.",
+          "Arnott, Shelley E."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b2c6985700a7",
+      "subject": "causal_mosaic:node:23bb6bf769f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8be2cc3e582d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This adaptive reversal in acid tolerance of L. minutus populations following lake recovery was supported by the results of a laboratory experiment that indicated a ﬁtness trade-off in copepods with high acid tolerances at circum-neutral pH.",
+      "source_spans": [
+        {
+          "text": "This adaptive reversal in acid tolerance of L. minutus populations following lake recovery was supported by the results of a laboratory experiment that indicated a ﬁtness trade-off in copepods with high acid tolerances at circum-neutral pH."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1890/06-1382",
+        "title": "ADAPTIVE REVERSALS IN ACID TOLERANCE IN COPEPODS FROM LAKES RECOVERING FROM HISTORICAL STRESS",
+        "year": 2007,
+        "authors": [
+          "Derry, Alison M.",
+          "Arnott, Shelley E."
+        ],
+        "journal": "Ecological Applications"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

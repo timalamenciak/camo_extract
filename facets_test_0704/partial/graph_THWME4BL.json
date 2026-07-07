@@ -1,0 +1,529 @@
+{
+  "graph_id": "causal_mosaic:graph:610f4fec7485",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T01:49:50.345401+00:00",
+    "source_corpus": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:bd19d199f160",
+      "name": "well-designed three-layer cover with capillary barrier effects (CCBE)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9d0e54490a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7ff7fed19ba",
+      "name": "oxygen flux",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6d6db46456",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:015009e76fe2",
+      "name": "AMD generation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2605696cfb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21dd6f6503ec",
+      "name": "water table depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105203",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The deeper the water table, the more AMD is generated."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9cd3948550d3",
+      "name": "degree of saturation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_77c3873f11",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Evaporation can significantly decrease the degree of saturation close to the surface."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a2e94d05422c",
+      "name": "Evaporation",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500034",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Evaporation can significantly decrease the degree of saturation close to the surface."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24406d4bc7a0",
+      "name": "cover thickness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a2d4f43540",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Results indicate that a thicker cover is generally more efficient at limiting oxygen ingress."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f33a178887e7",
+      "name": "oxygen ingress",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cd45157e66",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Results indicate that a thicker cover is generally more efficient at limiting oxygen ingress."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70918a417b2f",
+      "name": "indirect oxidation reactions",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_20f1f7392b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The reclamation of old mine sites with pre-oxidized tailings is particularly challenging because of indirect oxidation reactions which can limit the overall effectiveness of an oxygen barrier to prevent AMD."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9140ae555871",
+      "name": "effectiveness of an oxygen barrier",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5f357acdf7",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The reclamation of old mine sites with pre-oxidized tailings is particularly challenging because of indirect oxidation reactions which can limit the overall effectiveness of an oxygen barrier to prevent AMD."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4630bff27475",
+      "name": "pre-oxidized tailings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5f4ebce6d0",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The simulations indicate that because of reduced cover effectiveness with pre-oxidized tailings, the general design targets developed for non-oxidized tailings may not always be directly applicable to already oxidized tailings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:684eb57f5084",
+      "name": "general design targets developed for non-oxidized tailings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2f2523e017",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The simulations indicate that because of reduced cover effectiveness with pre-oxidized tailings, the general design targets developed for non-oxidized tailings may not always be directly applicable to already oxidized tailings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d93556191293",
+      "name": "bilayer cover",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_95238051bc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The results indicate that under a given set of conditions, a bilayer cover (with a capillary break above the reactive tailings) would not significantly improve cover performance (compared to a monolayer cover) due to water losses by evaporation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9bfccfc8a0f",
+      "name": "cover performance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b7e438f95e",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "The results indicate that under a given set of conditions, a bilayer cover (with a capillary break above the reactive tailings) would not significantly improve cover performance (compared to a monolayer cover) due to water losses by evaporation."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7f0dfaf1f05f",
+      "name": "two-month drought",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0e1a9fa01",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A two-month drought would significantly decrease the degree of saturation in the monolayer cover CA and the related annual oxygen flux to 179, 100 and 49 g/m2/y for a 1, 2 and 4 m thick cover, respectively"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:399b8d415f02",
+      "subject": "causal_mosaic:node:bd19d199f160",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d7ff7fed19ba",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings.",
+      "source_spans": [
+        {
+          "text": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39f61e58ccea",
+      "subject": "causal_mosaic:node:bd19d199f160",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:015009e76fe2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings.",
+      "source_spans": [
+        {
+          "text": "The simulations show, however, that a well-designed three-layer cover with capillary barrier effects (CCBE) would be efficient in reducing the oxygen flux and AMD generation, even in the case of highly pre-oxidized tailings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6eb9c3151d01",
+      "subject": "causal_mosaic:node:21dd6f6503ec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:015009e76fe2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The deeper the water table, the more AMD is generated.",
+      "source_spans": [
+        {
+          "text": "The deeper the water table, the more AMD is generated."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:89d03654cd33",
+      "subject": "causal_mosaic:node:a2e94d05422c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9cd3948550d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Evaporation can significantly decrease the degree of saturation close to the surface.",
+      "source_spans": [
+        {
+          "text": "Evaporation can significantly decrease the degree of saturation close to the surface."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f4ef2c35c6ea",
+      "subject": "causal_mosaic:node:24406d4bc7a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f33a178887e7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results indicate that a thicker cover is generally more efficient at limiting oxygen ingress.",
+      "source_spans": [
+        {
+          "text": "Results indicate that a thicker cover is generally more efficient at limiting oxygen ingress."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0949651f8996",
+      "subject": "causal_mosaic:node:70918a417b2f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9140ae555871",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The reclamation of old mine sites with pre-oxidized tailings is particularly challenging because of indirect oxidation reactions which can limit the overall effectiveness of an oxygen barrier to prevent AMD.",
+      "source_spans": [
+        {
+          "text": "The reclamation of old mine sites with pre-oxidized tailings is particularly challenging because of indirect oxidation reactions which can limit the overall effectiveness of an oxygen barrier to prevent AMD."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:da32cea74c59",
+      "subject": "causal_mosaic:node:4630bff27475",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:684eb57f5084",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The simulations indicate that because of reduced cover effectiveness with pre-oxidized tailings, the general design targets developed for non-oxidized tailings may not always be directly applicable to already oxidized tailings.",
+      "source_spans": [
+        {
+          "text": "The simulations indicate that because of reduced cover effectiveness with pre-oxidized tailings, the general design targets developed for non-oxidized tailings may not always be directly applicable to already oxidized tailings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:69fd11a27527",
+      "subject": "causal_mosaic:node:d93556191293",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e9bfccfc8a0f",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The results indicate that under a given set of conditions, a bilayer cover (with a capillary break above the reactive tailings) would not significantly improve cover performance (compared to a monolayer cover) due to water losses by evaporation.",
+      "source_spans": [
+        {
+          "text": "The results indicate that under a given set of conditions, a bilayer cover (with a capillary break above the reactive tailings) would not significantly improve cover performance (compared to a monolayer cover) due to water losses by evaporation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:55623ebfdde6",
+      "subject": "causal_mosaic:node:7f0dfaf1f05f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9cd3948550d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A two-month drought would significantly decrease the degree of saturation in the monolayer cover CA and the related annual oxygen flux to 179, 100 and 49 g/m2/y for a 1, 2 and 4 m thick cover, respectively",
+      "source_spans": [
+        {
+          "text": "A two-month drought would significantly decrease the degree of saturation in the monolayer cover CA and the related annual oxygen flux to 179, 100 and 49 g/m2/y for a 1, 2 and 4 m thick cover, respectively"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.jconhyd.2018.05.006",
+        "title": "Comparative performance of cover systems to prevent acid mine drainage from pre-oxidized tailings: A numerical hydro-geochemical assessment",
+        "year": 2018,
+        "authors": [
+          "Pabst, Thomas",
+          "Bussière, Bruno",
+          "Aubertin, Michel",
+          "Molson, John"
+        ],
+        "journal": "Journal of Contaminant Hydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

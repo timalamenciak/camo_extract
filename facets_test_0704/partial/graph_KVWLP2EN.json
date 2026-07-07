@@ -1,0 +1,494 @@
+{
+  "graph_id": "causal_mosaic:graph:0ce0d4b3d5bf",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T20:09:33.888559+00:00",
+    "source_corpus": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c5a39e1a2774",
+      "name": "presence of shade",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_61c5944832",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In the greenhouse experiment, the presence of shade increased regeneration success for eight out of nine species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75f5b54849fc",
+      "name": "regeneration success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_432d696c3a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "regeneration success",
+      "source_spans": [
+        {
+          "text": "In the greenhouse experiment, the presence of shade increased regeneration success for eight out of nine species."
+        },
+        {
+          "text": "The regeneration success of the bryophytes would benefit from the canopy of tall herbaceous plants, which create a protected microclimate."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0aa575adf725",
+      "name": "high water level",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3ad57590d0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "A high water level was ideal for the regeneration of the majority of species tested."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d9efec05ff90",
+      "name": "regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa15d3833f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "regeneration",
+      "source_spans": [
+        {
+          "text": "A high water level was ideal for the regeneration of the majority of species tested."
+        },
+        {
+          "text": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants."
+        },
+        {
+          "text": "The higher regeneration for the wetter treatments was indeed due to greater water availability."
+        },
+        {
+          "text": "Shade improved regeneration (except for P. strictum) even for the wettest greenhouse treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ba6131650e25",
+      "name": "Sphagnum species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_1e2bf1726d",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:852b8e686dce",
+      "name": "dense canopy of herbaceous plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c5a0fe9b8",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:571ddfba9f00",
+      "name": "presence and density of Scirpus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0536cb410d",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The regression analysis showed that the presence and density of Scirpus were strongly related to successful moss regeneration."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f176adf335ac",
+      "name": "successful moss regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e5aa4814cd",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "successful moss regeneration",
+      "source_spans": [
+        {
+          "text": "The regression analysis showed that the presence and density of Scirpus were strongly related to successful moss regeneration."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be29df19e6f5",
+      "name": "greater water availability",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4388281e41",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The higher regeneration for the wetter treatments was indeed due to greater water availability."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:104bca820a56",
+      "name": "shade",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6bae402f27",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Shade improved regeneration (except for P. strictum) even for the wettest greenhouse treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bcdb41d1d373",
+      "name": "Pleurozium schreberi",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q1646440",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "This study showed that shade is indeed crucial for regeneration of this species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b6b159bf824d",
+      "name": "regeneration of this species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8731680334",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "regeneration of this species",
+      "source_spans": [
+        {
+          "text": "This study showed that shade is indeed crucial for regeneration of this species."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c287b45d0b6a",
+      "name": "canopy of tall herbaceous plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8dd5482b9d",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The regeneration success of the bryophytes would benefit from the canopy of tall herbaceous plants, which create a protected microclimate."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4d2d066a41ae",
+      "subject": "causal_mosaic:node:c5a39e1a2774",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75f5b54849fc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the greenhouse experiment, the presence of shade increased regeneration success for eight out of nine species.",
+      "source_spans": [
+        {
+          "text": "In the greenhouse experiment, the presence of shade increased regeneration success for eight out of nine species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8e88fa72a3f4",
+      "subject": "causal_mosaic:node:0aa575adf725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9efec05ff90",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "A high water level was ideal for the regeneration of the majority of species tested.",
+      "source_spans": [
+        {
+          "text": "A high water level was ideal for the regeneration of the majority of species tested."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3cbeb1a09965",
+      "subject": "causal_mosaic:node:ba6131650e25",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9efec05ff90",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants.",
+      "source_spans": [
+        {
+          "text": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9d647692e0ae",
+      "subject": "causal_mosaic:node:852b8e686dce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9efec05ff90",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants.",
+      "source_spans": [
+        {
+          "text": "In the field experiment, Sphagnum species had the highest regeneration, and all species had higher regeneration under a dense canopy of herbaceous plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a63be27aecea",
+      "subject": "causal_mosaic:node:571ddfba9f00",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f176adf335ac",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The regression analysis showed that the presence and density of Scirpus were strongly related to successful moss regeneration.",
+      "source_spans": [
+        {
+          "text": "The regression analysis showed that the presence and density of Scirpus were strongly related to successful moss regeneration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e209444ce8a8",
+      "subject": "causal_mosaic:node:be29df19e6f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9efec05ff90",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The higher regeneration for the wetter treatments was indeed due to greater water availability.",
+      "source_spans": [
+        {
+          "text": "The higher regeneration for the wetter treatments was indeed due to greater water availability."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e7cf8b284405",
+      "subject": "causal_mosaic:node:104bca820a56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d9efec05ff90",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shade improved regeneration (except for P. strictum) even for the wettest greenhouse treatments.",
+      "source_spans": [
+        {
+          "text": "Shade improved regeneration (except for P. strictum) even for the wettest greenhouse treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:85377c80e016",
+      "subject": "causal_mosaic:node:104bca820a56",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b6b159bf824d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This study showed that shade is indeed crucial for regeneration of this species.",
+      "source_spans": [
+        {
+          "text": "This study showed that shade is indeed crucial for regeneration of this species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:14c5a4e96b17",
+      "subject": "causal_mosaic:node:c287b45d0b6a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:75f5b54849fc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The regeneration success of the bryophytes would benefit from the canopy of tall herbaceous plants, which create a protected microclimate.",
+      "source_spans": [
+        {
+          "text": "The regeneration success of the bryophytes would benefit from the canopy of tall herbaceous plants, which create a protected microclimate."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2008.00437.x",
+        "title": "Moss Regeneration for Fen Restoration: Field and Greenhouse Experiments",
+        "year": 2010,
+        "authors": [
+          "Graf, Martha D.",
+          "Rochefort, Line"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

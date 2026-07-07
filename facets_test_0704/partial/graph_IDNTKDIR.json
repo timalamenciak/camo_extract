@@ -1,0 +1,357 @@
+{
+  "graph_id": "causal_mosaic:graph:d44e6968d6bf",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T08:15:15.824795+00:00",
+    "source_corpus": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:014a35594d4b",
+      "name": "Kentucky bluegrass",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_b77544ace1",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Higher densities of Kentucky bluegrass were inversely related with the abundance of rough fescue"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9a109078e8d9",
+      "name": "Density of Kentucky bluegrass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d9ad2518a4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "mean density decreased between 2006 and 2009"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cdff4401d391",
+      "name": "Plains rough fescue",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_6fe43a4ed6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "inversely related with the abundance of rough fescue"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51479f171bf1",
+      "name": "Density of plains rough fescue",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_302cc35410",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "density increased between 2006 and 2009"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1a5f400045aa",
+      "name": "Cattle grazing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9e86e378f3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "grazing by cattle did not significantly reduce the density of Kentucky bluegrass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b59cd0da47ee",
+      "name": "Litter accumulation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_221891d05f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fedd6050a51e",
+      "name": "Soil temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0e85e745a4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0000146",
+      "source_spans": [
+        {
+          "text": "reduce soil temperatures",
+          "start_char": 7340,
+          "end_char": 7364,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec3258a828fb",
+      "name": "Light",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_da0f5463f4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "light",
+      "source_spans": [
+        {
+          "text": "reduce soil temperatures and light",
+          "start_char": 7340,
+          "end_char": 7374,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8870aa890325",
+      "name": "Germination of other plants",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1926d7b8ea",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lower the germination of other plants",
+          "start_char": 7378,
+          "end_char": 7415,
+          "paragraph_id": "page:3"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:886be7425b7f",
+      "subject": "causal_mosaic:node:9a109078e8d9",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:51479f171bf1",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Higher densities of Kentucky bluegrass were inversely related with the abundance of rough fescue in the north field",
+      "source_spans": [
+        {
+          "text": "Higher densities of Kentucky bluegrass were inversely related with the abundance of rough fescue in the north field"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[0].philosophical_accounts: unknown 'structuralist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:0dbd5d14653c",
+      "subject": "causal_mosaic:node:1a5f400045aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9a109078e8d9",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "grazing by cattle did not significantly reduce the density of Kentucky bluegrass",
+      "source_spans": [
+        {
+          "text": "grazing by cattle did not significantly reduce the density of Kentucky bluegrass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:782c2a64fd07",
+      "subject": "causal_mosaic:node:1a5f400045aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:51479f171bf1",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cattle grazing also did not reduce the density of plains rough fescue",
+      "source_spans": [
+        {
+          "text": "cattle grazing also did not reduce the density of plains rough fescue"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ac605ee86efa",
+      "subject": "causal_mosaic:node:b59cd0da47ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fedd6050a51e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants",
+      "source_spans": [
+        {
+          "text": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[3].philosophical_accounts: unknown 'structuralist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:80fc36fb77f1",
+      "subject": "causal_mosaic:node:b59cd0da47ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec3258a828fb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants",
+      "source_spans": [
+        {
+          "text": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[4].philosophical_accounts: unknown 'structuralist' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:4dbd9d9a7d5e",
+      "subject": "causal_mosaic:node:b59cd0da47ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8870aa890325",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants",
+      "source_spans": [
+        {
+          "text": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[5].philosophical_accounts: unknown 'structuralist' -> 'probabilistic'"
+    }
+  ]
+}

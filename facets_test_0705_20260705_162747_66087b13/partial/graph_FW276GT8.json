@@ -1,0 +1,380 @@
+{
+  "graph_id": "causal_mosaic:graph:f699b8ec74d4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T15:06:37.459331+00:00",
+    "source_corpus": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:ca204b9f63ef",
+      "name": "manual cutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4de51acd46",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We studied the effects of manual cutting on an established vegetation community",
+          "start_char": 859,
+          "end_char": 938,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e03435188efb",
+      "name": "Spruce survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d8ad66ac25",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Spruce survival was significantly higher in the treatment than the control 3 years after brushing (p = 0.020)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cafa76e87d00",
+      "name": "spruce diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93ffb1a081",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "The cutting treatment significantly increased ground-level diameter after 3 and 5 years"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:30f31fda0c3b",
+      "name": "shrub cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_329a66141a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Manual cutting reduced shrub cover for at least 10 years",
+          "start_char": 22287,
+          "end_char": 22343,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:392052170939",
+      "name": "Shannon diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_899803bfc2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Manual cutting increased Shannon diversity in the first year post-treatment (p = 0.039)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8ce9b7f38de",
+      "name": "Relative height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_31b60a8542",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "brushed spruce were taller relative to the vegetation canopy than control spruce throughout the 10 years assessment period"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:53a9b81060cf",
+      "name": "Shrub height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d6cf35eed6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Shrub height was reduced in the first year post-treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0199fa66cfbe",
+      "name": "shrub abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7fde9c001",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "negative relationship between first year total shrub or summed Ericaceous shrub abundance... and spruce diameter"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:78c2aba43024",
+      "subject": "causal_mosaic:node:ca204b9f63ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e03435188efb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spruce survival was significantly higher in the treatment than the control 3 years after brushing (p = 0.020).",
+      "source_spans": [
+        {
+          "text": "Spruce survival was significantly higher in the treatment than the control 3 years after brushing (p = 0.020)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3a99ab83bade",
+      "subject": "causal_mosaic:node:ca204b9f63ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cafa76e87d00",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cutting treatment significantly increased ground-level diameter after 3 and 5 years, but not after 10 years.",
+      "source_spans": [
+        {
+          "text": "The cutting treatment significantly increased ground-level diameter after 3 and 5 years, but not after 10 years."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d771e2a4fbf3",
+      "subject": "causal_mosaic:node:ca204b9f63ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:30f31fda0c3b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Manual cutting reduced shrub cover for at least 10 years",
+      "source_spans": [
+        {
+          "text": "Manual cutting reduced shrub cover for at least 10 years",
+          "start_char": 22287,
+          "end_char": 22343,
+          "paragraph_id": "page:5"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ccaa82405a28",
+      "subject": "causal_mosaic:node:ca204b9f63ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:392052170939",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Manual cutting increased Shannon diversity in the first year post-treatment (p = 0.039)",
+      "source_spans": [
+        {
+          "text": "Manual cutting increased Shannon diversity in the first year post-treatment (p = 0.039)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f2be1b7bbda1",
+      "subject": "causal_mosaic:node:ca204b9f63ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b8ce9b7f38de",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "brushed spruce were taller relative to the vegetation canopy than control spruce throughout the 10 years assessment period",
+      "source_spans": [
+        {
+          "text": "brushed spruce were taller relative to the vegetation canopy than control spruce throughout the 10 years assessment period"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0455aa99e473",
+      "subject": "causal_mosaic:node:ca204b9f63ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:53a9b81060cf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shrub height was reduced in the first year post-treatment",
+      "source_spans": [
+        {
+          "text": "Shrub height was reduced in the first year post-treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d9adfee5a5f2",
+      "subject": "causal_mosaic:node:0199fa66cfbe",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cafa76e87d00",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "negative relationship between first year total shrub or summed Ericaceous shrub abundance... and spruce diameter",
+      "source_spans": [
+        {
+          "text": "negative relationship between first year total shrub or summed Ericaceous shrub abundance... and spruce diameter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2007.05.002",
+        "title": "Ten year responses of Engelmann spruce and a high-elevation Ericaceous shrub community to manual cutting treatments in southern interior British Columbia",
+        "year": 2007,
+        "authors": [
+          "Heineman, Jean L.",
+          "Simard, Suzanne W.",
+          "Sachs, Donald L.",
+          "Mather, W. Jean"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

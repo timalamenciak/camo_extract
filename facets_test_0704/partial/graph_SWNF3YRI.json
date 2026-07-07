@@ -1,0 +1,646 @@
+{
+  "graph_id": "causal_mosaic:graph:1f2233229f36",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T12:36:25.650268+00:00",
+    "source_corpus": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:111d59e34725",
+      "name": "forest floor mixing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a03bcd3c5f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We tested whether forest floor mixing and planting black spruce seedlings preinoculated with an ectomycorrhizal (ECM) fungus, Paxillus involutus (Batsch) Fr., has potential to improve black spruce growth in Kalmia-dominated sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec2117ec2b4b",
+      "name": "soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "moisture",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55ff5e2a457f",
+      "name": "litter decomposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9d115e46b7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3147367b0e0",
+      "name": "soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "pH",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ee29b024484b",
+      "name": "black spruce growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f5ff936169",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eca12daaa5c9",
+      "name": "foliar nutrient concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e4cc958d5f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nutrient concentrations",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b894d59cceb",
+      "name": "mycorrhizal inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dabd3c5f2a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "We tested whether forest floor mixing and planting black spruce seedlings preinoculated with an ectomycorrhizal (ECM) fungus, Paxillus involutus (Batsch) Fr., has potential to improve black spruce growth in Kalmia-dominated sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8a6492bbf763",
+      "name": "ECM formation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8ce20f5aa3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "formation",
+      "source_spans": [
+        {
+          "text": "Inoculated seedlings had significantly higher initial ECM formation than the control seedlings, but they failed to achieve higher growth."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:faeb7670858b",
+      "name": "foliar P concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3b65fc8771",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Foliar P concentration of inoculated seedlings was significantly greater (19.3%) than that of control seedlings ( S = 4.5, p < 0.01; Fig. 4 b)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5f2581f86405",
+      "name": "insect-defoliated sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1e534289a6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea38d70ca8eb",
+      "name": "burned sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34e09f7f1c",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f5edd573434",
+      "name": "soil respiration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_679c6516d4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "However, soil respiration was significantly higher (58%) in nonmixed plots than in mixed plots ( F = 29.7, p < 0.006; Fig. 7 b)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:44dc0e7ad662",
+      "name": "total N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fe1ce192a3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "However, plots in insect-defoliated sites had significantly higher total N ( F = 8.7, p < 0.042), Fe ( F = 8.3, p < 0.045), total phenols ( F = 8.2, p < 0.046), and Cu ( F = 23.1, p < 0.009) than the plots in burned sites."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fece489a337a",
+      "name": "total C",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_609580c833",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Forest floors in plots of burned sites had significantly higher total C ( F = 14.9, p < 0.018), C/N ratio ( F = 92.5, p < 0.001), Mg ( F = 49.6, p < 0.002), and Na ( F = 11.7, p < 0.027) than plots of insect-defoliated sites (Table 5)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b148b53afba1",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec2117ec2b4b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition.",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d6de2f636ec5",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55ff5e2a457f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition.",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a56807047e1e",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3147367b0e0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition.",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:380974a46ae4",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition.",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:47b3d85802dc",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eca12daaa5c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition.",
+      "source_spans": [
+        {
+          "text": "Seedlings in soil-mixed plots had significantly higher growth and foliar nutrient concentrations than nonmixed plots, likely because soil mixing improved the substrate conditions by increased soil moisture, pH, and litter decomposition."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2974bda4bfe3",
+      "subject": "causal_mosaic:node:8b894d59cceb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8a6492bbf763",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Inoculated seedlings had significantly higher initial ECM formation than the control seedlings, but they failed to achieve higher growth.",
+      "source_spans": [
+        {
+          "text": "Inoculated seedlings had significantly higher initial ECM formation than the control seedlings, but they failed to achieve higher growth."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:14329360e8c9",
+      "subject": "causal_mosaic:node:8b894d59cceb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:faeb7670858b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Foliar P concentration of inoculated seedlings was significantly greater (19.3%) than that of control seedlings ( S = 4.5, p < 0.01; Fig. 4 b).",
+      "source_spans": [
+        {
+          "text": "Foliar P concentration of inoculated seedlings was significantly greater (19.3%) than that of control seedlings ( S = 4.5, p < 0.01; Fig. 4 b)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:13f876175d28",
+      "subject": "causal_mosaic:node:5f2581f86405",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ee29b024484b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites.",
+      "source_spans": [
+        {
+          "text": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f54c13a78b02",
+      "subject": "causal_mosaic:node:5f2581f86405",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eca12daaa5c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites.",
+      "source_spans": [
+        {
+          "text": "Seedlings in insect-defoliated sites had significantly higher increases in height and foliar nutrient concentrations than those in the burned sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1e31190b9e51",
+      "subject": "causal_mosaic:node:5f2581f86405",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f5edd573434",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, soil respiration was 51% higher in insect-defoliated sites than in burned sites ( F = 10.8, p < 0.03; Fig. 7 b).",
+      "source_spans": [
+        {
+          "text": "However, soil respiration was 51% higher in insect-defoliated sites than in burned sites ( F = 10.8, p < 0.03; Fig. 7 b)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7659b943a22b",
+      "subject": "causal_mosaic:node:5f2581f86405",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:44dc0e7ad662",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, plots in insect-defoliated sites had significantly higher total N ( F = 8.7, p < 0.042), Fe ( F = 8.3, p < 0.045), total phenols ( F = 8.2, p < 0.046), and Cu ( F = 23.1, p < 0.009) than the plots in burned sites.",
+      "source_spans": [
+        {
+          "text": "However, plots in insect-defoliated sites had significantly higher total N ( F = 8.7, p < 0.042), Fe ( F = 8.3, p < 0.045), total phenols ( F = 8.2, p < 0.046), and Cu ( F = 23.1, p < 0.009) than the plots in burned sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3373ee749e0a",
+      "subject": "causal_mosaic:node:ea38d70ca8eb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fece489a337a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floors in plots of burned sites had significantly higher total C ( F = 14.9, p < 0.018), C/N ratio ( F = 92.5, p < 0.001), Mg ( F = 49.6, p < 0.002), and Na ( F = 11.7, p < 0.027) than plots of insect-defoliated sites (Table 5).",
+      "source_spans": [
+        {
+          "text": "Forest floors in plots of burned sites had significantly higher total C ( F = 14.9, p < 0.018), C/N ratio ( F = 92.5, p < 0.001), Mg ( F = 49.6, p < 0.002), and Na ( F = 11.7, p < 0.027) than plots of insect-defoliated sites (Table 5)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a111860dc60",
+      "subject": "causal_mosaic:node:111d59e34725",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f5edd573434",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "However, soil respiration was significantly higher (58%) in nonmixed plots than in mixed plots ( F = 29.7, p < 0.006; Fig. 7 b).",
+      "source_spans": [
+        {
+          "text": "However, soil respiration was significantly higher (58%) in nonmixed plots than in mixed plots ( F = 29.7, p < 0.006; Fig. 7 b)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/X09-115",
+        "title": "Black spruce reforestation in Kalmia heath: seedling response to forest floor mixing and mycorrhizal inoculation with Paxillus involutus",
+        "year": 2009,
+        "authors": [
+          "Walker, Gregg R.",
+          "Mallik, Azim U."
+        ],
+        "journal": "Can. J. For. Res."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

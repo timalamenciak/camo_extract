@@ -1,0 +1,411 @@
+{
+  "graph_id": "causal_mosaic:graph:8667e116598d",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T00:31:56.496634+00:00",
+    "source_corpus": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:7936e4f092eb",
+      "name": "chip incorporation treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_52cc9690c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "chip incorporation treatment",
+          "start_char": 1144,
+          "end_char": 1172,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64bda67d8c7b",
+      "name": "soil bulk density",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00010005",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "bulk density",
+      "source_spans": [
+        {
+          "text": "After 4 years, soil bulk density at 7–14 cm depth was lowest in the chip incorporation treatment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a26fab379788",
+      "name": "hybrid white spruce growth rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3fd4df97f2",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "growth rates",
+      "source_spans": [
+        {
+          "text": "the chip incorporation treatment had the highest 3-year growth rates of hybrid white spruce"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8173b6128ee",
+      "name": "total C, N, and S, and mineralizable N concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_076dcf5b8e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "concentrations",
+      "source_spans": [
+        {
+          "text": "total C, N, and S, and mineralizable N concentrations were highest in the topsoil recovery treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70135382d8a4",
+      "name": "topsoil recovery treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bf50248e29",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "topsoil recovery treatment",
+          "start_char": 1257,
+          "end_char": 1283,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7cd37421aede",
+      "name": "paper birch establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4c864b87a8",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Establishment of paper birch did not succeed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0b7b0d4c3c70",
+      "name": "rodent damage",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4e97e9cc06",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "severe rodent damage to seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5eeb14abcd89",
+      "name": "seeded agronomic legumes",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_74f4a16f7f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "seeded agronomic legumes",
+          "start_char": 1707,
+          "end_char": 1731,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d2cf5caa419b",
+      "name": "supplementary N fertilizer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b2d38e57ae",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "supplementary N fertilizer",
+          "start_char": 26000,
+          "end_char": 26026,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e43c0c315644",
+      "name": "N immobilization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6b9f817beb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "offset N immobilization",
+          "start_char": 26064,
+          "end_char": 26087,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0602dcbf8975",
+      "name": "seedling crushing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f577bcdb26",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "tended to crush seedlings"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:522932bb7003",
+      "subject": "causal_mosaic:node:7936e4f092eb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64bda67d8c7b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After 4 years, soil bulk density at 7–14 cm depth was lowest in the chip incorporation treatment.",
+      "source_spans": [
+        {
+          "text": "After 4 years, soil bulk density at 7–14 cm depth was lowest in the chip incorporation treatment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cf1f66ca3a91",
+      "subject": "causal_mosaic:node:7936e4f092eb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a26fab379788",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the chip incorporation treatment had the highest 3-year growth rates of hybrid white spruce",
+      "source_spans": [
+        {
+          "text": "the chip incorporation treatment had the highest 3-year growth rates of hybrid white spruce"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3ce1aba4060",
+      "subject": "causal_mosaic:node:70135382d8a4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b8173b6128ee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "total C, N, and S, and mineralizable N concentrations were highest in the topsoil recovery treatment",
+      "source_spans": [
+        {
+          "text": "total C, N, and S, and mineralizable N concentrations were highest in the topsoil recovery treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ce1cac0d5eaa",
+      "subject": "causal_mosaic:node:5eeb14abcd89",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0b7b0d4c3c70",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Establishment of paper birch did not succeed due to severe rodent damage to seedlings, perhaps encouraged by rapid and dense revegetation by seeded agronomic legumes.",
+      "source_spans": [
+        {
+          "text": "Establishment of paper birch did not succeed due to severe rodent damage to seedlings, perhaps encouraged by rapid and dense revegetation by seeded agronomic legumes."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee23a4b42bb6",
+      "subject": "causal_mosaic:node:0b7b0d4c3c70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7cd37421aede",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Establishment of paper birch did not succeed due to severe rodent damage to seedlings",
+      "source_spans": [
+        {
+          "text": "Establishment of paper birch did not succeed due to severe rodent damage to seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:026e64fb1f60",
+      "subject": "causal_mosaic:node:d2cf5caa419b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e43c0c315644",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The supplementary N fertilizer added with the chips appears to have offset N immobilization by the decomposing wood waste",
+      "source_spans": [
+        {
+          "text": "The supplementary N fertilizer added with the chips appears to have offset N immobilization by the decomposing wood waste"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4b21068dc53",
+      "subject": "causal_mosaic:node:5eeb14abcd89",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0602dcbf8975",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rapid establishment of agronomic legumes on all rehabilitation treatments created a mat of herbaceous vegetation that was pressed down by the winter snowpack and tended to crush seedlings, particularly in the case of paper birch.",
+      "source_spans": [
+        {
+          "text": "Rapid establishment of agronomic legumes on all rehabilitation treatments created a mat of herbaceous vegetation that was pressed down by the winter snowpack and tended to crush seedlings, particularly in the case of paper birch."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1093/wjaf/19.3.175",
+        "title": "Use of Wood Waste in Rehabilitation of Landings Constructed on Fine-Textured Soils, Central Interior British Columbia, Canada",
+        "year": 2004,
+        "authors": [
+          "Sanborn, Paul",
+          "Bulmer, Chuck",
+          "Coopersmith, Dave"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

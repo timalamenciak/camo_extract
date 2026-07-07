@@ -1,0 +1,1232 @@
+{
+  "graph_id": "causal_mosaic:graph:74c69f8ebdb8",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T17:03:11.918790+00:00",
+    "source_corpus": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:03b820d5b683",
+      "name": "Peat mining",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_995ddab08c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Peat mining causes major degradation to bogs",
+          "start_char": 321,
+          "end_char": 365,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:92b56b5e9640",
+      "name": "Major degradation to bogs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9e6125042",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Peat mining causes major degradation to bogs",
+          "start_char": 321,
+          "end_char": 365,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:830d0d291942",
+      "name": "Restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ace0331c6d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "indicating that restoration enhanced recovery of species diversity and community structure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7ec2b4793fb3",
+      "name": "Recovery of species diversity and community structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4a282da9ef",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "species diversity",
+      "source_spans": [
+        {
+          "text": "indicating that restoration enhanced recovery of species diversity and community structure"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4be9e32ec5c",
+      "name": "Species diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5191936117",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "diversity (rarefaction estimate) of the restored treatment was not significantly different than that in the natural treatment, but was significantly higher than that in the abandoned treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ffc3e5f53ada",
+      "name": "Coverage of bare peat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6220b9831a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Species assemblages were mostly affected by coverage of bare peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:39d31c4794cf",
+      "name": "Species assemblages",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d2680d868",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Species assemblages were mostly affected by coverage of bare peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c9a9c78cb544",
+      "name": "Coverage of Sphagnum mosses",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9fa89a8bfb",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Species assemblages were mostly affected by... Sphagnum mosses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ca22aa3003b",
+      "name": "Peat chemical properties",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e08bf7f39",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Predaceous flies in dung (PRco) were mostly affected by peat chemical properties (Peat3)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e54c35a85d1",
+      "name": "Predaceous flies in dung",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_301725a5c0",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Predaceous flies in dung (PRco) were mostly affected by peat chemical properties (Peat3)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8796e9ac6f91",
+      "name": "Mollusc predators",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_44cf14fe05",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Mollusc predators (PRmo) were mostly affected by the coverage of bare peat (Vege1) and peat pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b9e3acf8511",
+      "name": "High coverage of herbs and trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ce63bfe37a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Leaf litter saprophages (SAlf) were positively associated with a high coverage of herbs and trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cf42b53452ca",
+      "name": "Leaf litter saprophages",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_c7ed7858d7",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Leaf litter saprophages (SAlf) were positively associated with a high coverage of herbs and trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4c1f506038f",
+      "name": "Coverage of Sphagnum and ericaceous shrubs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d1d613cc40",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Necrophagous saprophages (SAne) were... positively with coverage of Sphagnum and ericaceous shrubs (Vege1)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5443e2bdd68e",
+      "name": "Necrophagous saprophages",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_dd198f5e88",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Necrophagous saprophages (SAne) were... positively with coverage of Sphagnum and ericaceous shrubs (Vege1)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:53d06c9ce57f",
+      "name": "Higher coverage of bare peat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_919fe40ba8",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Substrate saprophages (SAsu) were associated with higher coverage of bare peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4c27384b28b2",
+      "name": "Substrate saprophages",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_87fc4c946f",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Substrate saprophages (SAsu) were associated with higher coverage of bare peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d19caa5a8b1",
+      "name": "Fungivores",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_e3c1fc5c14",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Fungivores (SAfu) were mostly affected by peat chemical properties (Peat3)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:abe81971270c",
+      "name": "Moderately high coverage of bare peat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1744e54138",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Patterns in stem-borers (PHsb)... were mostly predicted by moderately high coverage of bare peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c10cf1ff9226",
+      "name": "Stem-borers",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_918525e7b0",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Patterns in stem-borers (PHsb)... were mostly predicted by moderately high coverage of bare peat"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cb6b94d76e4e",
+      "name": "Moderately low cover of herbs and trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_604b0542da",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Patterns in stem-borers (PHsb)... were mostly predicted by... moderately low cover of herbs and trees"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a72ad2867db0",
+      "name": "Environmental conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c9cb2adc9f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "conditions in restored treatments intermediate to those in natural and abandoned treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:62470d66fc8b",
+      "name": "Water table",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105201",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Peat mining leads to major ecosystem changes: the water table is lowered"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aacd0f8d8798",
+      "name": "Vegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_386ecba38a",
+      "state_or_change_qualifier": "removed",
+      "source_spans": [
+        {
+          "text": "vegetation is removed",
+          "start_char": 2610,
+          "end_char": 2631,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9e3cf0d8b91f",
+      "name": "Active restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_98faa2a7ea",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "active restoration is needed for the renewal of high species and trophic diversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be9b4b29d8c9",
+      "name": "Renewal of high species and trophic diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_90d467f465",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "active restoration is needed for the renewal of high species and trophic diversity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3cf688d45c6",
+      "name": "Colonization of predators and saprophages",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bae63eda43",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "predators and saprophages successfully colonized restored sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:52203826301b",
+      "name": "Trophic composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_32d47661cd",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Guild structure was altered in restored areas, in which trophic composition was most similar to abandoned areas"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9abc75a8b141",
+      "name": "Natural areas",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c56b74b0b7",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The natural areas probably act as a source of colonists"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6569eab73414",
+      "name": "Colonists",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_49f5749c87",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The natural areas probably act as a source of colonists"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:104dd0138213",
+      "name": "Corridors",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f45627d63b",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "corridors between fragmented microecosystems increased arthropod immigration rates"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c50d72045cc",
+      "name": "Arthropod immigration rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_987ed77949",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "corridors between fragmented microecosystems increased arthropod immigration rates"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:98c2e1bbac0d",
+      "name": "Facilitation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_99581411a0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "facilitation increased recruitment of some taxa",
+          "start_char": 37788,
+          "end_char": 37835,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c7bcc9512957",
+      "name": "Recruitment of some taxa",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_509ce6e50e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "facilitation increased recruitment of some taxa",
+          "start_char": 37788,
+          "end_char": 37835,
+          "paragraph_id": "page:9"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6f4cdc9ef3e5",
+      "subject": "causal_mosaic:node:03b820d5b683",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:92b56b5e9640",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Peat mining causes major degradation to bogs",
+      "source_spans": [
+        {
+          "text": "Peat mining causes major degradation to bogs",
+          "start_char": 321,
+          "end_char": 365,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f60299598c19",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7ec2b4793fb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "indicating that restoration enhanced recovery of species diversity and community structure",
+      "source_spans": [
+        {
+          "text": "indicating that restoration enhanced recovery of species diversity and community structure"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0f1f43af3158",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b4be9e32ec5c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "diversity (rarefaction estimate) of the restored treatment was not significantly different than that in the natural treatment, but was significantly higher than that in the abandoned treatment",
+      "source_spans": [
+        {
+          "text": "diversity (rarefaction estimate) of the restored treatment was not significantly different than that in the natural treatment, but was significantly higher than that in the abandoned treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8cfdaca9da9",
+      "subject": "causal_mosaic:node:ffc3e5f53ada",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:39d31c4794cf",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Species assemblages were mostly affected by coverage of bare peat",
+      "source_spans": [
+        {
+          "text": "Species assemblages were mostly affected by coverage of bare peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[3].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:1c33f5a1c009",
+      "subject": "causal_mosaic:node:c9a9c78cb544",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:39d31c4794cf",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Species assemblages were mostly affected by... Sphagnum mosses",
+      "source_spans": [
+        {
+          "text": "Species assemblages were mostly affected by... Sphagnum mosses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[4].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:5ab4799e1c9e",
+      "subject": "causal_mosaic:node:0ca22aa3003b",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:4e54c35a85d1",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Predaceous flies in dung (PRco) were mostly affected by peat chemical properties (Peat3)",
+      "source_spans": [
+        {
+          "text": "Predaceous flies in dung (PRco) were mostly affected by peat chemical properties (Peat3)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[5].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:72082232c162",
+      "subject": "causal_mosaic:node:ffc3e5f53ada",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:8796e9ac6f91",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Mollusc predators (PRmo) were mostly affected by the coverage of bare peat (Vege1) and peat pH",
+      "source_spans": [
+        {
+          "text": "Mollusc predators (PRmo) were mostly affected by the coverage of bare peat (Vege1) and peat pH"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[6].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:d283072ac4aa",
+      "subject": "causal_mosaic:node:8b9e3acf8511",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:cf42b53452ca",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Leaf litter saprophages (SAlf) were positively associated with a high coverage of herbs and trees",
+      "source_spans": [
+        {
+          "text": "Leaf litter saprophages (SAlf) were positively associated with a high coverage of herbs and trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[7].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:0f5c9eaac3af",
+      "subject": "causal_mosaic:node:b4c1f506038f",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:5443e2bdd68e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Necrophagous saprophages (SAne) were... positively with coverage of Sphagnum and ericaceous shrubs (Vege1)",
+      "source_spans": [
+        {
+          "text": "Necrophagous saprophages (SAne) were... positively with coverage of Sphagnum and ericaceous shrubs (Vege1)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[8].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:e8c43ea6d1ba",
+      "subject": "causal_mosaic:node:53d06c9ce57f",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:4c27384b28b2",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Substrate saprophages (SAsu) were associated with higher coverage of bare peat",
+      "source_spans": [
+        {
+          "text": "Substrate saprophages (SAsu) were associated with higher coverage of bare peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[9].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:b6527503afbc",
+      "subject": "causal_mosaic:node:0ca22aa3003b",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:8d19caa5a8b1",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Fungivores (SAfu) were mostly affected by peat chemical properties (Peat3)",
+      "source_spans": [
+        {
+          "text": "Fungivores (SAfu) were mostly affected by peat chemical properties (Peat3)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[10].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:956552f8d852",
+      "subject": "causal_mosaic:node:abe81971270c",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:c10cf1ff9226",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Patterns in stem-borers (PHsb)... were mostly predicted by moderately high coverage of bare peat",
+      "source_spans": [
+        {
+          "text": "Patterns in stem-borers (PHsb)... were mostly predicted by moderately high coverage of bare peat"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[11].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:f70fa6108954",
+      "subject": "causal_mosaic:node:cb6b94d76e4e",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:c10cf1ff9226",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Patterns in stem-borers (PHsb)... were mostly predicted by... moderately low cover of herbs and trees",
+      "source_spans": [
+        {
+          "text": "Patterns in stem-borers (PHsb)... were mostly predicted by... moderately low cover of herbs and trees"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[12].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:2d412a491ed0",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a72ad2867db0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "conditions in restored treatments intermediate to those in natural and abandoned treatments",
+      "source_spans": [
+        {
+          "text": "conditions in restored treatments intermediate to those in natural and abandoned treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2bfdbdad37f2",
+      "subject": "causal_mosaic:node:03b820d5b683",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:62470d66fc8b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Peat mining leads to major ecosystem changes: the water table is lowered",
+      "source_spans": [
+        {
+          "text": "Peat mining leads to major ecosystem changes: the water table is lowered"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0627cf958405",
+      "subject": "causal_mosaic:node:03b820d5b683",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aacd0f8d8798",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "vegetation is removed",
+      "source_spans": [
+        {
+          "text": "vegetation is removed",
+          "start_char": 2610,
+          "end_char": 2631,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02638367d29d",
+      "subject": "causal_mosaic:node:9e3cf0d8b91f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be9b4b29d8c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "active restoration is needed for the renewal of high species and trophic diversity",
+      "source_spans": [
+        {
+          "text": "active restoration is needed for the renewal of high species and trophic diversity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b4644f8b44a0",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f3cf688d45c6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "predators and saprophages successfully colonized restored sites",
+      "source_spans": [
+        {
+          "text": "predators and saprophages successfully colonized restored sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ab8cb082ac7f",
+      "subject": "causal_mosaic:node:830d0d291942",
+      "predicate": "regulates",
+      "object": "causal_mosaic:node:52203826301b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Guild structure was altered in restored areas, in which trophic composition was most similar to abandoned areas",
+      "source_spans": [
+        {
+          "text": "Guild structure was altered in restored areas, in which trophic composition was most similar to abandoned areas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[18].predicate: 'affects' -> 'regulates'"
+    },
+    {
+      "id": "causal_mosaic:edge:cd46d6118a97",
+      "subject": "causal_mosaic:node:9abc75a8b141",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:6569eab73414",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The natural areas probably act as a source of colonists",
+      "source_spans": [
+        {
+          "text": "The natural areas probably act as a source of colonists"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[19].predicate: unknown 'provides' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:fd71d8463b5d",
+      "subject": "causal_mosaic:node:104dd0138213",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2c50d72045cc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "corridors between fragmented microecosystems increased arthropod immigration rates",
+      "source_spans": [
+        {
+          "text": "corridors between fragmented microecosystems increased arthropod immigration rates"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4dee358fb24c",
+      "subject": "causal_mosaic:node:98c2e1bbac0d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c7bcc9512957",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "facilitation increased recruitment of some taxa",
+      "source_spans": [
+        {
+          "text": "facilitation increased recruitment of some taxa",
+          "start_char": 37788,
+          "end_char": 37835,
+          "paragraph_id": "page:9"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10841-011-9403-x",
+        "title": "Community assembly of Diptera following restoration of mined boreal bogs: taxonomic and functional diversity",
+        "year": 2012,
+        "authors": [
+          "Grégoire Taillefer, Amélie",
+          "Wheeler, Terry A."
+        ],
+        "journal": "J Insect Conserv"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

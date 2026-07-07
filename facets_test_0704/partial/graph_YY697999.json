@@ -1,0 +1,940 @@
+{
+  "graph_id": "causal_mosaic:graph:ea88169fb0c0",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T16:48:57.474381+00:00",
+    "source_corpus": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3e59f1a6b4df",
+      "name": "Ecological restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e981864700",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ecological restoration could effectively reduced time needed for species occurrences to approach those in natural peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66a03f7a060c",
+      "name": "Time needed for species occurrences to approach those in natural peatlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_723c9f80c8",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Ecological restoration could effectively reduced time needed for species occurrences to approach those in natural peatlands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c73e8839c78c",
+      "name": "Ericaceous shrub cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d01351470e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "enhancement of ericaceous shrub cover in turn promotes peat accumulation (and thus hummock formation)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:47039cfce6a5",
+      "name": "Hummock formation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3fc6f0951f",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "enhancement of ericaceous shrub cover in turn promotes peat accumulation (and thus hummock formation)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78f8e49be152",
+      "name": "Phosphorus fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_73704206d2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Phosphorus fertilization enhances the establishment of P. strictum during the early post-restoration period"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:41c24e1f2f83",
+      "name": "Establishment of P. strictum",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d529934234",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Phosphorus fertilization enhances the establishment of P. strictum during the early post-restoration period"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86e494e01c08",
+      "name": "Carpets of P. strictum",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_0cf2990b36",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:26fd7e080d64",
+      "name": "Sphagnum establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3dda6056cd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:13917b024119",
+      "name": "Severity of frost heave events",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d7f823d719",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8ffff421fc7",
+      "name": "Hummock species",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_c0fac9c8fb",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Consequently, hummock species decompose more slowly than hollow species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:944c53bada02",
+      "name": "Decomposition rates",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_907dbb404c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Consequently, hummock species decompose more slowly than hollow species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f3fb7602c7df",
+      "name": "Growth characteristics of vascular plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fac50f3da6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "growth characteristics of both types of vascular plant slow down the return of hummock–hollow structures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:250fc0362f9c",
+      "name": "Return of hummock–hollow structures",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_807d099382",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "growth characteristics of both types of vascular plant slow down the return of hummock–hollow structures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78f7542043d1",
+      "name": "Random events and establishment priority",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7fed283082",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Random events and establishment priority seemed initially to be more important in temporal evolution of microstructures than plant interactions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9c6d9bc9b083",
+      "name": "Temporal evolution of microstructures",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1ca40843f0",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Random events and establishment priority seemed initially to be more important in temporal evolution of microstructures than plant interactions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7440277b5550",
+      "name": "Plant interactions",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_821097ac0a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Plant interactions will be most important for species distribution after establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c7b4bb3b73e",
+      "name": "Species distribution",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_216f1f3b59",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Plant interactions will be most important for species distribution after establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f787799b6107",
+      "name": "Initial high water table",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2732be52ba",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Initial high water table of after-use sites... can be identified as three reasons for departure of the plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f55222d02e18",
+      "name": "Departure of plant species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a9b1a3b80",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Initial high water table of after-use sites... can be identified as three reasons for departure of the plant species composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49e9138bd228",
+      "name": "Upward growth of moss surface",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_54a75998f7",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Upward growth of the moss surface could favour the establishment of ericaceous shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5e625674d58c",
+      "name": "Establishment of ericaceous shrubs",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0316369fab",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Upward growth of the moss surface could favour the establishment of ericaceous shrubs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e480d9bd1e38",
+      "name": "Peat accumulation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8d1a10ec26",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "enhancement of ericaceous shrub cover in turn promotes peat accumulation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5f9862f7753",
+      "name": "Capacity to acquire water by capillarity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_784944f1cc",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "variation in capacity to acquire water by capillarity between individual Sphagnum species plays a key role in the development of hummock–hollow microstructures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8e43dfbcc76",
+      "name": "Development of hummock–hollow microstructures",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_dd18635b04",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "variation in capacity to acquire water by capillarity between individual Sphagnum species plays a key role in the development of hummock–hollow microstructures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4bfc8ac8d5c2",
+      "name": "Intrinsic properties of Sphagnum species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_baa368c39e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:62059deed93a",
+      "name": "Thickness of the acrotelm",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_edd7bc78f9",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f27de1cd11c7",
+      "name": "Formation and persistence of microstructures",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ef483db20d",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm... and thus formation and persistence of the different microstructures"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:485466afc005",
+      "name": "Water table position",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_31ed32a74d",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "The initiation and temporal resilience of microstructures can be explained in terms of factors such as water table position"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b991c708b691",
+      "name": "Initiation and temporal resilience of microstructures",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_fa9883be91",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "The initiation and temporal resilience of microstructures can be explained in terms of factors such as water table position"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2363c833caaa",
+      "subject": "causal_mosaic:node:3e59f1a6b4df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:66a03f7a060c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ecological restoration could effectively reduced time needed for species occurrences to approach those in natural peatlands, relative to time required for recovery of spontaneously re-vegetated peat extraction sites.",
+      "source_spans": [
+        {
+          "text": "Ecological restoration could effectively reduced time needed for species occurrences to approach those in natural peatlands, relative to time required for recovery of spontaneously re-vegetated peat extraction sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:453470243682",
+      "subject": "causal_mosaic:node:c73e8839c78c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:47039cfce6a5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "enhancement of ericaceous shrub cover in turn promotes peat accumulation (and thus hummock formation) by providing appropriate structures to support upward-growing Sphagnum shoots",
+      "source_spans": [
+        {
+          "text": "enhancement of ericaceous shrub cover in turn promotes peat accumulation (and thus hummock formation) by providing appropriate structures to support upward-growing Sphagnum shoots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5db5505134db",
+      "subject": "causal_mosaic:node:78f8e49be152",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:41c24e1f2f83",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Phosphorus fertilization enhances the establishment of P. strictum during the early post-restoration period",
+      "source_spans": [
+        {
+          "text": "Phosphorus fertilization enhances the establishment of P. strictum during the early post-restoration period"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:293e6b3a9cf4",
+      "subject": "causal_mosaic:node:86e494e01c08",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:26fd7e080d64",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events",
+      "source_spans": [
+        {
+          "text": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a776f3b06f8",
+      "subject": "causal_mosaic:node:86e494e01c08",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:13917b024119",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events",
+      "source_spans": [
+        {
+          "text": "Carpets of P. strictum in turn enhance Sphagnum establishment by stabilizing the peat surface and thus reducing the severity of frost heave events"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8bf04feb067b",
+      "subject": "causal_mosaic:node:b8ffff421fc7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:944c53bada02",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Consequently, hummock species decompose more slowly than hollow species",
+      "source_spans": [
+        {
+          "text": "Consequently, hummock species decompose more slowly than hollow species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a1a3b780cf67",
+      "subject": "causal_mosaic:node:f3fb7602c7df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:250fc0362f9c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "growth characteristics of both types of vascular plant slow down the return of hummock–hollow structures",
+      "source_spans": [
+        {
+          "text": "growth characteristics of both types of vascular plant slow down the return of hummock–hollow structures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fb9b08a22f22",
+      "subject": "causal_mosaic:node:78f7542043d1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9c6d9bc9b083",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Random events and establishment priority seemed initially to be more important in temporal evolution of microstructures than plant interactions",
+      "source_spans": [
+        {
+          "text": "Random events and establishment priority seemed initially to be more important in temporal evolution of microstructures than plant interactions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a679f6c48e19",
+      "subject": "causal_mosaic:node:7440277b5550",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5c7b4bb3b73e",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Plant interactions will be most important for species distribution after establishment",
+      "source_spans": [
+        {
+          "text": "Plant interactions will be most important for species distribution after establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:212add5e8fc7",
+      "subject": "causal_mosaic:node:f787799b6107",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f55222d02e18",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Initial high water table of after-use sites, stronger competition by hollow species and growth characteristics of vascular plants can be identified as three reasons for departure of the plant species composition in re-vegetated peatlands from that found on corresponding microstructures within the hummock–hollow alternation of natural bogs",
+      "source_spans": [
+        {
+          "text": "Initial high water table of after-use sites, stronger competition by hollow species and growth characteristics of vascular plants can be identified as three reasons for departure of the plant species composition in re-vegetated peatlands from that found on corresponding microstructures within the hummock–hollow alternation of natural bogs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39a8694748c0",
+      "subject": "causal_mosaic:node:49e9138bd228",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5e625674d58c",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Upward growth of the moss surface could favour the establishment of ericaceous shrubs by raising their roots above the water table",
+      "source_spans": [
+        {
+          "text": "Upward growth of the moss surface could favour the establishment of ericaceous shrubs by raising their roots above the water table"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b8dab689f25f",
+      "subject": "causal_mosaic:node:c73e8839c78c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e480d9bd1e38",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "enhancement of ericaceous shrub cover in turn promotes peat accumulation (and thus hummock formation) by providing appropriate structures to support upward-growing Sphagnum shoots",
+      "source_spans": [
+        {
+          "text": "enhancement of ericaceous shrub cover in turn promotes peat accumulation (and thus hummock formation) by providing appropriate structures to support upward-growing Sphagnum shoots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b86071032c23",
+      "subject": "causal_mosaic:node:e5f9862f7753",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b8e43dfbcc76",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "variation in capacity to acquire water by capillarity between individual Sphagnum species plays a key role in the development of hummock–hollow microstructures",
+      "source_spans": [
+        {
+          "text": "variation in capacity to acquire water by capillarity between individual Sphagnum species plays a key role in the development of hummock–hollow microstructures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a1f67e617a0a",
+      "subject": "causal_mosaic:node:4bfc8ac8d5c2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:62059deed93a",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm",
+      "source_spans": [
+        {
+          "text": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c9ab7703af89",
+      "subject": "causal_mosaic:node:4bfc8ac8d5c2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f27de1cd11c7",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm... and thus formation and persistence of the different microstructures",
+      "source_spans": [
+        {
+          "text": "intrinsic properties of Sphagnum species affect the thickness of the acrotelm... and thus formation and persistence of the different microstructures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:05256bba8e7f",
+      "subject": "causal_mosaic:node:485466afc005",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b991c708b691",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The initiation and temporal resilience of microstructures can be explained in terms of factors such as water table position",
+      "source_spans": [
+        {
+          "text": "The initiation and temporal resilience of microstructures can be explained in terms of factors such as water table position"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1654-109X.2011.01164.x",
+        "title": "Initiation of microtopography in re‐vegetated cutover peatlands: evolution of plant species composition",
+        "year": 2012,
+        "authors": [
+          "Pouliot, Rémy",
+          "Rochefort, Line",
+          "Karofeld, Edgar"
+        ],
+        "journal": "Applied Vegetation Science"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

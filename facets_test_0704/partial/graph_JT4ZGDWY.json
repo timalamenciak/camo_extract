@@ -1,0 +1,282 @@
+{
+  "graph_id": "causal_mosaic:graph:6f2985caad99",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T18:05:46.977665+00:00",
+    "source_corpus": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d44e591b56e0",
+      "name": "Soft-release",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d22b08c161",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "soft-releases",
+          "start_char": 1496,
+          "end_char": 1509,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:42edef21d1d2",
+      "name": "Site-affinity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcb3302c45",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "site-affinity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e82a906de705",
+      "name": "Breeding-season survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_12dd2927ed",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "breeding-season survival",
+          "start_char": 28462,
+          "end_char": 28486,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dc2cf126f1cc",
+      "name": "Reproductive performance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f440103f67",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "reproductive performance",
+          "start_char": 81,
+          "end_char": 105,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4338e710da5e",
+      "name": "Local recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15afe18883",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "local recruitment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5bfc456a8734",
+      "name": "Avian predation mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6eb293a622",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "proportion of all deaths of hard-released owls being attributed to avian predators"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:df897eb7eaa8",
+      "subject": "causal_mosaic:node:d44e591b56e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:42edef21d1d2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+      "source_spans": [
+        {
+          "text": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.12.019",
+        "title": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+        "year": 2011,
+        "authors": [
+          "Mitchell, Aimee M.",
+          "Wellicome, Troy I.",
+          "Brodie, Dawn",
+          "Cheng, Kimberly M."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7b32a74dec37",
+      "subject": "causal_mosaic:node:d44e591b56e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e82a906de705",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Breeding-season survival was 70% for soft-released owls vs. 50% for hard-released owls.",
+      "source_spans": [
+        {
+          "text": "Breeding-season survival was 70% for soft-released owls vs. 50% for hard-released owls."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.12.019",
+        "title": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+        "year": 2011,
+        "authors": [
+          "Mitchell, Aimee M.",
+          "Wellicome, Troy I.",
+          "Brodie, Dawn",
+          "Cheng, Kimberly M."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0777251f500e",
+      "subject": "causal_mosaic:node:d44e591b56e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dc2cf126f1cc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "On average, soft-released owls produced 50% more fledglings than concurrently hard-released owls.",
+      "source_spans": [
+        {
+          "text": "On average, soft-released owls produced 50% more fledglings than concurrently hard-released owls."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.12.019",
+        "title": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+        "year": 2011,
+        "authors": [
+          "Mitchell, Aimee M.",
+          "Wellicome, Troy I.",
+          "Brodie, Dawn",
+          "Cheng, Kimberly M."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cef65cd59fba",
+      "subject": "causal_mosaic:node:d44e591b56e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4338e710da5e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ultimately, 0.17 offspring were recruited into the local wild breeding population per soft-released pair, compared to 0.05 local recruits per hard-released pair.",
+      "source_spans": [
+        {
+          "text": "Ultimately, 0.17 offspring were recruited into the local wild breeding population per soft-released pair, compared to 0.05 local recruits per hard-released pair."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.12.019",
+        "title": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+        "year": 2011,
+        "authors": [
+          "Mitchell, Aimee M.",
+          "Wellicome, Troy I.",
+          "Brodie, Dawn",
+          "Cheng, Kimberly M."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1125c7e2bddc",
+      "subject": "causal_mosaic:node:d44e591b56e0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5bfc456a8734",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Causes of death differed between release techniques... with a higher proportion of all deaths of hard-released owls being attributed to avian predators... than were for soft-released owls.",
+      "source_spans": [
+        {
+          "text": "Causes of death differed between release techniques... with a higher proportion of all deaths of hard-released owls being attributed to avian predators... than were for soft-released owls."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.12.019",
+        "title": "Captive-reared burrowing owls show higher site-affinity, survival, and reproductive performance when reintroduced using a soft-release",
+        "year": 2011,
+        "authors": [
+          "Mitchell, Aimee M.",
+          "Wellicome, Troy I.",
+          "Brodie, Dawn",
+          "Cheng, Kimberly M."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

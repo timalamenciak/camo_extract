@@ -1,0 +1,382 @@
+{
+  "graph_id": "causal_mosaic:graph:5aeee857228e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T18:24:03.305736+00:00",
+    "source_corpus": "Restoration of pool margin communities in cutover peatlands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:524c06ff71b3",
+      "name": "Straw mulch",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_571295d946",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "After two years, the percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d2d40eeaf653",
+      "name": "C. ﬂuitans cover increased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e03e100eaf",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "percentage covers",
+      "source_spans": [
+        {
+          "text": "After two years, the percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:50780299bd2d",
+      "name": "Introducing plant material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_2c00147300",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "After three years, bryophyte covers for all communities were much higher in the experimental plots (43%) than in the control plots where no introduction was done (2%; Fig. 2 A)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:31418024d405",
+      "name": "Bryophyte cover increased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7e5ebe3851",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "bryophyte covers",
+      "source_spans": [
+        {
+          "text": "After three years, bryophyte covers for all communities were much higher in the experimental plots (43%) than in the control plots where no introduction was done (2%; Fig. 2 A)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5c8203ee9a3c",
+      "name": "Density ratio 1:5",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fb6061140a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Introducing plant material with a higher density ratio proved slightly beneficial for bryophytes ( F = 6.59; P = 0.02): with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95c41fa40af2",
+      "name": "Bryophyte cover increased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_732189ea03",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "percentage cover",
+      "source_spans": [
+        {
+          "text": "Introducing plant material with a higher density ratio proved slightly beneficial for bryophytes ( F = 6.59; P = 0.02): with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9af275aff67",
+      "name": "Mixed community introduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7379c16f53",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d8080b139a8e",
+      "name": "S. cuspidatum cover decreased",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fbc75c9902",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6896b453981a",
+      "name": "Mixed community introduction",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_774a2778ef",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "It remains that restoring unmixed C. ﬂuitans carpets should be favored since it did not establish when introduced simultaneously with Sphagnum."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6d4296ac7ec4",
+      "name": "C. ﬂuitans establishment absent",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e03e100eaf",
+      "state_or_change_qualifier": "absent",
+      "measured_attribute": "establishment",
+      "source_spans": [
+        {
+          "text": "C. ﬂuitans did not succeed to establish ( Fig. 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2d2955e9904d",
+      "name": "Experimental plots",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93a0900160",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Eriophorum vaginatum L. was not part of the introduced plant material (Table 1), it invaded all communities in experimental plots with a mean percent cover between 10 ± 6% and 37 ± 16% ( Fig. 2 B)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3aac25f3f9ad",
+      "name": "Eriophorum vaginatum invasion occurred",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a83416ea42",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "invasion",
+      "source_spans": [
+        {
+          "text": "Eriophorum vaginatum L. was not part of the introduced plant material (Table 1), it invaded all communities in experimental plots with a mean percent cover between 10 ± 6% and 37 ± 16% ( Fig. 2 B)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:581048cfd682",
+      "subject": "causal_mosaic:node:524c06ff71b3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d2d40eeaf653",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After two years, the percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection.",
+      "source_spans": [
+        {
+          "text": "After two years, the percentage covers of C. ﬂuitans were five times larger in experimental units protected with straw than in those without protection."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d9f5879e841c",
+      "subject": "causal_mosaic:node:50780299bd2d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:31418024d405",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "After three years, bryophyte covers for all communities were much higher in the experimental plots (43%) than in the control plots where no introduction was done (2%; Fig. 2 A).",
+      "source_spans": [
+        {
+          "text": "After three years, bryophyte covers for all communities were much higher in the experimental plots (43%) than in the control plots where no introduction was done (2%; Fig. 2 A)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:64acb9176ce1",
+      "subject": "causal_mosaic:node:5c8203ee9a3c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95c41fa40af2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Introducing plant material with a higher density ratio proved slightly beneficial for bryophytes ( F = 6.59; P = 0.02): with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A).",
+      "source_spans": [
+        {
+          "text": "Introducing plant material with a higher density ratio proved slightly beneficial for bryophytes ( F = 6.59; P = 0.02): with initial density ratio of 1:5, the final percentage cover was 1.3 times higher (48% cover) than with the initial density ratio of 1:10 (37% cover; Fig. 2A)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f76a1b3bcd63",
+      "subject": "causal_mosaic:node:b9af275aff67",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d8080b139a8e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community",
+      "source_spans": [
+        {
+          "text": "the cover of S. cuspidatum was 20 times lower when introduced in a mixed community rather than in an unmixed community"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b618e3a739c7",
+      "subject": "causal_mosaic:node:6896b453981a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6d4296ac7ec4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "It remains that restoring unmixed C. ﬂuitans carpets should be favored since it did not establish when introduced simultaneously with Sphagnum.",
+      "source_spans": [
+        {
+          "text": "It remains that restoring unmixed C. ﬂuitans carpets should be favored since it did not establish when introduced simultaneously with Sphagnum."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:49ed9403b943",
+      "subject": "causal_mosaic:node:2d2955e9904d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3aac25f3f9ad",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Eriophorum vaginatum L. was not part of the introduced plant material (Table 1), it invaded all communities in experimental plots with a mean percent cover between 10 ± 6% and 37 ± 16% ( Fig. 2 B).",
+      "source_spans": [
+        {
+          "text": "Eriophorum vaginatum L. was not part of the introduced plant material (Table 1), it invaded all communities in experimental plots with a mean percent cover between 10 ± 6% and 37 ± 16% ( Fig. 2 B)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.aquabot.2010.11.008",
+        "title": "Restoration of pool margin communities in cutover peatlands",
+        "year": 2011,
+        "authors": [
+          "Poulin, Monique",
+          "Natacha, Fontaine",
+          "Line, Rochefort"
+        ],
+        "journal": "Aquatic Botany"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

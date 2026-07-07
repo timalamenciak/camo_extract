@@ -1,0 +1,333 @@
+{
+  "graph_id": "causal_mosaic:graph:d9099fd176df",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T14:22:50.563605+00:00",
+    "source_corpus": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:a702c0b1ecec",
+      "name": "Natural recovery of SH sediments",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bbeb27df35",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Natural recovery of SH sediments documented by Smith et al. (2009) and Walker et al. (2013b), may have contributed to a reduction in the contaminant burden in rock crabs."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fb58d1147e3e",
+      "name": "Contaminant burden in rock crabs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4fadd3c7c4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "burden",
+      "source_spans": [
+        {
+          "text": "Natural recovery of SH sediments documented by Smith et al. (2009) and Walker et al. (2013b), may have contributed to a reduction in the contaminant burden in rock crabs."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6683ea6f55fd",
+      "name": "STP remediation activities",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e9c752e128",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Annual sampling of contaminants in crabs in SH has not detected evidence of substantial contaminant releases into the marine environment despite STP remediation activities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:281968b253b8",
+      "name": "Substantial contaminant releases into the marine environment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_19f201ddc2",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Annual sampling of contaminants in crabs in SH has not detected evidence of substantial contaminant releases into the marine environment despite STP remediation activities."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:972865e8ff1a",
+      "name": "PCB concentrations in crabs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4647613c72",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "PCB concentrations in crabs during STPs remediation were stable compared to baseline conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9704b09e510",
+      "name": "Metal concentrations in crabs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6992c4b536",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "There were no significant differences observed in As, Cd and Cu concentrations between baseline and remediation (p > 0.134)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:405b722cf608",
+      "name": "Hg concentrations in crabs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e41ce52a67",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "PATO:0000033",
+      "source_spans": [
+        {
+          "text": "Mercury concentration during year 1 remediation were not significantly different compared to baseline ( F = 1.00, p = 0.337), but were significantly different during year 2 and 3 (year 2, F = 54.07, p = 0.000; year 3, F = 416.53, p = 0.000)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22d68e959926",
+      "name": "Lipid contents in crabs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_86e6c57ace",
+      "state_or_change_qualifier": "occurred",
+      "measured_attribute": "AFO:_0000025",
+      "source_spans": [
+        {
+          "text": "Lipid contents during year 1 and 3 remediation was significantly different compared to baseline ( p < 0.05), although no significant differences were observed during year 2 remediation (p > 0.05)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:26c09ae642e4",
+      "subject": "causal_mosaic:node:a702c0b1ecec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fb58d1147e3e",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Natural recovery of SH sediments documented by Smith et al. (2009) and Walker et al. (2013b), may have contributed to a reduction in the contaminant burden in rock crabs.",
+      "source_spans": [
+        {
+          "text": "Natural recovery of SH sediments documented by Smith et al. (2009) and Walker et al. (2013b), may have contributed to a reduction in the contaminant burden in rock crabs."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.marpolbul.2013.09.036",
+        "title": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+        "year": 2013,
+        "authors": [
+          "Walker, Tony R.",
+          "MacAskill, Devin",
+          "Weaver, Peter"
+        ],
+        "journal": "Marine Pollution Bulletin"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:30ee5244573a",
+      "subject": "causal_mosaic:node:6683ea6f55fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:281968b253b8",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Annual sampling of contaminants in crabs in SH has not detected evidence of substantial contaminant releases into the marine environment despite STP remediation activities.",
+      "source_spans": [
+        {
+          "text": "Annual sampling of contaminants in crabs in SH has not detected evidence of substantial contaminant releases into the marine environment despite STP remediation activities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.marpolbul.2013.09.036",
+        "title": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+        "year": 2013,
+        "authors": [
+          "Walker, Tony R.",
+          "MacAskill, Devin",
+          "Weaver, Peter"
+        ],
+        "journal": "Marine Pollution Bulletin"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d25d9328b1a2",
+      "subject": "causal_mosaic:node:6683ea6f55fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:972865e8ff1a",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "PCB concentrations in crabs during STPs remediation were stable compared to baseline conditions.",
+      "source_spans": [
+        {
+          "text": "PCB concentrations in crabs during STPs remediation were stable compared to baseline conditions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.marpolbul.2013.09.036",
+        "title": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+        "year": 2013,
+        "authors": [
+          "Walker, Tony R.",
+          "MacAskill, Devin",
+          "Weaver, Peter"
+        ],
+        "journal": "Marine Pollution Bulletin"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cf160464c6d7",
+      "subject": "causal_mosaic:node:6683ea6f55fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b9704b09e510",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "There were no significant differences observed in As, Cd and Cu concentrations between baseline and remediation (p > 0.134).",
+      "source_spans": [
+        {
+          "text": "There were no significant differences observed in As, Cd and Cu concentrations between baseline and remediation (p > 0.134)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.marpolbul.2013.09.036",
+        "title": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+        "year": 2013,
+        "authors": [
+          "Walker, Tony R.",
+          "MacAskill, Devin",
+          "Weaver, Peter"
+        ],
+        "journal": "Marine Pollution Bulletin"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8236a6a3f443",
+      "subject": "causal_mosaic:node:6683ea6f55fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:405b722cf608",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mercury concentration during year 1 remediation were not significantly different compared to baseline ( F = 1.00, p = 0.337), but were significantly different during year 2 and 3 (year 2, F = 54.07, p = 0.000; year 3, F = 416.53, p = 0.000).",
+      "source_spans": [
+        {
+          "text": "Mercury concentration during year 1 remediation were not significantly different compared to baseline ( F = 1.00, p = 0.337), but were significantly different during year 2 and 3 (year 2, F = 54.07, p = 0.000; year 3, F = 416.53, p = 0.000)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.marpolbul.2013.09.036",
+        "title": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+        "year": 2013,
+        "authors": [
+          "Walker, Tony R.",
+          "MacAskill, Devin",
+          "Weaver, Peter"
+        ],
+        "journal": "Marine Pollution Bulletin"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bbfacc208472",
+      "subject": "causal_mosaic:node:6683ea6f55fd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:22d68e959926",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Lipid contents during year 1 and 3 remediation was significantly different compared to baseline ( p < 0.05), although no significant differences were observed during year 2 remediation (p > 0.05).",
+      "source_spans": [
+        {
+          "text": "Lipid contents during year 1 and 3 remediation was significantly different compared to baseline ( p < 0.05), although no significant differences were observed during year 2 remediation (p > 0.05)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.marpolbul.2013.09.036",
+        "title": "Legacy contaminant bioaccumulation in rock crabs in Sydney Harbour during remediation of the Sydney Tar Ponds, Nova Scotia, Canada",
+        "year": 2013,
+        "authors": [
+          "Walker, Tony R.",
+          "MacAskill, Devin",
+          "Weaver, Peter"
+        ],
+        "journal": "Marine Pollution Bulletin"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "graph_id": "causal_mosaic:graph:9c77c4131b46",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T04:32:51.938639+00:00",
+    "source_corpus": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f4c342c60048",
+      "name": "Effectiveness of blockage of secondary ditches",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b19c3774cc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "a more efﬁcient blockage of the secondary ditches was related to Sphagnum-dominated restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:89f1e2b40551",
+      "name": "Sphagnum-dominated restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2a7e7ecd2a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "a more efﬁcient blockage of the secondary ditches was related to Sphagnum-dominated restoration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e3892090972",
+      "name": "Restoration in spring",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_413e5a7529",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "restoring in spring favoured the establishment and development of P. strictum-dominated communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61cc4ca67010",
+      "name": "Polytrichum strictum-dominated communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b4a29d26d3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "restoring in spring favoured the establishment and development of P. strictum-dominated communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8028c775449e",
+      "name": "Temperature in summer",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e94d45e63c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Higher summer temperatures during the ﬁrst year post restoration discriminated the bare peat-dominated category"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e472fb8cbe4e",
+      "name": "Bare peat-dominated restoration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a211bd5ad1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Higher summer temperatures during the ﬁrst year post restoration discriminated the bare peat-dominated category"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:46fe91948cfc",
+      "name": "High temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fdd6dfe4be",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "high temperatures and low precipitation of the ﬁrst growing season after restoration hinders Sphagnum recolonisation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f9c9f9ad7121",
+      "name": "Sphagnum recolonisation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9a55a0ae2d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "high temperatures and low precipitation of the ﬁrst growing season after restoration hinders Sphagnum recolonisation"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7375e846bea7",
+      "name": "Polytrichum strictum",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q637826",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f3140363b9e",
+      "name": "Sphagnum establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_84342ad727",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:15fcf08dd67b",
+      "name": "Phosphorus fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_434bc0348f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3356691509b5",
+      "name": "Polytrichum strictum colonization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_cb3d8d6956",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:4dfd9e22c460",
+      "subject": "causal_mosaic:node:f4c342c60048",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:89f1e2b40551",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "a more efﬁcient blockage of the secondary ditches was related to Sphagnum-dominated restoration",
+      "source_spans": [
+        {
+          "text": "a more efﬁcient blockage of the secondary ditches was related to Sphagnum-dominated restoration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4d10b6de739a",
+      "subject": "causal_mosaic:node:3e3892090972",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:61cc4ca67010",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "restoring in spring favoured the establishment and development of P. strictum-dominated communities",
+      "source_spans": [
+        {
+          "text": "restoring in spring favoured the establishment and development of P. strictum-dominated communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:36f39ed8c73b",
+      "subject": "causal_mosaic:node:8028c775449e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e472fb8cbe4e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher summer temperatures during the ﬁrst year post restoration discriminated the bare peat-dominated category from the other two success categories",
+      "source_spans": [
+        {
+          "text": "Higher summer temperatures during the ﬁrst year post restoration discriminated the bare peat-dominated category from the other two success categories"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7d22173087eb",
+      "subject": "causal_mosaic:node:46fe91948cfc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f9c9f9ad7121",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "high temperatures and low precipitation of the ﬁrst growing season after restoration hinders Sphagnum recolonisation",
+      "source_spans": [
+        {
+          "text": "high temperatures and low precipitation of the ﬁrst growing season after restoration hinders Sphagnum recolonisation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:727afbd0d48d",
+      "subject": "causal_mosaic:node:7375e846bea7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f3140363b9e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum... due to their capacity to stabilize disturbed substrates and improve microclimatic conditions",
+      "source_spans": [
+        {
+          "text": "Polytrichum strictum... has been recognized as nurse species for the establishment of Sphagnum... due to their capacity to stabilize disturbed substrates and improve microclimatic conditions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e8086a03fb2",
+      "subject": "causal_mosaic:node:15fcf08dd67b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3356691509b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses",
+      "source_spans": [
+        {
+          "text": "fertilizing with phosphorus, to favor colonization by plants that nurse Sphagnum mosses"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.ecolind.2014.06.016",
+        "title": "Combining indicator species and key environmental and management factors to predict restoration success of degraded ecosystems",
+        "year": 2014,
+        "authors": [
+          "González, E.",
+          "Rochefort, L.",
+          "Boudreau, S.",
+          "Poulin, M."
+        ],
+        "journal": "Ecological Indicators"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

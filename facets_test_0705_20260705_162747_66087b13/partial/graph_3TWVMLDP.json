@@ -1,0 +1,292 @@
+{
+  "graph_id": "causal_mosaic:graph:e83062d7837b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T04:01:45.233872+00:00",
+    "source_corpus": "Emergence of the Introduced Grass <i>Agropyron cristatum</i> and the Native Grass <i>Bouteloua gracilis</i> in a Mixed‐grass Prairie Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:96ad9ef5d45b",
+      "name": "Water addition",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_764a99642c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Water addition significantly increased the emergence of both surface-sown and buried (1 cm deep) seeds."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dee94f3428be",
+      "name": "emergence",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0df41bb57b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Water addition significantly increased the emergence of both surface-sown and buried (1 cm deep) seeds."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d0f28dacde5a",
+      "name": "Herbicide treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e89f78fc07",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Herbicide treatment of neighbors did not increase the emergence of experimentally added seeds."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cbb4afed6d4",
+      "name": "emergence",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0df41bb57b",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Herbicide treatment of neighbors did not increase the emergence of experimentally added seeds."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e13c9f8752d4",
+      "name": "emergence of Agropyron from the seed bank",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_9dcd2829ed",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "Emergence of Agropyron from the seed bank was not decreased by 4 years of herbicide treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4223af990931",
+      "name": "soil moisture",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3f6db2e0b",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "soil moisture",
+      "source_spans": [
+        {
+          "text": "This is consistent with the lack of effect of herbicide on soil moisture"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9e6ae1f9b9d3",
+      "name": "natural among-year variation in precipitation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_affd44b187",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The significant effect of water availability on emergence suggests that natural among-year variation in precipitation will have a large influence on the success of restoration efforts."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7c4e9c79e28a",
+      "name": "success of restoration efforts",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_318b2d1a80",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "success",
+      "source_spans": [
+        {
+          "text": "The significant effect of water availability on emergence suggests that natural among-year variation in precipitation will have a large influence on the success of restoration efforts."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:41df76d27054",
+      "subject": "causal_mosaic:node:96ad9ef5d45b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dee94f3428be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Water addition significantly increased the emergence of both surface-sown and buried (1 cm deep) seeds.",
+      "source_spans": [
+        {
+          "text": "Water addition significantly increased the emergence of both surface-sown and buried (1 cm deep) seeds."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00020.x",
+        "title": "Emergence of the Introduced Grass <i>Agropyron cristatum</i> and the Native Grass <i>Bouteloua gracilis</i> in a Mixed‐grass Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Ambrose, Laura G.",
+          "Wilson, Scott D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee8c1dad46fd",
+      "subject": "causal_mosaic:node:d0f28dacde5a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6cbb4afed6d4",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Herbicide treatment of neighbors did not increase the emergence of experimentally added seeds.",
+      "source_spans": [
+        {
+          "text": "Herbicide treatment of neighbors did not increase the emergence of experimentally added seeds."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00020.x",
+        "title": "Emergence of the Introduced Grass <i>Agropyron cristatum</i> and the Native Grass <i>Bouteloua gracilis</i> in a Mixed‐grass Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Ambrose, Laura G.",
+          "Wilson, Scott D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dd67b48ad96d",
+      "subject": "causal_mosaic:node:d0f28dacde5a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e13c9f8752d4",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Emergence of Agropyron from the seed bank was not decreased by 4 years of herbicide treatment",
+      "source_spans": [
+        {
+          "text": "Emergence of Agropyron from the seed bank was not decreased by 4 years of herbicide treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00020.x",
+        "title": "Emergence of the Introduced Grass <i>Agropyron cristatum</i> and the Native Grass <i>Bouteloua gracilis</i> in a Mixed‐grass Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Ambrose, Laura G.",
+          "Wilson, Scott D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:34bb7aca6e2e",
+      "subject": "causal_mosaic:node:d0f28dacde5a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4223af990931",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This is consistent with the lack of effect of herbicide on soil moisture",
+      "source_spans": [
+        {
+          "text": "This is consistent with the lack of effect of herbicide on soil moisture"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00020.x",
+        "title": "Emergence of the Introduced Grass <i>Agropyron cristatum</i> and the Native Grass <i>Bouteloua gracilis</i> in a Mixed‐grass Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Ambrose, Laura G.",
+          "Wilson, Scott D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:974fd3bcac46",
+      "subject": "causal_mosaic:node:9e6ae1f9b9d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7c4e9c79e28a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The significant effect of water availability on emergence suggests that natural among-year variation in precipitation will have a large influence on the success of restoration efforts.",
+      "source_spans": [
+        {
+          "text": "The significant effect of water availability on emergence suggests that natural among-year variation in precipitation will have a large influence on the success of restoration efforts."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100X.2003.00020.x",
+        "title": "Emergence of the Introduced Grass <i>Agropyron cristatum</i> and the Native Grass <i>Bouteloua gracilis</i> in a Mixed‐grass Prairie Restoration",
+        "year": 2003,
+        "authors": [
+          "Ambrose, Laura G.",
+          "Wilson, Scott D."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

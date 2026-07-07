@@ -1,0 +1,340 @@
+{
+  "graph_id": "causal_mosaic:graph:e33d1c2f6c6c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:32:23.281764+00:00",
+    "source_corpus": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:8fb2a8fbc0b5",
+      "name": "extensive prescribed burns and stand-replacing wildfire events",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4996285204",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our findings suggest that extensive prescribed burns and stand-replacing wildfire events at the northern extent of limber pine’s range may have limited seedling regeneration in the immediate post-fire period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2776c9aa315b",
+      "name": "limber pine seedling regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dc8a7adc0e",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Our findings suggest that extensive prescribed burns and stand-replacing wildfire events at the northern extent of limber pine’s range may have limited seedling regeneration in the immediate post-fire period."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cbfcc71fd096",
+      "name": "distance to a seed source",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d3a8326142",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Akaike information criterion (AIC) identified distance to a seed source and absence of canopy cover as hurdles for seedling establishment in the burn."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:66c7a6fd1c0e",
+      "name": "absence of canopy cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_71c2448942",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Akaike information criterion (AIC) identified distance to a seed source and absence of canopy cover as hurdles for seedling establishment in the burn."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eccdca999949",
+      "name": "substrate variables",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f348ae2f3d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "substrate variables, including less prevalent bare mineral soil, more rocky cover, and finer soil textures, take on an important role in driving abundance."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aeb5ca823451",
+      "name": "fire",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:01000786",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In both Upper Saskatchewan and Dogrib, fire appeared to boost regeneration of the dominant tree species in the region (lodgepole pine and white spruce, respectively)..."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:121f58a95e48",
+      "name": "regeneration of the dominant tree species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0ada0c7f2e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In both Upper Saskatchewan and Dogrib, fire appeared to boost regeneration of the dominant tree species in the region (lodgepole pine and white spruce, respectively)..."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b009976430af",
+      "name": "basal area of alive limber pine",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_028ddbc89b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "In the seed model, basal area of alive limber pine was retained and found to have a positive association with seedling abundance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:55147f67ac53",
+      "name": "seedling abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_99c3203a40",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In the seed model, basal area of alive limber pine was retained and found to have a positive association with seedling abundance"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:0c1593775817",
+      "subject": "causal_mosaic:node:8fb2a8fbc0b5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2776c9aa315b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our findings suggest that extensive prescribed burns and stand-replacing wildfire events at the northern extent of limber pine’s range may have limited seedling regeneration in the immediate post-fire period.",
+      "source_spans": [
+        {
+          "text": "Our findings suggest that extensive prescribed burns and stand-replacing wildfire events at the northern extent of limber pine’s range may have limited seedling regeneration in the immediate post-fire period."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117725",
+        "title": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+        "year": 2020,
+        "authors": [
+          "Dawe, Denyse A.",
+          "Peters, Vernon S.",
+          "Flannigan, Mike D."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ea14bb05673b",
+      "subject": "causal_mosaic:node:cbfcc71fd096",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2776c9aa315b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Akaike information criterion (AIC) identified distance to a seed source and absence of canopy cover as hurdles for seedling establishment in the burn.",
+      "source_spans": [
+        {
+          "text": "Akaike information criterion (AIC) identified distance to a seed source and absence of canopy cover as hurdles for seedling establishment in the burn."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117725",
+        "title": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+        "year": 2020,
+        "authors": [
+          "Dawe, Denyse A.",
+          "Peters, Vernon S.",
+          "Flannigan, Mike D."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:323885fd4364",
+      "subject": "causal_mosaic:node:66c7a6fd1c0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2776c9aa315b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Akaike information criterion (AIC) identified distance to a seed source and absence of canopy cover as hurdles for seedling establishment in the burn.",
+      "source_spans": [
+        {
+          "text": "Akaike information criterion (AIC) identified distance to a seed source and absence of canopy cover as hurdles for seedling establishment in the burn."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117725",
+        "title": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+        "year": 2020,
+        "authors": [
+          "Dawe, Denyse A.",
+          "Peters, Vernon S.",
+          "Flannigan, Mike D."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:14a0f00ebaa0",
+      "subject": "causal_mosaic:node:eccdca999949",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55147f67ac53",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "substrate variables, including less prevalent bare mineral soil, more rocky cover, and finer soil textures, take on an important role in driving abundance.",
+      "source_spans": [
+        {
+          "text": "substrate variables, including less prevalent bare mineral soil, more rocky cover, and finer soil textures, take on an important role in driving abundance."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117725",
+        "title": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+        "year": 2020,
+        "authors": [
+          "Dawe, Denyse A.",
+          "Peters, Vernon S.",
+          "Flannigan, Mike D."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3fadf9a89327",
+      "subject": "causal_mosaic:node:aeb5ca823451",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:121f58a95e48",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In both Upper Saskatchewan and Dogrib, fire appeared to boost regeneration of the dominant tree species in the region (lodgepole pine and white spruce, respectively)...",
+      "source_spans": [
+        {
+          "text": "In both Upper Saskatchewan and Dogrib, fire appeared to boost regeneration of the dominant tree species in the region (lodgepole pine and white spruce, respectively)..."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117725",
+        "title": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+        "year": 2020,
+        "authors": [
+          "Dawe, Denyse A.",
+          "Peters, Vernon S.",
+          "Flannigan, Mike D."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:79727f2a5558",
+      "subject": "causal_mosaic:node:b009976430af",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:55147f67ac53",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the seed model, basal area of alive limber pine was retained and found to have a positive association with seedling abundance",
+      "source_spans": [
+        {
+          "text": "In the seed model, basal area of alive limber pine was retained and found to have a positive association with seedling abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117725",
+        "title": "Post-fire regeneration of endangered limber pine (Pinus flexilis) at the northern extent of its range",
+        "year": 2020,
+        "authors": [
+          "Dawe, Denyse A.",
+          "Peters, Vernon S.",
+          "Flannigan, Mike D."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

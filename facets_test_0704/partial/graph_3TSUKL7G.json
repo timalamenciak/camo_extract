@@ -1,0 +1,592 @@
+{
+  "graph_id": "causal_mosaic:graph:c30774b14c73",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T15:59:52.021412+00:00",
+    "source_corpus": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:d5af1389c17b",
+      "name": "Dams",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e47c25f16d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Dams associated with hydropower production or water management can serve as barriers to ﬁsh migration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:67c517b62820",
+      "name": "Watershed connectivity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3f018f43ee",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reducing watershed connectivity",
+          "start_char": 2289,
+          "end_char": 2320,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2fe9daeee678",
+      "name": "Modiﬁcations right at the ﬁshway entrance",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_a56193096e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Modiﬁcations right at the ﬁshway entrance may provide ﬁsh passage improvements"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b3c0cf57b2f",
+      "name": "Fish passage improvements",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cadb75d0b9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "provide ﬁsh passage improvements",
+          "start_char": 4097,
+          "end_char": 4129,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:513a3303aa6e",
+      "name": "Fishway type",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8f08193b87",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "variation in ﬁshway passage was related to ﬁshway type"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:543e4d179474",
+      "name": "Slope",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00002000",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "variation in ﬁshway passage was related to ... slope"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d062b85ee819",
+      "name": "Elevation change",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_964e7e3803",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "variation in ﬁshway passage was related to ... elevation change"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c490a167b465",
+      "name": "Fishway passage",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5bc23f7169",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "variation in ﬁshway passage"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00665519e3d5",
+      "name": "Biological characteristics",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e6984b5970",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "variation in ﬁsh attraction was primarily driven by biological characteristics"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a2de09491a66",
+      "name": "Fish attraction",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_44da79625a",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "variation in ﬁsh attraction",
+          "start_char": 26551,
+          "end_char": 26578,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4edf51b71612",
+      "name": "Delayed dam passage",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1d11fc1c3e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "delayed dam passage resulted in failure to reach spawning tributaries"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:809e355343c9",
+      "name": "Failure to reach spawning tributaries",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0b0b5959ef",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "failure to reach spawning tributaries",
+          "start_char": 27935,
+          "end_char": 27972,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f8c01f5e792e",
+      "name": "Facultative migratory tendency",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bc7ab3b362",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "attributed to its facultative migratory tendency"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b4f89dc04a9",
+      "name": "Passage",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:03501121",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "comparatively poor passage of the latter species attributed to its facultative migratory tendency"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c6482a9e0d94",
+      "name": "Time of day that ﬁshway entry occurs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_463af0e8ca",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "time of day that ﬁshway entry occurs can also affect passage behaviour"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6510238b0093",
+      "name": "Passage behaviour",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7d0aea7e26",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "affect passage behaviour",
+          "start_char": 34305,
+          "end_char": 34329,
+          "paragraph_id": "page:9"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f9650673ba9d",
+      "subject": "causal_mosaic:node:d5af1389c17b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:67c517b62820",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Dams associated with hydropower production or water management can serve as barriers to ﬁsh migration (Lucas and Baras, 2001), reducing watershed connectivity and resulting in changes to ﬁsh community structure and system productivity (Sheer and Steel, 2006).",
+      "source_spans": [
+        {
+          "text": "Dams associated with hydropower production or water management can serve as barriers to ﬁsh migration (Lucas and Baras, 2001), reducing watershed connectivity and resulting in changes to ﬁsh community structure and system productivity (Sheer and Steel, 2006)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bf57370ad1e1",
+      "subject": "causal_mosaic:node:2fe9daeee678",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b3c0cf57b2f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Modiﬁcations right at the ﬁshway entrance may provide ﬁsh passage improvements (e.g. Bunt, 2001).",
+      "source_spans": [
+        {
+          "text": "Modiﬁcations right at the ﬁshway entrance may provide ﬁsh passage improvements (e.g. Bunt, 2001)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c8e9609ffd07",
+      "subject": "causal_mosaic:node:513a3303aa6e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c490a167b465",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change",
+      "source_spans": [
+        {
+          "text": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9737b8adf49f",
+      "subject": "causal_mosaic:node:543e4d179474",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c490a167b465",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change",
+      "source_spans": [
+        {
+          "text": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c0b5740b1681",
+      "subject": "causal_mosaic:node:d062b85ee819",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c490a167b465",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change",
+      "source_spans": [
+        {
+          "text": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ec2b7c34259",
+      "subject": "causal_mosaic:node:00665519e3d5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a2de09491a66",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change, whereas variation in ﬁsh attraction was primarily driven by biological characteristics.",
+      "source_spans": [
+        {
+          "text": "Bunt et al . (2011) recently identi ﬁed that variation in ﬁshway passage was related to ﬁshway type, slope and elevation change, whereas variation in ﬁsh attraction was primarily driven by biological characteristics."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02dbe7a844f6",
+      "subject": "causal_mosaic:node:4edf51b71612",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:809e355343c9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Indeed, Caudill et al . (2007) identi ﬁed that for two species of salmonids, delayed dam passage resulted in failure to reach spawning tributaries.",
+      "source_spans": [
+        {
+          "text": "Indeed, Caudill et al . (2007) identi ﬁed that for two species of salmonids, delayed dam passage resulted in failure to reach spawning tributaries."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5aaf14db6b26",
+      "subject": "causal_mosaic:node:f8c01f5e792e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9b4f89dc04a9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Pratt et al. (2009) attributed differences in attraction and passage ef ﬁciency between white sucker and rock bass (Ambloplites rupestris )a ta ﬁshway to motivation, with comparatively poor passage of the latter species attributed to its facultative migratory tendency.",
+      "source_spans": [
+        {
+          "text": "Pratt et al. (2009) attributed differences in attraction and passage ef ﬁciency between white sucker and rock bass (Ambloplites rupestris )a ta ﬁshway to motivation, with comparatively poor passage of the latter species attributed to its facultative migratory tendency."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d694b77fd82",
+      "subject": "causal_mosaic:node:c6482a9e0d94",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6510238b0093",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Interestingly, time of day that ﬁshway entry occurs can also affect passage behaviour. For example, White et al. (2011) found that bony herring ( Nematalosa erebi) entering the ﬁshway during the day passed uninterrupted; however, upon entry in the evening, the same species delayed its passage overnight.",
+      "source_spans": [
+        {
+          "text": "Interestingly, time of day that ﬁshway entry occurs can also affect passage behaviour. For example, White et al. (2011) found that bony herring ( Nematalosa erebi) entering the ﬁshway during the day passed uninterrupted; however, upon entry in the evening, the same species delayed its passage overnight."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.2553",
+        "title": "MULTISPECIES FISH PASSAGE BEHAVIOUR IN A VERTICAL SLOT FISHWAY ON THE RICHELIEU RIVER, QUEBEC, CANADA",
+        "year": 2013,
+        "authors": [
+          "Thiem, J. D.",
+          "Binder, T. R.",
+          "Dumont, P.",
+          "Hatin, D.",
+          "Hatry, C.",
+          "Katopodis, C.",
+          "Stamplecoskie, K. M.",
+          "Cooke, S. J."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

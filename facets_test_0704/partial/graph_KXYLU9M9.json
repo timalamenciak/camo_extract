@@ -1,0 +1,1162 @@
+{
+  "graph_id": "causal_mosaic:graph:cfb21e3939e7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T12:32:11.654733+00:00",
+    "source_corpus": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:b64ed116151e",
+      "name": "Human activities within a watershed",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5e2ff34d29",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Human activities within a watershed, such as agriculture, forestry and urbanization, impair or alter aquatic ecosystems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1280ef1a375a",
+      "name": "Aquatic ecosystems",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0620484c1f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Human activities within a watershed, such as agriculture, forestry and urbanization, impair or alter aquatic ecosystems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f13584601818",
+      "name": "Channels moved or modified",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b9122f2b38",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This impairment is especially evident when streams and channels are moved or modi ﬁed to utilize the land surface around that stream"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d051fe0668eb",
+      "name": "Fish species populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a07fe5229f",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Channels that were once abundant in ﬁsh species now have reduced populations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d5b4ae621053",
+      "name": "Stream restoration projects",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cecb7142ab",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Stream restoration projects aim to undo damage and in many cases seek to improve aquatic habitat where possible"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cc4fd1b760bc",
+      "name": "Aquatic habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5c66e51ddc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Stream restoration projects aim to undo damage and in many cases seek to improve aquatic habitat where possible"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dee36db3e62b",
+      "name": "High-flow conditions",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a080ee8dc3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "at high- ﬂow conditions the boundaries between geomorphic units blurred"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2374158189d7",
+      "name": "Boundaries between geomorphic units",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7dbf5490cf",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "at high- ﬂow conditions the boundaries between geomorphic units blurred"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1f45a5cb3280",
+      "name": "Higher-flow events",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_51d69bdbfc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "During higher- ﬂow events, water depth-velocity distribution for rif ﬂes at high- ﬂow events were such that they took on the hydraulic properties typical of runs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6249d6251d07",
+      "name": "Rif ﬂes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bb0efd72eb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "During higher- ﬂow events, water depth-velocity distribution for rif ﬂes at high- ﬂow events were such that they took on the hydraulic properties typical of runs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aae81b438425",
+      "name": "Rif ﬂe habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a8e01939d2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "distinctive hydraulic signatures blur, most notably rif ﬂe habitat decreases"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a258dec2afff",
+      "name": "Increase in water depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6435a46c51",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Emery et al. (2003); measured velocity at different geomorphic units at low and high- ﬂows and found geomorphic units were indistinguishable with an increase in water depth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e06033b79da",
+      "name": "Geomorphic units",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6a9a7f3127",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Emery et al. (2003); measured velocity at different geomorphic units at low and high- ﬂows and found geomorphic units were indistinguishable with an increase in water depth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1deb90ef7580",
+      "name": "High- ﬂow events",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_4f82deacc4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "several studies recognize that changes following high- ﬂow events are to be expected"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e602e4d1ba6e",
+      "name": "Channel adjustments",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6dfff090eb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "several studies recognize that changes following high- ﬂow events are to be expected"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c2bbff2e8294",
+      "name": "Siltation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_25b68abde3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the impacts of siltation on minnow species is well-known to negatively impact feeding and spawning"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d2f37dced500",
+      "name": "Feeding and spawning",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_acba79d6f2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "the impacts of siltation on minnow species is well-known to negatively impact feeding and spawning"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be7d74ced187",
+      "name": "Redside dace populations",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_880eb2e5fb",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "redside dace populations were not observed",
+          "start_char": 28652,
+          "end_char": 28694,
+          "paragraph_id": "page:9"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5e66af64bd0",
+      "name": "Creek chub",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_92b825eec9",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "creek chub was commonly observed throughout the ﬁeld season"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24bca635cb0c",
+      "name": "Western blacknose dace",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q1102705",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Other minnow species were observed during the ﬁeld season including western blacknose dace"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7c9ab7502050",
+      "name": "Design elements",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d8e92028b8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Design elements that provided habitat for redside dace include vegetation plantings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb9e914eea08",
+      "name": "Habitat for redside dace",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a6624510ec",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Design elements that provided habitat for redside dace include vegetation plantings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:11b155e289ee",
+      "name": "Restoration project builds habitat heterogeneity",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_17010099a2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "if a restoration project builds habitat heterogeneity, increased species diversity should follow"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4f2eb3fe8006",
+      "name": "Species diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38e5914f72",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "if a restoration project builds habitat heterogeneity, increased species diversity should follow"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c57b2a5e703",
+      "name": "Restored channels maintained restored features",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e83af8d591",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "although the restored channels maintained restored features (e.g. habitat heterogeneity), species diversity did not improve"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f54f551f5a3d",
+      "name": "High velocity conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_902c5a8a61",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "eggs cannot survive high velocity conditions by seeking refuge"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3a1d2d3ace74",
+      "name": "Eggs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f50d3fe4c6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "eggs cannot survive high velocity conditions by seeking refuge"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38a5b55464e6",
+      "name": "Water temperature 18°C",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a762509a3",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Koster (1939) found the lowest temperature, redside dace were observed, and spawning was at 18 °C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c2f3c4c7a2ca",
+      "name": "Spawning",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c12b884571",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Koster (1939) found the lowest temperature, redside dace were observed, and spawning was at 18 °C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7885426950c5",
+      "name": "Water temperature measurements",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d6241be7ec",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "During the 2013 study period, 5% of the water temperature measurements in the restored reach exceeded 24 °C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9cfe0ec066b9",
+      "name": "24 °C threshold",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_233d2cda31",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "During the 2013 study period, 5% of the water temperature measurements in the restored reach exceeded 24 °C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bf2f38539172",
+      "name": "Diurnal water temperature ﬂuctuations",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_47810c5844",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "This was due to diurnal water temperature ﬂuctuations from 15 to 29 May"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:df9ae3c96a4f",
+      "name": "Water temperature < 18°C",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ed3b1a8a62",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Approximately, 52% of the water temperature measurements were less than 18 °C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d47584a3feb7",
+      "name": "High- ﬂows",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_129eb5f38d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Rif ﬂes were described as ‘drowned’ during high- ﬂows"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bbd8a93747e0",
+      "name": "Rif ﬂes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4f9d25d9f2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Rif ﬂes were described as ‘drowned’ during high- ﬂows"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e166cd7654c1",
+      "subject": "causal_mosaic:node:b64ed116151e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1280ef1a375a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Human activities within a watershed, such as agriculture, forestry and urbanization, impair or alter aquatic ecosystems",
+      "source_spans": [
+        {
+          "text": "Human activities within a watershed, such as agriculture, forestry and urbanization, impair or alter aquatic ecosystems"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:552872c25711",
+      "subject": "causal_mosaic:node:f13584601818",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d051fe0668eb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Channels that were once abundant in ﬁsh species now have reduced populations",
+      "source_spans": [
+        {
+          "text": "Channels that were once abundant in ﬁsh species now have reduced populations"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7d260064dc0a",
+      "subject": "causal_mosaic:node:d5b4ae621053",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cc4fd1b760bc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stream restoration projects aim to undo damage and in many cases seek to improve aquatic habitat where possible",
+      "source_spans": [
+        {
+          "text": "Stream restoration projects aim to undo damage and in many cases seek to improve aquatic habitat where possible"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:82dd74ba0c1e",
+      "subject": "causal_mosaic:node:dee36db3e62b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2374158189d7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "at high- ﬂow conditions the boundaries between geomorphic units blurred",
+      "source_spans": [
+        {
+          "text": "at high- ﬂow conditions the boundaries between geomorphic units blurred"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:386530cdf515",
+      "subject": "causal_mosaic:node:1f45a5cb3280",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6249d6251d07",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "During higher- ﬂow events, water depth-velocity distribution for rif ﬂes at high- ﬂow events were such that they took on the hydraulic properties typical of runs",
+      "source_spans": [
+        {
+          "text": "During higher- ﬂow events, water depth-velocity distribution for rif ﬂes at high- ﬂow events were such that they took on the hydraulic properties typical of runs"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:497e944f48c0",
+      "subject": "causal_mosaic:node:dee36db3e62b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aae81b438425",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "distinctive hydraulic signatures blur, most notably rif ﬂe habitat decreases",
+      "source_spans": [
+        {
+          "text": "distinctive hydraulic signatures blur, most notably rif ﬂe habitat decreases"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7c9115814f26",
+      "subject": "causal_mosaic:node:a258dec2afff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7e06033b79da",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Emery et al. (2003); measured velocity at different geomorphic units at low and high- ﬂows and found geomorphic units were indistinguishable with an increase in water depth",
+      "source_spans": [
+        {
+          "text": "Emery et al. (2003); measured velocity at different geomorphic units at low and high- ﬂows and found geomorphic units were indistinguishable with an increase in water depth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2c7f7ec131aa",
+      "subject": "causal_mosaic:node:1deb90ef7580",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e602e4d1ba6e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "several studies recognize that changes following high- ﬂow events are to be expected",
+      "source_spans": [
+        {
+          "text": "several studies recognize that changes following high- ﬂow events are to be expected"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:98283438fbf4",
+      "subject": "causal_mosaic:node:c2bbff2e8294",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d2f37dced500",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the impacts of siltation on minnow species is well-known to negatively impact feeding and spawning",
+      "source_spans": [
+        {
+          "text": "the impacts of siltation on minnow species is well-known to negatively impact feeding and spawning"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2a9d9a5532bb",
+      "subject": "causal_mosaic:node:be7d74ced187",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be7d74ced187",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "redside dace populations were not observed",
+      "source_spans": [
+        {
+          "text": "redside dace populations were not observed",
+          "start_char": 28652,
+          "end_char": 28694,
+          "paragraph_id": "page:9"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ca56273e9a94",
+      "subject": "causal_mosaic:node:e5e66af64bd0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5e66af64bd0",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "creek chub was commonly observed throughout the ﬁeld season",
+      "source_spans": [
+        {
+          "text": "creek chub was commonly observed throughout the ﬁeld season"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bba101257406",
+      "subject": "causal_mosaic:node:24bca635cb0c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24bca635cb0c",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Other minnow species were observed during the ﬁeld season including western blacknose dace",
+      "source_spans": [
+        {
+          "text": "Other minnow species were observed during the ﬁeld season including western blacknose dace"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:27efb3966154",
+      "subject": "causal_mosaic:node:7c9ab7502050",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bb9e914eea08",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Design elements that provided habitat for redside dace include vegetation plantings",
+      "source_spans": [
+        {
+          "text": "Design elements that provided habitat for redside dace include vegetation plantings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4a0585520ffa",
+      "subject": "causal_mosaic:node:11b155e289ee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f2eb3fe8006",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "if a restoration project builds habitat heterogeneity, increased species diversity should follow",
+      "source_spans": [
+        {
+          "text": "if a restoration project builds habitat heterogeneity, increased species diversity should follow"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:559d4f3e86eb",
+      "subject": "causal_mosaic:node:8c57b2a5e703",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4f2eb3fe8006",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "although the restored channels maintained restored features (e.g. habitat heterogeneity), species diversity did not improve",
+      "source_spans": [
+        {
+          "text": "although the restored channels maintained restored features (e.g. habitat heterogeneity), species diversity did not improve"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9a8dfebb621b",
+      "subject": "causal_mosaic:node:f54f551f5a3d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3a1d2d3ace74",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "eggs cannot survive high velocity conditions by seeking refuge",
+      "source_spans": [
+        {
+          "text": "eggs cannot survive high velocity conditions by seeking refuge"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:48cac9b30c3e",
+      "subject": "causal_mosaic:node:38a5b55464e6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c2f3c4c7a2ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Koster (1939) found the lowest temperature, redside dace were observed, and spawning was at 18 °C",
+      "source_spans": [
+        {
+          "text": "Koster (1939) found the lowest temperature, redside dace were observed, and spawning was at 18 °C"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e434e9027477",
+      "subject": "causal_mosaic:node:7885426950c5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9cfe0ec066b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "During the 2013 study period, 5% of the water temperature measurements in the restored reach exceeded 24 °C",
+      "source_spans": [
+        {
+          "text": "During the 2013 study period, 5% of the water temperature measurements in the restored reach exceeded 24 °C"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c0602b91f64b",
+      "subject": "causal_mosaic:node:bf2f38539172",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:df9ae3c96a4f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This was due to diurnal water temperature ﬂuctuations from 15 to 29 May",
+      "source_spans": [
+        {
+          "text": "This was due to diurnal water temperature ﬂuctuations from 15 to 29 May"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8516df3a72d9",
+      "subject": "causal_mosaic:node:d47584a3feb7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bbd8a93747e0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Rif ﬂes were described as ‘drowned’ during high- ﬂows",
+      "source_spans": [
+        {
+          "text": "Rif ﬂes were described as ‘drowned’ during high- ﬂows"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/eco.1705",
+        "title": "Assessing instream habitat suitability and hydraulic signatures of geomorphic units in a reconstructed single thread meandering channel",
+        "year": 2016,
+        "authors": [
+          "Cockburn, J.M.H.",
+          "Villard, P.V.",
+          "Hutton, C."
+        ],
+        "journal": "Ecohydrology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "graph_id": "causal_mosaic:graph:ccda34df66fe",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T23:20:14.270694+00:00",
+    "source_corpus": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:177cc26c50d4",
+      "name": "Reduction of C. rubescens",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f3ea49d17a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Reduction of C. rubescens led to a relatively small but significant increase (p < 0.05) in bunchgrass survival by 7%."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:993cf13926d2",
+      "name": "bunchgrass survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1b055b0bfa",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Reduction of C. rubescens led to a relatively small but significant increase (p < 0.05) in bunchgrass survival by 7%."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:172a48aae57a",
+      "name": "tiller number",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_553d5a3892",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Removal of neighboring C. rubescens generally increased the number of tillers (or reduced tiller loss) but only within fall-planted A. richardsonii and spring-planted P. spicata."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b7fae1adce9c",
+      "name": "transplant size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c886538f09",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Bunchgrass survival was positively associated (p < 0.05) with transplant size."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36e440cfcf80",
+      "name": "fall planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1c00d75d1a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "P. spicata survival was greater (p < 0.01) with fall (81%) than with spring (44%) planting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ad9ed74dfd9a",
+      "name": "spring planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5c0a87d10e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "survival of A. richardsonii was greater (p < 0.01) when planted in the spring (68 vs. 23%)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:26487bf63442",
+      "name": "P. spicata survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_df603cfc90",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "P. spicata survival was greater (p < 0.01) with fall (81%) than with spring (44%) planting"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0ae3c727ffaa",
+      "name": "A. richardsonii survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2da0a1a41f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "survival of A. richardsonii was greater (p < 0.01) when planted in the spring (68 vs. 23%)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f8ac007aa398",
+      "name": "Competition from C. rubescens",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_b319d1f4c7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Competition from C. rubescens had an adverse impact on plug survival regardless of planting season."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:31c35cafae48",
+      "name": "plug survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_094098ea52",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Competition from C. rubescens had an adverse impact on plug survival regardless of planting season."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1f42f86df348",
+      "subject": "causal_mosaic:node:177cc26c50d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:993cf13926d2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Reduction of C. rubescens led to a relatively small but significant increase (p < 0.05) in bunchgrass survival by 7%.",
+      "source_spans": [
+        {
+          "text": "Reduction of C. rubescens led to a relatively small but significant increase (p < 0.05) in bunchgrass survival by 7%."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00083.x",
+        "title": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+        "year": 2005,
+        "authors": [
+          "Page, Hillary N.",
+          "Bork, Edward W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cbbfae885efb",
+      "subject": "causal_mosaic:node:177cc26c50d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:172a48aae57a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Removal of neighboring C. rubescens generally increased the number of tillers (or reduced tiller loss) but only within fall-planted A. richardsonii and spring-planted P. spicata.",
+      "source_spans": [
+        {
+          "text": "Removal of neighboring C. rubescens generally increased the number of tillers (or reduced tiller loss) but only within fall-planted A. richardsonii and spring-planted P. spicata."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00083.x",
+        "title": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+        "year": 2005,
+        "authors": [
+          "Page, Hillary N.",
+          "Bork, Edward W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1d29b7e7cd57",
+      "subject": "causal_mosaic:node:b7fae1adce9c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:993cf13926d2",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bunchgrass survival was positively associated (p < 0.05) with transplant size.",
+      "source_spans": [
+        {
+          "text": "Bunchgrass survival was positively associated (p < 0.05) with transplant size."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00083.x",
+        "title": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+        "year": 2005,
+        "authors": [
+          "Page, Hillary N.",
+          "Bork, Edward W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:df0f4c73150c",
+      "subject": "causal_mosaic:node:36e440cfcf80",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:26487bf63442",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "P. spicata survival was greater (p < 0.01) with fall (81%) than with spring (44%) planting",
+      "source_spans": [
+        {
+          "text": "P. spicata survival was greater (p < 0.01) with fall (81%) than with spring (44%) planting"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00083.x",
+        "title": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+        "year": 2005,
+        "authors": [
+          "Page, Hillary N.",
+          "Bork, Edward W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9d5873a57ffe",
+      "subject": "causal_mosaic:node:ad9ed74dfd9a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0ae3c727ffaa",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "survival of A. richardsonii was greater (p < 0.01) when planted in the spring (68 vs. 23%)",
+      "source_spans": [
+        {
+          "text": "survival of A. richardsonii was greater (p < 0.01) when planted in the spring (68 vs. 23%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00083.x",
+        "title": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+        "year": 2005,
+        "authors": [
+          "Page, Hillary N.",
+          "Bork, Edward W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8d3df0e9d001",
+      "subject": "causal_mosaic:node:f8ac007aa398",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:31c35cafae48",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Competition from C. rubescens had an adverse impact on plug survival regardless of planting season.",
+      "source_spans": [
+        {
+          "text": "Competition from C. rubescens had an adverse impact on plug survival regardless of planting season."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/j.1526-100X.2005.00083.x",
+        "title": "Effect of Planting Season, Bunchgrass Species, and Neighbor Control on the Success of Transplants for Grassland Restoration",
+        "year": 2005,
+        "authors": [
+          "Page, Hillary N.",
+          "Bork, Edward W."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

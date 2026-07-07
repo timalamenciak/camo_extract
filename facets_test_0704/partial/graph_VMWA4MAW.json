@@ -1,0 +1,809 @@
+{
+  "graph_id": "causal_mosaic:graph:7061d8a17907",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T01:15:14.571891+00:00",
+    "source_corpus": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c41721a82ad1",
+      "name": "dredging accumulated sediment and organic debris",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5a1278b28e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Wetlands were restored by means of dredging accumulated sediment and organic debris to create open water and emulate pre-disturbance conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c133b81bbfad",
+      "name": "restored wetlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dda0addb34",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51e3e2c9d1e4",
+      "name": "reference wetlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ea55f93286",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c44ffec01d3",
+      "name": "Increased open water",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00000016",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "open water",
+      "source_spans": [
+        {
+          "text": "Wetlands were restored by means of dredging accumulated sediment and organic debris to create open water and emulate pre-disturbance conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:613adbc80be0",
+      "name": "Increased number of species calling",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_63a64d3060",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "number of species calling",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eec52c968e16",
+      "name": "Increased abundance indices of northern leopard frogs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ca6302fc79",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance indices",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f1d6bf25d10",
+      "name": "Increased abundance indices of green frogs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cd7dd3db6a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance indices",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dc207032ba84",
+      "name": "Increased abundance indices of spring peepers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2c6ae8def3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance indices",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:470f15e552d3",
+      "name": "Increased water depths",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8234443f4d",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "water depths",
+      "source_spans": [
+        {
+          "text": "Increases in open water and water depths due to restoration also provided habitat for green frogs and northern leopard frogs."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3831493a91d2",
+      "name": "Increased percent cattail",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_18b6bd5905",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "percent cattail",
+      "source_spans": [
+        {
+          "text": "Occurrence of calling green frogs in restored wetlands was positively correlated with percent cattail"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af947ca58589",
+      "name": "Increased proximity to freshwater rivers",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4c4155c629",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "proximity to freshwater rivers",
+      "source_spans": [
+        {
+          "text": "The number of species calling in restored wetlands was positively correlated with proximity to freshwater rivers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09672fb6ba18",
+      "name": "Increased forested perimeters",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_146c7d8582",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "forested perimeters",
+      "source_spans": [
+        {
+          "text": "in reference wetlands, the number was positively associated with forested perimeters and area of open water."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d20d21d645f",
+      "name": "Increased area of open water",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000666",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "area of open water",
+      "source_spans": [
+        {
+          "text": "in reference wetlands, the number was positively associated with forested perimeters and area of open water."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ea301f86866d",
+      "name": "Increased proximity to other wetlands",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_61f827f231",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "proximity to other wetlands",
+      "source_spans": [
+        {
+          "text": "in reference wetlands, with proximity to other wetlands."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8c4b0ae526f",
+      "name": "Increased wetland area",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:00000043",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "wetland area",
+      "source_spans": [
+        {
+          "text": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:82d2e4732889",
+      "name": "Increased peatland habitat",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_af9a27178b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "peatland habitat",
+      "source_spans": [
+        {
+          "text": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fe1b96d51734",
+      "name": "Present calling green frogs",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_6ab746ada6",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Occurrence of calling green frogs in restored wetlands was positively correlated with percent cattail"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0e77180edd6a",
+      "name": "Present calling wood frogs",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_3014de0a6a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Calling wood frog occurrence was positively correlated with greater water depths and open water (component 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0541502c3b1e",
+      "name": "Present calling American toads",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_e59a1ce6d2",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5e80ed7ad767",
+      "name": "Present anurans",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_e07771889a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "We conclude that wetland restoration by means of dredging accumulated organic soil and debris for the primary purpose of creating open water for waterfowl does provide habitat for anurans."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:f81bc5b79ce3",
+      "subject": "causal_mosaic:node:c41721a82ad1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3c44ffec01d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Wetlands were restored by means of dredging accumulated sediment and organic debris to create open water and emulate pre-disturbance conditions.",
+      "source_spans": [
+        {
+          "text": "Wetlands were restored by means of dredging accumulated sediment and organic debris to create open water and emulate pre-disturbance conditions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:91a7ed089be6",
+      "subject": "causal_mosaic:node:c41721a82ad1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:613adbc80be0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands.",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9be72c867ee5",
+      "subject": "causal_mosaic:node:c41721a82ad1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eec52c968e16",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands.",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:147e2ab49fab",
+      "subject": "causal_mosaic:node:c41721a82ad1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0f1d6bf25d10",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands.",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95f86aae6320",
+      "subject": "causal_mosaic:node:c41721a82ad1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dc207032ba84",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands.",
+      "source_spans": [
+        {
+          "text": "Numbers of species calling and abundance indices of northern leopard frogs, green frogs, and spring peepers were significantly higher on restored versus reference wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:619f7e497e81",
+      "subject": "causal_mosaic:node:af947ca58589",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:613adbc80be0",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "The number of species calling in restored wetlands was positively correlated with proximity to freshwater rivers",
+      "source_spans": [
+        {
+          "text": "The number of species calling in restored wetlands was positively correlated with proximity to freshwater rivers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e01cc1c9064b",
+      "subject": "causal_mosaic:node:09672fb6ba18",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:613adbc80be0",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "in reference wetlands, the number was positively associated with forested perimeters and area of open water.",
+      "source_spans": [
+        {
+          "text": "in reference wetlands, the number was positively associated with forested perimeters and area of open water."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f03f57030a54",
+      "subject": "causal_mosaic:node:8d20d21d645f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:613adbc80be0",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "in reference wetlands, the number was positively associated with forested perimeters and area of open water.",
+      "source_spans": [
+        {
+          "text": "in reference wetlands, the number was positively associated with forested perimeters and area of open water."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7c83f18e7afd",
+      "subject": "causal_mosaic:node:3831493a91d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fe1b96d51734",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Occurrence of calling green frogs in restored wetlands was positively correlated with percent cattail",
+      "source_spans": [
+        {
+          "text": "Occurrence of calling green frogs in restored wetlands was positively correlated with percent cattail"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2ea2ae7cb4c5",
+      "subject": "causal_mosaic:node:ea301f86866d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fe1b96d51734",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "in reference wetlands, with proximity to other wetlands.",
+      "source_spans": [
+        {
+          "text": "in reference wetlands, with proximity to other wetlands."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:588881923cdc",
+      "subject": "causal_mosaic:node:470f15e552d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0e77180edd6a",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Calling wood frog occurrence was positively correlated with greater water depths and open water (component 3).",
+      "source_spans": [
+        {
+          "text": "Calling wood frog occurrence was positively correlated with greater water depths and open water (component 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:23a825395c89",
+      "subject": "causal_mosaic:node:3c44ffec01d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0e77180edd6a",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Calling wood frog occurrence was positively correlated with greater water depths and open water (component 3).",
+      "source_spans": [
+        {
+          "text": "Calling wood frog occurrence was positively correlated with greater water depths and open water (component 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e26662feb8c",
+      "subject": "causal_mosaic:node:b8c4b0ae526f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0541502c3b1e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6).",
+      "source_spans": [
+        {
+          "text": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aa49dca38f64",
+      "subject": "causal_mosaic:node:82d2e4732889",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0541502c3b1e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6).",
+      "source_spans": [
+        {
+          "text": "Calling American toad presence was positively correlated with wetland area (component 4) and peatland habitat (component 6)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:800df92b0cb3",
+      "subject": "causal_mosaic:node:c41721a82ad1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5e80ed7ad767",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "We conclude that wetland restoration by means of dredging accumulated organic soil and debris for the primary purpose of creating open water for waterfowl does provide habitat for anurans.",
+      "source_spans": [
+        {
+          "text": "We conclude that wetland restoration by means of dredging accumulated organic soil and debris for the primary purpose of creating open water for waterfowl does provide habitat for anurans."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1672/0277-5212(2002)022[0090:ACSOSW]2.0.CO;2",
+        "title": "Anuran call surveys on small wetlands in Prince Edward Island, Canada restored by dredging of sediments",
+        "year": 2002,
+        "authors": [
+          "Stevens, Cameron E.",
+          "Diamond, Antony W.",
+          "Gabor, T. Shane"
+        ],
+        "journal": "Wetlands"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "graph_id": "causal_mosaic:graph:d0c4c29e0907",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T06:10:54.475478+00:00",
+    "source_corpus": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0b427c6e5e23",
+      "name": "surface roughness",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_135f2eff78",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "surface roughness (i.e., site preparation)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60dbca3dbde8",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "areas that were rough had greater species richness under natural recovery",
+          "start_char": 1168,
+          "end_char": 1241,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1a26beac53b2",
+      "name": "species diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ee2740c823",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "diversity tended to be lower on smooth plots (1.994 ± 0.158) compared with those having rough microtopography (2.258 ± 0.158)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88d1df434071",
+      "name": "acrotelm application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_777ab5c57f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "acrotelm application",
+          "start_char": 1710,
+          "end_char": 1730,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b42fbd828de3",
+      "name": "native vegetation presence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3618f86228",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "reduced the presence of some native vegetation",
+          "start_char": 1804,
+          "end_char": 1850,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:56c84aaef3ff",
+      "name": "top and middle microtopographic positions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_af6c5ce4ce",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "top and middle microtopographic positions",
+          "start_char": 1449,
+          "end_char": 1490,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:207df985214d",
+      "name": "woody transplant survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e13be15f42",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "survival and growth of woody transplants (Picea mariana—black spruce and Ledum groenlandicum—Labrador tea) were greater when planted within the top and middle microtopographic positions rather than micro-depressions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:883370ca4d14",
+      "name": "Ledum groenlandicum survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0de9ba8a9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "survival of this species lower in areas receiving acrotelm",
+          "start_char": 24747,
+          "end_char": 24805,
+          "paragraph_id": "page:6"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5bd3abd5ba36",
+      "name": "transplants",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_79bacf22cd",
+      "state_or_change_qualifier": "introduced",
+      "source_spans": [
+        {
+          "text": "introduction of transplanted species",
+          "start_char": 33897,
+          "end_char": 33933,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fef2b169f66",
+      "name": "sedge transplant cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cef2305ee9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "sedge transplant cover remained significantly lower within the top microtopographic position compared to the middle and bottom positions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81992d906e08",
+      "name": "middle and bottom microtopographic positions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3862834bfa",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "middle and bottom positions"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e076f519f227",
+      "subject": "causal_mosaic:node:0b427c6e5e23",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60dbca3dbde8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Although overall survival of transplants was similar between areas smoothed and left rough, areas that were rough had greater species richness under natural recovery, including trees, shrubs, and other perennial herbs.",
+      "source_spans": [
+        {
+          "text": "Although overall survival of transplants was similar between areas smoothed and left rough, areas that were rough had greater species richness under natural recovery, including trees, shrubs, and other perennial herbs."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:055835aeff9e",
+      "subject": "causal_mosaic:node:0b427c6e5e23",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1a26beac53b2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Shannon’s diversity under natural recovery was significantly affected by surface roughness (ANOV A; F1,11 = 2.94, p = 0.10): diversity tended to be lower on smooth plots (1.994 ± 0.158) compared with those having rough microtopography (2.258 ± 0.158).",
+      "source_spans": [
+        {
+          "text": "Shannon’s diversity under natural recovery was significantly affected by surface roughness (ANOV A; F1,11 = 2.94, p = 0.10): diversity tended to be lower on smooth plots (1.994 ± 0.158) compared with those having rough microtopography (2.258 ± 0.158)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9da50b6f9764",
+      "subject": "causal_mosaic:node:88d1df434071",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b42fbd828de3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Contrary to expectations, no benefits of acrotelm application were found on vegetation recovery during the first two seasons, and even reduced the presence of some native vegetation.",
+      "source_spans": [
+        {
+          "text": "Contrary to expectations, no benefits of acrotelm application were found on vegetation recovery during the first two seasons, and even reduced the presence of some native vegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eab423da6268",
+      "subject": "causal_mosaic:node:56c84aaef3ff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:207df985214d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Moreover, survival and growth of woody transplants (Picea mariana—black spruce and Ledum groenlandicum—Labrador tea) were greater when planted within the top and middle microtopographic positions rather than micro-depressions.",
+      "source_spans": [
+        {
+          "text": "Moreover, survival and growth of woody transplants (Picea mariana—black spruce and Ledum groenlandicum—Labrador tea) were greater when planted within the top and middle microtopographic positions rather than micro-depressions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e09d0742431c",
+      "subject": "causal_mosaic:node:88d1df434071",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:883370ca4d14",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ledum groenlandicum was additionally affected significantly by acrotelm application during the first growing season (ANOV A; F1,14 = 4.18, p = 0.048), with survival of this species lower in areas receiving acrotelm (50%) compared to areas without acrotelm (60.4%).",
+      "source_spans": [
+        {
+          "text": "Ledum groenlandicum was additionally affected significantly by acrotelm application during the first growing season (ANOV A; F1,14 = 4.18, p = 0.048), with survival of this species lower in areas receiving acrotelm (50%) compared to areas without acrotelm (60.4%)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:22a6e90024bb",
+      "subject": "causal_mosaic:node:5bd3abd5ba36",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60dbca3dbde8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, species richness and diversity were marginally greater with the introduction of transplanted species, apparently as a direct result of the additional species installed.",
+      "source_spans": [
+        {
+          "text": "Overall, species richness and diversity were marginally greater with the introduction of transplanted species, apparently as a direct result of the additional species installed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:65ed05f4ce0f",
+      "subject": "causal_mosaic:node:81992d906e08",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8fef2b169f66",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, sedge transplant cover remained significantly lower ( p < 0.05) within the top microtopographic position (2.8%) compared to the middle (3.9%) and bottom (4.0%) positions.",
+      "source_spans": [
+        {
+          "text": "In contrast, sedge transplant cover remained significantly lower ( p < 0.05) within the top microtopographic position (2.8%) compared to the middle (3.9%) and bottom (4.0%) positions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.34.3.225",
+        "title": "Comparison of Site Preparation and Revegetation Strategies Within a Sphagnum-dominated Peatland Following Removal of an Oil Well Pad",
+        "year": 2016,
+        "authors": [
+          "Shunina, Anna",
+          "Osko, Terrance J.",
+          "Foote, Lee",
+          "Bork, Edward W."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

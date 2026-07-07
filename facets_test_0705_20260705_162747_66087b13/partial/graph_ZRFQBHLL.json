@@ -1,0 +1,460 @@
+{
+  "graph_id": "causal_mosaic:graph:ada7c3072967",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T15:43:06.943963+00:00",
+    "source_corpus": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9cdf1b8bbd8a",
+      "name": "acid deposition",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_0c2b10f429",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In many of the lakes, ﬁsh populations were lost because of acid deposition originating from nearby metal smelters"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00f19e727819",
+      "name": "fish populations",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_f18efe4f0a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In many of the lakes, ﬁsh populations were lost because of acid deposition originating from nearby metal smelters"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4970de52d39e",
+      "name": "absence of fish",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_053754adf3",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "In the absence of ﬁsh, beetle biomass is high, individual sizes are large and, as found in our study, pelagic larvae such as those of the dytiscid species G. liberus are abundant"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:61f0ec2b6d77",
+      "name": "Graphoderus liberus",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q2229580",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In the absence of ﬁsh, beetle biomass is high, individual sizes are large and, as found in our study, pelagic larvae such as those of the dytiscid species G. liberus are abundant"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:811244386007",
+      "name": "larval G. liberus predation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_762831d5f9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ffed56daac3e",
+      "name": "zooplankton abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cfc0cbab92",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e3813acf5676",
+      "name": "zooplankton richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cda544972b35",
+      "name": "zooplankton diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38e5914f72",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e2898a6fa41",
+      "name": "fish presence/absence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43bd29e394",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "When we used forward stepwise selection of the 7 environmental variables in the RDA, only ﬁsh presence/absence explained a signiﬁcant amount of variation in water beetle composition (8%, p = 0.002)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:943f52d77dc7",
+      "name": "water beetle assemblage composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4ae33cc305",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "When we used forward stepwise selection of the 7 environmental variables in the RDA, only ﬁsh presence/absence explained a signiﬁcant amount of variation in water beetle composition (8%, p = 0.002)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:495b96bbbd24",
+      "name": "biological recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_12cb9883c4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The high abundance of G. liberus in the absence of ﬁsh and the impact of larval G. liberus predation on crustacean zooplankton in Swan Lake suggest that biological resistance may be an important impediment to the recovery of aquatic food webs, despite increasing pH."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2a6377b1a26f",
+      "name": "pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2d103a0e2f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Water beetle richness was signiﬁcantly related to pH (R2 = 0.18, p = 0.02; Fig. 2)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5fbda4c87bd",
+      "name": "Water beetle richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38285ab9ad",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Water beetle richness was signiﬁcantly related to pH (R2 = 0.18, p = 0.02; Fig. 2)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:d8aa558d1f00",
+      "subject": "causal_mosaic:node:9cdf1b8bbd8a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:00f19e727819",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "In many of the lakes, ﬁsh populations were lost because of acid deposition originating from nearby metal smelters",
+      "source_spans": [
+        {
+          "text": "In many of the lakes, ﬁsh populations were lost because of acid deposition originating from nearby metal smelters"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b04e57f12f97",
+      "subject": "causal_mosaic:node:4970de52d39e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:61f0ec2b6d77",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "In the absence of ﬁsh, beetle biomass is high, individual sizes are large and, as found in our study, pelagic larvae such as those of the dytiscid species G. liberus are abundant",
+      "source_spans": [
+        {
+          "text": "In the absence of ﬁsh, beetle biomass is high, individual sizes are large and, as found in our study, pelagic larvae such as those of the dytiscid species G. liberus are abundant"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2658f4ac9339",
+      "subject": "causal_mosaic:node:811244386007",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ffed56daac3e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity.",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2a2ac8727dd1",
+      "subject": "causal_mosaic:node:811244386007",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e3813acf5676",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity.",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:28d365196a7b",
+      "subject": "causal_mosaic:node:811244386007",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cda544972b35",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity.",
+      "source_spans": [
+        {
+          "text": "Mesocosm experiments in Swan Lake, a ﬁshless lake recovering from acidiﬁcation, revealed that larval G. liberus can reduce total zooplankton abundance, species richness, and species diversity."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:659d5f8820d7",
+      "subject": "causal_mosaic:node:7e2898a6fa41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:943f52d77dc7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "When we used forward stepwise selection of the 7 environmental variables in the RDA, only ﬁsh presence/absence explained a signiﬁcant amount of variation in water beetle composition (8%, p = 0.002).",
+      "source_spans": [
+        {
+          "text": "When we used forward stepwise selection of the 7 environmental variables in the RDA, only ﬁsh presence/absence explained a signiﬁcant amount of variation in water beetle composition (8%, p = 0.002)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8ad57f68d16b",
+      "subject": "causal_mosaic:node:4970de52d39e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:495b96bbbd24",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The high abundance of G. liberus in the absence of ﬁsh and the impact of larval G. liberus predation on crustacean zooplankton in Swan Lake suggest that biological resistance may be an important impediment to the recovery of aquatic food webs, despite increasing pH.",
+      "source_spans": [
+        {
+          "text": "The high abundance of G. liberus in the absence of ﬁsh and the impact of larval G. liberus predation on crustacean zooplankton in Swan Lake suggest that biological resistance may be an important impediment to the recovery of aquatic food webs, despite increasing pH."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cae0de3d3d95",
+      "subject": "causal_mosaic:node:2a6377b1a26f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5fbda4c87bd",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "regularity"
+      ],
+      "original_sentence": "Water beetle richness was signiﬁcantly related to pH (R2 = 0.18, p = 0.02; Fig. 2).",
+      "source_spans": [
+        {
+          "text": "Water beetle richness was signiﬁcantly related to pH (R2 = 0.18, p = 0.02; Fig. 2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1899/0887-3593(2006)025[0811:DAPEOW]2.0.CO;2",
+        "title": "Distribution and potential effects of water beetles in lakes recovering from acidification",
+        "year": 2006,
+        "authors": [
+          "Arnott, S. E.",
+          "Jackson, A. B.",
+          "Alarie, Y."
+        ],
+        "journal": "Journal of the North American Benthological Society"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

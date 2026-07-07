@@ -1,0 +1,392 @@
+{
+  "graph_id": "causal_mosaic:graph:163df7c276c8",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T23:17:01.803375+00:00",
+    "source_corpus": "Determinants of biotic resistance to invasion in plant community reassembly",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:2ff8b409de72",
+      "name": "Functional group identity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20f2322675",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "functional group identity of wetland species would be a good predictor of their biotic resistance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64ec5ff38b00",
+      "name": "Biotic resistance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1196620463",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "functional group identity of wetland species would be a good predictor of their biotic resistance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d2725f0aa440",
+      "name": "Mixtures of species",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_81c394ccb5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mixtures of species would be more invasion-resistant than monocultures",
+          "start_char": 39888,
+          "end_char": 39958,
+          "paragraph_id": "page:28"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d0f7b211653b",
+      "name": "Invasion resistance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7c775cd237",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "mixtures of species would be more invasion-resistant than monocultures",
+          "start_char": 39888,
+          "end_char": 39958,
+          "paragraph_id": "page:28"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b00833959f1",
+      "name": "Flooding",
+      "entity_type": "environmental_process",
+      "entity_term": "ENVO:02500002",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Flooding always directly reduced invasion success"
+        },
+        {
+          "text": "Flooding significantly decreased the abundance of total unsown species... but increased abundance of P. australis"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24e3c68875b0",
+      "name": "Invasion success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_af14f83463",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Flooding always directly reduced invasion success"
+        },
+        {
+          "text": "sowing density of resident species can limit the threshold in the effect of propagule pressures on invasion success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e9c2f28817d4",
+      "name": "Propagule pressure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_32a63e171f",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "propagule pressure increased invasion success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a1634a8704f",
+      "name": "Invasion success",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_af14f83463",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "propagule pressure increased invasion success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8a3c841f1df6",
+      "name": "Functional group interactions",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_ca435e3ec3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "interactions between functional groups mainly drive the diversity effect"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:20204b75f5e7",
+      "name": "Diversity effect",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2b46817880",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "interactions between functional groups mainly drive the diversity effect"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4c277ccd53e9",
+      "name": "Sowing density of resident species",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ffb23dcf07",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "sowing density of resident species can limit the threshold in the effect of propagule pressures on invasion success"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f35653270d91",
+      "name": "Abundance of P. australis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_af9fc691c7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Flooding significantly decreased the abundance of total unsown species... but increased abundance of P. australis"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:c4495cecd9b8",
+      "subject": "causal_mosaic:node:2ff8b409de72",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:64ec5ff38b00",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "functional group identity of wetland species would be a good predictor of their biotic resistance",
+      "source_spans": [
+        {
+          "text": "functional group identity of wetland species would be a good predictor of their biotic resistance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c4fb1d801aaf",
+      "subject": "causal_mosaic:node:d2725f0aa440",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d0f7b211653b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mixtures of species would be more invasion-resistant than monocultures",
+      "source_spans": [
+        {
+          "text": "mixtures of species would be more invasion-resistant than monocultures",
+          "start_char": 39888,
+          "end_char": 39958,
+          "paragraph_id": "page:28"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c22f8770e941",
+      "subject": "causal_mosaic:node:7b00833959f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24e3c68875b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Flooding always directly reduced invasion success",
+      "source_spans": [
+        {
+          "text": "Flooding always directly reduced invasion success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:c43632b19a6c",
+      "subject": "causal_mosaic:node:e9c2f28817d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a1634a8704f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "propagule pressure increased invasion success",
+      "source_spans": [
+        {
+          "text": "propagule pressure increased invasion success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:0f39064d3c54",
+      "subject": "causal_mosaic:node:8a3c841f1df6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:20204b75f5e7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "interactions between functional groups mainly drive the diversity effect",
+      "source_spans": [
+        {
+          "text": "interactions between functional groups mainly drive the diversity effect"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:fde00d730848",
+      "subject": "causal_mosaic:node:4c277ccd53e9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24e3c68875b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "sowing density of resident species can limit the threshold in the effect of propagule pressures on invasion success",
+      "source_spans": [
+        {
+          "text": "sowing density of resident species can limit the threshold in the effect of propagule pressures on invasion success"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:553e0bcd7835",
+      "subject": "causal_mosaic:node:7b00833959f1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f35653270d91",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Flooding significantly decreased the abundance of total unsown species... but increased abundance of P. australis",
+      "source_spans": [
+        {
+          "text": "Flooding significantly decreased the abundance of total unsown species... but increased abundance of P. australis"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Determinants of biotic resistance to invasion in plant community reassembly",
+        "year": 2015,
+        "authors": [
+          "Byun, Chaeho"
+        ]
+      }
+    }
+  ]
+}

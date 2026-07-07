@@ -1,0 +1,340 @@
+{
+  "graph_id": "causal_mosaic:graph:04b26bf45b2a",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T16:41:51.776361+00:00",
+    "source_corpus": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:57bababbbd0d",
+      "name": "Initial distance to Kalmia angustifolia",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5070fc030d",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:100eb187ed25",
+      "name": "Planted conifer growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6aa37fc9e2",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f1cf6a96af32",
+      "name": "Scariﬁcation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_73f7a915b7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mechanical scariﬁcation created Kalmia-free microsites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f571de3f2267",
+      "name": "Seedling growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9f988faf83",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Silvicultural treatments increased the intercepts and asymptotes of all variables for Pinus"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:48083cdd7f26",
+      "name": "Fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_20f5fdd40b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Fertilization alone at the time of planting increased the model intercept"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c539be56749f",
+      "name": "Kalmia angustifolia",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q3192236",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Kalmia affects regenerating conifers"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:43fe6dccd40a",
+      "name": "Conifer growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_15b6b64b21",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "conifers outplanted on Kalmia-invaded sites often exhibit symptoms of growth check"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3f1299c0a8c1",
+      "name": "Kalmia-free microsites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_87a57af032",
+      "state_or_change_qualifier": "initiated",
+      "source_spans": [
+        {
+          "text": "Mechanical scariﬁcation created Kalmia-free microsites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:12075ef12d6e",
+      "name": "Spread of Kalmia",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_22c1abaf9f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "rapidly re-invaded by spread of Kalmia"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7804fb1ac0e2",
+      "subject": "causal_mosaic:node:57bababbbd0d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:100eb187ed25",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Our models show that an increased initial planting distance from Kalmia leads to greater growth and dimension responses in planted seedlings 8 growing seasons later.",
+      "source_spans": [
+        {
+          "text": "Our models show that an increased initial planting distance from Kalmia leads to greater growth and dimension responses in planted seedlings 8 growing seasons later."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-012-9324-x",
+        "title": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+        "year": 2012,
+        "authors": [
+          "Thiffault, Nelson",
+          "Picher, Geneviève",
+          "Auger, Isabelle"
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:715f6759b000",
+      "subject": "causal_mosaic:node:f1cf6a96af32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f571de3f2267",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Silvicultural treatments increased the intercepts and asymptotes of all variables for Pinus.",
+      "source_spans": [
+        {
+          "text": "Silvicultural treatments increased the intercepts and asymptotes of all variables for Pinus."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-012-9324-x",
+        "title": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+        "year": 2012,
+        "authors": [
+          "Thiffault, Nelson",
+          "Picher, Geneviève",
+          "Auger, Isabelle"
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:45f0cc9db07f",
+      "subject": "causal_mosaic:node:48083cdd7f26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f571de3f2267",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fertilization alone at the time of planting increased the model intercept by 29, 38, 31 and 47 % for jack pine height, GLD, AGR H and AGRD, respectively",
+      "source_spans": [
+        {
+          "text": "Fertilization alone at the time of planting increased the model intercept by 29, 38, 31 and 47 % for jack pine height, GLD, AGR H and AGRD, respectively"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-012-9324-x",
+        "title": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+        "year": 2012,
+        "authors": [
+          "Thiffault, Nelson",
+          "Picher, Geneviève",
+          "Auger, Isabelle"
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a83862f0aece",
+      "subject": "causal_mosaic:node:c539be56749f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:43fe6dccd40a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Kalmia affects regenerating conifers by altering humus quality... conifers outplanted on Kalmia-invaded sites often exhibit symptoms of growth check",
+      "source_spans": [
+        {
+          "text": "Kalmia affects regenerating conifers by altering humus quality... conifers outplanted on Kalmia-invaded sites often exhibit symptoms of growth check"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-012-9324-x",
+        "title": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+        "year": 2012,
+        "authors": [
+          "Thiffault, Nelson",
+          "Picher, Geneviève",
+          "Auger, Isabelle"
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:51e92ca1673f",
+      "subject": "causal_mosaic:node:f1cf6a96af32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3f1299c0a8c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical scariﬁcation created Kalmia-free microsites that were rapidly re-invaded by spread of Kalmia",
+      "source_spans": [
+        {
+          "text": "Mechanical scariﬁcation created Kalmia-free microsites that were rapidly re-invaded by spread of Kalmia"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-012-9324-x",
+        "title": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+        "year": 2012,
+        "authors": [
+          "Thiffault, Nelson",
+          "Picher, Geneviève",
+          "Auger, Isabelle"
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9838bfa8e1e0",
+      "subject": "causal_mosaic:node:12075ef12d6e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3f1299c0a8c1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Kalmia-free microsites that were rapidly re-invaded by spread of Kalmia",
+      "source_spans": [
+        {
+          "text": "Kalmia-free microsites that were rapidly re-invaded by spread of Kalmia"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-012-9324-x",
+        "title": "Initial distance to Kalmia angustifolia as a predictor of planted conifer growth",
+        "year": 2012,
+        "authors": [
+          "Thiffault, Nelson",
+          "Picher, Geneviève",
+          "Auger, Isabelle"
+        ],
+        "journal": "New Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

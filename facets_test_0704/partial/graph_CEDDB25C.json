@@ -1,0 +1,738 @@
+{
+  "graph_id": "causal_mosaic:graph:7184dd640400",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T10:56:47.819739+00:00",
+    "source_corpus": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e461fab20266",
+      "name": "Controlled-release fertilizer (CRF) application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_72fa79a3fd",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "controlled-release fertilizer (CRF) applications",
+          "start_char": 1276,
+          "end_char": 1324,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8eb55c9a722",
+      "name": "Immediately available fertilizer (IAF) application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_be1f1fa116",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "immediately available fertilizer (IAF) applications"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7e778fb2a6b8",
+      "name": "Seedling diameter growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8d82684edc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "diameter growth",
+      "source_spans": [
+        {
+          "text": "Seedlings receiving CRF exhibited increased diameter and organ dry mass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd95cbba11b7",
+      "name": "Seedling organ dry mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34bf3275cc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "organ dry mass",
+      "source_spans": [
+        {
+          "text": "Seedlings receiving CRF exhibited increased diameter and organ dry mass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c60f8af6607",
+      "name": "Seedling N status",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0454f6f462",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "N status",
+      "source_spans": [
+        {
+          "text": "Both IAF and CRF promoted comparable increases in seedling N status"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b9c1f3c6f69c",
+      "name": "Seedling N concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7ab8716796",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "N concentration",
+      "source_spans": [
+        {
+          "text": "Both fertilization treatments increased N concentration and content of seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:849f4876d76b",
+      "name": "Seedling N content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0c6e1d9175",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "N content",
+      "source_spans": [
+        {
+          "text": "Both fertilization treatments increased N concentration and content of seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c6f87b3fd7d",
+      "name": "Recovery of applied 15N",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_12b98e42c4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "Recovery of applied 15N",
+      "source_spans": [
+        {
+          "text": "Overall recovery of applied 15N was low and varied significantly by fertilizer treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:27716b8904f8",
+      "name": "Soil 15N concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f9bbbb899c",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "concentration of applied 15N",
+      "source_spans": [
+        {
+          "text": "soils surrounding IAF and, to a lesser extent, CRF seedlings had the greatest concentration of applied 15N"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0f660862e0a",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "vegetation cover",
+      "source_spans": [
+        {
+          "text": "Neither IAF nor CRF affected vegetation cover or dry mass",
+          "start_char": 1897,
+          "end_char": 1954,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24a69f917934",
+      "name": "Vegetation dry mass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_726aef6fb0",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "dry mass",
+      "source_spans": [
+        {
+          "text": "Neither IAF nor CRF affected vegetation cover or dry mass",
+          "start_char": 1897,
+          "end_char": 1954,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:a9570d1d72e3",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7e778fb2a6b8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings receiving CRF exhibited increased diameter and organ dry mass relative to the IAF and control treatments.",
+      "source_spans": [
+        {
+          "text": "Seedlings receiving CRF exhibited increased diameter and organ dry mass relative to the IAF and control treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e9ba4973985c",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd95cbba11b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings receiving CRF exhibited increased diameter and organ dry mass relative to the IAF and control treatments.",
+      "source_spans": [
+        {
+          "text": "Seedlings receiving CRF exhibited increased diameter and organ dry mass relative to the IAF and control treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b556a200a065",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c60f8af6607",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both IAF and CRF promoted comparable increases in seedling N status",
+      "source_spans": [
+        {
+          "text": "Both IAF and CRF promoted comparable increases in seedling N status"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7791dc67f50e",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c60f8af6607",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both IAF and CRF promoted comparable increases in seedling N status",
+      "source_spans": [
+        {
+          "text": "Both IAF and CRF promoted comparable increases in seedling N status"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5494443ee6ea",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b9c1f3c6f69c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls",
+      "source_spans": [
+        {
+          "text": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:f8937670478e",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b9c1f3c6f69c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls",
+      "source_spans": [
+        {
+          "text": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:de3752cb0b86",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:849f4876d76b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls",
+      "source_spans": [
+        {
+          "text": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:74a3de7aebc8",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:849f4876d76b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls",
+      "source_spans": [
+        {
+          "text": "Both fertilization treatments increased N concentration and content of seedlings compared to the controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:881ec938f800",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c6f87b3fd7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall recovery of applied 15N was low and varied significantly by fertilizer treatment with a much greater proportion of applied 15N being recovered from the IAF treatment (13.78%) compared with the CRF treatment (6.46%)",
+      "source_spans": [
+        {
+          "text": "Overall recovery of applied 15N was low and varied significantly by fertilizer treatment with a much greater proportion of applied 15N being recovered from the IAF treatment (13.78%) compared with the CRF treatment (6.46%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:001c50a7135c",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c6f87b3fd7d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall recovery of applied 15N was low and varied significantly by fertilizer treatment with a much greater proportion of applied 15N being recovered from the IAF treatment (13.78%) compared with the CRF treatment (6.46%)",
+      "source_spans": [
+        {
+          "text": "Overall recovery of applied 15N was low and varied significantly by fertilizer treatment with a much greater proportion of applied 15N being recovered from the IAF treatment (13.78%) compared with the CRF treatment (6.46%)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:87a9d13243e7",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:27716b8904f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "At the end of the first growing season, the soils surrounding IAF and, to a lesser extent, CRF seedlings had the greatest concentration of applied 15N compared with seedlings and vegetation",
+      "source_spans": [
+        {
+          "text": "At the end of the first growing season, the soils surrounding IAF and, to a lesser extent, CRF seedlings had the greatest concentration of applied 15N compared with seedlings and vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:06850f86e7a9",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:27716b8904f8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "At the end of the first growing season, the soils surrounding IAF and, to a lesser extent, CRF seedlings had the greatest concentration of applied 15N compared with seedlings and vegetation",
+      "source_spans": [
+        {
+          "text": "At the end of the first growing season, the soils surrounding IAF and, to a lesser extent, CRF seedlings had the greatest concentration of applied 15N compared with seedlings and vegetation"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e0eb3c0cba39",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b0f660862e0a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Neither IAF nor CRF affected vegetation cover or dry mass",
+      "source_spans": [
+        {
+          "text": "Neither IAF nor CRF affected vegetation cover or dry mass",
+          "start_char": 1897,
+          "end_char": 1954,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:22a115b0cef4",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b0f660862e0a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Neither IAF nor CRF affected vegetation cover or dry mass",
+      "source_spans": [
+        {
+          "text": "Neither IAF nor CRF affected vegetation cover or dry mass",
+          "start_char": 1897,
+          "end_char": 1954,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:442fe60f4294",
+      "subject": "causal_mosaic:node:e461fab20266",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24a69f917934",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Neither IAF nor CRF affected vegetation cover or dry mass",
+      "source_spans": [
+        {
+          "text": "Neither IAF nor CRF affected vegetation cover or dry mass",
+          "start_char": 1897,
+          "end_char": 1954,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d79245306290",
+      "subject": "causal_mosaic:node:c8eb55c9a722",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24a69f917934",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Neither IAF nor CRF affected vegetation cover or dry mass",
+      "source_spans": [
+        {
+          "text": "Neither IAF nor CRF affected vegetation cover or dry mass",
+          "start_char": 1897,
+          "end_char": 1954,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2015.10.024",
+        "title": "Nitrogen recovery in planted seedlings, competing vegetation, and soil in response to fertilization on a boreal mine reclamation site",
+        "year": 2016,
+        "authors": [
+          "Sloan, Joshua L.",
+          "Uscola, Mercedes",
+          "Jacobs, Douglass F."
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    }
+  ]
+}

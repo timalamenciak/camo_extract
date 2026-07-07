@@ -1,0 +1,352 @@
+{
+  "graph_id": "causal_mosaic:graph:c57848f1d38f",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T07:33:12.012747+00:00",
+    "source_corpus": "Forest regeneration in the ESSF zone of north-central British Columbia",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:af06ec5428de",
+      "name": "Low soil temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9c8006d05a",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Low soil temperatures reduce water now through the soil-plant-air continuum by limiting conductance across root cell membranes and by increasing water viscosity"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e8d83d7123b0",
+      "name": "Photosynthesis",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_78c3f73723",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "photosynthesis",
+      "source_spans": [
+        {
+          "text": "Low soil temperatures reduce water now through the soil-plant-air continuum by limiting conductance across root cell membranes and by increasing water viscosity (Goldstein et aI. 1985; Billings 1973; Carter et al. 1988). Water deficits within the plant may then result, even where soil moisture is I\\ot limiting. This in tum promotes stomatal closing, reduces gaseous exchange, and reduces photosynthesis."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3dd3be56e5bf",
+      "name": "Vegetation removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b3d3677309",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "They found on a mesic site in the ESSFwc2 subzone near Clearwater, British Columbia, that soil temperatures at 10 cm ranged from 5 to 9'C under undisturbed vegetation, while those where vegetation had been totally removed ranged from 10 to 15'C."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dfc20cfa6293",
+      "name": "Soil temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0e85e745a4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "soil temperatures",
+      "source_spans": [
+        {
+          "text": "They found on a mesic site in the ESSFwc2 subzone near Clearwater, British Columbia, that soil temperatures at 10 cm ranged from 5 to 9'C under undisturbed vegetation, while those where vegetation had been totally removed ranged from 10 to 15'C."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:52a55f68ada1",
+      "name": "Raised microsites",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_db0a613344",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil temperature is fUrlther affected by the creation of raised microsites. This type of mechanical site preparation increases the absorptive surface area of exposed mineral soil, improves the slope of the absorptive surface relative to the incipient radiation, and decreases soil moisture by providing improved drainage."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7acf8f8a147c",
+      "name": "Root and diameter growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_38d4d0b80f",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "root and diameter growth",
+      "source_spans": [
+        {
+          "text": "Bassman (1989), in a high elevation (1550 m) study near Williams Lake, found significantly greater root and diameter growth resulting from the higher soil temperatures in mounds compared to scarified patches and controls"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0aa935cadae7",
+      "name": "Prescribed burning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_25124f1517",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Prescribed burning also provides conditions which enhance soil warming beyond that provided by vegetation and duff reduction. The blackened surface of a burned area increases absorption of incoming radiation, which increases surface temperature up to 10'C (Stathers and Spittlehouse 1990)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7613c9e29c5f",
+      "name": "Surface temperature",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b898ef9f29",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "surface temperature",
+      "source_spans": [
+        {
+          "text": "Prescribed burning also provides conditions which enhance soil warming beyond that provided by vegetation and duff reduction. The blackened surface of a burned area increases absorption of incoming radiation, which increases surface temperature up to 10'C (Stathers and Spittlehouse 1990)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c789de81bddf",
+      "name": "Spring planting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_96be4fbbe4",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Spring planting in the ESSF must be delayed until the late snow packs have cleared and soils have begun to warm, usually in late June or even early July. Seedlings are then unable to achieve adequate frost hardiness before damaging frosts occur in mid to lale August."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1b3528af052e",
+      "name": "Frost hardiness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2771f1b5c2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "frost hardiness",
+      "source_spans": [
+        {
+          "text": "Spring planting in the ESSF must be delayed until the late snow packs have cleared and soils have begun to warm, usually in late June or even early July. Seedlings are then unable to achieve adequate frost hardiness before damaging frosts occur in mid to lale August."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7bdadc52212b",
+      "name": "Snow creep",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_680c27c491",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In some areas, particularly in steep mountainous terrain, snow creep may be one of the largest contributors to plantation mortality."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4564abdcd3cd",
+      "name": "Plantation mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ff4a72fd17",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "plantation mortality",
+      "source_spans": [
+        {
+          "text": "In some areas, particularly in steep mountainous terrain, snow creep may be one of the largest contributors to plantation mortality."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:b1f9679328b1",
+      "subject": "causal_mosaic:node:af06ec5428de",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e8d83d7123b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Low soil temperatures reduce water now through the soil-plant-air continuum by limiting conductance across root cell membranes and by increasing water viscosity (Goldstein et aI. 1985; Billings 1973; Carter et al. 1988). Water deficits within the plant may then result, even where soil moisture is I\\ot limiting. This in tum promotes stomatal closing, reduces gaseous exchange, and reduces photosynthesis.",
+      "source_spans": [
+        {
+          "text": "Low soil temperatures reduce water now through the soil-plant-air continuum by limiting conductance across root cell membranes and by increasing water viscosity (Goldstein et aI. 1985; Billings 1973; Carter et al. 1988). Water deficits within the plant may then result, even where soil moisture is I\\ot limiting. This in tum promotes stomatal closing, reduces gaseous exchange, and reduces photosynthesis."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Forest regeneration in the ESSF zone of north-central British Columbia",
+        "year": 1989,
+        "authors": [
+          "Farnden, Craig"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e908ef708df5",
+      "subject": "causal_mosaic:node:3dd3be56e5bf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dfc20cfa6293",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "They found on a mesic site in the ESSFwc2 subzone near Clearwater, British Columbia, that soil temperatures at 10 cm ranged from 5 to 9'C under undisturbed vegetation, while those where vegetation had been totally removed ranged from 10 to 15'C.",
+      "source_spans": [
+        {
+          "text": "They found on a mesic site in the ESSFwc2 subzone near Clearwater, British Columbia, that soil temperatures at 10 cm ranged from 5 to 9'C under undisturbed vegetation, while those where vegetation had been totally removed ranged from 10 to 15'C."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Forest regeneration in the ESSF zone of north-central British Columbia",
+        "year": 1989,
+        "authors": [
+          "Farnden, Craig"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:442aff22f3ad",
+      "subject": "causal_mosaic:node:52a55f68ada1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7acf8f8a147c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Bassman (1989), in a high elevation (1550 m) study near Williams Lake, found significantly greater root and diameter growth resulting from the higher soil temperatures in mounds compared to scarified patches and controls",
+      "source_spans": [
+        {
+          "text": "Bassman (1989), in a high elevation (1550 m) study near Williams Lake, found significantly greater root and diameter growth resulting from the higher soil temperatures in mounds compared to scarified patches and controls"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Forest regeneration in the ESSF zone of north-central British Columbia",
+        "year": 1989,
+        "authors": [
+          "Farnden, Craig"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ac1e947ca5d7",
+      "subject": "causal_mosaic:node:0aa935cadae7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7613c9e29c5f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Prescribed burning also provides conditions which enhance soil warming beyond that provided by vegetation and duff reduction. The blackened surface of a burned area increases absorption of incoming radiation, which increases surface temperature up to 10'C (Stathers and Spittlehouse 1990).",
+      "source_spans": [
+        {
+          "text": "Prescribed burning also provides conditions which enhance soil warming beyond that provided by vegetation and duff reduction. The blackened surface of a burned area increases absorption of incoming radiation, which increases surface temperature up to 10'C (Stathers and Spittlehouse 1990)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Forest regeneration in the ESSF zone of north-central British Columbia",
+        "year": 1989,
+        "authors": [
+          "Farnden, Craig"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ec9c91cec074",
+      "subject": "causal_mosaic:node:c789de81bddf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1b3528af052e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Spring planting in the ESSF must be delayed until the late snow packs have cleared and soils have begun to warm, usually in late June or even early July. Seedlings are then unable to achieve adequate frost hardiness before damaging frosts occur in mid to lale August.",
+      "source_spans": [
+        {
+          "text": "Spring planting in the ESSF must be delayed until the late snow packs have cleared and soils have begun to warm, usually in late June or even early July. Seedlings are then unable to achieve adequate frost hardiness before damaging frosts occur in mid to lale August."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Forest regeneration in the ESSF zone of north-central British Columbia",
+        "year": 1989,
+        "authors": [
+          "Farnden, Craig"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1c007ba60442",
+      "subject": "causal_mosaic:node:7bdadc52212b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4564abdcd3cd",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "In some areas, particularly in steep mountainous terrain, snow creep may be one of the largest contributors to plantation mortality.",
+      "source_spans": [
+        {
+          "text": "In some areas, particularly in steep mountainous terrain, snow creep may be one of the largest contributors to plantation mortality."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Forest regeneration in the ESSF zone of north-central British Columbia",
+        "year": 1989,
+        "authors": [
+          "Farnden, Craig"
+        ]
+      }
+    }
+  ]
+}

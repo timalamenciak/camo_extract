@@ -1,0 +1,1170 @@
+{
+  "graph_id": "causal_mosaic:graph:c68d7397183b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T08:45:47.680726+00:00",
+    "source_corpus": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0b4ccd0cbf01",
+      "name": "Smoke",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_06c7068694",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Smoke significantly altered species composition as compared with the control in the litter layer in 2013"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:269500e85fe3",
+      "name": "Ash",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_859bd0c727",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ash and smoke plus ash had positive effects on the density, richness, and emergence rate of seedlings from the soil seed bank"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8bf7c646ee41",
+      "name": "Smoke plus ash",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6cf2669c52",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Smoke plus ash significantly increased the number of Artemisia ludoviciana Nutt. seedlings emerging from 0- to 1-cm soil layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eea3d6b69e2e",
+      "name": "Seedling density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_45cb913002",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "AFO:_0001019",
+      "source_spans": [
+        {
+          "text": "Seedling density"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e486a56b9a1d",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Species richness",
+          "start_char": 21321,
+          "end_char": 21337,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6fec67c54675",
+      "name": "Species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20f280f92b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Species composition was altered by ash",
+          "start_char": 3110,
+          "end_char": 3148,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:402961565fee",
+      "name": "Rate of seedling emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2fc3f31df2",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "PATO:0000161",
+      "source_spans": [
+        {
+          "text": "Rate of seedling emergence"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:75728e2d22e7",
+      "name": "Native species",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q169480",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "native species",
+          "start_char": 8528,
+          "end_char": 8542,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b5d9858e4f4",
+      "name": "Forbs",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q37225481",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "forbs",
+          "start_char": 3103,
+          "end_char": 3108,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64b8803175d5",
+      "name": "Artemisia frigida",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q606606",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Artemisia frigida",
+          "start_char": 2781,
+          "end_char": 2798,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:11eac4d3ad7d",
+      "name": "Artemisia ludoviciana",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q2716821",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Artemisia ludoviciana",
+          "start_char": 2574,
+          "end_char": 2595,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca246fcc041a",
+      "name": "Conyza canadensis",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q794305",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Conyza canadensis",
+          "start_char": 2650,
+          "end_char": 2667,
+          "paragraph_id": "page:2"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6564ac241ea6",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Smoke plus ash significantly increased the number of Artemisia ludoviciana Nutt. seedlings emerging from 0- to 1-cm soil layer",
+      "source_spans": [
+        {
+          "text": "Smoke plus ash significantly increased the number of Artemisia ludoviciana Nutt. seedlings emerging from 0- to 1-cm soil layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:447b3866c281",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Smoke plus ash significantly increased the number of Conyza canadensis (L.) Cronquist seedlings emerging from the litter layer",
+      "source_spans": [
+        {
+          "text": "Smoke plus ash significantly increased the number of Conyza canadensis (L.) Cronquist seedlings emerging from the litter layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d60b21b13909",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ash significantly increased the number of Artemisia frigida Willd. seedlings emerging from 0- to 1-cm soil layer",
+      "source_spans": [
+        {
+          "text": "Ash significantly increased the number of Artemisia frigida Willd. seedlings emerging from 0- to 1-cm soil layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:432c7e7ed7c1",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Densities of total seedlings emerging from the 0- to 1-cm soil layer were increased by smoke plus ash in 2013",
+      "source_spans": [
+        {
+          "text": "Densities of total seedlings emerging from the 0- to 1-cm soil layer were increased by smoke plus ash in 2013"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:85a278070e80",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Densities of total seedlings emerging from the 0- to 1-cm soil layer were increased by ash in 2014",
+      "source_spans": [
+        {
+          "text": "Densities of total seedlings emerging from the 0- to 1-cm soil layer were increased by ash in 2014"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:eb59122771eb",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total densities of seedlings emerging from the litter layer were increased by ash in both years",
+      "source_spans": [
+        {
+          "text": "Total densities of seedlings emerging from the litter layer were increased by ash in both years"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:8fdd64be2e7b",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Smoke reduced densities of total seedlings emerging from the 0- to 1-cm soil layer in 2013",
+      "source_spans": [
+        {
+          "text": "Smoke reduced densities of total seedlings emerging from the 0- to 1-cm soil layer in 2013"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:30aebd51fafd",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness of total seedlings emerging from all soil layers in the soil seed bank was significantly increased by smoke plus ash",
+      "source_spans": [
+        {
+          "text": "Species richness of total seedlings emerging from all soil layers in the soil seed bank was significantly increased by smoke plus ash"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:75a74b28541e",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness of total seedlings from all soil layers in the soil seed bank was significantly increased by ash",
+      "source_spans": [
+        {
+          "text": "Species richness of total seedlings from all soil layers in the soil seed bank was significantly increased by ash"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:460f2616cca6",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Smoke increased species richness of total seedlings emerging from the litter layer",
+      "source_spans": [
+        {
+          "text": "Smoke increased species richness of total seedlings emerging from the litter layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:e40599a5f34e",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness of native species was enhanced by smoke plus ash in all soil layers",
+      "source_spans": [
+        {
+          "text": "Species richness of native species was enhanced by smoke plus ash in all soil layers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:6605c30d46aa",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ash increased species richness of native species emerging from the litter and 0- to 1-cm soil layer",
+      "source_spans": [
+        {
+          "text": "Ash increased species richness of native species emerging from the litter and 0- to 1-cm soil layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4c0449e58d28",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness of native species in the litter layer was increased by smoke",
+      "source_spans": [
+        {
+          "text": "Species richness of native species in the litter layer was increased by smoke"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5f2de74839ef",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species richness of forbs was significantly increased in all soil layers by smoke plus ash",
+      "source_spans": [
+        {
+          "text": "Species richness of forbs was significantly increased in all soil layers by smoke plus ash"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:707fb18ae0ad",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e486a56b9a1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ash increased species richness of forbs emerging from the litter and 0- to 1-cm soil layers",
+      "source_spans": [
+        {
+          "text": "Ash increased species richness of forbs emerging from the litter and 0- to 1-cm soil layers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a0978892aae8",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Smoke plus ash increased densities of native species emerging from the 0- to 5-cm soil layer in 2013",
+      "source_spans": [
+        {
+          "text": "Smoke plus ash increased densities of native species emerging from the 0- to 5-cm soil layer in 2013"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:3683ec7e7570",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Densities of native species responded positively to ash in the 0- to 1-cm soil layer, with a 67% increase in their abundance",
+      "source_spans": [
+        {
+          "text": "Densities of native species responded positively to ash in the 0- to 1-cm soil layer, with a 67% increase in their abundance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:d3a2b284c4ee",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eea3d6b69e2e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ash increased densities of forbs in the 0- to 1-cm and all layers combined",
+      "source_spans": [
+        {
+          "text": "Ash increased densities of forbs in the 0- to 1-cm and all layers combined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a16096ee69b6",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fec67c54675",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Smoke significantly altered species composition as compared with the control in the litter layer in 2013",
+      "source_spans": [
+        {
+          "text": "Smoke significantly altered species composition as compared with the control in the litter layer in 2013"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:45d64e985e39",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6fec67c54675",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Species composition in the ash treatment was significantly different from that in the control in the 0- to 1-cm and 0- to 5-cm soil layers in 2013",
+      "source_spans": [
+        {
+          "text": "Species composition in the ash treatment was significantly different from that in the control in the 0- to 1-cm and 0- to 5-cm soil layers in 2013"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:be87f8e954c0",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total seedlings emerged faster in smoke plus ash in the litter and all layers combined",
+      "source_spans": [
+        {
+          "text": "Total seedlings emerged faster in smoke plus ash in the litter and all layers combined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:895886b178e8",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total seedlings emerged faster in ash in the litter and all layers combined",
+      "source_spans": [
+        {
+          "text": "Total seedlings emerged faster in ash in the litter and all layers combined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:42a08b2dc29b",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Total seedlings emerged more slowly in smoke in the 0- to 1-cm and 0- to 5-cm soil layers",
+      "source_spans": [
+        {
+          "text": "Total seedlings emerged more slowly in smoke in the 0- to 1-cm and 0- to 5-cm soil layers"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:fe96cf5753e3",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings of forbs and native species emerged faster in smoke plus ash in the litter, 0- to 5-cm, and all layers combined",
+      "source_spans": [
+        {
+          "text": "Seedlings of forbs and native species emerged faster in smoke plus ash in the litter, 0- to 5-cm, and all layers combined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7efc1c86bca7",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings of forbs in the 0- to 1-cm and 0- to 5-cm soil layers and seedlings of native species in the 0- to 1-cm soil layer emerged more slowly in smoke",
+      "source_spans": [
+        {
+          "text": "Seedlings of forbs in the 0- to 1-cm and 0- to 5-cm soil layers and seedlings of native species in the 0- to 1-cm soil layer emerged more slowly in smoke"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:4f3dd79aad93",
+      "subject": "causal_mosaic:node:8bf7c646ee41",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings of graminoids emerged faster in smoke plus ash in all layers combined",
+      "source_spans": [
+        {
+          "text": "Seedlings of graminoids emerged faster in smoke plus ash in all layers combined"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7c4ecef72849",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings of graminoids emerged more slowly in smoke in the 0- to 1-cm soil layer",
+      "source_spans": [
+        {
+          "text": "Seedlings of graminoids emerged more slowly in smoke in the 0- to 1-cm soil layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:189e38f033ab",
+      "subject": "causal_mosaic:node:0b4ccd0cbf01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings of non-native species emerged more slowly in smoke in the 0- to 1-cm soil layer",
+      "source_spans": [
+        {
+          "text": "Seedlings of non-native species emerged more slowly in smoke in the 0- to 1-cm soil layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:697c39e5b5c8",
+      "subject": "causal_mosaic:node:269500e85fe3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:402961565fee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings of non-native species emerged faster in ash in the litter layer",
+      "source_spans": [
+        {
+          "text": "Seedlings of non-native species emerged faster in ash in the litter layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.07.002",
+        "title": "Smoke and Ash Effects on Seedling Emergence from Germinable Soil Seed Bank in Fescue Prairie",
+        "year": 2016,
+        "authors": [
+          "Ren, Lei",
+          "Bai, Yuguang"
+        ],
+        "journal": "Rangeland Ecology & Management"
+      }
+    }
+  ]
+}

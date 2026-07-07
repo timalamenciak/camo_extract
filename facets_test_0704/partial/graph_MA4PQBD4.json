@@ -1,0 +1,390 @@
+{
+  "graph_id": "causal_mosaic:graph:5ae2057543dd",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T15:33:05.484372+00:00",
+    "source_corpus": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:bab90dfe6fba",
+      "name": "Deer browsing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_459696a31e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:189efe126c6f",
+      "name": "Seedling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d0a6cd1d6a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6511eddc197f",
+      "name": "Seedling diameter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_93ffb1a081",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0001334",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:50db490b202d",
+      "name": "Cover of large herbaceous species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e8bf265013",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "The cover and modal height of large herbaceous species decreased ... in unfenced plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a50f6d42dd1f",
+      "name": "Cover of deciduous species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f11adf7e3d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Deer browsing ... diminished the cover of deciduous and large herbaceous species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c800918b9c4a",
+      "name": "Light interception",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7330b7342a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "light conditions",
+      "source_spans": [
+        {
+          "text": "Deer browsing ... improving light conditions for the planted seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0354e1882ae6",
+      "name": "Site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3c16dc79ce",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Site preparation and mechanical release did not improve morphological parameters"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ac56fbcb395c",
+      "name": "Mechanical release",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5f624166c8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mechanical release had no significant effect on seedling height"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:89f03caeea5e",
+      "name": "Seedling performance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_99f1604957",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Site preparation and mechanical release did not improve morphological parameters"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9413c0c55075",
+      "subject": "causal_mosaic:node:bab90dfe6fba",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:189efe126c6f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:59e8a5ad1131",
+      "subject": "causal_mosaic:node:bab90dfe6fba",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6511eddc197f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter",
+      "source_spans": [
+        {
+          "text": "Cumulative browsing on terminal shoot ... had a negative effect on height and diameter"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:ea31fe59361f",
+      "subject": "causal_mosaic:node:bab90dfe6fba",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:50db490b202d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The cover and modal height of large herbaceous species decreased ... in unfenced plots",
+      "source_spans": [
+        {
+          "text": "The cover and modal height of large herbaceous species decreased ... in unfenced plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:5e57e9319070",
+      "subject": "causal_mosaic:node:bab90dfe6fba",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a50f6d42dd1f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deer browsing ... diminished the cover of deciduous and large herbaceous species",
+      "source_spans": [
+        {
+          "text": "Deer browsing ... diminished the cover of deciduous and large herbaceous species"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:2e6128a8f205",
+      "subject": "causal_mosaic:node:bab90dfe6fba",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c800918b9c4a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Deer browsing ... improving light conditions for the planted seedlings",
+      "source_spans": [
+        {
+          "text": "Deer browsing ... improving light conditions for the planted seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a34139442f29",
+      "subject": "causal_mosaic:node:0354e1882ae6",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:89f03caeea5e",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Site preparation and mechanical release did not improve morphological parameters",
+      "source_spans": [
+        {
+          "text": "Site preparation and mechanical release did not improve morphological parameters"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "annotation_notes": "Normalization: edges[5].predicate: unknown 'no_relationship' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:9deee1f046bf",
+      "subject": "causal_mosaic:node:ac56fbcb395c",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:189efe126c6f",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical release had no significant effect on seedling height",
+      "source_spans": [
+        {
+          "text": "Mechanical release had no significant effect on seedling height"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2017.09.024",
+        "title": "Deer browsing outweighs the effects of site preparation and mechanical release on balsam fir seedlings performance: Implications to forest management",
+        "year": 2017,
+        "authors": [
+          "Brousseau, Maxime",
+          "Thiffault, Nelson",
+          "Beguin, Julien",
+          "Roy, Vincent",
+          "Tremblay, Jean-Pierre"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "annotation_notes": "Normalization: edges[6].predicate: unknown 'no_relationship' -> 'associated_with'"
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "graph_id": "causal_mosaic:graph:4f669299b1d1",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T03:25:40.608511+00:00",
+    "source_corpus": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0a8b59e78468",
+      "name": "Stockpiling of cover soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_275030d31e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Stockpiling of cover soil can influence vegetation development following reclamation.",
+          "start_char": 197,
+          "end_char": 282,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9b44c2e2318a",
+      "name": "Direct placement of cover soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9240827b0f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07915c4d1ae4",
+      "name": "Availability and vigor of vegetative propagules and seed",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b1b6a15588",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "availability and vigor",
+      "source_spans": [
+        {
+          "text": "stockpiling reduces the availability and vigor of vegetative propagules and seed",
+          "start_char": 603,
+          "end_char": 683,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eb6f4b92a98e",
+      "name": "Abundance of some weedy species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d6b41ace9e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "can lead to increases in the abundance of some weedy species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:12cef9ab7c3b",
+      "name": "Percent cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_61c484458b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58efa33b3268",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b4be9e32ec5c",
+      "name": "Diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5191936117",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1b311075e03d",
+      "name": "Vegetation recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0d0e6332f4",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "recovery",
+      "source_spans": [
+        {
+          "text": "stockpiling leads to slower vegetation recovery",
+          "start_char": 1478,
+          "end_char": 1525,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:543936e9049c",
+      "name": "Succession",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9965e08ad4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "succession",
+      "source_spans": [
+        {
+          "text": "direct placement of cover soil supports more rapid succession",
+          "start_char": 1532,
+          "end_char": 1593,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5a562c1b94f2",
+      "name": "Graminoid cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4eae51ce24",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Graminoid and bryophyte cover in the stockpiling treatment was 49.5% and 15.3% compared to 12.2% and 12.0% in the direct placement treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bb698397df26",
+      "name": "Bryophyte cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_26418a1282",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Graminoid and bryophyte cover in the stockpiling treatment was 49.5% and 15.3% compared to 12.2% and 12.0% in the direct placement treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1849072b3cdc",
+      "name": "Tree cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b2acd502ed",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Stockpiling reclaimed sites had less than half of tree cover"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:05ff4dbd29e8",
+      "subject": "causal_mosaic:node:0a8b59e78468",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07915c4d1ae4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In particular, stockpiling reduces the availability and vigor of vegetative propagules and seed, and can lead to increases in the abundance of some weedy species.",
+      "source_spans": [
+        {
+          "text": "In particular, stockpiling reduces the availability and vigor of vegetative propagules and seed, and can lead to increases in the abundance of some weedy species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f84a5a095f2e",
+      "subject": "causal_mosaic:node:0a8b59e78468",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eb6f4b92a98e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In particular, stockpiling reduces the availability and vigor of vegetative propagules and seed, and can lead to increases in the abundance of some weedy species.",
+      "source_spans": [
+        {
+          "text": "In particular, stockpiling reduces the availability and vigor of vegetative propagules and seed, and can lead to increases in the abundance of some weedy species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cc060e2ffa98",
+      "subject": "causal_mosaic:node:9b44c2e2318a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:12cef9ab7c3b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:68aae805e7b2",
+      "subject": "causal_mosaic:node:9b44c2e2318a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:143428d7039f",
+      "subject": "causal_mosaic:node:9b44c2e2318a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b4be9e32ec5c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+      "source_spans": [
+        {
+          "text": "Direct placement of cover soil resulted in higher percent cover, species richness, and diversity.",
+          "start_char": 1033,
+          "end_char": 1130,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e843f14372d3",
+      "subject": "causal_mosaic:node:0a8b59e78468",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1b311075e03d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results indicate that stockpiling leads to slower vegetation recovery while direct placement of cover soil supports more rapid succession.",
+      "source_spans": [
+        {
+          "text": "Results indicate that stockpiling leads to slower vegetation recovery while direct placement of cover soil supports more rapid succession."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f2cfeb34cc93",
+      "subject": "causal_mosaic:node:9b44c2e2318a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:543936e9049c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results indicate that stockpiling leads to slower vegetation recovery while direct placement of cover soil supports more rapid succession.",
+      "source_spans": [
+        {
+          "text": "Results indicate that stockpiling leads to slower vegetation recovery while direct placement of cover soil supports more rapid succession."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fdf55071107e",
+      "subject": "causal_mosaic:node:0a8b59e78468",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5a562c1b94f2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Graminoid and bryophyte cover in the stockpiling treatment was 49.5% and 15.3% compared to 12.2% and 12.0% in the direct placement treatment",
+      "source_spans": [
+        {
+          "text": "Graminoid and bryophyte cover in the stockpiling treatment was 49.5% and 15.3% compared to 12.2% and 12.0% in the direct placement treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:97e98d73bcb6",
+      "subject": "causal_mosaic:node:0a8b59e78468",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:bb698397df26",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Graminoid and bryophyte cover in the stockpiling treatment was 49.5% and 15.3% compared to 12.2% and 12.0% in the direct placement treatment",
+      "source_spans": [
+        {
+          "text": "Graminoid and bryophyte cover in the stockpiling treatment was 49.5% and 15.3% compared to 12.2% and 12.0% in the direct placement treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:95d5a8629b0a",
+      "subject": "causal_mosaic:node:0a8b59e78468",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1849072b3cdc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Stockpiling reclaimed sites had less than half of tree cover",
+      "source_spans": [
+        {
+          "text": "Stockpiling reclaimed sites had less than half of tree cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12858",
+        "title": "Effects of cover soil stockpiling on plant community development following reclamation of oil sands sites in Alberta",
+        "year": 2019,
+        "authors": [
+          "Dhar, Amalesh",
+          "Comeau, Philip G.",
+          "Vassov, Robert"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

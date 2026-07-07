@@ -1,0 +1,422 @@
+{
+  "graph_id": "causal_mosaic:graph:ea66d7b28baf",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T14:21:25.015564+00:00",
+    "source_corpus": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:cf27bc04adfc",
+      "name": "Tilling",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_e9b45920e9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Tilling increased the diversity at the Over 30-year Old Field from D (range 0.62 to 0.66) to D (range: 0.10 to 0.18) and increased the proportion of native species from native proportion (0.3% to 0.4%) to native proportion (range 10.7%-65.5%)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e61d41e0c5e",
+      "name": "Planting plugs and seeds",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c8ff550da2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Recommendations to increase native richness towards a meadow ecosystem in all locations would be to plant a combination of established seedlings and sowing seeds."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca8672446756",
+      "name": "Native species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a0f94fd62",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Tilling increased the diversity at the Over 30-year Old Field from D (range 0.62 to 0.66) to D (range: 0.10 to 0.18) and increased the proportion of native species from native proportion (0.3% to 0.4%) to native proportion (range 10.7%-65.5%)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f4438bebd868",
+      "name": "Native species proportion",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bbf447e0ac",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0001470",
+      "source_spans": [
+        {
+          "text": "Tilling did not change or decreased the diversity at the 7-years Hay field from D (range 0.10 to 0.11) to D (range 0.10 to 0.26) and overall decreased the proportion of native species from native proportion (range 2.9% to 14.3%) to native proportion (range 0.6% to 13.3%)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e5b0a4c0281f",
+      "name": "Poa pratensis and Bromis inermis dominance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c3a152d7c5",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "dominance",
+      "source_spans": [
+        {
+          "text": "Tilling the land decreased the dominance of Poa pratensis and Bromis inermis allowing other species to dominate."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4e957e61f556",
+      "name": "Elymus trachycaulus ssp. trachycaulus survivorship",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_88b14739f7",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survivorship",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84c941500e53",
+      "name": "Monarda fistulosa survivorship",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a67601814e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survivorship",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7dca632fab88",
+      "name": "Penstemon hirsutus survivorship",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_225d95c6eb",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survivorship",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cdbf5313a224",
+      "name": "Clonal species presence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_246fd4730f",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Laying of tarpaulin was not effective at getting rid of the clonal species in this experiment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0a9be1fa2dcf",
+      "name": "Tarpaulin",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7367a18d7c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Laying of tarpaulin was not effective at getting rid of the clonal species in this experiment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cad93b94e6c6",
+      "name": "Planting plugs",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_05e3163ba2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4b47de022c9f",
+      "name": "Planting seeds",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_f6dcdae9a7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e1b76f156dc8",
+      "subject": "causal_mosaic:node:cf27bc04adfc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca8672446756",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tilling increased the diversity at the Over 30-year Old Field from D (range 0.62 to 0.66) to D (range: 0.10 to 0.18) and increased the proportion of native species from native proportion (0.3% to 0.4%) to native proportion (range 10.7%-65.5%).",
+      "source_spans": [
+        {
+          "text": "Tilling increased the diversity at the Over 30-year Old Field from D (range 0.62 to 0.66) to D (range: 0.10 to 0.18) and increased the proportion of native species from native proportion (0.3% to 0.4%) to native proportion (range 10.7%-65.5%)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d5afcde7434e",
+      "subject": "causal_mosaic:node:cf27bc04adfc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e5b0a4c0281f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tilling the land decreased the dominance of Poa pratensis and Bromis inermis allowing other species to dominate.",
+      "source_spans": [
+        {
+          "text": "Tilling the land decreased the dominance of Poa pratensis and Bromis inermis allowing other species to dominate."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02c027e541d2",
+      "subject": "causal_mosaic:node:6e61d41e0c5e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ca8672446756",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Recommendations to increase native richness towards a meadow ecosystem in all locations would be to plant a combination of established seedlings and sowing seeds.",
+      "source_spans": [
+        {
+          "text": "Recommendations to increase native richness towards a meadow ecosystem in all locations would be to plant a combination of established seedlings and sowing seeds."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8e6b1415d80",
+      "subject": "causal_mosaic:node:cf27bc04adfc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f4438bebd868",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Tilling did not change or decreased the diversity at the 7-years Hay field from D (range 0.10 to 0.11) to D (range 0.10 to 0.26) and overall decreased the proportion of native species from native proportion (range 2.9% to 14.3%) to native proportion (range 0.6% to 13.3%).",
+      "source_spans": [
+        {
+          "text": "Tilling did not change or decreased the diversity at the 7-years Hay field from D (range 0.10 to 0.11) to D (range 0.10 to 0.26) and overall decreased the proportion of native species from native proportion (range 2.9% to 14.3%) to native proportion (range 0.6% to 13.3%)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:542fafe9c1b1",
+      "subject": "causal_mosaic:node:cad93b94e6c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4e957e61f556",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus.",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:812ffa9a3aea",
+      "subject": "causal_mosaic:node:4b47de022c9f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:84c941500e53",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus.",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5564dfeb2f0c",
+      "subject": "causal_mosaic:node:4b47de022c9f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7dca632fab88",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus.",
+      "source_spans": [
+        {
+          "text": "Based on survivorship and growth for the first year after planting, my recommendations to Ontario Parks would be to use plant plugs for Elymus trachycaulus ssp. trachycaulus and plant seeds for Monarda fistulosa and Penstemon hirsutus."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f69e859d89e9",
+      "subject": "causal_mosaic:node:0a9be1fa2dcf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cdbf5313a224",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Laying of tarpaulin was not effective at getting rid of the clonal species in this experiment.",
+      "source_spans": [
+        {
+          "text": "Laying of tarpaulin was not effective at getting rid of the clonal species in this experiment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Meadow restoration on former agriculture land in southwestern Ontario, Canada",
+        "year": 2013,
+        "authors": [
+          "Balsdon, Jennifer"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

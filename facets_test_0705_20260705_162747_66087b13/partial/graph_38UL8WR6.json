@@ -1,0 +1,302 @@
+{
+  "graph_id": "causal_mosaic:graph:26b7706d25ec",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T18:43:07.799789+00:00",
+    "source_corpus": "Legacy Arsenic Pollution of Lakes Near Cobalt, Ontario, Canada: Arsenic in Lake Water and Sediment Remains Elevated Nearly a Century After Mining Activity Has Ceased",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:34b5144cf80f",
+      "name": "historical mining activity",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_33d5fa969f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Although it is not disputed that historical mining activity has increased arsenic concentrations in certain lakes around Cobalt"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c1eb884e39a7",
+      "name": "arsenic concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cc45a3856d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Although it is not disputed that historical mining activity has increased arsenic concentrations in certain lakes around Cobalt"
+        },
+        {
+          "text": "Fe-Mn oxides at the water-sediment interface perpetually scavenge arsenic from buried tailings below and from contaminated surface waters that cause arsenic concentrations to remain enriched in the upper sediments even after tailings have been buried by lake sediment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1fc89a8bfe64",
+      "name": "presence of arsenic-rich tailings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a7beb809ab",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Even though background concentrations are naturally elevated, the presence of arsenic-rich tailings in these lakes has prevented any natural recovery from occurring."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8233a8b7df1d",
+      "name": "natural recovery",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2f698749c2",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "Even though background concentrations are naturally elevated, the presence of arsenic-rich tailings in these lakes has prevented any natural recovery from occurring."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2da443e3793f",
+      "name": "Fe-Mn oxides at the water-sediment interface",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b2c28ede0",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Fe-Mn oxides at the water-sediment interface perpetually scavenge arsenic from buried tailings below and from contaminated surface waters that cause arsenic concentrations to remain enriched in the upper sediments even after tailings have been buried by lake sediment."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fcba7fe1074b",
+      "name": "Migration of tailings",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_3d315425e8",
+      "state_or_change_qualifier": "ongoing",
+      "source_spans": [
+        {
+          "text": "Migration of tailings from these locations is substantial and controlled by the streams and creeks that run through the low-lying tailings deposits, transporting them downstream."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:138e45ea8e15",
+      "name": "contamination of several lakes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_98e47b862e",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "This lack of containment has led to the contamination of several lakes in the area that had no historical mining activity in their catchment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f80d47684c30",
+      "name": "effluent from tailings deposits",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c29d220884",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Even if physical barriers exist (e.g., beaver dams) effluent from tailings deposits can significantly alter surface water and lake sediment geochemistry in lakes downstream."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4de00d7d3e6c",
+      "name": "surface water and lake sediment geochemistry",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0aa3d48ed2",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Even if physical barriers exist (e.g., beaver dams) effluent from tailings deposits can significantly alter surface water and lake sediment geochemistry in lakes downstream."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:707405555307",
+      "subject": "causal_mosaic:node:34b5144cf80f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c1eb884e39a7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Although it is not disputed that historical mining activity has increased arsenic concentrations in certain lakes around Cobalt",
+      "source_spans": [
+        {
+          "text": "Although it is not disputed that historical mining activity has increased arsenic concentrations in certain lakes around Cobalt"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-018-3741-1",
+        "title": "Legacy Arsenic Pollution of Lakes Near Cobalt, Ontario, Canada: Arsenic in Lake Water and Sediment Remains Elevated Nearly a Century After Mining Activity Has Ceased",
+        "year": 2018,
+        "authors": [
+          "Sprague, Dale D.",
+          "Vermaire, Jesse C."
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8183acfb40ff",
+      "subject": "causal_mosaic:node:1fc89a8bfe64",
+      "predicate": "prevents",
+      "object": "causal_mosaic:node:8233a8b7df1d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Even though background concentrations are naturally elevated, the presence of arsenic-rich tailings in these lakes has prevented any natural recovery from occurring.",
+      "source_spans": [
+        {
+          "text": "Even though background concentrations are naturally elevated, the presence of arsenic-rich tailings in these lakes has prevented any natural recovery from occurring."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-018-3741-1",
+        "title": "Legacy Arsenic Pollution of Lakes Near Cobalt, Ontario, Canada: Arsenic in Lake Water and Sediment Remains Elevated Nearly a Century After Mining Activity Has Ceased",
+        "year": 2018,
+        "authors": [
+          "Sprague, Dale D.",
+          "Vermaire, Jesse C."
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:22c09f6c7498",
+      "subject": "causal_mosaic:node:2da443e3793f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c1eb884e39a7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Fe-Mn oxides at the water-sediment interface perpetually scavenge arsenic from buried tailings below and from contaminated surface waters that cause arsenic concentrations to remain enriched in the upper sediments even after tailings have been buried by lake sediment.",
+      "source_spans": [
+        {
+          "text": "Fe-Mn oxides at the water-sediment interface perpetually scavenge arsenic from buried tailings below and from contaminated surface waters that cause arsenic concentrations to remain enriched in the upper sediments even after tailings have been buried by lake sediment."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-018-3741-1",
+        "title": "Legacy Arsenic Pollution of Lakes Near Cobalt, Ontario, Canada: Arsenic in Lake Water and Sediment Remains Elevated Nearly a Century After Mining Activity Has Ceased",
+        "year": 2018,
+        "authors": [
+          "Sprague, Dale D.",
+          "Vermaire, Jesse C."
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:076f4ee9fd5b",
+      "subject": "causal_mosaic:node:fcba7fe1074b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:138e45ea8e15",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This lack of containment has led to the contamination of several lakes in the area that had no historical mining activity in their catchment",
+      "source_spans": [
+        {
+          "text": "This lack of containment has led to the contamination of several lakes in the area that had no historical mining activity in their catchment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-018-3741-1",
+        "title": "Legacy Arsenic Pollution of Lakes Near Cobalt, Ontario, Canada: Arsenic in Lake Water and Sediment Remains Elevated Nearly a Century After Mining Activity Has Ceased",
+        "year": 2018,
+        "authors": [
+          "Sprague, Dale D.",
+          "Vermaire, Jesse C."
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:56ab8ae6ba64",
+      "subject": "causal_mosaic:node:f80d47684c30",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4de00d7d3e6c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Even if physical barriers exist (e.g., beaver dams) effluent from tailings deposits can significantly alter surface water and lake sediment geochemistry in lakes downstream.",
+      "source_spans": [
+        {
+          "text": "Even if physical barriers exist (e.g., beaver dams) effluent from tailings deposits can significantly alter surface water and lake sediment geochemistry in lakes downstream."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11270-018-3741-1",
+        "title": "Legacy Arsenic Pollution of Lakes Near Cobalt, Ontario, Canada: Arsenic in Lake Water and Sediment Remains Elevated Nearly a Century After Mining Activity Has Ceased",
+        "year": 2018,
+        "authors": [
+          "Sprague, Dale D.",
+          "Vermaire, Jesse C."
+        ],
+        "journal": "Water Air Soil Pollut"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

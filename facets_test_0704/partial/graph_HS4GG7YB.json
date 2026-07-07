@@ -1,0 +1,981 @@
+{
+  "graph_id": "causal_mosaic:graph:e8353723de49",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T07:01:04.630658+00:00",
+    "source_corpus": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:db9beb1eae1a",
+      "name": "Frankia-inoculated alders",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c3bae8be78",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The effect of Frankia-inoculated alders on soil quality was evaluated",
+          "start_char": 2071,
+          "end_char": 2140,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5318eb9b354",
+      "name": "Frankia-alders",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8ba8b55005",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "soil planted with Frankia-alders had a lower pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99284cf69466",
+      "name": "Frankia-inoculated alder treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_328e14fac7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "mineralization increased in the bulk soil for all three hydrocarbons tested in the Frankia-inoculated alder treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ca62847e5080",
+      "name": "Frankia-inoculated alder establishment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8cf8143263",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Frankia-inoculated alder establishment did have an impact on the soil microbial community composition"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d4ce0350f70",
+      "name": "Frankia-nodulated alders",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b991a79153",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The establishment of Frankia-nodulated alders in the capped tailings sand improved general soil quality"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ed0d818865b",
+      "name": "alders",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cc9bf58011",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The presence of alders increased the organic matter content"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:acd30614fff1",
+      "name": "Frankia sp.",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_56ec9b85c6",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "nitrogen fixation by Frankia sp."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b60d2ade55d",
+      "name": "soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200010",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "soil planted with Frankia-alders had a lower pH"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ef417a55a606",
+      "name": "plant-available sodium",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_189dab64e0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "approximately a 70% reduction in plant-available sodium"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e68e5150f4c",
+      "name": "soil organic matter content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b4ef53d810",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "positive impact on soil organic matter content",
+          "start_char": 3194,
+          "end_char": 3240,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:36f241bf5235",
+      "name": "soil quality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34592044d8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "improved general soil quality",
+          "start_char": 30057,
+          "end_char": 30086,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ecaf1d324aa4",
+      "name": "remediation capabilities",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_83a893fb3f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "improved remediation capabilities",
+          "start_char": 3372,
+          "end_char": 3405,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d4d199474bd7",
+      "name": "hydrocarbon mineralization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_763d492ce1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increase in hydrocarbon mineralization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:860f17362087",
+      "name": "hydrocarbon degradation capacity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_bd6763dddc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "hydrocarbon degradation capacity of the soil indigenous microbial population"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a310a5ee5461",
+      "name": "microbial community composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_22f73ae16b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "impact on the soil microbial community composition",
+          "start_char": 39478,
+          "end_char": 39528,
+          "paragraph_id": "page:8"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d8019269a69",
+      "name": "microbial activity",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8f29997bef",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "promote microbial activity",
+          "start_char": 36885,
+          "end_char": 36911,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81c1c1c225b2",
+      "name": "soil conditions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65f214219b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "improve soil conditions for all organisms",
+          "start_char": 37928,
+          "end_char": 37969,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a5158bd3f94f",
+      "name": "percent saturation of cations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9b72c9aac4",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "decrease in percent saturation of three main cations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1014a9891f99",
+      "name": "cation exchange capacity",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105240",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "increased the cation exchange capacity of the soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:83ada6896e9a",
+      "name": "total heterotrophic bacterial counts",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_34dd1bbfd9",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "total heterotrophic bacterial counts were slightly higher for the Frankia-alder"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86e848770c65",
+      "name": "saline-adapted microorganisms",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_582bd126a3",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Disappearance of bands related to microorganisms found in saline environments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21b50055d4a2",
+      "name": "environment more favourable for plant growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fdbcc76eea",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "create an environment more favourable for plant growth"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e4df7a17d4e5",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d4d199474bd7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there was an increase in hydrocarbon mineralization where the reclamation site had been planted with alder- Frankia.",
+      "source_spans": [
+        {
+          "text": "there was an increase in hydrocarbon mineralization where the reclamation site had been planted with alder- Frankia."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f665f808bbbc",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b60d2ade55d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil tests showed that alder-Frankia decreased soil pH",
+      "source_spans": [
+        {
+          "text": "Soil tests showed that alder-Frankia decreased soil pH"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:10c211bb32e0",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ef417a55a606",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil tests showed that alder-Frankia decreased soil pH (from 7.5 to 6.6, in 2006, and from 8.2 to 7.2 in 2007) and plant-available sodium content (70% reduction)",
+      "source_spans": [
+        {
+          "text": "Soil tests showed that alder-Frankia decreased soil pH (from 7.5 to 6.6, in 2006, and from 8.2 to 7.2 in 2007) and plant-available sodium content (70% reduction)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0492d23019ff",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3e68e5150f4c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "had a positive impact on soil organic matter content (increase in up to 6 times in alder- Frankia plots)",
+      "source_spans": [
+        {
+          "text": "had a positive impact on soil organic matter content (increase in up to 6 times in alder- Frankia plots)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fc0f0194aae3",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ecaf1d324aa4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The field results have confirmed that the alder- Frankia combination results in improved remediation capabilities",
+      "source_spans": [
+        {
+          "text": "The field results have confirmed that the alder- Frankia combination results in improved remediation capabilities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5a514a9f1d04",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:36f241bf5235",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The field results have confirmed that the alder- Frankia combination results in improved remediation capabilities and enhances soil quality.",
+      "source_spans": [
+        {
+          "text": "The field results have confirmed that the alder- Frankia combination results in improved remediation capabilities and enhances soil quality."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fa3230fff63d",
+      "subject": "causal_mosaic:node:f5318eb9b354",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b60d2ade55d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "soil planted with Frankia-alders had a lower pH",
+      "source_spans": [
+        {
+          "text": "soil planted with Frankia-alders had a lower pH"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:469b4d6ee6f7",
+      "subject": "causal_mosaic:node:f5318eb9b354",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a5158bd3f94f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "there was a decrease in percent saturation of three main cations (Ca, Mg, and K) when compared to unplanted soil",
+      "source_spans": [
+        {
+          "text": "there was a decrease in percent saturation of three main cations (Ca, Mg, and K) when compared to unplanted soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9370dc7c9fc3",
+      "subject": "causal_mosaic:node:f5318eb9b354",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:83ada6896e9a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "total heterotrophic bacterial counts were slightly higher for the Frankia-alder (10^7) and the control-alder treatments (10^7) than the unplanted treatment (10^6)",
+      "source_spans": [
+        {
+          "text": "total heterotrophic bacterial counts were slightly higher for the Frankia-alder (10^7) and the control-alder treatments (10^7) than the unplanted treatment (10^6)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e9a50072cae5",
+      "subject": "causal_mosaic:node:99284cf69466",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d4d199474bd7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "mineralization increased in the bulk soil for all three hydrocarbons tested in the Frankia-inoculated alder treatment compared to both unplanted and control-alder treatments",
+      "source_spans": [
+        {
+          "text": "mineralization increased in the bulk soil for all three hydrocarbons tested in the Frankia-inoculated alder treatment compared to both unplanted and control-alder treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:63adbf52f992",
+      "subject": "causal_mosaic:node:ca62847e5080",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a310a5ee5461",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Frankia-inoculated alder establishment did have an impact on the soil microbial community composition",
+      "source_spans": [
+        {
+          "text": "Frankia-inoculated alder establishment did have an impact on the soil microbial community composition"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b07e30c7678",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8d8019269a69",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "alders were able to promote microbial activity without the addition of any fertilizer",
+      "source_spans": [
+        {
+          "text": "alders were able to promote microbial activity without the addition of any fertilizer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c950d4c95e5",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:860f17362087",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "establishment of alders had a positive impact on the hydrocarbon degradation capacity of the soil indigenous microbial population",
+      "source_spans": [
+        {
+          "text": "establishment of alders had a positive impact on the hydrocarbon degradation capacity of the soil indigenous microbial population"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0623af445cda",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81c1c1c225b2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "residual hydrocarbons present in tailings sand are more effectively degraded, and so improve soil conditions for all organisms",
+      "source_spans": [
+        {
+          "text": "residual hydrocarbons present in tailings sand are more effectively degraded, and so improve soil conditions for all organisms"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aadaebca7185",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1014a9891f99",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The presence of alders increased the organic matter content and the cation exchange capacity of the soil",
+      "source_spans": [
+        {
+          "text": "The presence of alders increased the organic matter content and the cation exchange capacity of the soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f5b0315b34ee",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86e848770c65",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Disappearance of bands related to microorganisms found in saline environments and the decrease of soil sodium (Na) content between the unplanted and the planted samples also suggests that the initial conditions favouring the growth of saline-adapted microorganisms have changed after the establishment of alders",
+      "source_spans": [
+        {
+          "text": "Disappearance of bands related to microorganisms found in saline environments and the decrease of soil sodium (Na) content between the unplanted and the planted samples also suggests that the initial conditions favouring the growth of saline-adapted microorganisms have changed after the establishment of alders"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:10cb0fba9b1e",
+      "subject": "causal_mosaic:node:db9beb1eae1a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:21b50055d4a2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Frankia-alders can create an environment more favourable for plant growth in an otherwise harsh environment",
+      "source_spans": [
+        {
+          "text": "Frankia-alders can create an environment more favourable for plant growth in an otherwise harsh environment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.apsoil.2010.08.010",
+        "title": "Field performance of alder-Frankia symbionts for the reclamation of oil sands sites",
+        "year": 2010,
+        "authors": [
+          "Lefrançois, Elisabeth",
+          "Quoreshi, Ali",
+          "Khasa, Damase",
+          "Fung, Martin",
+          "Whyte, Lyle G.",
+          "Roy, Sébastien",
+          "Greer, Charles W."
+        ],
+        "journal": "Applied Soil Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

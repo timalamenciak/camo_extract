@@ -1,0 +1,401 @@
+{
+  "graph_id": "causal_mosaic:graph:2a5f30d74a5c",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T15:21:43.338768+00:00",
+    "source_corpus": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:2e622a596add",
+      "name": "Donor material collection",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1fb91e88a2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Donor material collection involves collecting the top 5–10 cm of the living vegetation from an appropriate donor peatland."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:669fead67602",
+      "name": "Water table",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:06105201",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "water table position",
+      "source_spans": [
+        {
+          "text": "This is due to removal of the top layer of vegetation in the donor sites that results in a reduced depth to the water table."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:915d76b66623",
+      "name": "Methane emissions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3b04ce03b5",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "CH4 flux",
+      "source_spans": [
+        {
+          "text": "Methane emissions were higher from donor sites compared to natural sites due to the high water table"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:137a4b492eb7",
+      "name": "Sedge cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_12bbf47e1e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "sedge cover",
+      "source_spans": [
+        {
+          "text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:71c262360a5a",
+      "name": "Moss cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fd19ca2bfa",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "moss cover",
+      "source_spans": [
+        {
+          "text": "GEPmax became more negative (greater CO2 uptake) in plots with higher moss cover across the bog sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3a965252bc61",
+      "name": "Total vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c1804842da",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "total plant cover",
+      "source_spans": [
+        {
+          "text": "At both the bog and fen GEP max became more negative with increasing total plant cover"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07cab96d6d4e",
+      "name": "CO2 flux",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_21890b2f52",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "NEE",
+      "source_spans": [
+        {
+          "text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:84b1b4c94e2c",
+      "name": "Tree recruitment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1873b0fd3a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "tree recruitment at the donor sites was limited"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:07b23f44e787",
+      "name": "Vegetation re-establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3d8904a155",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "vegetation re-establishment on donor sites was rapid"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:516be9a4a7af",
+      "name": "Carbon-cycle functioning",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67052ee456",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "it is possible that these sites will return to their original carbon-cycle functioning after disturbance"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6c229ca5ef27",
+      "subject": "causal_mosaic:node:2e622a596add",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:669fead67602",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "This is due to removal of the top layer of vegetation in the donor sites that results in a reduced depth to the water table.",
+      "source_spans": [
+        {
+          "text": "This is due to removal of the top layer of vegetation in the donor sites that results in a reduced depth to the water table."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:08d9922cb8f2",
+      "subject": "causal_mosaic:node:669fead67602",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:915d76b66623",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Methane emissions were higher from donor sites compared to natural sites due to the high water table",
+      "source_spans": [
+        {
+          "text": "Methane emissions were higher from donor sites compared to natural sites due to the high water table"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1eea54aaa38a",
+      "subject": "causal_mosaic:node:137a4b492eb7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07cab96d6d4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen",
+      "source_spans": [
+        {
+          "text": "Higher sedge cover resulted in more negative NEE values (greater CO2 uptake) across the fen"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5f92fcfa5aef",
+      "subject": "causal_mosaic:node:71c262360a5a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07cab96d6d4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "GEPmax became more negative (greater CO2 uptake) in plots with higher moss cover across the bog sites",
+      "source_spans": [
+        {
+          "text": "GEPmax became more negative (greater CO2 uptake) in plots with higher moss cover across the bog sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5d7f1d7862f7",
+      "subject": "causal_mosaic:node:3a965252bc61",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07cab96d6d4e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "At both the bog and fen GEP max became more negative with increasing total plant cover",
+      "source_spans": [
+        {
+          "text": "At both the bog and fen GEP max became more negative with increasing total plant cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5f801795ead9",
+      "subject": "causal_mosaic:node:07b23f44e787",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:516be9a4a7af",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "vegetation re-establishment on donor sites was rapid, and it is possible that these sites will return to their original carbon-cycle functioning after disturbance",
+      "source_spans": [
+        {
+          "text": "vegetation re-establishment on donor sites was rapid, and it is possible that these sites will return to their original carbon-cycle functioning after disturbance"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:24258ab5e5ac",
+      "subject": "causal_mosaic:node:84b1b4c94e2c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:07cab96d6d4e",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "tree recruitment at the donor sites was limited",
+      "source_spans": [
+        {
+          "text": "tree recruitment at the donor sites was limited"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11273-017-9531-5",
+        "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+        "year": 2017,
+        "authors": [
+          "Murray, Kimberley R.",
+          "Borkenhagen, Andrea K.",
+          "Cooper, David J.",
+          "Strack, Maria"
+        ],
+        "journal": "Wetlands Ecol Manage"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

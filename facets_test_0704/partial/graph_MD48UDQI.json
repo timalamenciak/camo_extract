@@ -1,0 +1,544 @@
+{
+  "graph_id": "causal_mosaic:graph:e81b2ced2ac6",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T06:01:06.023704+00:00",
+    "source_corpus": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:9f245d74f7d9",
+      "name": "one-time application of glyphosate",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_75dd55555f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "one-time application of glyphosate",
+          "start_char": 2033,
+          "end_char": 2067,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0f02ccc3a3cf",
+      "name": "hand-pulling",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_face378a38",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hand-pulling",
+          "start_char": 1178,
+          "end_char": 1190,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5fd97a5156d3",
+      "name": "one-time mulch application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ddbdc18abc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "one-time mulch application",
+          "start_char": 19576,
+          "end_char": 19602,
+          "paragraph_id": "page:7"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21383f445818",
+      "name": "inflorescence clipping",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_b69a67ebdb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "inflorescence clipping",
+          "start_char": 1192,
+          "end_char": 1214,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ec41d2eb1e1",
+      "name": "repeated management plus ecological restoration",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cc4bee8494",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "repeated management plus ecological restoration",
+          "start_char": 1915,
+          "end_char": 1962,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e6b9e752eede",
+      "name": "densities of exotic species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8ccdb89091",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "densities",
+      "source_spans": [
+        {
+          "text": "densities of exotic species significantly increased",
+          "start_char": 1401,
+          "end_char": 1452,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:01980ee34049",
+      "name": "densities of native species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_edadaf5211",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "densities",
+      "source_spans": [
+        {
+          "text": "native species significantly decreased",
+          "start_char": 1457,
+          "end_char": 1495,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:742259f8c6e6",
+      "name": "shoot densities of the three exotic species",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f5e8a66ba0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "shoot densities",
+      "source_spans": [
+        {
+          "text": "Mulching significantly reduced shoot numbers of the three exotic species"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2398b7f458a1",
+      "name": "relative emergence of exotic species from seed",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_fc435827bd",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "emergence",
+      "source_spans": [
+        {
+          "text": "increased relative emergence of exotic species from seed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:51b292f462a0",
+      "name": "soil disturbance",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_c91e4e50b1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "hand-pulling disturbed the soil",
+          "start_char": 1643,
+          "end_char": 1674,
+          "paragraph_id": "page:1"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:9d08789a4bc4",
+      "subject": "causal_mosaic:node:9f245d74f7d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e6b9e752eede",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA).",
+      "source_spans": [
+        {
+          "text": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c2471a67c14",
+      "subject": "causal_mosaic:node:0f02ccc3a3cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e6b9e752eede",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA).",
+      "source_spans": [
+        {
+          "text": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0aa65f5ff9f4",
+      "subject": "causal_mosaic:node:9f245d74f7d9",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:01980ee34049",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA).",
+      "source_spans": [
+        {
+          "text": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:878f411d9f18",
+      "subject": "causal_mosaic:node:0f02ccc3a3cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:01980ee34049",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA).",
+      "source_spans": [
+        {
+          "text": "By 2006, above- and belowground densities of exotic species significantly increased and native species significantly decreased with one-time treatments of glyphosate and hand-pulling (ANOVA)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cb20def7e9f9",
+      "subject": "causal_mosaic:node:2ec41d2eb1e1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e6b9e752eede",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, in plots where we repeated exotic species treatments between 1998 and 2002 and where we had transplanted native species once in 2002, we significantly reduced densities of the three exotic species and increased densities of the native species relative to pre-treatment conditions and the control.",
+      "source_spans": [
+        {
+          "text": "In contrast, in plots where we repeated exotic species treatments between 1998 and 2002 and where we had transplanted native species once in 2002, we significantly reduced densities of the three exotic species and increased densities of the native species relative to pre-treatment conditions and the control."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:478eee6a7cfc",
+      "subject": "causal_mosaic:node:2ec41d2eb1e1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:01980ee34049",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, in plots where we repeated exotic species treatments between 1998 and 2002 and where we had transplanted native species once in 2002, we significantly reduced densities of the three exotic species and increased densities of the native species relative to pre-treatment conditions and the control.",
+      "source_spans": [
+        {
+          "text": "In contrast, in plots where we repeated exotic species treatments between 1998 and 2002 and where we had transplanted native species once in 2002, we significantly reduced densities of the three exotic species and increased densities of the native species relative to pre-treatment conditions and the control."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:84c569c05afe",
+      "subject": "causal_mosaic:node:0f02ccc3a3cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:51b292f462a0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The exotic species recovered quickly from one-time application of glyphosate, and hand-pulling disturbed the soil and increased relative emergence of exotic species from seed.",
+      "source_spans": [
+        {
+          "text": "The exotic species recovered quickly from one-time application of glyphosate, and hand-pulling disturbed the soil and increased relative emergence of exotic species from seed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:657cb1a2494f",
+      "subject": "causal_mosaic:node:51b292f462a0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2398b7f458a1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The exotic species recovered quickly from one-time application of glyphosate, and hand-pulling disturbed the soil and increased relative emergence of exotic species from seed.",
+      "source_spans": [
+        {
+          "text": "The exotic species recovered quickly from one-time application of glyphosate, and hand-pulling disturbed the soil and increased relative emergence of exotic species from seed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:15d6c954e8be",
+      "subject": "causal_mosaic:node:5fd97a5156d3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:742259f8c6e6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mulching significantly reduced shoot numbers of the three exotic species by 2006 and it did not affect native species.",
+      "source_spans": [
+        {
+          "text": "Mulching significantly reduced shoot numbers of the three exotic species by 2006 and it did not affect native species."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2cc8499c9fa",
+      "subject": "causal_mosaic:node:21383f445818",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e6b9e752eede",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "As expected, inflorescence clipping and mulching were ineffective as one-time treatments but did not worsen the exotic species problem or decrease native species’ densities.",
+      "source_spans": [
+        {
+          "text": "As expected, inflorescence clipping and mulching were ineffective as one-time treatments but did not worsen the exotic species problem or decrease native species’ densities."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.25.2.85",
+        "title": "How Incomplete Exotic Species Management Can Make Matters Worse: Experiments in Forest Restoration in Ontario, Canada",
+        "year": 2007,
+        "authors": [
+          "Murphy, S. D.",
+          "Flanagan, J.",
+          "Noll, K.",
+          "Wilson, D.",
+          "Duncan, B."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

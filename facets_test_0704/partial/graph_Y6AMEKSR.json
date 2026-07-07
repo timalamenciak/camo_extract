@@ -1,0 +1,752 @@
+{
+  "graph_id": "causal_mosaic:graph:0bd27d5637fb",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T13:37:45.242158+00:00",
+    "source_corpus": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0958f68636ce",
+      "name": "Adding fine textured materials such as glacial till to mine wastes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_eda2dcc4a7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Adding fine textured materials such as glacial till to mine wastes improved nutrient and water retention"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:24fee886bb54",
+      "name": "nutrient and water retention",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7f3c09bf50",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Adding fine textured materials such as glacial till to mine wastes improved nutrient and water retention"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cbeeb2d0e33",
+      "name": "revegetation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ad914a0cfb",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "which in turn enhanced revegetation",
+          "start_char": 1409,
+          "end_char": 1444,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e470915059a",
+      "name": "Sewage and inorganic fertilizer",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_70a512e38c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4cc9f1591e8d",
+      "name": "available nitrogen and phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8d0c8454a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f45ab656df61",
+      "name": "plant density and cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0f1cdeb995",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f2eb2752fb0f",
+      "name": "Soil amendment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_1bf675fb73",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil amendment increased species richness."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60dbca3dbde8",
+      "name": "species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil amendment increased species richness."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:923f82c363cf",
+      "name": "Seeding",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_059216959b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Seeding was essential to establish a vegetation cover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:da34c9fed680",
+      "name": "vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Seeding was essential to establish a vegetation cover."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:39e7bd2796df",
+      "name": "Soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ae9d794dc5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil significantly increased flowering relative to unamended PK"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e30ef79455b9",
+      "name": "flowering",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c449030e60",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil significantly increased flowering relative to unamended PK"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:29d6c0bac186",
+      "name": "Litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:03500005",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "soil increased it",
+          "start_char": 24108,
+          "end_char": 24125,
+          "paragraph_id": "page:5"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ed801046a731",
+      "name": "Sludge",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_eb2f78016a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Sludge decreased litter in PK and 25:75"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:edeea62af41b",
+      "name": "Natural recovery",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a19ff306af",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Sewage significantly increased natural recovery in till"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f31b16971d11",
+      "name": "Moss",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_72f1a72fce",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Amendments significantly increased moss"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f1f4615d647",
+      "name": "Grazing",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_47870f65cd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "within substrates, unamended treatments had significantly less grazing than amended"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:30c1b9204709",
+      "name": "Seed mixes",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7328bc0f94",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Natural recovery had significantly lower flowering than seed mixes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:197b3b1e6390",
+      "name": "Time",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_284aefc725",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil chemistry was ameliorated with time."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e069d8f3735a",
+      "name": "Soil chemistry",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5d64deb913",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil chemistry was ameliorated with time."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1bfeeb828fa9",
+      "subject": "causal_mosaic:node:0958f68636ce",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:24fee886bb54",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Adding fine textured materials such as glacial till to mine wastes improved nutrient and water retention, which in turn enhanced revegetation.",
+      "source_spans": [
+        {
+          "text": "Adding fine textured materials such as glacial till to mine wastes improved nutrient and water retention, which in turn enhanced revegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9e262aceed5f",
+      "subject": "causal_mosaic:node:24fee886bb54",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6cbeeb2d0e33",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Adding fine textured materials such as glacial till to mine wastes improved nutrient and water retention, which in turn enhanced revegetation.",
+      "source_spans": [
+        {
+          "text": "Adding fine textured materials such as glacial till to mine wastes improved nutrient and water retention, which in turn enhanced revegetation."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ae011dcfcbe",
+      "subject": "causal_mosaic:node:6e470915059a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4cc9f1591e8d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover.",
+      "source_spans": [
+        {
+          "text": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:11cfeefc1ca7",
+      "subject": "causal_mosaic:node:6e470915059a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f45ab656df61",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover.",
+      "source_spans": [
+        {
+          "text": "Sewage and inorganic fertilizer increased available nitrogen and phosphorus, plant density and cover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:abefc51253db",
+      "subject": "causal_mosaic:node:f2eb2752fb0f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60dbca3dbde8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil amendment increased species richness.",
+      "source_spans": [
+        {
+          "text": "Soil amendment increased species richness."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:17c170836d4c",
+      "subject": "causal_mosaic:node:923f82c363cf",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:da34c9fed680",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seeding was essential to establish a vegetation cover.",
+      "source_spans": [
+        {
+          "text": "Seeding was essential to establish a vegetation cover."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d6697f54b2b5",
+      "subject": "causal_mosaic:node:39e7bd2796df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e30ef79455b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil significantly increased flowering relative to unamended PK and 25:75.",
+      "source_spans": [
+        {
+          "text": "Soil significantly increased flowering relative to unamended PK and 25:75."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1c7f15a6ae5e",
+      "subject": "causal_mosaic:node:39e7bd2796df",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:29d6c0bac186",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sludge decreased litter in PK and 25:75, while soil increased it.",
+      "source_spans": [
+        {
+          "text": "Sludge decreased litter in PK and 25:75, while soil increased it."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:efd80f87b5da",
+      "subject": "causal_mosaic:node:ed801046a731",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:29d6c0bac186",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sludge decreased litter in PK and 25:75, while soil increased it.",
+      "source_spans": [
+        {
+          "text": "Sludge decreased litter in PK and 25:75, while soil increased it."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7a8c166be8b2",
+      "subject": "causal_mosaic:node:6e470915059a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:edeea62af41b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Sewage significantly increased natural recovery in till and 50:50.",
+      "source_spans": [
+        {
+          "text": "Sewage significantly increased natural recovery in till and 50:50."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5b0a853afa8c",
+      "subject": "causal_mosaic:node:f2eb2752fb0f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f31b16971d11",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Amendments significantly increased moss in gravel, 50:50 and 25:75 relative to the control",
+      "source_spans": [
+        {
+          "text": "Amendments significantly increased moss in gravel, 50:50 and 25:75 relative to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6f2155f66792",
+      "subject": "causal_mosaic:node:f2eb2752fb0f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f1f4615d647",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "within substrates, unamended treatments had significantly less grazing than amended",
+      "source_spans": [
+        {
+          "text": "within substrates, unamended treatments had significantly less grazing than amended"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:24863e8c09aa",
+      "subject": "causal_mosaic:node:30c1b9204709",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e30ef79455b9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Natural recovery had significantly lower flowering than seed mixes",
+      "source_spans": [
+        {
+          "text": "Natural recovery had significantly lower flowering than seed mixes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:4261c3048426",
+      "subject": "causal_mosaic:node:197b3b1e6390",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e069d8f3735a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil chemistry was ameliorated with time.",
+      "source_spans": [
+        {
+          "text": "Soil chemistry was ameliorated with time."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12106",
+        "title": "Establishment of Restoration Trajectories for Upland Tundra Communities on Diamond Mine Wastes in the Canadian Arctic",
+        "year": 2014,
+        "authors": [
+          "Anne Naeth, M.",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

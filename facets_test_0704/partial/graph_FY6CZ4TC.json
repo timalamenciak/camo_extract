@@ -1,0 +1,232 @@
+{
+  "graph_id": "causal_mosaic:graph:e3cc08f9c388",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T10:11:19.246467+00:00",
+    "source_corpus": "Restoration of Ecosystem Function by Soil Surface Inoculation with Biocrust in Mesic and Xeric Alpine Ecosystems",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:6724f7f9bbc7",
+      "name": "biocrust inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_263b6884b9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Treatment plots receiving biocrust inoculation (B and BF) had significantly higher biocrust cover after 12 weeks (33% ± 3 and 32% ± 2 at Andesite, and 22% ± 2 and 20% ± 3 at Mt McIntyre; Table 1, Figure 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6c2a73892e1b",
+      "name": "biocrust cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3c073482b8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Treatment plots receiving biocrust inoculation (B and BF) had significantly higher biocrust cover after 12 weeks (33% ± 3 and 32% ± 2 at Andesite, and 22% ± 2 and 20% ± 3 at Mt McIntyre; Table 1, Figure 3)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d6e5e8e8eee2",
+      "name": "soil surface nitrogen fixation",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c45b6d07ce",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Biocrust cover and soil surface nitrogen fixation were enhanced by inoculation after 12 weeks at the mesic site."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e6d4446043a2",
+      "name": "fertilizer treatment",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d7dcc3847a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "at Mt McIntyre, 12 weeks following inoculation, the fertilizer treatment (F) had significantly lower EPS (Figure 5, 76 ± 19 µg of glucose per g of biocrust) compared to all other treatments (Figure 5, B = 250 ± 92, BF = 217 ± 49, C = 170 ± 42 µg of glucose per g of biocrust, respectively)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:62667f65c788",
+      "name": "Extracellular polysaccharide content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_453869a034",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "at Mt McIntyre, 12 weeks following inoculation, the fertilizer treatment (F) had significantly lower EPS (Figure 5, 76 ± 19 µg of glucose per g of biocrust) compared to all other treatments (Figure 5, B = 250 ± 92, BF = 217 ± 49, C = 170 ± 42 µg of glucose per g of biocrust, respectively)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6de12d4fe165",
+      "name": "Dissolved organic carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_951d374732",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "At Andesite, DOC was significantly higher in inoculated plots (B = 75 ± 4.9 and BF = 122 ± 14 ppm) than in uninoculated plots (C = 9.2 ± 1.3 and F = 45 ± 5.8 ppm)."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:8d9b1e2c36a2",
+      "subject": "causal_mosaic:node:6724f7f9bbc7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6c2a73892e1b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Treatment plots receiving biocrust inoculation (B and BF) had significantly higher biocrust cover after 12 weeks (33% ± 3 and 32% ± 2 at Andesite, and 22% ± 2 and 20% ± 3 at Mt McIntyre; Table 1, Figure 3).",
+      "source_spans": [
+        {
+          "text": "Treatment plots receiving biocrust inoculation (B and BF) had significantly higher biocrust cover after 12 weeks (33% ± 3 and 32% ± 2 at Andesite, and 22% ± 2 and 20% ± 3 at Mt McIntyre; Table 1, Figure 3)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.37.2.101",
+        "title": "Restoration of Ecosystem Function by Soil Surface Inoculation with Biocrust in Mesic and Xeric Alpine Ecosystems",
+        "year": 2019,
+        "authors": [
+          "Letendre, Annie-Claude",
+          "Coxson, Darwyn S.",
+          "Stewart, Katherine J."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3ffeeb3e4592",
+      "subject": "causal_mosaic:node:6724f7f9bbc7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d6e5e8e8eee2",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Biocrust cover and soil surface nitrogen fixation were enhanced by inoculation after 12 weeks at the mesic site.",
+      "source_spans": [
+        {
+          "text": "Biocrust cover and soil surface nitrogen fixation were enhanced by inoculation after 12 weeks at the mesic site."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.37.2.101",
+        "title": "Restoration of Ecosystem Function by Soil Surface Inoculation with Biocrust in Mesic and Xeric Alpine Ecosystems",
+        "year": 2019,
+        "authors": [
+          "Letendre, Annie-Claude",
+          "Coxson, Darwyn S.",
+          "Stewart, Katherine J."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:05856e8d8c66",
+      "subject": "causal_mosaic:node:e6d4446043a2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:62667f65c788",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "at Mt McIntyre, 12 weeks following inoculation, the fertilizer treatment (F) had significantly lower EPS (Figure 5, 76 ± 19 µg of glucose per g of biocrust) compared to all other treatments (Figure 5, B = 250 ± 92, BF = 217 ± 49, C = 170 ± 42 µg of glucose per g of biocrust, respectively).",
+      "source_spans": [
+        {
+          "text": "at Mt McIntyre, 12 weeks following inoculation, the fertilizer treatment (F) had significantly lower EPS (Figure 5, 76 ± 19 µg of glucose per g of biocrust) compared to all other treatments (Figure 5, B = 250 ± 92, BF = 217 ± 49, C = 170 ± 42 µg of glucose per g of biocrust, respectively)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.37.2.101",
+        "title": "Restoration of Ecosystem Function by Soil Surface Inoculation with Biocrust in Mesic and Xeric Alpine Ecosystems",
+        "year": 2019,
+        "authors": [
+          "Letendre, Annie-Claude",
+          "Coxson, Darwyn S.",
+          "Stewart, Katherine J."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:26a9ae95c2fe",
+      "subject": "causal_mosaic:node:6724f7f9bbc7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6de12d4fe165",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "At Andesite, DOC was significantly higher in inoculated plots (B = 75 ± 4.9 and BF = 122 ± 14 ppm) than in uninoculated plots (C = 9.2 ± 1.3 and F = 45 ± 5.8 ppm).",
+      "source_spans": [
+        {
+          "text": "At Andesite, DOC was significantly higher in inoculated plots (B = 75 ± 4.9 and BF = 122 ± 14 ppm) than in uninoculated plots (C = 9.2 ± 1.3 and F = 45 ± 5.8 ppm)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.37.2.101",
+        "title": "Restoration of Ecosystem Function by Soil Surface Inoculation with Biocrust in Mesic and Xeric Alpine Ecosystems",
+        "year": 2019,
+        "authors": [
+          "Letendre, Annie-Claude",
+          "Coxson, Darwyn S.",
+          "Stewart, Katherine J."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

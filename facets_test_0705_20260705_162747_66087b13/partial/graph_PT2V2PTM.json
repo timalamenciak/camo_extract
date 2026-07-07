@@ -1,0 +1,311 @@
+{
+  "graph_id": "causal_mosaic:graph:f180d06bc01b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T15:56:00.045912+00:00",
+    "source_corpus": "Post-harvest Regeneration of Lowland Black Spruce Forests in Northeastern Ontario",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4b964722a992",
+      "name": "careful logging around advanced growth (CLAAG)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c64aae196b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The CLAAG method resulted in highest total regeneration density of other conifers."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f72cc3af3e27",
+      "name": "group seed tree (GST)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bed7018fe8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Density of other conifer was significantly lower on SHE sites compared to CLAAG and GST treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:082fb4510f8f",
+      "name": "group seed tree followed by shearblading site preparation (SHE)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_37815a1e2f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Density of other conifer was significantly lower on SHE sites compared to CLAAG and GST treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1c44b33db580",
+      "name": "black spruce regeneration density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d34babd89f",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Total black spruce regeneration density did not differ significantly among harvest methods, but increased significantly with time since harvest for CLAAG and GST harvest methods"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:997282c75b26",
+      "name": "other conifers regeneration density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bfb494403d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Density of other conifers varied significantly among harvest methods and increased with time since harvest for CLAAG and GST methods"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:661dd01068ef",
+      "name": "black spruce stocking",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b11c099606",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Stocking of black spruce, all conifers, or all tree species did not differ significantly among harvest methods, nor did it change with time since harvest."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22da9822596a",
+      "name": "other conifers stocking",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f72e23314c",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Stocking of black spruce, all conifers, or all tree species did not differ significantly among harvest methods, nor did it change with time since harvest."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ed1e267d2279",
+      "name": "tree species stocking",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_16ebead047",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Stocking of black spruce, all conifers, or all tree species did not differ significantly among harvest methods, nor did it change with time since harvest."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0be9082b22fc",
+      "name": "time since harvest",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d31f1578e3",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Total black spruce regeneration density did not differ significantly among harvest methods, but increased significantly with time since harvest for CLAAG and GST harvest methods"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bbf376c5ab5c",
+      "name": "regeneration density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a0b8609cbc",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Stocking was nonlinearly related to regeneration density."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:3bdcba844dc6",
+      "subject": "causal_mosaic:node:4b964722a992",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:997282c75b26",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The CLAAG method resulted in highest total regeneration density of other conifers.",
+      "source_spans": [
+        {
+          "text": "The CLAAG method resulted in highest total regeneration density of other conifers."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-004-4764-6",
+        "title": "Post-harvest Regeneration of Lowland Black Spruce Forests in Northeastern Ontario",
+        "year": 2006,
+        "authors": [
+          "Chen, Han Y. H.",
+          "Wang, Jian R."
+        ],
+        "journal": "New Forest"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:eb0eee64ef06",
+      "subject": "causal_mosaic:node:082fb4510f8f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:997282c75b26",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Density of other conifer was significantly lower on SHE sites compared to CLAAG and GST treatments.",
+      "source_spans": [
+        {
+          "text": "Density of other conifer was significantly lower on SHE sites compared to CLAAG and GST treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-004-4764-6",
+        "title": "Post-harvest Regeneration of Lowland Black Spruce Forests in Northeastern Ontario",
+        "year": 2006,
+        "authors": [
+          "Chen, Han Y. H.",
+          "Wang, Jian R."
+        ],
+        "journal": "New Forest"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5138577e48af",
+      "subject": "causal_mosaic:node:0be9082b22fc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1c44b33db580",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Total black spruce regeneration density did not differ significantly among harvest methods, but increased significantly with time since harvest for CLAAG and GST harvest methods",
+      "source_spans": [
+        {
+          "text": "Total black spruce regeneration density did not differ significantly among harvest methods, but increased significantly with time since harvest for CLAAG and GST harvest methods"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-004-4764-6",
+        "title": "Post-harvest Regeneration of Lowland Black Spruce Forests in Northeastern Ontario",
+        "year": 2006,
+        "authors": [
+          "Chen, Han Y. H.",
+          "Wang, Jian R."
+        ],
+        "journal": "New Forest"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8ad9a49231c9",
+      "subject": "causal_mosaic:node:0be9082b22fc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:997282c75b26",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Density of other conifers varied significantly among harvest methods and increased with time since harvest for CLAAG and GST methods",
+      "source_spans": [
+        {
+          "text": "Density of other conifers varied significantly among harvest methods and increased with time since harvest for CLAAG and GST methods"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-004-4764-6",
+        "title": "Post-harvest Regeneration of Lowland Black Spruce Forests in Northeastern Ontario",
+        "year": 2006,
+        "authors": [
+          "Chen, Han Y. H.",
+          "Wang, Jian R."
+        ],
+        "journal": "New Forest"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1ca9061dc090",
+      "subject": "causal_mosaic:node:bbf376c5ab5c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:661dd01068ef",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Stocking was nonlinearly related to regeneration density.",
+      "source_spans": [
+        {
+          "text": "Stocking was nonlinearly related to regeneration density."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s11056-004-4764-6",
+        "title": "Post-harvest Regeneration of Lowland Black Spruce Forests in Northeastern Ontario",
+        "year": 2006,
+        "authors": [
+          "Chen, Han Y. H.",
+          "Wang, Jian R."
+        ],
+        "journal": "New Forest"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "graph_id": "causal_mosaic:graph:4bf2b8b97e59",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T18:31:43.104488+00:00",
+    "source_corpus": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4cb151fa46d2",
+      "name": "High levels of deer browsing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f4ef906158",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "High levels of deer browsing can prevent canopy tree regeneration",
+          "start_char": 779,
+          "end_char": 844,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cacde88134b7",
+      "name": "canopy tree regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65e81b8392",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "High levels of deer browsing can prevent canopy tree regeneration",
+          "start_char": 779,
+          "end_char": 844,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be6979e28c4f",
+      "name": "deer herd reductions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ccef581639",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Densities of small trees (<2 cm DBH) increased by 4.5 times between 1996 and 2009 following deer herd reductions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91eadebcb8c7",
+      "name": "densities of small trees",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4b702d2e37",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Densities of small trees (<2 cm DBH) increased by 4.5 times between 1996 and 2009 following deer herd reductions"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4708abec84c5",
+      "name": "Browsing by deer",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5f4d4f54ad",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Browsing by deer removes small trees and seedlings from the browse layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2647263fa29d",
+      "name": "small trees and seedlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c2d84ddf7b",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Browsing by deer removes small trees and seedlings from the browse layer"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ee172f727964",
+      "name": "understorey light",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c5e8c620a1",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Increases in understorey light favour herbaceous plant communities rather than tree saplings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0bf3b59468a",
+      "name": "herbaceous plant communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc8115ffbd",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Increases in understorey light favour herbaceous plant communities rather than tree saplings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c0ae618fc788",
+      "name": "deer exclosures",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0af486cb02",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The densities of small trees within exclosures were more than four times greater than in forest plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7f429ae20d4b",
+      "name": "stem density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_17154f2cc0",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "deer herbivory may accelerate declines in stem density"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:e4293ce17eec",
+      "subject": "causal_mosaic:node:4cb151fa46d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cacde88134b7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "High levels of deer browsing can prevent canopy tree regeneration",
+      "source_spans": [
+        {
+          "text": "High levels of deer browsing can prevent canopy tree regeneration",
+          "start_char": 779,
+          "end_char": 844,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.09.015",
+        "title": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+        "year": 2011,
+        "authors": [
+          "Tanentzap, Andrew J.",
+          "Bazely, Dawn R.",
+          "Koh, Saewan",
+          "Timciska, Mika",
+          "Haggith, Edward G.",
+          "Carleton, Terry J.",
+          "Coomes, David A."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bc9660fbf0f3",
+      "subject": "causal_mosaic:node:be6979e28c4f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91eadebcb8c7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Densities of small trees (<2 cm DBH) increased by 4.5 times between 1996 and 2009 following deer herd reductions",
+      "source_spans": [
+        {
+          "text": "Densities of small trees (<2 cm DBH) increased by 4.5 times between 1996 and 2009 following deer herd reductions"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.09.015",
+        "title": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+        "year": 2011,
+        "authors": [
+          "Tanentzap, Andrew J.",
+          "Bazely, Dawn R.",
+          "Koh, Saewan",
+          "Timciska, Mika",
+          "Haggith, Edward G.",
+          "Carleton, Terry J.",
+          "Coomes, David A."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c78d39ba2223",
+      "subject": "causal_mosaic:node:4708abec84c5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2647263fa29d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Browsing by deer removes small trees and seedlings from the browse layer",
+      "source_spans": [
+        {
+          "text": "Browsing by deer removes small trees and seedlings from the browse layer"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.09.015",
+        "title": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+        "year": 2011,
+        "authors": [
+          "Tanentzap, Andrew J.",
+          "Bazely, Dawn R.",
+          "Koh, Saewan",
+          "Timciska, Mika",
+          "Haggith, Edward G.",
+          "Carleton, Terry J.",
+          "Coomes, David A."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a9b3e5cc317d",
+      "subject": "causal_mosaic:node:ee172f727964",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b0bf3b59468a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Increases in understorey light favour herbaceous plant communities rather than tree saplings",
+      "source_spans": [
+        {
+          "text": "Increases in understorey light favour herbaceous plant communities rather than tree saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.09.015",
+        "title": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+        "year": 2011,
+        "authors": [
+          "Tanentzap, Andrew J.",
+          "Bazely, Dawn R.",
+          "Koh, Saewan",
+          "Timciska, Mika",
+          "Haggith, Edward G.",
+          "Carleton, Terry J.",
+          "Coomes, David A."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2def86eb787",
+      "subject": "causal_mosaic:node:c0ae618fc788",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91eadebcb8c7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The densities of small trees within exclosures were more than four times greater than in forest plots",
+      "source_spans": [
+        {
+          "text": "The densities of small trees within exclosures were more than four times greater than in forest plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.09.015",
+        "title": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+        "year": 2011,
+        "authors": [
+          "Tanentzap, Andrew J.",
+          "Bazely, Dawn R.",
+          "Koh, Saewan",
+          "Timciska, Mika",
+          "Haggith, Edward G.",
+          "Carleton, Terry J.",
+          "Coomes, David A."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6d30a3e1951",
+      "subject": "causal_mosaic:node:4cb151fa46d2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7f429ae20d4b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "deer herbivory may accelerate declines in stem density",
+      "source_spans": [
+        {
+          "text": "deer herbivory may accelerate declines in stem density"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.biocon.2010.09.015",
+        "title": "Seeing the forest for the deer: Do reductions in deer-disturbance lead to forest recovery?",
+        "year": 2011,
+        "authors": [
+          "Tanentzap, Andrew J.",
+          "Bazely, Dawn R.",
+          "Koh, Saewan",
+          "Timciska, Mika",
+          "Haggith, Edward G.",
+          "Carleton, Terry J.",
+          "Coomes, David A."
+        ],
+        "journal": "Biological Conservation"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "graph_id": "causal_mosaic:graph:bac02f20621e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T01:30:52.477759+00:00",
+    "source_corpus": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:681cea0d95b0",
+      "name": "Seeding treatments",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_cb847d0cc1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our results demonstrate that disturbed northern fescue prairies are able to recover their structural elements, including vegetative and ground cover and plant litter, irrespective of the number of species in the seed mixes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c6982b27e70",
+      "name": "Vegetative cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f8eeb9aab1",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Vegetative cover increased significantly between 1997 and 2008"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:051e204e87d8",
+      "name": "Plant litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01000628",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "plant litter accumulated with time for the remaining treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:14182aea3e1c",
+      "name": "Bare soil",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:01001616",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0001470",
+      "source_spans": [
+        {
+          "text": "increasing vegetative cover was reflected in a decline in the proportion of bare soil found in all treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:899b6b808918",
+      "name": "Weeds",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_99714da273",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "PATO:0001470",
+      "source_spans": [
+        {
+          "text": "These simple communities were dominated by slender wheatgrass ( Elymus trachycaulus) and included a high cover of plains rough fescue ( Festuca hallii ), native forbs, and a low proportion of weeds."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1fe590d8208",
+      "name": "Fescue cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_abb8383f97",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "fescue cover... increased significantly between 1997 and 2008 for all treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9e4fc9e0fed1",
+      "name": "Community diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d47106cad9",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "diversity",
+      "source_spans": [
+        {
+          "text": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:213f98faae3d",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aa321952a1f6",
+      "name": "Species composition",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_20f280f92b",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "revegetated areas remained compositionally different from adjacent native prairies"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af063cc0976c",
+      "name": "Natural revegetation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0eda894262",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The proportion of weeds remained highest in the natural revegetation treatment"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:596ac366b34c",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c6982b27e70",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results demonstrate that disturbed northern fescue prairies are able to recover their structural elements, including vegetative and ground cover and plant litter, irrespective of the number of species in the seed mixes",
+      "source_spans": [
+        {
+          "text": "Our results demonstrate that disturbed northern fescue prairies are able to recover their structural elements, including vegetative and ground cover and plant litter, irrespective of the number of species in the seed mixes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:505ded2967ac",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:051e204e87d8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Vegetative cover increased significantly between 1997 and 2008",
+      "source_spans": [
+        {
+          "text": "Vegetative cover increased significantly between 1997 and 2008"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:97c23faeb85c",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:14182aea3e1c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plant litter accumulated with time for the remaining treatments",
+      "source_spans": [
+        {
+          "text": "plant litter accumulated with time for the remaining treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:887d02fc88ab",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:899b6b808918",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These simple communities were dominated by slender wheatgrass ( Elymus trachycaulus) and included a high cover of plains rough fescue ( Festuca hallii ), native forbs, and a low proportion of weeds.",
+      "source_spans": [
+        {
+          "text": "These simple communities were dominated by slender wheatgrass ( Elymus trachycaulus) and included a high cover of plains rough fescue ( Festuca hallii ), native forbs, and a low proportion of weeds."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:7701e857e67f",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1fe590d8208",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "fescue cover... increased significantly between 1997 and 2008 for all treatments",
+      "source_spans": [
+        {
+          "text": "fescue cover... increased significantly between 1997 and 2008 for all treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1e3e2d3efc71",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9e4fc9e0fed1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments",
+      "source_spans": [
+        {
+          "text": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b196ed5bb121",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:213f98faae3d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments",
+      "source_spans": [
+        {
+          "text": "means of species richness, diversity, effective richness, and evenness were not significantly different among seeding treatments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:89ba1dcc168c",
+      "subject": "causal_mosaic:node:681cea0d95b0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aa321952a1f6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "revegetated areas remained compositionally different from adjacent native prairies",
+      "source_spans": [
+        {
+          "text": "revegetated areas remained compositionally different from adjacent native prairies"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:1e2b52f46f0c",
+      "subject": "causal_mosaic:node:af063cc0976c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:899b6b808918",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The proportion of weeds remained highest in the natural revegetation treatment",
+      "source_spans": [
+        {
+          "text": "The proportion of weeds remained highest in the natural revegetation treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1007/s10531-017-1456-z",
+        "title": "Importance of species diversity in the revegetation of Alberta’s northern fescue prairies",
+        "year": 2018,
+        "authors": [
+          "Woosaree, Jay",
+          "Otfinowski, Rafael"
+        ],
+        "journal": "Biodivers Conserv"
+      }
+    }
+  ]
+}

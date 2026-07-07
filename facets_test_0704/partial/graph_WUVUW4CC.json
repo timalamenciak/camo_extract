@@ -1,0 +1,394 @@
+{
+  "graph_id": "causal_mosaic:graph:7a3cc685fae9",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T02:09:36.888267+00:00",
+    "source_corpus": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:3119ea6a7f30",
+      "name": "Introduced Norway rats",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_5b3a167de2",
+      "state_or_change_qualifier": "introduced",
+      "source_spans": [
+        {
+          "text": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:eda1cc702865",
+      "name": "Seabird decline",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ef2cd84966",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1663dd8c2eac",
+      "name": "Rat eradication",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_873fa55ef8",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Environment Canada eradicated Norway rats using a technique developed in New Zealand"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:95198233730a",
+      "name": "Signs of rats",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9e0e655644",
+      "state_or_change_qualifier": "absent",
+      "source_spans": [
+        {
+          "text": "No signs of rats have been detected on Langara Island and its associated islands since January 1996"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6438c5205d57",
+      "name": "Common raven population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3f5b157da2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Probably 50% or more of the local raven population was killed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:672ca64d4649",
+      "name": "Shrew population",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_debfcbdc60",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The campaign undoubtedly led to the death of many shrews"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1ac6169215fc",
+      "name": "Ancient murrelet breeding",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a6344deaf7",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ancient murrelets bred in the colony in May 1996 and 1997, with no signs of disturbance by rats"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c273211d146b",
+      "name": "Internal hemorrhaging",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_8794a3e447",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Death results from massive internal hemorrhaging"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2e2cb49c28b6",
+      "name": "Predation on ancient murrelets",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_33c55118c2",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "typical of rat predation on seabirds",
+          "start_char": 4137,
+          "end_char": 4173,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:520b4a84f13f",
+      "name": "Brodifacoum",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0425b8228",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Brodifacoum acts by blocking the vitamin K oxidation–reduction cycle in the liver"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:723e0c0c5cac",
+      "subject": "causal_mosaic:node:3119ea6a7f30",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:eda1cc702865",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island.",
+      "source_spans": [
+        {
+          "text": "Introduced Rattus norvegicus (Norway rats) caused the decline of Synthliboramphus antiquus (ancient murrelets) and other seabirds breeding on Langara Island."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f216e80ceada",
+      "subject": "causal_mosaic:node:1663dd8c2eac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:95198233730a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "No signs of rats have been detected on Langara Island and its associated islands since January 1996.",
+      "source_spans": [
+        {
+          "text": "No signs of rats have been detected on Langara Island and its associated islands since January 1996."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38b64ebdbe3c",
+      "subject": "causal_mosaic:node:1663dd8c2eac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6438c5205d57",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Probably 50% or more of the local raven population was killed.",
+      "source_spans": [
+        {
+          "text": "Probably 50% or more of the local raven population was killed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3a107657d35d",
+      "subject": "causal_mosaic:node:1663dd8c2eac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:672ca64d4649",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The campaign undoubtedly led to the death of many shrews",
+      "source_spans": [
+        {
+          "text": "The campaign undoubtedly led to the death of many shrews"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d8715c0f741e",
+      "subject": "causal_mosaic:node:1663dd8c2eac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1ac6169215fc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ancient murrelets bred in the colony in May 1996 and 1997, with no signs of disturbance by rats.",
+      "source_spans": [
+        {
+          "text": "Ancient murrelets bred in the colony in May 1996 and 1997, with no signs of disturbance by rats."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:456f6c17d473",
+      "subject": "causal_mosaic:node:520b4a84f13f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c273211d146b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Death results from massive internal hemorrhaging",
+      "source_spans": [
+        {
+          "text": "Death results from massive internal hemorrhaging"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2e68d4cb7941",
+      "subject": "causal_mosaic:node:3119ea6a7f30",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2e2cb49c28b6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "typical of rat predation on seabirds",
+      "source_spans": [
+        {
+          "text": "typical of rat predation on seabirds",
+          "start_char": 4137,
+          "end_char": 4173,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1046/j.1526-100x.2000.80022.x",
+        "title": "Eradication of Norway Rats for Recovery of Seabird Habitat on Langara Island, British Columbia",
+        "year": 2000,
+        "authors": [
+          "Taylor, Rowland H.",
+          "Kaiser, Gary W.",
+          "Drever, Mark C."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

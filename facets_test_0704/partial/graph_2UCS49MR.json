@@ -1,0 +1,571 @@
+{
+  "graph_id": "causal_mosaic:graph:2da28849bd84",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T06:23:31.086292+00:00",
+    "source_corpus": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:cd71ab55e2ef",
+      "name": "Moose browsing",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_828a604541",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Moose browsing affected the defense chemistry of balsam fir"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70a055e0a3c6",
+      "name": "Moose exclosures",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_7b4e0da80b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The construction of moose exclosures in Gros Morne National Park",
+          "start_char": 1027,
+          "end_char": 1091,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5fc8c5f1b8d",
+      "name": "Decreased sapling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f6cabc822a",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "intense browsing... suppresses vertical growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e89ca9924b5c",
+      "name": "Increased sapling height",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f6cabc822a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "AFO:_0000119",
+      "source_spans": [
+        {
+          "text": "release from browsing pressure allows significant height growth"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1fb192e4cdee",
+      "name": "Increased foliar phenol concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2a652d7abc",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "phenol concentration",
+      "source_spans": [
+        {
+          "text": "exposed saplings had significantly greater total phenol concentrations"
+        },
+        {
+          "text": "Phenol levels were positively related to those of C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49693d02cc0e",
+      "name": "Decreased foliar phenol concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2a652d7abc",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "phenol concentration",
+      "source_spans": [
+        {
+          "text": "release from browsing pressure will relax constitutive levels of costly defense"
+        },
+        {
+          "text": "Foliar phenol concentration was negatively related to canopy closure",
+          "start_char": 1982,
+          "end_char": 2050,
+          "paragraph_id": "page:1"
+        },
+        {
+          "text": "Foliar phenol concentration was negatively related to... height... of saplings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e0a6b9f3d2e1",
+      "name": "Decreased forest regeneration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_fac4ca8e2a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "failure of fir-dominated forests... to regenerate"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ab7065e7ec64",
+      "name": "Increased forest regeneration",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_fac4ca8e2a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "moose exclosures led to four times as many live balsam fir stems"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f864f4013e3d",
+      "name": "Increased foliar tannin concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f0650cc290",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "tannin level",
+      "source_spans": [
+        {
+          "text": "foliar tannin level was... positively related to the foliar N concentration"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8b10f295f1ef",
+      "name": "Increased foliar C concentration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2c69935947",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "C levels",
+      "source_spans": [
+        {
+          "text": "apically browsed fir saplings showed higher foliar C levels"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:1a2dd052a4ba",
+      "subject": "causal_mosaic:node:cd71ab55e2ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c5fc8c5f1b8d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In GMNP, intense browsing, especially of leaders, suppresses vertical growth",
+      "source_spans": [
+        {
+          "text": "In GMNP, intense browsing, especially of leaders, suppresses vertical growth"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:73625a3ca33b",
+      "subject": "causal_mosaic:node:70a055e0a3c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e89ca9924b5c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Inside exclosures, release from browsing pressure allows significant height growth in protected saplings",
+      "source_spans": [
+        {
+          "text": "Inside exclosures, release from browsing pressure allows significant height growth in protected saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:333ec50d78ab",
+      "subject": "causal_mosaic:node:cd71ab55e2ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1fb192e4cdee",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "exposed saplings had significantly greater total phenol concentrations than inside exclosures",
+      "source_spans": [
+        {
+          "text": "exposed saplings had significantly greater total phenol concentrations than inside exclosures"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7323149dc5db",
+      "subject": "causal_mosaic:node:70a055e0a3c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49693d02cc0e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "release from browsing pressure will relax constitutive levels of costly defense",
+      "source_spans": [
+        {
+          "text": "release from browsing pressure will relax constitutive levels of costly defense"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:967f5dedfd16",
+      "subject": "causal_mosaic:node:cd71ab55e2ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e0a6b9f3d2e1",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "intensive browsing of fir saplings by overabundant moose populations has led to the failure of fir-dominated forests... to regenerate",
+      "source_spans": [
+        {
+          "text": "intensive browsing of fir saplings by overabundant moose populations has led to the failure of fir-dominated forests... to regenerate"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9a9960b57cb9",
+      "subject": "causal_mosaic:node:70a055e0a3c6",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ab7065e7ec64",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "moose exclosures led to four times as many live balsam fir stems within exclosures than in unprotected areas",
+      "source_spans": [
+        {
+          "text": "moose exclosures led to four times as many live balsam fir stems within exclosures than in unprotected areas"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "natural_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8fefc0e08a8b",
+      "subject": "causal_mosaic:node:49693d02cc0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49693d02cc0e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Foliar phenol concentration was negatively related to canopy closure",
+      "source_spans": [
+        {
+          "text": "Foliar phenol concentration was negatively related to canopy closure",
+          "start_char": 1982,
+          "end_char": 2050,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[6].philosophical_accounts: unknown 'correlation' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:c86706c7fcf1",
+      "subject": "causal_mosaic:node:e89ca9924b5c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49693d02cc0e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Foliar phenol concentration was negatively related to... height... of saplings",
+      "source_spans": [
+        {
+          "text": "Foliar phenol concentration was negatively related to... height... of saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[7].philosophical_accounts: unknown 'correlation' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:084b5cc83f4e",
+      "subject": "causal_mosaic:node:1fb192e4cdee",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1fb192e4cdee",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "Phenol levels were positively related to those of C",
+      "source_spans": [
+        {
+          "text": "Phenol levels were positively related to those of C"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[8].philosophical_accounts: unknown 'correlation' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:55880b924efc",
+      "subject": "causal_mosaic:node:f864f4013e3d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f864f4013e3d",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "probabilistic"
+      ],
+      "original_sentence": "foliar tannin level was... positively related to the foliar N concentration",
+      "source_spans": [
+        {
+          "text": "foliar tannin level was... positively related to the foliar N concentration"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[9].philosophical_accounts: unknown 'correlation' -> 'probabilistic'"
+    },
+    {
+      "id": "causal_mosaic:edge:f3ddf3efa587",
+      "subject": "causal_mosaic:node:cd71ab55e2ef",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8b10f295f1ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "apically browsed fir saplings showed higher foliar C levels than unbrowsed saplings",
+      "source_spans": [
+        {
+          "text": "apically browsed fir saplings showed higher foliar C levels than unbrowsed saplings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2019.117839",
+        "title": "Growth and chemical responses of balsam fir saplings released from intense browsing pressure in the boreal forests of western Newfoundland, Canada",
+        "year": 2020,
+        "authors": [
+          "Nosko, Peter",
+          "Roberts, Kathleen",
+          "Knight, Tom",
+          "Marcellus, Ashley"
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

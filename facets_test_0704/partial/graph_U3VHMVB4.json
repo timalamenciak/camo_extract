@@ -1,0 +1,935 @@
+{
+  "graph_id": "causal_mosaic:graph:6d7bd75275ca",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T09:49:10.681586+00:00",
+    "source_corpus": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e9cc73e70207",
+      "name": "Soil from restored sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_770f5bad81",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Soil from restored sites was more phosphorus rich, promoting greater growth of both a common and a rare prairie species when grown in intact soil cores."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:37f5c916d26e",
+      "name": "Plant growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e566ee06f3",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Soil from restored sites was more phosphorus rich, promoting greater growth of both a common and a rare prairie species when grown in intact soil cores."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b0d4eb6cf073",
+      "name": "Soil inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_bf249c9017",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "plants grown on inoculated soil had significantly greater growth... than plants grown on sterilized soil"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e80a1e2233a3",
+      "name": "Higher fertility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a758a87636",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Our results suggest that plants on restored prairies are less reliant on soil microbes due to the higher fertility found within their soils."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5dc9be90c1d9",
+      "name": "Reliance on soil microbes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f10db72f53",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Our results suggest that plants on restored prairies are less reliant on soil microbes due to the higher fertility found within their soils."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fa4a913df486",
+      "name": "Invasion by non-native plants",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_efbdc5c69e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Our data suggests that like other ecosystems, residual high fertility in tallgrass prairies may facilitate invasion by non-native plants."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08ffa5a04e01",
+      "name": "High nutrient levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5560a503ec",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Both high nutrient levels and lower heterogeneity can reduce diversity in plant communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fdc921c2a272",
+      "name": "Diversity in plant communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_43991ca988",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Both high nutrient levels and lower heterogeneity can reduce diversity in plant communities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cc683c19250",
+      "name": "Increased soil nutrients",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_99f7181fa9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In particular, increased levels of soil nutrients can decrease plant reliance on mycorrhizal interactions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:20f0db0670ed",
+      "name": "Plant reliance on mycorrhizal interactions",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_29f3d474d9",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In particular, increased levels of soil nutrients can decrease plant reliance on mycorrhizal interactions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8cdbb384a2ff",
+      "name": "Invasiveness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a7a6fb2393",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "When non-native species are less reliant on these interactions their invasiveness can be increased"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de497fd5d997",
+      "name": "Addition of organic matter",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_567ae61c02",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5083a8b2f4ef",
+      "name": "Soil nitrate levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_6bc28241ac",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:65d22c300709",
+      "name": "Abundance of exotics",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ef031eb001",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ff9a7fbc3a93",
+      "name": "Mycorrhizal fungi inoculation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fd5999712a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "On severely degraded soils, mycorrhizal fungi inoculation can aid in plant re-establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ed1a852bf884",
+      "name": "Plant re-establishment",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6fed412fd8",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "On severely degraded soils, mycorrhizal fungi inoculation can aid in plant re-establishment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:681dc5ec431b",
+      "name": "Mean soil P",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8068eb6f24",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The growth of big bluestem and Culver’s root were both positively correlated with mean soil P per site"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ef3d620cc55e",
+      "name": "Soil inorganic N levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5e36096a33",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The growth of Culver’s root was also positively correlated with soil inorganic N levels."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1922fc48d3ac",
+      "name": "Soil from remnant sites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f536ffefc9",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "plants grown on soil from remnant sites had a BE twice as large as plants grown on soil from restoration sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fca3ea1195b5",
+      "name": "Biotic effect",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_46de35d6a2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "plants grown on soil from remnant sites had a BE twice as large as plants grown on soil from restoration sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:71f96ff2848b",
+      "name": "Soil fertility",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_06faddef50",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "demonstrating that plants benefit more from soil biota when the soil is less fertile."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b7bae587e1c",
+      "name": "Benefit from soil biota",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_44f3f0128a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "demonstrating that plants benefit more from soil biota when the soil is less fertile."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2647147fecfd",
+      "name": "High phosphate levels",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_dcd88ea06c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "High phosphate levels have traditionally been considered to reduce plant colonization by mycorrhizal fungi"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:00f9555dc85e",
+      "name": "Plant colonization by mycorrhizal fungi",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_67ece34bf3",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "High phosphate levels have traditionally been considered to reduce plant colonization by mycorrhizal fungi"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:af71c224a666",
+      "name": "Disturbances",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_da5762ed21",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In the short term disturbances create conditions both for the establishment of exotic species and weedy species seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0dc06ff0495e",
+      "name": "Establishment of exotic species",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_95ccdcd548",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In the short term disturbances create conditions both for the establishment of exotic species and weedy species seedlings."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e06ede88736c",
+      "name": "Advantage native species gain through interactions with soil microbes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5a3f6e8082",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "when increased soil fertility lessens the advantage native species gain through interactions with soil microbes"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ffae8cce1d33",
+      "subject": "causal_mosaic:node:e9cc73e70207",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Soil from restored sites was more phosphorus rich, promoting greater growth of both a common and a rare prairie species when grown in intact soil cores.",
+      "source_spans": [
+        {
+          "text": "Soil from restored sites was more phosphorus rich, promoting greater growth of both a common and a rare prairie species when grown in intact soil cores."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8b5056e3eddc",
+      "subject": "causal_mosaic:node:b0d4eb6cf073",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plants grown on inoculated soil had significantly greater growth... than plants grown on sterilized soil",
+      "source_spans": [
+        {
+          "text": "plants grown on inoculated soil had significantly greater growth... than plants grown on sterilized soil"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2b448efe99d2",
+      "subject": "causal_mosaic:node:e80a1e2233a3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5dc9be90c1d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results suggest that plants on restored prairies are less reliant on soil microbes due to the higher fertility found within their soils.",
+      "source_spans": [
+        {
+          "text": "Our results suggest that plants on restored prairies are less reliant on soil microbes due to the higher fertility found within their soils."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ede96dc5cec1",
+      "subject": "causal_mosaic:node:e80a1e2233a3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fa4a913df486",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our data suggests that like other ecosystems, residual high fertility in tallgrass prairies may facilitate invasion by non-native plants.",
+      "source_spans": [
+        {
+          "text": "Our data suggests that like other ecosystems, residual high fertility in tallgrass prairies may facilitate invasion by non-native plants."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6d0b0d900f96",
+      "subject": "causal_mosaic:node:08ffa5a04e01",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fdc921c2a272",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Both high nutrient levels and lower heterogeneity can reduce diversity in plant communities",
+      "source_spans": [
+        {
+          "text": "Both high nutrient levels and lower heterogeneity can reduce diversity in plant communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:461fb3ebe105",
+      "subject": "causal_mosaic:node:6cc683c19250",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:20f0db0670ed",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In particular, increased levels of soil nutrients can decrease plant reliance on mycorrhizal interactions.",
+      "source_spans": [
+        {
+          "text": "In particular, increased levels of soil nutrients can decrease plant reliance on mycorrhizal interactions."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:54f68b4dd518",
+      "subject": "causal_mosaic:node:20f0db0670ed",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8cdbb384a2ff",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "When non-native species are less reliant on these interactions their invasiveness can be increased",
+      "source_spans": [
+        {
+          "text": "When non-native species are less reliant on these interactions their invasiveness can be increased"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5c536e8072b6",
+      "subject": "causal_mosaic:node:de497fd5d997",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:5083a8b2f4ef",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands",
+      "source_spans": [
+        {
+          "text": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:38156e256d08",
+      "subject": "causal_mosaic:node:de497fd5d997",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:65d22c300709",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands",
+      "source_spans": [
+        {
+          "text": "the addition of organic matter to soil can dramatically lower soil nitrate levels and decrease the abundance of exotics in restored grasslands"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:68a412e8a53e",
+      "subject": "causal_mosaic:node:ff9a7fbc3a93",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ed1a852bf884",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "On severely degraded soils, mycorrhizal fungi inoculation can aid in plant re-establishment",
+      "source_spans": [
+        {
+          "text": "On severely degraded soils, mycorrhizal fungi inoculation can aid in plant re-establishment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cb7eef1d9904",
+      "subject": "causal_mosaic:node:681dc5ec431b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The growth of big bluestem and Culver’s root were both positively correlated with mean soil P per site",
+      "source_spans": [
+        {
+          "text": "The growth of big bluestem and Culver’s root were both positively correlated with mean soil P per site"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fe7f945c6e33",
+      "subject": "causal_mosaic:node:ef3d620cc55e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:37f5c916d26e",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The growth of Culver’s root was also positively correlated with soil inorganic N levels.",
+      "source_spans": [
+        {
+          "text": "The growth of Culver’s root was also positively correlated with soil inorganic N levels."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e5396dc5ee5d",
+      "subject": "causal_mosaic:node:1922fc48d3ac",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fca3ea1195b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "plants grown on soil from remnant sites had a BE twice as large as plants grown on soil from restoration sites",
+      "source_spans": [
+        {
+          "text": "plants grown on soil from remnant sites had a BE twice as large as plants grown on soil from restoration sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:afaa18495ebf",
+      "subject": "causal_mosaic:node:71f96ff2848b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b7bae587e1c",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "demonstrating that plants benefit more from soil biota when the soil is less fertile.",
+      "source_spans": [
+        {
+          "text": "demonstrating that plants benefit more from soil biota when the soil is less fertile."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f98adcd7d782",
+      "subject": "causal_mosaic:node:2647147fecfd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:00f9555dc85e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "High phosphate levels have traditionally been considered to reduce plant colonization by mycorrhizal fungi",
+      "source_spans": [
+        {
+          "text": "High phosphate levels have traditionally been considered to reduce plant colonization by mycorrhizal fungi"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8f5ffb4727ef",
+      "subject": "causal_mosaic:node:af71c224a666",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0dc06ff0495e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the short term disturbances create conditions both for the establishment of exotic species and weedy species seedlings.",
+      "source_spans": [
+        {
+          "text": "In the short term disturbances create conditions both for the establishment of exotic species and weedy species seedlings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0eb302ff125e",
+      "subject": "causal_mosaic:node:e80a1e2233a3",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e06ede88736c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "when increased soil fertility lessens the advantage native species gain through interactions with soil microbes",
+      "source_spans": [
+        {
+          "text": "when increased soil fertility lessens the advantage native species gain through interactions with soil microbes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.30.2.106",
+        "title": "Biotic and Abiotic Effects of Remnant and Restoration Soils on the Performance of Tallgrass Prairie Species",
+        "year": 2012,
+        "authors": [
+          "Faber, S.",
+          "Markham, J."
+        ],
+        "journal": "Ecological Restoration"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

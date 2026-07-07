@@ -1,0 +1,270 @@
+{
+  "graph_id": "causal_mosaic:graph:f042b0b75dad",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T17:00:46.330863+00:00",
+    "source_corpus": "Estimates of egg deposition and effects of lake trout ( <i>Salvelinus namaycush</i> ) egg predators in three regions of the Great Lakes",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:7aa51cda3642",
+      "name": "Excessive mortality",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_a9d0d19a8b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Excessive mortality from spawning through the first year of life is likely responsible for recruitment failures",
+          "start_char": 1451,
+          "end_char": 1562,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:232734d5c24b",
+      "name": "Recruitment failures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4684900f00",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Excessive mortality from spawning through the first year of life is likely responsible for recruitment failures",
+          "start_char": 1451,
+          "end_char": 1562,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18c645c2f8f5",
+      "name": "Densities of interstitial predators",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_deb7314fcb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Systems that were successful in producing measurable fry emergence tended to have lower densities of interstitial predators"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8ad77c4fcd42",
+      "name": "Fry emergence",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e90a424c8e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Systems that were successful in producing measurable fry emergence tended to have lower densities of interstitial predators"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e489c1f2dc29",
+      "name": "Predator size",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_751e0fef1b",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The size of a predator directly influences the number of eggs consumed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d167f559298c",
+      "name": "Number of eggs consumed",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2fdebebba1",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "The size of a predator directly influences the number of eggs consumed"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:faae1823d2bc",
+      "name": "Management actions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_d50ec834d3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Management actions increasing populations of spawning lake trout would likely elevate the number of eggs deposited per predator in a unit area"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7439eec8dd38",
+      "name": "Eggs deposited per predator",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0ef239d5ac",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Management actions increasing populations of spawning lake trout would likely elevate the number of eggs deposited per predator in a unit area"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6c19695368c0",
+      "subject": "causal_mosaic:node:7aa51cda3642",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:232734d5c24b",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Current research suggests that excessive mortality between the time of spawning in the fall and the first year of life is likely responsible for recruitment failures in lake trout (Salvelinus namaycush) populations throughout most of the Great Lakes",
+      "source_spans": [
+        {
+          "text": "Current research suggests that excessive mortality between the time of spawning in the fall and the first year of life is likely responsible for recruitment failures in lake trout (Salvelinus namaycush) populations throughout most of the Great Lakes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "modeling_simulation"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f05-141",
+        "title": "Estimates of egg deposition and effects of lake trout ( <i>Salvelinus namaycush</i> ) egg predators in three regions of the Great Lakes",
+        "year": 2005,
+        "authors": [
+          "Jonas, Jory L",
+          "Claramunt, Randall M",
+          "Fitzsimons, John D",
+          "Marsden, J Ellen",
+          "Ellrott, Brian J"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f1e5b4da2be4",
+      "subject": "causal_mosaic:node:18c645c2f8f5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8ad77c4fcd42",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Systems that were successful in producing measurable fry emergence tended to have lower densities of interstitial predators.",
+      "source_spans": [
+        {
+          "text": "Systems that were successful in producing measurable fry emergence tended to have lower densities of interstitial predators."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f05-141",
+        "title": "Estimates of egg deposition and effects of lake trout ( <i>Salvelinus namaycush</i> ) egg predators in three regions of the Great Lakes",
+        "year": 2005,
+        "authors": [
+          "Jonas, Jory L",
+          "Claramunt, Randall M",
+          "Fitzsimons, John D",
+          "Marsden, J Ellen",
+          "Ellrott, Brian J"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:24ca165535c2",
+      "subject": "causal_mosaic:node:e489c1f2dc29",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d167f559298c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The size of a predator directly influences the number of eggs consumed, while abundance levels, competition, and foraging behaviors likely strengthen or weaken this relationship in both conspecific and mixed-species environments",
+      "source_spans": [
+        {
+          "text": "The size of a predator directly influences the number of eggs consumed, while abundance levels, competition, and foraging behaviors likely strengthen or weaken this relationship in both conspecific and mixed-species environments"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f05-141",
+        "title": "Estimates of egg deposition and effects of lake trout ( <i>Salvelinus namaycush</i> ) egg predators in three regions of the Great Lakes",
+        "year": 2005,
+        "authors": [
+          "Jonas, Jory L",
+          "Claramunt, Randall M",
+          "Fitzsimons, John D",
+          "Marsden, J Ellen",
+          "Ellrott, Brian J"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8b90c4987b64",
+      "subject": "causal_mosaic:node:faae1823d2bc",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7439eec8dd38",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Management actions increasing populations of spawning lake trout would likely elevate the number of eggs deposited per predator in a unit area.",
+      "source_spans": [
+        {
+          "text": "Management actions increasing populations of spawning lake trout would likely elevate the number of eggs deposited per predator in a unit area."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "expert_judgment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/f05-141",
+        "title": "Estimates of egg deposition and effects of lake trout ( <i>Salvelinus namaycush</i> ) egg predators in three regions of the Great Lakes",
+        "year": 2005,
+        "authors": [
+          "Jonas, Jory L",
+          "Claramunt, Randall M",
+          "Fitzsimons, John D",
+          "Marsden, J Ellen",
+          "Ellrott, Brian J"
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

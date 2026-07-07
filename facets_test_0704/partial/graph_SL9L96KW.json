@@ -1,0 +1,297 @@
+{
+  "graph_id": "causal_mosaic:graph:54f4f45775c2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T02:36:56.712478+00:00",
+    "source_corpus": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c32a4e95c8ec",
+      "name": "Mechanical site preparation (mounding and ripping)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4f54a8bd42",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines, despite averaging 3.8-years since treatment (vs. 22 years since disturbance for untreated)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8f3e195d3193",
+      "name": "Increased tree density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a0c5c06cc3",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "tree density",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines, despite averaging 3.8-years since treatment (vs. 22 years since disturbance for untreated)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8fa60516e600",
+      "name": "Decreased tree regeneration rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_257ced0507",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "tree regeneration rates",
+      "source_spans": [
+        {
+          "text": "Overall, the results indicate that the presence of a seismic line lowers the tree regeneration rates and that the application of restoration treatments increases the tree regeneration rates across all ecosites (see Table 2)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:46ccec6bda7e",
+      "name": "Presence of a seismic line",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d2d33286b8",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Overall, the results indicate that the presence of a seismic line lowers the tree regeneration rates and that the application of restoration treatments increases the tree regeneration rates across all ecosites (see Table 2)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8dd551b763b8",
+      "name": "Increased rooting depth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7eb58ccaab",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "rooting depth",
+      "source_spans": [
+        {
+          "text": "These mounds create an elevated growing site (hummock) for potential seedlings with favourable conditions, thus increasing the potential rooting depth and providing warmer microclimate and better aeration [21,22]."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:08ad670d5c21",
+      "name": "Decreased regeneration",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_aa15d3833f",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "regeneration",
+      "source_spans": [
+        {
+          "text": "...lichen and graminoids, which were detrimental to regeneration."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:86cbca0438cc",
+      "name": "Simplified microtopography",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_602239aef6",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "microtopography",
+      "source_spans": [
+        {
+          "text": "The mechanized creation of seismic lines can simplify microtopography, remove peat and soil, and create a depressed surface, all of which lead to failures in tree recruitment [8,9,12,16]."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80bc270c0285",
+      "name": "Lichen and graminoid ground cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_929f686289",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "...lichen and graminoids, which were detrimental to regeneration."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:138119e315ab",
+      "subject": "causal_mosaic:node:c32a4e95c8ec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8f3e195d3193",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines, despite averaging 3.8-years since treatment (vs. 22 years since disturbance for untreated).",
+      "source_spans": [
+        {
+          "text": "Mechanical site preparation (mounding and ripping) increased tree density when compared to untreated lines, despite averaging 3.8-years since treatment (vs. 22 years since disturbance for untreated)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9f62b41fd792",
+      "subject": "causal_mosaic:node:46ccec6bda7e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8fa60516e600",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Overall, the results indicate that the presence of a seismic line lowers the tree regeneration rates and that the application of restoration treatments increases the tree regeneration rates across all ecosites (see Table 2).",
+      "source_spans": [
+        {
+          "text": "Overall, the results indicate that the presence of a seismic line lowers the tree regeneration rates and that the application of restoration treatments increases the tree regeneration rates across all ecosites (see Table 2)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bcf55ceb0846",
+      "subject": "causal_mosaic:node:c32a4e95c8ec",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8dd551b763b8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "These mounds create an elevated growing site (hummock) for potential seedlings with favourable conditions, thus increasing the potential rooting depth and providing warmer microclimate and better aeration [21,22].",
+      "source_spans": [
+        {
+          "text": "These mounds create an elevated growing site (hummock) for potential seedlings with favourable conditions, thus increasing the potential rooting depth and providing warmer microclimate and better aeration [21,22]."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fbce082122fb",
+      "subject": "causal_mosaic:node:80bc270c0285",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:08ad670d5c21",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "...lichen and graminoids, which were detrimental to regeneration.",
+      "source_spans": [
+        {
+          "text": "...lichen and graminoids, which were detrimental to regeneration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5811deca9142",
+      "subject": "causal_mosaic:node:46ccec6bda7e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:86cbca0438cc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "The mechanized creation of seismic lines can simplify microtopography, remove peat and soil, and create a depressed surface, all of which lead to failures in tree recruitment [8,9,12,16].",
+      "source_spans": [
+        {
+          "text": "The mechanized creation of seismic lines can simplify microtopography, remove peat and soil, and create a depressed surface, all of which lead to failures in tree recruitment [8,9,12,16]."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/f10020185",
+        "title": "Caribou Conservation: Restoring Trees on Seismic Lines in Alberta, Canada",
+        "year": 2019,
+        "authors": [
+          "Filicetti, Angelo T.",
+          "Cody, Michael",
+          "Nielsen, Scott E."
+        ],
+        "journal": "Forests"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

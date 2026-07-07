@@ -1,0 +1,469 @@
+{
+  "graph_id": "causal_mosaic:graph:f81f4e26e8b7",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T08:58:47.335673+00:00",
+    "source_corpus": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:583386ef3352",
+      "name": "thinning followed by prescribed burning",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_825f022dd5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Practices such as thinning followed by prescribed burning, often termed 'ecosystem restoration practices', are being used in Rocky Mountain forests to prevent uncontrolled wildfire and restore forests to pre-settlement conditions."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a2e17687c56f",
+      "name": "fuel loadings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_2b83caa848",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Common techniques employed include mechanical thinning to reduce stand density, followed by prescribed fire to decrease the amount of surface fuels."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3baa828a9aff",
+      "name": "prescribed fire",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_1329b6d4cb",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Prescribed fire affects soil through consumption of the forest floor and heating of the soil, which are a function of fire temperature and duration."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d7f7096b0bce",
+      "name": "fire temperatures",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_c69ae9869d",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "All of these treatments result in the burning of compacted fuel near the soil surface, which increases temperatures in forest floors and soil, and may alter physical, chemical and biological properties of the soil."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c45e6245d9d6",
+      "name": "consumption of the forest floor",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e700b1de0f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Prescribed fire affects soil through consumption of the forest floor and heating of the soil, which are a function of fire temperature and duration."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a4450eb6654c",
+      "name": "microbial abundances",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3e538dd65d",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In the forest floors, abundances of all microbial groups were reduced and pH and availabilities of Ca2+, Mg2+ and PO4 were increased in all burned treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:427fc6bc88d8",
+      "name": "forest floor pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5033a83331",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Forest floor pH in all burned plots increased significantly after the fire ( Table 1 ), especially in the leave-tree treatment in which the residual forest floor was mostly ash ( Fig. 5)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a717f8950278",
+      "name": "Forest floor C and N contents",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_28167bf474",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Forest floor C and N contents were reduced in burned plots by an average of 39% and 44% respectively, and availabilities of nitrate and sulphate were increased in the leave-tree areas only."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2246c95597df",
+      "name": "availabilities of Ca2+, Mg2+ and PO4",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cf4949e5e2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "In the forest floors, abundances of all microbial groups were reduced and pH and availabilities of Ca2+, Mg2+ and PO4 were increased in all burned treatments."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d89df0745611",
+      "name": "pre-fire moisture content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eed8982dba",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Forest floor consumption and attendant changes in chemical and biological properties were most closely related to pre-fire moisture content, indicating that forest-floor moisture content may be as critical as fuel loading in determining impacts of prescribed fire on soil."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:65982fed4a24",
+      "subject": "causal_mosaic:node:583386ef3352",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a2e17687c56f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Common techniques employed include mechanical thinning to reduce stand density, followed by prescribed fire to decrease the amount of surface fuels.",
+      "source_spans": [
+        {
+          "text": "Common techniques employed include mechanical thinning to reduce stand density, followed by prescribed fire to decrease the amount of surface fuels."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f73aa61710fb",
+      "subject": "causal_mosaic:node:3baa828a9aff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d7f7096b0bce",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All of these treatments result in the burning of compacted fuel near the soil surface, which increases temperatures in forest floors and soil, and may alter physical, chemical and biological properties of the soil.",
+      "source_spans": [
+        {
+          "text": "All of these treatments result in the burning of compacted fuel near the soil surface, which increases temperatures in forest floors and soil, and may alter physical, chemical and biological properties of the soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f99352ed4c03",
+      "subject": "causal_mosaic:node:3baa828a9aff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c45e6245d9d6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Prescribed fire affects soil through consumption of the forest floor and heating of the soil, which are a function of fire temperature and duration.",
+      "source_spans": [
+        {
+          "text": "Prescribed fire affects soil through consumption of the forest floor and heating of the soil, which are a function of fire temperature and duration."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:13c775c6560a",
+      "subject": "causal_mosaic:node:3baa828a9aff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a4450eb6654c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the forest floors, abundances of all microbial groups were reduced and pH and availabilities of Ca2+, Mg2+ and PO4 were increased in all burned treatments.",
+      "source_spans": [
+        {
+          "text": "In the forest floors, abundances of all microbial groups were reduced and pH and availabilities of Ca2+, Mg2+ and PO4 were increased in all burned treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1437ecde2373",
+      "subject": "causal_mosaic:node:3baa828a9aff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:427fc6bc88d8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floor pH in all burned plots increased significantly after the fire ( Table 1 ), especially in the leave-tree treatment in which the residual forest floor was mostly ash ( Fig. 5).",
+      "source_spans": [
+        {
+          "text": "Forest floor pH in all burned plots increased significantly after the fire ( Table 1 ), especially in the leave-tree treatment in which the residual forest floor was mostly ash ( Fig. 5)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4bc79a767ff",
+      "subject": "causal_mosaic:node:3baa828a9aff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a717f8950278",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floor C and N contents were reduced in burned plots by an average of 39% and 44% respectively, and availabilities of nitrate and sulphate were increased in the leave-tree areas only.",
+      "source_spans": [
+        {
+          "text": "Forest floor C and N contents were reduced in burned plots by an average of 39% and 44% respectively, and availabilities of nitrate and sulphate were increased in the leave-tree areas only."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d2f654dc8444",
+      "subject": "causal_mosaic:node:3baa828a9aff",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2246c95597df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the forest floors, abundances of all microbial groups were reduced and pH and availabilities of Ca2+, Mg2+ and PO4 were increased in all burned treatments.",
+      "source_spans": [
+        {
+          "text": "In the forest floors, abundances of all microbial groups were reduced and pH and availabilities of Ca2+, Mg2+ and PO4 were increased in all burned treatments."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3faa18ce18d8",
+      "subject": "causal_mosaic:node:d89df0745611",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c45e6245d9d6",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Forest floor consumption and attendant changes in chemical and biological properties were most closely related to pre-fire moisture content, indicating that forest-floor moisture content may be as critical as fuel loading in determining impacts of prescribed fire on soil.",
+      "source_spans": [
+        {
+          "text": "Forest floor consumption and attendant changes in chemical and biological properties were most closely related to pre-fire moisture content, indicating that forest-floor moisture content may be as critical as fuel loading in determining impacts of prescribed fire on soil."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e408ac15e7f4",
+      "subject": "causal_mosaic:node:427fc6bc88d8",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a4450eb6654c",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The strong relationship between the fire-induced declines in abundance of all microbial groups and the pH of the forest floor indicates that pH was the major determinant of the abundance and structure of forest floor communities in post-fire forest floors.",
+      "source_spans": [
+        {
+          "text": "The strong relationship between the fire-induced declines in abundance of all microbial groups and the pH of the forest floor indicates that pH was the major determinant of the abundance and structure of forest floor communities in post-fire forest floors."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.foreco.2012.02.025",
+        "title": "Changes in soil chemical and biological properties after thinning and prescribed fire for ecosystem restoration in a Rocky Mountain Douglas-fir forest",
+        "year": 2012,
+        "authors": [
+          "Switzer, Joshua M.",
+          "Hope, Graeme D.",
+          "Grayston, Sue J.",
+          "Prescott, Cindy E."
+        ],
+        "journal": "Forest Ecology and Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

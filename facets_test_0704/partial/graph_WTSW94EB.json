@@ -1,0 +1,486 @@
+{
+  "graph_id": "causal_mosaic:graph:2a359d47cb5b",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T06:04:22.101773+00:00",
+    "source_corpus": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e33014b285c7",
+      "name": "Predator removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8c9bfa62fc",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9664ed449ecc",
+      "name": "Duck nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_861bfcd16a",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nest survival",
+      "source_spans": [
+        {
+          "text": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR)."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:efdd9a213f57",
+      "name": "Predator removal",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_aa0a83b5af",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Estimates of 34-day nest survival did not significantly differ between trapped (x = 20.9%, 95% CI = 13.2%–33.7%) and control (x = 17.8%, 95% CI = 10.5%–30.0%) plots in any year."
+        },
+        {
+          "text": "Controlling for year and transposing treatment, the common odds of nesting hen mortality due to predation were significantly higher in trapped plots"
+        },
+        {
+          "text": "Though predator removal did not depress predator abundance sufficiently to improve nest survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:81520113f655",
+      "name": "Duck nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5b26831d55",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "nest survival",
+      "source_spans": [
+        {
+          "text": "Estimates of 34-day nest survival did not significantly differ between trapped (x = 20.9%, 95% CI = 13.2%–33.7%) and control (x = 17.8%, 95% CI = 10.5%–30.0%) plots in any year."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c8a67d427ead",
+      "name": "Nesting hen mortality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4dbfb66eed",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "mortality",
+      "source_spans": [
+        {
+          "text": "Controlling for year and transposing treatment, the common odds of nesting hen mortality due to predation were significantly higher in trapped plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1c5be074b34",
+      "name": "Predator abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_994b9bcd35",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Though predator removal did not depress predator abundance sufficiently to improve nest survival"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:77e6424925b4",
+      "name": "Habitat characteristics",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b92f469372",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "indicating that nest survival was driven by habitat characteristics",
+          "start_char": 48191,
+          "end_char": 48258,
+          "paragraph_id": "page:12"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3dfee7206f06",
+      "name": "Nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5b26831d55",
+      "state_or_change_qualifier": "unspecified",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "indicating that nest survival was driven by habitat characteristics",
+          "start_char": 48191,
+          "end_char": 48258,
+          "paragraph_id": "page:12"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:691e8d542123",
+      "name": "Nest marking",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9db66f8431",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "2017 Viking control plot was negatively affected by nest marking"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:825d45b4de97",
+      "name": "Nest survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5b26831d55",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "2017 Viking control plot was negatively affected by nest marking"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38c78057a8c5",
+      "name": "Mesopredator release",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_09c016b229",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Mesopredator release, the expansion of distribution or density of a mid-trophic level predator resulting from the decline of an apex predator (in our system, coyotes) [ 83,84], is known to benefit foxes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f2b154ad0c35",
+      "name": "Foxes",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q8331",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Mesopredator release, the expansion of distribution or density of a mid-trophic level predator resulting from the decline of an apex predator (in our system, coyotes) [ 83,84], is known to benefit foxes"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9ba21e5869f0",
+      "name": "Coyotes",
+      "entity_type": "taxon",
+      "entity_term": "causal_mosaic:unresolved_9d46e62213",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "Coyotes limit red fox abundance through interference competition that includes direct killing and instilling fear"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e7cb99bd5379",
+      "name": "Red fox abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0858c3cbc2",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Coyotes limit red fox abundance through interference competition that includes direct killing and instilling fear"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:18cc5dda61ef",
+      "subject": "causal_mosaic:node:e33014b285c7",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9664ed449ecc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR).",
+      "source_spans": [
+        {
+          "text": "Predator removal during the nesting season has increased duck nest survival on township-sized (9324 ha) areas of agricultural ecosystems in eastern locations of the prairie pothole region (PPR)."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b02d5abe0fa0",
+      "subject": "causal_mosaic:node:efdd9a213f57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:81520113f655",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Estimates of 34-day nest survival did not significantly differ between trapped (x = 20.9%, 95% CI = 13.2%–33.7%) and control (x = 17.8%, 95% CI = 10.5%–30.0%) plots in any year.",
+      "source_spans": [
+        {
+          "text": "Estimates of 34-day nest survival did not significantly differ between trapped (x = 20.9%, 95% CI = 13.2%–33.7%) and control (x = 17.8%, 95% CI = 10.5%–30.0%) plots in any year."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:18055f227a6e",
+      "subject": "causal_mosaic:node:efdd9a213f57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c8a67d427ead",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Controlling for year and transposing treatment, the common odds of nesting hen mortality due to predation were significantly higher in trapped plots",
+      "source_spans": [
+        {
+          "text": "Controlling for year and transposing treatment, the common odds of nesting hen mortality due to predation were significantly higher in trapped plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a87c3995da8e",
+      "subject": "causal_mosaic:node:efdd9a213f57",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e1c5be074b34",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Though predator removal did not depress predator abundance sufficiently to improve nest survival",
+      "source_spans": [
+        {
+          "text": "Though predator removal did not depress predator abundance sufficiently to improve nest survival"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:39d429adfabd",
+      "subject": "causal_mosaic:node:77e6424925b4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3dfee7206f06",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "indicating that nest survival was driven by habitat characteristics",
+      "source_spans": [
+        {
+          "text": "indicating that nest survival was driven by habitat characteristics",
+          "start_char": 48191,
+          "end_char": 48258,
+          "paragraph_id": "page:12"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6f73af8bd2e6",
+      "subject": "causal_mosaic:node:691e8d542123",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:825d45b4de97",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "2017 Viking control plot was negatively affected by nest marking",
+      "source_spans": [
+        {
+          "text": "2017 Viking control plot was negatively affected by nest marking"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5235f5a6dddc",
+      "subject": "causal_mosaic:node:38c78057a8c5",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f2b154ad0c35",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Mesopredator release, the expansion of distribution or density of a mid-trophic level predator resulting from the decline of an apex predator (in our system, coyotes) [ 83,84], is known to benefit foxes",
+      "source_spans": [
+        {
+          "text": "Mesopredator release, the expansion of distribution or density of a mid-trophic level predator resulting from the decline of an apex predator (in our system, coyotes) [ 83,84], is known to benefit foxes"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a9ae911382b9",
+      "subject": "causal_mosaic:node:9ba21e5869f0",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:e7cb99bd5379",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "Coyotes limit red fox abundance through interference competition that includes direct killing and instilling fear",
+      "source_spans": [
+        {
+          "text": "Coyotes limit red fox abundance through interference competition that includes direct killing and instilling fear"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "theoretical"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3390/d12030119",
+        "title": "Trappings of Success: Predator Removal for Duck Nest Survival in Alberta Parklands",
+        "year": 2020,
+        "authors": [
+          "Blythe, Emily M.",
+          "Boyce, Mark S."
+        ],
+        "journal": "Diversity"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

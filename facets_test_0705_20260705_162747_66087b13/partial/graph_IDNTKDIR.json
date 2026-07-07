@@ -1,0 +1,331 @@
+{
+  "graph_id": "causal_mosaic:graph:d44e6968d6bf",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T00:03:17.447406+00:00",
+    "source_corpus": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:da02065d4ada",
+      "name": "density of Kentucky bluegrass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d9ad2518a4",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "density of Kentucky bluegrass",
+          "start_char": 2498,
+          "end_char": 2527,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:278e510817c5",
+      "name": "density of plains rough fescue",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_302cc35410",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "density of plains rough fescue",
+          "start_char": 3339,
+          "end_char": 3369,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1a5f400045aa",
+      "name": "cattle grazing",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_9e86e378f3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "cattle grazing",
+          "start_char": 3500,
+          "end_char": 3514,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a8647dc3419a",
+      "name": "diversity of invaded communities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_18a81ac138",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "diversity of invaded communities",
+          "start_char": 7937,
+          "end_char": 7969,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2c252a930b99",
+      "name": "germination of other plants",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_21f1a6aae7",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "germination of other plants",
+          "start_char": 7388,
+          "end_char": 7415,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:99d2c2297a29",
+      "name": "continuous mats of litter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4bea7a7bc4",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "continuous mats of litter",
+          "start_char": 7307,
+          "end_char": 7332,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b75709af1a3d",
+      "name": "invasions of Kentucky bluegrass",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_d4fb625d7a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "invasions of Kentucky bluegrass"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:49a65228160b",
+      "name": "density of Kentucky bluegrass",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d9ad2518a4",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "density of Kentucky bluegrass",
+          "start_char": 2498,
+          "end_char": 2527,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:115941509005",
+      "name": "density of plains rough fescue",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_302cc35410",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "density of plains rough fescue",
+          "start_char": 3339,
+          "end_char": 3369,
+          "paragraph_id": "page:2"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:79fb524b00a8",
+      "subject": "causal_mosaic:node:da02065d4ada",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:278e510817c5",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Higher densities of Kentucky bluegrass were inversely related with the abundance of rough fescue in the north ﬁeld",
+      "source_spans": [
+        {
+          "text": "Higher densities of Kentucky bluegrass were inversely related with the abundance of rough fescue in the north ﬁeld"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:656e9118f611",
+      "subject": "causal_mosaic:node:b75709af1a3d",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:a8647dc3419a",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "invasions of Kentucky bluegrass reduce the cover, richness, and diversity of invaded communities",
+      "source_spans": [
+        {
+          "text": "invasions of Kentucky bluegrass reduce the cover, richness, and diversity of invaded communities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9326a8dde9fd",
+      "subject": "causal_mosaic:node:99d2c2297a29",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2c252a930b99",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants",
+      "source_spans": [
+        {
+          "text": "accumulation of continuous mats of litter, which reduce soil temperatures and light to lower the germination of other plants"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "mechanistic_study"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6272a51703bc",
+      "subject": "causal_mosaic:node:1a5f400045aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:49a65228160b",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "grazing by cattle did not signiﬁcantly reduce the density of Kentucky bluegrass",
+      "source_spans": [
+        {
+          "text": "grazing by cattle did not signiﬁcantly reduce the density of Kentucky bluegrass"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1039de85a729",
+      "subject": "causal_mosaic:node:1a5f400045aa",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:115941509005",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "grazing also did not alter the density of plains rough fescue",
+      "source_spans": [
+        {
+          "text": "grazing also did not alter the density of plains rough fescue",
+          "start_char": 18062,
+          "end_char": 18123,
+          "paragraph_id": "page:5"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1016/j.rama.2016.10.008",
+        "title": "Using Cattle Grazing to Restore a Rough Fescue Prairie Invaded by Kentucky Bluegrass",
+        "year": 2017,
+        "authors": [
+          "Otfinowski, Rafael",
+          "Pinchbeck, Hilary G.",
+          "Sinkins, Peter A."
+        ],
+        "journal": "Rangeland Ecology & Management"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

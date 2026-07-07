@@ -1,0 +1,390 @@
+{
+  "graph_id": "causal_mosaic:graph:84c9fb5edea8",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T06:06:37.855824+00:00",
+    "source_corpus": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:4d18e0213a10",
+      "name": "Glyphosate application",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5b6f2ce382",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Transplant survival was improved by glyphosate application to control non-native plants prior to planting.",
+          "start_char": 1830,
+          "end_char": 1936,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6a06f245284e",
+      "name": "Transplant survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5282d66373",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "Transplant survival was improved by glyphosate application to control non-native plants prior to planting.",
+          "start_char": 1830,
+          "end_char": 1936,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c53860bb8fe",
+      "name": "Non-native cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_256be23cd0",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Glyphosate reduced non-native cover the most while cutting had no effect."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:76b5780d9304",
+      "name": "Cutting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_80762f39d5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "grass transplant flowering was significantly lower in treatments where vegetation had been cut prior to planting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:70f346cfb93b",
+      "name": "Native cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ae7ae6138b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "cover",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:58efa33b3268",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "richness",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cece63382d9",
+      "name": "Grass transplant flowering",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_1a00bfb7a7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "flowering",
+      "source_spans": [
+        {
+          "text": "grass transplant flowering was significantly lower in treatments where vegetation had been cut prior to planting."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:bfebeb7bf8ae",
+      "name": "Transplanting",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_db78f1d61e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f5aca925abfb",
+      "name": "Larger container stock",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_db45a92192",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "survival was higher for larger container stock."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:7050d09f310e",
+      "subject": "causal_mosaic:node:4d18e0213a10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a06f245284e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplant survival was improved by glyphosate application to control non-native plants prior to planting.",
+      "source_spans": [
+        {
+          "text": "Transplant survival was improved by glyphosate application to control non-native plants prior to planting.",
+          "start_char": 1830,
+          "end_char": 1936,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:013ed480f7e7",
+      "subject": "causal_mosaic:node:4d18e0213a10",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c53860bb8fe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Glyphosate reduced non-native cover the most while cutting had no effect.",
+      "source_spans": [
+        {
+          "text": "Glyphosate reduced non-native cover the most while cutting had no effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aeaa21d936e1",
+      "subject": "causal_mosaic:node:76b5780d9304",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a06f245284e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "grass transplant flowering was significantly lower in treatments where vegetation had been cut prior to planting.",
+      "source_spans": [
+        {
+          "text": "grass transplant flowering was significantly lower in treatments where vegetation had been cut prior to planting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee233f36d007",
+      "subject": "causal_mosaic:node:76b5780d9304",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6cece63382d9",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "grass transplant flowering was significantly lower in treatments where vegetation had been cut prior to planting.",
+      "source_spans": [
+        {
+          "text": "grass transplant flowering was significantly lower in treatments where vegetation had been cut prior to planting."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ee4a859e6d0a",
+      "subject": "causal_mosaic:node:bfebeb7bf8ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:70f346cfb93b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect.",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:5ce3a97bdabd",
+      "subject": "causal_mosaic:node:bfebeb7bf8ae",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:58efa33b3268",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect.",
+      "source_spans": [
+        {
+          "text": "Transplanting was effective for increasing native cover and species richness although high winter mortality reduced this effect."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:96038415f35b",
+      "subject": "causal_mosaic:node:f5aca925abfb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6a06f245284e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "survival was higher for larger container stock.",
+      "source_spans": [
+        {
+          "text": "survival was higher for larger container stock."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.3368/er.36.1.19",
+        "title": "Transplanting Following Non-Native Plant Control in Rocky Mountain Foothills Fescue Grassland Restoration",
+        "year": 2018,
+        "authors": [
+          "Stover, Holly J.",
+          "Naeth, M. Anne",
+          "Wilkinson, Sarah R."
+        ],
+        "journal": "Ecological Rest."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

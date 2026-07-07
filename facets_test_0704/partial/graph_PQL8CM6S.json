@@ -1,0 +1,369 @@
+{
+  "graph_id": "causal_mosaic:graph:344788e34c8e",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T12:40:26.519295+00:00",
+    "source_corpus": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:30462fe98d61",
+      "name": "PyC additions",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_191d502dd0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Results indicated that the different PyC types increased C mineralization compared to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cd448447c7fe",
+      "name": "C mineralization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_7d0369411b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Results indicated that the different PyC types increased C mineralization compared to the control"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b50f9865e4e6",
+      "name": "N mineralization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_6699395ce6",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In contrast, PyC caused a decrease in N mineralization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:cee6fec7ed77",
+      "name": "bacterial diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_337ef4728a",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Molecular sequencing of bacterial DNA showed that PyC, except for pet-coke, increased diversity in both the FFM and NFS"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b2f0ddc26fe7",
+      "name": "bacterial community structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7fce4cd7f0",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ordination of distances between community structures based on θyc showed both charcoal and biochar treatments shift the bacterial community structure of FFM and NFS"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b8de0db5facc",
+      "name": "fungal community diversity",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_cde88de80c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "The exception to that is the fungal community diversity from FFM which drops in response to biochar"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4b45766701be",
+      "name": "fungal community structure",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0fb79905f3",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Ordination of distances between community structures based on Jclass showed that only the NFS community responded to the biochar treatment"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7b09a0cedd82",
+      "name": "petroleum coke",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dba0dcf01a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In contrast to charcoal and biochar amendments, petroleum coke addition to soil lowers levels of C mineralization"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8eea2e01971e",
+      "name": "biochar",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_17cdc45110",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The exception to that is the fungal community diversity from FFM which drops in response to biochar"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:bd9a22a85410",
+      "subject": "causal_mosaic:node:30462fe98d61",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd448447c7fe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Results indicated that the different PyC types increased C mineralization compared to the control",
+      "source_spans": [
+        {
+          "text": "Results indicated that the different PyC types increased C mineralization compared to the control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:48da23a487ea",
+      "subject": "causal_mosaic:node:30462fe98d61",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b50f9865e4e6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, PyC caused a decrease in N mineralization",
+      "source_spans": [
+        {
+          "text": "In contrast, PyC caused a decrease in N mineralization"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:ece619759178",
+      "subject": "causal_mosaic:node:30462fe98d61",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cee6fec7ed77",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Molecular sequencing of bacterial DNA showed that PyC, except for pet-coke, increased diversity in both the FFM and NFS",
+      "source_spans": [
+        {
+          "text": "Molecular sequencing of bacterial DNA showed that PyC, except for pet-coke, increased diversity in both the FFM and NFS"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d4102c801fb0",
+      "subject": "causal_mosaic:node:30462fe98d61",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b2f0ddc26fe7",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ordination of distances between community structures based on θyc showed both charcoal and biochar treatments shift the bacterial community structure of FFM and NFS",
+      "source_spans": [
+        {
+          "text": "Ordination of distances between community structures based on θyc showed both charcoal and biochar treatments shift the bacterial community structure of FFM and NFS"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3478684e7eaa",
+      "subject": "causal_mosaic:node:7b09a0cedd82",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:cd448447c7fe",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast to charcoal and biochar amendments, petroleum coke addition to soil lowers levels of C mineralization",
+      "source_spans": [
+        {
+          "text": "In contrast to charcoal and biochar amendments, petroleum coke addition to soil lowers levels of C mineralization"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7532dbb843a3",
+      "subject": "causal_mosaic:node:8eea2e01971e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b8de0db5facc",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The exception to that is the fungal community diversity from FFM which drops in response to biochar",
+      "source_spans": [
+        {
+          "text": "The exception to that is the fungal community diversity from FFM which drops in response to biochar"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:de8b67d4cf89",
+      "subject": "causal_mosaic:node:8eea2e01971e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:4b45766701be",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Ordination of distances between community structures based on Jclass showed that only the NFS community responded to the biochar treatment",
+      "source_spans": [
+        {
+          "text": "Ordination of distances between community structures based on Jclass showed that only the NFS community responded to the biochar treatment"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Carbon and Nitrogen Mineralization and Microbial Succession in Oil Sands Reclamation Soils Amended with Pyrogenic Carbon",
+        "year": 2014,
+        "authors": [
+          "Mackenzie, M Derek",
+          "Hofstetter, Simmon",
+          "Hatam, Ido",
+          "Lanoil, Brian"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

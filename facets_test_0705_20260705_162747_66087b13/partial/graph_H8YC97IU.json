@@ -1,0 +1,439 @@
+{
+  "graph_id": "causal_mosaic:graph:a4447fa67592",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-07T02:01:28.278878+00:00",
+    "source_corpus": "Production and outplanting success of nutrient-loaded aspen seedlings",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:17b63c9a4a13",
+      "name": "shoot growth inhibitor (SGI)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_260a7a5275",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "SGI treatment allows for the production of nutrient loaded aspen seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f223754be68b",
+      "name": "nutrient loaded aspen seedlings",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_65a0c7fc44",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "SGI treatment allows for the production of nutrient loaded aspen seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0c693b68ed6f",
+      "name": "woody tissue nutrient and carbohydrate concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5bcc41041b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "SGI application, on the other hand, resulted in complete height growth cessation and a subsequent switch from allocating nutrients and carbohydrates from growth to reserves which resulted in nutrient and carbohydrate loaded aspen seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18f6c662c2bf",
+      "name": "root:stem ratio (RSR)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8cb858186e",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "SGI treated seedlings had higher RSRs than non-SGI treated seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:47213f317d93",
+      "name": "total non-structural carbohydrate (TNC) concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d8d9b0815b",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Seedlings treated with SGI had significantly higher TNC concentrations in both the root and stem tissues"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6e2519b669b0",
+      "name": "seedling height growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3e1639f941",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "High feed seedlings continued to show greater height growth than standard feed seedlings (21%) on PMM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:361eb0d43d43",
+      "name": "High feed seedlings",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_408b87bc03",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "High feed seedlings continued to show greater height growth than standard feed seedlings (21%) on PMM"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:666b4940c9b2",
+      "name": "PMM capping material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_50876de462",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "seedlings growing on PMM outperformed seedlings on FFM (in terms of seedling height in 2011 and 2012)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8d2892e52d70",
+      "name": "CRF fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_909eeea5c5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "In 2012 only CRF fertilization resulted in height growth greater than that on control plots"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:5ba99380e4c1",
+      "name": "Exponential fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_c0aef758f1",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "EXP seedlings had lower stem and root dry weight than 100-100 seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:7abb7d44a7d3",
+      "name": "stem and root dry weight",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9720d6ad06",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "EXP seedlings had lower stem and root dry weight than 100-100 seedlings"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:34080de22836",
+      "name": "survival rates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_beaff49822",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "the aspen seedlings used in this study showed very high survival rates (95.1%), likely due to the use of the shoot growth inhibitor paclobutrazol"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ecb7cf8be41b",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f223754be68b",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SGI treatment allows for the production of nutrient loaded aspen seedlings, produces uniform and quality seedling stock, and can reduce broadcast fertilization needs on reclamation sites.",
+      "source_spans": [
+        {
+          "text": "SGI treatment allows for the production of nutrient loaded aspen seedlings, produces uniform and quality seedling stock, and can reduce broadcast fertilization needs on reclamation sites."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:bf90cc8f2041",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:0c693b68ed6f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SGI application, on the other hand, resulted in complete height growth cessation and a subsequent switch from allocating nutrients and carbohydrates from growth to reserves which resulted in nutrient and carbohydrate loaded aspen seedlings.",
+      "source_spans": [
+        {
+          "text": "SGI application, on the other hand, resulted in complete height growth cessation and a subsequent switch from allocating nutrients and carbohydrates from growth to reserves which resulted in nutrient and carbohydrate loaded aspen seedlings."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:a8955a502de6",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18f6c662c2bf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SGI treated seedlings had higher RSRs than non-SGI treated seedlings",
+      "source_spans": [
+        {
+          "text": "SGI treated seedlings had higher RSRs than non-SGI treated seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:25ba8f14423b",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:47213f317d93",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings treated with SGI had significantly higher TNC concentrations in both the root and stem tissues",
+      "source_spans": [
+        {
+          "text": "Seedlings treated with SGI had significantly higher TNC concentrations in both the root and stem tissues"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:aea2623d981c",
+      "subject": "causal_mosaic:node:361eb0d43d43",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e2519b669b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "High feed seedlings continued to show greater height growth than standard feed seedlings (21%) on PMM",
+      "source_spans": [
+        {
+          "text": "High feed seedlings continued to show greater height growth than standard feed seedlings (21%) on PMM"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:042e4c5774a6",
+      "subject": "causal_mosaic:node:666b4940c9b2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e2519b669b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedlings growing on PMM outperformed seedlings on FFM (in terms of seedling height in 2011 and 2012)",
+      "source_spans": [
+        {
+          "text": "seedlings growing on PMM outperformed seedlings on FFM (in terms of seedling height in 2011 and 2012)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:b54a408e417d",
+      "subject": "causal_mosaic:node:8d2892e52d70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6e2519b669b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 2012 only CRF fertilization resulted in height growth greater than that on control plots",
+      "source_spans": [
+        {
+          "text": "In 2012 only CRF fertilization resulted in height growth greater than that on control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:412e5d39631c",
+      "subject": "causal_mosaic:node:5ba99380e4c1",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:7abb7d44a7d3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "EXP seedlings had lower stem and root dry weight than 100-100 seedlings",
+      "source_spans": [
+        {
+          "text": "EXP seedlings had lower stem and root dry weight than 100-100 seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    },
+    {
+      "id": "causal_mosaic:edge:85d293819e76",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:34080de22836",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "the aspen seedlings used in this study showed very high survival rates (95.1%), likely due to the use of the shoot growth inhibitor paclobutrazol",
+      "source_spans": [
+        {
+          "text": "the aspen seedlings used in this study showed very high survival rates (95.1%), likely due to the use of the shoot growth inhibitor paclobutrazol"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      }
+    }
+  ]
+}

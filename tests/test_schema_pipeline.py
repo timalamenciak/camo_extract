@@ -256,6 +256,53 @@ def test_invalid_graph_is_retained_for_debugging(tmp_path: Path):
     assert retained["graph"]["edges"]
 
 
+def test_unique_output_folder_created_when_directory_has_content(tmp_path: Path):
+    input_dir = tmp_path / "input"
+    output_dir = tmp_path / "output"
+    input_dir.mkdir()
+    (input_dir / "articles.ris").write_text(
+        "TY  - JOUR\nID  - ABC123\nTI  - Test\nPY  - 2024\nDO  - 10.1/test\nER  -\n",
+        encoding="utf-8",
+    )
+    (input_dir / "ABC123.pdf").write_bytes(b"not read")
+
+    # First run creates output
+    manifest1 = process_folder(
+        str(input_dir),
+        str(output_dir),
+        config=load_config(),
+        extractor=FakeExtractor(),
+        grounder=FakeGrounder(),
+        pdf_processor=FakePDFProcessor(),
+    )
+    assert len(manifest1["processed"]) == 1
+    assert (output_dir / "causal_graph.json").exists()
+
+    # Second run with same output_dir creates unique folder
+    manifest2 = process_folder(
+        str(input_dir),
+        str(output_dir),
+        config=load_config(),
+        extractor=FakeExtractor(),
+        grounder=FakeGrounder(),
+        pdf_processor=FakePDFProcessor(),
+    )
+    assert len(manifest2["processed"]) == 1
+
+    # Find the unique folder that was created (should have timestamp suffix)
+    output_parent = output_dir.parent
+    output_folders = sorted(
+        [d for d in output_parent.iterdir() if d.is_dir() and "output" in d.name],
+        key=lambda x: x.name,
+    )
+    assert len(output_folders) == 2  # Original + unique
+    # The second folder should have the timestamp suffix
+    unique_folder = output_folders[-1]
+    assert unique_folder != output_dir
+    assert "_" in unique_folder.name  # Has timestamp suffix
+    assert (unique_folder / "causal_graph.json").exists()
+
+
 def test_completed_article_is_checkpointed_before_later_interruption(tmp_path: Path):
     input_dir = tmp_path / "input"
     output_dir = tmp_path / "output"
@@ -294,6 +341,7 @@ def test_completed_article_is_checkpointed_before_later_interruption(tmp_path: P
         extractor=FakeExtractor(),
         grounder=FakeGrounder(),
         pdf_processor=FakePDFProcessor(),
+        make_unique=False,
     )
     assert {item["article"] for item in resumed["processed"]} == {
         "10.1/first",

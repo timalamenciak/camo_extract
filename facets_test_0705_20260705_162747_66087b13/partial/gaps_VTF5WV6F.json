@@ -1,0 +1,1234 @@
+{
+  "report_version": "1.0",
+  "description": "Literature terms without accepted matches in their preferred ontologies.",
+  "ontology_sources": {
+    "ELMO": {
+      "version": "2026-07-03",
+      "url": "https://raw.githubusercontent.com/timalamenciak/elmo/2026-07-03/elmo.owl"
+    },
+    "OLS": {
+      "url": "https://www.ebi.ac.uk/ols4/api"
+    },
+    "Wikidata": {
+      "url": "https://www.wikidata.org/w/api.php"
+    }
+  },
+  "gaps": [
+    {
+      "term": "population spread",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "population spread",
+      "proposed_definition": "A environmental process corresponding to 'population spread'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:0ea8fbde8220",
+          "evidence_text": "there is evidence that all eight species colonized new plots since the last round of monitoring... at least 25% of the currently occupied plots are a result of population spread"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "removal of the top layer of vegetation",
+      "semantic_role": "environmental_process",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "removal of the top layer of vegetation",
+      "proposed_definition": "A environmental process corresponding to 'removal of the top layer of vegetation'.",
+      "candidate_parent": "ELMO environmental process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:b90294773230",
+          "evidence_text": "The moss layer transfer technique removes the top layer of vegetation from donor sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover of Achillea millefolium",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "cover of Achillea millefolium",
+      "proposed_definition": "A environmental variable corresponding to 'cover of Achillea millefolium'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:2b0a9bab3406",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover of Eriophyllum lanatum",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "cover of Eriophyllum lanatum",
+      "proposed_definition": "A environmental variable corresponding to 'cover of Eriophyllum lanatum'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:c8fa4371faeb",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover of Festuca roemeri",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "cover of Festuca roemeri",
+      "proposed_definition": "A environmental variable corresponding to 'cover of Festuca roemeri'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:edbb1d0e4e15",
+          "evidence_text": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "cover of Ranunculus occidentalis",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "cover of Ranunculus occidentalis",
+      "proposed_definition": "A environmental variable corresponding to 'cover of Ranunculus occidentalis'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:fd3b76fe4702",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "ER",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "ER",
+      "proposed_definition": "A environmental variable corresponding to 'ER'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01001346",
+          "label": "erosion",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001346",
+          "synonyms": [],
+          "definition": "An action of exogenic processes (such as water flow or wind) which remove environmental material from one location on the surface of an astronomical body, transporting it to another location where it is deposited.",
+          "score": 0.4444,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000706",
+          "label": "soil erosion",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000706",
+          "synonyms": [],
+          "definition": "Soil erosion is a process in which exogenic processes remove soil from one location on the Earth's crust and transport it to another location where it is deposited.",
+          "score": 0.2857,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620132",
+          "label": "Aerobic caves",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620132",
+          "synonyms": [
+            "S1.1 Aerobic caves"
+          ],
+          "definition": null,
+          "score": 0.2667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000363",
+          "label": "erosional cave",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000363",
+          "synonyms": [],
+          "definition": "A cave formed by erosion caused by flowing streams carrying rocks or sediments.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:BFO_0000040",
+          "label": "material entity",
+          "ontology": "ELMO",
+          "iri": "http://purl.obolibrary.org/obo/BFO_0000040",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.2353,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3.2",
+          "label": "Species recovery",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.2",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.2222,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620859",
+          "label": "alter dam regime",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620859",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.2222,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620167",
+          "label": "Large reservoirs",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620167",
+          "synonyms": [
+            "F3.1 Large reservoirs"
+          ],
+          "definition": null,
+          "score": 0.2222,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620145",
+          "label": "Permanent marshes",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620145",
+          "synonyms": [
+            "TF1.3 Permanent marshes"
+          ],
+          "definition": null,
+          "score": 0.2105,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000656",
+          "label": "effusive eruption",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000656",
+          "synonyms": [],
+          "definition": "An effusive eruption is a volcanic eruption during which lava flows onto the ground.",
+          "score": 0.2105,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:46b183135f07",
+          "evidence_text": "ER increased as GEPmax became more negative"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "exotic grass abundance",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "exotic grass abundance",
+      "proposed_definition": "A environmental variable corresponding to 'exotic grass abundance'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:29ff98f765e7",
+          "evidence_text": "plots that received applications of grass-specific herbicide had lower abundances of exotic grasses than the remaining disturbance treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "GEP max",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "GEP max",
+      "proposed_definition": "A environmental variable corresponding to 'GEP max'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:1493cd4f39ad",
+          "evidence_text": "GEPmax became more negative (greater CO2 uptake) in plots with higher moss cover across the bog sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "Methane flux",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "Methane flux",
+      "proposed_definition": "A environmental variable corresponding to 'Methane flux'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:3bdd6317bae0",
+          "evidence_text": "Methane flux was related to water table position at both sites, with the flux increasing with shallower water table"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "moss cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "moss cover",
+      "proposed_definition": "A environmental variable corresponding to 'moss cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000890",
+          "label": "area of moss-dominated vegetation",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000890",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, at least 80% of these areas are covered by mosses.  Such thresholds - which are themselves fuzzy - are not strictly asserted in this definition. The original definition notes that this is intended as an \"Alaska only\" category.",
+          "score": 0.3721,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001370",
+          "label": "tundra ecosystem",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001370",
+          "synonyms": [],
+          "definition": "Tundra ecosysems are often underlaid by permafrost, with the result that drainage is bad and the soil may be saturated for long periods. It does not have a permanent snow-ice cover.  Productivity is low in this biome because of the extremes of climate.",
+          "score": 0.3077,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001457",
+          "label": "cloud forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001457",
+          "synonyms": [
+            "tropical montane cloud forest"
+          ],
+          "definition": "A montane forest ecosystem which 1) is evergreen, 2) present on mountains where there is frequent cloud and mist cover, 3) which has a large proportion of ferns and mosses in its plant communities, growing on all tree trunks and branches present in the ecosystem, and 3) harvests aerosolised water and adds it to the terrestrial water supply.",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:284f3a52896f",
+          "evidence_text": "decreased with increasing ... moss cover ... at the fen site"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native species abundance",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native species abundance",
+      "proposed_definition": "A environmental variable corresponding to 'native species abundance'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:cdbf8cc1cb1c",
+          "evidence_text": "addition of native seed effectively increased both the richness and abundance of native species"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "native species richness",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "native species richness",
+      "proposed_definition": "A environmental variable corresponding to 'native species richness'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:8bd9e9ff21b7",
+          "evidence_text": "We found that plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "NEE max",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "NEE max",
+      "proposed_definition": "A environmental variable corresponding to 'NEE max'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:0fa939033710",
+          "evidence_text": "Higher sedge cover resulted in more negative NEE max values"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "sedge cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "sedge cover",
+      "proposed_definition": "A environmental variable corresponding to 'sedge cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000887",
+          "label": "area of sedge- and forb-dominated herbaceous vegetation",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000887",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, at least 80% of these areas are covered by sedge or forbs.  Such thresholds - which are themselves fuzzy - are not strictly asserted in this definition. The NLCD description also notes that land covered by sedge tundra and sedge tussock tundra are subsumed in this category. The original definition notes that this is intended as an \"Alaska only\" category.",
+          "score": 0.3077,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001370",
+          "label": "tundra ecosystem",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001370",
+          "synonyms": [],
+          "definition": "Tundra ecosysems are often underlaid by permafrost, with the result that drainage is bad and the soil may be saturated for long periods. It does not have a permanent snow-ice cover.  Productivity is low in this biome because of the extremes of climate.",
+          "score": 0.2963,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000861",
+          "label": "area of dwarf scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000861",
+          "synonyms": [
+            "area of subshrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of dwarf scrub are dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation. The NLCD 2011 notes that this is intended as an Alaska only land cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:00000187",
+          "label": "tundra mire",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000187",
+          "synonyms": [],
+          "definition": "Peatlands with a shallow peat layer, only about 500 mm thick, dominated by sedges and grasses. They form in permafrost areas, covering around 110,000 to 160,000 km2 in Alaska, Canada, and the former USSR.",
+          "score": 0.0909,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:b285bad89035",
+          "evidence_text": "Methane flux increased with increasing sedge cover at the bog site"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "shrub cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "shrub cover",
+      "proposed_definition": "A environmental variable corresponding to 'shrub cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:00000300",
+          "label": "scrubland area",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000300",
+          "synonyms": [
+            "bush",
+            "chaparal area",
+            "heath",
+            "scrub",
+            "scrubland",
+            "shrubland"
+          ],
+          "definition": "Area covered with low-growing or stunted perennial vegetation and usually not mixed with trees.",
+          "score": 0.48,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01001370",
+          "label": "tundra ecosystem",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01001370",
+          "synonyms": [],
+          "definition": "Tundra ecosysems are often underlaid by permafrost, with the result that drainage is bad and the soil may be saturated for long periods. It does not have a permanent snow-ice cover.  Productivity is low in this biome because of the extremes of climate.",
+          "score": 0.3704,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000869",
+          "label": "area of scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000869",
+          "synonyms": [
+            "area of shrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of scrub or shrub are dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.3333,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000861",
+          "label": "area of dwarf scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000861",
+          "synonyms": [
+            "area of subshrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of dwarf scrub are dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation. The NLCD 2011 notes that this is intended as an Alaska only land cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000893",
+          "label": "area of woody wetland",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000893",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, at least 20% of these areas are covered by forest or shrubland vegetation.  Such thresholds - which are themselves fuzzy - are not strictly asserted in this definition.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:00000262",
+          "label": "steppe",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000262",
+          "synonyms": [
+            "pampa",
+            "grassland",
+            "pampas",
+            "puszta"
+          ],
+          "definition": "A plain without trees (apart from those near rivers and lakes); it is similar to a prairie, although a prairie is generally considered as being dominated by tall grasses, while short grasses are said to be normal in the steppe. It may be semi-desert, or covered with grass or shrubs or both, depending on the season and latitude.",
+          "score": 0.2353,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:00000109",
+          "label": "woodland area",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_00000109",
+          "synonyms": [
+            "mott",
+            "brigalow",
+            "caatinga",
+            "chanaral",
+            "coniferous forest",
+            "copse",
+            "deciduous forest",
+            "equatorial forest",
+            "equatorial rain forest",
+            "garique",
+            "grove",
+            "jungle",
+            "mallee scrub",
+            "monsoon forest",
+            "moor",
+            "motte",
+            "mulga scrub",
+            "mulga",
+            "pine grove",
+            "rain forest",
+            "reforested area",
+            "sagebrush",
+            "scrub",
+            "shrub",
+            "silva",
+            "stand",
+            "taiga",
+            "thicket",
+            "thorn forest",
+            "wood",
+            "wooded area"
+          ],
+          "definition": "Land having a cover of trees, shrubs, or both.",
+          "score": 0.1667,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:d4112c7039a7",
+          "evidence_text": "decreased with increasing shrub cover ... at the fen site"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "soil temperature at 5 cm",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "soil temperature at 5 cm",
+      "proposed_definition": "A environmental variable corresponding to 'soil temperature at 5 cm'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:84b5bd35aa06",
+          "evidence_text": "greater CO2 uptake through NEE max with ... higher soil temperature at 5 cm"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "total vegetation cover",
+      "semantic_role": "environmental_variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "ENVO"
+      ],
+      "proposed_label": "total vegetation cover",
+      "proposed_definition": "A environmental variable corresponding to 'total vegetation cover'.",
+      "candidate_parent": "ELMO environmental variable",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ENVO:01000843",
+          "label": "area of evergreen forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000843",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, areas of evergreen forest are dominated by trees generally greater than 5 meters tall, and making up more than 20% of total vegetation cover. The NLCD 2011 continues to state that more than 75% of these trees should maintain their foliage despite seasonal change - the canopy is never without green foliage. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2609,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000861",
+          "label": "area of dwarf scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000861",
+          "synonyms": [
+            "area of subshrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of dwarf scrub are dominated by shrubs less than 20 centimeters tall with shrub canopy typically greater than 20% of total vegetation. This type is often co-associated with grasses, sedges, herbs, and non-vascular vegetation. The NLCD 2011 notes that this is intended as an Alaska only land cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2439,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000869",
+          "label": "area of scrub",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000869",
+          "synonyms": [
+            "area of shrub"
+          ],
+          "definition": "According to the NLCD 2011, areas of scrub or shrub are dominated by shrubs; less than 5 meters tall with shrub canopy typically greater than 20% of total vegetation. This class includes true shrubs, young trees in an early successional stage or trees stunted from environmental conditions. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.2286,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000855",
+          "label": "area of mixed forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000855",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, areas of mixed forest are dominated by trees generally greater than 5 meters tall, and making up more than 20% of total vegetation cover. The NLCD 2011 continues to state that neither deciduous or evergreen trees make up more than 75% of the total tree cover. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.0476,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ENVO:01000816",
+          "label": "area of deciduous forest",
+          "ontology": "ENVO",
+          "iri": "http://purl.obolibrary.org/obo/ENVO_01000816",
+          "synonyms": [],
+          "definition": "According to the NLCD 2011, areas of deciduous forest are dominated by trees generally greater than 5 meters tall, and making up more than 20% of total vegetation cover. The NLCD 2011 continues to state that more than 75% of these trees should shed foliage simultaneously in response to seasonal change. Such thresholds - which are themselves fuzzy - are not asserted in this definition.",
+          "score": 0.0435,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:9b9f8f5c5734",
+          "evidence_text": "decreased with increasing ... total cover ... at the fen site"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "burn treatments",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "burn treatments",
+      "proposed_definition": "A management intervention corresponding to 'burn treatments'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:46bc4ba67cbb",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "grass-specific herbicide",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "grass-specific herbicide",
+      "proposed_definition": "A management intervention corresponding to 'grass-specific herbicide'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:eef8c78a0bca",
+          "evidence_text": "plots that received applications of grass-specific herbicide had lower abundances of exotic grasses than the remaining disturbance treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "moss layer transfer technique",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "moss layer transfer technique",
+      "proposed_definition": "A management intervention corresponding to 'moss layer transfer technique'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1007/s11273-017-9531-5",
+          "title": "Growing season carbon gas exchange from peatlands used as a source of vegetation donor material for restoration",
+          "node_id": "causal_mosaic:node:2bfb515e42ee",
+          "evidence_text": "The moss layer transfer technique removes the top layer of vegetation from donor sites"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "supplemental seeding",
+      "semantic_role": "management_intervention",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO"
+      ],
+      "proposed_label": "supplemental seeding",
+      "proposed_definition": "A management intervention corresponding to 'supplemental seeding'.",
+      "candidate_parent": "ELMO biological ecosystem management process",
+      "review_confidence": 0.8,
+      "candidate_matches": [],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:42c33f576b19",
+          "evidence_text": "We found that plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "abundance",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "abundance",
+      "proposed_definition": "A variable corresponding to 'abundance'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.1818,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:cdbf8cc1cb1c",
+          "evidence_text": "addition of native seed effectively increased both the richness and abundance of native species"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:29ff98f765e7",
+          "evidence_text": "plots that received applications of grass-specific herbicide had lower abundances of exotic grasses than the remaining disturbance treatments"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 2
+    },
+    {
+      "term": "cover",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "cover",
+      "proposed_definition": "A variable corresponding to 'cover'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "ELMO:3.2",
+          "label": "Species recovery",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/cas/3.2",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.4762,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002289",
+          "label": "setose",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002289",
+          "synonyms": [],
+          "definition": "Setose as a label is used extensively to describe insect phenotypes that have hairy-like appearances (i.e., they are covered in setae, not the hairs of mammals). A bristle is a type of seta.",
+          "score": 0.3636,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001320",
+          "label": "pubescent hair",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001320",
+          "synonyms": [],
+          "definition": "A pilosity quality of being covered with short hairs or soft down.",
+          "score": 0.3158,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "ELMO:3620023",
+          "label": "cut and cover removal process",
+          "ontology": "ELMO",
+          "iri": "https://w3id.org/elmo/elmo_3620023",
+          "synonyms": [],
+          "definition": null,
+          "score": 0.2941,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001823",
+          "label": "wet",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001823",
+          "synonyms": [],
+          "definition": "A wetness quality inhering in a bearer by virtue of the bearer's being covered by a liquid.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001824",
+          "label": "dry",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001824",
+          "synonyms": [],
+          "definition": "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid.",
+          "score": 0.25,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001804",
+          "label": "scaly",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001804",
+          "synonyms": [
+            "squamous"
+          ],
+          "definition": "A texture quality inhering in a bearer by virtue of the bearer's being covered or partially covered with scales.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0000454",
+          "label": "hairy",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0000454",
+          "synonyms": [],
+          "definition": "A pilosity quality inhering in a bearer by virtue of the bearer's being covered with hair or hairlike projections.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001361",
+          "label": "warty",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001361",
+          "synonyms": [],
+          "definition": "A texture quality inhering in a bearer by virtue of the bearer's being covered with warts or projections that resemble warts resulting in a hard rough surface.",
+          "score": 0.2,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001822",
+          "label": "wetness",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001822",
+          "synonyms": [],
+          "definition": "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid.",
+          "score": 0.1667,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:c8fa4371faeb",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:2b0a9bab3406",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:fd3b76fe4702",
+          "evidence_text": "three perennial forb species (Eriophyllum lanatum, Achillea millefolium, and Ranunculus occidentalis) responded more positively to both of the burn treatments"
+        },
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:edbb1d0e4e15",
+          "evidence_text": "native grass species, Festuca roemeri, had greater cover in treatments that included the grass-specific herbicide sethoxydim"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 4
+    },
+    {
+      "term": "species richness",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "species richness",
+      "proposed_definition": "A variable corresponding to 'species richness'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001449",
+          "label": "cartilaginous",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001449",
+          "synonyms": [],
+          "definition": "Cartilage is a type of dense connective tissue. It is composed of specialized cells called chondrocytes (CL:0000138) that produce a large amount of extracellular matrix composed of collagen fibers, abundant ground substance rich in proteoglycan, and elastin fibers.",
+          "score": 0.069,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:8bd9e9ff21b7",
+          "evidence_text": "We found that plots that received supplemental seeding continued to exhibit higher richness of native species than those left unseeded"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    },
+    {
+      "term": "spread",
+      "semantic_role": "variable",
+      "status": "no_match",
+      "target_ontologies": [
+        "ELMO",
+        "PATO"
+      ],
+      "proposed_label": "spread",
+      "proposed_definition": "A variable corresponding to 'spread'.",
+      "candidate_parent": "ELMO environmental variable or PATO quality",
+      "review_confidence": 0.5,
+      "candidate_matches": [
+        {
+          "curie": "PATO:0001609",
+          "label": "sparse",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001609",
+          "synonyms": [],
+          "definition": "A spatial pattern inhering in a bearer by virtue of the bearer's being scattered; spread irregularly, and at a distance from each other.",
+          "score": 0.6667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001630",
+          "label": "dispersed",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001630",
+          "synonyms": [],
+          "definition": "A positional quality inhering in a bearer by virtue of the bearer's being distributed or spread over a considerable extent.",
+          "score": 0.6667,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001566",
+          "label": "distributed",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001566",
+          "synonyms": [
+            "diffuse",
+            "scattered"
+          ],
+          "definition": "A spatial pattern inhering in a bearer by virtue of the bearer's being spread out or scattered about or divided up.",
+          "score": 0.4706,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0001567",
+          "label": "undistributed",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0001567",
+          "synonyms": [],
+          "definition": "A spatial pattern inhering in a bearer by virtue of the bearer's not being spread out or scattered about or divided up.",
+          "score": 0.4211,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0002098",
+          "label": "neoplastic, metastatic",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0002098",
+          "synonyms": [],
+          "definition": "A disposition inhering in a tumour by virtue of the bearer's disposition to spread and invade distant tissues.",
+          "score": 0.2222,
+          "match_type": "close_match_needs_review"
+        },
+        {
+          "curie": "PATO:0070012",
+          "label": "bitufted cell morphology",
+          "ontology": "PATO",
+          "iri": "http://purl.obolibrary.org/obo/PATO_0070012",
+          "synonyms": [],
+          "definition": "A cell morphology that inheres in neurons which have two clusters of primary dendrites that originate directly and extend from opposite ends of the soma, and axons that form a plexus which spreads widely. Compared to the narrow vertical axonal projection of bipolar morphology, and the 'horse-tail' axonal cluster of double boquet cells, bitufted morphology has wide horizontal axonal spans, and branching that occur close to the soma. Their vertical projection is also less extensive and crosses mostly to neighboring layers.",
+          "score": 0.0667,
+          "match_type": "close_match_needs_review"
+        }
+      ],
+      "lookup_errors": [],
+      "occurrences": [
+        {
+          "doi": "10.1111/rec.12468",
+          "title": "Long‐term effects of prairie restoration on plant community structure and native population dynamics",
+          "node_id": "causal_mosaic:node:0ea8fbde8220",
+          "evidence_text": "there is evidence that all eight species colonized new plots since the last round of monitoring... at least 25% of the currently occupied plots are a result of population spread"
+        }
+      ],
+      "article_count": 1,
+      "occurrence_count": 1
+    }
+  ]
+}

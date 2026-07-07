@@ -1,0 +1,427 @@
+{
+  "graph_id": "causal_mosaic:graph:5b2db120a7d2",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T02:37:20.356654+00:00",
+    "source_corpus": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:0133ea4b9f0e",
+      "name": "winter barley",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_ebfdcc1080",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "Nevertheless, the cereal reduced weed populations in the establishment year."
+        },
+        {
+          "text": "winter barley established very slowly"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:87ecf4d95e69",
+      "name": "weed populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d79cefe3b3",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "abundance",
+      "source_spans": [
+        {
+          "text": "Nevertheless, the cereal reduced weed populations in the establishment year."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:edc0b2cf9dea",
+      "name": "cover crops",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fcbd0cc3bc",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "In contrast, subséquent increase of the grassy weed populations was slowed down in the présence of cover crops."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2e8f3d52b0f6",
+      "name": "grassy weed populations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_425cb55015",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "development",
+      "source_spans": [
+        {
+          "text": "In contrast, subséquent increase of the grassy weed populations was slowed down in the présence of cover crops."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:a6dabeede51a",
+      "name": "liming",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6d602e8440",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "At this location, liming increased soil pH by 0.5 and 0.4 units in 1991 and 1992, respectively."
+        },
+        {
+          "text": "In limed plots pH was raised above 6.0, which resulted in better growth of winter barley."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2b484f09c978",
+      "name": "soil pH",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:09200010",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "pH",
+      "source_spans": [
+        {
+          "text": "At this location, liming increased soil pH by 0.5 and 0.4 units in 1991 and 1992, respectively."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:de0376bb0566",
+      "name": "winter barley growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9abe41a425",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "In limed plots pH was raised above 6.0, which resulted in better growth of winter barley."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:4bc949521f70",
+      "name": "site preparation",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3c16dc79ce",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "we may suppose that site préparation, which was uniform for ail treatments in this study, is responsible, at least in part, for the high survival rates observed."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:994feef9bf59",
+      "name": "seedling survival",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8be15b4b8b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "survival",
+      "source_spans": [
+        {
+          "text": "we may suppose that site préparation, which was uniform for ail treatments in this study, is responsible, at least in part, for the high survival rates observed."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2bd98475cb79",
+      "name": "cover crops",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_fcbd0cc3bc",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Liming and cover crops had little effect on spruce growth",
+          "start_char": 2800,
+          "end_char": 2857,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:50681495a2de",
+      "name": "spruce growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9a3f08996f",
+      "state_or_change_qualifier": "unchanged",
+      "measured_attribute": "growth",
+      "source_spans": [
+        {
+          "text": "Liming and cover crops had little effect on spruce growth",
+          "start_char": 2800,
+          "end_char": 2857,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:f97db08b2cb5",
+      "name": "winter barley establishment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_95fe02cb63",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "establishment",
+      "source_spans": [
+        {
+          "text": "winter barley established very slowly"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:2a5d996fb919",
+      "subject": "causal_mosaic:node:0133ea4b9f0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:87ecf4d95e69",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Nevertheless, the cereal reduced weed populations in the establishment year.",
+      "source_spans": [
+        {
+          "text": "Nevertheless, the cereal reduced weed populations in the establishment year."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:15c0281cc271",
+      "subject": "causal_mosaic:node:edc0b2cf9dea",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2e8f3d52b0f6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In contrast, subséquent increase of the grassy weed populations was slowed down in the présence of cover crops.",
+      "source_spans": [
+        {
+          "text": "In contrast, subséquent increase of the grassy weed populations was slowed down in the présence of cover crops."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:679367fff93c",
+      "subject": "causal_mosaic:node:a6dabeede51a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:2b484f09c978",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "At this location, liming increased soil pH by 0.5 and 0.4 units in 1991 and 1992, respectively.",
+      "source_spans": [
+        {
+          "text": "At this location, liming increased soil pH by 0.5 and 0.4 units in 1991 and 1992, respectively."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:44ea67aae3a8",
+      "subject": "causal_mosaic:node:a6dabeede51a",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:de0376bb0566",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In limed plots pH was raised above 6.0, which resulted in better growth of winter barley.",
+      "source_spans": [
+        {
+          "text": "In limed plots pH was raised above 6.0, which resulted in better growth of winter barley."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:610e6f17a186",
+      "subject": "causal_mosaic:node:4bc949521f70",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:994feef9bf59",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "we may suppose that site préparation, which was uniform for ail treatments in this study, is responsible, at least in part, for the high survival rates observed.",
+      "source_spans": [
+        {
+          "text": "we may suppose that site préparation, which was uniform for ail treatments in this study, is responsible, at least in part, for the high survival rates observed."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:520b921ace45",
+      "subject": "causal_mosaic:node:2bd98475cb79",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:50681495a2de",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Liming and cover crops had little effect on spruce growth",
+      "source_spans": [
+        {
+          "text": "Liming and cover crops had little effect on spruce growth",
+          "start_char": 2800,
+          "end_char": 2857,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:138dcd26c7b7",
+      "subject": "causal_mosaic:node:0133ea4b9f0e",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:f97db08b2cb5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "winter barley established very slowly",
+      "source_spans": [
+        {
+          "text": "winter barley established very slowly"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.7202/706132ar",
+        "title": "Using cover crops to establish white and black spruce on abandoned agricultural lands",
+        "year": 2005,
+        "authors": [
+          "Lemieux, C.",
+          "Delisle, C."
+        ],
+        "journal": "phyto"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

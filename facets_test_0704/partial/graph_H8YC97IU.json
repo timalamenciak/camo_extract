@@ -1,0 +1,523 @@
+{
+  "graph_id": "causal_mosaic:graph:a4447fa67592",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T07:02:39.183669+00:00",
+    "source_corpus": "Production and outplanting success of nutrient-loaded aspen seedlings",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:17b63c9a4a13",
+      "name": "shoot growth inhibitor (SGI)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_260a7a5275",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "shoot growth inhibitor (SGI)",
+          "start_char": 1355,
+          "end_char": 1383,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8dfd90261526",
+      "name": "woody tissue nutrient and carbohydrate concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_5bcc41041b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "nutrient and carbohydrate concentrations",
+      "source_spans": [
+        {
+          "text": "increased woody tissue nutrient and carbohydrate concentrations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9fad3fefd1df",
+      "name": "root:stem ratio (RSR)",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8cb858186e",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "root:stem ratio",
+      "source_spans": [
+        {
+          "text": "higher RSRs",
+          "start_char": 78553,
+          "end_char": 78564,
+          "paragraph_id": "page:44"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:e1aeaef5bcbb",
+      "name": "high feed seedlings",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_52d52e9f0f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "high feed seedlings",
+          "start_char": 110165,
+          "end_char": 110184,
+          "paragraph_id": "page:62"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8637b922046f",
+      "name": "height growth",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_a9c87a98c0",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "height growth",
+      "source_spans": [
+        {
+          "text": "greater height growth",
+          "start_char": 123270,
+          "end_char": 123291,
+          "paragraph_id": "page:68"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9120a50f1d97",
+      "name": "peat-mineral mix (PMM) capping material",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_dad54dcb7f",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "peat-mineral mix (PMM) capping material",
+          "start_char": 17163,
+          "end_char": 17202,
+          "paragraph_id": "page:10"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:18345993bc5a",
+      "name": "broadcast fertilization needs",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_856f145166",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "broadcast fertilization needs",
+      "source_spans": [
+        {
+          "text": "reduce broadcast fertilization needs"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:d23c577395b0",
+      "name": "K concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f1d334845d",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "K concentrations",
+      "source_spans": [
+        {
+          "text": "K concentrations... were much lower"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:38d3214f5abf",
+      "name": "total non-structural carbohydrate (TNC) concentrations",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d8d9b0815b",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "TNC concentrations",
+      "source_spans": [
+        {
+          "text": "higher TNC concentrations"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6cfa714e635c",
+      "name": "exponential fertilization",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_54c141de6a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "exponential fertilization",
+          "start_char": 1396,
+          "end_char": 1421,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8936e2604dba",
+      "name": "seedling quality",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ccf2813cb7",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "seedling quality",
+      "source_spans": [
+        {
+          "text": "not desirable for outplanting",
+          "start_char": 144285,
+          "end_char": 144314,
+          "paragraph_id": "page:83"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ecd59417db06",
+      "name": "controlled-release fertilizer (CRF)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_6e5b04411d",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "controlled-release fertilizer (CRF)"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3c6eeaf2c4d4",
+      "name": "immediately available fertilizer (IAF)",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_545140a81b",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "immediately available fertilizer (IAF)",
+          "start_char": 16647,
+          "end_char": 16685,
+          "paragraph_id": "page:10"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:6edca15662ce",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8dfd90261526",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Treating seedlings with a shoot growth inhibitor (SGI) resulted in... increased woody tissue nutrient and carbohydrate concentrations compared to conventionally grown aspen seedlings",
+      "source_spans": [
+        {
+          "text": "Treating seedlings with a shoot growth inhibitor (SGI) resulted in... increased woody tissue nutrient and carbohydrate concentrations compared to conventionally grown aspen seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:924cbc4f5bb5",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9fad3fefd1df",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SGI treated seedlings had higher RSRs than non-SGI treated seedlings",
+      "source_spans": [
+        {
+          "text": "SGI treated seedlings had higher RSRs than non-SGI treated seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:8b578b3d1c1c",
+      "subject": "causal_mosaic:node:e1aeaef5bcbb",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8637b922046f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "High feed seedlings were, on average, taller... than standard feed seedlings",
+      "source_spans": [
+        {
+          "text": "High feed seedlings were, on average, taller... than standard feed seedlings"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:16e94d9d6d2e",
+      "subject": "causal_mosaic:node:9120a50f1d97",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8637b922046f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedlings growing on PMM outperformed seedlings on FFM (in terms of seedling height in 2011 and 2012...)",
+      "source_spans": [
+        {
+          "text": "seedlings growing on PMM outperformed seedlings on FFM (in terms of seedling height in 2011 and 2012...)"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:d3a6c8358f4a",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:18345993bc5a",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "SGI treatment... can reduce broadcast fertilization needs on reclamation sites",
+      "source_spans": [
+        {
+          "text": "SGI treatment... can reduce broadcast fertilization needs on reclamation sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3d0079576cc4",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:d23c577395b0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "K concentrations in SGI treated seedlings were much lower",
+      "source_spans": [
+        {
+          "text": "K concentrations in SGI treated seedlings were much lower"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:14f5102a2e08",
+      "subject": "causal_mosaic:node:17b63c9a4a13",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:38d3214f5abf",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Seedlings treated with SGI had significantly higher TNC concentrations in both the root and stem tissues",
+      "source_spans": [
+        {
+          "text": "Seedlings treated with SGI had significantly higher TNC concentrations in both the root and stem tissues"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c3897a30ece4",
+      "subject": "causal_mosaic:node:6cfa714e635c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8936e2604dba",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "exponentially fertilized aspen seedlings were not desirable for outplanting based on their short stature and poor root development",
+      "source_spans": [
+        {
+          "text": "exponentially fertilized aspen seedlings were not desirable for outplanting based on their short stature and poor root development"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:033dcefc744a",
+      "subject": "causal_mosaic:node:ecd59417db06",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8637b922046f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In 2012 only CRF fertilization resulted in height growth greater than that on control plots",
+      "source_spans": [
+        {
+          "text": "In 2012 only CRF fertilization resulted in height growth greater than that on control plots"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:12e615565328",
+      "subject": "causal_mosaic:node:3c6eeaf2c4d4",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8637b922046f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "seedlings that received IAF had the greatest height growth in the field followed by CRF and control",
+      "source_spans": [
+        {
+          "text": "seedlings that received IAF had the greatest height growth in the field followed by CRF and control"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "both"
+        ]
+      },
+      "source_document": {
+        "title": "Production and outplanting success of nutrient-loaded aspen seedlings",
+        "year": 2013,
+        "authors": [
+          "Schott, Kaitlin Muir"
+        ]
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

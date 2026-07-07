@@ -1,0 +1,220 @@
+{
+  "graph_id": "causal_mosaic:graph:1ded2bbab826",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T21:08:04.422619+00:00",
+    "source_corpus": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:c04e1f6b878f",
+      "name": "restored prairie",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_3a3fa5650a",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:aaa19039a092",
+      "name": "native bee species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_836c1db8fe",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:929eb580a735",
+      "name": "native bee abundance",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_191881d0d4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:0559145105f2",
+      "name": "floral resources",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0554f81fd0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "All richness and abundance differences among habitat types were associated with higher floral resources in restored prairie."
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:56531a1235dd",
+      "name": "road and field edges",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fabfcdcf18",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "Our results suggest that road and field edges may be the source, as these areas had more floral and nesting resources than forest or crop fields combined and supported 55% of all species despite covering only approximately 5% of the sampled farms."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:d7a19e1d2b95",
+      "subject": "causal_mosaic:node:c04e1f6b878f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aaa19039a092",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types.",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f5307adf9528",
+      "subject": "causal_mosaic:node:c04e1f6b878f",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:929eb580a735",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types.",
+      "source_spans": [
+        {
+          "text": "Restored prairie supported 2× more species (95 of 119 total species) and 3× more bees (72% of captured individuals) compared to the other cover types."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:24e66a090d26",
+      "subject": "causal_mosaic:node:0559145105f2",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aaa19039a092",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "All richness and abundance differences among habitat types were associated with higher floral resources in restored prairie.",
+      "source_spans": [
+        {
+          "text": "All richness and abundance differences among habitat types were associated with higher floral resources in restored prairie."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:6652a2017135",
+      "subject": "causal_mosaic:node:56531a1235dd",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:aaa19039a092",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Our results suggest that road and field edges may be the source, as these areas had more floral and nesting resources than forest or crop fields combined and supported 55% of all species despite covering only approximately 5% of the sampled farms.",
+      "source_spans": [
+        {
+          "text": "Our results suggest that road and field edges may be the source, as these areas had more floral and nesting resources than forest or crop fields combined and supported 55% of all species despite covering only approximately 5% of the sampled farms."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12987",
+        "title": "Restored native prairie supports abundant and species‐rich native bee communities on conventional farms",
+        "year": 2019,
+        "authors": [
+          "Paterson, Caitlin",
+          "Cottenie, Karl",
+          "MacDougall, Andrew S."
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

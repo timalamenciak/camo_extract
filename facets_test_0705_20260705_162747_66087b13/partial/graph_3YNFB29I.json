@@ -1,0 +1,712 @@
+{
+  "graph_id": "causal_mosaic:graph:84044fffd6e4",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-06T21:27:10.481685+00:00",
+    "source_corpus": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:e3a0e570ca32",
+      "name": "engineered structures",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_36a3a2ca34",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "engineered structures increased local water velocities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:1b2b37be1c26",
+      "name": "water velocities",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_eac1dc1988",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "engineered structures increased local water velocities"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c5a0ce8ecff6",
+      "name": "proportion of coarser river bed materials",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0878e80ca5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "engineered structures increased local water velocities and the proportion of coarser river bed materials"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:db0e57e0dc9a",
+      "name": "epilithon",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:03605001",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Epilithic biomass... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6bfd9f67db36",
+      "name": "coarse particulate organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_423c2687fb",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "biomass of CPOM... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:203ae5d1c4e7",
+      "name": "woody debris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_db7fe80b14",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "volumes of woody debris... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6ce11edd2f9c",
+      "name": "bryophytes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b99ded1214",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "cover by bryophytes... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:3e9eea82e864",
+      "name": "macrophytes",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b4aee9cf96",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "cover by macrophytes... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c0caf4d12bb3",
+      "name": "epilithon",
+      "entity_type": "environmental_variable",
+      "entity_term": "ENVO:03605001",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "stream beds from engineered structures... supported lower biomasses of epilithon... compared with reference riffles"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:fc79eaa4d9d4",
+      "name": "coarse particulate organic matter",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_423c2687fb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "stream beds from engineered structures... supported lower biomasses of... CPOM... compared with reference riffles"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:97ab08cbb486",
+      "name": "woody debris",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_db7fe80b14",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "stream beds from engineered structures... supported lower... volumes of woody debris... compared with reference riffles"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ef4a355a917d",
+      "name": "density of benthic macroinvertebrates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_f97d9523db",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "density and biomass of macroinvertebrates from individual structures were less than those at reference streams"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:91d276ae50d5",
+      "name": "biomass of benthic macroinvertebrates",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_4912d3371a",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "density and biomass of macroinvertebrates from individual structures were less than those at reference streams"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ec6eca0c1920",
+      "name": "Simuliidae",
+      "entity_type": "taxon",
+      "entity_term": "WD:Q720467",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "High densities of larval filter-feeding Simuliidae at ramp 2 and both vanes were accompanied by the creation of shallow, high-velocity riffles that provide crucial conditions for filter feeders"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:78d7d2511f6b",
+      "name": "fine sediments",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_ce2da91b10",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "high loadings of fine sediments from the river banks"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c1dd9c81ce6",
+      "name": "algal accrual",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_3dc31aa711",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "high loadings of fine sediments from the river banks and mobilization of these materials reduce algal accrual"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:19cae61b2f80",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:1b2b37be1c26",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "engineered structures increased local water velocities",
+      "source_spans": [
+        {
+          "text": "engineered structures increased local water velocities"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f45555bcf454",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c5a0ce8ecff6",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "engineered structures increased local water velocities and the proportion of coarser river bed materials",
+      "source_spans": [
+        {
+          "text": "engineered structures increased local water velocities and the proportion of coarser river bed materials"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3c84a438b411",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:db0e57e0dc9a",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Epilithic biomass... at the engineered by structures did not differ from unaltered control sites",
+      "source_spans": [
+        {
+          "text": "Epilithic biomass... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dc454ac79db2",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6bfd9f67db36",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "biomass of CPOM... at the engineered by structures did not differ from unaltered control sites",
+      "source_spans": [
+        {
+          "text": "biomass of CPOM... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:03b25403188b",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:203ae5d1c4e7",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "volumes of woody debris... at the engineered by structures did not differ from unaltered control sites",
+      "source_spans": [
+        {
+          "text": "volumes of woody debris... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:7a2399b248e4",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6ce11edd2f9c",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cover by bryophytes... at the engineered by structures did not differ from unaltered control sites",
+      "source_spans": [
+        {
+          "text": "cover by bryophytes... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:0ac7f09c734e",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:3e9eea82e864",
+      "claim_strength": "no_relationship",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "cover by macrophytes... at the engineered by structures did not differ from unaltered control sites",
+      "source_spans": [
+        {
+          "text": "cover by macrophytes... at the engineered by structures did not differ from unaltered control sites"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c1c439700165",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c0caf4d12bb3",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "stream beds from engineered structures... supported lower biomasses of epilithon... compared with reference riffles",
+      "source_spans": [
+        {
+          "text": "stream beds from engineered structures... supported lower biomasses of epilithon... compared with reference riffles"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:3cda404c3943",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:fc79eaa4d9d4",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "stream beds from engineered structures... supported lower biomasses of... CPOM... compared with reference riffles",
+      "source_spans": [
+        {
+          "text": "stream beds from engineered structures... supported lower biomasses of... CPOM... compared with reference riffles"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a83b787931f1",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:97ab08cbb486",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "stream beds from engineered structures... supported lower... volumes of woody debris... compared with reference riffles",
+      "source_spans": [
+        {
+          "text": "stream beds from engineered structures... supported lower... volumes of woody debris... compared with reference riffles"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:aaafa84d4449",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ef4a355a917d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "density and biomass of macroinvertebrates from individual structures were less than those at reference streams",
+      "source_spans": [
+        {
+          "text": "density and biomass of macroinvertebrates from individual structures were less than those at reference streams"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:b4c8786f2ab9",
+      "subject": "causal_mosaic:node:e3a0e570ca32",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:91d276ae50d5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "density and biomass of macroinvertebrates from individual structures were less than those at reference streams",
+      "source_spans": [
+        {
+          "text": "density and biomass of macroinvertebrates from individual structures were less than those at reference streams"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:1ae3e947a8bb",
+      "subject": "causal_mosaic:node:1b2b37be1c26",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ec6eca0c1920",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "High densities of larval filter-feeding Simuliidae at ramp 2 and both vanes were accompanied by the creation of shallow, high-velocity riffles that provide crucial conditions for filter feeders",
+      "source_spans": [
+        {
+          "text": "High densities of larval filter-feeding Simuliidae at ramp 2 and both vanes were accompanied by the creation of shallow, high-velocity riffles that provide crucial conditions for filter feeders"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "quasi_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e56a4315cffe",
+      "subject": "causal_mosaic:node:78d7d2511f6b",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c1dd9c81ce6",
+      "claim_strength": "uncertain_causal",
+      "philosophical_accounts": [
+        "mechanistic"
+      ],
+      "original_sentence": "high loadings of fine sediments from the river banks and mobilization of these materials reduce algal accrual",
+      "source_spans": [
+        {
+          "text": "high loadings of fine sediments from the river banks and mobilization of these materials reduce algal accrual"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1002/rra.1602",
+        "title": "BENTHIC MACROINVERTEBRATE RESPONSE TO HABITAT RESTORATION IN A CONSTRUCTED ARCTIC STREAM",
+        "year": 2013,
+        "authors": [
+          "Scrimgeour, G.",
+          "Jones, N.",
+          "Tonn, W. M."
+        ],
+        "journal": "River Research & Apps"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}

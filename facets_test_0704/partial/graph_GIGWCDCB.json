@@ -1,0 +1,261 @@
+{
+  "graph_id": "causal_mosaic:graph:71b4d8ca5c79",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-05T12:46:50.312613+00:00",
+    "source_corpus": "Differential recovery of δ13C in multiple tissues of white sucker across age classes after the closure of a pulp mill",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:f5e15cfc960c",
+      "name": "pulp mill effluent",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_7325670435",
+      "state_or_change_qualifier": "present",
+      "source_spans": [
+        {
+          "text": "suggesting uptake of pulp-derived C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c4ea0b0edf61",
+      "name": "enrichment of 13C in muscle tissue",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_306bf46f41",
+      "state_or_change_qualifier": "increased",
+      "measured_attribute": "13C",
+      "source_spans": [
+        {
+          "text": "was enriched in 13C compared with upstream fish"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c914b4f39b98",
+      "name": "closure of the Mattagami mill",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_4d270d0f14",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "The Mattagami River mill was closed in 2006"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:dc5725377745",
+      "name": "depletion of 13C in muscle tissue",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_133141a8a1",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "13C",
+      "source_spans": [
+        {
+          "text": "13C was significantly depleted in 2011 compared with muscle from fish collected during the 1990s at MAT-DS"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ff848717e69f",
+      "name": "age of fish",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0dd84aeb42",
+      "state_or_change_qualifier": "unspecified",
+      "source_spans": [
+        {
+          "text": "related to age",
+          "start_char": 1082,
+          "end_char": 1096,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:2ec507cd3fbe",
+      "name": "persistence of 13C enrichment",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_bfdb35d175",
+      "state_or_change_qualifier": "present",
+      "measured_attribute": "13C",
+      "source_spans": [
+        {
+          "text": "suggesting the residual occurrence of pulp-derived C"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:507bb07f0811",
+      "name": "turnover rate of muscle tissue",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_e66e5c7f82",
+      "state_or_change_qualifier": "decreased",
+      "measured_attribute": "turnover",
+      "source_spans": [
+        {
+          "text": "slower turnover of muscle compared with gonad tissue"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:ebb96914daee",
+      "subject": "causal_mosaic:node:f5e15cfc960c",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c4ea0b0edf61",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "In the 1990s, the muscle tissue of white sucker (Catostomus commersonii) collected downstream of two pulp and paper mills... was enriched in 13C compared with upstream fish, suggesting uptake of pulp-derived C.",
+      "source_spans": [
+        {
+          "text": "In the 1990s, the muscle tissue of white sucker (Catostomus commersonii) collected downstream of two pulp and paper mills... was enriched in 13C compared with upstream fish, suggesting uptake of pulp-derived C."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2013-0643",
+        "title": "Differential recovery of δ13C in multiple tissues of white sucker across age classes after the closure of a pulp mill",
+        "year": 2014,
+        "authors": [
+          "Arciszewski, T.J.",
+          "Farwell, A.J.",
+          "Servos, M.R.",
+          "Jardine, T.D.",
+          "Munkittrick, K.R."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:fad8171c9196",
+      "subject": "causal_mosaic:node:c914b4f39b98",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:dc5725377745",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "13C was significantly depleted in 2011 compared with muscle from fish collected during the 1990s at MAT-DS (p < 0.001), suggesting a change in their exposure to pulp mill effluent.",
+      "source_spans": [
+        {
+          "text": "13C was significantly depleted in 2011 compared with muscle from fish collected during the 1990s at MAT-DS (p < 0.001), suggesting a change in their exposure to pulp mill effluent."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_longitudinal"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2013-0643",
+        "title": "Differential recovery of δ13C in multiple tissues of white sucker across age classes after the closure of a pulp mill",
+        "year": 2014,
+        "authors": [
+          "Arciszewski, T.J.",
+          "Farwell, A.J.",
+          "Servos, M.R.",
+          "Jardine, T.D.",
+          "Munkittrick, K.R."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:c883cc08730d",
+      "subject": "causal_mosaic:node:ff848717e69f",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:2ec507cd3fbe",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "The patterns observed in the Mattagami River were, however, related to age; the oldest fish showed enrichment of 13C in both muscle and gonad tissue, suggesting the residual occurrence of pulp-derived C.",
+      "source_spans": [
+        {
+          "text": "The patterns observed in the Mattagami River were, however, related to age; the oldest fish showed enrichment of 13C in both muscle and gonad tissue, suggesting the residual occurrence of pulp-derived C."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2013-0643",
+        "title": "Differential recovery of δ13C in multiple tissues of white sucker across age classes after the closure of a pulp mill",
+        "year": 2014,
+        "authors": [
+          "Arciszewski, T.J.",
+          "Farwell, A.J.",
+          "Servos, M.R.",
+          "Jardine, T.D.",
+          "Munkittrick, K.R."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[2].predicate: unknown 'influences' -> 'associated_with'"
+    },
+    {
+      "id": "causal_mosaic:edge:8c1e5e227680",
+      "subject": "causal_mosaic:node:507bb07f0811",
+      "predicate": "associated_with",
+      "object": "causal_mosaic:node:2ec507cd3fbe",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "These data suggest there was slower turnover of muscle compared with gonad tissue.",
+      "source_spans": [
+        {
+          "text": "These data suggest there was slower turnover of muscle compared with gonad tissue."
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "observational_cross_sectional"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1139/cjfas-2013-0643",
+        "title": "Differential recovery of δ13C in multiple tissues of white sucker across age classes after the closure of a pulp mill",
+        "year": 2014,
+        "authors": [
+          "Arciszewski, T.J.",
+          "Farwell, A.J.",
+          "Servos, M.R.",
+          "Jardine, T.D.",
+          "Munkittrick, K.R."
+        ],
+        "journal": "Can. J. Fish. Aquat. Sci."
+      },
+      "temporal_ordering": "implicitly_assumed",
+      "annotation_notes": "Normalization: edges[3].predicate: unknown 'influences' -> 'associated_with'"
+    }
+  ]
+}

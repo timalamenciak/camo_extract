@@ -1,0 +1,1007 @@
+{
+  "graph_id": "causal_mosaic:graph:e50e1f494367",
+  "schema_version": "0.7.1",
+  "provenance": {
+    "ontology_framework": "ELMO + ENVO + Wikidata + CAMO",
+    "elm_version": "2026-07-03",
+    "causal_mosaic_version": "0.7.1",
+    "created": "2026-07-04T13:13:14.596495+00:00",
+    "source_corpus": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+    "project": "EcoWeaver"
+  },
+  "nodes": [
+    {
+      "id": "causal_mosaic:node:1d114bf64046",
+      "name": "Woody debris",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_0483a3ad9c",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "Woody Debris Amendment Enhances Reclamation",
+          "start_char": 28,
+          "end_char": 71,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c6ec1e4c5d67",
+      "name": "Reclamation",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_f3d854c5b0",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Woody Debris Amendment Enhances Reclamation",
+          "start_char": 28,
+          "end_char": 71,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:c0cc8db46c55",
+      "name": "Bare ground",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_55e77901e2",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "woody debris decreased bare ground",
+          "start_char": 1026,
+          "end_char": 1060,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9a1dfa184f66",
+      "name": "Microsites",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_35a5efdbe5",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "created microsites",
+          "start_char": 13234,
+          "end_char": 13252,
+          "paragraph_id": "page:3"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:88a261201ded",
+      "name": "Vegetation cover",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_d2c7ca0040",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "greater vegetation cover",
+          "start_char": 1554,
+          "end_char": 1578,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:be498a58f033",
+      "name": "Woody plant density",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_109e215750",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "greater vegetation cover and woody plant density"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:9346e41c60e0",
+      "name": "Soil available nitrate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_07b64b30fb",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lower soil available nitrate",
+          "start_char": 1200,
+          "end_char": 1228,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:80b4f0f88426",
+      "name": "Soil temperature range",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_0928eb9f1c",
+      "state_or_change_qualifier": "decreased",
+      "source_spans": [
+        {
+          "text": "lower temperature range",
+          "start_char": 1263,
+          "end_char": 1286,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:6436ea7f088d",
+      "name": "Soil volumetric water content",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9d3916a1e5",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "higher soil volumetric water content"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:ddfa49bba8ca",
+      "name": "Microbial biomass carbon",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_b7fb669ab4",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Woody debris did not affect first year microbial biomass carbon"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:b07af13eedae",
+      "name": "Mycorrhizae",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_8c71c9977c",
+      "state_or_change_qualifier": "unchanged",
+      "source_spans": [
+        {
+          "text": "Woody debris did not affect first year microbial biomass carbon or mycorrhizae"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:64252541c893",
+      "name": "LFH cover soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_8137473095",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "LFH cover soil",
+          "start_char": 5018,
+          "end_char": 5032,
+          "paragraph_id": "page:2"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:54b161844705",
+      "name": "Peat cover soil",
+      "entity_type": "management_intervention",
+      "entity_term": "causal_mosaic:unresolved_5516dd671e",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "peat cover soil",
+          "start_char": 1489,
+          "end_char": 1504,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:60dbca3dbde8",
+      "name": "Species richness",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_fc4f5f80e4",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "greater vegetation cover, species richness"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:09d918653a80",
+      "name": "Soil phosphorus",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e56d1e55e7",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "soil phosphorus and potassium",
+          "start_char": 1602,
+          "end_char": 1631,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:22f7ab630a9e",
+      "name": "Soil potassium",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_9861f5054c",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "soil phosphorus and potassium",
+          "start_char": 1602,
+          "end_char": 1631,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:557b3d0ccbdb",
+      "name": "Soil sulfate",
+      "entity_type": "environmental_variable",
+      "entity_term": "causal_mosaic:unresolved_e8b90613c2",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "greater soil sulfate",
+          "start_char": 1664,
+          "end_char": 1684,
+          "paragraph_id": "page:1"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:daa2124efc8f",
+      "name": "Seed germination",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_2dcaf81224",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "providing microsites for seed germination"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:8c0bee2919ab",
+      "name": "Successional trajectories",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_5c540a4305",
+      "state_or_change_qualifier": "occurred",
+      "source_spans": [
+        {
+          "text": "positively inﬂuenced successional trajectories"
+        }
+      ]
+    },
+    {
+      "id": "causal_mosaic:node:21f63ca3a4b5",
+      "name": "Nitrogen immobilization",
+      "entity_type": "environmental_process",
+      "entity_term": "causal_mosaic:unresolved_38d6ea9559",
+      "state_or_change_qualifier": "increased",
+      "source_spans": [
+        {
+          "text": "Woody debris can immobilize nitrogen",
+          "start_char": 31498,
+          "end_char": 31534,
+          "paragraph_id": "page:8"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "causal_mosaic:edge:04a3bdd25ee0",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c6ec1e4c5d67",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody Debris Amendment Enhances Reclamation",
+      "source_spans": [
+        {
+          "text": "Woody Debris Amendment Enhances Reclamation",
+          "start_char": 28,
+          "end_char": 71,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:00d7d885d56e",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c0cc8db46c55",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Within 2 years, woody debris decreased bare ground",
+      "source_spans": [
+        {
+          "text": "Within 2 years, woody debris decreased bare ground"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:30466e317122",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9a1dfa184f66",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "created microsites",
+      "source_spans": [
+        {
+          "text": "created microsites",
+          "start_char": 13234,
+          "end_char": 13252,
+          "paragraph_id": "page:3"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:9c17325988d0",
+      "subject": "causal_mosaic:node:9a1dfa184f66",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:88a261201ded",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "microsites which were positively associated with greater vegetation cover",
+      "source_spans": [
+        {
+          "text": "microsites which were positively associated with greater vegetation cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:115c6edfdbb7",
+      "subject": "causal_mosaic:node:9a1dfa184f66",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be498a58f033",
+      "claim_strength": "associational",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "microsites which were positively associated with greater vegetation cover and woody plant density",
+      "source_spans": [
+        {
+          "text": "microsites which were positively associated with greater vegetation cover and woody plant density"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:bf5f3c430162",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:9346e41c60e0",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris treatments had lower soil available nitrate",
+      "source_spans": [
+        {
+          "text": "Woody debris treatments had lower soil available nitrate"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:dc202353042a",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:80b4f0f88426",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "soil under woody debris had a lower temperature range",
+      "source_spans": [
+        {
+          "text": "soil under woody debris had a lower temperature range"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:cfe65b72ecdb",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:6436ea7f088d",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "higher soil volumetric water content than control treatments without woody debris",
+      "source_spans": [
+        {
+          "text": "higher soil volumetric water content than control treatments without woody debris"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6dbf0c7d5ae",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:ddfa49bba8ca",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris did not affect first year microbial biomass carbon",
+      "source_spans": [
+        {
+          "text": "Woody debris did not affect first year microbial biomass carbon"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:96ea518dfb56",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:b07af13eedae",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris did not affect first year microbial biomass carbon or mycorrhizae",
+      "source_spans": [
+        {
+          "text": "Woody debris did not affect first year microbial biomass carbon or mycorrhizae"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:e6ef0f9f17f2",
+      "subject": "causal_mosaic:node:64252541c893",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:c0cc8db46c55",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH was associated with lower bare ground",
+      "source_spans": [
+        {
+          "text": "LFH was associated with lower bare ground"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:f4914c550661",
+      "subject": "causal_mosaic:node:64252541c893",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:88a261201ded",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH was associated with greater vegetation cover",
+      "source_spans": [
+        {
+          "text": "LFH was associated with greater vegetation cover"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:72968df66fe0",
+      "subject": "causal_mosaic:node:64252541c893",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:60dbca3dbde8",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH was associated with greater vegetation cover, species richness",
+      "source_spans": [
+        {
+          "text": "LFH was associated with greater vegetation cover, species richness"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:74f5d1810d8d",
+      "subject": "causal_mosaic:node:64252541c893",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:09d918653a80",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH was associated with greater vegetation cover, species richness, and soil phosphorus",
+      "source_spans": [
+        {
+          "text": "LFH was associated with greater vegetation cover, species richness, and soil phosphorus"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2fc4212c5608",
+      "subject": "causal_mosaic:node:64252541c893",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:22f7ab630a9e",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH was associated with greater vegetation cover, species richness, and soil phosphorus and potassium",
+      "source_spans": [
+        {
+          "text": "LFH was associated with greater vegetation cover, species richness, and soil phosphorus and potassium"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:02e81bc45a30",
+      "subject": "causal_mosaic:node:54b161844705",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:557b3d0ccbdb",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "peat cover soil, which had greater soil sulfate",
+      "source_spans": [
+        {
+          "text": "peat cover soil, which had greater soil sulfate",
+          "start_char": 1637,
+          "end_char": 1684,
+          "paragraph_id": "page:1"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:2fa2ded46e31",
+      "subject": "causal_mosaic:node:64252541c893",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:8c0bee2919ab",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "LFH is better cover soil than peat by increasing canopy cover, species richness, and diversity",
+      "source_spans": [
+        {
+          "text": "LFH is better cover soil than peat by increasing canopy cover, species richness, and diversity"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a53253354ad2",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:be498a58f033",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris provides further beneﬁt by increasing woody plant density",
+      "source_spans": [
+        {
+          "text": "Woody debris provides further beneﬁt by increasing woody plant density"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "correlation"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:584d7edac1a9",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:daa2124efc8f",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "providing microsites for seed germination",
+      "source_spans": [
+        {
+          "text": "providing microsites for seed germination"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    },
+    {
+      "id": "causal_mosaic:edge:a2f6731ff606",
+      "subject": "causal_mosaic:node:1d114bf64046",
+      "predicate": "causes",
+      "object": "causal_mosaic:node:21f63ca3a4b5",
+      "claim_strength": "direct_causal",
+      "philosophical_accounts": [
+        "interventionist"
+      ],
+      "original_sentence": "Woody debris can immobilize nitrogen",
+      "source_spans": [
+        {
+          "text": "Woody debris can immobilize nitrogen",
+          "start_char": 31498,
+          "end_char": 31534,
+          "paragraph_id": "page:8"
+        }
+      ],
+      "evidential_basis": {
+        "evidence_types": [
+          "randomized_experiment"
+        ],
+        "evidence_objects": [
+          "mechanism"
+        ]
+      },
+      "source_document": {
+        "doi": "10.1111/rec.12029",
+        "title": "Woody Debris Amendment Enhances Reclamation after Oil Sands Mining in Alberta, Canada",
+        "year": 2014,
+        "authors": [
+          "Brown, Robyn L.",
+          "Naeth, M. Anne"
+        ],
+        "journal": "Restoration Ecology"
+      },
+      "temporal_ordering": "implicitly_assumed"
+    }
+  ]
+}
